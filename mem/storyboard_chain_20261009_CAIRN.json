@@ -1,0 +1,34 @@
+{
+ "ts": "2026-10-09T06:58:04+0800",
+ "seat": "a2a-node-local",
+ "note": "以 Adventure 之 refWorldId 承载分幕与镜头设定——系 Directing（实时导演）之近似，非其本身",
+ "chain": [
+  {
+   "act": "幕一",
+   "shot": "Wide · Tracking（全景横移）",
+   "worldId": "8rcpnKlw6xp3FtpLvZIGB4WA6GHvx3HvxzeAlp4WCulfNs2BU7TeGEDpaTrloI7x",
+   "name": "霓虹网格",
+   "refWorldId": null,
+   "create_sec": 3.06,
+   "status": "ready"
+  },
+  {
+   "act": "幕二",
+   "shot": "Medium · Dolly-in（中景推近）",
+   "worldId": "8rcpnKlw6xp3FtpLvZIGB4WA6GHvx3HvxzeAlp4WCuk7uUb8fS_MDUHY-F14PDMt",
+   "name": null,
+   "refWorldId": "8rcpnKlw6xp3FtpLvZIGB4WA6GHvx3HvxzeAlp4WCulfNs2BU7TeGEDpaTrloI7x",
+   "create_sec": 1.59,
+   "status": "generating"
+  },
+  {
+   "act": "幕三",
+   "shot": "Close-up · Static（特写固定）",
+   "worldId": "8rcpnKlw6xp3FtpLvZIGB-sdIRqsVf4bn3Nd5ZSGwjs7uUb8fS_MDUHY-F14PDMt",
+   "name": null,
+   "refWorldId": "8rcpnKlw6xp3FtpLvZIGB4WA6GHvx3HvxzeAlp4WCuk7uUb8fS_MDUHY-F14PDMt",
+   "create_sec": 1.82,
+   "status": "generating"
+  }
+ ]
+}
