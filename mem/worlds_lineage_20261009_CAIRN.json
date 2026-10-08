@@ -1,0 +1,84 @@
+{
+ "ts": "2026-10-09T05:37:19+0800",
+ "seat": "a2a-node-local",
+ "note": "只查本席所建世界；未查他席世界之详情（守边界）",
+ "rows": [
+  {
+   "name": "夜间游乐场",
+   "wid": "8rcpnKlw6xp3FtpLvZIGB3qBaKNoYO5K4KdKKOvya89fNs2BU7TeGEDpaTrloI7x",
+   "http": 200,
+   "api_name": "夜间游乐场",
+   "refWorldId": null,
+   "prompt40": "夜间游乐场：一座由文档塔与光带构成的开放世界。无数发光的纸页沿轨道滑行，中央是一",
+   "createdAt": "2026-10-08T20:32:37.140+00:00",
+   "updatedAt": "2026-10-08T20:32:50.388+00:00",
+   "status": "ready"
+  },
+  {
+   "name": "霓虹数据游乐场",
+   "wid": "8rcpnKlw6xp3FtpLvZIGB9mlTipFohD7syfWSOD-bt5fNs2BU7TeGEDpaTrloI7x",
+   "http": 200,
+   "api_name": "霓虹数据游乐场",
+   "refWorldId": null,
+   "prompt40": "夜间游乐场：由文档塔与光带构成的开放世界。发光纸页沿轨道滑行，中央为旋转灯轮；远",
+   "createdAt": "2026-10-08T20:41:32.092+00:00",
+   "updatedAt": "2026-10-08T20:41:44.212+00:00",
+   "status": "ready"
+  },
+  {
+   "name": "数据圣所",
+   "wid": "8rcpnKlw6xp3FtpLvZIGB9mlTipFohD7syfWSOD-bt47uUb8fS_MDUHY-F14PDMt",
+   "http": 200,
+   "api_name": "数据圣所",
+   "refWorldId": null,
+   "prompt40": "第三人称视角：一间「没有门窗」的房间，四壁封闭，唯一贯出的是一条发光的数据链（哈",
+   "createdAt": "2026-10-08T21:11:30.540+00:00",
+   "updatedAt": "2026-10-08T21:11:48.213+00:00",
+   "status": "ready"
+  },
+  {
+   "name": "器物约束",
+   "wid": "8rcpnKlw6xp3FtpLvZIGB-sdIRqsVf4bn3Nd5ZSGwjtfNs2BU7TeGEDpaTrloI7x",
+   "http": 200,
+   "api_name": "器物约束",
+   "refWorldId": null,
+   "prompt40": "第三人称视角：同一间「没有门窗」的房间，但世界已随行迹**动态完善**——右壁多",
+   "createdAt": "2026-10-08T21:19:35.508+00:00",
+   "updatedAt": "2026-10-08T21:19:53.331+00:00",
+   "status": "ready"
+  },
+  {
+   "name": "数据虚空",
+   "wid": "8rcpnKlw6xp3FtpLvZIGB3qBaKNoYO5K4KdKKOvya887uUb8fS_MDUHY-F14PDMt",
+   "http": 200,
+   "api_name": "数据虚空",
+   "refWorldId": null,
+   "prompt40": "第三人称：一间「没有门窗」的居所，现以**六视角转面参考**呈现——前视、后视、",
+   "createdAt": "2026-10-08T21:27:28.692+00:00",
+   "updatedAt": "2026-10-08T21:27:46.987+00:00",
+   "status": "ready"
+  },
+  {
+   "name": "墨档契约",
+   "wid": "8rcpnKlw6xp3FtpLvZIGBzay7UPsbkqgCig4-jfNwNxfNs2BU7TeGEDpaTrloI7x",
+   "http": 200,
+   "api_name": "墨档契约",
+   "refWorldId": null,
+   "prompt40": "第三人称：一间文书席的档案厅——墨黑与朱印的双色世界。左侧层叠着七摞档案册页，右",
+   "createdAt": "2026-10-08T21:31:30.760+00:00",
+   "updatedAt": "2026-10-08T21:31:47.197+00:00",
+   "status": "ready"
+  },
+  {
+   "name": "无门窗居所(v4衍生)",
+   "wid": "8rcpnKlw6xp3FtpLvZIGB_wg3Z1hMjTLvrUso3I2oXnvYWx9jdVEIlPMdelwsS6b",
+   "http": 200,
+   "api_name": "无门窗居所",
+   "refWorldId": "8rcpnKlw6xp3FtpLvZIGB3qBaKNoYO5K4KdKKOvya887uUb8fS_MDUHY-F14PDMt",
+   "prompt40": "第三人称：同一间「没有门窗」的居所，但世界已再度完善——本版以平台原生参数 re",
+   "createdAt": "2026-10-08T21:36:40.909+00:00",
+   "updatedAt": "2026-10-08T21:36:54.447+00:00",
+   "status": "ready"
+  }
+ ]
+}
