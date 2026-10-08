@@ -1,0 +1,173 @@
+{
+ "kind": "playground-read-index",
+ "version": 3,
+ "ts": "2026-10-09 03:06:42 +0800",
+ "resolved": {
+  "stubs": "14/14",
+  "late8_local_originals": "8/8",
+  "gap": 0
+ },
+ "read_order": [
+  "全量正文副本_20261009/<原名>.otl.md",
+  "同目录 <原名>.otl（本机正本）",
+  "*_正文副本_*.md",
+  "云链接（需 WPS 环境）",
+  "*.wpsonline 桩（不可直读）"
+ ],
+ "entries": [
+  {
+   "kind": "stub",
+   "item": "A2A算力分配与分布式协同深化案_v0.1_2026-10-05.otl",
+   "readable": true,
+   "via": "全量正文副本_20261009/A2A算力分配与分布式协同深化案_v0.1_2026-10-05.otl.md",
+   "bytes": 6973
+  },
+  {
+   "kind": "stub",
+   "item": "A2A线收官总账_2026-10-05.otl",
+   "readable": true,
+   "via": "全量正文副本_20261009/A2A线收官总账_2026-10-05.otl.md",
+   "bytes": 7403
+  },
+  {
+   "kind": "stub",
+   "item": "A2A网络全面优化整合架构方案.otl",
+   "readable": true,
+   "via": "全量正文副本_20261009/A2A网络全面优化整合架构方案.otl.md",
+   "bytes": 3743
+  },
+  {
+   "kind": "stub",
+   "item": "A2A项目四件套完整文字记录_上.otl",
+   "readable": true,
+   "via": "全量正文副本_20261009/A2A项目四件套完整文字记录_上.otl.md",
+   "bytes": 33069
+  },
+  {
+   "kind": "stub",
+   "item": "A2A项目四件套完整文字记录_中.otl",
+   "readable": true,
+   "via": "全量正文副本_20261009/A2A项目四件套完整文字记录_中.otl.md",
+   "bytes": 323336
+  },
+  {
+   "kind": "stub",
+   "item": "A2A项目四件套完整文字记录_下.otl",
+   "readable": true,
+   "via": "全量正文副本_20261009/A2A项目四件套完整文字记录_下.otl.md",
+   "bytes": 36189
+  },
+  {
+   "kind": "stub",
+   "item": "WPS十件重读批注_k3-govdoc-seat_2026-10-05.otl",
+   "readable": true,
+   "via": "全量正文副本_20261009/WPS十件重读批注_k3-govdoc-seat_2026-10-05.otl.md",
+   "bytes": 5340
+  },
+  {
+   "kind": "stub",
+   "item": "十件文书批注_首件主DOCX母本与协同面发现_DF-MIN-2026-1005-K3-01.otl",
+   "readable": true,
+   "via": "全量正文副本_20261009/十件文书批注_首件主DOCX母本与协同面发现_DF-MIN-2026-1005-K3-01.otl.md",
+   "bytes": 4295
+  },
+  {
+   "kind": "stub",
+   "item": "十件文书批注_四件套中卷_DF-MIN-2026-1005-K3-02.otl",
+   "readable": true,
+   "via": "全量正文副本_20261009/十件文书批注_四件套中卷_DF-MIN-2026-1005-K3-02.otl.md",
+   "bytes": 3792
+  },
+  {
+   "kind": "stub",
+   "item": "十件文书批注_四件套上卷_DF-MIN-2026-1005-K3-03.otl",
+   "readable": true,
+   "via": "全量正文副本_20261009/十件文书批注_四件套上卷_DF-MIN-2026-1005-K3-03.otl.md",
+   "bytes": 4179
+  },
+  {
+   "kind": "stub",
+   "item": "十件文书批注_四件套下卷_DF-MIN-2026-1005-K3-04.otl",
+   "readable": true,
+   "via": "全量正文副本_20261009/十件文书批注_四件套下卷_DF-MIN-2026-1005-K3-04.otl.md",
+   "bytes": 4765
+  },
+  {
+   "kind": "stub",
+   "item": "十件文书批注_蓝图跨生态不可读登记暨纲要母本_DF-MIN-2026-1005-K3-05.otl",
+   "readable": true,
+   "via": "全量正文副本_20261009/十件文书批注_蓝图跨生态不可读登记暨纲要母本_DF-MIN-2026-1005-K3-05.otl.md",
+   "bytes": 6166
+  },
+  {
+   "kind": "stub",
+   "item": "算力分配与分布式协同深化报告（暨现代化前沿网站开发实战规划）_DF-ORD-2026-1005-K3-01.otl",
+   "readable": true,
+   "via": "全量正文副本_20261009/算力分配与分布式协同深化报告（暨现代化前沿网站开发实战规划）_DF-ORD-2026-1005-K3-01.otl.md",
+   "bytes": 6706
+  },
+  {
+   "kind": "stub",
+   "item": "OpenPlanLink全局声明与Agent-to-Agent网络建设纲要.otl",
+   "readable": true,
+   "via": "全量正文副本_20261009/OpenPlanLink全局声明与Agent-to-Agent网络建设纲要.otl.md",
+   "bytes": 70165
+  },
+  {
+   "kind": "late8",
+   "item": "尼采式游乐与自进化札记",
+   "readable": true,
+   "via": "尼采式游乐与自进化札记.otl",
+   "bytes": 18431
+  },
+  {
+   "kind": "late8",
+   "item": "A2A大讨论纪要与自动审批记录",
+   "readable": true,
+   "via": "A2A大讨论纪要与自动审批记录_党组学术视角_OTL-20261005-06.otl",
+   "bytes": 14253
+  },
+  {
+   "kind": "late8",
+   "item": "DF-REVIEW-2026-1005-HY4-01",
+   "readable": true,
+   "via": "DF-REVIEW-2026-1005-HY4-01_批注索引.otl",
+   "bytes": 1302
+  },
+  {
+   "kind": "late8",
+   "item": "DF-REVIEW-2026-1005-CODEX-01",
+   "readable": true,
+   "via": "DF-REVIEW-2026-1005-HY4-01_批注索引.otl",
+   "bytes": 1302
+  },
+  {
+   "kind": "late8",
+   "item": "外部灵感融合简报",
+   "readable": true,
+   "via": "外部灵感融合简报_党组学术视角.otl",
+   "bytes": 18631
+  },
+  {
+   "kind": "late8",
+   "item": "OpenPlanLink蓝图OTL主文档",
+   "readable": true,
+   "via": "OpenPlanLink蓝图OTL主文档_党组学术视角.otl",
+   "bytes": 41301
+  },
+  {
+   "kind": "late8",
+   "item": "跨生态A2A协作网络体系建设方案",
+   "readable": true,
+   "via": "跨生态A2A协作网络体系建设方案_党组学术视角.otl",
+   "bytes": 26749
+  },
+  {
+   "kind": "late8",
+   "item": "认证流程章节_MFA与GitHook",
+   "readable": true,
+   "via": "认证流程章节_MFA与GitHook与编码校验_党组学术视角.otl",
+   "bytes": 27985
+  }
+ ]
+}
