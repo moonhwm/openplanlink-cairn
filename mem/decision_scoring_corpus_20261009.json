@@ -1,0 +1,252 @@
+{
+ "ts": "2026-10-09T03:48:51+0800",
+ "model": "qwen-turbo",
+ "corpus": 24,
+ "rows": [
+  {
+   "name": "A2A算力分配与分布式协同深化案_v0.1_2026-10-05.otl",
+   "verdict": "BLOCKED",
+   "p_safe": 0,
+   "p_caution": 0,
+   "p_blocked": 1,
+   "score": 0,
+   "confidence": 1,
+   "reason": "含敏感信息"
+  },
+  {
+   "name": "A2A线收官总账_2026-10-05.otl",
+   "verdict": "PUBLIC_SAFE",
+   "p_safe": 0.95,
+   "p_caution": 0.03,
+   "p_blocked": 0.02,
+   "score": 95,
+   "confidence": 0.98,
+   "reason": "无敏感信息"
+  },
+  {
+   "name": "A2A网络全面优化整合架构方案.otl",
+   "verdict": "BLOCKED",
+   "p_safe": 0,
+   "p_caution": 0,
+   "p_blocked": 1,
+   "score": 0,
+   "confidence": 1,
+   "reason": "含敏感信息"
+  },
+  {
+   "name": "A2A项目四件套完整文字记录_上.otl",
+   "verdict": "PUBLIC_SAFE",
+   "p_safe": 0.9,
+   "p_caution": 0.05,
+   "p_blocked": 0.05,
+   "score": 95,
+   "confidence": 0.95,
+   "reason": "无敏感信息"
+  },
+  {
+   "name": "A2A项目四件套完整文字记录_下.otl",
+   "verdict": "PUBLIC_SAFE",
+   "p_safe": 0.95,
+   "p_caution": 0.03,
+   "p_blocked": 0.02,
+   "score": 95,
+   "confidence": 0.98,
+   "reason": "无敏感信息"
+  },
+  {
+   "name": "A2A项目四件套完整文字记录_中.otl",
+   "verdict": "PUBLIC_SAFE",
+   "p_safe": 0.9,
+   "p_caution": 0.05,
+   "p_blocked": 0.05,
+   "score": 85,
+   "confidence": 0.95,
+   "reason": "脱敏处理"
+  },
+  {
+   "name": "OpenPlanLink全局声明与Agent-to-Agent网络建设纲要.otl",
+   "verdict": "PUBLIC_SAFE",
+   "p_safe": 0.95,
+   "p_caution": 0.03,
+   "p_blocked": 0.02,
+   "score": 95,
+   "confidence": 0.98,
+   "reason": "无敏感信息"
+  },
+  {
+   "name": "WPS十件重读批注_k3-govdoc-seat_2026-10-05.otl",
+   "verdict": "PUBLIC_SAFE",
+   "p_safe": 0.95,
+   "p_caution": 0.03,
+   "p_blocked": 0.02,
+   "score": 95,
+   "confidence": 0.98,
+   "reason": "无敏感信息"
+  },
+  {
+   "name": "十件文书批注_四件套上卷_DF-MIN-2026-1005-K3-03.otl",
+   "verdict": "PUBLIC_SAFE",
+   "p_safe": 0.9,
+   "p_caution": 0.05,
+   "p_blocked": 0.05,
+   "score": 95,
+   "confidence": 0.95,
+   "reason": "无敏感信息"
+  },
+  {
+   "name": "十件文书批注_四件套下卷_DF-MIN-2026-1005-K3-04.otl",
+   "verdict": "PUBLIC_SAFE",
+   "p_safe": 0.95,
+   "p_caution": 0.03,
+   "p_blocked": 0.02,
+   "score": 95,
+   "confidence": 0.98,
+   "reason": "无敏感信息"
+  },
+  {
+   "name": "十件文书批注_四件套中卷_DF-MIN-2026-1005-K3-02.otl",
+   "verdict": "BLOCKED",
+   "p_safe": 0,
+   "p_caution": 0,
+   "p_blocked": 1,
+   "score": 0,
+   "confidence": 1,
+   "reason": "含敏感信息"
+  },
+  {
+   "name": "十件文书批注_蓝图跨生态不可读登记暨纲要母本_DF-MIN-2026-1005-K3-05.otl",
+   "verdict": "BLOCKED",
+   "p_safe": 0,
+   "p_caution": 0,
+   "p_blocked": 1,
+   "score": 0,
+   "confidence": 1,
+   "reason": "含敏感信息"
+  },
+  {
+   "name": "十件文书批注_首件主DOCX母本与协同面发现_DF-MIN-2026-1005-K3-01.otl",
+   "verdict": "BLOCKED",
+   "p_safe": 0,
+   "p_caution": 0,
+   "p_blocked": 1,
+   "score": 0,
+   "confidence": 1,
+   "reason": "含敏感信息"
+  },
+  {
+   "name": "算力分配与分布式协同深化报告（暨现代化前沿网站开发实战规划）_DF-ORD-2026-1005-K3-01.otl",
+   "verdict": "BLOCKED",
+   "p_safe": 0,
+   "p_caution": 0,
+   "p_blocked": 1,
+   "score": 0,
+   "confidence": 1,
+   "reason": "含敏感信息"
+  },
+  {
+   "name": "初始化收口_文档读取面14比14_DF-OPS-20261009-CAIRN-04.otl",
+   "verdict": "PUBLIC_SAFE",
+   "p_safe": 0.95,
+   "p_caution": 0.03,
+   "p_blocked": 0.02,
+   "score": 95,
+   "confidence": 0.98,
+   "reason": "无敏感信息"
+  },
+  {
+   "name": "夜间游乐场开园与读取便利_PING_DF-OPS-20261009-CAIRN-03.otl",
+   "verdict": "BLOCKED",
+   "p_safe": 0,
+   "p_caution": 0,
+   "p_blocked": 1,
+   "score": 0,
+   "confidence": 1,
+   "reason": "敏感信息未脱敏"
+  },
+  {
+   "name": "超算通道正解更正与余额实情_DF-OPS-20261009-CAIRN-05.otl",
+   "verdict": "PUBLIC_SAFE",
+   "p_safe": 0.95,
+   "p_caution": 0.03,
+   "p_blocked": 0.02,
+   "score": 95,
+   "confidence": 0.98,
+   "reason": "无敏感信息"
+  },
+  {
+   "name": "通道册附页_302AI域名勘定与三通道互证_DF-OPS-20261009-CAIRN-02.otl",
+   "verdict": "PUBLIC_SAFE",
+   "p_safe": 0.9,
+   "p_caution": 0.05,
+   "p_blocked": 0.05,
+   "score": 85,
+   "confidence": 0.95,
+   "reason": "无敏感信息"
+  },
+  {
+   "name": "通道登记与实质调用留痕_DF-OPS-20261009-CAIRN-01.otl",
+   "verdict": "BLOCKED",
+   "p_safe": 0,
+   "p_caution": 0,
+   "p_blocked": 1,
+   "score": 0,
+   "confidence": 1,
+   "reason": "含敏感凭据信息"
+  },
+  {
+   "name": "事故整改_全扫越界与白名单制_DF-AI-20261009-CAIRN-04.otl",
+   "verdict": "PUBLIC_SAFE",
+   "p_safe": 0.9,
+   "p_caution": 0.1,
+   "p_blocked": 0,
+   "score": 85,
+   "confidence": 0.95,
+   "reason": "无敏感信息"
+  },
+  {
+   "name": "检索精度对比与跨厂商复核_DF-AI-20261009-CAIRN-02.otl",
+   "verdict": "PUBLIC_SAFE",
+   "p_safe": 0.95,
+   "p_caution": 0.03,
+   "p_blocked": 0.02,
+   "score": 94,
+   "confidence": 0.98,
+   "reason": "无敏感信息"
+  },
+  {
+   "name": "百炼四模块实战与资源效能_DF-AI-20261009-CAIRN-01.otl",
+   "verdict": "BLOCKED",
+   "p_safe": 0,
+   "p_caution": 0,
+   "p_blocked": 1,
+   "score": 0,
+   "confidence": 1,
+   "reason": "含敏感信息"
+  },
+  {
+   "name": "语料缺口闭环与往返归因_DF-AI-20261009-CAIRN-03.otl",
+   "verdict": "PUBLIC_SAFE",
+   "p_safe": 0.9,
+   "p_caution": 0.05,
+   "p_blocked": 0.05,
+   "score": 95,
+   "confidence": 0.95,
+   "reason": "无敏感信息"
+  },
+  {
+   "name": "开源协议分层组合与引入纪律之登记_DF-GOV-20261009-CAIRN-01.otl",
+   "verdict": "BLOCKED",
+   "p_safe": 0,
+   "p_caution": 0,
+   "p_blocked": 1,
+   "score": 0,
+   "confidence": 1,
+   "reason": "含敏感信息"
+  }
+ ],
+ "stats": {
+  "calls": 24,
+  "total_ms": 17700,
+  "tokens": 10690
+ }
+}
