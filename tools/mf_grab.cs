@@ -1,4 +1,4 @@
-﻿// mf_grab.cs —— 零安装抓帧器：Windows Media Foundation（mfplat/mfreadwrite）→ RGB32 → BMP
+// mf_grab.cs —— 零安装抓帧器：Windows Media Foundation（mfplat/mfreadwrite）→ RGB32 → BMP
 // 用法（由 PowerShell Add-Type 引入后）：MfGrab.Run(videoPath, secondsList, outDirPrefix)
 using System;
 using System.Collections.Generic;
@@ -194,6 +194,69 @@ public static class MfGrab
                 WriteBmp(outPath, rgb, w, h);
                 log.Add(string.Format("★ t={0}s ⇒ {1}", sec, Path.GetFileName(outPath)));
             }
+        }
+        catch (Exception ex) { log.Add("异常：" + ex.Message); }
+        finally { try { if (reader != null) Marshal.ReleaseComObject(reader); } catch { } MFShutdown(); }
+        return log;
+    }
+
+    /// <summary>★顺序读帧（不 seek）：按 ReadSample 逐帧，每 keepEvery 帧存一张 BMP，文件名含真实时间戳（毫秒）
+    /// 用途：取得"真连续帧"，以修"按时间 seek 落于关键帧"之局限（P1）</summary>
+    public static List<string> RunSeq(string videoPath, string outPrefix, int keepEvery, int maxFrames)
+    {
+        var log = new List<string>();
+        int hr = MFStartup(MF_VERSION, 0);
+        if (hr != 0) { log.Add("MFStartup 失败 hr=0x" + hr.ToString("X8")); return log; }
+        IMFSourceReader reader = null;
+        try
+        {
+            IMFAttributes attrs; MFCreateAttributes(out attrs, 1);
+            Guid gProc = MF_SOURCE_READER_ENABLE_VIDEO_PROCESSING; attrs.SetUINT32(ref gProc, 1);
+            hr = MFCreateSourceReaderFromURL(videoPath, Marshal.GetIUnknownForObject(attrs), out reader);
+            if (hr != 0) { log.Add("MFCreateSourceReaderFromURL 失败 hr=0x" + hr.ToString("X8")); return log; }
+            IMFMediaType mt; MFCreateMediaType(out mt);
+            Guid g1 = MF_MT_MAJOR_TYPE, g2 = MF_MT_SUBTYPE;
+            Guid vVideo = MFMediaType_Video, vRgb = MFVideoFormat_RGB32;
+            mt.SetGUID(ref g1, ref vVideo); mt.SetGUID(ref g2, ref vRgb);
+            hr = reader.SetCurrentMediaType(unchecked((int)0xFFFFFFFC), IntPtr.Zero, mt);
+            if (hr != 0) { log.Add("SetCurrentMediaType(RGB32) 失败 hr=0x" + hr.ToString("X8")); return log; }
+            IMFMediaType cur; reader.GetCurrentMediaType(unchecked((int)0xFFFFFFFC), out cur);
+            Guid gk = MF_MT_FRAME_SIZE_GUID; long packed; cur.GetUINT64(ref gk, out packed);
+            int w = (int)(packed >> 32), h = (int)(packed & 0xFFFFFFFF);
+            log.Add(string.Format("顺序读帧：{0}x{1} RGB32 ｜ 每 {2} 帧存一张 ｜ 上限 {3} 张", w, h, keepEvery, maxFrames));
+            int n = 0, saved = 0;
+            while (saved < maxFrames)
+            {
+                int idx, flags; long ts; IMFSample sample;
+                hr = reader.ReadSample(unchecked((int)0xFFFFFFFC), 0, out idx, out flags, out ts, out sample);
+                if (hr != 0) { log.Add("ReadSample hr=0x" + hr.ToString("X8")); break; }
+                if ((flags & 0x2) != 0) { log.Add("★ 读到流末（ENDOFSTREAM），共 " + n + " 帧"); break; }   // MF_SOURCE_READERF_ENDOFSTREAM
+                if (sample == null) continue;
+                n++;
+                if (n % keepEvery != 0) continue;
+                IMFMediaBuffer buf; sample.ConvertToContiguousBuffer(out buf);
+                IntPtr p; int maxLen, curLen; buf.Lock(out p, out maxLen, out curLen);
+                int stride = w * 4; byte[] rgb = new byte[w * h * 3];
+                for (int y = 0; y < h; y++)
+                {
+                    IntPtr row = (IntPtr)(p.ToInt64() + (long)y * stride);
+                    for (int x = 0; x < w; x++)
+                    {
+                        byte b = Marshal.ReadByte(row, x * 4);
+                        byte g = Marshal.ReadByte(row, x * 4 + 1);
+                        byte r = Marshal.ReadByte(row, x * 4 + 2);
+                        int o = (y * w + x) * 3;
+                        rgb[o] = b; rgb[o + 1] = g; rgb[o + 2] = r;
+                    }
+                }
+                buf.Unlock();
+                long ms = ts / 10000;
+                string outPath = outPrefix + "_f" + n.ToString("D4") + "_" + ms.ToString() + "ms.bmp";
+                WriteBmp(outPath, rgb, w, h);
+                saved++;
+                log.Add(string.Format("★ 帧 {0}（t={1}ms）⇒ {2}", n, ms, Path.GetFileName(outPath)));
+            }
+            log.Add(string.Format("顺序读帧完成：读入 {0} 帧，落盘 {1} 张", n, saved));
         }
         catch (Exception ex) { log.Add("异常：" + ex.Message); }
         finally { try { if (reader != null) Marshal.ReleaseComObject(reader); } catch { } MFShutdown(); }
