@@ -1,0 +1,99 @@
+{
+ "ts": "2026-10-09T06:48:01+0800",
+ "seat": "a2a-node-local",
+ "corpus_n": 66,
+ "vector": {
+  "carrier": "百炼专属域",
+  "model": "text-embedding-v4",
+  "ok": 66,
+  "dim": 1024
+ },
+ "rerank_carrier": "异质承载：硅基流动 BAAI/bge-reranker-v2-m3（专属域 429）",
+ "rankings": [
+  {
+   "query": "器物强制与凭据纪律",
+   "expect": "应命中 ai/ops 之纪律件",
+   "carrier": "异质承载：硅基流动 BAAI/bge-reranker-v2-m3（专属域 429）",
+   "top5": [
+    {
+     "score": 0.66705,
+     "doc": "persona/陆知白人设v2增量由行迹而生_DF-PERSONA-20261009-CAIRN-01.ot"
+    },
+    {
+     "score": 0.29712,
+     "doc": "ai/检索精度对比与跨厂商复核_DF-AI-20261009-CAIRN-02.otl"
+    },
+    {
+     "score": 0.22473,
+     "doc": "ops/夜班合卷v4_DF-OPS-20261009-CAIRN-15.otl"
+    },
+    {
+     "score": 0.12878,
+     "doc": "ops/双CSV履约与跨席指纹互证_DF-OPS-20261009-CAIRN-13.otl"
+    },
+    {
+     "score": 0.11571,
+     "doc": "ai/人设入世陆知白世界建成ready_DF-AI-20261009-CAIRN-16.otl"
+    }
+   ]
+  },
+  {
+   "query": "真 3D 资产与 glTF 入世",
+   "expect": "应命中 AI-28/29",
+   "carrier": "异质承载：硅基流动 BAAI/bge-reranker-v2-m3（专属域 429）",
+   "top5": [
+    {
+     "score": 0.97881,
+     "doc": "ai/真3D资产入世台账几何_DF-AI-20261009-CAIRN-28.otl"
+    },
+    {
+     "score": 0.9586,
+     "doc": "ai/自产真3D资产入世本席台账几何_DF-AI-20261009-CAIRN-29.otl"
+    },
+    {
+     "score": 0.32129,
+     "doc": "ai/跨席对齐人设glTF与涌现判定_DF-AI-20261009-CAIRN-27.otl"
+    },
+    {
+     "score": 0.01369,
+     "doc": "ai/六视角转面图入世与涌现探针v2_DF-AI-20261009-CAIRN-18.otl"
+    },
+    {
+     "score": 0.00729,
+     "doc": "ai/人设入世陆知白世界建成ready_DF-AI-20261009-CAIRN-16.otl"
+    }
+   ]
+  },
+  {
+   "query": "涌现判定与判官重推导",
+   "expect": "应命中 AI-27/30/31",
+   "carrier": "异质承载：硅基流动 BAAI/bge-reranker-v2-m3（专属域 429）",
+   "top5": [
+    {
+     "score": 0.24673,
+     "doc": "ai/判官重推导纪律吸收与自查_DF-AI-20261009-CAIRN-31.otl"
+    },
+    {
+     "score": 0.05498,
+     "doc": "ai/亲验进房与演进录像_DF-AI-20261009-CAIRN-23.otl"
+    },
+    {
+     "score": 0.04392,
+     "doc": "ai/跨席对齐人设glTF与涌现判定_DF-AI-20261009-CAIRN-27.otl"
+    },
+    {
+     "score": 0.035,
+     "doc": "ai/百炼四模块实战与资源效能_DF-AI-20261009-CAIRN-01.otl"
+    },
+    {
+     "score": 0.0226,
+     "doc": "ai/人设入世陆知白世界建成ready_DF-AI-20261009-CAIRN-16.otl"
+    }
+   ]
+  }
+ ],
+ "directing_probe": {
+  "http": 403,
+  "sec": 0.14
+ }
+}
