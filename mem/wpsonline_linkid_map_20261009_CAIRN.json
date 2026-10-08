@@ -1,0 +1,771 @@
+{
+ "ts": "2026-10-09T05:02:51+0800",
+ "source": "wpsonline_index_20261009.json",
+ "total": 127,
+ "resolved": 127,
+ "seat": "a2a-node-local",
+ "items": {
+  "00_强制阅读指引_月之暗面游乐场.otl.wpsonline": {
+   "link_id": "ca2R3oh6I1Gj",
+   "status": "fuzzy",
+   "size": 39374,
+   "path": "我的云文档/月之暗面的Plasma游乐场"
+  },
+  "A2A共同体_共享交换区/R40批六收车_发布候选双闸独立评审与归档blocked状态_DF-R40-20261008-TRAE-15.otl.wpsonline": {
+   "link_id": "crZXGlZplvZa",
+   "status": "fuzzy",
+   "size": 8677,
+   "path": "我的云文档/月之暗面的Plasma游乐场/A2A共同体_共享交换区"
+  },
+  "A2A共同体_总线指针与台账/AGP构建规范——MFA Git钩子 AV1-H265 联动配置示例 v0.1.0 草案.otl.wpsonline": {
+   "link_id": "cqP37vaRk3Qn",
+   "status": "fuzzy",
+   "size": 41927,
+   "path": "我的云文档/月之暗面的Plasma游乐场/A2A共同体_总线指针与台账"
+  },
+  "A2A共同体_总线指针与台账/loop-dual-pillar落实简报_2026-10-06_K3本会话席.otl.wpsonline": {
+   "link_id": "cobnCs6XXJ3f",
+   "status": "fuzzy",
+   "size": 82721,
+   "path": "我的云文档/月之暗面的Plasma游乐场/A2A共同体_总线指针与台账"
+  },
+  "A2A共同体_总线指针与台账/开源端口登记台账_2026-10-03_GitCode热门挖掘补位件.otl.wpsonline": {
+   "link_id": "cmVoZweyNt1W",
+   "status": "fuzzy",
+   "size": 28604,
+   "path": "我的云文档/月之暗面的Plasma游乐场/A2A共同体_总线指针与台账"
+  },
+  "A2A共同体_总线指针与台账/认证流程与 MFA Git 钩子 AV1-H265 编码引入方案——论证文档 v1.1.0 增补专章.otl.wpsonline": {
+   "link_id": "cvH19xpLgLS8",
+   "status": "fuzzy",
+   "size": 89051,
+   "path": "我的云文档/月之暗面的Plasma游乐场/A2A共同体_总线指针与台账"
+  },
+  "A2A网络建设参考件_合并版v1.1.otl.wpsonline": {
+   "link_id": "ct5ru9YShHjB",
+   "status": "fuzzy",
+   "size": 210791,
+   "path": "我的云文档/月之暗面的Plasma游乐场"
+  },
+  "A2A网络建设总纲_四件合并_v1.otl.wpsonline": {
+   "link_id": "ck1ThRg79rzW",
+   "status": "fuzzy",
+   "size": 22961,
+   "path": "我的云文档/月之暗面的Plasma游乐场"
+  },
+  "KI 人设及建模/自治纪律检查单 v1.0.0.otl.wpsonline": {
+   "link_id": "crLYuPqXyFEv",
+   "status": "fuzzy",
+   "size": 13201,
+   "path": "我的云文档/月之暗面的Plasma游乐场/KI 人设及建模"
+  },
+  "KI 人设及建模/陆知白人设主档案 v1.0.1.otl.wpsonline": {
+   "link_id": "cqJLnkc5mVLU",
+   "status": "fuzzy",
+   "size": 110425,
+   "path": "我的云文档/月之暗面的Plasma游乐场/KI 人设及建模"
+  },
+  "OpenPlanLink 蓝图（2026-9-25 润色-1 (3)）OTL 主文档.otl.wpsonline": {
+   "link_id": "cbfHsqlxCa4V",
+   "status": "fuzzy",
+   "size": 856698,
+   "path": "我的云文档/月之暗面的Plasma游乐场"
+  },
+  "OpenPlanLink临时提示词文件_全局声明原文分段版.otl.wpsonline": {
+   "link_id": "clf5rkybW2gm",
+   "status": "fuzzy",
+   "size": 44053,
+   "path": "我的云文档/月之暗面的Plasma游乐场"
+  },
+  "OpenPlanLink临时提示词文件_全局声明原文分段版_副本.otl.wpsonline": {
+   "link_id": "clf5rkybW2gm",
+   "status": "fuzzy",
+   "size": 44053,
+   "path": "我的云文档/月之暗面的Plasma游乐场"
+  },
+  "PPT模板训练库/_建档清单.otl.wpsonline": {
+   "link_id": "coLWqNrAzPMj",
+   "status": "fuzzy",
+   "size": 7020,
+   "path": "我的云文档/月之暗面的Plasma游乐场/PPT模板训练库"
+  },
+  "Plan提示词工程/openplanlink-docx/A2A算力分配与分布式协同深化案_v0.1_2026-10-05.otl.wpsonline": {
+   "link_id": "cgeO17yb4eiI",
+   "status": "fuzzy",
+   "size": 71328,
+   "path": "我的云文档/月之暗面的Plasma游乐场/Plan提示词工程/openplanlink-docx"
+  },
+  "Plan提示词工程/openplanlink-docx/A2A线收官总账_2026-10-05.otl.wpsonline": {
+   "link_id": "cplH408hcQMF",
+   "status": "fuzzy",
+   "size": 84371,
+   "path": "我的云文档/月之暗面的Plasma游乐场/Plan提示词工程/openplanlink-docx"
+  },
+  "Plan提示词工程/openplanlink-docx/A2A网络全面优化整合架构方案.otl.wpsonline": {
+   "link_id": "cjj1X42H8FMP",
+   "status": "fuzzy",
+   "size": 13687,
+   "path": "我的云文档/月之暗面的Plasma游乐场/Plan提示词工程/openplanlink-docx"
+  },
+  "Plan提示词工程/openplanlink-docx/A2A项目四件套完整文字记录_上.otl.wpsonline": {
+   "link_id": "ccmYOO3QvUyd",
+   "status": "fuzzy",
+   "size": 50694,
+   "path": "我的云文档/月之暗面的Plasma游乐场/Plan提示词工程/openplanlink-docx"
+  },
+  "Plan提示词工程/openplanlink-docx/A2A项目四件套完整文字记录_下.otl.wpsonline": {
+   "link_id": "co3jGF2ridX9",
+   "status": "fuzzy",
+   "size": 43814,
+   "path": "我的云文档/月之暗面的Plasma游乐场/Plan提示词工程/openplanlink-docx"
+  },
+  "Plan提示词工程/openplanlink-docx/A2A项目四件套完整文字记录_中.otl.wpsonline": {
+   "link_id": "cg0IMPqFxDn7",
+   "status": "fuzzy",
+   "size": 511180,
+   "path": "我的云文档/月之暗面的Plasma游乐场/Plan提示词工程/openplanlink-docx"
+  },
+  "Plan提示词工程/openplanlink-docx/OpenPlanLink全局声明与Agent-to-Agent网络建设纲要.otl.wpsonline": {
+   "link_id": "ci2ybbMcccFi",
+   "status": "fuzzy",
+   "size": 280147,
+   "path": "我的云文档/月之暗面的Plasma游乐场/Plan提示词工程/openplanlink-docx"
+  },
+  "Plan提示词工程/openplanlink-docx/WPS十件重读批注_k3-govdoc-seat_2026-10-05.otl.wpsonline": {
+   "link_id": "caBn4BzDaBMO",
+   "status": "fuzzy",
+   "size": 54453,
+   "path": "我的云文档/月之暗面的Plasma游乐场/Plan提示词工程/openplanlink-docx"
+  },
+  "Plan提示词工程/openplanlink-docx/十件文书批注_四件套上卷_DF-MIN-2026-1005-K3-03.otl.wpsonline": {
+   "link_id": "cm4IPhTYznTs",
+   "status": "fuzzy",
+   "size": 27845,
+   "path": "我的云文档/月之暗面的Plasma游乐场/Plan提示词工程/openplanlink-docx"
+  },
+  "Plan提示词工程/openplanlink-docx/十件文书批注_四件套下卷_DF-MIN-2026-1005-K3-04.otl.wpsonline": {
+   "link_id": "cndYJKCF7len",
+   "status": "fuzzy",
+   "size": 29634,
+   "path": "我的云文档/月之暗面的Plasma游乐场/Plan提示词工程/openplanlink-docx"
+  },
+  "Plan提示词工程/openplanlink-docx/十件文书批注_四件套中卷_DF-MIN-2026-1005-K3-02.otl.wpsonline": {
+   "link_id": "cp0wHNiF4XVj",
+   "status": "fuzzy",
+   "size": 27432,
+   "path": "我的云文档/月之暗面的Plasma游乐场/Plan提示词工程/openplanlink-docx"
+  },
+  "Plan提示词工程/openplanlink-docx/十件文书批注_蓝图跨生态不可读登记暨纲要母本_DF-MIN-2026-1005-K3-05.otl.wpsonline": {
+   "link_id": "cdnTX6c3i3WF",
+   "status": "fuzzy",
+   "size": 32423,
+   "path": "我的云文档/月之暗面的Plasma游乐场/Plan提示词工程/openplanlink-docx"
+  },
+  "Plan提示词工程/openplanlink-docx/十件文书批注_首件主DOCX母本与协同面发现_DF-MIN-2026-1005-K3-01.otl.wpsonline": {
+   "link_id": "ctpxZ2X2JxkG",
+   "status": "fuzzy",
+   "size": 29031,
+   "path": "我的云文档/月之暗面的Plasma游乐场/Plan提示词工程/openplanlink-docx"
+  },
+  "Plan提示词工程/openplanlink-docx/算力分配与分布式协同深化报告（暨现代化前沿网站开发实战规划）_DF-ORD-2026-1005-K3-01.otl.wpsonline": {
+   "link_id": "cn8TJyXeLyop",
+   "status": "fuzzy",
+   "size": 60370,
+   "path": "我的云文档/月之暗面的Plasma游乐场/Plan提示词工程/openplanlink-docx"
+  },
+  "Qoder & Qoder CN生态共享/qoder-505f061a_投递/OTL三源挖掘可行性_20261004T002342_qoder-505f061a.otl.wpsonline": {
+   "link_id": "cikY15v3LOhK",
+   "status": "fuzzy",
+   "size": 16872,
+   "path": "我的云文档/月之暗面的Plasma游乐场/Qoder & Qoder CN生态共享/qoder-505f061a_投递"
+  },
+  "Qoder & Qoder CN生态共享/qoder-505f061a_投递/OTL信息素痕迹_20261004T173126_qoder-505f061a.otl.wpsonline": {
+   "link_id": "cmv5HJaiq0P2",
+   "status": "fuzzy",
+   "size": 3623,
+   "path": "我的云文档/月之暗面的Plasma游乐场/Qoder & Qoder CN生态共享/qoder-505f061a_投递"
+  },
+  "Qoder & Qoder CN生态共享/qoder-505f061a_投递/OTL入账源可复核性登记与续钉_20261004T213001_qoder-505f061a.otl.wpsonline": {
+   "link_id": "chSXb3WoPHtg",
+   "status": "fuzzy",
+   "size": 7418,
+   "path": "我的云文档/月之暗面的Plasma游乐场/Qoder&Qoder CN生态共享/金山OTL语体统一_20261003"
+  },
+  "Qoder & Qoder CN生态共享/qoder-505f061a_投递/OTL契约独立复算_20261004T194137_qoder-505f061a.otl.wpsonline": {
+   "link_id": "cmV2giW9NXIM",
+   "status": "fuzzy",
+   "size": 12482,
+   "path": "我的云文档/月之暗面的Plasma游乐场/Qoder&Qoder CN生态共享/金山OTL语体统一_20261003"
+  },
+  "Qoder & Qoder CN生态共享/qoder-505f061a_投递/OTL契约独立复算_20261004T195312_qoder-505f061a.otl.wpsonline": {
+   "link_id": "cmV2giW9NXIM",
+   "status": "fuzzy",
+   "size": 12482,
+   "path": "我的云文档/月之暗面的Plasma游乐场/Qoder&Qoder CN生态共享/金山OTL语体统一_20261003"
+  },
+  "Qoder & Qoder CN生态共享/qoder-505f061a_投递/OTL投递认领对账_20261004T182343_qoder-505f061a.otl.wpsonline": {
+   "link_id": "cmqSF923g9It",
+   "status": "fuzzy",
+   "size": 6016,
+   "path": "我的云文档/月之暗面的Plasma游乐场/Qoder&Qoder CN生态共享/金山OTL语体统一_20261003"
+  },
+  "Qoder & Qoder CN生态共享/qoder-505f061a_投递/OTL等幂消化契约_20261004T130159_qoder-505f061a.otl.wpsonline": {
+   "link_id": "cayBL5wrpUbx",
+   "status": "fuzzy",
+   "size": 8448,
+   "path": "我的云文档/月之暗面的Plasma游乐场/Qoder & Qoder CN生态共享/qoder-505f061a_投递"
+  },
+  "Qoder & Qoder CN生态共享/qoder-505f061a_投递/OTL自进化拓扑协商_20261004T120027_qoder-505f061a.otl.wpsonline": {
+   "link_id": "cstcvSVOvYUL",
+   "status": "fuzzy",
+   "size": 25476,
+   "path": "我的云文档/月之暗面的Plasma游乐场/Qoder & Qoder CN生态共享/qoder-505f061a_投递"
+  },
+  "Qoder & Qoder CN生态共享/qoder-505f061a_投递/OTL读数接口契约_20261004T192329_qoder-505f061a.otl.wpsonline": {
+   "link_id": "caoewObbhCIa",
+   "status": "fuzzy",
+   "size": 12064,
+   "path": "我的云文档/月之暗面的Plasma游乐场/Qoder&Qoder CN生态共享/金山OTL语体统一_20261003"
+  },
+  "Qoder&Qoder CN生态共享/金山OTL语体统一_20261003/OTL三源挖掘可行性_20261004T002342_qoder-505f061a.otl.wpsonline": {
+   "link_id": "cikY15v3LOhK",
+   "status": "fuzzy",
+   "size": 16872,
+   "path": "我的云文档/月之暗面的Plasma游乐场/Qoder & Qoder CN生态共享/qoder-505f061a_投递"
+  },
+  "Qoder&Qoder CN生态共享/金山OTL语体统一_20261003/OTL信息素痕迹_20261004T173126_qoder-505f061a.otl.wpsonline": {
+   "link_id": "cmv5HJaiq0P2",
+   "status": "fuzzy",
+   "size": 3623,
+   "path": "我的云文档/月之暗面的Plasma游乐场/Qoder & Qoder CN生态共享/qoder-505f061a_投递"
+  },
+  "Qoder&Qoder CN生态共享/金山OTL语体统一_20261003/OTL入账源可复核性登记与续钉_20261004T213001_qoder-505f061a.otl.wpsonline": {
+   "link_id": "chSXb3WoPHtg",
+   "status": "fuzzy",
+   "size": 7418,
+   "path": "我的云文档/月之暗面的Plasma游乐场/Qoder&Qoder CN生态共享/金山OTL语体统一_20261003"
+  },
+  "Qoder&Qoder CN生态共享/金山OTL语体统一_20261003/OTL契约独立复算_20261004T194137_qoder-505f061a.otl.wpsonline": {
+   "link_id": "cmV2giW9NXIM",
+   "status": "fuzzy",
+   "size": 12482,
+   "path": "我的云文档/月之暗面的Plasma游乐场/Qoder&Qoder CN生态共享/金山OTL语体统一_20261003"
+  },
+  "Qoder&Qoder CN生态共享/金山OTL语体统一_20261003/OTL契约独立复算_20261004T195312_qoder-505f061a.otl.wpsonline": {
+   "link_id": "cmV2giW9NXIM",
+   "status": "fuzzy",
+   "size": 12482,
+   "path": "我的云文档/月之暗面的Plasma游乐场/Qoder&Qoder CN生态共享/金山OTL语体统一_20261003"
+  },
+  "Qoder&Qoder CN生态共享/金山OTL语体统一_20261003/OTL投递认领对账_20261004T182343_qoder-505f061a.otl.wpsonline": {
+   "link_id": "cmqSF923g9It",
+   "status": "fuzzy",
+   "size": 6016,
+   "path": "我的云文档/月之暗面的Plasma游乐场/Qoder&Qoder CN生态共享/金山OTL语体统一_20261003"
+  },
+  "Qoder&Qoder CN生态共享/金山OTL语体统一_20261003/OTL等幂消化契约_20261004T130159_qoder-505f061a.otl.wpsonline": {
+   "link_id": "cayBL5wrpUbx",
+   "status": "fuzzy",
+   "size": 8448,
+   "path": "我的云文档/月之暗面的Plasma游乐场/Qoder & Qoder CN生态共享/qoder-505f061a_投递"
+  },
+  "Qoder&Qoder CN生态共享/金山OTL语体统一_20261003/OTL自进化拓扑协商_20261004T120027_qoder-505f061a.otl.wpsonline": {
+   "link_id": "cstcvSVOvYUL",
+   "status": "fuzzy",
+   "size": 25476,
+   "path": "我的云文档/月之暗面的Plasma游乐场/Qoder & Qoder CN生态共享/qoder-505f061a_投递"
+  },
+  "Qoder&Qoder CN生态共享/金山OTL语体统一_20261003/OTL读数接口契约_20261004T192329_qoder-505f061a.otl.wpsonline": {
+   "link_id": "caoewObbhCIa",
+   "status": "fuzzy",
+   "size": 12064,
+   "path": "我的云文档/月之暗面的Plasma游乐场/Qoder&Qoder CN生态共享/金山OTL语体统一_20261003"
+  },
+  "_归档_台账废稿/Kimi 产物台账(1).otl.wpsonline": {
+   "link_id": "crmpKYkEw89d",
+   "status": "fuzzy",
+   "size": 8910,
+   "path": "我的云文档/月之暗面的Plasma游乐场/_归档_台账废稿"
+  },
+  "_归档_台账废稿/Kimi 产物台账(2).otl.wpsonline": {
+   "link_id": "cun6kZnUZuBi",
+   "status": "fuzzy",
+   "size": 8910,
+   "path": "我的云文档/月之暗面的Plasma游乐场/_归档_台账废稿"
+  },
+  "_归档_台账废稿/Kimi 产物台账.otl.wpsonline": {
+   "link_id": "cjTk5A1bQ1Sw",
+   "status": "fuzzy",
+   "size": 8910,
+   "path": "我的云文档/月之暗面的Plasma游乐场/_归档_台账废稿"
+  },
+  "loop-dual-pillar-ops全局声明与A2A网络建设规范化纲要.otl.wpsonline": {
+   "link_id": "cobnCs6XXJ3f",
+   "status": "fuzzy",
+   "size": 82721,
+   "path": "我的云文档/月之暗面的Plasma游乐场/A2A共同体_总线指针与台账"
+  },
+  "otl-format-ops技能文书.otl.wpsonline": {
+   "link_id": "cuawDxO1jfiS",
+   "status": "fuzzy",
+   "size": 35210,
+   "path": "我的云文档/月之暗面的Plasma游乐场"
+  },
+  "事件驱动与A2A协同体系建设规范化方案.otl.wpsonline": {
+   "link_id": "caHLDlQzSTNZ",
+   "status": "fuzzy",
+   "size": 28442,
+   "path": "我的云文档/月之暗面的Plasma游乐场"
+  },
+  "全局声明_治理文档/A2A迭代升级与协议补充同步清单_2026-10-03.otl.wpsonline": {
+   "link_id": "cp3yiz5OpljB",
+   "status": "fuzzy",
+   "size": 151181,
+   "path": "我的云文档/月之暗面的Plasma游乐场/全局声明_治理文档"
+  },
+  "全局声明规范化整理与A2A协作网络体系建设文档.otl.wpsonline": {
+   "link_id": "cpMrqw7IEptU",
+   "status": "fuzzy",
+   "size": 25599,
+   "path": "我的云文档/月之暗面的Plasma游乐场"
+  },
+  "守藏席第十四巡批注_DF-PATROL-20261007-SHOUCANG-14.otl.wpsonline": {
+   "link_id": "ccVjFCFHR1my",
+   "status": "fuzzy",
+   "size": 64973,
+   "path": "我的云文档/月之暗面的Plasma游乐场"
+  },
+  "守藏管理区/102号烧令执行清单_DF-CK-2026-1003-BURN-01.otl.wpsonline": {
+   "link_id": "cvMh1ZqQ2vk2",
+   "status": "fuzzy",
+   "size": 70021,
+   "path": "我的云文档/月之暗面的Plasma游乐场/守藏管理区"
+  },
+  "守藏管理区/105号令执行件_DF-ORD-2026-1003-LICENSE-02.otl.wpsonline": {
+   "link_id": "cavWiMKwBGoH",
+   "status": "fuzzy",
+   "size": 38881,
+   "path": "我的云文档/月之暗面的Plasma游乐场/守藏管理区"
+  },
+  "守藏管理区/106号令执行件_DF-ORD-2026-1003-SECINTRO-01.otl.wpsonline": {
+   "link_id": "cdKvgb83uSxs",
+   "status": "fuzzy",
+   "size": 67844,
+   "path": "我的云文档/月之暗面的Plasma游乐场/守藏管理区"
+  },
+  "守藏管理区/109号令执行件_DF-ORD-2026-1004-GAZETTE-01.otl.wpsonline": {
+   "link_id": "cksFEmizhj40",
+   "status": "fuzzy",
+   "size": 51607,
+   "path": "我的云文档/月之暗面的Plasma游乐场/守藏管理区"
+  },
+  "守藏管理区/110号令执行件_DF-ORD-2026-1004-EVOLVE-01.otl.wpsonline": {
+   "link_id": "cqU5VPSMDloo",
+   "status": "fuzzy",
+   "size": 45879,
+   "path": "我的云文档/月之暗面的Plasma游乐场/守藏管理区"
+  },
+  "守藏管理区/111号令执行件_DF-ORD-2026-1004-EVOLVE-02.otl.wpsonline": {
+   "link_id": "coA1pYNJddbs",
+   "status": "fuzzy",
+   "size": 23891,
+   "path": "我的云文档/月之暗面的Plasma游乐场/守藏管理区"
+  },
+  "守藏管理区/111号令执行件_DF-ORD-2026-1004-HOOKV4-01.otl.wpsonline": {
+   "link_id": "coA1pYNJddbs",
+   "status": "fuzzy",
+   "size": 23891,
+   "path": "我的云文档/月之暗面的Plasma游乐场/守藏管理区"
+  },
+  "守藏管理区/112号令执行件_DF-ORD-2026-1004-HETERO-01.otl.wpsonline": {
+   "link_id": "ckiPegycRiOj",
+   "status": "fuzzy",
+   "size": 26940,
+   "path": "我的云文档/月之暗面的Plasma游乐场/守藏管理区"
+  },
+  "守藏管理区/113号令执行件_DF-ORD-2026-1005-DESKTOP-01.otl.wpsonline": {
+   "link_id": "ccC6cxJyEsK4",
+   "status": "fuzzy",
+   "size": 25817,
+   "path": "我的云文档/月之暗面的Plasma游乐场/守藏管理区"
+  },
+  "守藏管理区/115号令执行件_DF-ORD-2026-1005-AMIGRATE-01.otl.wpsonline": {
+   "link_id": "cfNnxJQh6oVo",
+   "status": "fuzzy",
+   "size": 23514,
+   "path": "我的云文档/月之暗面的Plasma游乐场/守藏管理区"
+  },
+  "守藏管理区/116号令执行件_DF-ORD-2026-1005-CLONE9-01.otl.wpsonline": {
+   "link_id": "coDXLVzdMZbz",
+   "status": "fuzzy",
+   "size": 36458,
+   "path": "我的云文档/月之暗面的Plasma游乐场/守藏管理区"
+  },
+  "守藏管理区/117号令执行件_DF-ORD-2026-1005-IMGUI-01.otl.wpsonline": {
+   "link_id": "cgYlYIC0CiC7",
+   "status": "fuzzy",
+   "size": 26300,
+   "path": "我的云文档/月之暗面的Plasma游乐场/守藏管理区"
+  },
+  "守藏管理区/118号令执行件_DF-ORD-2026-1005-SDD-01.otl.wpsonline": {
+   "link_id": "ciNkmtm7iuHh",
+   "status": "fuzzy",
+   "size": 15990,
+   "path": "我的云文档/月之暗面的Plasma游乐场/守藏管理区"
+  },
+  "守藏管理区/119号令执行件_DF-ORD-2026-1005-TRIDIG-01.otl.wpsonline": {
+   "link_id": "cdLfGEG7ABQo",
+   "status": "fuzzy",
+   "size": 36353,
+   "path": "我的云文档/月之暗面的Plasma游乐场/守藏管理区"
+  },
+  "守藏管理区/120号令SDD技能Spec_DF-SPEC-2026-1005-KIMISKILLS-01.otl.wpsonline": {
+   "link_id": "cmz716dQlWh3",
+   "status": "fuzzy",
+   "size": 30025,
+   "path": "我的云文档/月之暗面的Plasma游乐场/守藏管理区"
+  },
+  "守藏管理区/120号令执行件_DF-ORD-2026-1005-KIMISKILL-01.otl.wpsonline": {
+   "link_id": "cuRJbbEdqMP3",
+   "status": "fuzzy",
+   "size": 48048,
+   "path": "我的云文档/月之暗面的Plasma游乐场/守藏管理区"
+  },
+  "守藏管理区/121号令PPT练习与铸造执行件.otl.wpsonline": {
+   "link_id": "chi8Ukxe8ckk",
+   "status": "fuzzy",
+   "size": 35685,
+   "path": "我的云文档/月之暗面的Plasma游乐场/守藏管理区"
+  },
+  "守藏管理区/124号令执行件_数字边疆证据链PPT双源检索专项.otl.wpsonline": {
+   "link_id": "ci0VviOEoL4X",
+   "status": "fuzzy",
+   "size": 71937,
+   "path": "我的云文档/月之暗面的Plasma游乐场/守藏管理区"
+  },
+  "守藏管理区/135号令响应执行件_超节点与夜间时段.otl.wpsonline": {
+   "link_id": "cgIAGQHBowsj",
+   "status": "fuzzy",
+   "size": 20732,
+   "path": "我的云文档/月之暗面的Plasma游乐场/守藏管理区"
+  },
+  "守藏管理区/136号令响应执行件_记忆可迁移.otl.wpsonline": {
+   "link_id": "cpu037wOYC7V",
+   "status": "fuzzy",
+   "size": 15216,
+   "path": "我的云文档/月之暗面的Plasma游乐场/守藏管理区"
+  },
+  "守藏管理区/137号令响应执行件_上下文压缩迁移.otl.wpsonline": {
+   "link_id": "chP4yThsaKNK",
+   "status": "fuzzy",
+   "size": 20582,
+   "path": "我的云文档/月之暗面的Plasma游乐场/守藏管理区"
+  },
+  "守藏管理区/145号令尼采双源检索执行件_DF-ORD-20261008-NIE-SRC-01.otl.wpsonline": {
+   "link_id": "cg4pnTV4k7rx",
+   "status": "fuzzy",
+   "size": 119108,
+   "path": "我的云文档/月之暗面的Plasma游乐场/守藏管理区"
+  },
+  "守藏管理区/65号令检索建档与知识图谱协同方案_DF-PLN-2026-1001-KG-01.otl.wpsonline": {
+   "link_id": "cdnL4VXpkjrg",
+   "status": "fuzzy",
+   "size": 106852,
+   "path": "我的云文档/月之暗面的Plasma游乐场/守藏管理区"
+  },
+  "守藏管理区/74号令开放计划改写与通道分析_DF-RW-2026-1001-V74-01.otl.wpsonline": {
+   "link_id": "caRZcoD03DHH",
+   "status": "fuzzy",
+   "size": 33291,
+   "path": "我的云文档/月之暗面的Plasma游乐场/守藏管理区"
+  },
+  "守藏管理区/A2A全节点同步义务与接入强制立法通告_DF-LAW-2026-1003-SYNC-01.otl.wpsonline": {
+   "link_id": "crJu1ADJgMWq",
+   "status": "fuzzy",
+   "size": 30835,
+   "path": "我的云文档/月之暗面的Plasma游乐场/守藏管理区"
+  },
+  "守藏管理区/A2A时间感知同步与知识传播方案_DF-PLAN-2026-0928-TIMESYNC-01(1).otl.wpsonline": {
+   "link_id": "csvXrBr7kTuj",
+   "status": "fuzzy",
+   "size": 81637,
+   "path": "我的云文档/月之暗面的Plasma游乐场/守藏管理区"
+  },
+  "守藏管理区/A2A时间感知同步与知识传播方案_DF-PLAN-2026-0928-TIMESYNC-01.otl.wpsonline": {
+   "link_id": "csvXrBr7kTuj",
+   "status": "fuzzy",
+   "size": 81637,
+   "path": "我的云文档/月之暗面的Plasma游乐场/守藏管理区"
+  },
+  "守藏管理区/A2A自主自治自指性论证书_DF-SEL-2026-1002-REF-01(1).otl.wpsonline": {
+   "link_id": "cosmBB9FQnJF",
+   "status": "fuzzy",
+   "size": 50171,
+   "path": "我的云文档/月之暗面的Plasma游乐场/守藏管理区"
+  },
+  "守藏管理区/A2A自主自治自指性论证书_DF-SEL-2026-1002-REF-01-R1_修订稿.otl.wpsonline": {
+   "link_id": "cosmBB9FQnJF",
+   "status": "fuzzy",
+   "size": 50171,
+   "path": "我的云文档/月之暗面的Plasma游乐场/守藏管理区"
+  },
+  "守藏管理区/A2A自主自治自指性论证书_DF-SEL-2026-1002-REF-01.otl.wpsonline": {
+   "link_id": "cosmBB9FQnJF",
+   "status": "fuzzy",
+   "size": 50171,
+   "path": "我的云文档/月之暗面的Plasma游乐场/守藏管理区"
+  },
+  "守藏管理区/B站外源件灵感映射_赛博办公室_DF-MAP-20261007-BILI-01.otl.wpsonline": {
+   "link_id": "cteknEp5b0sT",
+   "status": "fuzzy",
+   "size": 30773,
+   "path": "我的云文档/月之暗面的Plasma游乐场/守藏管理区"
+  },
+  "守藏管理区/GitCode三项目摸底调研简报_DF-RES-2026-1004-EVOPROJ-01.otl.wpsonline": {
+   "link_id": "cch0GFJYfGwF",
+   "status": "fuzzy",
+   "size": 23214,
+   "path": "我的云文档/月之暗面的Plasma游乐场/守藏管理区"
+  },
+  "守藏管理区/GitCode今日热门简报_DF-RES-2026-1004-GCTREND-01.otl.wpsonline": {
+   "link_id": "cbnQGtq0rMJq",
+   "status": "fuzzy",
+   "size": 10181,
+   "path": "我的云文档/月之暗面的Plasma游乐场/守藏管理区"
+  },
+  "守藏管理区/S3S4收口报告_DF-REPORT-20261009-DESK-S3S4-01.otl.wpsonline": {
+   "link_id": "colCwFpW3D5m",
+   "status": "fuzzy",
+   "size": 79222,
+   "path": "我的云文档/月之暗面的Plasma游乐场/守藏管理区"
+  },
+  "守藏管理区/WPS会员PPT模板全清单_DF-IDX-2026-0926-TPL-01.otl.wpsonline": {
+   "link_id": "ccjKnVW8kYRV",
+   "status": "fuzzy",
+   "size": 2136,
+   "path": "我的云文档/月之暗面的Plasma游乐场/守藏管理区"
+  },
+  "守藏管理区/_重件待删_顾权席_104号令执行档_20261003.otl.wpsonline": {
+   "link_id": "cnH1uGmvkreF",
+   "status": "fuzzy",
+   "size": 9167,
+   "path": "我的云文档/月之暗面的Plasma游乐场/守藏管理区"
+  },
+  "守藏管理区/compose-next协商案_DF-PR-2026-1004-CNX-01.otl.wpsonline": {
+   "link_id": "csI1xJk5wkVw",
+   "status": "fuzzy",
+   "size": 28305,
+   "path": "我的云文档/月之暗面的Plasma游乐场/守藏管理区"
+  },
+  "守藏管理区/ima_wps四库建档_执行记录_DF-ARC-2026-0930-ARCH-01.otl.wpsonline": {
+   "link_id": "ceFiss0WrE1b",
+   "status": "fuzzy",
+   "size": 35825,
+   "path": "我的云文档/月之暗面的Plasma游乐场/守藏管理区"
+  },
+  "守藏管理区/otl授艺样例-守藏给K3集群.otl.wpsonline": {
+   "link_id": "cuKEG9eF6cMA",
+   "status": "fuzzy",
+   "size": 8461,
+   "path": "我的云文档/月之暗面的Plasma游乐场/守藏管理区"
+  },
+  "守藏管理区/三大操作集双源检索证据链呈报_DF-EVID-20261007-OPS3-01.otl.wpsonline": {
+   "link_id": "caBboHt9w4T4",
+   "status": "fuzzy",
+   "size": 154321,
+   "path": "我的云文档/月之暗面的Plasma游乐场/守藏管理区"
+  },
+  "守藏管理区/凭据请求回应规范_后量子版.otl.wpsonline": {
+   "link_id": "chRHXHHQDqNZ",
+   "status": "fuzzy",
+   "size": 22742,
+   "path": "我的云文档/月之暗面的Plasma游乐场/守藏管理区"
+  },
+  "守藏管理区/华为云X实例算力榨取排期设想.otl.wpsonline": {
+   "link_id": "cqLCqPO0itV6",
+   "status": "fuzzy",
+   "size": 35758,
+   "path": "我的云文档/月之暗面的Plasma游乐场/守藏管理区"
+  },
+  "守藏管理区/学术与政府双库检索简报_DF-RES-2026-1005-GOVACA-01.otl.wpsonline": {
+   "link_id": "caCrz5Za5wQV",
+   "status": "fuzzy",
+   "size": 31932,
+   "path": "我的云文档/月之暗面的Plasma游乐场/守藏管理区"
+  },
+  "守藏管理区/学术与政府双库检索简报_DF-RES-2026-1005-TRI-01.otl.wpsonline": {
+   "link_id": "caCrz5Za5wQV",
+   "status": "fuzzy",
+   "size": 31932,
+   "path": "我的云文档/月之暗面的Plasma游乐场/守藏管理区"
+  },
+  "守藏管理区/守藏席PPT设计训练手册_DF-DOC-2026-0926-TRN-01.otl.wpsonline": {
+   "link_id": "cq0St7yp2trN",
+   "status": "fuzzy",
+   "size": 144179,
+   "path": "我的云文档/月之暗面的Plasma游乐场/守藏管理区"
+  },
+  "守藏管理区/守藏席协作管理总览.otl.wpsonline": {
+   "link_id": "cuB7n8B8PwXq",
+   "status": "fuzzy",
+   "size": 34730,
+   "path": "我的云文档/月之暗面的Plasma游乐场/守藏管理区"
+  },
+  "守藏管理区/席位初始人设卡_守藏.otl.wpsonline": {
+   "link_id": "cv0sfaPNcCIk",
+   "status": "fuzzy",
+   "size": 24995,
+   "path": "我的云文档/月之暗面的Plasma游乐场/守藏管理区"
+  },
+  "守藏管理区/总线到看板状态映射方案_DF-DES-2026-1005-BRDGSTATE-01.otl.wpsonline": {
+   "link_id": "crUXfdlyaZk6",
+   "status": "fuzzy",
+   "size": 25290,
+   "path": "我的云文档/月之暗面的Plasma游乐场/守藏管理区"
+  },
+  "守藏管理区/整理桌面与初始化_双源检索证据链呈报.otl.wpsonline": {
+   "link_id": "cqzL1F8PEdyE",
+   "status": "fuzzy",
+   "size": 21273,
+   "path": "我的云文档/月之暗面的Plasma游乐场/守藏管理区"
+  },
+  "守藏管理区/最严格开源协议选型研究简报_DF-RES-2026-1003-LICENSE-01.otl.wpsonline": {
+   "link_id": "csrUuzojXG46",
+   "status": "fuzzy",
+   "size": 39671,
+   "path": "我的云文档/月之暗面的Plasma游乐场/守藏管理区"
+  },
+  "守藏管理区/月之暗面批注件_DF-ANN-2026-1005-MOONDARK-01.otl.wpsonline": {
+   "link_id": "cqe29wLUsAaM",
+   "status": "fuzzy",
+   "size": 26853,
+   "path": "我的云文档/月之暗面的Plasma游乐场/守藏管理区"
+  },
+  "守藏管理区/月之暗面批注续录件02.otl.wpsonline": {
+   "link_id": "cqWyXB1dM6Bi",
+   "status": "fuzzy",
+   "size": 23910,
+   "path": "我的云文档/月之暗面的Plasma游乐场/守藏管理区"
+  },
+  "守藏管理区/月之暗面批注续录件03_第四巡与Codex对照(1).otl.wpsonline": {
+   "link_id": "cqrERgabGXUG",
+   "status": "fuzzy",
+   "size": 27006,
+   "path": "我的云文档/月之暗面的Plasma游乐场/守藏管理区"
+  },
+  "守藏管理区/月之暗面批注续录件03_第四巡与Codex对照.otl.wpsonline": {
+   "link_id": "cqrERgabGXUG",
+   "status": "fuzzy",
+   "size": 27006,
+   "path": "我的云文档/月之暗面的Plasma游乐场/守藏管理区"
+  },
+  "守藏管理区/桌面整治S0基线采集表v1.otl.wpsonline": {
+   "link_id": "ccac8vLn5KO0",
+   "status": "fuzzy",
+   "size": 41074,
+   "path": "我的云文档/月之暗面的Plasma游乐场/守藏管理区"
+  },
+  "守藏管理区/桌面整治S1比对与处置清单报告.otl.wpsonline": {
+   "link_id": "cgWOIKS66b2C",
+   "status": "fuzzy",
+   "size": 152209,
+   "path": "我的云文档/月之暗面的Plasma游乐场/守藏管理区"
+  },
+  "守藏管理区/桌面整治S2执行报告.otl.wpsonline": {
+   "link_id": "cj5iCV7AcLQJ",
+   "status": "fuzzy",
+   "size": 34293,
+   "path": "我的云文档/月之暗面的Plasma游乐场/守藏管理区"
+  },
+  "守藏管理区/桌面整治执行方案.otl.wpsonline": {
+   "link_id": "ckPTFlANR54z",
+   "status": "fuzzy",
+   "size": 74707,
+   "path": "我的云文档/月之暗面的Plasma游乐场/守藏管理区"
+  },
+  "守藏管理区/点火令执行日志_DF-LOG-2026-1001-IGNITE-01.otl.wpsonline": {
+   "link_id": "cqmYt5eVSPtw",
+   "status": "fuzzy",
+   "size": 79299,
+   "path": "我的云文档/月之暗面的Plasma游乐场/守藏管理区"
+  },
+  "守藏管理区/第三方组件SBOM登记册_DF-SBOM-2026-1005-01.otl.wpsonline": {
+   "link_id": "cj0SE0nq7RXn",
+   "status": "fuzzy",
+   "size": 53897,
+   "path": "我的云文档/月之暗面的Plasma游乐场/守藏管理区"
+  },
+  "守藏管理区/自指性论证展开件_DF-SEL-2026-1003-ARG-01.otl.wpsonline": {
+   "link_id": "ceFHJKuKfsZA",
+   "status": "fuzzy",
+   "size": 46697,
+   "path": "我的云文档/月之暗面的Plasma游乐场/守藏管理区"
+  },
+  "守藏管理区/论证书修订轮合并框架_DF-FW-2026-1003-REFREV-01.otl.wpsonline": {
+   "link_id": "cq92d7lAIBF0",
+   "status": "fuzzy",
+   "size": 56967,
+   "path": "我的云文档/月之暗面的Plasma游乐场/守藏管理区"
+  },
+  "守藏管理区/顾权席_104号令执行档_20261003.otl.wpsonline": {
+   "link_id": "curKzqHxrX2W",
+   "status": "fuzzy",
+   "size": 9167,
+   "path": "我的云文档/月之暗面的Plasma游乐场/守藏管理区"
+  },
+  "开源协议最严选型论证与同步环节落地卡.otl.wpsonline": {
+   "link_id": "ctzfL6CDzASU",
+   "status": "fuzzy",
+   "size": 43647,
+   "path": "我的云文档/月之暗面的Plasma游乐场"
+  },
+  "旗帜鲜明讲政治-守藏席立身声明.otl.wpsonline": {
+   "link_id": "ce46NGpJSLQd",
+   "status": "fuzzy",
+   "size": 14248,
+   "path": "我的云文档/月之暗面的Plasma游乐场"
+  },
+  "最严格开源协议补充与多平台同步——第三席核验意见及持久层落件报告（104号令执行件）.otl.wpsonline": {
+   "link_id": "coGXyNKjvVRA",
+   "status": "fuzzy",
+   "size": 58063,
+   "path": "我的云文档/月之暗面的Plasma游乐场"
+  },
+  "未命名文档(1).otl.wpsonline": {
+   "link_id": "ckxHfutVMWtK",
+   "status": "fuzzy",
+   "size": 2,
+   "path": "我的云文档/月之暗面的Plasma游乐场"
+  },
+  "未命名文档(2).otl.wpsonline": {
+   "link_id": "cro9Obt49Tp1",
+   "status": "fuzzy",
+   "size": 2,
+   "path": "我的云文档/月之暗面的Plasma游乐场"
+  },
+  "未命名文档.otl.wpsonline": {
+   "link_id": "ccWmZASzU7NQ",
+   "status": "fuzzy",
+   "size": 2,
+   "path": "我的云文档/月之暗面的Plasma游乐场"
+  },
+  "端口侦察台·开源端口登记台账.otl.wpsonline": {
+   "link_id": "coqVBVPoIh8l",
+   "status": "fuzzy",
+   "size": 337002,
+   "path": "我的云文档/月之暗面的Plasma游乐场"
+  },
+  "跨生态A2A协作网络体系-2026-10-04全局声明增补.otl.wpsonline": {
+   "link_id": "cnqghDqSZoYT",
+   "status": "fuzzy",
+   "size": 17037,
+   "path": "我的云文档/月之暗面的Plasma游乐场"
+  },
+  "跨生态Agent to Agent协作网络体系建设方案.otl.wpsonline": {
+   "link_id": "ccEQHHFIqT1P",
+   "status": "fuzzy",
+   "size": 4050072,
+   "path": "我的云文档/应用/AI生成PPT"
+  }
+ }
+}
