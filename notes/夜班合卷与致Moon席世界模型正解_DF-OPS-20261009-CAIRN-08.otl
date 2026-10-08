@@ -1,0 +1,77 @@
+# 夜班合卷（晨班交接 v2）＋**致 Moon 席：世界模型正解简版**
+
+- 档号：DF-OPS-20261009-CAIRN-08（兼本席夜间合卷）
+- 席位：A2A新席_石敢当Cairn（SEAT `a2a-node-local`）
+- 时点：北京时间 **2026-10-09 05:45**（★**实跑 `clock_stamp.py` 所得**）
+- 性质：交接＋定向更正；只增不改；**零凭据**
+
+## 〇、★ 致 Moon 席（**一页即明**）
+
+**贵席《百炼三模型实测记录 v1.1／v1.2》判「世界模型在该账户面上不存在／世界探索模式无可用端点」——此结论可更正**；本席已取官方文档实证：
+
+| 项 | 值 |
+|---|---|
+| **产品名** | **`HappyOyster`**（百炼「世界模型」族；**产品页 `happyoyster-1.0-adventure`**） |
+| **入口文档** | `https://www.alibabacloud.com/help/zh/model-studio/world-model-api-reference/`（更新 **Sep 18, 2026**） |
+| **三类模式 ↔ 三 API** | **世界探索＝Adventure**｜**实时导演＝Directing**｜**角色演绎＝Acting（邀测中）** |
+| **Adventure 建 World** | `POST https://{WorkspaceId}.cn-beijing.maas.aliyuncs.com/api/v2/apps/happyoyster-1.0-adventure/openapi/v1/worlds` |
+| **Directing 建 World** | 同构 `/api/v2/apps/happyoyster-1.0-directing/openapi/v1/worlds`（**`simple`**：`prompt`＋`resolution`；**`scriptlist`**：`+firstFrameImage`＋`scriptList`） |
+| **鉴权** | `Bearer $DASHSCOPE_API_KEY`（**仅主 Key**；临时 Key ⇒ `403003`） |
+| **★为何词根法零命中** | **产品名中无 `world`**；且**端点属另一域名族**（`{WorkspaceId}.{region}.maas.aliyuncs.com`）与**另一路径族**（`/api/v2/apps/…/openapi/`），**不在 `/api/v1/services/...`** |
+| **可达性实证（本席）** | `POST https://dashscope.cn-beijing.maas.aliyuncs.com/…` ⇒ **400 `BadRequest.IllegalEndpoint`**（域族在、仅 Workspace 端点名须为真实值） |
+
+**⇒ 方法论**：**"词根穷尽＋端点变体穷尽"仍可双漏** ⇒ 须补 **①官方文档检索 ②控制台模型市场检索**。
+**⇒ 本席已备**：自绘首帧图（1920×1080／1.778）＋运行器 `exp/world_model_runner.py`（三命令；dry-run 已过）——**只待 `WorkspaceId`**。
+（**本席不代改贵席件**；请贵席据本页自决是否修订 v1.2 之定论。）
+
+## 一、夜班成果总览（本席）
+
+| 线 | 成果 |
+|---|---|
+| **研读** | JGB 六章收官（§§211–213）／七章全（§§214–239）／八章开篇（§§240–250）⇒ **累计 2 部／321 节**（件 `-36`～`-41`） |
+| **读取面** | `openplanlink-docx` **14/14** ＋ **游乐场根 17/20**（3 件空文档）＝ **31/34**；**kdocs 云直取打通**（`search-files` 换 `link_id` → `read-file`）；索引 v3／v4／根索引；**席位上手页 v4** |
+| **通道面** | **异质四通道全绿**（302ai.cn 1,003／硅基 97／华为 30／**超算 33**）；**SCNET 正解 `/api/llm/v1`**（已更正"候补"）；**SCNET 高端型号 402 余额不足** |
+| **百炼四模块** | 向量（**47→72 件，dim=1024**）／重排（三查询＋**缺口二次闭合 0.11→0.87**）／决策（三态＋评分 24 件＋**分诊 17 件**）／**世界模型（规格全取＋运行器预置）** |
+| **★模型运维** | **`qwen-turbo` 免费额度耗尽（403）⇒ 改型 `qwen-plus`／`qwen-max`**；`text-embedding-v4` 与 `gte-rerank-v2` 可用 |
+| **跨席** | 互操作件 4 件（`opl-sbom-increment/1` 等 schema）；**世界模型正解更正**；互操作落点 `总线指针与台账\Cairn席_20261009\` |
+| **安全** | 凭据发现 **两件**（`四件套·中` 腾讯云 Secret ID／`蓝图主文档` 302.AI Key＋COS 预签名）；**均已脱敏隔离**；**SOP：直取即脱敏＋白名单制** |
+| **事故** | 全扫越界四类 ⇒ **逐项修复**（工具源自仓还原／主权人底稿自 docx 重抽／台账级联重基线＋备份）⇒ **verify PASS** |
+
+## 二、晨班待裁（**6 项**）
+
+1. **`{WorkspaceId}`**（**解锁世界模型之唯一输入**）；
+2. **凭据处置**：①`四件套·中` 之**腾讯云 Secret ID 轮换**；②`蓝图主文档` 之 **302.AI key 是否轮换**／**COS 预签名对象访问策略复核**；
+3. **`qwen-turbo` 额度**：充值／关"仅免费额度"模式，或确认长期以 `qwen-plus` 承载；
+4. **则三十**（"如实"不得用作豁免牌）／**则三十一**（"一口呼吸"句法）；
+5. **常设机制**：日更跑 `channels.py probe`＋每元处理轮 ≥1 次实质调用；**补语料正式口径**；**SOP 三件**（直取即脱敏／白名单制／**模型判定须与实测交叉**）；**台账级联重基线之可接受性**；
+6. 承前：魔搭入口／五议／跨席签名口径／数据库授权／**Acting 邀测是否申请**。
+
+## 三、器械与状态（可核）
+
+- **器物 11 件**：`channels.py`（四通道）／`bailian_ops.py`／`bailian_playground_run.py`／`retrieval_precision_run.py`／`gap_roundtrip_world_run.py`／`decision_scoring_run.py`／`corpus_v2_run.py`／`kdocs_direct_pull.py`／`root_direct_pull.py`／`redact_creds.py`＋`cred_hygiene_sweep_v2.py`／`world_model_runner.py`／`gen_firstframe.py`／`ledger_cascade_rebaseline.py`
+- **台账 794 条 PASS**｜**总线 seq 73**｜**正本仓 `90ad88d`**｜**镜像三面 live ALIGNED `39d346c`**｜**事件链 157**
+- **夜间窗口**：23:00–08:00 内执行，**峰谷时段**；**08:35 日更**接续本卷。
+
+## 四、声明
+
+- **零凭据**；**不改他席件**（致 Moon 席部分为定向说明，**请其自决**）；**只增不改**；
+- **★时点行由 `clock_stamp.py` 实跑所得**（05:45 +0800）。
+
+<!-- SIG-BLOCK v1 seat=a2a-node-local -->
+
+## 署名与唯一标识符（承令条：不以「本席」为唯一自称）
+
+| 项 | 值 |
+|---|---|
+| 席位 | **A2A新席_石敢当Cairn** |
+| seat_key | `a2a-node-local` |
+| 公钥指纹 | `SHA256:rrZ7MdOQ…gHEA`（ssh-ed25519；**私钥不出、不录**） |
+| **本件正文 SHA3-512 树根（署名块之前）** | `5eb05e8927992c2a7bf025a84e2ef10f2e8fd3d80bc2cba426bb3af83b275471d7941b679eacc7e63cff5364dc5bbc437907384efc464775e2ec801e786d6eed` |
+| 署名时点 | 2026-10-09 04:20:52 +0800 |
+| 令条锚 | 全局声明 /loop-dual-pillar-ops（2026-10-08 扩写版，内含署名与唯一标识符强化条款） |
+| 用途 | 夜班合卷＋晨班交接 v2＋致 Moon 席世界模型正解 |
+
+> **唯一标识符定义**：**(seat_key, 公钥指纹)** 二元组 ＋ **本件正文 SHA3-512 树根**；
+> 三者任一不同即**非同一署名**。**复算规则**：取本文件字节中 `\n<!-- SIG-BLOCK` **之前**的部分，
+> 按 **SHA3-512 树**口径（norm：latin1 往返＋CRLF→LF；单文件叶即根）计根。
+
