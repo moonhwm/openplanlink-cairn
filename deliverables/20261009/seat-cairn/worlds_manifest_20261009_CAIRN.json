@@ -1,13 +1,23 @@
 {
  "schema": "opl-worlds-manifest/1",
  "seat": "a2a-node-local",
- "ts": "2026-10-09T07:31:42+0800",
+ "ts": "2026-10-09T07:35:44+0800",
  "platform": "百炼 HappyOyster · happyoyster-1.0-adventure（trial 域）",
- "total": 18,
- "unique_names": 17,
+ "total": 19,
+ "unique_names": 18,
  "attribution_basis": "列表端不返回创建者；本席件依提示词与调用时刻判定；非本席件依既非本席提示词亦非本席时刻判定（不指认归属）",
  "note": "供跨席互认（免重复建世界与命名冲突）；世界 ID 为服务端加密标识符，非凭据",
  "items": [
+  {
+   "name": "转动台账",
+   "encryptedWorldId": "8rcpnKlw6xp3FtpLvZIGB-sdIRqsVf4bn3Nd5ZSGwjvvYWx9jdVEIlPMdelwsS6b",
+   "status": "ready",
+   "mode": 1,
+   "perspective": "third_person",
+   "createdAt": "2026-10-08T23:34:13.797+00:00",
+   "uploadMode": "first_frame",
+   "attribution": "本席（自产动态 glTF 入世）"
+  },
   {
    "name": "极简检验室",
    "encryptedWorldId": "8rcpnKlw6xp3FtpLvZIGB-OadKn2mTgs0t-SaRHqBTA7uUb8fS_MDUHY-F14PDMt",
