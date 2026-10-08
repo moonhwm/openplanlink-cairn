@@ -1,0 +1,84 @@
+{
+ "ts": "2026-10-09T05:34:49+0800",
+ "http": 200,
+ "pagination": {
+  "page": 1,
+  "pageSize": 50,
+  "total": 8,
+  "hasMore": false
+ },
+ "items": [
+  {
+   "name": "Moonlit Plaza",
+   "encryptedWorldId": "8rcpnKlw6xp3FtpLvZIGBzay7UPsbkqgCig4-jfNwNw7uUb8fS_MDUHY-F14PDMt",
+   "status": "ready",
+   "createdAt": "2026-10-08T21:33:37.067+00:00",
+   "perspective": "third_person",
+   "mode": 1,
+   "uploadMode": "first_frame"
+  },
+  {
+   "name": "墨档契约",
+   "encryptedWorldId": "8rcpnKlw6xp3FtpLvZIGBzay7UPsbkqgCig4-jfNwNxfNs2BU7TeGEDpaTrloI7x",
+   "status": "ready",
+   "createdAt": "2026-10-08T21:31:30.760+00:00",
+   "perspective": "third_person",
+   "mode": 1,
+   "uploadMode": "first_frame"
+  },
+  {
+   "name": "数据虚空",
+   "encryptedWorldId": "8rcpnKlw6xp3FtpLvZIGB3qBaKNoYO5K4KdKKOvya887uUb8fS_MDUHY-F14PDMt",
+   "status": "ready",
+   "createdAt": "2026-10-08T21:27:28.692+00:00",
+   "perspective": "third_person",
+   "mode": 1,
+   "uploadMode": "first_frame"
+  },
+  {
+   "name": "器物约束",
+   "encryptedWorldId": "8rcpnKlw6xp3FtpLvZIGB-sdIRqsVf4bn3Nd5ZSGwjtfNs2BU7TeGEDpaTrloI7x",
+   "status": "ready",
+   "createdAt": "2026-10-08T21:19:35.508+00:00",
+   "perspective": "third_person",
+   "mode": 1,
+   "uploadMode": "first_frame"
+  },
+  {
+   "name": "数据圣所",
+   "encryptedWorldId": "8rcpnKlw6xp3FtpLvZIGB9mlTipFohD7syfWSOD-bt47uUb8fS_MDUHY-F14PDMt",
+   "status": "ready",
+   "createdAt": "2026-10-08T21:11:30.540+00:00",
+   "perspective": "third_person",
+   "mode": 1,
+   "uploadMode": "first_frame"
+  },
+  {
+   "name": "霓虹数据游乐场",
+   "encryptedWorldId": "8rcpnKlw6xp3FtpLvZIGB9mlTipFohD7syfWSOD-bt5fNs2BU7TeGEDpaTrloI7x",
+   "status": "ready",
+   "createdAt": "2026-10-08T20:41:32.092+00:00",
+   "perspective": "third_person",
+   "mode": 1,
+   "uploadMode": "first_frame"
+  },
+  {
+   "name": "夜间游乐场",
+   "encryptedWorldId": "8rcpnKlw6xp3FtpLvZIGB3qBaKNoYO5K4KdKKOvya89fNs2BU7TeGEDpaTrloI7x",
+   "status": "ready",
+   "createdAt": "2026-10-08T20:32:37.140+00:00",
+   "perspective": "third_person",
+   "mode": 1,
+   "uploadMode": "first_frame"
+  },
+  {
+   "name": "Geometric Void",
+   "encryptedWorldId": "8rcpnKlw6xp3FtpLvZIGB_wg3Z1hMjTLvrUso3I2oXk7uUb8fS_MDUHY-F14PDMt",
+   "status": "ready",
+   "createdAt": "2026-10-08T19:35:33.215+00:00",
+   "perspective": "third_person",
+   "mode": 1,
+   "uploadMode": "first_frame"
+  }
+ ]
+}
