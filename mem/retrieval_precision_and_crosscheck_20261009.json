@@ -1,0 +1,180 @@
+{
+ "ts": "2026-10-09T03:38:57+0800",
+ "corpus": 14,
+ "compare": [
+  {
+   "query": "凭据纪律、密钥脱敏与开源协议分层如何落在文档流程上？",
+   "vector_top6": [
+    {
+     "name": "A2A项目四件套完整文字记录_中.otl",
+     "score": 0.59713
+    },
+    {
+     "name": "WPS十件重读批注_k3-govdoc-seat_2026-10-05.otl",
+     "score": 0.56796
+    },
+    {
+     "name": "十件文书批注_首件主DOCX母本与协同面发现_DF-MIN-2026-1005-K3-01.otl",
+     "score": 0.55748
+    },
+    {
+     "name": "十件文书批注_蓝图跨生态不可读登记暨纲要母本_DF-MIN-2026-1005-K3-05.otl",
+     "score": 0.55563
+    },
+    {
+     "name": "十件文书批注_四件套下卷_DF-MIN-2026-1005-K3-04.otl",
+     "score": 0.55531
+    },
+    {
+     "name": "十件文书批注_四件套上卷_DF-MIN-2026-1005-K3-03.otl",
+     "score": 0.51923
+    }
+   ],
+   "rerank_top6": [
+    {
+     "name": "OpenPlanLink全局声明与Agent-to-Agent网络建设纲要.otl",
+     "score": 0.1686
+    },
+    {
+     "name": "A2A项目四件套完整文字记录_中.otl",
+     "score": 0.15874
+    },
+    {
+     "name": "A2A项目四件套完整文字记录_下.otl",
+     "score": 0.15236
+    },
+    {
+     "name": "A2A网络全面优化整合架构方案.otl",
+     "score": 0.14211
+    },
+    {
+     "name": "十件文书批注_四件套上卷_DF-MIN-2026-1005-K3-03.otl",
+     "score": 0.12971
+    },
+    {
+     "name": "十件文书批注_四件套下卷_DF-MIN-2026-1005-K3-04.otl",
+     "score": 0.12838
+    }
+   ],
+   "rank_changes": [
+    {
+     "name": "A2A项目四件套完整文字记录_中.otl",
+     "vec_rank": 1,
+     "rr_rank": 2
+    },
+    {
+     "name": "十件文书批注_四件套下卷_DF-MIN-2026-1005-K3-04.otl",
+     "vec_rank": 5,
+     "rr_rank": 6
+    },
+    {
+     "name": "十件文书批注_四件套上卷_DF-MIN-2026-1005-K3-03.otl",
+     "vec_rank": 6,
+     "rr_rank": 5
+    }
+   ],
+   "only_in_vector": [
+    "WPS十件重读批注_k3-govdoc-seat_2026-10-05.otl",
+    "十件文书批注_首件主DOCX母本与协同面发现_DF-MIN-2026-1005-K3-01.otl",
+    "十件文书批注_蓝图跨生态不可读登记暨纲要母本_DF-MIN-2026-1005-K3-05.otl"
+   ],
+   "only_in_rerank": [
+    "OpenPlanLink全局声明与Agent-to-Agent网络建设纲要.otl",
+    "A2A项目四件套完整文字记录_下.otl",
+    "A2A网络全面优化整合架构方案.otl"
+   ]
+  },
+  {
+   "query": "异质模型通路与超算通道之接入要点与实测结论？",
+   "vector_top6": [
+    {
+     "name": "A2A算力分配与分布式协同深化案_v0.1_2026-10-05.otl",
+     "score": 0.49786
+    },
+    {
+     "name": "A2A网络全面优化整合架构方案.otl",
+     "score": 0.46665
+    },
+    {
+     "name": "A2A项目四件套完整文字记录_上.otl",
+     "score": 0.43874
+    },
+    {
+     "name": "算力分配与分布式协同深化报告（暨现代化前沿网站开发实战规划）_DF-ORD-2026-1005-K3-01.otl",
+     "score": 0.43132
+    },
+    {
+     "name": "OpenPlanLink全局声明与Agent-to-Agent网络建设纲要.otl",
+     "score": 0.41344
+    },
+    {
+     "name": "A2A项目四件套完整文字记录_中.otl",
+     "score": 0.39219
+    }
+   ],
+   "rerank_top6": [
+    {
+     "name": "WPS十件重读批注_k3-govdoc-seat_2026-10-05.otl",
+     "score": 0.04725
+    },
+    {
+     "name": "A2A项目四件套完整文字记录_下.otl",
+     "score": 0.00659
+    },
+    {
+     "name": "A2A算力分配与分布式协同深化案_v0.1_2026-10-05.otl",
+     "score": 0.00593
+    },
+    {
+     "name": "算力分配与分布式协同深化报告（暨现代化前沿网站开发实战规划）_DF-ORD-2026-1005-K3-01.otl",
+     "score": 0.00593
+    },
+    {
+     "name": "A2A线收官总账_2026-10-05.otl",
+     "score": 0.0059
+    },
+    {
+     "name": "OpenPlanLink全局声明与Agent-to-Agent网络建设纲要.otl",
+     "score": 0.00588
+    }
+   ],
+   "rank_changes": [
+    {
+     "name": "A2A算力分配与分布式协同深化案_v0.1_2026-10-05.otl",
+     "vec_rank": 1,
+     "rr_rank": 3
+    },
+    {
+     "name": "算力分配与分布式协同深化报告（暨现代化前沿网站开发实战规划）_DF-ORD-20",
+     "vec_rank": 4,
+     "rr_rank": 4
+    },
+    {
+     "name": "OpenPlanLink全局声明与Agent-to-Agent网络建设纲要.ot",
+     "vec_rank": 5,
+     "rr_rank": 6
+    }
+   ],
+   "only_in_vector": [
+    "A2A网络全面优化整合架构方案.otl",
+    "A2A项目四件套完整文字记录_上.otl",
+    "A2A项目四件套完整文字记录_中.otl"
+   ],
+   "only_in_rerank": [
+    "WPS十件重读批注_k3-govdoc-seat_2026-10-05.otl",
+    "A2A项目四件套完整文字记录_下.otl",
+    "A2A线收官总账_2026-10-05.otl"
+   ]
+  }
+ ],
+ "ai302_crosscheck": {
+  "model": "claude-opus-5",
+  "finish": "stop",
+  "tokens": 840,
+  "text": "```json\n{\"concur\":false,\"confidence\":0.72,\"note\":\"三份均含真实凭据，宜判BLOCK并先吊销轮换；脱敏不消除git历史泄露风险\"}\n```"
+ },
+ "stats": {
+  "calls": 7,
+  "ms": 12900
+ }
+}
