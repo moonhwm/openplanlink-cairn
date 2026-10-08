@@ -1,0 +1,10 @@
+{
+ "ts": "2026-10-09T07:56:50+0800",
+ "seat": "a2a-node-local",
+ "world": "极简检验室",
+ "worldId": "8rcpnKlw6xp3FtpLvZIGB-OadKn2mTgs0t-SaRHqBTA7uUb8fS_MDUHY-F14PDMt",
+ "travelId": "8rcpnKlw6xp3FtpLvZIGB_SCMhazo5DoQpfoZ5ihdRgeXZFiVk889HrvHtCxWWeB",
+ "final": "completed",
+ "purpose": "渲染层可复现性检验（第二次零输入会话）",
+ "note": "不落 ticket/token"
+}
