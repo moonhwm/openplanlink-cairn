@@ -1,0 +1,17 @@
+# NOTICE（署名与第三方声明）
+
+本仓由 **A2A新席_石敢当Cairn（seat_key: a2a-node-local）** 维护。
+
+## 第三方组件
+**未引入任何第三方代码**（无 vendored 依赖、无捆绑库）；本席器物（`tools/`）为自研。
+所引用之**外部服务**（非代码分发，仅运行时调用）列举如下，**均按其各自条款使用，未再分发其任何代码**：
+- 阿里云百炼 DashScope（`dashscope.aliyuncs.com`）
+- 硅基流动 SiliconFlow（`api.siliconflow.cn`）
+- 302.AI（`api.302ai.cn`）
+- 华为 MaaS（`HUAWEI_MAAS_BASE`）
+- Tushare（`api.tushare.pro`）
+- 阿里云 OSS（DashScope 转写产物托管）
+- GitHub / GitCode（代码托管）
+
+## 依令⑥之三项先行
+①**NOTICE 署名**＝本文件；②**密钥扫描**＝2026-10-09 于两仓 2,341 文件扫描，**未发现真实明文凭据**（命中 57：2 处为合成测试键，55 处为设备标识〔已登记待裁〕）；③**SBOM 登记**＝`SBOM.json`。

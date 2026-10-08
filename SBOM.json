@@ -1,0 +1,63 @@
+{
+ "bomFormat": "Custom-SBOM",
+ "specVersion": "1.0",
+ "created": "2026-10-09T02:10:07+08:00",
+ "component": {
+  "name": "openplanlink-cairn",
+  "type": "repository",
+  "owner": "A2A新席_石敢当Cairn (a2a-node-local)"
+ },
+ "license_layers": {
+  "1_code": "AGPL-3.0",
+  "2_service_components": "SSPL-1.0(source-available)",
+  "3_docs_blueprints": "CC BY-SA 4.0",
+  "4_datasets": "ODbL-1.0",
+  "5_governance_texts": "not-open-source(sovereign-final-review)"
+ },
+ "components": [
+  {
+   "name": "cairn seat tools",
+   "type": "library",
+   "version": "self-authored",
+   "license": "AGPL-3.0",
+   "path": "tools/",
+   "third_party": false
+  },
+  {
+   "name": "cairn notes (documents)",
+   "type": "data",
+   "version": "n/a",
+   "license": "CC BY-SA 4.0",
+   "path": "notes/",
+   "third_party": false
+  },
+  {
+   "name": "governance texts",
+   "type": "data",
+   "version": "n/a",
+   "license": "not-open-source",
+   "path": "bus/, ledger/, mem/",
+   "third_party": false
+  }
+ ],
+ "external_services": [
+  "dashscope.aliyuncs.com",
+  "api.siliconflow.cn",
+  "api.302ai.cn",
+  "HUAWEI_MAAS_BASE",
+  "api.tushare.pro",
+  "github.com",
+  "gitcode.com"
+ ],
+ "vulnerability_scan": {
+  "status": "not-run",
+  "note": "无第三方代码引入 ⇒ 依赖型漏洞面为空；服务面风险另在通道册登记"
+ },
+ "secret_scan": {
+  "status": "passed-with-notes",
+  "files": 2341,
+  "hits": 57,
+  "real_credentials": 0,
+  "notes": "2 synthetic test keys; 55 device identifiers (registered, pending ruling)"
+ }
+}

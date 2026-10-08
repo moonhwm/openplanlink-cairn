@@ -1,5 +1,5 @@
 ﻿# -*- coding: utf-8 -*-
-"""channels.py —— 通道探针与实质调用器（承主权人「纳入…却又不用」之纠正）v1.0.0
+r"""channels.py —— 通道探针与实质调用器（承主权人「纳入…却又不用」之纠正）v1.0.0
 
 通道册：DF-OPS-20261009-CAIRN-01 / -02（端点与实测样本之唯一登记处）
 凭据：一律从 %USERPROFILE%\.zcode\workspace\default\a2a-bridge\.env 读取；**零回显、不落盘**。
@@ -8,6 +8,7 @@
   python channels.py probe                 # 各通道 models 级探针（可达性/模型数/时延）
   python channels.py call <channel> <model> "<prompt>" [--max 400]
   channel ∈ {302ai, siliconflow, huawei}
+**承令⑥**：302ai 通道**不用于调用任何国内模型**，且**优先最先进的高性能模型**。
 退出码：0 成功；1 全部失败；2 用法/键缺。
 """
 import json, pathlib, sys, time, urllib.request, urllib.error
