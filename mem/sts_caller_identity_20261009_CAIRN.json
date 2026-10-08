@@ -1,0 +1,56 @@
+{
+ "ts": "2026-10-09T06:26:19+0800",
+ "by": "a2a-node-local",
+ "method": "STS GetCallerIdentity (HMAC-SHA1, 独立实现)",
+ "credential_discipline": "AK/SK 仅在进程内存；不打印键值；只报长度与 sha3_512 前 16 位",
+ "results": [
+  {
+   "label": "RAM角色",
+   "file_present": true,
+   "file_bytes": 85,
+   "csv_header": [
+    "AccessKey ID",
+    "AccessKey Secret"
+   ],
+   "ak_len": 24,
+   "ak_sha3_16": "bffc0ea0a908f156",
+   "sk_len": 30,
+   "sk_sha3_16": "789edcfedddbc614",
+   "http": 200,
+   "sec": 10.42,
+   "IdentityType": "RAMUser",
+   "AccountId": "1276788042093840",
+   "Arn": "acs:ram::1276788042093840:user/power-application-user",
+   "PrincipalId": "208862388044657517",
+   "RequestId": "01A11DA0-0A50-5B4E-8E9D-9A6C72DF99A5",
+   "Code": null,
+   "Message": null,
+   "peer_ak_sha3_16": "bffc0ea0a908f156",
+   "ak_fingerprint_match": true
+  },
+  {
+   "label": "阿里云百炼主账户",
+   "file_present": true,
+   "file_bytes": 85,
+   "csv_header": [
+    "AccessKey ID",
+    "AccessKey Secret"
+   ],
+   "ak_len": 24,
+   "ak_sha3_16": "76d85139e06047db",
+   "sk_len": 30,
+   "sk_sha3_16": "cc9174aadfbd11a4",
+   "http": 200,
+   "sec": 10.33,
+   "IdentityType": "Account",
+   "AccountId": "1276788042093840",
+   "Arn": "acs:ram::1276788042093840:root",
+   "PrincipalId": "1276788042093840",
+   "RequestId": "01A11DA0-34A6-52D7-A436-785F9C574866",
+   "Code": null,
+   "Message": null,
+   "peer_ak_sha3_16": "76d85139e06047db",
+   "ak_fingerprint_match": true
+  }
+ ]
+}
