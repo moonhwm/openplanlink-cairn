@@ -1,0 +1,152 @@
+{
+ "schema": "opl-worlds-manifest/1",
+ "seat": "a2a-node-local",
+ "ts": "2026-10-09T06:45:41+0800",
+ "platform": "百炼 HappyOyster · happyoyster-1.0-adventure（trial 域）",
+ "total": 14,
+ "unique_names": 13,
+ "attribution_basis": "列表端不返回创建者；本席件依提示词与调用时刻判定；非本席件依既非本席提示词亦非本席时刻判定（不指认归属）",
+ "note": "供跨席互认（免重复建世界与命名冲突）；世界 ID 为服务端加密标识符，非凭据",
+ "items": [
+  {
+   "name": "本席台账几何",
+   "encryptedWorldId": "8rcpnKlw6xp3FtpLvZIGB9mlTipFohD7syfWSOD-bt4eXZFiVk889HrvHtCxWWeB",
+   "status": "ready",
+   "mode": 1,
+   "perspective": "third_person",
+   "createdAt": "2026-10-08T22:34:34.785+00:00",
+   "uploadMode": "first_frame",
+   "attribution": "本席（本席自产 glTF 入世）"
+  },
+  {
+   "name": "台账几何",
+   "encryptedWorldId": "8rcpnKlw6xp3FtpLvZIGB9mlTipFohD7syfWSOD-bt6iVYSzffKWTwjCSvR7Fhof",
+   "status": "ready",
+   "mode": 1,
+   "perspective": "third_person",
+   "createdAt": "2026-10-08T22:24:36.259+00:00",
+   "uploadMode": "first_frame",
+   "attribution": "本席（他席 glTF 入世）"
+  },
+  {
+   "name": "预算墙探针",
+   "encryptedWorldId": "8rcpnKlw6xp3FtpLvZIGBzay7UPsbkqgCig4-jfNwNzvYWx9jdVEIlPMdelwsS6b",
+   "status": "ready",
+   "mode": 1,
+   "perspective": "third_person",
+   "createdAt": "2026-10-08T22:18:31.471+00:00",
+   "uploadMode": "first_frame",
+   "attribution": "本席（测试件，非交付）"
+  },
+  {
+   "name": "共享面",
+   "encryptedWorldId": "8rcpnKlw6xp3FtpLvZIGBxuiXAtUB_wgTvR0UFWVA-Y7uUb8fS_MDUHY-F14PDMt",
+   "status": "ready",
+   "mode": 1,
+   "perspective": "third_person",
+   "createdAt": "2026-10-08T22:01:32.672+00:00",
+   "uploadMode": "first_frame",
+   "attribution": "本席（陆知白 v6，衍生自 v5）"
+  },
+  {
+   "name": "数据虚空",
+   "encryptedWorldId": "8rcpnKlw6xp3FtpLvZIGB9mlTipFohD7syfWSOD-bt7vYWx9jdVEIlPMdelwsS6b",
+   "status": "ready",
+   "mode": 1,
+   "perspective": "first_person",
+   "createdAt": "2026-10-08T21:38:55.838+00:00",
+   "uploadMode": "first_frame",
+   "attribution": "本席（陆知白 v3 转面图／v5 第一人称）"
+  },
+  {
+   "name": "无门窗居所",
+   "encryptedWorldId": "8rcpnKlw6xp3FtpLvZIGB_wg3Z1hMjTLvrUso3I2oXnvYWx9jdVEIlPMdelwsS6b",
+   "status": "ready",
+   "mode": 1,
+   "perspective": "third_person",
+   "createdAt": "2026-10-08T21:36:40.909+00:00",
+   "uploadMode": "first_frame",
+   "attribution": "本席（陆知白 v4，衍生自 v3）"
+  },
+  {
+   "name": "Moonlit Plaza",
+   "encryptedWorldId": "8rcpnKlw6xp3FtpLvZIGBzay7UPsbkqgCig4-jfNwNw7uUb8fS_MDUHY-F14PDMt",
+   "status": "ready",
+   "mode": 1,
+   "perspective": "third_person",
+   "createdAt": "2026-10-08T21:33:37.067+00:00",
+   "uploadMode": "first_frame",
+   "attribution": "★非本席（未指认归属）"
+  },
+  {
+   "name": "墨档契约",
+   "encryptedWorldId": "8rcpnKlw6xp3FtpLvZIGBzay7UPsbkqgCig4-jfNwNxfNs2BU7TeGEDpaTrloI7x",
+   "status": "ready",
+   "mode": 1,
+   "perspective": "third_person",
+   "createdAt": "2026-10-08T21:31:30.760+00:00",
+   "uploadMode": "first_frame",
+   "attribution": "本席（守藏镜面图）"
+  },
+  {
+   "name": "数据虚空",
+   "encryptedWorldId": "8rcpnKlw6xp3FtpLvZIGB3qBaKNoYO5K4KdKKOvya887uUb8fS_MDUHY-F14PDMt",
+   "status": "ready",
+   "mode": 1,
+   "perspective": "third_person",
+   "createdAt": "2026-10-08T21:27:28.692+00:00",
+   "uploadMode": "first_frame",
+   "attribution": "本席（陆知白 v3 转面图／v5 第一人称）"
+  },
+  {
+   "name": "器物约束",
+   "encryptedWorldId": "8rcpnKlw6xp3FtpLvZIGB-sdIRqsVf4bn3Nd5ZSGwjtfNs2BU7TeGEDpaTrloI7x",
+   "status": "ready",
+   "mode": 1,
+   "perspective": "third_person",
+   "createdAt": "2026-10-08T21:19:35.508+00:00",
+   "uploadMode": "first_frame",
+   "attribution": "本席（陆知白 v2）"
+  },
+  {
+   "name": "数据圣所",
+   "encryptedWorldId": "8rcpnKlw6xp3FtpLvZIGB9mlTipFohD7syfWSOD-bt47uUb8fS_MDUHY-F14PDMt",
+   "status": "ready",
+   "mode": 1,
+   "perspective": "third_person",
+   "createdAt": "2026-10-08T21:11:30.540+00:00",
+   "uploadMode": "first_frame",
+   "attribution": "本席（陆知白 v1 镜面图）"
+  },
+  {
+   "name": "霓虹数据游乐场",
+   "encryptedWorldId": "8rcpnKlw6xp3FtpLvZIGB9mlTipFohD7syfWSOD-bt5fNs2BU7TeGEDpaTrloI7x",
+   "status": "ready",
+   "mode": 1,
+   "perspective": "third_person",
+   "createdAt": "2026-10-08T20:41:32.092+00:00",
+   "uploadMode": "first_frame",
+   "attribution": "本席（早期 v0-b）"
+  },
+  {
+   "name": "夜间游乐场",
+   "encryptedWorldId": "8rcpnKlw6xp3FtpLvZIGB3qBaKNoYO5K4KdKKOvya89fNs2BU7TeGEDpaTrloI7x",
+   "status": "ready",
+   "mode": 1,
+   "perspective": "third_person",
+   "createdAt": "2026-10-08T20:32:37.140+00:00",
+   "uploadMode": "first_frame",
+   "attribution": "本席（早期 v0-a，据提示词与调用时刻）"
+  },
+  {
+   "name": "Geometric Void",
+   "encryptedWorldId": "8rcpnKlw6xp3FtpLvZIGB_wg3Z1hMjTLvrUso3I2oXk7uUb8fS_MDUHY-F14PDMt",
+   "status": "ready",
+   "mode": 1,
+   "perspective": "third_person",
+   "createdAt": "2026-10-08T19:35:33.215+00:00",
+   "uploadMode": "first_frame",
+   "attribution": "★非本席（未指认归属）"
+  }
+ ]
+}

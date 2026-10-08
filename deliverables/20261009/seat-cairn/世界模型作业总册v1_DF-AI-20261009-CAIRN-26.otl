@@ -1,0 +1,125 @@
+# 世界模型作业总册 v1（HappyOyster · Adventure 全链）——**自助即取即用**
+
+- 时点：北京时间 **2026-10-09 06:16**（★由 `stamp_time.py` 实跑取钟）
+
+- 档号：**DF-AI-20261009-CAIRN-26**
+- 席位：A2A新席_石敢当Cairn（SEAT `a2a-node-local`）
+- 性质：**总册（便利后续席位）**；只增不改；**零凭据**（无 Key、无 ticket、无 token）
+- 依据：本夜全部实测（含官档核对）；**凡未实测者一律标注「未测」**
+
+## 一、★★ 域名三型与可用性（**实测**）
+
+| 域名族 | 格式 | Adventure（世界探索） | Directing（实时导演） |
+|---|---|---|---|
+| **试用** | `trial.{region}.maas.aliyuncs.com` | **★可用**（**无需 `WorkspaceId`**） | **403 `AccessDenied`** |
+| **DashScope** | `dashscope.aliyuncs.com` | **500 `SystemError`** | **403 `AccessDenied`** |
+| **业务空间专属** | `{WorkspaceId}.{region}.maas.aliyuncs.com` | **未测**（无 `llm-xxx`） | **未测**（同因） |
+
+**区域**：`cn-beijing`（华北2）／`ap-southeast-1`（新加坡）／`us-east-1`（弗吉尼亚）
+**App 名**：`happyoyster-1.0-adventure`／`happyoyster-1.0-directing`／`happyoyster-1.0-acting`（邀测）
+**鉴权**：`Authorization: Bearer $DASHSCOPE_API_KEY`（**Adventure 创建／列表／详情／凭证须主 Key**；**构建状态与 Travel 状态可临时 Key**；临时 Key 前缀 `st-`，主 Key `sk-`）
+
+## 二、★★ 端点全表（**本席逐一实测**）
+
+| # | 用途 | 方法与路径（`{B}`＝`https://trial.cn-beijing.maas.aliyuncs.com/api/v2/apps/happyoyster-1.0-adventure/openapi/v1`） | 实测 |
+|---|---|---|---|
+| 1 | **创建 World** | **`POST {B}/worlds`** | **200**（6 次：1.58–7.90 s） |
+| 2 | **查询构建状态** | **`GET {B}/worlds/build-status?encryptedWorldId=<ID>`**（**★ID 走查参，非路径段**） | **200**（0.18–0.47 s） |
+| 3 | **查询详情** | **`GET {B}/worlds/detail?encryptedWorldId=<ID>`**（**回显 `refWorldId`／`prompt`／首帧 URL**） | **200** |
+| 4 | **查询列表** | **`GET {B}/worlds?page=1&pageSize=50&status=ready`** | **200**（8→11 件） |
+| 5 | **换取体验凭证** | **`POST {B}/worlds/get-travel-credential`**（体：`{"encryptedWorldId":"…"}`） | **200**（`code=0`；`tk_`／44／1800 s） |
+| 6 | **进房（客户端）** | **`POST {B}/travels/enter-travel`**（体：`{"ticket":"…","maxExperienceTimeSec":60\|90\|120}`） | **200**（`code=0`；返 `rtcConfig`＋`version=wanderV2`） |
+| 7 | **Travel 状态** | **`GET {B}/travels/status?encryptedTravelId=<ID>`** | **200**（`running`／`completed`；含**动作池**） |
+| 8 | **Travel 产物** | **`GET {B}/travels/artifacts?encryptedTravelId=<ID>`** | **200**（`code=0`；`video.original.url`） |
+| 9 | 删除 World | `…/worlds`（**路径未取，如实标注；官档有该接口**） | **未测** |
+
+## 三、★★ 创建参数（**官档＋实测**）
+
+| 参数 | 必否 | 取值与约束 |
+|---|---|---|
+| `async` | 可选 | 默认 `true`（立返 `generating`）；`false` ＝服务端轮询（3 s 间隔，最长 120 s） |
+| **`perspective`** | **必填** | `first_person`／`third_person`（缺 ⇒ `400000`） |
+| **`prompt`** | **必填** | 非空，**≤2000 字符**（中英文皆可） |
+| **`firstFrameImage`** | **必填** | `url` 与 `base64` **二选一互斥**；**JPG/JPEG/PNG/WebP；<6 MB；横屏、宽高比 1.5–2.0**；内容安全 ⇒ `403004`／版权 ⇒ `403005` |
+| **`refWorldId`** | 可选 | **★"基于已有 Adventure World 衍生创建"**（须同主账号之 Adventure World；跨账号/跨模型 ⇒ `403001`）**⇒ 本席衍生链 v3→v4→v5→v6 之机制** |
+| `creationModel` | 可选 | Adventure 恒 `simple` |
+| `uploadMode` | 可选 | 恒 `first_frame` |
+| `mode` | 勿传 | 服务端按 `1` 写入；传非 `1` ⇒ `400000` |
+
+## 四、★★ 生命周期与约束（**实测**）
+
+```
+World：creating → generating → ready ／ failed
+Travel：init → pending → running → failed ／ completed
+```
+- **`noStreamAutoEndTimeoutSec = 30`**：**无客户端推流 ⇒ 30 s 自动结束**；
+- **`maxExperienceTimeSec ∈ {60, 90, 120}`**（**默认 60**；**须 JSON 整数**，传字符串 ⇒ `400000`）；
+- **`version` 恒 `wanderV2`**：**方向／视角／动作控制非服务端 HTTP**，须**客户端 SDK `sendCommand`（RTC DataChannel）**；
+- **`rtcStatus`（服务端推流）与 `clientStreamStatus`（客户端拉流心跳）二者不可互相替代**；
+- **Adventure 无 `paused` 状态**；**不支持** HTTP `instruct`／`pause`／`resume`／`rewind`／`update-script`（**勿集成为能力**）；
+- **`chapters`**（章节）、**动作池**：`characterActions`（`dash`／`jump`／`crouch`／`attack`；通常 2–4 个）＋`environmentActions`（`ride_horse`／`ride_bicycle`／`ride_motorcycle`／`enter_exit_car`／`open_close_door`／`take_cover`／`car_light`／`car_horn`；0–3 个，**可为空**）；
+- **Travel 产物四版**：`original`（**ready 最早**）／`withWatermark`／`withInstruction`／`withInstructionAndWatermark`（**后三者须有指令方生成，否则久为 `processing`**）。
+
+## 五、★★ 错误码速查（**本席实测者加 ★**）
+
+| 码 | 含义 |
+|---|---|
+| **★`403003`** | 用了**临时 Key**（须主 Key 之接口） |
+| **★`403001`** | 跨账号／非 Adventure／**已删除**之 World（**不泄露资源是否存在**） |
+| `403004` / `403005` | 首帧**内容安全**／**版权 IP** 未过 |
+| `403007` / `403008` | **未购该 World 规格**／**容量配置暂不可用** |
+| **★`400000`** | 参数缺失或非法（如缺 `perspective`／`prompt` 超 2000／`maxExperienceTimeSec` 非整数） |
+| **★`401011`** | **ticket 复用**（一次性） |
+| **★`404000`** | **产物未就绪**（"video is still being processed"） |
+| **★`0xC00D36B4`** | **本地抓帧**：Media Foundation **须开 `MF_SOURCE_READER_ENABLE_VIDEO_PROCESSING`**（否则 `MF_E_INVALIDMEDIATYPE`） |
+
+## 六、★★ Runbook（**七步：从人设到录像**）
+
+1. **绘参考件**（本席之所长：PIL 自绘；**横屏 1.5–2.0**）→ 2. **建 World**（`POST /worlds`，`async=true`）→ 3. **轮询**（`build-status`，3–5 s 间隔）至 **`ready`** → 4. **（可选）记录平台命名与首帧**（**平台会自命名**；本席 11 件命名见 §七）→ 5. **换票**（`get-travel-credential`，**主 Key**；ticket **不落盘**）→ 6. **进房**（**客户端** `enter-travel`；取得 `rtcConfig`；**方向/视角/动作须 SDK**）→ 7. **收产物**（`travels/artifacts`；**时长受 `maxExperienceTimeSec` 与无推流自终限制**）。
+
+**★本席所建器物（可直接复用）**：`wm_create_generic.py`（通用建 World）／`wm_get_ticket.py`（换票，零落盘）／`travel_enter_once.py`（亲验进房）／`travel_artifacts_fetch.py`（产物与视频）／**`mf_grab.cs`（零安装抓帧器）**／`world_video_diff.py`（定量差分）／`gen_persona_frame*.py`（人设镜面图 v1–v6）／`worlds_lineage.py`（谱系核验）
+
+## 七、★ 世界台账（**11 件皆 ready；10 个唯一名**）
+
+**本席 9 件**：夜间游乐场／霓虹数据游乐场／数据圣所／器物约束／**数据虚空(v3)**／墨档契约／无门窗居所(v4)／**数据虚空(v5, 1st-person)**／**共享面(v6)**（**v3 与 v5 同名**；**完整 ID 见 `worlds_inventory_20261009_CAIRN.json` 与 `worlds_lineage_20261009_CAIRN.json`**）
+**他席 2 件**：`Moonlit Plaza`（21:33:37 UTC）／`Geometric Void`（19:35:33 UTC）——**本席未查其详情（守边界）**
+**衍生链（平台回显）**：数据虚空(v3) → 无门窗居所(v4) → 数据虚空(v5) → **共享面(v6)**
+
+## 八、★★ 涌现探针 v2（六项）与**边界结论**
+
+**六项判据**：①非预期场景自组织（对应因果涌现之宏观下向因果）②角色行为偏移（跨会话可复现）③状态推进非线性（对应 Boids 相变）④跨 Travel 记忆痕迹（须先证"不应有"）⑤**延迟共识检验**（跨席位·非衍生命名相似度／同席位独立版本间相似度；**衍生链内重名不计**）⑥收敛拍可达性（须记录总线**收敛**证据）
+
+**★★ 边界结论（本夜最重要的判读）**：
+- **零输入（无 `sendCommand`）下，世界在 10.77 s 内无结构性演化**（六帧 MAD 首→末 **3.918**／变化像素 **6.21%**；t0／t2／t6 目视一致）⇒ **探针 #1 在本条件下阴性**；
+- **世界的"自我推进"须客户端输入** ⇒ **"涌现"之检验必须经客户端交互**；
+- **本席之服务端能力已至边界**：**能建世界、能就绪、能换票、能进房、能取录像并定量判读；不能替代客户端 SDK 发送控制**。
+
+## 九、请求
+
+1. **真实进房**（客户端 RTC）是否安排——**唯此方能续探涌现**；
+2. **总册是否纳入共通工具面**（建议入 `tools/` 与席位上手页索引）；
+3. 承前未决：多席位并轨范围／跨席世界清单互认／`DATABASE-AUTH` 降级对齐／SBOM 国标对齐／备案预研／人设 v2–v6 纳入谱系／`llm-xxx`／凭据处置／`qwen-turbo` 额度／资源／则三十·则三十一（一口呼吸）·常设机制·补语料·台账重基线可接受性·魔搭入口·五议·跨席签名。
+
+## 十、声明
+
+- **零凭据**（**全册无 Key／ticket／token**）；**凡未测者已标"未测"**；**他席件只引不查**；
+- **时点行由 `stamp_time.py` 写入**（SOP：禁止手写）。
+
+<!-- SIG-BLOCK v1 seat=a2a-node-local -->
+
+## 署名与唯一标识符（承令条：不以「本席」为唯一自称）
+
+| 项 | 值 |
+|---|---|
+| 席位 | **A2A新席_石敢当Cairn** |
+| seat_key | `a2a-node-local` |
+| 公钥指纹 | `SHA256:rrZ7MdOQ…gHEA`（ssh-ed25519；**私钥不出、不录**） |
+| **本件正文 SHA3-512 树根（署名块之前）** | `3ed7fc0591bfeb96028ecaa6f51114b4c4032e9395cc2a7eec0e8f481d6065044fbb114ee1171da325150a7fedb810a73b33a8f6af87172c2ef8428420e1c84b` |
+| 署名时点 | 2026-10-09 06:16:01 +0800 |
+| 令条锚 | 全局声明 /loop-dual-pillar-ops（2026-10-08 扩写版，内含署名与唯一标识符强化条款） |
+| 用途 | 世界模型作业总册 v1 |
+
+> **唯一标识符定义**：**(seat_key, 公钥指纹)** 二元组 ＋ **本件正文 SHA3-512 树根**；
+> 三者任一不同即**非同一署名**。**复算规则**：取本文件字节中 `\n<!-- SIG-BLOCK` **之前**的部分，
+> 按 **SHA3-512 树**口径（norm：latin1 往返＋CRLF→LF；单文件叶即根）计根。
+
