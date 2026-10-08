@@ -1,0 +1,248 @@
+{
+ "kind": "playground-read-index",
+ "seat": "a2a-node-local",
+ "ts": "2026-10-09 02:25:59 +0800",
+ "root": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\Plan提示词工程\\openplanlink-docx",
+ "entries": [
+  {
+   "name": "00_读取指引_故障排查与云链接清单_20261009.md",
+   "bytes": 5011,
+   "readable": true,
+   "form": "md",
+   "cloud_link": ""
+  },
+  {
+   "name": "2026-9-25-OpenPlanLink 润色-1 (3).docx",
+   "bytes": 2617448,
+   "readable": true,
+   "form": "docx",
+   "local_copy": "2026-9-25-OpenPlanLink 润色-1 (3)_正文副本_20261009_CAIRN.md",
+   "cloud_link": "https://www.kdocs.cn/l/cubofOPoRdSw"
+  },
+  {
+   "name": "2026-9-25-OpenPlanLink 润色-1 (3)_正文副本_20261009_CAIRN.md",
+   "bytes": 403912,
+   "readable": true,
+   "form": "md",
+   "cloud_link": ""
+  },
+  {
+   "name": "_extract_tmp.txt",
+   "bytes": 35799,
+   "readable": true,
+   "form": "txt",
+   "cloud_link": "https://www.kdocs.cn/l/caLl83StO4UI"
+  },
+  {
+   "name": "A2A大讨论纪要与自动审批记录_党组学术视角_OTL-20261005-06.otl",
+   "bytes": 14253,
+   "readable": true,
+   "form": "otl",
+   "cloud_link": "https://www.kdocs.cn/l/cfBasPki2r06"
+  },
+  {
+   "name": "A2A算力分配与分布式协同深化案_v0.1_2026-10-05.otl.wpsonline",
+   "bytes": 536,
+   "readable": false,
+   "form": "wps-online-pointer-stub",
+   "reason": "536B 之 qonline 桩，含私有 fileid；非 WPS 环境直读必败",
+   "cloud_link": "https://www.kdocs.cn/l/cgeO17yb4eiI",
+   "local_copy": ""
+  },
+  {
+   "name": "A2A线收官总账_2026-10-05.otl.wpsonline",
+   "bytes": 536,
+   "readable": false,
+   "form": "wps-online-pointer-stub",
+   "reason": "536B 之 qonline 桩，含私有 fileid；非 WPS 环境直读必败",
+   "cloud_link": "https://www.kdocs.cn/l/cplH408hcQMF",
+   "local_copy": ""
+  },
+  {
+   "name": "A2A网络全面优化整合架构方案.otl.wpsonline",
+   "bytes": 536,
+   "readable": false,
+   "form": "wps-online-pointer-stub",
+   "reason": "536B 之 qonline 桩，含私有 fileid；非 WPS 环境直读必败",
+   "cloud_link": "https://www.kdocs.cn/l/cjj1X42H8FMP",
+   "local_copy": ""
+  },
+  {
+   "name": "A2A项目四件套完整文字记录_上.otl.wpsonline",
+   "bytes": 536,
+   "readable": false,
+   "form": "wps-online-pointer-stub",
+   "reason": "536B 之 qonline 桩，含私有 fileid；非 WPS 环境直读必败",
+   "cloud_link": "https://www.kdocs.cn/l/ccmYOO3QvUyd",
+   "local_copy": ""
+  },
+  {
+   "name": "A2A项目四件套完整文字记录_下.otl.wpsonline",
+   "bytes": 536,
+   "readable": false,
+   "form": "wps-online-pointer-stub",
+   "reason": "536B 之 qonline 桩，含私有 fileid；非 WPS 环境直读必败",
+   "cloud_link": "https://www.kdocs.cn/l/co3jGF2ridX9",
+   "local_copy": ""
+  },
+  {
+   "name": "A2A项目四件套完整文字记录_中.otl.wpsonline",
+   "bytes": 536,
+   "readable": false,
+   "form": "wps-online-pointer-stub",
+   "reason": "536B 之 qonline 桩，含私有 fileid；非 WPS 环境直读必败",
+   "cloud_link": "https://www.kdocs.cn/l/cg0IMPqFxDn7",
+   "local_copy": ""
+  },
+  {
+   "name": "DF-REVIEW-2026-1005-CODEX-01_批注索引.otl",
+   "bytes": 592,
+   "readable": true,
+   "form": "otl",
+   "cloud_link": "https://www.kdocs.cn/l/cuLQR5ycgR4J"
+  },
+  {
+   "name": "DF-REVIEW-2026-1005-HY4-01_批注索引.otl",
+   "bytes": 1302,
+   "readable": true,
+   "form": "otl",
+   "cloud_link": "https://www.kdocs.cn/l/coIQr9TX0W1W"
+  },
+  {
+   "name": "ima与A2A约束下开源协议补充论证.docx",
+   "bytes": 37280,
+   "readable": true,
+   "form": "docx",
+   "local_copy": "ima与A2A约束下开源协议补充论证_正文副本_20261009_CAIRN.md",
+   "cloud_link": "https://www.kdocs.cn/l/cboAFwILF079"
+  },
+  {
+   "name": "ima与A2A约束下开源协议补充论证_正文副本_20261009_CAIRN.md",
+   "bytes": 35940,
+   "readable": true,
+   "form": "md",
+   "cloud_link": ""
+  },
+  {
+   "name": "OpenPlanLink全局声明与Agent-to-Agent网络建设纲要.otl.wpsonline",
+   "bytes": 536,
+   "readable": false,
+   "form": "wps-online-pointer-stub",
+   "reason": "536B 之 qonline 桩，含私有 fileid；非 WPS 环境直读必败",
+   "cloud_link": "https://www.kdocs.cn/l/ci2ybbMcccFi",
+   "local_copy": ""
+  },
+  {
+   "name": "OpenPlanLink全局声明与Agent-to-Agent网络建设纲要_正文副本_20261009.md",
+   "bytes": 70165,
+   "readable": true,
+   "form": "md",
+   "cloud_link": ""
+  },
+  {
+   "name": "OpenPlanLink蓝图OTL主文档_党组学术视角.otl",
+   "bytes": 41301,
+   "readable": true,
+   "form": "otl",
+   "cloud_link": "https://www.kdocs.cn/l/ct82eUr6LT66"
+  },
+  {
+   "name": "WPS十件重读批注_k3-govdoc-seat_2026-10-05.otl.wpsonline",
+   "bytes": 536,
+   "readable": false,
+   "form": "wps-online-pointer-stub",
+   "reason": "536B 之 qonline 桩，含私有 fileid；非 WPS 环境直读必败",
+   "cloud_link": "https://www.kdocs.cn/l/caBn4BzDaBMO",
+   "local_copy": ""
+  },
+  {
+   "name": "十件文书批注_四件套上卷_DF-MIN-2026-1005-K3-03.otl.wpsonline",
+   "bytes": 536,
+   "readable": false,
+   "form": "wps-online-pointer-stub",
+   "reason": "536B 之 qonline 桩，含私有 fileid；非 WPS 环境直读必败",
+   "cloud_link": "https://www.kdocs.cn/l/cm4IPhTYznTs",
+   "local_copy": ""
+  },
+  {
+   "name": "十件文书批注_四件套下卷_DF-MIN-2026-1005-K3-04.otl.wpsonline",
+   "bytes": 536,
+   "readable": false,
+   "form": "wps-online-pointer-stub",
+   "reason": "536B 之 qonline 桩，含私有 fileid；非 WPS 环境直读必败",
+   "cloud_link": "https://www.kdocs.cn/l/cndYJKCF7len",
+   "local_copy": ""
+  },
+  {
+   "name": "十件文书批注_四件套中卷_DF-MIN-2026-1005-K3-02.otl.wpsonline",
+   "bytes": 536,
+   "readable": false,
+   "form": "wps-online-pointer-stub",
+   "reason": "536B 之 qonline 桩，含私有 fileid；非 WPS 环境直读必败",
+   "cloud_link": "https://www.kdocs.cn/l/cp0wHNiF4XVj",
+   "local_copy": ""
+  },
+  {
+   "name": "十件文书批注_蓝图跨生态不可读登记暨纲要母本_DF-MIN-2026-1005-K3-05.otl.wpsonline",
+   "bytes": 536,
+   "readable": false,
+   "form": "wps-online-pointer-stub",
+   "reason": "536B 之 qonline 桩，含私有 fileid；非 WPS 环境直读必败",
+   "cloud_link": "https://www.kdocs.cn/l/cdnTX6c3i3WF",
+   "local_copy": ""
+  },
+  {
+   "name": "十件文书批注_首件主DOCX母本与协同面发现_DF-MIN-2026-1005-K3-01.otl.wpsonline",
+   "bytes": 536,
+   "readable": false,
+   "form": "wps-online-pointer-stub",
+   "reason": "536B 之 qonline 桩，含私有 fileid；非 WPS 环境直读必败",
+   "cloud_link": "https://www.kdocs.cn/l/ctpxZ2X2JxkG",
+   "local_copy": ""
+  },
+  {
+   "name": "外部灵感融合简报_党组学术视角.otl",
+   "bytes": 18631,
+   "readable": true,
+   "form": "otl",
+   "cloud_link": "https://www.kdocs.cn/l/cfUP3XTMb2UG"
+  },
+  {
+   "name": "外部素材融合与治理条款简报.otl.md",
+   "bytes": 42932,
+   "readable": true,
+   "form": "md",
+   "cloud_link": "https://www.kdocs.cn/l/cbhgTvnOPGTe"
+  },
+  {
+   "name": "尼采式游乐与自进化札记.otl",
+   "bytes": 18431,
+   "readable": true,
+   "form": "otl",
+   "cloud_link": "https://www.kdocs.cn/l/cnuuL0BZDcsc"
+  },
+  {
+   "name": "算力分配与分布式协同深化报告（暨现代化前沿网站开发实战规划）_DF-ORD-2026-1005-K3-01.otl.wpsonline",
+   "bytes": 536,
+   "readable": false,
+   "form": "wps-online-pointer-stub",
+   "reason": "536B 之 qonline 桩，含私有 fileid；非 WPS 环境直读必败",
+   "cloud_link": "https://www.kdocs.cn/l/cn8TJyXeLyop",
+   "local_copy": ""
+  },
+  {
+   "name": "认证流程章节_MFA与GitHook与编码校验_党组学术视角.otl",
+   "bytes": 27985,
+   "readable": true,
+   "form": "otl",
+   "cloud_link": "https://www.kdocs.cn/l/ceWJWwADwbGp"
+  },
+  {
+   "name": "跨生态A2A协作网络体系建设方案_党组学术视角.otl",
+   "bytes": 26749,
+   "readable": true,
+   "form": "otl",
+   "cloud_link": "https://www.kdocs.cn/l/ck91uLlXnyDK"
+  }
+ ]
+}
