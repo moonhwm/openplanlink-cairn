@@ -323,5 +323,11 @@
   "AccessKey RAM角色.csv",
   "AccessKey 阿里云百炼主账户.csv"
  ],
- "zero_value": "本清单不含任何凭据值/MAC/IP/sendkey；哈希仅对被移件"
+ "zero_value": "本清单不含任何凭据值/MAC/IP/sendkey；哈希仅对被移件",
+ "round2": {
+  "moved_extra": 8,
+  "top_entries_final": 37,
+  "note": "收尾：8 件工作散件入 指针与报告\\ 与 _tmp脚本\\；顶层余 22 快捷方式＋2 游戏链接＋2 凭据 CSV＋11 目录",
+  "ts": "2026-10-09 00:00:29 +0800"
+ }
 }
