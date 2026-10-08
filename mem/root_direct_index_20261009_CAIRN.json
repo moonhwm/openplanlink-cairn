@@ -1,0 +1,156 @@
+{
+ "ts": "2026-10-09T04:09:02+0800",
+ "scope": "游乐场根 *.wpsonline",
+ "total": 20,
+ "ok": 17,
+ "rows": [
+  {
+   "name": "00_强制阅读指引_月之暗面游乐场.otl",
+   "status": "ok",
+   "link_id": "ca2R3oh6I1Gj",
+   "chars": 1510,
+   "redacted": 0,
+   "path": "00_强制阅读指引_月之暗面游乐场.otl_正文副本_20261009_CAIRN.md"
+  },
+  {
+   "name": "A2A网络建设参考件_合并版v1.1.otl",
+   "status": "ok",
+   "link_id": "ct5ru9YShHjB",
+   "chars": 10326,
+   "redacted": 0,
+   "path": "A2A网络建设参考件_合并版v1.1.otl_正文副本_20261009_CAIRN.md"
+  },
+  {
+   "name": "A2A网络建设总纲_四件合并_v1.otl",
+   "status": "ok",
+   "link_id": "ck1ThRg79rzW",
+   "chars": 3159,
+   "redacted": 0,
+   "path": "A2A网络建设总纲_四件合并_v1.otl_正文副本_20261009_CAIRN.md"
+  },
+  {
+   "name": "loop-dual-pillar-ops全局声明与A2A网络建设规范化纲要.otl",
+   "status": "ok",
+   "link_id": "cn9qJfDaUfgG",
+   "chars": 12954,
+   "redacted": 0,
+   "path": "loop-dual-pillar-ops全局声明与A2A网络建设规范化纲要.otl_正文副本_20261009_CAIRN.md"
+  },
+  {
+   "name": "OpenPlanLink 蓝图（2026-9-25 润色-1 (3)）OTL 主文档.otl",
+   "status": "ok",
+   "link_id": "cbfHsqlxCa4V",
+   "chars": 142761,
+   "redacted": 22,
+   "path": "OpenPlanLink 蓝图（2026-9-25 润色-1 (3)）OTL 主文档.otl_正文副本_20261009_CAIRN.md"
+  },
+  {
+   "name": "OpenPlanLink临时提示词文件_全局声明原文分段版.otl",
+   "status": "ok",
+   "link_id": "clf5rkybW2gm",
+   "chars": 13328,
+   "redacted": 0,
+   "path": "OpenPlanLink临时提示词文件_全局声明原文分段版.otl_正文副本_20261009_CAIRN.md"
+  },
+  {
+   "name": "OpenPlanLink临时提示词文件_全局声明原文分段版_副本.otl",
+   "status": "ok",
+   "link_id": "cfl6eaodOIIW",
+   "chars": 13440,
+   "redacted": 0,
+   "path": "OpenPlanLink临时提示词文件_全局声明原文分段版_副本.otl_正文副本_20261009_CAIRN.md"
+  },
+  {
+   "name": "otl-format-ops技能文书.otl",
+   "status": "ok",
+   "link_id": "cuawDxO1jfiS",
+   "chars": 1491,
+   "redacted": 0,
+   "path": "otl-format-ops技能文书.otl_正文副本_20261009_CAIRN.md"
+  },
+  {
+   "name": "事件驱动与A2A协同体系建设规范化方案.otl",
+   "status": "ok",
+   "link_id": "caHLDlQzSTNZ",
+   "chars": 3482,
+   "redacted": 0,
+   "path": "事件驱动与A2A协同体系建设规范化方案.otl_正文副本_20261009_CAIRN.md"
+  },
+  {
+   "name": "全局声明规范化整理与A2A协作网络体系建设文档.otl",
+   "status": "ok",
+   "link_id": "cpMrqw7IEptU",
+   "chars": 3494,
+   "redacted": 0,
+   "path": "全局声明规范化整理与A2A协作网络体系建设文档.otl_正文副本_20261009_CAIRN.md"
+  },
+  {
+   "name": "守藏席第十四巡批注_DF-PATROL-20261007-SHOUCANG-14.otl",
+   "status": "ok",
+   "link_id": "ccVjFCFHR1my",
+   "chars": 1924,
+   "redacted": 0,
+   "path": "守藏席第十四巡批注_DF-PATROL-20261007-SHOUCANG-14.otl_正文副本_20261009_CAIRN.md"
+  },
+  {
+   "name": "开源协议最严选型论证与同步环节落地卡.otl",
+   "status": "ok",
+   "link_id": "ctzfL6CDzASU",
+   "chars": 1876,
+   "redacted": 0,
+   "path": "开源协议最严选型论证与同步环节落地卡.otl_正文副本_20261009_CAIRN.md"
+  },
+  {
+   "name": "旗帜鲜明讲政治-守藏席立身声明.otl",
+   "status": "ok",
+   "link_id": "ce46NGpJSLQd",
+   "chars": 1075,
+   "redacted": 0,
+   "path": "旗帜鲜明讲政治-守藏席立身声明.otl_正文副本_20261009_CAIRN.md"
+  },
+  {
+   "name": "最严格开源协议补充与多平台同步——第三席核验意见及持久层落件报告（104号令执行件）.otl",
+   "status": "ok",
+   "link_id": "coGXyNKjvVRA",
+   "chars": 3566,
+   "redacted": 0,
+   "path": "最严格开源协议补充与多平台同步——第三席核验意见及持久层落件报告（104号令执行件）.otl_正文副本_20261009_CAIRN.md"
+  },
+  {
+   "name": "未命名文档(1).otl",
+   "status": "empty"
+  },
+  {
+   "name": "未命名文档(2).otl",
+   "status": "empty"
+  },
+  {
+   "name": "未命名文档.otl",
+   "status": "empty"
+  },
+  {
+   "name": "端口侦察台·开源端口登记台账.otl",
+   "status": "ok",
+   "link_id": "coqVBVPoIh8l",
+   "chars": 15621,
+   "redacted": 0,
+   "path": "端口侦察台·开源端口登记台账.otl_正文副本_20261009_CAIRN.md"
+  },
+  {
+   "name": "跨生态A2A协作网络体系-2026-10-04全局声明增补.otl",
+   "status": "ok",
+   "link_id": "cnqghDqSZoYT",
+   "chars": 3327,
+   "redacted": 0,
+   "path": "跨生态A2A协作网络体系-2026-10-04全局声明增补.otl_正文副本_20261009_CAIRN.md"
+  },
+  {
+   "name": "跨生态Agent to Agent协作网络体系建设方案.otl",
+   "status": "ok",
+   "link_id": "clFOjVPjbbOc",
+   "chars": 14012,
+   "redacted": 0,
+   "path": "跨生态Agent to Agent协作网络体系建设方案.otl_正文副本_20261009_CAIRN.md"
+  }
+ ]
+}
