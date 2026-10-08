@@ -1,0 +1,46 @@
+{
+ "ts": "2026-10-09T06:38:38+0800",
+ "carrier": "302.AI (api.302ai.cn)",
+ "model": "claude-opus-5",
+ "http": 200,
+ "sec": 11.67,
+ "usage": {
+  "prompt_tokens": 802,
+  "completion_tokens": 500,
+  "total_tokens": 1302,
+  "usage_semantic": "openai",
+  "usage_source": "anthropic",
+  "billing_usage": {
+   "source": "claude_messages",
+   "semantic": "anthropic",
+   "claude_usage": {
+    "input_tokens": 802,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 500,
+    "cache_creation": {},
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  },
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "text_tokens": 0,
+   "audio_tokens": 0,
+   "image_tokens": 0
+  },
+  "completion_tokens_details": {
+   "text_tokens": 0,
+   "audio_tokens": 0,
+   "image_tokens": 0,
+   "reasoning_tokens": 0
+  },
+  "input_tokens": 802,
+  "output_tokens": 0,
+  "input_tokens_details": null,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0
+ },
+ "note": "★投喂材料为本席实测数据；**未投喂本席结论**（免诱导）",
+ "raw": "{\"q1_structural_change\":\"NO\",\"q1_reason\":\"逐帧MAD<1、变化像素约1%，仅编码/光照级微动；目视三帧结构一致，0→2s差异源于起播渐显\",\"q2_emergence_supported\":\"NO\",\"q2_reason\":\"控制须由客户端DataChannel下发，零输入下静止本属可预期；该数据无判别力，不构成涌现证据\",\"q3_minimal_probe\":\"同World同种子下跑A/B：A零输入、B由SDK发固定脚本指令序列；比较MAD/光流与新结构出现，并记录DataChannel收包与会话时长\",\"confid"
+}

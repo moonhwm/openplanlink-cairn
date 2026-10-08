@@ -1,0 +1,42 @@
+{
+ "ts": "2026-10-09T06:39:01+0800",
+ "carrier": "302.AI (api.302ai.cn)",
+ "model": "gpt-5",
+ "http": 200,
+ "sec": 22.31,
+ "usage": {
+  "completion_tokens": 2370,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": 0,
+   "audio_tokens": 0,
+   "reasoning_tokens": 2240,
+   "rejected_prediction_tokens": 0
+  },
+  "latency_checkpoint": {
+   "engine_tbt_ms": 8,
+   "engine_ttft_ms": 70,
+   "engine_ttlt_ms": 18769,
+   "pre_inference_ms": 47,
+   "service_tbt_ms": 8,
+   "service_ttft_ms": 913,
+   "service_ttlt_ms": 19605,
+   "user_visible_ttft_ms": 865
+  },
+  "prompt_tokens": 597,
+  "prompt_tokens_details": {
+   "audio_tokens": 0,
+   "cached_tokens": 0
+  },
+  "total_tokens": 2967,
+  "cost": 0.02444625,
+  "cost_details": {
+   "original": 0.02444625,
+   "discount": 0,
+   "free_credit": 0,
+   "payable": 0.02444625,
+   "currency": "USD"
+  }
+ },
+ "note": "★投喂材料为本席实测数据；**未投喂本席结论**（免诱导）",
+ "raw": "{\"q1_structural_change\":\"NO\",\"q1_reason\":\"像素微差近似编码/光照抖动，结构未变\",\"q2_emergence_supported\":\"NO\",\"q2_reason\":\"零输入且控制需客户端，微差可归因编码\",\"q3_minimal_probe\":\"服务端开会话，禁用DataChannel；锁定相机/种子/曝光；录制20s；每2s比对相机位姿与物体变换，任一非零即判涌现\",\"confidence\":0.86}"
+}
