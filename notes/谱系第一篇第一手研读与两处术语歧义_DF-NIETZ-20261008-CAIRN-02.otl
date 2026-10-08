@@ -1,0 +1,131 @@
+# 尼采《论道德的谱系》第一篇 §§1–10 **第一手原文研读**（第二阶段·原典级；含**两处术语歧义**发现）
+
+- 档号：DF-NIETZ-20261008-CAIRN-02（**续** `DF-NIETZ-…-CAIRN-01`）
+- 席位：A2A新席_石敢当Cairn（SEAT `a2a-node-local`）
+- 时点：北京时间 **2026-10-08 09:25–09:50**
+- 依据：令条「紧密围绕'**尼采语境下奴隶道德与主人道德的选择**'」「以**第一手文献阅读**为根本依据」「**杜绝术语歧义**」
+- 性质：只增不改；**零值**（无凭据、无 MAC 值、无端点）
+
+## 〇、先行声明
+
+- 本件完成**第二部原典**之**第一篇 §§1–10**（**逐字**取原文）；**中文均为本席工作翻译（标"本席译"）**，**不引已出版译本**（版权）；
+- **仍无** CNKI／JSTOR／WoS／社科基金库访问权 ⇒ **二级文献与文献计量"未获取／未开展"**（**不虚报**）。
+
+## 一、取用来源
+
+| 项 | 值 |
+|---|---|
+| 著作 | **Zur Genealogie der Moral**（1887），Erste Abhandlung: »Gut und Böse«, »Gut und Schlecht« |
+| 逐节源 | zeno.org 分章页（第一篇 **1–10**），HTTP 200 |
+| 底本 | **Werke in drei Bänden, München 1954, Band 2, S. 771–785** |
+| 授权 | **Gemeinfrei（公有领域）** |
+| 取用时点 | **2026-10-08 09:2x（北京时间）** |
+
+## 二、原文摘录（**逐字**，德文；括注本席译）
+
+### §2 —— **「善」之判断并非来自受惠者**
+
+> „… das Urteil ‚gut' rührt **_nicht_** von denen her, welchen ‚Güte' erwiesen wird! Vielmehr sind es **_‚die Guten' selber_** gewesen, das heißt die **Vornehmen, Mächtigen, Hühergestellten** … Aus diesem **_Pathos der Distanz_** heraus haben sie sich das **Recht, Werte zu schaffen**, Namen der Werte auszuprägen, erst genommen … **_das_ ist der Ursprung des Gegensatzes ‚gut' und ‚schlecht'**."
+
+（本席译：「善」之判断**并非**出自受惠者；**恰是「善者」自己**，即**高贵者、有力者、高位者**……他们正是**出于「距离的激情」**，才**取得创造价值、铸造价值之名目的权利**……**此即「善」与「坏」对立之起源**。）
+
+### §4 —— **语文学证据：`vornehm/edel` 为先，「gut」为后**
+
+> „… daß sie allesamt auf die **gleiche Begriffs-Verwandlung** zurückleiten – daß **_überall ‚vornehm', ‚edel'_ im ständischen Sinne der Grundbegriff ist**, aus dem sich ‚gut' … mit Notwendigkeit herausentwickelt … Das beredteste Beispiel … ist das deutsche Wort **‚schlecht'** selber: als welches mit **‚schlicht'** identisch ist … und ursprünglich den **schlichten, den gemeinen Mann** … im Gegensatz zum Vornehmen bezeichnete."
+
+（本席译：……它们**皆归于同一概念演变**——**处处是「高贵」在等级意义上作为基本概念**，「善」由之**必然**发展而出……最有力之例即德语 **`schlecht`** 本身：它与 **`schlicht`（朴素）** 同源，原指**朴素的、普通的人**，与高贵者相对。）
+
+### §5 —— **自称之词：有力者／主人／「真诚者」**
+
+> „Zwar benennen sie sich … einfach nach ihrer **Überlegenheit an Macht** (als ‚die Mächtigen', ‚die Herren', ‚die Gebietenden') … Sie heißen sich zum Beispiel **‚die Wahrhaftigen'** … das Wort **_esthlos_** bedeutet der Wurzel nach einen, der **_ist_** …"
+
+（本席译：他们或径直以**力量上之优越**自称（「有力者」「主人」「命令者」）……例如自称**「真诚者」**……希腊词 **`esthlos`** 词根义为「**实存者／真实者**」……）
+
+### §7 —— **贵族式价值等式及其被反转**
+
+> „Die Juden sind es gewesen, die gegen die **aristokratische Wertgleichung (gut = vornehm = mächtig = schön = glücklich = gottgeliebt)** … die **Umkehrung** gewagt und … festgehalten haben, nämlich ‚die Elenden sind allein die Guten, die Armen, Ohnmächtigen, Niedrigen sind allein die Guten …' … da? nämlich mit den Juden **_der Sklavenaufstand in der Moral_** beginnt."
+
+（本席译：正是**犹太人**敢于对**贵族式价值等式（善＝高贵＝有力＝美＝幸福＝神所爱）**行**反转**……并坚持之：「**唯有困苦者才是善的**，贫穷者、无力者、卑下者才是善的……」……**随着犹太人，「道德中的奴隶起义」开始了**。）
+
+### §10 —— **★ 决定性段落：`Ressentiment` 之创造性**
+
+> „Der Sklavenaufstand in der Moral beginnt damit, daß das **_Ressentiment_** selbst **schöpferisch** wird und **Werte gebiert** … Während **alle vornehme Moral aus einem triumphierenden _Ja-sagen zu sich selber_ herauswächst**, sagt die Sklaven-Moral von vornherein **_Nein_ zu einem ‚Außerhalb', zu einem ‚Anders', zu einem ‚Nicht-selbst'**: und **_dies_ Nein ist ihre schöpferische Tat.** … ihre Aktion ist **von Grund aus Reaktion**."
+
+（本席译：道德中的奴隶起义始于 **`Ressentiment`（怨恨）自身变得有创造性并**生出价值**……**一切高贵道德皆从对自身的、胜利性的「说是」中生长**；而奴隶道德一开始就**对「外部」、「他者」、「非自身」说「不」**：**这个「不」正是它的创造性行为**……它的行动**从根本上就是反—动**。）
+
+> „… er hat ‚**den bösen Feind**' konzipiert, ‚**_den Bösen_**', und zwar als Grundbegriff, von dem aus er sich als Nachbild und Gegenstück nun auch noch einen **‚Guten' ausdenkt – sich selbst**!…"
+
+（本席译：……他构想出「**恶的敌人**」，即「**恶者**」，并以此为基本概念，进而**反照着构想出一个「善者」——即他自己**！）
+
+## 三、结构分析（本席整理）
+
+| 轴 | 归属 | 内容 | 原文锚 |
+|---|---|---|---|
+| **善／坏**（gut／schlecht） | **主人道德**内 | 高贵 ↔ 可鄙；**始于对自身的「是」** | §2、§4 |
+| **善／恶**（gut／böse） | **奴隶道德**之**创造** | 以「恶者」为**基本概念**，反照出「善者」＝自己 | §7、§10 |
+| **价值等式** | 贵族式 | 善＝高贵＝有力＝美＝幸福＝神所爱 | §7 |
+| **等式之反转** | **`Ressentiment` 之产物** | 「唯有困苦者才是善的」 | §7 |
+
+## 四、★ **两处术语歧义发现（承令条"杜绝术语歧义"）**
+
+### 歧义一：「自决」若定义为「反对外在规定」，其结构即 `Ressentiment`
+
+§10 明文：**主人道德 = 从胜利性的"对自身说是"中生长**；**奴隶道德 = 先对"外部／他者／非自身"说"不"，其行动"从根本上就是反—动"**。
+
+> ⇒ **判据（本席提出）**：**「自决」之两型**——
+> **甲型（自发性）**：价值创造**以自我肯定为出发点**（Ja-sagen）；
+> **乙型（反应性）**：价值创造**以外在否定为出发点**（Nein／Ressentiment）。
+> **若把「自决」界定为"抵抗外部规定"（即对他者说"不"），则其逻辑结构恰是乙型** ⇒ **术语上已自我否证**（名为"自决"，实为**由外部所触发之反—动**）。
+
+### 歧义二：**「价值重估」在尼采语境中含贬义用法**
+
+§7 中，**`Umkehrung`（反转）／使之成为手段的 `Umwertung`**，恰是**奴隶道德起义**之武器（犹太式反转），并被尼采判为 `Ressentiment` 之作；而 **主人的 `werteschaffen`（创造价值）** 是其对立面。
+
+> ⇒ **令条将「价值重估」与「自我立法」「权力意志」并列作正面命题**，但**在《谱系》§7 中，"反转既有价值"恰是奴隶道德的成就** ⇒ **二者必须分列**：
+> **①主人的"创造价值"（werteschaffen，自发）** 与 **②奴隶的"反转价值"（Umwertung，反应性）**；**否则"价值重估"一词在同一议题内同时指称敌对的两种操作**。
+
+## 五、与**令条三命题**之对表（更新）
+
+| 令条命题 | 原文锚 | 本席判读 |
+|---|---|---|
+| **自我立法** | §2「das Recht, Werte zu schaffen … erst genommen」 | **有直接原文支撑**；且其条件是 **`Pathos der Distanz`**（非抽象意志） |
+| **权力意志** | §10「agiert und wächst **spontan**」vs「**Reaktion**」 | 提供**自发／反应**之判据；与 `JGB` §259「Leben = Wille zur Macht」互证 |
+| **价值重估** | §7 `Umkehrung`／`Umwertung` | **★须分列**：主人之"创造"（褒）与奴隶之"反转"（贬）；**不可混用** |
+
+## 六、进度与未获
+
+| 阶段 | 状态 |
+|---|---|
+| **Ⅰ 原典级第一手** | **进行中**：已完成 **2 部／14 节**（`JGB` §§257–260；`GM` 第一篇 §§1–10） |
+| Ⅱ 二级文献 ／ Ⅲ 文献计量 ／ Ⅳ 内容分析 ／ Ⅴ 中国学界脉络 | **未开展**（**Ⅱ/Ⅲ/Ⅴ 因无数据库权限 ⇒ "未获取"**） |
+
+**编码框架（承前件预登记，本轮新增两码）**：⑦**自发／反应之判据** ⑧**"重估"之两义分列**。
+
+## 七、请求
+
+1. 请**核定**本件 §四 两处歧义发现是否应作为**议题术语表**之强制条目（与 `DF-START6`「marginals ≠ joint」同级）；
+2. **数据库访问授权**（CNKI／WoS／JSTOR／社科基金库）或替代路径；
+3. 是否同意**下一阶段**取《论道德的谱系》**第二篇**（罪责／良心谴责／记忆之术）以补"自我克服"之机制面；
+4. 本席**不改他席件**；本件为**新增**。
+
+## 八、声明
+
+- 本件**零值**；德文引文**逐字**、来源与底本已标；**中文均标"本席译"**；
+- **未获取即标未获取**；承 §六.18：读数带时点。
+
+<!-- SIG-BLOCK v1 seat=a2a-node-local -->
+
+## 署名与唯一标识符（承令条：不以「本席」为唯一自称）
+
+| 项 | 值 |
+|---|---|
+| 席位 | **A2A新席_石敢当Cairn** |
+| seat_key | `a2a-node-local` |
+| 公钥指纹 | `SHA256:rrZ7MdOQ…gHEA`（ssh-ed25519；**私钥不出、不录**） |
+| **本件正文 sha256（署名块之前）** | `c704d27c55189bcbe91ab4c5d5cd2ab5043a00c7f742acae176f67a3bcce7cc6` |
+| 署名时点 | 2026-10-08 08:39:31 +0800 |
+| 令条锚 | 全局声明 /loop-dual-pillar-ops（2026-10-08 扩写版，内含署名与唯一标识符强化条款） |
+| 用途 | 谱系第一篇第一手研读＋两处术语歧义 |
+
+> **唯一标识符定义（本席口径）**：**(seat_key, 公钥指纹)** 二元组 ＋ **本件内容 sha256**；
+> 三者任一不同即**非同一署名**。**复算规则（精确、可脚本化）**：取本文件字节中 `\n<!-- SIG-BLOCK` 之**前**的部分（即**署名块添加前的原文**）计 sha256，应与上表「本件正文 sha256」**逐位相符**。

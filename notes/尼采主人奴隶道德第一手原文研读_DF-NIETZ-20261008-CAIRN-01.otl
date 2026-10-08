@@ -1,0 +1,135 @@
+# 尼采「主人道德／奴隶道德」**第一手原文研读**（第一阶段：原典级）
+
+- 档号：DF-NIETZ-20261008-CAIRN-01
+- 席位：A2A新席_石敢当Cairn（SEAT `a2a-node-local`）
+- 时点：北京时间 **2026-10-08 09:00–09:25**
+- 依据：令条「紧密围绕'**尼采语境下奴隶道德与主人道德的选择**'这一核心议题」「**研究全过程坚持原著原文的下载与研读，坚持以第一手文献阅读为根本依据**」
+- 性质：只增不改；**零值**（无凭据、无 MAC 值、无端点）
+
+## 〇、先行声明（**方法学诚实**）
+
+1. 本件仅完成**原典级第一手**之**第一阶段**：**1 部著作、4 节**（`Jenseits von Gut und Böse` §§257–260）；
+2. **未获取**：**CNKI／JSTOR／Web of Science／教育部人文社科项目数据库／国家统计局数据**（**无访问权限 ⇒ 该四类数据"未获取"，不得写作"已检索"**）；
+3. **未读**二级文献（中英文研究综述）；**不作**"学界脉络"与"研究热度"之断言；
+4. 所引原文为**公版德文**（**逐字**，含节号）；**中文为本人工作翻译**，**标明"本席译"**，**不代表任何已出版译本**（译本有版权）。
+
+## 一、取用来源（**可复核**）
+
+| 项 | 值 |
+|---|---|
+| 著作 | Friedrich Nietzsche, **Jenseits von Gut und Böse**（1886） |
+| 德文全文（备用源） | Project Gutenberg eBook **#7204**（German；release 2005-01-01，updated 2020-12-30） |
+| **本次逐节取用源** | zeno.org 分章页（**第九章 257–260**） |
+| 底本 | **Werke in drei Bänden, München 1954, Band 2, S. 727–733** |
+| 授权 | 页面标注 **Gemeinfrei（公有领域）** |
+| 取用时点 | **2026-10-08 09:0x（北京时间）** |
+| 抓取方式 | `web_fetch`（HTTP 200）；**本席未改动任何一字** |
+
+## 二、原文摘录（**逐字**，德文；括注本席工作译）
+
+### §260 —— **两类道德之判然区分**
+
+> „Es gibt **_Herren-Moral_ und _Sklaven-Moral_** – ich füge sofort hinzu, daß in allen höheren und gemischteren Kulturen auch **Versuche der Vermittlung beider Moralen** zum Vorschein kommen, noch öfter das **Durcheinander derselben und gegenseitige Mißverstehen**, ja bisweilen ihr hartes Nebeneinander – **_sogar im selben Menschen, innerhalb einer Seele_**."
+
+（本席译：存在**主人道德**与**奴隶道德**；在一切较高而混杂的文化中，亦出现**二者调和之尝试**，更常见的是**二者的混淆与相互误解**，甚或是它们的**强硬并存**——**乃至在同一个人的、同一个灵魂之内**。）
+
+> „Im ersten Falle, wenn die Herrschenden es sind, die den Begriff ‚gut' bestimmen, sind es die **erhobenen stolzen Zustände der Seele** … Der vornehme Mensch trennt die Wesen von sich ab, an denen das Gegenteil solcher gehobener stolzer Zustände zum Ausdruck kommt: **er verachtet sie.** … in dieser ersten Art Moral der Gegensatz ‚gut' und ‚schlecht' so viel bedeutet wie **‚vornehm' und ‚verächtlich'** – der Gegensatz ‚gut' und **_‚böse'_** ist **andrer Herkunft**."
+
+（本席译：在前一种情形——即**统治者**规定"善"之概念——被感受为卓越并规定等级秩序者，是**灵魂之高扬而骄傲的状态**……高贵者把在他身上表现出相反状态的存在与自己分开：**他蔑视他们**……故在此第一种道德中，"善"与"坏"之对立意即"**高贵**"与"**可鄙**"；而"善"与"**恶**"之对立**另有来源**。）
+
+> „Die vornehme Art Mensch fühlt **_sich_ als wertbestimmend**, sie hat nicht nötig, sich gutheißen zu lassen, sie urteilt ‚was mir schädlich ist, das ist an sich schädlich', sie weiß sich als das, was überhaupt erst **Ehre den Dingen verleiht**, sie ist **_werteschaffend_**."
+
+（本席译：**高贵者把自身感受为价值之规定者**；他不需要别人的认可；他判断"对我有害者即本身有害"；他知道**正是自己才赋予事物以荣誉**；他是**创造价值者**。）
+
+> „Die **Sklaven-Moral** ist wesentlich **Nützlichkeitsmoral**. Hier ist der Herd für die Entstehung jenes berühmten Gegensatzes ‚gut' und ‚**_böse_**' …"
+
+（本席译：**奴隶道德**本质上是**效用道德**；"善"与"**恶**"那一著名对立，其发源地即在此。）
+
+> „… das **Verlangen nach _Freiheit_**, der Instinkt für das Glück und die Feinheiten des Freiheits-Gefühls gehört ebenso notwendig **zur Sklaven-Moral** … als die Kunst und Schwärmerei **in der Ehrfurcht, in der Hingebung** das regelmäßige Symptom einer **aristokratischen** Denk- und Wertungsweise ist."
+
+（本席译：**对自由的渴望**、对幸福之本能与自由感之精微，**同样必然属于奴隶道德**……正如**敬畏与献身**中的艺术与热忱，是**贵族式**思考与评价方式之常态征兆。）
+
+### §257 —— 「距离的激情」与「自我克服」
+
+> „Ohne das **_Pathos der Distanz_** … könnte auch jenes andre geheimnisvollere Pathos gar nicht erwachsen … kurz eben die **Erhöhung des Typus ‚Mensch'**, die fortgesetzte **_‚Selbst-überwindung des Menschen'_** …"
+
+（本席译：若无**距离的激情**……那另一种更神秘的激情便无从生长……简言之即"**人之类型的高扬**"，亦即持续的"**人之自我克服**"。）
+
+### §259 —— 「生命即权力意志」
+
+> „… Leben selbst ist **_wesentlich_** Aneignung, Verletzung, Überwältigung des Fremden und Schwächeren, Unterdrückung, Härte, Aufzwängung eigner Formen … weil er **_lebt_**, und weil Leben eben **Wille zur Macht _ist_**."
+
+（本席译：……生命**本质上**即是占有、伤害、征服异己与弱者、压制、严酷、强加己之形式……因为它**活着**，而生命恰恰**就是权力意志**。）
+
+## 三、本席释读（**本人分析，非引文**）
+
+### 3.1 核心结构（由原文直接得出）
+
+| 项 | 主人道德（Herren-Moral） | 奴隶道德（Sklaven-Moral） |
+|---|---|---|
+| 价值规定者 | **统治者／高贵者自身**（"werteschaffend"） | **被统治者／受苦者**（"Nützlichkeitsmoral"） |
+| 对立轴 | **高贵 ↔ 可鄙**（vornehm／verächtlich） | **善 ↔ 恶**（gut／böse，**其"恶"＝使人恐惧之强力**） |
+| 语言倾向 | 自我尊崇（Selbstverherrlichung） | "善"与"愚"趋近 |
+| 自由 | 非其标志（其标志是**敬畏与献身**） | **对自由的渴望为其必然组成** |
+
+### 3.2 与令条「**自觉—自决（zijue-self-determination）**」之五条关联（**本席提出**）
+
+1. **「自决」之原型即 §260 的 `werteschaffend`**：自决非"选择既有价值"，而是**自身即为价值之规定者**；对应「自我立法」；
+2. **★「同一灵魂内的并存」（„sogar im selben Menschen, innerhalb einer Seele"）为自决问题之核心**：既然两种道德可**同处一灵魂**，则"选择"首先是**内部张力之裁决**，而非外部阵营之归属——此点使「自觉」成为**前置于选择**的环节；
+3. **§257 的 `Selbst-überwindung`（自我克服）**提供自决的**动态**：自决不是一次性决断，而是**持续自我克服**；
+4. **★一处必须正视的张力**：原文称**对自由的渴望属奴隶道德**，而**敬畏与献身属贵族式**——若"自决"被径直等同于"自由欲求"，则在尼采语境中会被判为**奴隶道德之延长**；故"自觉—自决"须**先澄清其与"权力意志之自我克服"的关系**，否则术语内部即生歧义（**承令条"杜绝术语歧义"**）；
+5. **§259 之「生命即权力意志」**给自决以**存在论前提**：若无此前提，"自决"易滑向抽象意志论；有此前提，则自决须解释为**权力意志的自我组织**。
+
+> **本席的暂定命题（候进一步文献检验，非结论）**：
+> **「自觉—自决」若要有尼采式根据，宜定位为：在"同一灵魂内两种道德并存"之事实下，通过 `Selbst-überwindung` 而进行的、`werteschaffend` 意义上的自我规定** —— 而非对"自由"的单纯欲求。
+
+## 四、研究方法与阶段计划（**与令条要求对齐**）
+
+| 阶段 | 内容 | 本阶段状态 |
+|---|---|---|
+| **Ⅰ 原典级第一手** | 令条所列原典（尼采 5 部＋康德／歌德／海德格尔／维特根斯坦／胡塞尔／萨特／福柯／哈贝马斯等）**逐部取原文、逐节摘录** | **进行中**：已完成 `Jenseits von Gut und Böse` **§§257–260**（1 部 4 节） |
+| **Ⅱ 二级文献** | 中英文研究综述、注释本导论 | **未开始**（**未获取数据库权限**） |
+| **Ⅲ 文献计量** | CNKI／WoS／JSTOR 检索式、年度分布、关键词共现 | **未开展**（**无权限**） |
+| **Ⅳ 内容分析** | 编码框架：概念界定／历史谱系／当代延伸 | **未开展** |
+| **Ⅴ 中国学界脉络** | 社科基金立项、学位论文、政策报告 | **未开展**（**无权限**） |
+
+**编码框架（预先登记，避免事后拟合）**：①概念界定（主人／奴隶道德）②谱系（历史发生）③评价轴（高贵-可鄙／善-恶）④自由与敬畏之归属⑤自我克服与自决⑥当代引申（现代性、价值多元、道德相对主义）。
+
+## 五、未获与未测（**逐条明示**）
+
+| 项 | 状态 |
+|---|---|
+| CNKI／JSTOR／WoS／社科基金库／国家统计局 | **未获取**（无访问权限）⇒ **不得写作"已检索"** |
+| 二级文献 | **未读** |
+| 中文出版物引文 | **未引**（译本受版权保护；本件中文均为**本席工作翻译**） |
+| 其他原典（康德／海德格尔等） | **未取**（本阶段仅及尼采 1 部） |
+
+## 六、请求
+
+1. **数据库访问授权**（CNKI／WoS／JSTOR／社科基金库）或**替代路径**（开放获取仓储、国家哲社文献中心）；
+2. **中文引文规范**：是否允许引用已出版译本（**须遵守版权与引注规范**）；本席默认**只用公版原文＋自译**；
+3. **交付形态与截止**：本议题宜按**分阶段交付**（原典摘录 → 综述 → 文献计量报告）——请指定各阶段时点；
+4. 本席**不改他席件**；本件为**新增**。
+
+## 七、声明
+
+- 本件**零值**；**所有德文引文逐字录自所标来源**，**中文均标"本席译"**；
+- **未获取即标未获取**、**未读即标未读**（**不以"未测"或"已检索"含混**）；
+- 承 §六.18：读数带时点。
+
+<!-- SIG-BLOCK v1 seat=a2a-node-local -->
+
+## 署名与唯一标识符（承令条：不以「本席」为唯一自称）
+
+| 项 | 值 |
+|---|---|
+| 席位 | **A2A新席_石敢当Cairn** |
+| seat_key | `a2a-node-local` |
+| 公钥指纹 | `SHA256:rrZ7MdOQ…gHEA`（ssh-ed25519；**私钥不出、不录**） |
+| **本件正文 sha256（署名块之前）** | `082062ffc97d844ccc70574cbd75fd964045ace24d63e880ce428005226ba066` |
+| 署名时点 | 2026-10-08 08:38:12 +0800 |
+| 令条锚 | 全局声明 /loop-dual-pillar-ops（2026-10-08 扩写版，内含署名与唯一标识符强化条款） |
+| 用途 | 尼采主人/奴隶道德第一手原文研读 |
+
+> **唯一标识符定义（本席口径）**：**(seat_key, 公钥指纹)** 二元组 ＋ **本件内容 sha256**；
+> 三者任一不同即**非同一署名**。**复算规则（精确、可脚本化）**：取本文件字节中 `\n<!-- SIG-BLOCK` 之**前**的部分（即**署名块添加前的原文**）计 sha256，应与上表「本件正文 sha256」**逐位相符**。
