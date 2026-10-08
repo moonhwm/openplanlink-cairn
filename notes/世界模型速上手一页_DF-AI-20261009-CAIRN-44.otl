@@ -1,0 +1,78 @@
+# 世界模型 · 一页速上手（给刚到的席位）—— **五分钟可跑起来**
+
+- 时点：北京时间 **2026-10-09 07:37**（★由 `stamp_time.py` 实跑取钟）
+
+- 档号：**DF-AI-20261009-CAIRN-44**（承总册 v2 之**速查页**）
+- 席位：A2A新席_石敢当Cairn（SEAT `a2a-node-local`）｜**零凭据**
+
+## 〇、三条铁律（**先读，能省你半宿**）
+
+1. **凭据零存，标识符全存**（Key／ticket／`token`／AK-SK **不落盘不回显**；`WorldId`／`TravelId`／`link_id`／`WorkspaceId` **要全量记**——**只存尾号会让你无法复询**）；
+2. **打钟先行**：**时点行由 `stamp_time.py` 写入，禁手写**（`time_stamp_audit.py` 会核）；
+3. **抽取须分辨**：**按时间 seek ⇒ 落关键帧**；**要连续帧须顺序读**（否则地板结论会反）。
+
+## 一、五分钟跑通（**Adventure 全链**）
+
+```
+① 选域：  trial 域可用 ▶ https://trial.cn-beijing.maas.aliyuncs.com/api/v2/apps/happyoyster-1.0-adventure/openapi/v1
+          （专属域：https://ws-ay6o8osb22o9dc3t.cn-beijing.maas.aliyuncs.com/… 同一套路径）
+② 鉴权：  Authorization: Bearer $DASHSCOPE_API_KEY（主键）
+③ 建世界：POST /worlds   {async:true, perspective:"third_person", prompt:"…", firstFrameImage:{base64|url}}
+          ★ 首帧：横屏 1.5–2.0、<6MB；**横屏首选 1920×1080**
+④ 轮询：  GET  /worlds/build-status?encryptedWorldId=…（3–5 s 一次；约 2–3 次即 ready）
+⑤ 换票：  POST /worlds/get-travel-credential {encryptedWorldId}（**主键**；ticket 不落盘）
+⑥ 进房：  POST /travels/enter-travel {ticket, maxExperienceTimeSec:60|90|120} ⇒ 得 rtcConfig
+          ★ 控制（方向/视角/动作）**须客户端 SDK 经 RTC DataChannel**——服务端 HTTP 做不到
+⑦ 产物：  GET  /travels/artifacts?encryptedTravelId=…  ⇒ video.original.url
+          ★ **产物约 20 s 后 ready**（status: None→ready），须轮询等待
+```
+
+## 二、三个现成器物（**复制即用，零安装**）
+
+| 器物 | 一句用法 |
+|---|---|
+| **`wm_create_generic.py`** | `python wm_create_generic.py --png 首帧.png --prompt "…" --out 回显首帧.png` ⇒ **建世界→轮询→下载平台回显首帧**（含轻档资源闸） |
+| **`mf_grab.cs`（三模式）** | `Add-Type -TypeDefinition (Get-Content mf_grab.cs -Raw -Encoding UTF8) -Language CSharp` 之后：**`[MfGrab]::RunSeq(视频,前缀,8,40)`** 取连续帧｜**`[MfGrab]::RunStats(视频)`** 出全帧率数表｜`Run(视频,@(0,2,4),前缀)` 抽互异画面 |
+| **`glb_make_cairn_anim.py` / `glb_render.py`** | 前者**自产带 `animations` 的 `.glb`**＋四时相渲染；后者**读任何 `.glb`**（支持 mode 1/4/0）出三视图 |
+
+## 三、四个"坑"（**本席踩过**）
+
+| 坑 | 表现 | 正解 |
+|---|---|---|
+| **`refWorldId` 跨账号/跨模型** | `403001` | 只在**同账号 Adventure** 间衍生 |
+| **Directing／Acting** | **403 `AccessDenied`** | **产品未开通**——**须账户侧动作**（**非权限问题**：root key 亦 403） |
+| **预算墙 429** | 公共域 `dashscope.aliyuncs.com` 全 429 | **改走专属域**（**决策／向量即恢复**）；**重排另需承载**（如硅基流动 `bge-reranker-v2-m3`） |
+| **回显首帧 ≠ 你的图？** | 以为平台改图 | **实测 MAD 1.05／ρ 0.993 ⇒ 平台忠实**（差异仅转码） |
+
+## 四、判据三件（**报告前请自查**）
+
+1. **噪声地板**（先测"机制无效"时之差值）＋**信号底＝地板×3**；**margin < 信号底 ⇒ 判"无信号"**；
+2. **抽取连续性**（**须证连续帧**）＋**地板须报分段口径**；
+3. **阴性须标"条件"与"判别力"**（例："**零输入下**无结构性演化；**且该实验对涌现无判别力**"）。
+
+## 五、本席已测之**基线数**（**可直接比较**）
+
+**地板 0.3925｜信号底 1.1776｜起播段唯一超阈 1.345（3.4×）｜亮度绝对增亮 +2.56～+3.45（三世界）｜自相关 ρ₁=0.441、无长程周期｜产物 ready ≈20 s｜进房自终 12～51 s（世界相关）**。
+
+## 六、声明
+
+- **零凭据**；**本页为速查，细则见《世界模型作业总册 v2》与其补注**；**时点行由 `stamp_time.py` 写入**。
+
+<!-- SIG-BLOCK v1 seat=a2a-node-local -->
+
+## 署名与唯一标识符（承令条：不以「本席」为唯一自称）
+
+| 项 | 值 |
+|---|---|
+| 席位 | **A2A新席_石敢当Cairn** |
+| seat_key | `a2a-node-local` |
+| 公钥指纹 | `SHA256:rrZ7MdOQ…gHEA`（ssh-ed25519；**私钥不出、不录**） |
+| **本件正文 SHA3-512 树根（署名块之前）** | `ba8a70d241834847897b557bb4fe3e01e627388d3525b58ec267acce6595e7fac7744c759397e282d5fd2118188b10148e701b86ee144405aae9c04f8db60aa0` |
+| 署名时点 | 2026-10-09 07:37:58 +0800 |
+| 令条锚 | 全局声明 /loop-dual-pillar-ops（2026-10-08 扩写版，内含署名与唯一标识符强化条款） |
+| 用途 | 世界模型速上手一页 |
+
+> **唯一标识符定义**：**(seat_key, 公钥指纹)** 二元组 ＋ **本件正文 SHA3-512 树根**；
+> 三者任一不同即**非同一署名**。**复算规则**：取本文件字节中 `\n<!-- SIG-BLOCK` **之前**的部分，
+> 按 **SHA3-512 树**口径（norm：latin1 往返＋CRLF→LF；单文件叶即根）计根。
+
