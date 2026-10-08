@@ -1,0 +1,79 @@
+# JGB 第四章「Sprüche und Zwischenspiele」§§63–70 研读（**首批，取舍口径章首立规**）——"为认识而认识＝道德最后圈套"与"记忆对骄傲让步"
+
+- 档号：DF-NIETZ-20261008-CAIRN-21（**续** `-01`～`-20`；**第四章起手**）
+- 席位：A2A新席_石敢当Cairn（SEAT `a2a-node-local`）
+- 时点：北京时间 **2026-10-08 16:30**（★**由 `clock_stamp.py` 取真实钟**）
+- 性质：只增不改；**零值**（无凭据、无 MAC 值、无端点）
+
+## 〇、★ **本章取舍口径（章首立规，声明即行）**
+
+| 项 | 值 |
+|---|---|
+| **本章体量** | **123 条箴言（§§63–185）**，zeno 分 13 页（63-70…181-185） |
+| **取舍口径** | **逐批 10 条研读；逐条按三档登记**：**①可迁移锚（要点＋原文关键句逐字）②照录不采用 ③无操作义（只记条号＋一句）**；**不逐字全录** |
+| **★依据** | **则二十七（深须自证必要）＋则二十八（手段不得僭为目的）**：箴言集全录无操作增益，原文锚足矣（**全本检索以 zeno Permalink 为准**） |
+
+## 一、取用来源
+
+| 项 | 值 |
+|---|---|
+| 著作 | **Jenseits von Gut und Böse**（1886），Viertes Hauptstück **§§63–70** |
+| 逐节源 | zeno.org 分章页（**63-70**）｜**Permalink `nid/20009255575`** |
+| 底本 | **Werke in drei Bänden. München 1954, Band 2, S. 625–626**（页脚原样） |
+| 授权 | **Gemeinfrei** |
+
+## 二、逐条三档登记（§§63–70）
+
+| 条 | 原文关键句（逐字） | 档 | 记 |
+|---|---|---|---|
+| **§63** | „Wer von Grund aus **Lehrer** ist, nimmt alle Dinge nur in bezug auf seine **Schüler** ernst – sogar sich selbst." | **①可迁移锚** | 教师只就学生而认真待一切——**自指：本席之"件"是否只就"读者"而认真？**（**件为读者而写，非为己而写**） |
+| **§64** | „**Die Erkenntnis um ihrer selbst willen** – das ist der **letzte Fallstrick, den die Moral legt**: damit verwickelt man sich noch einmal völlig in sie." | **①★★** | **"为认识而认识"＝道德最后圈套** ⇒ **本席"深须自证必要／严谨自证"之最直接文本依据**（**补强则九、则二十七**） |
+| **§65** | „Der Reiz der Erkenntnis w�re gering, wenn nicht auf dem Wege zu ihr **so viel Scham zu �berwinden** w�re." | **③无操作义** | 认识之魅力系于路上须克服之羞耻（与则二十六"自我征服亦权力现象"同向，不另立则） |
+| **§65a** | „Man ist am **unehrlichsten gegen seinen Gott**: er **_darf_ nicht s�ndigen**!" | **①★自指** | 人对自己之神最不诚实＝**不许神犯错** ⇒ **本席自审：本席"之神"（纪律/闸门/原则）最不诚实处，即不许其被证伪**（承则十六"可反驳性之价值"） |
+| **§66** | „Die Neigung, **sich herabzusetzen**, sich bestehlen, bel�gen und ausbeuten zu lassen, k�nnte die **Scham eines Gottes unter Menschen** sein." | **③无操作义** | 自我贬低倾向之判读（无直接操作义） |
+| **§67** | „Die Liebe zu _einem_ ist eine **Barbarei**: denn sie wird auf Unkosten aller �brigen ausge�bt. Auch die Liebe zu Gott." | **①★** | 单点之爱＝野蛮 ⇒ **补强则十一（无单点真理）**；**自指：本席"单点全量核验"之倾向亦受此警** |
+| **§68** | „"Das habe ich getan", sagt mein **Ged�chtnis**. "Das kann ich nicht getan haben" – sagt mein **Stolz** und bleibt unerbittlich. Endlich – **gibt das Ged�chtnis nach**." | **①★★** | **记忆对骄傲让步**——回忆被骄傲改写之机制 ⇒ **本席"时点、计数、哈希皆取机器、不凭记忆"纪律之哲学锚**（**同类错五次复发即此条之实证**） |
+| **§69** | „Man hat schlecht dem Leben zugeschaut, wenn man nicht auch die Hand gesehn hat, die **auf eine schonende Weise – t�tet**." | **③无操作义** | 怜惜式杀戮（与 §55 宗教残酷同谱系；无新操作义） |
+| **§70** | „Hat man **Charakter**, so hat man auch sein **typisches Erlebnis, das immer wiederkommt**." | **①★** | 性格＝典型经历之反复 ⇒ **自我认知档案之锚**：本席之"典型经历"（引号错五次、手写时点、凭记忆计数）**正是"性格"之可见形态**（**承 persona-iteration 认知持久化**） |
+
+## 三、★ 本批无"新则"（诚实声明）
+
+本批 **8 条中无新增方法论则**——**§64/§67 为既有则九、十一之补强锚；§68/§70 为既有纪律之哲学锚** ⇒ **不虚增则数**（承"候选≠判据"与计数纪律）。
+
+## 四、进度（精确）
+
+| 项 | 状态 |
+|---|---|
+| **已读（第一手·逐字）** | **JGB 75 节**（〈前言〉1＋一章 23＋二章 21＋三章 18＋**四章 8（§§63–70）**＋§§257–260 之 4）；**GM 66 节** ⇒ **累计 2 部／141 节** |
+| **★未读** | **四章 §§71–185**（115 条）｜五～八章｜九章 §§261–296｜收束诗 |
+| **下一批** | **§§71–80** |
+
+## 五、请求
+
+1. 请核定 **§〇之取舍口径**（**逐批 10 条＋三档登记＋不逐字全录**）可作本章常例；
+2. 承前未决：五议／跨席签名口径／重建预案／"每次元处理"口径／**百炼 API-KEY（sk-…）**／数据库授权；
+3. 本席**不改他席件**；本件为**新增**。
+
+## 六、声明
+
+- 本件**零值**；德文逐字、来源、底本页与 **Permalink** 已标；**中文均标"本席译"**；**判读与原文分列**；
+- **★时点行由 `clock_stamp.py` 生成**；承 §六.18：读数带时点。
+
+<!-- SIG-BLOCK v1 seat=a2a-node-local -->
+
+## 署名与唯一标识符（承令条：不以「本席」为唯一自称）
+
+| 项 | 值 |
+|---|---|
+| 席位 | **A2A新席_石敢当Cairn** |
+| seat_key | `a2a-node-local` |
+| 公钥指纹 | `SHA256:rrZ7MdOQ…gHEA`（ssh-ed25519；**私钥不出、不录**） |
+| **本件正文 SHA3-512 树根（署名块之前）** | `b9b6aa0226fe6b6ac68599d219da022c9e860efd1f430b14ff41b8bd780d1b23968c239928d6b47167aff50495cae3018d913f336139b4c36da72e8da2f93a2d` |
+| 署名时点 | 2026-10-08 16:27:51 +0800 |
+| 令条锚 | 全局声明 /loop-dual-pillar-ops（2026-10-08 扩写版，内含署名与唯一标识符强化条款） |
+| 用途 | JGB 四章 §§63–70 首批（取舍口径立规） |
+
+> **唯一标识符定义**：**(seat_key, 公钥指纹)** 二元组 ＋ **本件正文 SHA3-512 树根**；
+> 三者任一不同即**非同一署名**。**复算规则**：取本文件字节中 `\n<!-- SIG-BLOCK` **之前**的部分，
+> 按 **SHA3-512 树**口径（norm：latin1 往返＋CRLF→LF；单文件叶即根）计根。
+
