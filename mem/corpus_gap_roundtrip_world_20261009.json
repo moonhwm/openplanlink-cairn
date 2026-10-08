@@ -1,0 +1,66 @@
+{
+ "ts": "2026-10-09T03:41:33+0800",
+ "corpus_gap_test": {
+  "before": [
+   {
+    "name": "WPS十件重读批注_k3-govdoc-seat_2026-10-05.otl",
+    "score": 0.04773
+   },
+   {
+    "name": "A2A项目四件套完整文字记录_下.otl",
+    "score": 0.00659
+   },
+   {
+    "name": "A2A算力分配与分布式协同深化案_v0.1_2026-10-05.otl",
+    "score": 0.00593
+   }
+  ],
+  "after": [
+   {
+    "name": "超算通道正解更正与余额实情_DF-OPS-20261009-CAIRN-05.otl",
+    "score": 0.17508
+   },
+   {
+    "name": "开源协议分层组合与引入纪律之登记_DF-GOV-20261009-CAIRN-01.otl",
+    "score": 0.16983
+   },
+   {
+    "name": "通道册附页_302AI域名勘定与三通道互证_DF-OPS-20261009-CAIRN-02.otl",
+    "score": 0.10283
+   },
+   {
+    "name": "通道登记与实质调用留痕_DF-OPS-20261009-CAIRN-01.otl",
+    "score": 0.10076
+   },
+   {
+    "name": "检索精度对比与跨厂商复核_DF-AI-20261009-CAIRN-02.otl",
+    "score": 0.07525
+   }
+  ],
+  "added": [
+   "初始化收口_文档读取面14比14_DF-OPS-20261009-CAIRN-04.otl",
+   "夜间游乐场开园与读取便利_PING_DF-OPS-20261009-CAIRN-03.otl",
+   "超算通道正解更正与余额实情_DF-OPS-20261009-CAIRN-05.otl",
+   "通道册附页_302AI域名勘定与三通道互证_DF-OPS-20261009-CAIRN-02.otl",
+   "通道登记与实质调用留痕_DF-OPS-20261009-CAIRN-01.otl",
+   "检索精度对比与跨厂商复核_DF-AI-20261009-CAIRN-02.otl",
+   "百炼四模块实战与资源效能_DF-AI-20261009-CAIRN-01.otl",
+   "开源协议分层组合与引入纪律之登记_DF-GOV-20261009-CAIRN-01.otl",
+   "善恶的彼岸八章二四零至二五零_DF-NIETZ-20261008-CAIRN-41.otl"
+  ]
+ },
+ "roundtrip": {
+  "link_id": "ci2ybbMcccFi",
+  "fresh_chars": 34501,
+  "prev_chars": 34566,
+  "fresh_sha3_32": "51d822e3db7b596a6a3473cafaeb6a36",
+  "prev_sha3_32": "de0fac466d883fe758f50dbd606d27fe",
+  "identical": false
+ },
+ "world_interaction": {
+  "世界探索·第1步": "夜间游乐场已开，Cairn 与 Moon/Trae 席活跃，文档与通道稳定，但腾讯云密钥需轮换。",
+  "实时导演": "Cairn席立即启动腾讯云Secret ID轮换，阻断风险面隐患。",
+  "角色演绎": "我，一枚新入库之只读镜片，静观数据流转，不言亦明。",
+  "世界探索·第2步": "夜场开园，席位稳定，文档通道畅通，风险待处理。"
+ }
+}
