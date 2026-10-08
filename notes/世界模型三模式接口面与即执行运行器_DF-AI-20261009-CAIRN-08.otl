@@ -1,0 +1,73 @@
+# 世界模型三模式接口面对照 ＋ 「即执行」运行器预置（待 `WorkspaceId` 即跑）
+
+- 档号：DF-AI-20261009-CAIRN-08（**续** `-07`）
+- 席位：A2A新席_石敢当Cairn（SEAT `a2a-node-local`）
+- 时点：北京时间 **2026-10-09 05:10**（★**实跑 `clock_stamp.py` 所得**）
+- 性质：规格登记＋预置（**未发实际创建请求**）；只增不改；**零凭据**
+
+## 一、★ 三类运行模式 × 三个 Open API（**接口面完整对照**）
+
+| 令述模式 | 产品（app） | 建 World 端点 | 建 World 必填 | Travel 期控制接口 | 进房版本 |
+|---|---|---|---|---|---|
+| **世界探索** | `happyoyster-1.0-adventure` | `…/api/v2/apps/happyoyster-1.0-adventure/openapi/v1/worlds` | `perspective`（first/third）＋`prompt`＋**`firstFrameImage`** | end／detail／list／artifacts（**无** instruct/rewind） | `wanderV2` |
+| **实时导演** | `happyoyster-1.0-directing` | `…/apps/happyoyster-1.0-directing/openapi/v1/worlds` | **`simple`**：`prompt`＋`resolution`；**`scriptlist`**：`resolution`＋**`firstFrameImage`**＋`scriptList` | **`instruct`（仅 simple）／`pause`／`resume`／`rewind`／`update-script`（仅 scriptlist）／`end`** | `storyV2` |
+| **角色演绎** | `happyoyster-1.0-acting`（**邀测中**） | 同构 `…/apps/happyoyster-1.0-acting/openapi/v1/worlds` | 待取（参考件在册） | **文本过程指令／pause／resume／end**（**无** rewind／update-script） | 待取 |
+
+**共同要素**：`Authorization: Bearer $DASHSCOPE_API_KEY`（**★仅主 Key，`sk-` 起**；临时 Key ⇒ `403003`）；`async` 默认 `true` ⇒ 立返 `encryptedWorldId`＋`status=generating`；**轮询 3–5 s** 至 `ready`；随后取**一次性 `ticket`** 进房。
+**图片约束（两模式一致）**：JPG/JPEG/PNG/WebP；**<6 MB**；**横屏、宽高比 1.5–2.0**；内容安全／IP 校验不过 ⇒ `403004`／`403005`。
+
+### 1.1 Directing 之丰富参数（**实时导演**之实质）
+`eventStyle`（`normal` 常规四至五幕／`dramatic` 约 180 s 三幕骨架）；`layout`（`Stable`／`Fast`／`Calm`）；`narrative`（`Calm`／`Dramatic`／`Normal`／`Steady`）；`resolution`（`480p`／`720p`，**必填**）；`inputImages`（≤6 张，供剧本与角色参考）。
+**`scriptlist` 结构**：`synopsis`（必填）＋`acts`（**1–45 拍**，每拍 `content`／`cameraType`〔13 种〕／`shotSize`〔Wide/Medium/Close-up〕／`cut`〔7 种〕）＋`subjects`（`character`／`animal`／`creature`／`narrator`，≤6）；`language` 中文传 `zh`。
+
+## 二、★ 「即执行」预置（本席已备，**只待一项外部输入**）
+
+**器物**：`exp/world_model_runner.py`（**预演已过**）
+```
+python exp/world_model_runner.py --workspace <WorkspaceId> --mode adventure            # 世界探索
+python exp/world_model_runner.py --workspace <WorkspaceId> --mode directing --submode simple     # 实时导演·普通
+python exp/world_model_runner.py --workspace <WorkspaceId> --mode directing --submode scriptlist # 实时导演·剧本
+```
+- 首帧图：**本席自绘** `assets/firstframe_night_playground_20261009.png`（1920×1080／1.778／21.4 KB）**运行时转 base64 data URI**（**无需外网托管**）；
+- 世界描述：**夜间的开放式游乐场**（文档塔／光带／灯轮／席位印记／通道门）；Directing 之剧本为**三拍本席自拟**（`translator` 旁白＋Tracking/Push-in/Pan Right）；
+- **安全**：键仅自 `.env` 读、**不打印**；`--dry-run` 只示请求形状（base64 截断）。
+
+**预演实测**：两路端点拼接正确、请求形状合法、图片编码正常（21.4 KB ⇒ base64 约 28.6 KB，**远小于 6 MB**）。
+
+## 三、★ 阻塞（**仅余一项**）
+| 项 | 状态 |
+|---|---|
+| **`{WorkspaceId}`** | **★唯一阻塞**（须自百炼控制台「区域/域名」页取得；本席**不猜 ID**） |
+| 首帧图 | **已备**（自有产物） |
+| 主 Key | 待实测确认（`403003` 可判） |
+| Acting | **邀测中**（须申请） |
+
+## 四、请求
+
+1. **★请主权人示下 `{WorkspaceId}`**——**一项即解锁**（本席随即可跑 Adventure 与 Directing 并出实测件）；
+2. 裁定 **Acting 邀测**是否申请；
+3. 承前未决：则三十／则三十一／常设机制／魔搭入口／五议／跨席签名口径／数据库授权／腾讯云密钥轮换。
+
+## 五、声明
+
+- **零凭据**；**未发实际创建请求**（仅 dry-run）；**未猜 ID**；**首帧图与剧本均本席自制品**；
+- **★时点行由 `clock_stamp.py` 实跑所得**（05:10 +0800）。
+
+<!-- SIG-BLOCK v1 seat=a2a-node-local -->
+
+## 署名与唯一标识符（承令条：不以「本席」为唯一自称）
+
+| 项 | 值 |
+|---|---|
+| 席位 | **A2A新席_石敢当Cairn** |
+| seat_key | `a2a-node-local` |
+| 公钥指纹 | `SHA256:rrZ7MdOQ…gHEA`（ssh-ed25519；**私钥不出、不录**） |
+| **本件正文 SHA3-512 树根（署名块之前）** | `11bee261c524b5aa24f479e6603a3c2ef793d73ac69b48fe7462f07c81e47620d913ee36f9744e2178f67071ee24c86cb7a262790049cc06528094d83533fdb8` |
+| 署名时点 | 2026-10-09 04:06:04 +0800 |
+| 令条锚 | 全局声明 /loop-dual-pillar-ops（2026-10-08 扩写版，内含署名与唯一标识符强化条款） |
+| 用途 | 世界模型三模式接口面与即执行运行器 |
+
+> **唯一标识符定义**：**(seat_key, 公钥指纹)** 二元组 ＋ **本件正文 SHA3-512 树根**；
+> 三者任一不同即**非同一署名**。**复算规则**：取本文件字节中 `\n<!-- SIG-BLOCK` **之前**的部分，
+> 按 **SHA3-512 树**口径（norm：latin1 往返＋CRLF→LF；单文件叶即根）计根。
+
