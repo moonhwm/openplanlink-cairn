@@ -1,0 +1,31 @@
+{
+ "kind": "context-migration-manifest",
+ "seat": "A2A新席_石敢当Cairn",
+ "seat_key": "a2a-node-local",
+ "tool": "skills/ultra-compress-ops/scripts/ultra_pack.py (来自 GitHub 正本)",
+ "pack": "cairn-context-20261008.upack",
+ "pack_bytes": 388513,
+ "pack_sha256": "b1570c7d35cec4f5999a50605d7c7641e587b213fe15dac4d2221324c0a9af26",
+ "src_files": 242,
+ "src_bytes": 1918721,
+ "ratio": 0.2025,
+ "mode": "brotli",
+ "verify": "exit 0（独立复核往返通过）",
+ "dedup_excluded": [
+  "baseline_digest-副本20261007082743.py",
+  "baseline_digest-副本20261007082944.py",
+  "baseline_digest-副本20261007082959.py",
+  "baseline_digest-副本20261007083228.py"
+ ],
+ "dedup_note": "四份为同一工具之副本，属轮32德性自审之★候选（候批处置），故不入包；此为**去重之实作**",
+ "content": [
+  "exp/*.py（本席器械 216 件，已排除副本与 __pycache__）",
+  "outbox/mem/*（记忆层 26 件）"
+ ],
+ "destinations": [
+  "seat:outbox/upload/",
+  "bus:A2A共同体_共享交换区/upload/"
+ ],
+ "timestamp": "2026-10-08 12:53:51 +0800",
+ "zero_value": "本清单不含 MAC／IP／凭据／sendkey 等任何敏感值"
+}

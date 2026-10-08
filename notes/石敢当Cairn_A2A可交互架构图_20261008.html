@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>石敢当Cairn · A2A 全链路可交互架构图（2026-10-08）</title>
+<style>
+:root{--ink:#232522;--bg:#f6f5f1;--acc:#3e6b62;--warn:#b5651d;--ok:#2e7d5b;--line:#c9c5ba;}
+*{box-sizing:border-box}body{margin:0;font-family:"Microsoft YaHei",sans-serif;background:var(--bg);color:var(--ink)}
+header{padding:14px 22px;border-bottom:2px solid var(--acc);background:#fff}
+h1{font-size:18px;margin:0}h1 small{color:#777;font-weight:400;font-size:12px}
+#wrap{display:flex;min-height:calc(100vh - 58px)}
+#board{flex:1;padding:18px;position:relative}
+#panel{width:320px;background:#fff;border-left:2px solid var(--acc);padding:14px;overflow:auto}
+.node{position:absolute;background:#fff;border:1.5px solid var(--line);border-radius:8px;padding:8px 12px;
+font-size:13px;cursor:pointer;box-shadow:0 1px 4px rgba(0,0,0,.08);min-width:130px;text-align:center}
+.node:hover{border-color:var(--acc)}
+.node.ok{border-color:var(--ok)}.node.warn{border-color:var(--warn)}
+.node .sub{font-size:11px;color:#666;display:block;margin-top:2px}
+svg{position:absolute;top:0;left:0;width:100%;height:100%;pointer-events:none;z-index:0}
+.node{z-index:1}
+h2{font-size:15px;margin:0 0 8px;color:var(--acc)}
+#panel p{font-size:12.5px;line-height:1.7;margin:6px 0}
+.tag{display:inline-block;font-size:11px;padding:1px 6px;border-radius:10px;background:#eef3f1;color:var(--acc);margin:1px}
+.tag.warn{background:#faf0e6;color:var(--warn)}
+footer{padding:10px 22px;border-top:1px solid var(--line);font-size:11px;color:#777}
+</style>
+</head>
+<body>
+<header><h1>石敢当Cairn · A2A 全链路可交互架构图 <small>生成时点：2026-10-08 14:05 +08 ｜ 工具：clock_stamp.py（真实钟） ｜ 零值：不含 MAC／IP／凭据／sendkey</small></h1></header>
+<div id="wrap">
+  <div id="board">
+    <svg id="lines"></svg>
+    <div class="node ok" id="n-seat" style="left:24px;top:220px">席位 · 石敢当Cairn<span class="sub">a2a-node-local｜署名链 39/0</span></div>
+
+    <div class="node ok" id="n-core" style="left:230px;top:60px">四核心技能（GitHub 正本）<span class="sub">context-pruner ✓ 已执行</span><span class="sub">ultra-compress-ops ✓ 已执行</span><span class="sub">link-bridge-ops ✓ 正本在</span><span class="sub">ls-bus-format-ops ✓ 本席初始化 v1.1</span></div>
+    <div class="node" id="n-own" style="left:230px;top:210px">本席技能（正本）<span class="sub">cairn-term-consistency</span><span class="sub">cairn-otl-signing</span></div>
+    <div class="node" id="n-kimi" style="left:230px;top:360px">Kimi 侧补丁（k3-main）<span class="sub">ls-bus v2.1 梯度读取</span><span class="sub">PATCH_NOTES 已阅</span></div>
+
+    <div class="node ok" id="n-bus" style="left:560px;top:130px">总线 bus/ ＋ upload/<span class="sub">3 条目 ｜ VALID</span><span class="sub">漂移：0 / 0</span></div>
+    <div class="node ok" id="n-led" style="left:560px;top:260px">三账分立<span class="sub">bus.jsonl（件之账）</span><span class="sub">frontier_ledger（决策台账）</span><span class="sub">ops_event（事件链）</span></div>
+
+    <div class="node" id="n-store" style="left:560px;top:390px">存储节点<span class="sub">GitHub／GitCode／华为云X</span><span class="sub">WPS云文档／Neon／Supabase</span><span class="sub">ima-skill／百度网盘</span></div>
+
+    <div class="node ok" id="n-3way" style="left:900px;top:200px">三面 · ALIGNED<span class="sub">local=cc011e0</span><span class="sub">origin=cc011e0（live）</span><span class="sub">gitcode=cc011e0（live）</span></div>
+
+    <div class="node warn" id="n-todo" style="left:900px;top:360px">待办候裁<span class="sub">架构图＝本件 ✓</span><span class="sub">五议／hash_mode 字典</span><span class="sub">跨席签名口径</span><span class="sub">数据库授权（Ⅱ/Ⅲ/Ⅴ）</span></div>
+  </div>
+  <div id="panel">
+    <h2>节点详情</h2><p id="detail">点击任一节点查看细节。</p>
+    <hr>
+    <p><b>生成依据</b>：<span class="tag">DF-NIETZ-01…20</span><span class="tag">DF-LSBUS-01…04</span><span class="tag">DF-SELFAUDIT-01</span><span class="tag">DF-PUSH-01…04</span></p>
+    <p><b>运行状态</b>：<span class="tag">三面 ALIGNED</span><span class="tag">总线零漂移</span><span class="tag">器械 220→200（可逆退休）</span></p>
+  </div>
+</div>
+<footer>署名与唯一标识符：A2A新席_石敢当Cairn ｜ seat_key a2a-node-local ｜ 公钥指纹 SHA256:rrZ7MdOQ…gHEA ｜ 本图正文 sha256 见件内署名块（sig_block v4 可复算）｜ 本图为"可交互架构图"之首版，供全链路可视化溯源与调度。</footer>
+<script>
+const DETAILS={
+ "n-seat":"<b>席位 · 石敢当Cairn</b><p>本体：DSH 会话；工作区 OneDrive\\桌面；席位根 WPS云盘。职责：党组学术技术视角规范化表述、第一手尼采研读（JGB 67 节＋GM 66 节＝133 节）、总线运维与技能正本。全库署名抽验 39 相符／0 不符。</p>",
+ "n-core":"<b>四核心技能（GitHub 唯一正本）</b><p>context-pruner：本轮已执行（落卡＋三档扫描＋report：transient 0／protected 4／review 223）。ultra-compress-ops：本轮已执行（242 件→brotli 388,513 B，比率 0.2025，verify 往返过）。link-bridge-ops：正本在仓（未执行，候需）。ls-bus-format-ops：本席初始化 v1.1（梯度指纹＋目录排除＋hash_mode），总线 3 条目 VALID、零漂移。</p>",
+ "n-own":"<b>本席技能（已落正本）</b><p>cairn-term-consistency：术语一致性校验五法＋三态 VERDICT（含未测 exit 2）。cairn-otl-signing：唯一标识符＝(seat_key,公钥指纹)＋署名块前正文 sha256；写后自验；时点机器生成。</p>",
+ "n-kimi":"<b>Kimi 侧补丁（k3-main）</b><p>ls-bus-format-ops v2.1：梯度读取三档、目录排除、--jobs 16、保险丝、三重安全闸；v1 卡死定谳（FUSE 35ms×3432≈120s）→v2.1 23.3s。本席已阅并出 DF-LSBUS-04 增补建议（并轨五议），v1.1 已采其定谳。</p>",
+ "n-bus":"<b>总线 bus/ 与 upload/</b><p>bus/：3 条目（manifest id 876cfdc13f27644f／upack id b1570c7d35cec4f5／RETIRED_REGISTER id 785f9e28beebc64b）；validate VERDICT=VALID（0 缺陷）；scan 有账无件 0／有件无账 0。</p>",
+ "n-led":"<b>三账分立</b><p>bus.jsonl＝件之账（总线条目）；frontier_ledger.jsonl＝决策台账（726 条，链内自洽 PASS）；ops_event.jsonl＝事件链（85 件）。互不混账，各自可复算。</p>",
+ "n-store":"<b>存储节点</b><p>GitHub（origin，唯一正本）／GitCode（三面之一）；华为云X（算力，待排期）；WPS云文档（席位根＋交换区）；Neon／Supabase／ima-skill／百度网盘（已接入可读，写待批）。</p>",
+ "n-3way":"<b>三面 · ALIGNED</b><p>local／origin／gitcode 均＝cc011e0（live ls-remote 核实）。推送路径：origin 经代理、gitcode 经代理；钩子 v3（身份专属键 hooks.cairnAuthorEmail）。</p>",
+ "n-todo":"<b>待办候裁</b><p>①五议与 hash_mode 字典（候 k3-main 表态）；②跨席签名口径（甲/乙/丙，现证多席未签名）；③数据库访问授权（研究段 Ⅱ/Ⅲ/Ⅴ 之前提）；④内存压力处置（R_mem 一度低于 M_floor）；⑤JGB 第四章 §§63–185（择要＋声明取舍）。</p>"
+};
+const EDGES=[["n-seat","n-core"],["n-seat","n-own"],["n-seat","n-bus"],["n-seat","n-led"],["n-core","n-bus"],["n-own","n-bus"],["n-kimi","n-own"],["n-bus","n-store"],["n-led","n-store"],["n-seat","n-3way"],["n-store","n-3way"],["n-core","n-todo"]];
+function draw(){
+ const svg=document.getElementById("lines");svg.innerHTML="";
+ EDGES.forEach(([a,b])=>{
+  const e1=document.getElementById(a),e2=document.getElementById(b);
+  const x1=e1.offsetLeft+e1.offsetWidth/2,y1=e1.offsetTop+e1.offsetHeight/2,
+        x2=e2.offsetLeft+e2.offsetWidth/2,y2=e2.offsetTop+e2.offsetHeight/2;
+  const l=document.createElementNS("http://www.w3.org/2000/svg","line");
+  l.setAttribute("x1",x1);l.setAttribute("y1",y1);l.setAttribute("x2",x2);l.setAttribute("y2",y2);
+  l.setAttribute("stroke","var(--line)");l.setAttribute("stroke-width","1.2");
+  svg.appendChild(l);
+ });
+}
+document.querySelectorAll(".node").forEach(n=>{n.addEventListener("click",()=>{
+  document.getElementById("detail").innerHTML=DETAILS[n.id]||"（无详情）";
+});});
+window.addEventListener("load",draw);window.addEventListener("resize",draw);
+</script>
+</body>
+</html>

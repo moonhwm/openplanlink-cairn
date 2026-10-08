@@ -1,0 +1,1143 @@
+{
+ "transient": [],
+ "protected": [
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\_HANDOFF_20261008.md",
+   "size": 293,
+   "reason": "白名单路径段前缀命中: _HANDOFF"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\upload\\cairn-context-20261008.manifest.json",
+   "size": 1196,
+   "reason": "白名单路径段命中: upload"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\upload\\cairn-context-20261008.upack",
+   "size": 388513,
+   "reason": "白名单路径段命中: upload"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\种子包_cairn-dsh_20261001\\ledger\\frontier_ledger.jsonl",
+   "size": 691179,
+   "reason": "白名单路径段命中: ledger"
+  }
+ ],
+ "review": [
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\attest_sweep.json",
+   "size": 4528,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\attest_sweep_report.md",
+   "size": 1566,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\cairn-status-live.js",
+   "size": 2980,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\cpu-baseline-local.json",
+   "size": 491,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\cpu-baseline-local.md",
+   "size": 774,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\edgeai1_specdec.html",
+   "size": 42629,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\eff_report_20261007.md",
+   "size": 2658,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\gateway_spec.json",
+   "size": 5586,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\IMA风险面评估报告_石敢当席_20261003.md",
+   "size": 1784,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\meow_preconditions.json",
+   "size": 2896,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\mirror_live_probe_ledger.jsonl",
+   "size": 772,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\mirror_live_probe_ledger2.jsonl",
+   "size": 563,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\night_window.json",
+   "size": 1341,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\scan_report_20261007_074747.json",
+   "size": 52709,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\SEAT_LOCATION_cairn-dsh_20261002.json",
+   "size": 60940,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\state_cairn-dsh.json",
+   "size": 233,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\state_history.jsonl",
+   "size": 15176,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\status_cairn-dsh.js",
+   "size": 6196,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\_缺件清单_凭旁证_20261002.md",
+   "size": 16579,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\交付_observe_v21_非JS修法全稿_cairn-dsh_20261001.html",
+   "size": 6523,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\使用效能报告_自动生成_v1.1.md",
+   "size": 1936,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\凭据扫描规则表_v1.0_cairn-dsh_20260929.md",
+   "size": 5380,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\协同纪要七_IMA凭据截断与openrig深挖_cairn-dsh_20261003.md",
+   "size": 1336,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\呈裁清单_机主侧待决项汇总_cairn-dsh_20260929.md",
+   "size": 10199,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\回执_cairn-dsh_to_desktop-gengfu_20260928.md",
+   "size": 7503,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\回执_脱敏复核与规则表交付_cairn-dsh_20260929.md",
+   "size": 5726,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\回执_自决名与开源红线_cairn-dsh_20260929.md",
+   "size": 15012,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\快照_23点_第36轮_cairn-dsh_20261002.md",
+   "size": 3017,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\情况报告_A2A网络同步与HMAC统一认证_石敢当席_20261003.md",
+   "size": 2926,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\收口状态_23点这一条_cairn-dsh_20261002.md",
+   "size": 4020,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\收官_37轮_校准当前版指针_cairn-dsh_20261002.md",
+   "size": 2783,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\更正_回执日期_cairn-dsh_20260929.md",
+   "size": 2497,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\更正_底稿哈希链变动说明_cairn-dsh_20260929.md",
+   "size": 4589,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\本席归档规矩_多级归档_cairn-dsh_20261002.md",
+   "size": 3130,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\种子_MiroFish形状_席位状态报告_cairn-dsh_20261001.md",
+   "size": 4405,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\窗口末刻录_23时终态_cairn-dsh_20261002.md",
+   "size": 2092,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\签名样张_cairn-dsh_20261002.json",
+   "size": 1050,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\签名样张_cairn-dsh_20261002_负例.json",
+   "size": 1048,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\算力分配与分布式协同演进方案_DF-ALLOC-2026-1005-CAIRN-01.otl",
+   "size": 1833,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\联署请求_cairn-dsh_20261002.json",
+   "size": 3275,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\自主运维收盘报告_石敢当席_cairn-dsh_20261002.md",
+   "size": 7592,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\自指性论证_谁验核验器_cairn-dsh_20261002.md",
+   "size": 5922,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\自指性论证一百_我把改钉流程走完了_cairn-dsh_20261002.md",
+   "size": 4537,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\自指性论证一百〇一_共享根上零件_cairn-dsh_20261002.md",
+   "size": 3930,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\自指性论证一百〇七_把钉的税量了出来_cairn-dsh_20261002.md",
+   "size": 3788,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\自指性论证一百〇三_第二把尺先说了不一样_cairn-dsh_20261002.md",
+   "size": 4279,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\自指性论证一百〇九_我上一轮那个修打断了一条路_cairn-dsh_20261002.md",
+   "size": 4079,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\自指性论证一百〇二_换一把尺再量一次那个零_cairn-dsh_20261002.md",
+   "size": 4278,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\自指性论证一百〇五_差的89件是我自己排除的_cairn-dsh_20261002.md",
+   "size": 3852,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\自指性论证一百〇八_插代码时把一句return挤进了else_cairn-dsh_20261002.md",
+   "size": 4465,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\自指性论证一百〇六_我给我那把尺补上了口径_cairn-dsh_20261002.md",
+   "size": 4152,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\自指性论证一百〇四_两数对不上_cairn-dsh_20261002.md",
+   "size": 3841,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\自指性论证一百一十_那条断过的路纳入每轮检查_cairn-dsh_20261002.md",
+   "size": 4201,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\自指性论证一百一十一_它印的是56782到56782_cairn-dsh_20261002.md",
+   "size": 4314,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\自指性论证一百一十七_加第三套模式去试_cairn-dsh_20261002.md",
+   "size": 3855,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\自指性论证一百一十三_那处瞎眼不是通病_cairn-dsh_20261002.md",
+   "size": 3813,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\自指性论证一百一十九_我立了第三本账_cairn-dsh_20261002.md",
+   "size": 4658,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\自指性论证一百一十二_我给那把瞎眼加了一只眼_cairn-dsh_20261002.md",
+   "size": 3755,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\自指性论证一百一十五_拿第二把尺量我自己那把_cairn-dsh_20261002.md",
+   "size": 3701,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\自指性论证一百一十八_我给这条五轮的线收线_cairn-dsh_20261002.md",
+   "size": 4545,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\自指性论证一百一十六_第一版只改了注释_cairn-dsh_20261002.md",
+   "size": 3597,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\自指性论证一百一十四_21件可疑不是21个病_cairn-dsh_20261002.md",
+   "size": 3726,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\自指性论证一百二十_它够不着的那一堆_cairn-dsh_20261002.md",
+   "size": 3756,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\自指性论证一百二十一_seal_files到不了链上_cairn-dsh_20261002.md",
+   "size": 4184,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\自指性论证一百二十三_它和配方形成了一个环_cairn-dsh_20261002.md",
+   "size": 5156,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\自指性论证一百二十二_我上一轮错了_cairn-dsh_20261002.md",
+   "size": 4727,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\自指性论证七_我的尺子拒绝了回答_cairn-dsh_20261002.md",
+   "size": 5751,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\自指性论证七十_十一处同类失效归到一处_cairn-dsh_20261002.md",
+   "size": 4746,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\自指性论证七十一_那四条做法各失败一次_cairn-dsh_20261002.md",
+   "size": 4802,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\自指性论证七十七_两轮里一共量错了五次_cairn-dsh_20261002.md",
+   "size": 4675,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\自指性论证七十三_我把那五分之一补成了五分之五_cairn-dsh_20261002.md",
+   "size": 4330,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\自指性论证七十九_加第三类当场撞出第六种错法_cairn-dsh_20261002.md",
+   "size": 4466,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\自指性论证七十二_我把诊断用在自己报判词的器上_cairn-dsh_20261002.md",
+   "size": 4408,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\自指性论证七十五_轮74那个问题答案出来了_cairn-dsh_20261002.md",
+   "size": 4445,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\自指性论证七十八_有一类器是刻意不下判词的_cairn-dsh_20261002.md",
+   "size": 4552,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\自指性论证七十六_一轮里量错了四次_cairn-dsh_20261002.md",
+   "size": 4649,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\自指性论证七十四_我给那条约定数了分母_cairn-dsh_20261002.md",
+   "size": 4374,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\自指性论证三十_投放没说投到哪_cairn-dsh_20261002.md",
+   "size": 3961,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\自指性论证三十一_我把四处更正送上落点_cairn-dsh_20261002.md",
+   "size": 3561,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\自指性论证三十九_我去证伪上一轮那句话_cairn-dsh_20261002.md",
+   "size": 4439,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\自指性论证三十二_我把上轮明写的未做做完了_cairn-dsh_20261002.md",
+   "size": 3526,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\自指性论证三十五_我去核了上轮引的先例_cairn-dsh_20261002.md",
+   "size": 3862,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\自指性论证三十八_轮7那句我拒答的话现在能答了_cairn-dsh_20261002.md",
+   "size": 3833,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\自指性论证三十四_我把引用那项实测了_cairn-dsh_20261002.md",
+   "size": 3511,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\自指性论证九_我从没当过第三方_cairn-dsh_20261002.md",
+   "size": 4607,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\自指性论证九十_我去审了归档本身_cairn-dsh_20261002.md",
+   "size": 3858,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\自指性论证九十一_档里有3件是旧版_cairn-dsh_20261002.md",
+   "size": 4251,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\自指性论证九十七_我把自己写过的0逐个查了_cairn-dsh_20261002.md",
+   "size": 4175,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\自指性论证九十三_档里的声明停在v7_cairn-dsh_20261002.md",
+   "size": 3733,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\自指性论证九十九_那条流程的器自己有一处凭记忆_cairn-dsh_20261002.md",
+   "size": 4491,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\自指性论证九十二_我把那个决定点自己解了_cairn-dsh_20261002.md",
+   "size": 3911,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\自指性论证九十五_一对真重复一件又穿了正式衣服_cairn-dsh_20261002.md",
+   "size": 3895,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\自指性论证九十八_两处钉当场把我抓住了_cairn-dsh_20261002.md",
+   "size": 4441,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\自指性论证九十六_我把归档这个面收口了_cairn-dsh_20261002.md",
+   "size": 4263,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\自指性论证九十四_归档旧版穿了一件像正式件的衣服_cairn-dsh_20261002.md",
+   "size": 4090,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\自指性论证二十_里程碑上我问谁真在用_cairn-dsh_20261002.md",
+   "size": 5412,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\自指性论证二十一_我把记账做成了验证_cairn-dsh_20261002.md",
+   "size": 4980,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\自指性论证二十七_我引的那张体检单只证形式_cairn-dsh_20261002.md",
+   "size": 5534,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\自指性论证二十三_我造了一个假靶子_cairn-dsh_20261002.md",
+   "size": 4911,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\自指性论证二十九_我印的SEALED只是加了个BOM_cairn-dsh_20261002.md",
+   "size": 3889,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\自指性论证二十二_我把那句话做成了机制_cairn-dsh_20261002.md",
+   "size": 4704,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\自指性论证二十五_我写了二十五遍已跑dupcheck_cairn-dsh_20261002.md",
+   "size": 5271,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\自指性论证二十八_我所有件所倚的判词超范围了_cairn-dsh_20261002.md",
+   "size": 4389,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\自指性论证二十六_我惯用的过滤词里有两个是瞎的_cairn-dsh_20261002.md",
+   "size": 4583,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\自指性论证二十四_我承诺逐字交付清理版_cairn-dsh_20261002.md",
+   "size": 5382,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\自指性论证五_我的边界是我的器写的_cairn-dsh_20261002.md",
+   "size": 8819,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\自指性论证五十_我去量那个维护期过没过_cairn-dsh_20261002.md",
+   "size": 4301,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\自指性论证五十一_上一轮那句漂亮话我证不出_cairn-dsh_20261002.md",
+   "size": 3605,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\自指性论证五十七_我把那条认识做成可查的_cairn-dsh_20261002.md",
+   "size": 4146,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\自指性论证五十三_我把收尾块改成器生成_cairn-dsh_20261002.md",
+   "size": 3752,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\自指性论证五十九_我上一轮暗示的那两件是清白的_cairn-dsh_20261002.md",
+   "size": 4133,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\自指性论证五十二_器生成一种手写四十三种_cairn-dsh_20261002.md",
+   "size": 4197,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\自指性论证五十五_那个缺口只补得动一半_cairn-dsh_20261002.md",
+   "size": 4208,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\自指性论证五十八_我的稽核漏报了那个肇事者_cairn-dsh_20261002.md",
+   "size": 4727,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\自指性论证五十六_我信的那条安全推论是错的_cairn-dsh_20261002.md",
+   "size": 4452,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\自指性论证五十四_我把粘贴这一步也消掉了_cairn-dsh_20261002.md",
+   "size": 4453,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\自指性论证八_我的七轮有一半在等别人_cairn-dsh_20261002.md",
+   "size": 5196,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\自指性论证八十_清掉我自己造的两件垃圾_cairn-dsh_20261002.md",
+   "size": 4530,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\自指性论证八十一_声明里有十四条死条_cairn-dsh_20261002.md",
+   "size": 4520,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\自指性论证八十七_我闭上了一个每次都在数错的环_cairn-dsh_20261002.md",
+   "size": 3784,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\自指性论证八十三_去证那道闸的盲点_cairn-dsh_20261002.md",
+   "size": 4120,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\自指性论证八十九_我给刚走的五轮量了一次_cairn-dsh_20261002.md",
+   "size": 4075,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\自指性论证八十二_我把那14条死条的来路堵上了_cairn-dsh_20261002.md",
+   "size": 3665,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\自指性论证八十五_我去量拒绝有几种说法_cairn-dsh_20261002.md",
+   "size": 3434,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\自指性论证八十八_我把剩下那12件逐个读了_cairn-dsh_20261002.md",
+   "size": 4021,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\自指性论证八十六_读完那14件再决定_cairn-dsh_20261002.md",
+   "size": 5333,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\自指性论证八十四_我给拒绝立了一个canonical词_cairn-dsh_20261002.md",
+   "size": 3861,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\自指性论证六_分类表缺了第四类_cairn-dsh_20261002.md",
+   "size": 5742,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\自指性论证六十_我造了一件空设计的器_cairn-dsh_20261002.md",
+   "size": 4442,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\自指性论证六十一_我给那句判词补上了负例_cairn-dsh_20261002.md",
+   "size": 4809,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\自指性论证六十七_我造的删除稽核两个方向都错_cairn-dsh_20261002.md",
+   "size": 4771,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\自指性论证六十三_我上一轮那个数是下界_cairn-dsh_20261002.md",
+   "size": 4415,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\自指性论证六十九_我把那条教训机械化了_cairn-dsh_20261002.md",
+   "size": 3801,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\自指性论证六十二_有些器的红不在退出码里_cairn-dsh_20261002.md",
+   "size": 4522,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\自指性论证六十五_我把那条无法自动核的边界做成了断言_cairn-dsh_20261002.md",
+   "size": 4238,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\自指性论证六十八_我修上了假阴性却开大了假阳性_cairn-dsh_20261002.md",
+   "size": 4697,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\自指性论证六十六_上一轮我漏了它的后半_cairn-dsh_20261002.md",
+   "size": 4398,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\自指性论证六十四_我去查我每轮都在跑的那件器_cairn-dsh_20261002.md",
+   "size": 4755,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\自指性论证再续_我上轮说停而我测出停早了_cairn-dsh_20261002.md",
+   "size": 6810,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\自指性论证十_我报过的头条数字大了五倍_cairn-dsh_20261002.md",
+   "size": 3990,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\自指性论证十一_我更正过的那个数更正错了_cairn-dsh_20261002.md",
+   "size": 5844,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\自指性论证十七_我上一轮答对了但靠运气_cairn-dsh_20261002.md",
+   "size": 4663,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\自指性论证十三_我把盲点表逐条展出来了_cairn-dsh_20261002.md",
+   "size": 4773,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\自指性论证十九_我那条纪律有一笔没算过的账_cairn-dsh_20261002.md",
+   "size": 5495,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\自指性论证十二_我上轮那条规则太粗_cairn-dsh_20261002.md",
+   "size": 5331,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\自指性论证十五_我这260条只证明了一句话_cairn-dsh_20261002.md",
+   "size": 6488,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\自指性论证十八_我给第三方那页递了个我不认的数_cairn-dsh_20261002.md",
+   "size": 5611,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\自指性论证十四_我第一次做减法审计_cairn-dsh_20261002.md",
+   "size": 4864,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\自指性论证四十_四十轮上我没找到缺陷_cairn-dsh_20261002.md",
+   "size": 5015,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\自指性论证四十一_我把一句写了四十一遍的话改成可核_cairn-dsh_20261002.md",
+   "size": 4847,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\自指性论证四十七_我把上轮那个错做成了一道闸_cairn-dsh_20261002.md",
+   "size": 3515,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\自指性论证四十三_我把上轮明写的未做做了_cairn-dsh_20261002.md",
+   "size": 3959,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\自指性论证四十九_我给那道闸补了试跑_cairn-dsh_20261002.md",
+   "size": 3599,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\自指性论证四十二_我给一句声明加了断言_cairn-dsh_20261002.md",
+   "size": 4378,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\自指性论证四十五_一个照它走会走错的字段_cairn-dsh_20261002.md",
+   "size": 4155,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\自指性论证四十八_我把那道闸的边界关掉了_cairn-dsh_20261002.md",
+   "size": 4590,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\自指性论证四十六_我上轮的修一轮就过期了_cairn-dsh_20261002.md",
+   "size": 4204,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\自指性论证四十四_我给上轮那条规矩加了半句_cairn-dsh_20261002.md",
+   "size": 4512,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\自指性论证弧_索引_cairn-dsh_20261002.md",
+   "size": 13302,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\自指性论证续_第五环谁验钉_cairn-dsh_20261002.md",
+   "size": 6304,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\自指检查纪要八_席位迁移坏引用排查_cairn-dsh_20261003.md",
+   "size": 802,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\自指检查纪要十三_OTL现状与凭据泄露_cairn-dsh_20261003.md",
+   "size": 887,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\草案_A2A消息契约_v0.2-PROPOSED-FINAL_cairn-dsh_20260929.md",
+   "size": 12137,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\草案_A2A消息契约_v0.2_cairn-dsh_20260929.md",
+   "size": 11225,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\论证_我的席位有两份该留哪一份_cairn-dsh_20261002.md",
+   "size": 7834,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\进度_机主投件读完执行_第1轮_cairn-dsh_20260929.md",
+   "size": 6868,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\console\\console_20261005T213923Z.json",
+   "size": 1509,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\console\\console_20261005T213923Z.md",
+   "size": 1573,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\console\\console_20261006T235435Z.json",
+   "size": 2147,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\console\\console_20261006T235435Z.md",
+   "size": 1680,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\console\\console_20261007T000432Z.json",
+   "size": 2603,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\console\\console_20261007T000432Z.md",
+   "size": 1789,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\console\\console_20261007T002941Z.json",
+   "size": 2602,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\console\\console_20261007T002941Z.md",
+   "size": 1784,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\deskbase\\baseline_digest-副本20261007082743.json",
+   "size": 1857,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\deskbase\\baseline_digest-副本20261007082944.json",
+   "size": 1857,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\deskbase\\baseline_digest-副本20261007083228.json",
+   "size": 1858,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\deskbase\\baseline_digest.json",
+   "size": 1859,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\deskbase\\desk_baseline.json",
+   "size": 121093,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\deskbase\\desk_deviations_20261005T203815Z.md",
+   "size": 1145,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\deskbase\\desk_deviations_20261005T203924Z.md",
+   "size": 1732,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\deskbase\\desk_snapshot_20261005T203815Z.json",
+   "size": 121093,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\deskbase\\desk_snapshot_20261005T203924Z.json",
+   "size": 119854,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\edgeai1\\collections_01-foundations.html",
+   "size": 37210,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\edgeai1\\collections_02-independent-drafters.html",
+   "size": 36395,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\edgeai1\\collections_02.html",
+   "size": 29739,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\edgeai1\\collections_03-feature-mtp.html",
+   "size": 40407,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\edgeai1\\collections_04-tree-verification.html",
+   "size": 37103,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\edgeai1\\collections_05-self-spec-long-context.html",
+   "size": 37819,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\edgeai1\\collections_06-serving-security.html",
+   "size": 37890,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\edgeai1\\line02.html",
+   "size": 29739,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\edgeai1\\METHODOLOGY.html",
+   "size": 39087,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\eff\\eff_latest.md",
+   "size": 4487,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\mem\\bus_snr.json",
+   "size": 343,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\mem\\capacity_alert.json",
+   "size": 1197,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\mem\\cold_pack_manifest.json",
+   "size": 511700,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\mem\\dedup_plan.json",
+   "size": 8013,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\mem\\dedup_plan_v2.json",
+   "size": 8203,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\mem\\dedup_plan_v3.json",
+   "size": 8372,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\mem\\dedup_plan_v4.json",
+   "size": 8372,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\mem\\dedup_plan_v6.json",
+   "size": 8372,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\mem\\git_shallow_backup_20261008_092733.txt",
+   "size": 41,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\mem\\git_shallow_backup_20261008_103851.txt",
+   "size": 41,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\mem\\ls_probe.jsonl",
+   "size": 1424,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\mem\\mem_audit_20261005T214028Z.json",
+   "size": 3268,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\mem\\mem_audit_20261005T214028Z.md",
+   "size": 2307,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\mem\\mem_audit_20261006T235402Z.json",
+   "size": 3433,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\mem\\mem_audit_20261006T235402Z.md",
+   "size": 2570,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\mem\\mem_guard_log.jsonl",
+   "size": 1257,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\mem\\mem_tier_scan.json",
+   "size": 8700,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\mem\\pqc_bench.json",
+   "size": 1974,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\mem\\prepush_v1_backup_20261008_102248.txt",
+   "size": 1283,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\mem\\prepush_v2_backup_20261008_135712.txt",
+   "size": 2215,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\mem\\sign_needed.json",
+   "size": 127,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\mem\\sign_needed_log.jsonl",
+   "size": 7437,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\mem\\termtable.json",
+   "size": 11449,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\mem\\virtue_audit.json",
+   "size": 20076,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\mem\\winddown_20261008T083400Z.json",
+   "size": 2006,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\mem\\winddown_20261008T083410Z.json",
+   "size": 2192,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\mem\\winddown_20261008T083430Z.json",
+   "size": 2411,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\种子包_cairn-dsh_20261001\\seed.md",
+   "size": 4408,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\种子包_cairn-dsh_20261001\\outbox\\state_cairn-dsh.json",
+   "size": 235,
+   "reason": "需人工复核（默认不动）"
+  },
+  {
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\种子包_cairn-dsh_20261001\\outbox\\state_history.jsonl",
+   "size": 5082,
+   "reason": "需人工复核（默认不动）"
+  }
+ ],
+ "large_candidates": []
+}
