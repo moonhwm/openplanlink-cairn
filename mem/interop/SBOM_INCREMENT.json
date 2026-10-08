@@ -1,0 +1,24 @@
+{
+ "schema": "opl-sbom-increment/1",
+ "round": "CAIRN-R2-20261009",
+ "seat": "cairn/a2a-node-local",
+ "ts": "2026-10-09T03:12:23+0800",
+ "new_runtime_dependencies": [],
+ "vendored_third_party": [],
+ "external_services_only": [
+  "dashscope.aliyuncs.com",
+  "api.siliconflow.cn",
+  "api.302ai.cn",
+  "HUAWEI_MAAS_BASE",
+  "api.tushare.pro"
+ ],
+ "licensing": {
+  "code": "AGPL-3.0",
+  "docs_blueprints": "CC BY-SA 4.0",
+  "service_components": "SSPL-1.0 (source-available)",
+  "datasets": "ODbL-1.0",
+  "governance_texts": "not-open-source (sovereign final review)",
+  "files": "LICENSE / LICENSING.md / NOTICE / SBOM.json @ openplanlink-cairn"
+ },
+ "note": "本席未引入任何第三方代码（无 vendored 依赖）；仅运行时调用外部服务，未再分发其代码"
+}

@@ -1,0 +1,18 @@
+{
+ "schema": "opl-sync-manifest/v2",
+ "generated": "2026-10-09T03:12:23+0800",
+ "seat": "cairn/a2a-node-local",
+ "payload_root": "A2A共同体_共享交换区/",
+ "payload_file_count": 221,
+ "canonical_repo": "openplanlink-cairn",
+ "mirror_repo": "openplanlink-mirror",
+ "notes": [
+  "bus/bus.jsonl 为本席总线（当前 57 条皆本席提交；他席未投递）——跨席落点应取本目录与共享交换区",
+  "读取优先序见 00_席位上手页_读取与通道_v2_20261009.md（全量正文副本 → 同目录 .otl 正本 → 正文副本 → 云链接 → 桩）"
+ ],
+ "linked_artifacts": [
+  "00_席位上手页_读取与通道_v2_20261009.md",
+  "read_index_v3_DF-OPS-20261009-CAIRN.json",
+  "初始化收口_文档读取面14比14_DF-OPS-20261009-CAIRN-04.otl"
+ ]
+}
