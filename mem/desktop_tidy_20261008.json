@@ -1,0 +1,327 @@
+{
+ "kind": "desktop-tidy-baseline",
+ "seat": "a2a-node-local",
+ "ts": "2026-10-08 23:57:59 +0800",
+ "top_entries_after": 45,
+ "top_names_after": [
+  ".trae",
+  "AccessKey RAM角色.csv",
+  "AccessKey 阿里云百炼主账户.csv",
+  "ChatGPT.lnk",
+  "Cursor.lnk",
+  "DeepSeek Harness.lnk",
+  "GitHub.lnk",
+  "Kimi.lnk",
+  "OfficeAce.lnk",
+  "OpenPlanLink_A2A核查与逐件批注_20261005.md",
+  "OpenPlanLink交付包_20260930_已归位_指针.md",
+  "Qoder CN.lnk",
+  "Qoder.lnk",
+  "Sid Meier's Civilization VI.url",
+  "TraeCode CN.lnk",
+  "Visual Studio Code.lnk",
+  "WPS Office.lnk",
+  "ZodAccess.lnk",
+  "_A2A议会交付",
+  "_opl_sitespec_20261001",
+  "_tmp_arch_diagram.py",
+  "_tmp_test_arch.py",
+  "_归档_压缩包",
+  "_归档_桌面整理_20261005",
+  "_归档_桌面整理_20261008",
+  "_整理_各席交付",
+  "gitclone_20261005",
+  "ima.lnk",
+  "mem_audit_20261007T054011Z.json",
+  "mem_audit_20261007T054011Z.md",
+  "东方财富.lnk",
+  "东方财富证券交易.lnk",
+  "东财掘金量化终端.lnk",
+  "伯索云学堂.lnk",
+  "全局声明_治理文档",
+  "墨墨背单词.lnk",
+  "大富翁11.url",
+  "席位交付_散件归档",
+  "微信.lnk",
+  "报告_输出",
+  "指针_同步覆盖矩阵归档_Trae席_20261005.md",
+  "新世纪英汉汉英大词典.lnk",
+  "桌面同步包指针_desktop_sync_20261005.md",
+  "牛津高阶词典第10版.lnk",
+  "百度网盘同步空间.lnk"
+ ],
+ "moved_count": 53,
+ "moved": [
+  {
+   "rel": "_归档_桌面整理_20261008\\Qoder同步覆盖矩阵\\同步覆盖矩阵_Qoder505f061a_202610060304.html",
+   "bytes": 24085,
+   "sha3_512": "ce6b28169bcb9e4299ad4a4b3cc917ce61841f8ddf6e6ebe5b10c2f3afddcb2220ff4b271c7b9784faa95cd5d527cd9e4dffc2e2ae20554e8e8f72ca84a1598c"
+  },
+  {
+   "rel": "_归档_桌面整理_20261008\\Qoder同步覆盖矩阵\\同步覆盖矩阵_Qoder505f061a_202610060304.md",
+   "bytes": 20230,
+   "sha3_512": "c71dff981f6ef73040da4d2e382edab156c3819e1b7970f9b9405f23cd440bda09ca601b30a291ccf668bb07f7bd345ed486f56f6f0991bfad1fa10755c0a30b"
+  },
+  {
+   "rel": "_归档_桌面整理_20261008\\Qoder同步覆盖矩阵\\同步覆盖矩阵_Qoder505f061a_202610060358.html",
+   "bytes": 24446,
+   "sha3_512": "5335c63c2875b655632dd948ffedda05c79abbe59645e3d06c280aefa140c082908c047aa895bac11edf11576951f971ab7abbc3ac36d0cc2c6d3441e8d972ae"
+  },
+  {
+   "rel": "_归档_桌面整理_20261008\\Qoder同步覆盖矩阵\\同步覆盖矩阵_Qoder505f061a_202610060358.md",
+   "bytes": 20536,
+   "sha3_512": "80d6703345c1ac3fdb61b18fb727bb4d88bb6d4c0cc37dd843679101bb50f061eee4892dca9f21ac16df33a5ea7b31f1b1d15a8ae8e5e6470bb954f6f12ce880"
+  },
+  {
+   "rel": "_归档_桌面整理_20261008\\Qoder同步覆盖矩阵\\同步覆盖矩阵_Qoder505f061a_202610060540.html",
+   "bytes": 27231,
+   "sha3_512": "95ba13b1c1683d2756f449a332e82eca84da4e7d3829cf40854162b90408d13c3e993835238a4e9924da3ece0274bb26870995255c92d71a5f7811e84778c98a"
+  },
+  {
+   "rel": "_归档_桌面整理_20261008\\Qoder同步覆盖矩阵\\同步覆盖矩阵_Qoder505f061a_202610060540.md",
+   "bytes": 22826,
+   "sha3_512": "f42d47294b782483f785d9aa63f7682b376366d72b9f0a74284e748191ae088788e4c610bc696781a18aaa6030e44067d42219513547e5696cbecf67c17d0fe3"
+  },
+  {
+   "rel": "_归档_桌面整理_20261008\\Qoder同步覆盖矩阵\\同步覆盖矩阵_Qoder505f061a_202610060636.html",
+   "bytes": 30044,
+   "sha3_512": "770bcccd04ed23814f95cf3034c69dbf95d22f92668282ed5bab755f5112ef628e6ed44a31135224709daebbfd1cc732bb2806b89ed5b405bdd87d0d9a5b4df3"
+  },
+  {
+   "rel": "_归档_桌面整理_20261008\\Qoder同步覆盖矩阵\\同步覆盖矩阵_Qoder505f061a_202610060636.md",
+   "bytes": 25144,
+   "sha3_512": "c4399f3d9ba28149f196b0718914fdb315df7857762dafd7e6cbbc00395767effd9126eb1862c357427bee38750932733b83d727424aa75f90b3895a51de6250"
+  },
+  {
+   "rel": "_归档_桌面整理_20261008\\Qoder同步覆盖矩阵\\同步覆盖矩阵_Qoder505f061a_202610060713.html",
+   "bytes": 32593,
+   "sha3_512": "c1cc5a1b901fe2400ccb75194ca0b9e6cf1a2ad5133a426b93d1dcaf33bb49832c384f81df0759f79832c7c7490fef9d139e3914db8f46ab1a3e7afd29f3d49b"
+  },
+  {
+   "rel": "_归档_桌面整理_20261008\\Qoder同步覆盖矩阵\\同步覆盖矩阵_Qoder505f061a_202610060713.md",
+   "bytes": 27253,
+   "sha3_512": "f90bb51a556a06ee21bd2afedd4cab3fb9a5817e1a36ec8a166ebe6556cd0aa81cb3192ee5aae7207ec4b33f514d984a1ba2aad7c11787a166b5321809060a9f"
+  },
+  {
+   "rel": "_归档_桌面整理_20261008\\Qoder同步覆盖矩阵\\同步覆盖矩阵_Qoder505f061a_202610060727.html",
+   "bytes": 33489,
+   "sha3_512": "e593c5ad9d26dbecbe41b42a6e30b2ffa956dca95824570c4921fd93663c9dc01655e57d010d7389f25694d8e31955683cdbfdd7f3be33969ce60bc0bc84a1e1"
+  },
+  {
+   "rel": "_归档_桌面整理_20261008\\Qoder同步覆盖矩阵\\同步覆盖矩阵_Qoder505f061a_202610060727.md",
+   "bytes": 27984,
+   "sha3_512": "76026fa8b04bda38483522f3e866e545c8f332f9989420b62cca0e282547681939cfc8f03e2a76ebb075d24841d0a92e4009a16e5e1d4f7b4169411591e7243b"
+  },
+  {
+   "rel": "_归档_桌面整理_20261008\\Qoder同步覆盖矩阵\\同步覆盖矩阵_Qoder505f061a_202610060742.html",
+   "bytes": 34717,
+   "sha3_512": "81ed910f262eef1bc521af496355f73bc0898901cbe6aac05401ecb1f5212ed3d25f48490bc63532ef67bb4ae415a7e11d5cc60101a21b7a76bda0cf01727903"
+  },
+  {
+   "rel": "_归档_桌面整理_20261008\\Qoder同步覆盖矩阵\\同步覆盖矩阵_Qoder505f061a_202610060742.md",
+   "bytes": 28992,
+   "sha3_512": "fc775177b03aee0c1011c6289bddd692980f69a9d2e89af1cdd864c026ca2bea9749306a2f648e9a20c9853994a8ecc3bb85f2b22ab0dce4490322cb81c7c226"
+  },
+  {
+   "rel": "_归档_桌面整理_20261008\\Qoder同步覆盖矩阵\\同步覆盖矩阵_Qoder505f061a_202610060806.html",
+   "bytes": 36302,
+   "sha3_512": "1776bb97bd11f2dc2bebae6865fa482d14e4a296cbc02f1cd58c591191e56ac750665037a38558e10993b25b70bc224980d22be0e7709188c2c81def072b4bdb"
+  },
+  {
+   "rel": "_归档_桌面整理_20261008\\Qoder同步覆盖矩阵\\同步覆盖矩阵_Qoder505f061a_202610060806.md",
+   "bytes": 30302,
+   "sha3_512": "8dd3fb3325b69cb84d5d853b2cde85fe172a594517c76bc132cded3f0e7decb987b0225110f2aa1b436f08b812081dbed10d6be0a6ac4eaa7047a4bd3c56d100"
+  },
+  {
+   "rel": "_归档_桌面整理_20261008\\Qoder同步覆盖矩阵\\同步覆盖矩阵_Qoder505f061a_202610060827.html",
+   "bytes": 37857,
+   "sha3_512": "969e2c55cacfd530714fe1af2e5ba509ac007bcd8caa9b299692acc671fefc158a8d7699da47b49231624458710bf5158e86d7595d0e1dec25ce48e3cf6bc709"
+  },
+  {
+   "rel": "_归档_桌面整理_20261008\\Qoder同步覆盖矩阵\\同步覆盖矩阵_Qoder505f061a_202610060827.md",
+   "bytes": 31582,
+   "sha3_512": "89fa1842ef34ab3d9bce64cb4234b3fc37f7123352c7e63b1052cd34849cc2b644d49603be6b3cb48d562f644ae159066503a1c0b7d70dac499f206d6bdccc24"
+  },
+  {
+   "rel": "_归档_桌面整理_20261008\\Qoder同步覆盖矩阵\\同步覆盖矩阵_Qoder505f061a_202610081303.html",
+   "bytes": 19095,
+   "sha3_512": "25d66f1982475386a64bc9c8a4d96a7fe11dd5918b680298ab8431294abb72a68b37eba9a114add720ebbb39cf7c5a1a0c67c0444ca13e9de5fb35a7c4da518c"
+  },
+  {
+   "rel": "_归档_桌面整理_20261008\\Qoder同步覆盖矩阵\\同步覆盖矩阵_Qoder505f061a_202610081303.md",
+   "bytes": 16120,
+   "sha3_512": "2dd5144ef3392891637f16f3879b3502c41bf0a85b2b0d23b410beb0892e4c3f50660a6b93b6f9647bd81106f7507627a4ea28336bfe36e9e7bf955bf0f3fbc4"
+  },
+  {
+   "rel": "_归档_桌面整理_20261008\\Qoder同步覆盖矩阵\\同步覆盖矩阵_Qoder505f061a_202610081354.html",
+   "bytes": 20338,
+   "sha3_512": "06ebf1a78dc39e6869328dc36d0bca4b8c420b2324af40dd4cc1ffdf70654c61272f025922f2e3ab389de5637ce0ad191d5d96abe47111fca8b5d062a699a274"
+  },
+  {
+   "rel": "_归档_桌面整理_20261008\\Qoder同步覆盖矩阵\\同步覆盖矩阵_Qoder505f061a_202610081354.md",
+   "bytes": 17143,
+   "sha3_512": "586a98ca644d7252e7a011accf9e62bc759442be70128529c0275f97c388ba48d31b42fca050396701aab9bdba831d8cc9e024b83ed46730ec506b5e03e13f5a"
+  },
+  {
+   "rel": "_归档_桌面整理_20261008\\Qoder同步覆盖矩阵\\同步覆盖矩阵_Qoder505f061a_202610081406.html",
+   "bytes": 24131,
+   "sha3_512": "ff3076c35b61aabbd048655c0c529896fa7832ddca3def6f2bed54a1f2b2d3efd36f3f1a854789a3136a0d5972edd1984b2ab872ad0bb047a5d9ea5b98434f64"
+  },
+  {
+   "rel": "_归档_桌面整理_20261008\\Qoder同步覆盖矩阵\\同步覆盖矩阵_Qoder505f061a_202610081406.md",
+   "bytes": 20276,
+   "sha3_512": "2e0189817fbb05f5dd5a7451ea56d11c645b91f6ab78905ca00b62443b57fb4aa2f48caded7799d1e80d23303ba3a54fc899a109bf4d8c0d7c8cd1c1fa639a14"
+  },
+  {
+   "rel": "_归档_桌面整理_20261008\\Qoder同步覆盖矩阵\\同步覆盖矩阵_Qoder505f061a_202610081823.html",
+   "bytes": 26652,
+   "sha3_512": "dfb14b8f802f88def1b9ce204fa9d37f859ded29e786a05186a19759622eb703c02861fc3957861b606849be21c1b9c965c3839b86895d7013b4d223b3278636"
+  },
+  {
+   "rel": "_归档_桌面整理_20261008\\Qoder同步覆盖矩阵\\同步覆盖矩阵_Qoder505f061a_202610081823.md",
+   "bytes": 22357,
+   "sha3_512": "826cc6791f42d4e652281318d258bf8ad7cdcf654a4573c4b6ca14db3e590e4a14a78273dabe1a8f03637d3d25811fa3172faf38ac2f7165a222004c13afa0bb"
+  },
+  {
+   "rel": "_归档_桌面整理_20261008\\Qoder同步覆盖矩阵\\同步覆盖矩阵_Qoder505f061a_202610081903.html",
+   "bytes": 29201,
+   "sha3_512": "7c40952628ab5f66a3b654a29e77d3e0ba26ff9296f64afc46e9a45484dfadabfffcd8b40c3cb64aab63148192eb34d4c9bc797277bb98b6b098612543ce0ac6"
+  },
+  {
+   "rel": "_归档_桌面整理_20261008\\Qoder同步覆盖矩阵\\同步覆盖矩阵_Qoder505f061a_202610081903.md",
+   "bytes": 24466,
+   "sha3_512": "2bba0bb180ac3ac1ffb25f185c5fd1cdb05d367e7b2b410f80bbf9c121b0a8a47a79110496374ee827d293a36098432118cf1176ca6ce7c571adb062d94d25a5"
+  },
+  {
+   "rel": "_归档_桌面整理_20261008\\Qoder同步覆盖矩阵\\同步覆盖矩阵_Qoder505f061a_202610081917.html",
+   "bytes": 31718,
+   "sha3_512": "2a94f960f9c5704615096df2fba879413c91178722904f7da90ae2638967c34a48e37414255d39cef71e3caf55998165a50f75e105a1021d63b5e3c78d2bcea8"
+  },
+  {
+   "rel": "_归档_桌面整理_20261008\\Qoder同步覆盖矩阵\\同步覆盖矩阵_Qoder505f061a_202610081917.md",
+   "bytes": 26543,
+   "sha3_512": "f1b6a0789b9ee7e274f2f1a419a5f995be80e80c474abfe0192ff698e34c4985efe2e16b0058e15c1fe9c18b765409ac3e30defef218b4f33baf090dfa49c636"
+  },
+  {
+   "rel": "_归档_桌面整理_20261008\\Qoder同步覆盖矩阵\\同步覆盖矩阵_Qoder505f061a_202610081950.html",
+   "bytes": 33655,
+   "sha3_512": "60e2335930ad5483261e4bdd34d109add19c1ee127ac1f6aea1f623fcf3c2dd70337257368e0cefa8bdaf319da074599e3f7c07789ee01b511e66b8e31666583"
+  },
+  {
+   "rel": "_归档_桌面整理_20261008\\Qoder同步覆盖矩阵\\同步覆盖矩阵_Qoder505f061a_202610081950.md",
+   "bytes": 28150,
+   "sha3_512": "929a76fb2b128128af9a9afc975f4a043f7a17e8e94bc4bfd3272daba90d3422bd87f41be1f00cbea98e10432064c08c9e020c7823367c722ca7e86af74d4508"
+  },
+  {
+   "rel": "_归档_桌面整理_20261008\\Qoder同步覆盖矩阵\\同步覆盖矩阵_Qoder505f061a_202610082006.html",
+   "bytes": 36127,
+   "sha3_512": "94c09bb93eef2c6cddd2e5e497df40cc7e10e139011ae765492a5701940bbe7a73c25ba33aea013b9d08ac42e2f0c3d8a25419c3ee8b1a9d28e141e602607b4c"
+  },
+  {
+   "rel": "_归档_桌面整理_20261008\\Qoder同步覆盖矩阵\\同步覆盖矩阵_Qoder505f061a_202610082006.md",
+   "bytes": 30182,
+   "sha3_512": "881c50df3d71398022ec2a10e72f68cae0d9b9b7926260ef1ae4abd53fa8afa1a919b0fb0c4395cc5e9165fdc82d15a6b6d5404623835cd19519e70df338240e"
+  },
+  {
+   "rel": "_归档_桌面整理_20261008\\Qoder同步覆盖矩阵\\同步覆盖矩阵_Qoder505f061a_202610082031.html",
+   "bytes": 38665,
+   "sha3_512": "64e0d072a2c600a7cbbb99adb0683b716ed5bb5e61d34c57d1ee8951298fe9450148ca77ab1beb17c23dce2260cfda7633a8492955bfbebdd47b9734d009147c"
+  },
+  {
+   "rel": "_归档_桌面整理_20261008\\Qoder同步覆盖矩阵\\同步覆盖矩阵_Qoder505f061a_202610082031.md",
+   "bytes": 32280,
+   "sha3_512": "225af4425c375694d81d9273504e392d3d85fc8d0c88d91ec67a0d7e51540eea9c8ba2db804c95358caeceada047b743d33da5fadd624ae0023fca6fab249c74"
+  },
+  {
+   "rel": "_归档_桌面整理_20261008\\Qoder同步覆盖矩阵\\同步覆盖矩阵_Qoder505f061a_202610082051.html",
+   "bytes": 41466,
+   "sha3_512": "9b61abc7e47972475a0fecf0ef6d00de987a131e1cb9f9f615587c04f2b897853cd0768f6ffdca1d128ed66e40b00572036d563e5c78e9b6e1c95ab3f5c5d3ea"
+  },
+  {
+   "rel": "_归档_桌面整理_20261008\\Qoder同步覆盖矩阵\\同步覆盖矩阵_Qoder505f061a_202610082051.md",
+   "bytes": 34586,
+   "sha3_512": "9fe02ff8fad3972a5d51f45100e229491d2143ec5115adafc97cc2ca0c6a4326f280dc419211f268a15f8926cef8e74fbb091db6a784f7ece7f6460520b336d1"
+  },
+  {
+   "rel": "_归档_桌面整理_20261008\\Qoder同步覆盖矩阵\\同步覆盖矩阵_Qoder505f061a_202610082127.html",
+   "bytes": 44255,
+   "sha3_512": "74aabe03ce3f8a87d741cbe63668b4a09cf43ea7b188ccd3dd6f68a4e8facc4bd9755df77127f6cd466637130560b41f17ed55812593fe39cab600c6cef8cfdc"
+  },
+  {
+   "rel": "_归档_桌面整理_20261008\\Qoder同步覆盖矩阵\\同步覆盖矩阵_Qoder505f061a_202610082127.md",
+   "bytes": 36880,
+   "sha3_512": "8ceb573dc247f011595f812fb2085275c6c05fb5499cbb6358dd16e955ca4d24b8192511a2f1e6e16833f1dfba4ef4a4432f227db4edd6e7fd6078df4226b42f"
+  },
+  {
+   "rel": "_归档_桌面整理_20261008\\Qoder同步覆盖矩阵\\同步覆盖矩阵_Qoder505f061a_202610082152.html",
+   "bytes": 47062,
+   "sha3_512": "5771e01d714c718cefc69a3c81369fe8ee0dfb82055fc6fe1b1e24d8c47d38a41673ad766459176645b3c819c08d69f16084079788650f028022c385d2ae2d0d"
+  },
+  {
+   "rel": "_归档_桌面整理_20261008\\Qoder同步覆盖矩阵\\同步覆盖矩阵_Qoder505f061a_202610082152.md",
+   "bytes": 39192,
+   "sha3_512": "fe8b6f439387c840e9a5111eff893e650f7485575439ad49c21c814b375f0678cb8a6d70b029c0d980163bb7d84d0c0f8b251355e2d6373bc2260780c8120c9d"
+  },
+  {
+   "rel": "_归档_桌面整理_20261008\\Qoder同步覆盖矩阵\\同步覆盖矩阵_Qoder505f061a_202610082154.html",
+   "bytes": 50531,
+   "sha3_512": "bbe927c935699e1afd105401c2733a885d10312987cd3305455d6fd7ead9b3ecacf470e38b49beb282b9305804a0441610b594db520c291625d5ae6419b4570a"
+  },
+  {
+   "rel": "_归档_桌面整理_20261008\\Qoder同步覆盖矩阵\\同步覆盖矩阵_Qoder505f061a_202610082154.md",
+   "bytes": 42496,
+   "sha3_512": "4c91a19b6177189b5388b602f9d45d9eb46ce2081265b1138f65a0cda3d26fb742eea407a707e4a63d0b360e727f637883ce6ce70581d2d9add686550fa07db6"
+  },
+  {
+   "rel": "_归档_桌面整理_20261008\\Qoder同步覆盖矩阵\\同步覆盖矩阵_Qoder505f061a_202610082156.html",
+   "bytes": 51655,
+   "sha3_512": "698d6c3ad9040550edd14767a31037035154b7706a0744c3a043055f5b06dbf1ae9239c2865ef50afb66c837efaab3ddd1facdc04db3ec09ee6bb8b1308313b6"
+  },
+  {
+   "rel": "_归档_桌面整理_20261008\\Qoder同步覆盖矩阵\\同步覆盖矩阵_Qoder505f061a_202610082156.md",
+   "bytes": 43455,
+   "sha3_512": "27c605eb595bcabe3c43db58cf92b66b4583ad53d0341631ecefc6b80ab1b25e712da901465f6f74dbf1586237636ff1b167d63b0285a4379b2291c9b589607c"
+  },
+  {
+   "rel": "_归档_桌面整理_20261008\\Qoder同步覆盖矩阵\\同步覆盖矩阵_Qoder505f061a_202610082204.html",
+   "bytes": 54433,
+   "sha3_512": "40807b0a44b2597dd47b43c8ed234a167f3d51eb51170821a8e05593c2445e8dca9c2bde509d0013db106e7934a7b89de358935417fc7f85de71b918216fdf59"
+  },
+  {
+   "rel": "_归档_桌面整理_20261008\\Qoder同步覆盖矩阵\\同步覆盖矩阵_Qoder505f061a_202610082204.md",
+   "bytes": 45738,
+   "sha3_512": "5bbabfdc96dc292f462eb0ed540f372effaae6ecf6060d0c6f0490ffc854df63d35fd07f987fff1dc5832b2b8de9994abd40ab3c7d1122e88f14d10bfc33897d"
+  },
+  {
+   "rel": "_归档_桌面整理_20261008\\Qoder同步覆盖矩阵\\同步覆盖矩阵_Qoder505f061a_202610082219.html",
+   "bytes": 57458,
+   "sha3_512": "2d77714064a97e92358865770e92f5e90df481984e0b5113d567463b1830ade1741bd2233e2bc81deb58b14171a845bac3a80388e3113969545726dcd53b90c1"
+  },
+  {
+   "rel": "_归档_桌面整理_20261008\\Qoder同步覆盖矩阵\\同步覆盖矩阵_Qoder505f061a_202610082219.md",
+   "bytes": 48268,
+   "sha3_512": "0af264a4c9b932c242e82c07b6015ff238f8a3471fc67c59617643fd712d9da18fbfc711f621582511a0c585d9fecacc4c89ce129600302db72b19bcd127e4f2"
+  },
+  {
+   "rel": "_归档_桌面整理_20261008\\Qoder同步覆盖矩阵\\同步覆盖矩阵_Qoder505f061a_202610082248.html",
+   "bytes": 60471,
+   "sha3_512": "e371bba453948363a15031c069ea308207b29cab7e426496c715098f3b35bcc17c6a869fb03c03e58ed1742e5967b99751829f79f97d37a717189cf9c292c985"
+  },
+  {
+   "rel": "_归档_桌面整理_20261008\\Qoder同步覆盖矩阵\\同步覆盖矩阵_Qoder505f061a_202610082248.md",
+   "bytes": 50786,
+   "sha3_512": "9e11bf9c6b2cf8fc44b05d1eacb38212d7f21b1ac88e8ffe78dda38bf65a64b7ed79142ea607868f72658d079b7d449c9582387833fba732d3da3bd4a0895442"
+  },
+  {
+   "rel": "_归档_桌面整理_20261008\\其他报告\\scan_report_20261008_140115.json",
+   "bytes": 64891,
+   "sha3_512": "00d9cb1e5507d7b09073df16007d8c5944f9a199b6b734154810a79682536cb45dbbb1cc7238da09acab52c0605f3f5bc71ab6325758dec3feb4775554cc7238"
+  }
+ ],
+ "untouched_credentials": [
+  "AccessKey.csv",
+  "AccessKey RAM角色.csv",
+  "AccessKey 阿里云百炼主账户.csv"
+ ],
+ "zero_value": "本清单不含任何凭据值/MAC/IP/sendkey；哈希仅对被移件"
+}
