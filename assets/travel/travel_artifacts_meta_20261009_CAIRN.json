@@ -1,0 +1,35 @@
+{
+ "ts": "2026-10-09T05:44:05+0800",
+ "note": "TravelId 未落盘（依凭据纪律）；本件仅存产物元数据",
+ "code": 0,
+ "artifacts": {
+  "encryptedTravelId": "8rcpnKlw6xp3FtpLvZIGB_uwDsMCYzeIku_4YtI5bjcXkorbSgM1ksN8wLSJgYiM",
+  "composeStatus": "processing",
+  "video": {
+   "original": {
+    "url": "https://cdn8.aorizon.com/uploads/media-process/repair_audio/2026-10-09/850b72be-5b0d-4c4f-b548-039e47329a03.mp4?v=2",
+    "status": "ready",
+    "resolution": null,
+    "durationSec": null
+   },
+   "withWatermark": {
+    "url": null,
+    "status": "processing",
+    "resolution": null,
+    "durationSec": null
+   },
+   "withInstruction": {
+    "url": null,
+    "status": "processing",
+    "resolution": null,
+    "durationSec": null
+   },
+   "withInstructionAndWatermark": {
+    "url": null,
+    "status": "processing",
+    "resolution": null,
+    "durationSec": null
+   }
+  }
+ }
+}
