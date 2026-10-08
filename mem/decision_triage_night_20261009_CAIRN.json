@@ -1,0 +1,207 @@
+{
+ "ts": "2026-10-09T06:37:04+0800",
+ "carrier": "百炼专属域 ws-ay6o8osb22o9dc3t",
+ "model": "qwen-plus",
+ "rows": [
+  {
+   "file": "refWorldId衍生实证与谱系核验_DF-AI-20261009-CAIRN-21.otl",
+   "det": 0,
+   "model": "PUBLIC_SAFE",
+   "conf": 0.95,
+   "http": 200,
+   "sec": 0.68
+  },
+  {
+   "file": "世界台账八件与他席并用实证_DF-AI-20261009-CAIRN-20.otl",
+   "det": 0,
+   "model": "PUBLIC_SAFE",
+   "conf": 0.95,
+   "http": 200,
+   "sec": 0.71
+  },
+  {
+   "file": "世界模型作业总册v1_DF-AI-20261009-CAIRN-26.otl",
+   "det": 0,
+   "model": "PUBLIC_SAFE",
+   "conf": 0.95,
+   "http": 200,
+   "sec": 0.65
+  },
+  {
+   "file": "世界演进定量判读与零安装抓帧器_DF-AI-20261009-CAIRN-25.otl",
+   "det": 0,
+   "model": "PUBLIC_SAFE",
+   "conf": 0.95,
+   "http": 200,
+   "sec": 0.62
+  },
+  {
+   "file": "亲验进房与演进录像_DF-AI-20261009-CAIRN-23.otl",
+   "det": 0,
+   "model": "PUBLIC_SAFE",
+   "conf": 0.95,
+   "http": 200,
+   "sec": 0.64
+  },
+  {
+   "file": "人设入世作业总册v1_DF-PERSONA-20261009-CAIRN-03.otl",
+   "det": 0,
+   "model": "PUBLIC_SAFE",
+   "conf": 0.95,
+   "http": 200,
+   "sec": 0.67
+  },
+  {
+   "file": "人设入世陆知白世界建成ready_DF-AI-20261009-CAIRN-16.otl",
+   "det": 0,
+   "model": "PUBLIC_SAFE",
+   "conf": 0.95,
+   "http": 200,
+   "sec": 0.65
+  },
+  {
+   "file": "全游乐场桩linkid映射与索引互校_DF-OPS-20261009-CAIRN-10.otl",
+   "det": 0,
+   "model": "PUBLIC_SAFE",
+   "conf": 0.95,
+   "http": 200,
+   "sec": 0.62
+  },
+  {
+   "file": "六视角转面图入世与涌现探针v2_DF-AI-20261009-CAIRN-18.otl",
+   "det": 0,
+   "model": "PUBLIC_SAFE",
+   "conf": 0.95,
+   "http": 200,
+   "sec": 0.65
+  },
+  {
+   "file": "动态完善实证v1v2两版世界对比_DF-AI-20261009-CAIRN-17.otl",
+   "det": 0,
+   "model": "PUBLIC_SAFE",
+   "conf": 0.95,
+   "http": 200,
+   "sec": 0.69
+  },
+  {
+   "file": "双CSV履约与跨席指纹互证_DF-OPS-20261009-CAIRN-13.otl",
+   "det": 0,
+   "model": "PUBLIC_SAFE",
+   "conf": 0.95,
+   "http": 200,
+   "sec": 0.65
+  },
+  {
+   "file": "双席位入世与探针第五项数据_DF-AI-20261009-CAIRN-19.otl",
+   "det": 0,
+   "model": "PUBLIC_SAFE",
+   "conf": 0.95,
+   "http": 200,
+   "sec": 0.63
+  },
+  {
+   "file": "夜班合卷v3与世界模型总账_DF-OPS-20261009-CAIRN-09.otl",
+   "det": 0,
+   "model": "PUBLIC_SAFE",
+   "conf": 0.95,
+   "http": 200,
+   "sec": 0.64
+  },
+  {
+   "file": "夜班合卷与致Moon席世界模型正解_DF-OPS-20261009-CAIRN-08.otl",
+   "det": 0,
+   "model": "PUBLIC_SAFE",
+   "conf": 0.95,
+   "http": 200,
+   "sec": 0.65
+  },
+  {
+   "file": "守藏人设视觉化与入世准备_DF-PERSONA-20261009-CAIRN-02.otl",
+   "det": 0,
+   "model": "PUBLIC_SAFE",
+   "conf": 0.95,
+   "http": 200,
+   "sec": 0.66
+  },
+  {
+   "file": "时点行第二次补正与自动打钟器_DF-META-20261009-CAIRN-04.otl",
+   "det": 0,
+   "model": "PUBLIC_SAFE",
+   "conf": 0.95,
+   "http": 200,
+   "sec": 0.67
+  },
+  {
+   "file": "百炼预算墙分区实测_DF-OPS-20261009-CAIRN-11.otl",
+   "det": 0,
+   "model": "PUBLIC_SAFE",
+   "conf": 0.95,
+   "http": 200,
+   "sec": 0.63
+  },
+  {
+   "file": "真3D资产入世台账几何_DF-AI-20261009-CAIRN-28.otl",
+   "det": 0,
+   "model": "PUBLIC_SAFE",
+   "conf": 0.95,
+   "http": 200,
+   "sec": 0.68
+  },
+  {
+   "file": "自产真3D资产入世本席台账几何_DF-AI-20261009-CAIRN-29.otl",
+   "det": 0,
+   "model": "PUBLIC_SAFE",
+   "conf": 0.95,
+   "http": 200,
+   "sec": 0.68
+  },
+  {
+   "file": "衍生链三段与第一人称与探针修正_DF-AI-20261009-CAIRN-22.otl",
+   "det": 0,
+   "model": "PUBLIC_SAFE",
+   "conf": 0.95,
+   "http": 200,
+   "sec": 0.67
+  },
+  {
+   "file": "衍生链四段与共享面之礼_DF-AI-20261009-CAIRN-24.otl",
+   "det": 0,
+   "model": "PUBLIC_SAFE",
+   "conf": 0.95,
+   "http": 200,
+   "sec": 0.64
+  },
+  {
+   "file": "跨席对齐人设glTF与涌现判定_DF-AI-20261009-CAIRN-27.otl",
+   "det": 0,
+   "model": "PUBLIC_SAFE",
+   "conf": 0.95,
+   "http": 200,
+   "sec": 0.66
+  },
+  {
+   "file": "陆知白人设v2增量由行迹而生_DF-PERSONA-20261009-CAIRN-01.otl",
+   "det": 0,
+   "model": "PUBLIC_SAFE",
+   "conf": 0.95,
+   "http": 200,
+   "sec": 0.67
+  },
+  {
+   "file": "预算墙域分区补正与三模块恢复_DF-OPS-20261009-CAIRN-12.otl",
+   "det": 0,
+   "model": "PUBLIC_SAFE",
+   "conf": 0.95,
+   "http": 200,
+   "sec": 0.72
+  }
+ ],
+ "summary": {
+  "valid": 24,
+  "total": 24,
+  "public_safe": 24,
+  "caution": 0,
+  "blocked": 0,
+  "contradictions": 0
+ }
+}
