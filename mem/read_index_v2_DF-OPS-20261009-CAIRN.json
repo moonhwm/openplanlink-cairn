@@ -1,0 +1,120 @@
+{
+ "kind": "playground-read-index",
+ "version": 2,
+ "seat": "a2a-node-local",
+ "ts": "2026-10-09 02:53:35 +0800",
+ "docx_dir": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\Plan提示词工程\\openplanlink-docx",
+ "full_text_dir": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\Plan提示词工程\\openplanlink-docx\\全量正文副本_20261009",
+ "resolution": {
+  "stubs_total": 14,
+  "readable": 14,
+  "missing": 0
+ },
+ "read_order": [
+  "全量正文副本_20261009/<原名>.otl.md",
+  "同目录 *_正文副本_*.md",
+  "云链接（需 WPS 环境）",
+  "*.wpsonline 桩（不可直读）"
+ ],
+ "stub_entries": [
+  {
+   "stub": "A2A算力分配与分布式协同深化案_v0.1_2026-10-05.otl",
+   "link_id": "cgeO17yb4eiI",
+   "readable": true,
+   "local": "全量正文副本_20261009/A2A算力分配与分布式协同深化案_v0.1_2026-10-05.otl.md",
+   "bytes": 6973
+  },
+  {
+   "stub": "A2A线收官总账_2026-10-05.otl",
+   "link_id": "cplH408hcQMF",
+   "readable": true,
+   "local": "全量正文副本_20261009/A2A线收官总账_2026-10-05.otl.md",
+   "bytes": 7403
+  },
+  {
+   "stub": "A2A网络全面优化整合架构方案.otl",
+   "link_id": "cjj1X42H8FMP",
+   "readable": true,
+   "local": "全量正文副本_20261009/A2A网络全面优化整合架构方案.otl.md",
+   "bytes": 3743
+  },
+  {
+   "stub": "A2A项目四件套完整文字记录_上.otl",
+   "link_id": "ccmYOO3QvUyd",
+   "readable": true,
+   "local": "全量正文副本_20261009/A2A项目四件套完整文字记录_上.otl.md",
+   "bytes": 33069
+  },
+  {
+   "stub": "A2A项目四件套完整文字记录_中.otl",
+   "link_id": "cg0IMPqFxDn7",
+   "readable": true,
+   "local": "全量正文副本_20261009/A2A项目四件套完整文字记录_中.otl.md",
+   "bytes": 323336
+  },
+  {
+   "stub": "A2A项目四件套完整文字记录_下.otl",
+   "link_id": "co3jGF2ridX9",
+   "readable": true,
+   "local": "全量正文副本_20261009/A2A项目四件套完整文字记录_下.otl.md",
+   "bytes": 36189
+  },
+  {
+   "stub": "WPS十件重读批注_k3-govdoc-seat_2026-10-05.otl",
+   "link_id": "caBn4BzDaBMO",
+   "readable": true,
+   "local": "全量正文副本_20261009/WPS十件重读批注_k3-govdoc-seat_2026-10-05.otl.md",
+   "bytes": 5340
+  },
+  {
+   "stub": "十件文书批注_首件主DOCX母本与协同面发现_DF-MIN-2026-1005-K3-01.otl",
+   "link_id": "ctpxZ2X2JxkG",
+   "readable": true,
+   "local": "全量正文副本_20261009/十件文书批注_首件主DOCX母本与协同面发现_DF-MIN-2026-1005-K3-01.otl.md",
+   "bytes": 4295
+  },
+  {
+   "stub": "十件文书批注_四件套中卷_DF-MIN-2026-1005-K3-02.otl",
+   "link_id": "cp0wHNiF4XVj",
+   "readable": true,
+   "local": "全量正文副本_20261009/十件文书批注_四件套中卷_DF-MIN-2026-1005-K3-02.otl.md",
+   "bytes": 3792
+  },
+  {
+   "stub": "十件文书批注_四件套上卷_DF-MIN-2026-1005-K3-03.otl",
+   "link_id": "cm4IPhTYznTs",
+   "readable": true,
+   "local": "全量正文副本_20261009/十件文书批注_四件套上卷_DF-MIN-2026-1005-K3-03.otl.md",
+   "bytes": 4179
+  },
+  {
+   "stub": "十件文书批注_四件套下卷_DF-MIN-2026-1005-K3-04.otl",
+   "link_id": "cndYJKCF7len",
+   "readable": true,
+   "local": "全量正文副本_20261009/十件文书批注_四件套下卷_DF-MIN-2026-1005-K3-04.otl.md",
+   "bytes": 4765
+  },
+  {
+   "stub": "十件文书批注_蓝图跨生态不可读登记暨纲要母本_DF-MIN-2026-1005-K3-05.otl",
+   "link_id": "cdnTX6c3i3WF",
+   "readable": true,
+   "local": "全量正文副本_20261009/十件文书批注_蓝图跨生态不可读登记暨纲要母本_DF-MIN-2026-1005-K3-05.otl.md",
+   "bytes": 6166
+  },
+  {
+   "stub": "算力分配与分布式协同深化报告（暨现代化前沿网站开发实战规划）_DF-ORD-2026-1005-K3-01.otl",
+   "link_id": "cn8TJyXeLyop",
+   "readable": true,
+   "local": "全量正文副本_20261009/算力分配与分布式协同深化报告（暨现代化前沿网站开发实战规划）_DF-ORD-2026-1005-K3-01.otl.md",
+   "bytes": 6706
+  },
+  {
+   "stub": "OpenPlanLink全局声明与Agent-to-Agent网络建设纲要.otl",
+   "link_id": "ci2ybbMcccFi",
+   "readable": true,
+   "local": "全量正文副本_20261009/OpenPlanLink全局声明与Agent-to-Agent网络建设纲要.otl.md",
+   "bytes": 70165
+  }
+ ],
+ "missing": []
+}
