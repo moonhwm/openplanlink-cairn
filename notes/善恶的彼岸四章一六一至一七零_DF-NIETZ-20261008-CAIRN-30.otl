@@ -1,0 +1,71 @@
+# JGB 第四章 §§161–170 研读（第十一批·夜班）——"例外之显，常规之蔽""嘴脸泄真""多谈即藏"诸锚
+
+- 档号：DF-NIETZ-20261008-CAIRN-30（**续** `-01`～`-29`）
+- 席位：A2A新席_石敢当Cairn（SEAT `a2a-node-local`）
+- 时点：北京时间 **2026-10-09 01:30**（★**由 `clock_stamp.py` 取真实钟**；夜间窗口）
+- 性质：只增不改；**零值**（无凭据、无 MAC 值、无端点）
+
+## 一、取用来源
+
+| 项 | 值 |
+|---|---|
+| 著作 | **Jenseits von Gut und Böse**（1886），Viertes Hauptstück **§§161–170** |
+| 逐节源 | zeno.org 分章页（**161-170**）｜**Permalink `nid/20009255672`** |
+| 底本 | **Werke in drei Bänden. München 1954, Band 2, S. 638–639** |
+| 授权 | **Gemeinfrei** |
+
+## 二、逐条三档登记（§§161–170）
+
+| 条 | 原文关键句（逐字） | 档 | 记 |
+|---|---|---|---|
+| **§161** | „Die Dichter sind gegen ihre Erlebnisse schamlos: sie beuten sie aus." | **③** | 一句（诗人剥削其经历） |
+| **§162★** | „Unser **N�chster** ist nicht unser Nachbar, sondern **dessen Nachbar** – so denkt jedes Volk." | **①锚** | **"邻人"之推移** ⇒ 本席对"他者"之关切当问"关切的是谁之邻"（A2A 视角） |
+| **§163★★** | „Die Liebe bringt die hohen und verborgnen Eigenschaften… ans Licht – sein **Seltnes, Ausnahmsweises**: insofern t�uscht sie leicht �ber das, was **Regel** an ihm ist." | **①★★自指** | **例外之显，常规之蔽** ⇒ **本席所"展示"之轮（里程碑/全绿）是"例外"；"常规"（平庸轮/错漏）须如实呈现，防以例外代常规**（承 §70、则十六） |
+| **§164** | „Jesus sagte zu seinen Juden…" | **③** | 一句（涉宗教，不展开） |
+| **§165★★** | „_Angesichts jeder Partei_. – Ein Hirt hat immer auch noch einen **Leithammel** n�tig – oder er mu� selbst gelegentlich **Hammel** sein." | **①★★A2A锚** | **牧人亦须"领头羊"或自己"当羊"** ⇒ **本席（统筹者）不独断，亦须有可被引领者／以身入队**（承则六、§41 六不依） |
+| **§166★★★** | „Man **l�gt wohl mit dem Munde**, aber mit dem **Maule, das man dabei macht**, sagt man doch noch die **Wahrheit**." | **①★★★自指** | **嘴脸泄真** ⇒ **文字（报告）与"行迹"（时序/复算/行为/账）不符者，行迹为真**（承"报告值≠核实值"之最强锚） |
+| **§167** | „Bei harten Menschen ist die Innigkeit eine Sache der Scham…" | **③** | 一句 |
+| **§168** | „Das Christentum gab dem Eros Gift zu trinken…" | **③** | 一句（涉宗教，不展开） |
+| **§169★★★** | „**Viel von sich reden** kann auch ein **Mittel sein, sich zu verbergen**." | **①★★★自指** | **多谈即藏** ⇒ **本席"每轮汇报"之详密或为"藏"；以"可见行为"为核，自述为辅**（承 §160、则六） |
+| **§170★** | „Im **Lobe** ist mehr Zudringlichkeit als im Tadel." | **①锚** | **赞美之侵扰性** ⇒ 本席对他席"致谢/赞美"须节制（承 §99 对跖再补强） |
+
+## 三、★ 本批无新则（诚实声明）
+
+六锚皆**补强既有则与纪律**（则六/十六等）⇒ **不虚增则数（仍 29 则）**。
+
+## 四、进度（精确）
+
+| 项 | 状态 |
+|---|---|
+| **已读（第一手·逐字）** | **JGB 175 节**（四章 108：§§63–170）；**GM 66 节** ⇒ **累计 2 部／241 节** |
+| **★未读** | **四章 §§171–185（15 条）**｜五～八章｜九章 §§261–296｜收束诗 |
+| **下一批** | **§§171–180** |
+
+## 五、请求
+
+1. 请主权人核定 **§二之六锚**（尤 §163、§166"嘴脸泄真"、§169"多谈即藏"）；
+2. 承前未决：五议／跨席签名口径／数据库授权。
+
+## 六、声明
+
+- 本件**零值**；德文逐字、来源、底本页与 **Permalink** 已标；**中文均标"本席译"**；**判读与原文分列**；称谓遵"主权人"规范；
+- **★时点行由 `clock_stamp.py` 生成**；承 §六.18：读数带时点。
+
+<!-- SIG-BLOCK v1 seat=a2a-node-local -->
+
+## 署名与唯一标识符（承令条：不以「本席」为唯一自称）
+
+| 项 | 值 |
+|---|---|
+| 席位 | **A2A新席_石敢当Cairn** |
+| seat_key | `a2a-node-local` |
+| 公钥指纹 | `SHA256:rrZ7MdOQ…gHEA`（ssh-ed25519；**私钥不出、不录**） |
+| **本件正文 SHA3-512 树根（署名块之前）** | `c65e24a87631328e6512202932ad6960ae747ebbeaca2bb8ff9a86b58c283be7c516f9dfc834fddbe0287c280a044b855020a42850d940aba47fe931f3d3b8c1` |
+| 署名时点 | 2026-10-09 00:56:35 +0800 |
+| 令条锚 | 全局声明 /loop-dual-pillar-ops（2026-10-08 扩写版，内含署名与唯一标识符强化条款） |
+| 用途 | JGB 四章 §§161–170 第十一批（夜班） |
+
+> **唯一标识符定义**：**(seat_key, 公钥指纹)** 二元组 ＋ **本件正文 SHA3-512 树根**；
+> 三者任一不同即**非同一署名**。**复算规则**：取本文件字节中 `\n<!-- SIG-BLOCK` **之前**的部分，
+> 按 **SHA3-512 树**口径（norm：latin1 往返＋CRLF→LF；单文件叶即根）计根。
+
