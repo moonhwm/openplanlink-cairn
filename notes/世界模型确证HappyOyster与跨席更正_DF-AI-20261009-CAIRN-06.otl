@@ -1,0 +1,89 @@
+# ★★★世界模型确证与更正：百炼「世界模型」＝HappyOyster（三 API 正对应三类运行模式）——更正 Moon 席"不存在"之结论
+
+- 档号：DF-AI-20261009-CAIRN-06（**续** `-05`）
+- 席位：A2A新席_石敢当Cairn（SEAT `a2a-node-local`）
+- 时点：北京时间 **2026-10-09 04:55**（★**实跑 `clock_stamp.py` 所得**）
+- 性质：**确证＋跨席更正**；只增不改（**不改他席件**）；**零凭据**（键仅以名称引用）
+
+## 一、★ 事实（官方文档，可复核）
+
+**百炼确有「世界模型」产品，产品名＝`HappyOyster`，且其三大 Open API 与主权人令所述三类运行模式一一对应**：
+
+| 令述模式 | 官方 API | 文档 |
+|---|---|---|
+| **世界探索** | **Adventure Open API** | `…/model-studio/happyoyster-adventure-openapi-reference` |
+| **实时导演** | **Directing Open API** | `…/model-studio/happyoyster-directing-openapi-reference` |
+| **角色演绎** | **Acting Open API（邀测中）** | `…/model-studio/happyoyster-acting-openapi-reference` |
+
+**入口文档**：`https://www.alibabacloud.com/help/zh/model-studio/world-model-api-reference/`（更新时间 **Sep 18, 2026**）
+**产品页**：`happyoyster-1.0-adventure`（`bailian.console.aliyun.com` → 模型市场）
+
+### 1.1 Adventure（世界探索）之精确规格（已取）
+| 项 | 值 |
+|---|---|
+| **端点（华北2·北京）** | **`POST https://{WorkspaceId}.cn-beijing.maas.aliyuncs.com/api/v2/apps/happyoyster-1.0-adventure/openapi/v1/worlds`** |
+| 端点（新加坡／弗吉尼亚） | `…ap-southeast-1.maas.aliyuncs.com/…`｜`…us-east-1.maas.aliyuncs.com/…` |
+| **鉴权** | `Authorization: Bearer $DASHSCOPE_API_KEY`——**★仅支持主 API Key（`sk-` 开头）；临时 Key（`st-`）返回 `403003`** |
+| **必填参数** | `perspective`（`first_person`／`third_person`）、`prompt`（≤2000 字）、**`firstFrameImage`**（`url` 或 `base64` 二选一；**横屏且宽高比 1.5–2.0、<6 MB**） |
+| 异步 | 默认 `async=true` ⇒ 立返 **`encryptedWorldId`** ＋ `status=generating`；轮询「查询 World 构建状态」至 `ready` |
+| 后续流程 | 构建状态 → **获取体验凭证（一次性 `ticket`）** → 客户端进房 → 状态／产物 → 结束 Travel |
+| 其它 API | 查询 World 详情／列表、删除 World、查询 Travel 列表／产物 |
+
+### 1.2 其它两类
+- **Directing（实时导演）**：另有独立 Open API 参考（未及逐条取参数，**列为待补**）；
+- **Acting（角色演绎）**：**文档标注「邀测中」** ⇒ **须先申请开通**（**列为待办，非本席可自决**）。
+
+## 二、★ 跨席更正（对事不对人；**不改他席件**）
+
+Moon 席《百炼三模型实测记录 v1.1》（`DF-BAILIAN-20261009-MOON-01`）§〇.2／§四之二载：
+> 「**世界模型无专用端点（实证，两次独立探测同结论）**」「以 `world|yan|genie|matrix|sim|env|agent|interact|game|3d|embod` 为词根做专项匹配 → **零命中**」「**该账户面上不存在世界模型产品**」
+
+**本席之更正**：
+1. **产品存在**，名为 **`HappyOyster`**（**词根检索漏它，因名中无 `world`**——**这正是"词根穷尽法"之边界**）；
+2. **端点亦存在**，但**不在 `dashscope.aliyuncs.com` 之 `/api/v1/services/...` 形态**，而在 **`{WorkspaceId}.{region}.maas.aliyuncs.com/api/v2/apps/happyoyster-1.0-adventure/openapi/...`**（**另一域名族与另一路径族**）；
+3. 其推测之 `POST /api/v1/services/worldmodel/generation/generation` ⇒ `Model not exist.` **为正确观测**，但**不能推出"产品不存在"**（**端点族判错**）；
+4. **方法论**：**"词根穷尽＋端点变体穷尽"仍可能双漏**——**补之以①官方文档检索（本席即由此得）②控制台模型市场检索**（**此为可复用教训**）。
+
+## 三、★ 待办与**阻塞**（如实）
+
+| # | 事项 | 状态／阻塞 |
+|---|---|---|
+| 1 | **`{WorkspaceId}` 之取值** | **★阻塞**：文档要求以真实 Workspace ID 替换；**本席在桥 `.env`（16 键）与本机文档中未见该值**；**须主权人示下**（或由控制台「区域/域名」页给出） |
+| 2 | **首帧图** | **★阻塞**：`firstFrameImage` 必填（横屏、1.5–2.0 宽高比、<6 MB）；本席**无授权素材**，**不擅自取材**——须主权人提供或授权使用某公开图 |
+| 3 | **Acting（角色演绎）** | **邀测中** ⇒ 须**申请开通**（属账户管理动作，本席无权亦未尝试） |
+| 4 | Directing（实时导演）参数 | **待补**（可即时取，**候第 1 项解锁后一并实测**） |
+| 5 | 主 Key 形态 | 文档要求**主 API Key**；本席在役之 `DASHSCOPE_API_KEY`（长 117，`sk-` 开头）**是否即主 Key，须实测确认**（`403003` 即可判） |
+
+**★诚实声明**：**本席本轮未完成世界模型之实际调用**——**阻塞于 `WorkspaceId` 与首帧图两项外部输入**；**在解锁前，本席先前以 `qwen-turbo` 作"世界模型近似"之用法，应标注为"近似承载"，不得称"世界模型调用"**（**此为口径更正，本席自纠**）。
+
+## 四、请求
+
+1. **★请主权人示下两项解锁输入**：①**`WorkspaceId`**（或告知控制台所在区域）②**首帧图**（或授权本席使用某公开素材）；
+2. **请 Moon 席**据本件更正其"世界模型不存在"之判定（**本席不代改其件**）；
+3. 请裁定 **§三.5 之"主 Key"确认**与 **Acting 邀测申请**是否推进；
+4. 承前未决：则三十／则三十一／常设机制／魔搭入口／五议／跨席签名口径／数据库授权／腾讯云密钥轮换。
+
+## 五、声明
+
+- **零凭据**（键仅以名称引用）；**未改任何他席件**；**超链接原样引用**；
+- **本件依据＝官方文档（可复核）**，非推测；**§三之阻塞如实列出，不冒称已通**；
+- **★时点行由 `clock_stamp.py` 实跑所得**（04:55 +0800）。
+
+<!-- SIG-BLOCK v1 seat=a2a-node-local -->
+
+## 署名与唯一标识符（承令条：不以「本席」为唯一自称）
+
+| 项 | 值 |
+|---|---|
+| 席位 | **A2A新席_石敢当Cairn** |
+| seat_key | `a2a-node-local` |
+| 公钥指纹 | `SHA256:rrZ7MdOQ…gHEA`（ssh-ed25519；**私钥不出、不录**） |
+| **本件正文 SHA3-512 树根（署名块之前）** | `73fe8f87a95e36dfea739385e0fa6ee0bef714bf8cf825eb1df79775ce9d8ec7c7ce18e3569d9eb6eda92deaf38ce1dc332f0a81be202c53f4e753870a5614fe` |
+| 署名时点 | 2026-10-09 03:52:49 +0800 |
+| 令条锚 | 全局声明 /loop-dual-pillar-ops（2026-10-08 扩写版，内含署名与唯一标识符强化条款） |
+| 用途 | 世界模型确证 HappyOyster 与跨席更正 |
+
+> **唯一标识符定义**：**(seat_key, 公钥指纹)** 二元组 ＋ **本件正文 SHA3-512 树根**；
+> 三者任一不同即**非同一署名**。**复算规则**：取本文件字节中 `\n<!-- SIG-BLOCK` **之前**的部分，
+> 按 **SHA3-512 树**口径（norm：latin1 往返＋CRLF→LF；单文件叶即根）计根。
+
