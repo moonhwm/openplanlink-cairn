@@ -1,0 +1,10 @@
+{
+ "ts": "2026-10-09T07:11:41+0800",
+ "seat": "a2a-node-local",
+ "arm": "B（另一世界·零输入）",
+ "world": "数据塔",
+ "worldId": "8rcpnKlw6xp3FtpLvZIGB4WA6GHvx3HvxzeAlp4WCuk7uUb8fS_MDUHY-F14PDMt",
+ "travelId": "8rcpnKlw6xp3FtpLvZIGB9BQPH4bcUNAqoreT5h-ASjvYWx9jdVEIlPMdelwsS6b",
+ "final_status": "completed",
+ "note": "可复现性对照：检验提亮是否为平台系统性渲染行为；不落 ticket/token"
+}
