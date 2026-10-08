@@ -47,7 +47,7 @@ import sys
 
 sys.stdout.reconfigure(encoding="utf-8")
 TZ = datetime.timezone(datetime.timedelta(hours=8))
-REQ = ("seq", "id", "ts", "seat", "kind", "path", "bytes", "sha256")
+REQ = ("seq", "id", "ts", "seat", "kind", "path", "bytes", "sha3_512")
 KINDS = ("artifact", "pack", "note", "skill", "other")
 
 
@@ -60,22 +60,25 @@ TAIL_HEAD = 1 * 1024 * 1024      # v1.1：>4MB 件头尾采样各 1MB
 EXCLUDE_DIRS = {".git", "__pycache__", "node_modules"}  # v1.1：默认排除（承 Kimi 侧定谳）
 
 
+def _norm(b: bytes) -> bytes:
+    """v1.2：SHA3-512 树口径之 norm（照仓内 merkle.cjs：latin1 往返＋CRLF→LF）。"""
+    return b.decode("latin1").replace("\r\n", "\n").encode("latin1")
+
+
 def graded_hash(p: pathlib.Path):
-    """v1.1 梯度指纹：<=4MB 全量 sha256（full）；>4MB 头尾各 1MB+size 合成（sampled）。
-    返回 (hex, hash_mode)。"""
+    """v1.2 梯度指纹（SHA3-512 树口径：单文件叶即根）：
+    <=4MB 全量（full）；>4MB 头尾各 1MB+size 合成（sampled）。返回 (hex128, hash_mode)。"""
     size = p.stat().st_size
     if size <= FULL_HASH_MAX:
-        h = hashlib.sha256()
         with p.open("rb") as f:
-            for chunk in iter(lambda: f.read(1 << 20), b""):
-                h.update(chunk)
-        return h.hexdigest(), "full"
-    h = hashlib.sha256()
-    h.update(str(size).encode())
+            data = f.read()
+        return hashlib.sha3_512(_norm(data)).hexdigest(), "full"
+    h = hashlib.sha3_512()
+    h.update(_norm(str(size).encode()))
     with p.open("rb") as f:
-        h.update(f.read(TAIL_HEAD))
+        h.update(_norm(f.read(TAIL_HEAD)))
         f.seek(max(0, size - TAIL_HEAD))
-        h.update(f.read(TAIL_HEAD))
+        h.update(_norm(f.read(TAIL_HEAD)))
     return h.hexdigest(), "sampled"
 
 
@@ -113,7 +116,7 @@ def cmd_emit(a) -> int:
         return 0
     ent = {"seq": (max([r.get("seq", 0) for r in rows]) + 1) if rows else 1,
            "id": nid, "ts": _ts(), "seat": a.seat, "kind": a.kind,
-           "path": rel, "bytes": src.stat().st_size, "sha256": dg,
+           "path": rel, "bytes": src.stat().st_size, "sha3_512": dg,
            "hash_mode": hmode,
            "refs": [x for x in (a.refs or "").split(",") if x]}
     bus_root.mkdir(parents=True, exist_ok=True)
@@ -136,11 +139,11 @@ def _check(rows) -> list:
         for k in REQ:
             if k not in r:
                 errs.append("第%d行：缺必填字段 %s" % (ln, k))
-        if "sha256" in r and (not isinstance(r["sha256"], str) or len(r["sha256"]) != 64
-                              or any(c not in "0123456789abcdef" for c in r["sha256"])):
-            errs.append("第%d行：sha256 非 64 位小写十六进制" % ln)
-        if "sha256" in r and "id" in r and isinstance(r["sha256"], str) and r["sha256"][:16] != r.get("id"):
-            errs.append("第%d行：id 与 sha256 前 16 位不符（id 规则）" % ln)
+        if "sha3_512" in r and (not isinstance(r["sha3_512"], str) or len(r["sha3_512"]) != 128
+                                or any(c not in "0123456789abcdef" for c in r["sha3_512"])):
+            errs.append("第%d行：sha3_512 非 128 位小写十六进制" % ln)
+        if "sha3_512" in r and "id" in r and isinstance(r["sha3_512"], str) and r["sha3_512"][:16] != r.get("id"):
+            errs.append("第%d行：id 与 sha3_512 前 16 位不符（id 规则）" % ln)
         if "hash_mode" in r and r["hash_mode"] not in ("full", "sampled"):
             errs.append("第%d行：hash_mode 非法（%s）" % (ln, r.get("hash_mode")))
         if "kind" in r and r["kind"] not in KINDS:
