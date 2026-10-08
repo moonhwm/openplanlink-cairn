@@ -30,6 +30,8 @@ CH = {
     "302ai":       {"base": "https://api.302ai.cn/v1", "key": E.get("AI302_API_KEY", "")},
     "siliconflow": {"base": "https://api.siliconflow.cn/v1", "key": E.get("SILICONFLOW_API_KEY", "")},
     "huawei":      {"base": (E.get("HUAWEI_MAAS_BASE", "") or "https://api.modelarts-maas.com/v1").rstrip("/"), "key": E.get("HUAWEI_MAAS_KEY", "")},
+    # 国家超算互联网：OpenAI 兼容，路径含 /api/llm 段（2026-10-09 实测 200，33 模型）
+    "scnet":       {"base": "https://api.scnet.cn/api/llm/v1", "key": E.get("SCNET_API_KEY", "")},
 }
 
 def _req(url, key, method="GET", body=None, timeout=40):
