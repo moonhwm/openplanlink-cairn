@@ -1,0 +1,20 @@
+{
+ "ts": "2026-10-09T06:33:56+0800",
+ "seat": "cairn-dsh",
+ "params": [
+  828,
+  248,
+  99,
+  255,
+  0,
+  270
+ ],
+ "seed_sha3_16": "6da0ad7dd29776ee",
+ "glb": "persona_cairn-dsh.glb",
+ "bytes": 40444,
+ "vertices": 2160,
+ "indices": 6768,
+ "triangles": 2256,
+ "sha3_512_24": "6e227bfd0290f21e5bc99861",
+ "readback_ok": true
+}
