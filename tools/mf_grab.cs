@@ -263,6 +263,75 @@ public static class MfGrab
         return log;
     }
 
+    /// <summary>★全帧率统计（不落盘）：顺序读所有帧，逐行输出「F帧号,时间戳ms,平均亮度,与前帧之平均绝对差」</summary>
+    public static List<string> RunStats(string videoPath)
+    {
+        var log = new List<string>();
+        int hr = MFStartup(MF_VERSION, 0);
+        if (hr != 0) { log.Add("MFStartup 失败 hr=0x" + hr.ToString("X8")); return log; }
+        IMFSourceReader reader = null;
+        try
+        {
+            IMFAttributes attrs; MFCreateAttributes(out attrs, 1);
+            Guid gProc = MF_SOURCE_READER_ENABLE_VIDEO_PROCESSING; attrs.SetUINT32(ref gProc, 1);
+            hr = MFCreateSourceReaderFromURL(videoPath, Marshal.GetIUnknownForObject(attrs), out reader);
+            if (hr != 0) { log.Add("MFCreateSourceReaderFromURL 失败 hr=0x" + hr.ToString("X8")); return log; }
+            IMFMediaType mt; MFCreateMediaType(out mt);
+            Guid g1 = MF_MT_MAJOR_TYPE, g2 = MF_MT_SUBTYPE;
+            Guid vVideo = MFMediaType_Video, vRgb = MFVideoFormat_RGB32;
+            mt.SetGUID(ref g1, ref vVideo); mt.SetGUID(ref g2, ref vRgb);
+            hr = reader.SetCurrentMediaType(unchecked((int)0xFFFFFFFC), IntPtr.Zero, mt);
+            if (hr != 0) { log.Add("SetCurrentMediaType(RGB32) 失败 hr=0x" + hr.ToString("X8")); return log; }
+            IMFMediaType cur; reader.GetCurrentMediaType(unchecked((int)0xFFFFFFFC), out cur);
+            Guid gk = MF_MT_FRAME_SIZE_GUID; long packed; cur.GetUINT64(ref gk, out packed);
+            int w = (int)(packed >> 32), h = (int)(packed & 0xFFFFFFFF);
+            int npix = w * h;
+            byte[] prevLum = null;
+            int n = 0;
+            while (true)
+            {
+                int idx, flags; long ts; IMFSample sample;
+                hr = reader.ReadSample(unchecked((int)0xFFFFFFFC), 0, out idx, out flags, out ts, out sample);
+                if (hr != 0) break;
+                if ((flags & 0x2) != 0) break;
+                if (sample == null) continue;
+                n++;
+                IMFMediaBuffer buf; sample.ConvertToContiguousBuffer(out buf);
+                IntPtr p; int maxLen, curLen; buf.Lock(out p, out maxLen, out curLen);
+                int stride = w * 4;
+                byte[] lum = new byte[npix];
+                long sum = 0;
+                for (int y = 0; y < h; y++)
+                {
+                    IntPtr row = (IntPtr)(p.ToInt64() + (long)y * stride);
+                    for (int x = 0; x < w; x++)
+                    {
+                        byte b = Marshal.ReadByte(row, x * 4);
+                        byte g = Marshal.ReadByte(row, x * 4 + 1);
+                        byte r = Marshal.ReadByte(row, x * 4 + 2);
+                        int L = (int)((r * 299 + g * 587 + b * 114) / 1000);
+                        lum[y * w + x] = (byte)L; sum += L;
+                    }
+                }
+                buf.Unlock();
+                double mean = (double)sum / npix;
+                double mad = -1;
+                if (prevLum != null)
+                {
+                    long acc = 0;
+                    for (int i = 0; i < npix; i++) acc += Math.Abs(lum[i] - prevLum[i]);
+                    mad = (double)acc / npix;
+                }
+                log.Add(string.Format("F{0},{1},{2:0.0000},{3:0.0000}", n, ts / 10000, mean, mad));
+                prevLum = lum;
+            }
+            log.Add("FRAMES=" + n);
+        }
+        catch (Exception ex) { log.Add("异常：" + ex.Message); }
+        finally { try { if (reader != null) Marshal.ReleaseComObject(reader); } catch { } MFShutdown(); }
+        return log;
+    }
+
     static readonly Guid MF_MT_FRAME_SIZE_GUID = new Guid("1652c33d-d6b2-4012-b834-72030849a37d");
 
     static void WriteBmp(string path, byte[] bgr, int w, int h)
