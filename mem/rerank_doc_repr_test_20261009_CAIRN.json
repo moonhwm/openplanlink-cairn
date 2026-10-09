@@ -1,0 +1,159 @@
+{
+ "ts": "2026-10-09T10:29:49+0800",
+ "seat": "a2a-node-local",
+ "purpose": "第八戒之验证：重排之文档表示（文件名 vs 名＋正文）",
+ "rows": [
+  {
+   "query": "命名由构图还是文案决定",
+   "expect": "-58",
+   "A_filename": {
+    "top3": [
+     [
+      0.01437,
+      "命名判决实验与模型修正_DF-AI-20261009-CAIRN-58.otl"
+     ],
+     [
+      0.0099,
+      "陆知白v7由行迹而生与命名可复现_DF-AI-20261009-CAIRN-57.otl"
+     ],
+     [
+      0.00481,
+      "命名补测与模型确证_DF-AI-20261009-CAIRN-59.otl"
+     ]
+    ],
+    "hit": true
+   },
+   "B_name_plus_body": {
+    "top3": [
+     [
+      0.95115,
+      "命名判决实验与模型修正_DF-AI-20261009-CAIRN-58.otl"
+     ],
+     [
+      0.89313,
+      "命名补测与模型确证_DF-AI-20261009-CAIRN-59.otl"
+     ],
+     [
+      0.61385,
+      "陆知白v7由行迹而生与命名可复现_DF-AI-20261009-CAIRN-57.otl"
+     ]
+    ],
+    "hit": true
+   }
+  },
+  {
+   "query": "refWorldId 是否继承内容",
+   "expect": "-60",
+   "A_filename": {
+    "top3": [
+     [
+      0.04118,
+      "refWorldId语义判决_DF-AI-20261009-CAIRN-60.otl"
+     ],
+     [
+      0.00073,
+      "开场强音与提亮是否同源之判_DF-AI-20261009-CAIRN-75.otl"
+     ],
+     [
+      0.00036,
+      "陆知白v7由行迹而生与命名可复现_DF-AI-20261009-CAIRN-57.otl"
+     ]
+    ],
+    "hit": true
+   },
+   "B_name_plus_body": {
+    "top3": [
+     [
+      0.98951,
+      "refWorldId语义判决_DF-AI-20261009-CAIRN-60.otl"
+     ],
+     [
+      0.29219,
+      "总册v3修订r2_DF-AI-20261009-CAIRN-61.otl"
+     ],
+     [
+      0.00151,
+      "本地替身世界v1_DF-PERSONA-20261009-CAIRN-12.otl"
+     ]
+    ],
+    "hit": true
+   }
+  },
+  {
+   "query": "未知道路兜底 200",
+   "expect": "-64",
+   "A_filename": {
+    "top3": [
+     [
+      0.00759,
+      "行迹驱动之替身世界_DF-PERSONA-20261009-CAIRN-15.otl"
+     ],
+     [
+      0.0064,
+      "陆知白glTFv2多节点两动画_DF-PERSONA-20261009-CAIRN-05.otl"
+     ],
+     [
+      0.00635,
+      "陆知白v7由行迹而生与命名可复现_DF-AI-20261009-CAIRN-57.otl"
+     ]
+    ],
+    "hit": false
+   },
+   "B_name_plus_body": {
+    "top3": [
+     [
+      0.90406,
+      "服务端instruct之路探索_DF-AI-20261009-CAIRN-64.otl"
+     ],
+     [
+      0.25186,
+      "语料v5三模块复测与单点方法论_DF-AI-20261009-CAIRN-70.otl"
+     ],
+     [
+      0.10296,
+      "知识单点依赖盘点_DF-AI-20261009-CAIRN-66.otl"
+     ]
+    ],
+    "hit": true
+   }
+  },
+  {
+   "query": "世界模型资格墙与解耦问法",
+   "expect": "-71",
+   "A_filename": {
+    "top3": [
+     [
+      0.00555,
+      "SBOM初稿与标准对齐待核_DF-META-20261009-CAIRN-06.otl"
+     ],
+     [
+      0.00474,
+      "世界模型作业总册v3_DF-AI-20261009-CAIRN-50.otl"
+     ],
+     [
+      0.00381,
+      "世界模型访问失效_DF-OPS-20261009-CAIRN-19.otl"
+     ]
+    ],
+    "hit": false
+   },
+   "B_name_plus_body": {
+    "top3": [
+     [
+      0.95385,
+      "四层墙之精确定位_DF-AI-20261009-CAIRN-71.otl"
+     ],
+     [
+      0.53473,
+      "总册v3修订r3_DF-AI-20261009-CAIRN-68.otl"
+     ],
+     [
+      0.52665,
+      "日更20261009_0835_DF-OPS-20261009-CAIRN-20.otl"
+     ]
+    ],
+    "hit": true
+   }
+  }
+ ]
+}
