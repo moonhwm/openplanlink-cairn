@@ -1,0 +1,218 @@
+{
+ "ts": "2026-10-09T09:47:45+0800",
+ "seat": "a2a-node-local",
+ "note": "两栏：sha3_512_32（原始字节）与 sha3_512_norm_32（CRLF→LF 归一，承本席署名块口径）",
+ "count": 30,
+ "items": [
+  {
+   "kind": "资产",
+   "file": "CAIRN_avatar_v2_LOD0.glb",
+   "bytes": 56272,
+   "sha3_512_32": "c7e7fde7bb1b1326f4489bf5a5719219",
+   "sha3_512_norm_32": "c7e7fde7bb1b1326f4489bf5a5719219"
+  },
+  {
+   "kind": "资产",
+   "file": "CAIRN_avatar_v2_LOD1.glb",
+   "bytes": 46220,
+   "sha3_512_32": "c25e77547d66448b680a858bf740a05c",
+   "sha3_512_norm_32": "c25e77547d66448b680a858bf740a05c"
+  },
+  {
+   "kind": "资产",
+   "file": "CAIRN_avatar_v2_LOD2.glb",
+   "bytes": 24376,
+   "sha3_512_32": "c4b94e0deaba4237742a3bb7ae68aaf3",
+   "sha3_512_norm_32": "c4b94e0deaba4237742a3bb7ae68aaf3"
+  },
+  {
+   "kind": "资产",
+   "file": "persona_cairn-dsh.glb",
+   "bytes": 40444,
+   "sha3_512_32": "6e227bfd0290f21e5bc99861f59ae30f",
+   "sha3_512_norm_32": "6e227bfd0290f21e5bc99861f59ae30f"
+  },
+  {
+   "kind": "资产",
+   "file": "persona_cairn-dsh-anim.glb",
+   "bytes": 40928,
+   "sha3_512_32": "637343bb23b3079403098b4947c771ef",
+   "sha3_512_norm_32": "637343bb23b3079403098b4947c771ef"
+  },
+  {
+   "kind": "资产",
+   "file": "persona_cairn-dsh-anim-v2.glb",
+   "bytes": 52512,
+   "sha3_512_32": "948988c94540e2aa007836857359d5e8",
+   "sha3_512_norm_32": "948988c94540e2aa007836857359d5e8"
+  },
+  {
+   "kind": "图件",
+   "file": "local_surrogate_world_14frames_20261009.png",
+   "bytes": 181524,
+   "sha3_512_32": "417d5a65d1fea74000aa42b19eb3c664",
+   "sha3_512_norm_32": "8ff9033772a156e88f49dafc2512094a"
+  },
+  {
+   "kind": "图件",
+   "file": "local_surrogate_world_20261009.gif",
+   "bytes": 395646,
+   "sha3_512_32": "5e554caf599bcf22df66510a8ca1a491",
+   "sha3_512_norm_32": "c28bfea3fec2470d8090d1b2ecd9a6d1"
+  },
+  {
+   "kind": "图件",
+   "file": "local_surrogate_states_20261009.png",
+   "bytes": 104252,
+   "sha3_512_32": "540f1ae91e5bf382af80103325ceced1",
+   "sha3_512_norm_32": "0e3dab7e560d5d32a3335a3100a5b8d3"
+  },
+  {
+   "kind": "图件",
+   "file": "trace_driven_surrogate_20261009.png",
+   "bytes": 174253,
+   "sha3_512_32": "374e574657cff36002c945291d6415e6",
+   "sha3_512_norm_32": "86a8461cefb45cb9665ecf7dc8bc2dca"
+  },
+  {
+   "kind": "器物",
+   "file": "avatar_lod_make_v2.py",
+   "bytes": 15583,
+   "sha3_512_32": "cac6fd9456db88548a78ef8a3fd7e4e3",
+   "sha3_512_norm_32": "cac6fd9456db88548a78ef8a3fd7e4e3"
+  },
+  {
+   "kind": "器物",
+   "file": "avatar_render.py",
+   "bytes": 7351,
+   "sha3_512_32": "42630a2b0aa0037f7ae75788c001a161",
+   "sha3_512_norm_32": "42630a2b0aa0037f7ae75788c001a161"
+  },
+  {
+   "kind": "器物",
+   "file": "local_world_sim.py",
+   "bytes": 8996,
+   "sha3_512_32": "b830a0299f0576b82916d9364e56b80e",
+   "sha3_512_norm_32": "b830a0299f0576b82916d9364e56b80e"
+  },
+  {
+   "kind": "器物",
+   "file": "surrogate_states.py",
+   "bytes": 6049,
+   "sha3_512_32": "2ba89400fb443d47b1d70c4e3eb1ce35",
+   "sha3_512_norm_32": "2ba89400fb443d47b1d70c4e3eb1ce35"
+  },
+  {
+   "kind": "器物",
+   "file": "trace_driven_surrogate.py",
+   "bytes": 8758,
+   "sha3_512_32": "00f315fa65622e4718582aa3c7bd20f1",
+   "sha3_512_norm_32": "00f315fa65622e4718582aa3c7bd20f1"
+  },
+  {
+   "kind": "器物",
+   "file": "resume_on_gate_open.py",
+   "bytes": 7043,
+   "sha3_512_32": "609775f4b9dbb68a88f5a15b21a152e3",
+   "sha3_512_norm_32": "609775f4b9dbb68a88f5a15b21a152e3"
+  },
+  {
+   "kind": "器物",
+   "file": "client_handoff.py",
+   "bytes": 3986,
+   "sha3_512_32": "db5cb2d662daa5343d9a4c3d4ac7eba6",
+   "sha3_512_norm_32": "db5cb2d662daa5343d9a4c3d4ac7eba6"
+  },
+  {
+   "kind": "器物",
+   "file": "daily_nine_audit.py",
+   "bytes": 8266,
+   "sha3_512_32": "5c89883d733a9ccbcaa5a93c1cdc0cc0",
+   "sha3_512_norm_32": "5c89883d733a9ccbcaa5a93c1cdc0cc0"
+  },
+  {
+   "kind": "器物",
+   "file": "mf_grab.cs",
+   "bytes": 20995,
+   "sha3_512_32": "05bf653ac8577e8ddc3d27a08c00516b",
+   "sha3_512_norm_32": "05bf653ac8577e8ddc3d27a08c00516b"
+  },
+  {
+   "kind": "器物",
+   "file": "sig_block.py",
+   "bytes": 6536,
+   "sha3_512_32": "397f25d6502afdb5ce02371e53e05a80",
+   "sha3_512_norm_32": "397f25d6502afdb5ce02371e53e05a80"
+  },
+  {
+   "kind": "器物",
+   "file": "scan_secrets.py",
+   "bytes": 32860,
+   "sha3_512_32": "ed06b6978af52ede6af0d0e7c93ed6d3",
+   "sha3_512_norm_32": "ed06b6978af52ede6af0d0e7c93ed6d3"
+  },
+  {
+   "kind": "文档",
+   "file": "世界模型作业总册v3_DF-AI-20261009-CAIRN-50.otl",
+   "bytes": 9806,
+   "sha3_512_32": "a31d61cb2841184b852a982ff07fdd16",
+   "sha3_512_norm_32": "a31d61cb2841184b852a982ff07fdd16"
+  },
+  {
+   "kind": "文档",
+   "file": "总册v3修订r3_DF-AI-20261009-CAIRN-68.otl",
+   "bytes": 6716,
+   "sha3_512_32": "10910753a1163b7cfe8b7482fde8f766",
+   "sha3_512_norm_32": "10910753a1163b7cfe8b7482fde8f766"
+  },
+  {
+   "kind": "文档",
+   "file": "人设入世作业总册v3_DF-PERSONA-20261009-CAIRN-14.otl",
+   "bytes": 9154,
+   "sha3_512_32": "0d16bc9f4539da255b17f7a22584fac0",
+   "sha3_512_norm_32": "0d16bc9f4539da255b17f7a22584fac0"
+  },
+  {
+   "kind": "文档",
+   "file": "世界模型速上手一页_DF-AI-20261009-CAIRN-44.otl",
+   "bytes": 5315,
+   "sha3_512_32": "c1ef5e04e3b1ad744e387483c1499b97",
+   "sha3_512_norm_32": "c1ef5e04e3b1ad744e387483c1499b97"
+  },
+  {
+   "kind": "文档",
+   "file": "门径一开即行总装脚本_DF-AI-20261009-CAIRN-69.otl",
+   "bytes": 4528,
+   "sha3_512_32": "4d869f4b36de098751d1b35aa15e9792",
+   "sha3_512_norm_32": "4d869f4b36de098751d1b35aa15e9792"
+  },
+  {
+   "kind": "文档",
+   "file": "SBOM初稿与标准对齐待核_DF-META-20261009-CAIRN-06.otl",
+   "bytes": 7307,
+   "sha3_512_32": "8700375947bff06ffc4db3c16d86a23c",
+   "sha3_512_norm_32": "8700375947bff06ffc4db3c16d86a23c"
+  },
+  {
+   "kind": "记录",
+   "file": "worlds_manifest_20261009_CAIRN.json",
+   "bytes": 8058,
+   "sha3_512_32": "4deb556a3bd3d7da568c013fcda31bb9",
+   "sha3_512_norm_32": "4deb556a3bd3d7da568c013fcda31bb9"
+  },
+  {
+   "kind": "记录",
+   "file": "corpus_v4_retrieval_20261009_CAIRN.json",
+   "bytes": 4475,
+   "sha3_512_32": "c5117b85105a20df6253cf8ee65b5e4a",
+   "sha3_512_norm_32": "c5117b85105a20df6253cf8ee65b5e4a"
+  },
+  {
+   "kind": "记录",
+   "file": "trace_driven_surrogate_20261009_CAIRN.json",
+   "bytes": 1065,
+   "sha3_512_32": "1225e80389a2c0047f93676a21a3578c",
+   "sha3_512_norm_32": "1225e80389a2c0047f93676a21a3578c"
+  }
+ ]
+}
