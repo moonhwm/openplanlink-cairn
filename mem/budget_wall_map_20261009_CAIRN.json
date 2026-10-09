@@ -1,0 +1,65 @@
+{
+ "ts": "2026-10-09T10:44:55+0800",
+ "seat": "a2a-node-local",
+ "purpose": "预算墙之分组（按模型族）",
+ "rows": [
+  {
+   "model": "qwen-plus",
+   "kind": "chat",
+   "http": 200,
+   "sec": 0.6,
+   "note": "{\"id\":\"chatcmpl-4512e40c-4bf1-994e-8735-4c375e5a64d8\",\"object\":\"chat.completion\",\"created\":1791513883,\"model\":\"qwen-plus"
+  },
+  {
+   "model": "qwen3.8-max",
+   "kind": "chat",
+   "http": 429,
+   "sec": 0.24,
+   "note": "BudgetLimitExceeded {\"error\":{\"message\":\"The budget limit configured by the customer has been reached. API calls cannot "
+  },
+  {
+   "model": "qwen3.7-plus",
+   "kind": "chat",
+   "http": 200,
+   "sec": 8.84,
+   "note": "{\"id\":\"chatcmpl-cba216ff-8b9a-97fe-8373-1eaa0c8cf7f0\",\"object\":\"chat.completion\",\"created\":1791513884,\"model\":\"qwen3.7-p"
+  },
+  {
+   "model": "qwen3.8-omni-flash",
+   "kind": "chat",
+   "http": 200,
+   "sec": 1.58,
+   "note": "{\"id\":\"chatcmpl-aabba3ad-a324-940d-9e7b-75a235ce6dbc\",\"object\":\"chat.completion\",\"created\":1791513893,\"model\":\"qwen3.8-o"
+  },
+  {
+   "model": "decision-model-preview",
+   "kind": "chat",
+   "http": 429,
+   "sec": 0.16,
+   "note": "BudgetLimitExceeded {\"error\":{\"message\":\"The budget limit configured by the customer has been reached. API calls cannot "
+  },
+  {
+   "model": "text-embedding-v4",
+   "kind": "emb",
+   "http": 200,
+   "sec": 0.22,
+   "note": "{\"object\":\"list\",\"data\":[{\"object\":\"embedding\",\"index\":0,\"embedding\":[0.017130432650446892,0.037928007543087006,0.019694"
+  },
+  {
+   "model": "qwen-plus",
+   "kind": "chat",
+   "domain": "public",
+   "http": -1,
+   "sec": 0.03,
+   "note": "<urlopen error [WinError 10054] 远程主机强迫关闭了一个现有的连接。>"
+  },
+  {
+   "model": "decision-model-preview",
+   "kind": "chat",
+   "domain": "public",
+   "http": 429,
+   "sec": 0.18,
+   "note": "BudgetLimitExceeded {\"error\":{\"message\":\"The budget configured in Budget Management has been exhausted. You will be unab"
+  }
+ ]
+}
