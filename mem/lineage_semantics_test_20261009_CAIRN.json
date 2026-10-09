@@ -1,0 +1,14 @@
+{
+ "ts": "2026-10-09T08:11:15+0800",
+ "seat": "a2a-node-local",
+ "design": "以『赤色荒漠三碑』为异首帧，refWorldId 指向「数据塔」",
+ "parent": {
+  "name": "数据塔",
+  "id": "8rcpnKlw6xp3FtpLvZIGB4WA6GHvx3HvxzeAlp4WCuk7uUb8fS_MDUHY-F14PDMt"
+ },
+ "child": {
+  "id": "8rcpnKlw6xp3FtpLvZIGB9mlTipFohD7syfWSOD-bt4aq9tS39yZ8Z0EybgApjCt",
+  "name": "赤色荒漠"
+ },
+ "detail_ref": true
+}
