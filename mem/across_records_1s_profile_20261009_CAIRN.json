@@ -1,0 +1,62 @@
+{
+ "ts": "2026-10-09T10:12:55+0800",
+ "seat": "a2a-node-local",
+ "unit": "per-1s-window means",
+ "rows": [
+  {
+   "name": "A 数据虚空",
+   "csv": "frame_stats_20261009_CAIRN.csv",
+   "bins": 11,
+   "lum_first": 22.34,
+   "lum_last": 24.19,
+   "lum_delta": 1.85,
+   "mad_median": 0.212,
+   "mad_17_21": NaN,
+   "ratio_17_21": NaN
+  },
+  {
+   "name": "B 数据塔",
+   "csv": "frame_stats_b_20261009_CAIRN.csv",
+   "bins": 10,
+   "lum_first": 13.43,
+   "lum_last": 14.77,
+   "lum_delta": 1.34,
+   "mad_median": 0.167,
+   "mad_17_21": NaN,
+   "ratio_17_21": NaN
+  },
+  {
+   "name": "M1 检验室",
+   "csv": "frame_stats_mark_20261009_CAIRN.csv",
+   "bins": 41,
+   "lum_first": 30.43,
+   "lum_last": 33.3,
+   "lum_delta": 2.87,
+   "mad_median": 0.103,
+   "mad_17_21": 0.235,
+   "ratio_17_21": 2.28
+  },
+  {
+   "name": "M2 检验室·再",
+   "csv": "frame_stats_mark2_20261009_CAIRN.csv",
+   "bins": 60,
+   "lum_first": 30.43,
+   "lum_last": 33.37,
+   "lum_delta": 2.93,
+   "mad_median": 0.114,
+   "mad_17_21": 0.229,
+   "ratio_17_21": 2.02
+  },
+  {
+   "name": "INSTRUCT",
+   "csv": "frame_stats_instruct_20261009_CAIRN.csv",
+   "bins": 57,
+   "lum_first": 30.44,
+   "lum_last": 33.4,
+   "lum_delta": 2.97,
+   "mad_median": 0.109,
+   "mad_17_21": 0.238,
+   "ratio_17_21": 2.17
+  }
+ ]
+}
