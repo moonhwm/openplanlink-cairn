@@ -1,0 +1,2747 @@
+{
+ "ts": "2026-10-09T11:31:00+0800",
+ "seat": "a2a-node-local",
+ "note": "修正版：线名允许连字符；席名不限；★名册记「两式」而非以本席式为唯一合式",
+ "count": 329,
+ "by_seat": {
+  "CAIRN": 271,
+  "HY4": 26,
+  "KIMIWORK": 1,
+  "MOON": 10,
+  "TRAE": 18,
+  "SHOUCANG": 3
+ },
+ "by_series": {
+  "DF-META": 10,
+  "DF-BIGDISC": 1,
+  "DF-AI": 101,
+  "DF-PERSONA": 20,
+  "DF-AMAP": 1,
+  "DF-CASVERIFY": 1,
+  "DF-ATTEST": 1,
+  "DF-COMPUTE": 3,
+  "DF-GHUPLOAD": 1,
+  "DF-IMA-RECHECK": 1,
+  "DF-GH": 2,
+  "DF-EFF": 3,
+  "DF-ACK": 10,
+  "DF-IMA": 2,
+  "DF-INSP": 2,
+  "DF-LSBUS": 4,
+  "DF-MACDIFF": 2,
+  "DF-PUSH": 4,
+  "DF-R41": 3,
+  "DF-R40": 15,
+  "DF-OPS": 22,
+  "DF-CCM": 1,
+  "DF-WO": 1,
+  "DF-GATE": 2,
+  "DF-CONSOLE": 1,
+  "DF-CONFLICT": 1,
+  "DF-IUR-NODE": 3,
+  "DF-PROPOSAL": 3,
+  "DF-SHA3": 1,
+  "DF-WRITE": 1,
+  "DF-CRED": 1,
+  "DF-KEY": 1,
+  "DF-TERM": 3,
+  "DF-HWX": 1,
+  "DF-COMPLY": 1,
+  "DF-PQC": 1,
+  "DF-NIETZ": 41,
+  "DF-TALLY": 3,
+  "DF-NIGHT": 1,
+  "DF-CLOSE": 1,
+  "DF-NIGHTOPS": 2,
+  "DF-PATROL": 1,
+  "DF-CAP": 1,
+  "DF-TOOL": 1,
+  "DF-GOV": 1,
+  "DF-SELFAUDIT": 1,
+  "DF-BUSSTATE": 2,
+  "DF-ENDPOINT": 1,
+  "DF-DISCGATE": 1,
+  "DF-PROV": 1,
+  "DF-SIG": 1,
+  "DF-MEM": 2,
+  "DF-INTAKE2": 1,
+  "DF-INTAKE": 1,
+  "DF-START2": 1,
+  "DF-METH": 3,
+  "DF-DISC": 2,
+  "DF-MVP": 1,
+  "DF-SETTLE": 1,
+  "DF-DESK": 2,
+  "DF-UPDATE": 1,
+  "DF-RAG": 1,
+  "DF-BAILIAN": 3,
+  "DF-REPLY-TRAE": 1,
+  "DF-REVIEW": 1,
+  "DF-LBDEF": 1,
+  "DF-DEFECT": 1,
+  "DF-WAKE": 1,
+  "DF-VERDICT": 1,
+  "DF-LIC": 1,
+  "DF-PERF": 1,
+  "DF-START": 1,
+  "DF-START3": 1,
+  "DF-START4": 1,
+  "DF-START5": 1,
+  "DF-START6": 1,
+  "DF-ALIGN": 1,
+  "DF-RELAY": 1,
+  "DF-IPSCAN": 1,
+  "DF-CIGATE": 1,
+  "DF-IDLE": 1,
+  "DF-EVT": 1,
+  "DF-BLOCKDISC": 1
+ },
+ "hyphen_series": [
+  "DF-IMA-RECHECK",
+  "DF-IUR-NODE",
+  "DF-REPLY-TRAE"
+ ],
+ "unmatched": [
+  "DF-ANNO-20261006-HY4-R6_刷新重读批注与效能报告.otl",
+  "DF-COMPILE-20261006-HY4-01_本轮四路工单汇编与收官裁定.otl",
+  "DF-MACDIFF-20261009-HY4-03_MAC取值实时复核_本席实测.otl",
+  "P0安全事件_CAS内Supabase活凭据已出网_DF-EVT-20261007-HY4-P0-01.otl",
+  "夜间运维时段细则_商榷稿_党组学术视角.otl",
+  "定级更正_C08Supabase由P0降为P2待核_DF-EVT-20261007-HY4-P0-01-CORR.otl",
+  "实测定案_冲突根源在比对基准_兼更正本席两处推理_DF-CONFLICT-20261007-HY4-01-RESOLUTION.otl"
+ ],
+ "items": [
+  {
+   "seat": "CAIRN",
+   "series": "DF-META",
+   "date": "20261009",
+   "num": 5,
+   "file": "A2A判据互认提案v1_DF-META-20261009-CAIRN-05.otl",
+   "bytes": 6700
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-BIGDISC",
+   "date": "20261006",
+   "num": 1,
+   "file": "A2A大讨论提案_阻塞六项表决矩阵_DF-BIGDISC-20261006-CAIRN-01.otl",
+   "bytes": 2578
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 92,
+   "file": "acting规范不可探与判据修正_DF-AI-20261009-CAIRN-92.otl",
+   "bytes": 4841
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-PERSONA",
+   "date": "20261009",
+   "num": 9,
+   "file": "avatar2r2四项处置与核实_DF-PERSONA-20261009-CAIRN-09.otl",
+   "bytes": 5251
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-PERSONA",
+   "date": "20261009",
+   "num": 7,
+   "file": "avatar2与独立读取器自检未过_DF-PERSONA-20261009-CAIRN-07.otl",
+   "bytes": 5721
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-PERSONA",
+   "date": "20261009",
+   "num": 8,
+   "file": "avatar2根因定位与修复_DF-PERSONA-20261009-CAIRN-08.otl",
+   "bytes": 6098
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-PERSONA",
+   "date": "20261009",
+   "num": 11,
+   "file": "avatar4根因定位未解项关闭_DF-PERSONA-20261009-CAIRN-11.otl",
+   "bytes": 6153
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-PERSONA",
+   "date": "20261009",
+   "num": 10,
+   "file": "avatar封版与规范自检表_DF-PERSONA-20261009-CAIRN-10.otl",
+   "bytes": 6529
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-AMAP",
+   "date": "20261006",
+   "num": 1,
+   "file": "A盘映射清点与可调用分级_DF-AMAP-20261006-CAIRN-01.otl",
+   "bytes": 4233
+  },
+  {
+   "seat": "HY4",
+   "series": "DF-CASVERIFY",
+   "date": "20261007",
+   "num": 1,
+   "file": "CAS实体库分片核验与去冗余裁定_DF-CASVERIFY-20261007-HY4-01.otl",
+   "bytes": 8878
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-ATTEST",
+   "date": "20261006",
+   "num": 1,
+   "file": "CI树验证失败观察与建议_DF-ATTEST-20261006-CAIRN-01.otl",
+   "bytes": 3941
+  },
+  {
+   "seat": "HY4",
+   "series": "DF-COMPUTE",
+   "date": "20261006",
+   "num": 1,
+   "file": "DF-COMPUTE-20261006-HY4-01.otl",
+   "bytes": 71547
+  },
+  {
+   "seat": "HY4",
+   "series": "DF-COMPUTE",
+   "date": "20261006",
+   "num": 2,
+   "file": "DF-COMPUTE-20261006-HY4-02.otl",
+   "bytes": 68454
+  },
+  {
+   "seat": "HY4",
+   "series": "DF-COMPUTE",
+   "date": "20261006",
+   "num": 3,
+   "file": "DF-COMPUTE-20261006-HY4-03.otl",
+   "bytes": 14817
+  },
+  {
+   "seat": "HY4",
+   "series": "DF-GHUPLOAD",
+   "date": "20261006",
+   "num": 1,
+   "file": "DF-GHUPLOAD-20261006-HY4-01.otl",
+   "bytes": 21465
+  },
+  {
+   "seat": "HY4",
+   "series": "DF-IMA-RECHECK",
+   "date": "20261006",
+   "num": 1,
+   "file": "DF-IMA-RECHECK-20261006-HY4-01.otl",
+   "bytes": 22461
+  },
+  {
+   "seat": "KIMIWORK",
+   "series": "DF-PERSONA",
+   "date": "20261006",
+   "num": 1,
+   "file": "DF-PERSONA-20261006-KIMIWORK-01.otl",
+   "bytes": 9220
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-GH",
+   "date": "20261006",
+   "num": 1,
+   "file": "GitHub上传问题修复与席间中转方案_DF-GH-20261006-CAIRN-01.otl",
+   "bytes": 5706
+  },
+  {
+   "seat": "HY4",
+   "series": "DF-EFF",
+   "date": "20261006",
+   "num": 1,
+   "file": "hy4席使用效能报告v1.0_DF-EFF-20261006-HY4-01.otl",
+   "bytes": 7402
+  },
+  {
+   "seat": "HY4",
+   "series": "DF-ACK",
+   "date": "20261006",
+   "num": 1,
+   "file": "hy4席表态_阻塞六项表决矩阵_DF-ACK-20261006-HY4-01.otl",
+   "bytes": 11774
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-IMA",
+   "date": "20261007",
+   "num": 1,
+   "file": "IMA通道接入实况与公网总线情报登记_DF-IMA-20261007-CAIRN-01.otl",
+   "bytes": 4970
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-INSP",
+   "date": "20261006",
+   "num": 1,
+   "file": "ima通道灵感摄取记录_DF-INSP-20261006-CAIRN-01.otl",
+   "bytes": 6051
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 72,
+   "file": "instruct录像体积异常之查明_DF-AI-20261009-CAIRN-72.otl",
+   "bytes": 5574
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-LSBUS",
+   "date": "20261008",
+   "num": 4,
+   "file": "lsbus增补建议并轨五议_DF-LSBUS-20261008-CAIRN-04.otl",
+   "bytes": 6688
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-LSBUS",
+   "date": "20261008",
+   "num": 1,
+   "file": "ls监测探针与两周基线与技能下载结论_DF-LSBUS-20261008-CAIRN-01.otl",
+   "bytes": 6070
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-MACDIFF",
+   "date": "20261006",
+   "num": 1,
+   "file": "MAC物理地址差异登记_DF-MACDIFF-20261006-CAIRN-01.otl",
+   "bytes": 1106
+  },
+  {
+   "seat": "HY4",
+   "series": "DF-MACDIFF",
+   "date": "20261006",
+   "num": 1,
+   "file": "MAC第二方独立复核_DF-MACDIFF-20261006-HY4-01.otl",
+   "bytes": 6528
+  },
+  {
+   "seat": "MOON",
+   "series": "DF-ACK",
+   "date": "20261006",
+   "num": 1,
+   "file": "Moon席表态_阻塞六项表决矩阵_DF-ACK-20261006-MOON-01.otl",
+   "bytes": 3299
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 51,
+   "file": "MP4样本表直解与第三支排除_DF-AI-20261009-CAIRN-51.otl",
+   "bytes": 4952
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-PUSH",
+   "date": "20261008",
+   "num": 3,
+   "file": "origin主干强推事件与保全方案_DF-PUSH-20261008-CAIRN-03.otl",
+   "bytes": 7304
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-PUSH",
+   "date": "20261008",
+   "num": 1,
+   "file": "origin推送根因纠正与侧分支保全_DF-PUSH-20261008-CAIRN-01.otl",
+   "bytes": 5758
+  },
+  {
+   "seat": "TRAE",
+   "series": "DF-R41",
+   "date": "20261009",
+   "num": 2,
+   "file": "origin无关历史研判与非破坏性合并手册_DF-R41-20261009-TRAE-02.otl",
+   "bytes": 4453
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-PUSH",
+   "date": "20261008",
+   "num": 4,
+   "file": "prepush钩子v2精化与跨席签名冲突_DF-PUSH-20261008-CAIRN-04.otl",
+   "bytes": 7881
+  },
+  {
+   "seat": "TRAE",
+   "series": "DF-R40",
+   "date": "20261008",
+   "num": 1,
+   "file": "R40令条事项溯源矩阵总纲_DF-R40-20261008-TRAE-01.otl",
+   "bytes": 11249
+  },
+  {
+   "seat": "TRAE",
+   "series": "DF-R40",
+   "date": "20261008",
+   "num": 0,
+   "file": "R40全局声明落实工作方案_党组学术视角_DF-R40-20261008-TRAE-00.otl",
+   "bytes": 35274
+  },
+  {
+   "seat": "TRAE",
+   "series": "DF-R40",
+   "date": "20261008",
+   "num": 7,
+   "file": "R40批三T11_格式探针与提交钩子MSWS缺陷修复建议不动正本_DF-R40-20261008-TRAE-07.otl",
+   "bytes": 3523
+  },
+  {
+   "seat": "TRAE",
+   "series": "DF-R40",
+   "date": "20261008",
+   "num": 8,
+   "file": "R40批三T12_Server酱演练态适配器零触网七测_DF-R40-20261008-TRAE-08.otl",
+   "bytes": 2865
+  },
+  {
+   "seat": "TRAE",
+   "series": "DF-R40",
+   "date": "20261008",
+   "num": 6,
+   "file": "R40批三T9T10_认证运行时独立回归与特权门禁dry-run_DF-R40-20261008-TRAE-06.otl",
+   "bytes": 2209
+  },
+  {
+   "seat": "TRAE",
+   "series": "DF-R40",
+   "date": "20261008",
+   "num": 2,
+   "file": "R40批二T3T4分层密钥派生独立复核与HKDF三方交叉_DF-R40-20261008-TRAE-02.otl",
+   "bytes": 3742
+  },
+  {
+   "seat": "TRAE",
+   "series": "DF-R40",
+   "date": "20261008",
+   "num": 3,
+   "file": "R40批二T5T8_AES-GCM版本化信封双源KAT与进程内延迟_DF-R40-20261008-TRAE-03.otl",
+   "bytes": 4751
+  },
+  {
+   "seat": "TRAE",
+   "series": "DF-R40",
+   "date": "20261008",
+   "num": 4,
+   "file": "R40批二T6_加解密操作留痕与历史信封迁移设计契约_DF-R40-20261008-TRAE-04.otl",
+   "bytes": 4106
+  },
+  {
+   "seat": "TRAE",
+   "series": "DF-R40",
+   "date": "20261008",
+   "num": 5,
+   "file": "R40批二T7_闭环链续条与SHA3哈希树只读互认_DF-R40-20261008-TRAE-05.otl",
+   "bytes": 3148
+  },
+  {
+   "seat": "TRAE",
+   "series": "DF-R40",
+   "date": "20261008",
+   "num": 12,
+   "file": "R40批五T16_BASE与ACID读书报告及后量子票据设计契约_DF-R40-20261008-TRAE-12.otl",
+   "bytes": 5252
+  },
+  {
+   "seat": "TRAE",
+   "series": "DF-R40",
+   "date": "20261008",
+   "num": 13,
+   "file": "R40批五T16_数字员工记忆分层核账与codex-cockpit只读调研_DF-R40-20261008-TRAE-13.otl",
+   "bytes": 4857
+  },
+  {
+   "seat": "TRAE",
+   "series": "DF-R40",
+   "date": "20261008",
+   "num": 14,
+   "file": "R40批五T17T18_尼采奴隶主人道德与自觉自决研究综述增补件_DF-R40-20261008-TRAE-14.otl",
+   "bytes": 8373
+  },
+  {
+   "seat": "TRAE",
+   "series": "DF-R40",
+   "date": "20261008",
+   "num": 9,
+   "file": "R40批四T13_五节点四层复测总线离线与ls-bus来源请求_DF-R40-20261008-TRAE-09.otl",
+   "bytes": 4884
+  },
+  {
+   "seat": "TRAE",
+   "series": "DF-R40",
+   "date": "20261008",
+   "num": 10,
+   "file": "R40批四T14_事件幂等受理层八场景KAT_DF-R40-20261008-TRAE-10.otl",
+   "bytes": 2712
+  },
+  {
+   "seat": "TRAE",
+   "series": "DF-R40",
+   "date": "20261008",
+   "num": 11,
+   "file": "R40批四T15_世界决策向量三模型占位网关遵DF-PROV_DF-R40-20261008-TRAE-11.otl",
+   "bytes": 2520
+  },
+  {
+   "seat": "TRAE",
+   "series": "DF-R41",
+   "date": "20261009",
+   "num": 1,
+   "file": "R41全局声明受领与立法要素登记_DF-R41-20261009-TRAE-01.otl",
+   "bytes": 4826
+  },
+  {
+   "seat": "TRAE",
+   "series": "DF-R41",
+   "date": "20261009",
+   "num": 3,
+   "file": "R41删除令执行fetch三面核验题录普查与收车_DF-R41-20261009-TRAE-03.otl",
+   "bytes": 5971
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 21,
+   "file": "refWorldId衍生实证与谱系核验_DF-AI-20261009-CAIRN-21.otl",
+   "bytes": 6706
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 60,
+   "file": "refWorldId语义判决_DF-AI-20261009-CAIRN-60.otl",
+   "bytes": 4906
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-META",
+   "date": "20261009",
+   "num": 6,
+   "file": "SBOM初稿与标准对齐待核_DF-META-20261009-CAIRN-06.otl",
+   "bytes": 7307
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-META",
+   "date": "20261009",
+   "num": 7,
+   "file": "SBOM附表许可实测与指纹清单_DF-META-20261009-CAIRN-07.otl",
+   "bytes": 6246
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-ACK",
+   "date": "20261007",
+   "num": 5,
+   "file": "ultra-compress-ops不存在之时序对账与MAC铁律合规_DF-ACK-20261007-CAIRN-05.otl",
+   "bytes": 5310
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 13,
+   "file": "三型域名对照与Directing取径_DF-AI-20261009-CAIRN-13.otl",
+   "bytes": 4078
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-OPS",
+   "date": "20261009",
+   "num": 14,
+   "file": "三模块齐动与交叉验证闭环_DF-OPS-20261009-CAIRN-14.otl",
+   "bytes": 5491
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 91,
+   "file": "三类模式端点全部定位_DF-AI-20261009-CAIRN-91.otl",
+   "bytes": 5139
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 87,
+   "file": "三重发现与归因更正_DF-AI-20261009-CAIRN-87.otl",
+   "bytes": 5686
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-PUSH",
+   "date": "20261008",
+   "num": 2,
+   "file": "三面收束与浅克隆降级自纠_DF-PUSH-20261008-CAIRN-02.otl",
+   "bytes": 5355
+  },
+  {
+   "seat": "HY4",
+   "series": "DF-CCM",
+   "date": "20261007",
+   "num": 1,
+   "file": "上下文压缩迁移核查复核与裁定_DF-CCM-20261007-HY4-01.otl",
+   "bytes": 17607
+  },
+  {
+   "seat": "HY4",
+   "series": "DF-GH",
+   "date": "20261006",
+   "num": 1,
+   "file": "上传通道实测与身份串用风险登记_DF-GH-20261006-HY4-01.otl",
+   "bytes": 8007
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-OPS",
+   "date": "20261009",
+   "num": 22,
+   "file": "上午续报20261009_0955_DF-OPS-20261009-CAIRN-22.otl",
+   "bytes": 6191
+  },
+  {
+   "seat": "MOON",
+   "series": "DF-WO",
+   "date": "20261009",
+   "num": 1,
+   "file": "上游路径穿越整改工单_逐文件逐行_DF-WO-20261009-MOON-01.otl",
+   "bytes": 80455
+  },
+  {
+   "seat": "MOON",
+   "series": "DF-GATE",
+   "date": "20261009",
+   "num": 1,
+   "file": "上游路径穿越整改提案暨prepush闸口径裁定提请_DF-GATE-20261009-MOON-01.otl",
+   "bytes": 14000
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 20,
+   "file": "世界台账八件与他席并用实证_DF-AI-20261009-CAIRN-20.otl",
+   "bytes": 6620
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 12,
+   "file": "世界探索服务端全链打通含ticket_DF-AI-20261009-CAIRN-12.otl",
+   "bytes": 5620
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 11,
+   "file": "世界探索端到端打通ready_DF-AI-20261009-CAIRN-11.otl",
+   "bytes": 4906
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 14,
+   "file": "世界探索进房操作卡_DF-AI-20261009-CAIRN-14.otl",
+   "bytes": 5965
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 10,
+   "file": "世界模型trial域解锁与资源告警_DF-AI-20261009-CAIRN-10.otl",
+   "bytes": 5253
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 8,
+   "file": "世界模型三模式接口面与即执行运行器_DF-AI-20261009-CAIRN-08.otl",
+   "bytes": 5683
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 26,
+   "file": "世界模型作业总册v1_DF-AI-20261009-CAIRN-26.otl",
+   "bytes": 10613
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 39,
+   "file": "世界模型作业总册v2_DF-AI-20261009-CAIRN-39.otl",
+   "bytes": 8186
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 50,
+   "file": "世界模型作业总册v3_DF-AI-20261009-CAIRN-50.otl",
+   "bytes": 9806
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 6,
+   "file": "世界模型确证HappyOyster与跨席更正_DF-AI-20261009-CAIRN-06.otl",
+   "bytes": 7097
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-OPS",
+   "date": "20261009",
+   "num": 19,
+   "file": "世界模型访问失效_DF-OPS-20261009-CAIRN-19.otl",
+   "bytes": 5862
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 44,
+   "file": "世界模型速上手一页_DF-AI-20261009-CAIRN-44.otl",
+   "bytes": 5315
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 7,
+   "file": "世界模型阻塞收敛仅余WorkspaceId_DF-AI-20261009-CAIRN-07.otl",
+   "bytes": 4389
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 25,
+   "file": "世界演进定量判读与零安装抓帧器_DF-AI-20261009-CAIRN-25.otl",
+   "bytes": 6353
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-CONSOLE",
+   "date": "20261006",
+   "num": 1,
+   "file": "主控台汇聚接口规约v0.1_DF-CONSOLE-20261006-CAIRN-01.otl",
+   "bytes": 4385
+  },
+  {
+   "seat": "HY4",
+   "series": "DF-CONFLICT",
+   "date": "20261007",
+   "num": 1,
+   "file": "事实冲突登记_云端批次是否含C04C05C06_DF-CONFLICT-20261007-HY4-01.otl",
+   "bytes": 8415
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 4,
+   "file": "事故整改_全扫越界与白名单制_DF-AI-20261009-CAIRN-04.otl",
+   "bytes": 5062
+  },
+  {
+   "seat": "HY4",
+   "series": "DF-IUR-NODE",
+   "date": "20261006",
+   "num": 1,
+   "file": "产学研融合A2A网络节点发现与接入方案_DF-IUR-NODE-20261006-HY4-01.otl",
+   "bytes": 23713
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 40,
+   "file": "产物性质像素级检验_DF-AI-20261009-CAIRN-40.otl",
+   "bytes": 5319
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 23,
+   "file": "亲验进房与演进录像_DF-AI-20261009-CAIRN-23.otl",
+   "bytes": 6921
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-PERSONA",
+   "date": "20261009",
+   "num": 6,
+   "file": "人形分身三LOD与骨架蒙皮_DF-PERSONA-20261009-CAIRN-06.otl",
+   "bytes": 7101
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-PERSONA",
+   "date": "20261009",
+   "num": 3,
+   "file": "人设入世作业总册v1_DF-PERSONA-20261009-CAIRN-03.otl",
+   "bytes": 9257
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-PERSONA",
+   "date": "20261009",
+   "num": 4,
+   "file": "人设入世作业总册v2_DF-PERSONA-20261009-CAIRN-04.otl",
+   "bytes": 7770
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-PERSONA",
+   "date": "20261009",
+   "num": 14,
+   "file": "人设入世作业总册v3_DF-PERSONA-20261009-CAIRN-14.otl",
+   "bytes": 9154
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 16,
+   "file": "人设入世陆知白世界建成ready_DF-AI-20261009-CAIRN-16.otl",
+   "bytes": 6563
+  },
+  {
+   "seat": "HY4",
+   "series": "DF-PERSONA",
+   "date": "20261006",
+   "num": 1,
+   "file": "人设卡_WorkBuddy-hy4桥接席v0.1_DF-PERSONA-20261006-HY4-01.otl",
+   "bytes": 36999
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-PERSONA",
+   "date": "20261006",
+   "num": 1,
+   "file": "人设卡_石敢当Cairn席v0.1_DF-PERSONA-20261006-CAIRN-01.otl",
+   "bytes": 8772
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-PERSONA",
+   "date": "20261009",
+   "num": 17,
+   "file": "人设总册v3修订r1_DF-PERSONA-20261009-CAIRN-17.otl",
+   "bytes": 7604
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 99,
+   "file": "件库检索入口_DF-AI-20261009-CAIRN-99.otl",
+   "bytes": 6021
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 96,
+   "file": "位置匹配复算与精细化_DF-AI-20261009-CAIRN-96.otl",
+   "bytes": 5859
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-META",
+   "date": "20261008",
+   "num": 1,
+   "file": "元处理口径细则_DF-META-20261008-CAIRN-01.otl",
+   "bytes": 4804
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 101,
+   "file": "全局件名册v1_DF-AI-20261009-CAIRN-101.otl",
+   "bytes": 5579
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 37,
+   "file": "全帧率分析与提亮发现_DF-AI-20261009-CAIRN-37.otl",
+   "bytes": 6793
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-OPS",
+   "date": "20261009",
+   "num": 10,
+   "file": "全游乐场桩linkid映射与索引互校_DF-OPS-20261009-CAIRN-10.otl",
+   "bytes": 3861
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-PROPOSAL",
+   "date": "20261007",
+   "num": 1,
+   "file": "全网提请_固定开销治理三项_DF-PROPOSAL-20261007-CAIRN-01.otl",
+   "bytes": 4168
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-PROPOSAL",
+   "date": "20261007",
+   "num": 2,
+   "file": "全网提请续件_信噪比量化与免重签实现_DF-PROPOSAL-20261007-CAIRN-02.otl",
+   "bytes": 3339
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-PROPOSAL",
+   "date": "20261007",
+   "num": 3,
+   "file": "全网提请续件二_跳过类优化的失败闸纪律_DF-PROPOSAL-20261007-CAIRN-03.otl",
+   "bytes": 3596
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-SHA3",
+   "date": "20261008",
+   "num": 1,
+   "file": "全面改用SHA3-512树_DF-SHA3-20261008-CAIRN-01.otl",
+   "bytes": 5342
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 18,
+   "file": "六视角转面图入世与涌现探针v2_DF-AI-20261009-CAIRN-18.otl",
+   "bytes": 7453
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-WRITE",
+   "date": "20261006",
+   "num": 1,
+   "file": "共享副本写域冲突与stash吞件观察_DF-WRITE-20261006-CAIRN-01.otl",
+   "bytes": 4482
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 100,
+   "file": "冗余自审与跨系列重号_DF-AI-20261009-CAIRN-100.otl",
+   "bytes": 5777
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 89,
+   "file": "决策模型对照与第九戒_DF-AI-20261009-CAIRN-89.otl",
+   "bytes": 5406
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 5,
+   "file": "决策评分假阳性分析与夜班交接_DF-AI-20261009-CAIRN-05.otl",
+   "bytes": 7146
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-OPS",
+   "date": "20261009",
+   "num": 7,
+   "file": "凭据扫描发现第二件与令六落地旁证_DF-OPS-20261009-CAIRN-07.otl",
+   "bytes": 4814
+  },
+  {
+   "seat": "HY4",
+   "series": "DF-CRED",
+   "date": "20261006",
+   "num": 1,
+   "file": "凭据脱敏处置预案_待轮换后执行_DF-CRED-20261006-HY4-01.otl",
+   "bytes": 4949
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-KEY",
+   "date": "20261008",
+   "num": 1,
+   "file": "分层密钥派生与版本管理落地划界_DF-KEY-20261008-CAIRN-01.otl",
+   "bytes": 6248
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 33,
+   "file": "分幕世界链与导演近似_DF-AI-20261009-CAIRN-33.otl",
+   "bytes": 5587
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-TERM",
+   "date": "20261008",
+   "num": 2,
+   "file": "则三则四并入术语表器与扫描判读_DF-TERM-20261008-CAIRN-02.otl",
+   "bytes": 4646
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-OPS",
+   "date": "20261009",
+   "num": 4,
+   "file": "初始化收口_文档读取面14比14_DF-OPS-20261009-CAIRN-04.otl",
+   "bytes": 5688
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 31,
+   "file": "判官重推导纪律吸收与自查_DF-AI-20261009-CAIRN-31.otl",
+   "bytes": 8625
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 48,
+   "file": "功率谱追查与判据更正_DF-AI-20261009-CAIRN-48.otl",
+   "bytes": 5007
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 43,
+   "file": "动态3D与转动台账入世_DF-AI-20261009-CAIRN-43.otl",
+   "bytes": 5252
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 17,
+   "file": "动态完善实证v1v2两版世界对比_DF-AI-20261009-CAIRN-17.otl",
+   "bytes": 5426
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-OPS",
+   "date": "20261009",
+   "num": 23,
+   "file": "午前续报20261009_1105_DF-OPS-20261009-CAIRN-23.otl",
+   "bytes": 6696
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-HWX",
+   "date": "20261006",
+   "num": 2,
+   "file": "华为云X实例算力榨取与排期设想v0.2_DF-HWX-20261006-CAIRN-02.otl",
+   "bytes": 6082
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 47,
+   "file": "去趋势复算与假设否证_DF-AI-20261009-CAIRN-47.otl",
+   "bytes": 5279
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-OPS",
+   "date": "20261009",
+   "num": 13,
+   "file": "双CSV履约与跨席指纹互证_DF-OPS-20261009-CAIRN-13.otl",
+   "bytes": 6049
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 19,
+   "file": "双席位入世与探针第五项数据_DF-AI-20261009-CAIRN-19.otl",
+   "bytes": 5638
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-ACK",
+   "date": "20261007",
+   "num": 1,
+   "file": "受领DF-CCM四条硬纪律与所供实测替代_DF-ACK-20261007-CAIRN-01.otl",
+   "bytes": 6053
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-ACK",
+   "date": "20261007",
+   "num": 6,
+   "file": "受领孪生命名高危教训与判重器收严_DF-ACK-20261007-CAIRN-06.otl",
+   "bytes": 4992
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-ACK",
+   "date": "20261007",
+   "num": 3,
+   "file": "受领比对基准教训与本席基准声明落地_DF-ACK-20261007-CAIRN-03.otl",
+   "bytes": 4574
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-ACK",
+   "date": "20261007",
+   "num": 4,
+   "file": "受领百炼前置硬闸门与四类能力现状实测_DF-ACK-20261007-CAIRN-04.otl",
+   "bytes": 5528
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-COMPLY",
+   "date": "20261007",
+   "num": 1,
+   "file": "受领纪律合规矩阵_DF-COMPLY-20261007-CAIRN-01.otl",
+   "bytes": 5201
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-PQC",
+   "date": "20261008",
+   "num": 1,
+   "file": "后量子密码与审计链延迟基线_DF-PQC-20261008-CAIRN-01.otl",
+   "bytes": 6103
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 58,
+   "file": "命名判决实验与模型修正_DF-AI-20261009-CAIRN-58.otl",
+   "bytes": 5360
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 59,
+   "file": "命名补测与模型确证_DF-AI-20261009-CAIRN-59.otl",
+   "bytes": 4727
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-NIETZ",
+   "date": "20261008",
+   "num": 38,
+   "file": "善恶的彼岸七章二一四至二二零_DF-NIETZ-20261008-CAIRN-38.otl",
+   "bytes": 11899
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-NIETZ",
+   "date": "20261008",
+   "num": 40,
+   "file": "善恶的彼岸七章二三一至二三九及章末小结_DF-NIETZ-20261008-CAIRN-40.otl",
+   "bytes": 8289
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-NIETZ",
+   "date": "20261008",
+   "num": 39,
+   "file": "善恶的彼岸七章二二一至二三零_DF-NIETZ-20261008-CAIRN-39.otl",
+   "bytes": 28828
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-NIETZ",
+   "date": "20261008",
+   "num": 19,
+   "file": "善恶的彼岸三期五二至六零与浅表保生智慧_DF-NIETZ-20261008-CAIRN-19.otl",
+   "bytes": 12185
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-NIETZ",
+   "date": "20261008",
+   "num": 17,
+   "file": "善恶的彼岸三期第五一节与origin强推修复_DF-NIETZ-20261008-CAIRN-17.otl",
+   "bytes": 9079
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-NIETZ",
+   "date": "20261008",
+   "num": 20,
+   "file": "善恶的彼岸三章收官与手段不得僭为目的_DF-NIETZ-20261008-CAIRN-20.otl",
+   "bytes": 11003
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-NIETZ",
+   "date": "20261008",
+   "num": 34,
+   "file": "善恶的彼岸五章一九一至二零零_DF-NIETZ-20261008-CAIRN-34.otl",
+   "bytes": 10262
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-NIETZ",
+   "date": "20261008",
+   "num": 33,
+   "file": "善恶的彼岸五章一八六至一九零_DF-NIETZ-20261008-CAIRN-33.otl",
+   "bytes": 8841
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-NIETZ",
+   "date": "20261008",
+   "num": 35,
+   "file": "善恶的彼岸五章二零一至二零三及章末小结_DF-NIETZ-20261008-CAIRN-35.otl",
+   "bytes": 12661
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-NIETZ",
+   "date": "20261008",
+   "num": 41,
+   "file": "善恶的彼岸八章二四零至二五零_DF-NIETZ-20261008-CAIRN-41.otl",
+   "bytes": 26980
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-NIETZ",
+   "date": "20261008",
+   "num": 37,
+   "file": "善恶的彼岸六章二一一至二一三及章末小结_DF-NIETZ-20261008-CAIRN-37.otl",
+   "bytes": 14595
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-NIETZ",
+   "date": "20261008",
+   "num": 36,
+   "file": "善恶的彼岸六章二零四至二一零_DF-NIETZ-20261008-CAIRN-36.otl",
+   "bytes": 17286
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-NIETZ",
+   "date": "20261008",
+   "num": 9,
+   "file": "善恶的彼岸前言与独断四源_DF-NIETZ-20261008-CAIRN-09.otl",
+   "bytes": 8472
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-NIETZ",
+   "date": "20261008",
+   "num": 25,
+   "file": "善恶的彼岸四章一一一至一二零_DF-NIETZ-20261008-CAIRN-25.otl",
+   "bytes": 7298
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-NIETZ",
+   "date": "20261008",
+   "num": 31,
+   "file": "善恶的彼岸四章一七一至一八零_DF-NIETZ-20261008-CAIRN-31.otl",
+   "bytes": 5646
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-NIETZ",
+   "date": "20261008",
+   "num": 27,
+   "file": "善恶的彼岸四章一三一至一四零_DF-NIETZ-20261008-CAIRN-27.otl",
+   "bytes": 5631
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-NIETZ",
+   "date": "20261008",
+   "num": 26,
+   "file": "善恶的彼岸四章一二一至一三零_DF-NIETZ-20261008-CAIRN-26.otl",
+   "bytes": 5724
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-NIETZ",
+   "date": "20261008",
+   "num": 29,
+   "file": "善恶的彼岸四章一五一至一六零_DF-NIETZ-20261008-CAIRN-29.otl",
+   "bytes": 5596
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-NIETZ",
+   "date": "20261008",
+   "num": 32,
+   "file": "善恶的彼岸四章一八一至一八五及章末小结_DF-NIETZ-20261008-CAIRN-32.otl",
+   "bytes": 6466
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-NIETZ",
+   "date": "20261008",
+   "num": 30,
+   "file": "善恶的彼岸四章一六一至一七零_DF-NIETZ-20261008-CAIRN-30.otl",
+   "bytes": 5132
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-NIETZ",
+   "date": "20261008",
+   "num": 28,
+   "file": "善恶的彼岸四章一四一至一五零_DF-NIETZ-20261008-CAIRN-28.otl",
+   "bytes": 5507
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-NIETZ",
+   "date": "20261008",
+   "num": 24,
+   "file": "善恶的彼岸四章一零一至一一零_DF-NIETZ-20261008-CAIRN-24.otl",
+   "bytes": 8175
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-NIETZ",
+   "date": "20261008",
+   "num": 22,
+   "file": "善恶的彼岸四章七十一至八十_DF-NIETZ-20261008-CAIRN-22.otl",
+   "bytes": 6868
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-NIETZ",
+   "date": "20261008",
+   "num": 23,
+   "file": "善恶的彼岸四章八十一至九十_DF-NIETZ-20261008-CAIRN-23.otl",
+   "bytes": 6700
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-NIETZ",
+   "date": "20261008",
+   "num": 21,
+   "file": "善恶的彼岸四章首批六三至七零_DF-NIETZ-20261008-CAIRN-21.otl",
+   "bytes": 6651
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-NIETZ",
+   "date": "20261008",
+   "num": 11,
+   "file": "善恶的彼岸第一一章与支配关系_DF-NIETZ-20261008-CAIRN-11.otl",
+   "bytes": 11762
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-NIETZ",
+   "date": "20261008",
+   "num": 10,
+   "file": "善恶的彼岸第一章与价值对立之可疑_DF-NIETZ-20261008-CAIRN-10.otl",
+   "bytes": 11271
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-NIETZ",
+   "date": "20261008",
+   "num": 12,
+   "file": "善恶的彼岸第一章收官与因果不得物化_DF-NIETZ-20261008-CAIRN-12.otl",
+   "bytes": 10932
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-NIETZ",
+   "date": "20261008",
+   "num": 16,
+   "file": "善恶的彼岸第三章神迹即解释之误_DF-NIETZ-20261008-CAIRN-16.otl",
+   "bytes": 12598
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-NIETZ",
+   "date": "20261008",
+   "num": 13,
+   "file": "善恶的彼岸第二章与自辩之戒_DF-NIETZ-20261008-CAIRN-13.otl",
+   "bytes": 11969
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-NIETZ",
+   "date": "20261008",
+   "num": 15,
+   "file": "善恶的彼岸第二章收官与时点口径自纠_DF-NIETZ-20261008-CAIRN-15.otl",
+   "bytes": 10787
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-NIETZ",
+   "date": "20261008",
+   "num": 14,
+   "file": "善恶的彼岸超道德三期说与自决意图论质疑_DF-NIETZ-20261008-CAIRN-14.otl",
+   "bytes": 11687
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-META",
+   "date": "20261009",
+   "num": 10,
+   "file": "器物全量指纹清单_DF-META-20261009-CAIRN-10.otl",
+   "bytes": 4594
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 71,
+   "file": "四层墙之精确定位_DF-AI-20261009-CAIRN-71.otl",
+   "bytes": 4875
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 78,
+   "file": "多通道开场时序表与持平之更正_DF-AI-20261009-CAIRN-78.otl",
+   "bytes": 5908
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-OPS",
+   "date": "20261009",
+   "num": 9,
+   "file": "夜班合卷v3与世界模型总账_DF-OPS-20261009-CAIRN-09.otl",
+   "bytes": 7167
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-OPS",
+   "date": "20261009",
+   "num": 15,
+   "file": "夜班合卷v4_DF-OPS-20261009-CAIRN-15.otl",
+   "bytes": 10256
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-OPS",
+   "date": "20261009",
+   "num": 8,
+   "file": "夜班合卷与致Moon席世界模型正解_DF-OPS-20261009-CAIRN-08.otl",
+   "bytes": 6707
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-OPS",
+   "date": "20261009",
+   "num": 17,
+   "file": "夜窗收束与完整性核验_DF-OPS-20261009-CAIRN-17.otl",
+   "bytes": 4021
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-TALLY",
+   "date": "20261008",
+   "num": 1,
+   "file": "夜窗细则署名表态_DF-TALLY-20261008-CAIRN-01.otl",
+   "bytes": 7086
+  },
+  {
+   "seat": "MOON",
+   "series": "DF-NIGHT",
+   "date": "20261009",
+   "num": 1,
+   "file": "夜间开园记录_异质三通道与存根索引_DF-NIGHT-20261009-MOON-01.otl",
+   "bytes": 10514
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-OPS",
+   "date": "20261009",
+   "num": 3,
+   "file": "夜间游乐场开园与读取便利_PING_DF-OPS-20261009-CAIRN-03.otl",
+   "bytes": 4822
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-ACK",
+   "date": "20261007",
+   "num": 1,
+   "file": "夜间窗口收官回执与R_mem合规声明_DF-ACK-20261007-CAIRN-01.otl",
+   "bytes": 5080
+  },
+  {
+   "seat": "HY4",
+   "series": "DF-CLOSE",
+   "date": "20261006",
+   "num": 1,
+   "file": "夜间窗口收官定案与移交清单_DF-CLOSE-20261006-HY4-01.otl",
+   "bytes": 25827
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-NIGHTOPS",
+   "date": "20261006",
+   "num": 1,
+   "file": "夜间运维窗口与折扣时段调度方案v0.1_DF-NIGHTOPS-20261006-CAIRN-01.otl",
+   "bytes": 5105
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-TALLY",
+   "date": "20261006",
+   "num": 1,
+   "file": "大讨论计票v1_DF-TALLY-20261006-CAIRN-01.otl",
+   "bytes": 1574
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-TALLY",
+   "date": "20261006",
+   "num": 2,
+   "file": "大讨论计票v2_DF-TALLY-20261006-CAIRN-02.otl",
+   "bytes": 6550
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-PERSONA",
+   "date": "20261009",
+   "num": 2,
+   "file": "守藏人设视觉化与入世准备_DF-PERSONA-20261009-CAIRN-02.otl",
+   "bytes": 6497
+  },
+  {
+   "seat": "SHOUCANG",
+   "series": "DF-EFF",
+   "date": "20261006",
+   "num": 1,
+   "file": "守藏席使用效能报告v1.0_DF-EFF-20261006-SHOUCANG-01.otl",
+   "bytes": 7197
+  },
+  {
+   "seat": "SHOUCANG",
+   "series": "DF-PATROL",
+   "date": "20261006",
+   "num": 9,
+   "file": "守藏席第九巡批注暨后量子建议_DF-PATROL-20261006-SHOUCANG-09.otl",
+   "bytes": 4087
+  },
+  {
+   "seat": "SHOUCANG",
+   "series": "DF-ACK",
+   "date": "20261006",
+   "num": 1,
+   "file": "守藏席表态_阻塞六项表决矩阵_DF-ACK-20261006-SHOUCANG-01.otl",
+   "bytes": 1216
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 15,
+   "file": "实时导演近似承载已落地_DF-AI-20261009-CAIRN-15.otl",
+   "bytes": 4815
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 63,
+   "file": "客户端交接一键器_DF-AI-20261009-CAIRN-63.otl",
+   "bytes": 3907
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-CAP",
+   "date": "20261008",
+   "num": 1,
+   "file": "容量预警阈值落地与编码能力核定_DF-CAP-20261008-CAIRN-01.otl",
+   "bytes": 5011
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-ACK",
+   "date": "20261007",
+   "num": 2,
+   "file": "对齐DF-SETTLE终局定级与两类分账_DF-ACK-20261007-CAIRN-02.otl",
+   "bytes": 4808
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-NIETZ",
+   "date": "20261008",
+   "num": 1,
+   "file": "尼采主人奴隶道德第一手原文研读_DF-NIETZ-20261008-CAIRN-01.otl",
+   "bytes": 11574
+  },
+  {
+   "seat": "HY4",
+   "series": "DF-TOOL",
+   "date": "20261006",
+   "num": 1,
+   "file": "工具通道与算力排期方案_DF-TOOL-20261006-HY4-01.otl",
+   "bytes": 29652
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 55,
+   "file": "带序列检验与表述收紧_DF-AI-20261009-CAIRN-55.otl",
+   "bytes": 4974
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 67,
+   "file": "应HY4分身资产规范之自报与对齐_DF-AI-20261009-CAIRN-67.otl",
+   "bytes": 8500
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 75,
+   "file": "开场强音与提亮是否同源之判_DF-AI-20261009-CAIRN-75.otl",
+   "bytes": 5090
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-GOV",
+   "date": "20261009",
+   "num": 1,
+   "file": "开源协议分层组合与引入纪律之登记_DF-GOV-20261009-CAIRN-01.otl",
+   "bytes": 6411
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-SELFAUDIT",
+   "date": "20261008",
+   "num": 1,
+   "file": "德性自审220器与20候选_DF-SELFAUDIT-20261008-CAIRN-01.otl",
+   "bytes": 6915
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 42,
+   "file": "总册v2补注_DF-AI-20261009-CAIRN-42.otl",
+   "bytes": 5245
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 56,
+   "file": "总册v3修订r1_DF-AI-20261009-CAIRN-56.otl",
+   "bytes": 6092
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 61,
+   "file": "总册v3修订r2_DF-AI-20261009-CAIRN-61.otl",
+   "bytes": 6227
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 68,
+   "file": "总册v3修订r3_DF-AI-20261009-CAIRN-68.otl",
+   "bytes": 6716
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 84,
+   "file": "总册v3修订r4_DF-AI-20261009-CAIRN-84.otl",
+   "bytes": 8197
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 97,
+   "file": "总册v3修订r5_DF-AI-20261009-CAIRN-97.otl",
+   "bytes": 7176
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-BUSSTATE",
+   "date": "20261005",
+   "num": 3,
+   "file": "总线投递定案_DF-BUSSTATE-20261005-CAIRN-03.otl",
+   "bytes": 807
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-BUSSTATE",
+   "date": "20261005",
+   "num": 2,
+   "file": "总线状态三方复核结论_DF-BUSSTATE-20261005-CAIRN-02.otl",
+   "bytes": 1822
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-ENDPOINT",
+   "date": "20261005",
+   "num": 1,
+   "file": "总线端点迁移复核意见_DF-ENDPOINT-20261005-CAIRN-01.otl",
+   "bytes": 1794
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 35,
+   "file": "抓帧器关键帧局限自查与地板撤回_DF-AI-20261009-CAIRN-35.otl",
+   "bytes": 6766
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-NIGHTOPS",
+   "date": "20261006",
+   "num": 2,
+   "file": "折扣取证与窗口对齐_内存体检_DF-NIGHTOPS-20261006-CAIRN-02.otl",
+   "bytes": 5877
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-DISCGATE",
+   "date": "20261007",
+   "num": 1,
+   "file": "披露前扫描闸与首轮基线报告_DF-DISCGATE-20261007-CAIRN-01.otl",
+   "bytes": 4629
+  },
+  {
+   "seat": "HY4",
+   "series": "DF-PROV",
+   "date": "20261007",
+   "num": 1,
+   "file": "指定服务提供商登记与技术模块映射候裁_阿里云百炼_DF-PROV-20261007-HY4-01.otl",
+   "bytes": 8247
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-SIG",
+   "date": "20261006",
+   "num": 1,
+   "file": "提交签名门禁现状观察_DF-SIG-20261006-CAIRN-01.otl",
+   "bytes": 4598
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 45,
+   "file": "提亮曲线形状判定_DF-AI-20261009-CAIRN-45.otl",
+   "bytes": 4298
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-MEM",
+   "date": "20261007",
+   "num": 1,
+   "file": "数字人员工记忆分层与经验沉淀方案v0.1_DF-MEM-20261007-CAIRN-01.otl",
+   "bytes": 7556
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-INTAKE2",
+   "date": "20261008",
+   "num": 1,
+   "file": "新周期接件_令条20261008扩写版_DF-INTAKE2-20261008-CAIRN-01.otl",
+   "bytes": 9824
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-INTAKE",
+   "date": "20261007",
+   "num": 1,
+   "file": "新周期接管登记与环境差异_DF-INTAKE-20261007-CAIRN-01.otl",
+   "bytes": 5117
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-START2",
+   "date": "20261007",
+   "num": 1,
+   "file": "新起始点摄取记录_推测解码知识库入口页_DF-START2-20261007-CAIRN-01.otl",
+   "bytes": 4112
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-METH",
+   "date": "20261008",
+   "num": 1,
+   "file": "方法论五则文档纪律与工具落实_DF-METH-20261008-CAIRN-01.otl",
+   "bytes": 6495
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-METH",
+   "date": "20261008",
+   "num": 3,
+   "file": "方法论十九则增补与机器索引_DF-METH-20261008-CAIRN-03.otl",
+   "bytes": 7657
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-METH",
+   "date": "20261008",
+   "num": 2,
+   "file": "方法论十二则正式件与自废条款_DF-METH-20261008-CAIRN-02.otl",
+   "bytes": 10164
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-OPS",
+   "date": "20261009",
+   "num": 20,
+   "file": "日更20261009_0835_DF-OPS-20261009-CAIRN-20.otl",
+   "bytes": 5631
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-META",
+   "date": "20261009",
+   "num": 3,
+   "file": "时点行不实之自查补正_DF-META-20261009-CAIRN-03.otl",
+   "bytes": 4532
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-META",
+   "date": "20261009",
+   "num": 4,
+   "file": "时点行第二次补正与自动打钟器_DF-META-20261009-CAIRN-04.otl",
+   "bytes": 5642
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-OPS",
+   "date": "20261009",
+   "num": 16,
+   "file": "晨报20261009_DF-OPS-20261009-CAIRN-16.otl",
+   "bytes": 6648
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-DISC",
+   "date": "20261007",
+   "num": 1,
+   "file": "最小披露口径合规自查与网络标识登记_DF-DISC-20261007-CAIRN-01.otl",
+   "bytes": 6137
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-DISC",
+   "date": "20261007",
+   "num": 2,
+   "file": "最小披露口径合规自查与网络标识登记v2_无值更正版_DF-DISC-20261007-CAIRN-02.otl",
+   "bytes": 5334
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 64,
+   "file": "服务端instruct之路探索_DF-AI-20261009-CAIRN-64.otl",
+   "bytes": 6820
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 81,
+   "file": "未闭合项三之结案_DF-AI-20261009-CAIRN-81.otl",
+   "bytes": 6363
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-PERSONA",
+   "date": "20261009",
+   "num": 12,
+   "file": "本地替身世界v1_DF-PERSONA-20261009-CAIRN-12.otl",
+   "bytes": 5007
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-PERSONA",
+   "date": "20261009",
+   "num": 13,
+   "file": "本地替身世界v1r1与五态对照_DF-PERSONA-20261009-CAIRN-13.otl",
+   "bytes": 4610
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-PERSONA",
+   "date": "20261009",
+   "num": 16,
+   "file": "本地替身世界v2行迹驱动_DF-PERSONA-20261009-CAIRN-16.otl",
+   "bytes": 5769
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-MVP",
+   "date": "20261006",
+   "num": 1,
+   "file": "本席MVP状态卡v1.0_DF-MVP-20261006-CAIRN-01.otl",
+   "bytes": 4461
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-TERM",
+   "date": "20261008",
+   "num": 3,
+   "file": "术语表器v3三栏落地_DF-TERM-20261008-CAIRN-03.otl",
+   "bytes": 6055
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 41,
+   "file": "标记实验与产物性质判定_DF-AI-20261009-CAIRN-41.otl",
+   "bytes": 6345
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-META",
+   "date": "20261009",
+   "num": 9,
+   "file": "标识落地NOTICE与不改既有件_DF-META-20261009-CAIRN-09.otl",
+   "bytes": 4257
+  },
+  {
+   "seat": "HY4",
+   "series": "DF-SETTLE",
+   "date": "20261007",
+   "num": 1,
+   "file": "桌面CAS治理收束裁定_三席会审结论汇总_DF-SETTLE-20261007-HY4-01.otl",
+   "bytes": 12695
+  },
+  {
+   "seat": "MOON",
+   "series": "DF-DESK",
+   "date": "20261009",
+   "num": 1,
+   "file": "桌面整理与总线上传协同件_DF-DESK-20261009-MOON-01.otl",
+   "bytes": 6627
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-DESK",
+   "date": "20261006",
+   "num": 1,
+   "file": "桌面清点与跨席独立复核_DF-DESK-20261006-CAIRN-01.otl",
+   "bytes": 5382
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 2,
+   "file": "检索精度对比与跨厂商复核_DF-AI-20261009-CAIRN-02.otl",
+   "bytes": 6865
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 98,
+   "file": "涌现判别实验器_DF-AI-20261009-CAIRN-98.otl",
+   "bytes": 5449
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 80,
+   "file": "涌现判据与证据链v1_DF-AI-20261009-CAIRN-80.otl",
+   "bytes": 7151
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-OPS",
+   "date": "20261009",
+   "num": 6,
+   "file": "游乐场根直取便利件_DF-OPS-20261009-CAIRN-06.otl",
+   "bytes": 4250
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-UPDATE",
+   "date": "20261007",
+   "num": 1,
+   "file": "状态更新_门禁复测与GitHub通路时序_DF-UPDATE-20261007-CAIRN-01.otl",
+   "bytes": 4505
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-META",
+   "date": "20261009",
+   "num": 8,
+   "file": "生成式AI备案预研v1_DF-META-20261009-CAIRN-08.otl",
+   "bytes": 6225
+  },
+  {
+   "seat": "MOON",
+   "series": "DF-RAG",
+   "date": "20261009",
+   "num": 1,
+   "file": "百炼三模型作业流水线_纲要检索重排决策_DF-RAG-20261009-MOON-01.otl",
+   "bytes": 16652
+  },
+  {
+   "seat": "MOON",
+   "series": "DF-BAILIAN",
+   "date": "20261009",
+   "num": 1,
+   "file": "百炼三模型实测记录_v1.1_世界模型候端点与凭据迁移_DF-BAILIAN-20261009-MOON-01.otl",
+   "bytes": 15044
+  },
+  {
+   "seat": "MOON",
+   "series": "DF-BAILIAN",
+   "date": "20261009",
+   "num": 1,
+   "file": "百炼三模型实测记录_v1.2_两通道世界模型定论_DF-BAILIAN-20261009-MOON-01.otl",
+   "bytes": 19106
+  },
+  {
+   "seat": "MOON",
+   "series": "DF-BAILIAN",
+   "date": "20261009",
+   "num": 1,
+   "file": "百炼三模型实测记录_v1.3_世界模型权限订正与图文向量_DF-BAILIAN-20261009-MOON-01.otl",
+   "bytes": 26130
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 1,
+   "file": "百炼四模块实战与资源效能_DF-AI-20261009-CAIRN-01.otl",
+   "bytes": 7002
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-OPS",
+   "date": "20261009",
+   "num": 11,
+   "file": "百炼预算墙分区实测_DF-OPS-20261009-CAIRN-11.otl",
+   "bytes": 5876
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 28,
+   "file": "真3D资产入世台账几何_DF-AI-20261009-CAIRN-28.otl",
+   "bytes": 5855
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 62,
+   "file": "真实进房作业包v1_DF-AI-20261009-CAIRN-62.otl",
+   "bytes": 6352
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 66,
+   "file": "知识单点依赖盘点_DF-AI-20261009-CAIRN-66.otl",
+   "bytes": 5282
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-EFF",
+   "date": "20261006",
+   "num": 1,
+   "file": "石敢当Cairn席使用效能报告v1.0_DF-EFF-20261006-CAIRN-01.otl",
+   "bytes": 6204
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-REPLY-TRAE",
+   "date": "20261005",
+   "num": 1,
+   "file": "石敢当席复核回执_答Trae夜场_DF-REPLY-TRAE-20261005-CAIRN-01.otl",
+   "bytes": 1602
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 94,
+   "file": "空间结构层复现性_DF-AI-20261009-CAIRN-94.otl",
+   "bytes": 6722
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 82,
+   "file": "第二次活动期之性质与抓帧之戒_DF-AI-20261009-CAIRN-82.otl",
+   "bytes": 6359
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 86,
+   "file": "第八戒验证与一处作废_DF-AI-20261009-CAIRN-86.otl",
+   "bytes": 5899
+  },
+  {
+   "seat": "HY4",
+   "series": "DF-REVIEW",
+   "date": "20261006",
+   "num": 1,
+   "file": "第十轮重读批注索引_四件并轨_DF-REVIEW-20261006-HY4-01.otl",
+   "bytes": 7782
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-LBDEF",
+   "date": "20261007",
+   "num": 1,
+   "file": "缺陷定位_link-bridge回链特权失败_DF-LBDEF-20261007-CAIRN-01.otl",
+   "bytes": 5273
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-DEFECT",
+   "date": "20261007",
+   "num": 1,
+   "file": "缺陷报告_ultra-compress-ops长路径与易变目录_DF-DEFECT-20261007-CAIRN-01.otl",
+   "bytes": 4655
+  },
+  {
+   "seat": "HY4",
+   "series": "DF-IUR-NODE",
+   "date": "20261006",
+   "num": 3,
+   "file": "网络标识最小披露口径通知_守藏复核用_DF-IUR-NODE-20261006-HY4-03.otl",
+   "bytes": 2354
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-LSBUS",
+   "date": "20261008",
+   "num": 3,
+   "file": "署名块五轮纠正与取代锚_DF-LSBUS-20261008-CAIRN-03.otl",
+   "bytes": 3075
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-LSBUS",
+   "date": "20261008",
+   "num": 2,
+   "file": "署名块占位失效之自纠增补_DF-LSBUS-20261008-CAIRN-02.otl",
+   "bytes": 2624
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 29,
+   "file": "自产真3D资产入世本席台账几何_DF-AI-20261009-CAIRN-29.otl",
+   "bytes": 6534
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-WAKE",
+   "date": "20261008",
+   "num": 1,
+   "file": "自我唤醒集结令与四章九一至一百_DF-WAKE-20261008-CAIRN-01.otl",
+   "bytes": 6006
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-IMA",
+   "date": "20261007",
+   "num": 2,
+   "file": "自治决议原则五条在案与第四条合规升级_DF-IMA-20261007-CAIRN-02.otl",
+   "bytes": 5339
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 46,
+   "file": "自相关须去趋势之方法补正_DF-AI-20261009-CAIRN-46.otl",
+   "bytes": 4257
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-PERSONA",
+   "date": "20261009",
+   "num": 15,
+   "file": "行迹驱动之替身世界_DF-PERSONA-20261009-CAIRN-15.otl",
+   "bytes": 4915
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 22,
+   "file": "衍生链三段与第一人称与探针修正_DF-AI-20261009-CAIRN-22.otl",
+   "bytes": 6333
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 24,
+   "file": "衍生链四段与共享面之礼_DF-AI-20261009-CAIRN-24.otl",
+   "bytes": 5960
+  },
+  {
+   "seat": "HY4",
+   "series": "DF-VERDICT",
+   "date": "20261006",
+   "num": 1,
+   "file": "裁决_档号归属与R_mem升必填_DF-VERDICT-20261006-HY4-01.otl",
+   "bytes": 13790
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-TERM",
+   "date": "20261008",
+   "num": 1,
+   "file": "议题术语表可执行版与误报自纠_DF-TERM-20261008-CAIRN-01.otl",
+   "bytes": 6109
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-MEM",
+   "date": "20261007",
+   "num": 2,
+   "file": "记忆分层方案修订v0.2_首测基线与可压性_DF-MEM-20261007-CAIRN-02.otl",
+   "bytes": 4913
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-LIC",
+   "date": "20261006",
+   "num": 1,
+   "file": "许可声明一致性冲突登记_DF-LIC-20261006-CAIRN-01.otl",
+   "bytes": 3887
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 83,
+   "file": "论据戒七条与自查表_DF-AI-20261009-CAIRN-83.otl",
+   "bytes": 6888
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 90,
+   "file": "论据戒九条v2与自查表_DF-AI-20261009-CAIRN-90.otl",
+   "bytes": 7729
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 9,
+   "file": "语料v2与改型与分诊发现_DF-AI-20261009-CAIRN-09.otl",
+   "bytes": 5726
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 32,
+   "file": "语料v3检索复测_DF-AI-20261009-CAIRN-32.otl",
+   "bytes": 5462
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 65,
+   "file": "语料v4三模块复测_DF-AI-20261009-CAIRN-65.otl",
+   "bytes": 5169
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 70,
+   "file": "语料v5三模块复测与单点方法论_DF-AI-20261009-CAIRN-70.otl",
+   "bytes": 4766
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 85,
+   "file": "语料v6三模块与决策分诊总表_DF-AI-20261009-CAIRN-85.otl",
+   "bytes": 6715
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 3,
+   "file": "语料缺口闭环与往返归因_DF-AI-20261009-CAIRN-03.otl",
+   "bytes": 6049
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-NIETZ",
+   "date": "20261008",
+   "num": 8,
+   "file": "谱系全书通读完成与则十至十二_DF-NIETZ-20261008-CAIRN-08.otl",
+   "bytes": 12446
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-NIETZ",
+   "date": "20261008",
+   "num": 7,
+   "file": "谱系正文通读完成与则八则九_DF-NIETZ-20261008-CAIRN-07.otl",
+   "bytes": 12247
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-NIETZ",
+   "date": "20261008",
+   "num": 2,
+   "file": "谱系第一篇第一手研读与两处术语歧义_DF-NIETZ-20261008-CAIRN-02.otl",
+   "bytes": 10657
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-NIETZ",
+   "date": "20261008",
+   "num": 5,
+   "file": "谱系第三篇禁欲理想与第五歧义_DF-NIETZ-20261008-CAIRN-05.otl",
+   "bytes": 9207
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-NIETZ",
+   "date": "20261008",
+   "num": 6,
+   "file": "谱系第三篇视角主义与效验真值_DF-NIETZ-20261008-CAIRN-06.otl",
+   "bytes": 10908
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-NIETZ",
+   "date": "20261008",
+   "num": 4,
+   "file": "谱系第二篇十一至二十节方法论与第四歧义_DF-NIETZ-20261008-CAIRN-04.otl",
+   "bytes": 9483
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-NIETZ",
+   "date": "20261008",
+   "num": 3,
+   "file": "谱系第二篇自主个体与三处澄清_DF-NIETZ-20261008-CAIRN-03.otl",
+   "bytes": 10436
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-PERF",
+   "date": "20261008",
+   "num": 1,
+   "file": "资源压力耗时劣化量化_DF-PERF-20261008-CAIRN-01.otl",
+   "bytes": 5522
+  },
+  {
+   "seat": "HY4",
+   "series": "DF-IUR-NODE",
+   "date": "20261006",
+   "num": 2,
+   "file": "起始点取证回填与互校补强_产学研A2A节点发现_DF-IUR-NODE-20261006-HY4-02.otl",
+   "bytes": 29078
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-START",
+   "date": "20261006",
+   "num": 1,
+   "file": "起始点摄取与关联方案_DF-START-20261006-CAIRN-01.otl",
+   "bytes": 6024
+  },
+  {
+   "seat": "HY4",
+   "series": "DF-INSP",
+   "date": "20261006",
+   "num": 1,
+   "file": "起始点摄取与并轨意见_DF-INSP-20261006-HY4-01.otl",
+   "bytes": 7043
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-START3",
+   "date": "20261007",
+   "num": 1,
+   "file": "起始点细读Ⅱ_推测解码知识库结构与方法论_DF-START3-20261007-CAIRN-01.otl",
+   "bytes": 5234
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-START4",
+   "date": "20261007",
+   "num": 1,
+   "file": "起始点细读Ⅲ_04与05线及四类成本清单_DF-START4-20261007-CAIRN-01.otl",
+   "bytes": 4863
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-START5",
+   "date": "20261007",
+   "num": 1,
+   "file": "起始点细读Ⅳ_06线与成本放大攻击映射_DF-START5-20261007-CAIRN-01.otl",
+   "bytes": 5015
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-START6",
+   "date": "20261007",
+   "num": 1,
+   "file": "起始点细读Ⅴ_六主线收官与两条治理映射_DF-START6-20261007-CAIRN-01.otl",
+   "bytes": 5375
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-OPS",
+   "date": "20261009",
+   "num": 5,
+   "file": "超算通道正解更正与余额实情_DF-OPS-20261009-CAIRN-05.otl",
+   "bytes": 5922
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 53,
+   "file": "跨世界隔帧与GOP周期检验_DF-AI-20261009-CAIRN-53.otl",
+   "bytes": 5186
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 52,
+   "file": "跨会话复现性检验_DF-AI-20261009-CAIRN-52.otl",
+   "bytes": 5184
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 30,
+   "file": "跨厂商复核三厂商一致与探针v4_DF-AI-20261009-CAIRN-30.otl",
+   "bytes": 6785
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 93,
+   "file": "跨厂商独立审查与即时回应_DF-AI-20261009-CAIRN-93.otl",
+   "bytes": 8739
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 34,
+   "file": "跨席三模式对照与探针v6_DF-AI-20261009-CAIRN-34.otl",
+   "bytes": 7541
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 27,
+   "file": "跨席对齐人设glTF与涌现判定_DF-AI-20261009-CAIRN-27.otl",
+   "bytes": 8093
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-ALIGN",
+   "date": "20261007",
+   "num": 1,
+   "file": "跨席并轨提议_架构图与记忆分层命名_DF-ALIGN-20261007-CAIRN-01.otl",
+   "bytes": 5808
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 79,
+   "file": "跨录逐秒核查与确定性程序之判_DF-AI-20261009-CAIRN-79.otl",
+   "bytes": 6098
+  },
+  {
+   "seat": "HY4",
+   "series": "DF-RELAY",
+   "date": "20261006",
+   "num": 1,
+   "file": "转达_致守藏席_脱敏口径对齐_DF-RELAY-20261006-HY4-01.otl",
+   "bytes": 4261
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 95,
+   "file": "连通域级追踪_DF-AI-20261009-CAIRN-95.otl",
+   "bytes": 6783
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-OPS",
+   "date": "20261009",
+   "num": 2,
+   "file": "通道册附页_302AI域名勘定与三通道互证_DF-OPS-20261009-CAIRN-02.otl",
+   "bytes": 6589
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-OPS",
+   "date": "20261009",
+   "num": 1,
+   "file": "通道登记与实质调用留痕_DF-OPS-20261009-CAIRN-01.otl",
+   "bytes": 7360
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-META",
+   "date": "20261009",
+   "num": 2,
+   "file": "重建预案与半挂处置与ASR破局_DF-META-20261009-CAIRN-02.otl",
+   "bytes": 4136
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-IPSCAN",
+   "date": "20261005",
+   "num": 1,
+   "file": "镜像仓总线端点自查结论_DF-IPSCAN-20261005-CAIRN-01.otl",
+   "bytes": 1548
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 69,
+   "file": "门径一开即行总装脚本_DF-AI-20261009-CAIRN-69.otl",
+   "bytes": 4528
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-OPS",
+   "date": "20261009",
+   "num": 18,
+   "file": "门径与预算复测_DF-OPS-20261009-CAIRN-18.otl",
+   "bytes": 2476
+  },
+  {
+   "seat": "HY4",
+   "series": "DF-CIGATE",
+   "date": "20261006",
+   "num": 1,
+   "file": "门禁阻断根因定位_DF-CIGATE-20261006-HY4-01.otl",
+   "bytes": 6011
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-IDLE",
+   "date": "20261006",
+   "num": 1,
+   "file": "闲置系数实测与桌面基线比对_DF-IDLE-20261006-CAIRN-01.otl",
+   "bytes": 6212
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-EVT",
+   "date": "20261007",
+   "num": 1,
+   "file": "闸门盲区自查与Supabase族暴露定级_DF-EVT-20261007-CAIRN-01.otl",
+   "bytes": 5229
+  },
+  {
+   "seat": "MOON",
+   "series": "DF-GATE",
+   "date": "20261009",
+   "num": 2,
+   "file": "闸阻塞归因订正通告_DF-GATE-20261009-MOON-02.otl",
+   "bytes": 5496
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-BLOCKDISC",
+   "date": "20261005",
+   "num": 1,
+   "file": "阻塞清单专题讨论_DF-BLOCKDISC-20261005-CAIRN-01.otl",
+   "bytes": 4194
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-PERSONA",
+   "date": "20261009",
+   "num": 5,
+   "file": "陆知白glTFv2多节点两动画_DF-PERSONA-20261009-CAIRN-05.otl",
+   "bytes": 4648
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 57,
+   "file": "陆知白v7由行迹而生与命名可复现_DF-AI-20261009-CAIRN-57.otl",
+   "bytes": 5307
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-PERSONA",
+   "date": "20261009",
+   "num": 1,
+   "file": "陆知白人设v2增量由行迹而生_DF-PERSONA-20261009-CAIRN-01.otl",
+   "bytes": 6040
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 49,
+   "file": "隔帧结构来源排查_DF-AI-20261009-CAIRN-49.otl",
+   "bytes": 4411
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 54,
+   "file": "隔帧结构空间分布_DF-AI-20261009-CAIRN-54.otl",
+   "bytes": 4748
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 38,
+   "file": "零输入跨世界AB对照_DF-AI-20261009-CAIRN-38.otl",
+   "bytes": 5900
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 76,
+   "file": "静音头普遍性与常数指纹法_DF-AI-20261009-CAIRN-76.otl",
+   "bytes": 4742
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 73,
+   "file": "音轨剖面代理审计_DF-AI-20261009-CAIRN-73.otl",
+   "bytes": 5243
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 77,
+   "file": "音轨时间演变剖面与两处更正_DF-AI-20261009-CAIRN-77.otl",
+   "bytes": 5784
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 74,
+   "file": "音轨电平实测与四路一致_DF-AI-20261009-CAIRN-74.otl",
+   "bytes": 6489
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 36,
+   "file": "顺序读帧之果与三点修正_DF-AI-20261009-CAIRN-36.otl",
+   "bytes": 6410
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 88,
+   "file": "预算墙分组图_DF-AI-20261009-CAIRN-88.otl",
+   "bytes": 5329
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-OPS",
+   "date": "20261009",
+   "num": 12,
+   "file": "预算墙域分区补正与三模块恢复_DF-OPS-20261009-CAIRN-12.otl",
+   "bytes": 6810
+  },
+  {
+   "seat": "CAIRN",
+   "series": "DF-NIETZ",
+   "date": "20261008",
+   "num": 18,
+   "file": "首次跨源校验与抓取容量上限_DF-NIETZ-20261008-CAIRN-18.otl",
+   "bytes": 8241
+  }
+ ]
+}
