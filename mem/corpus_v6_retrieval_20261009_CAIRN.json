@@ -1,0 +1,292 @@
+{
+ "ts": "2026-10-09T10:28:34+0800",
+ "seat": "a2a-node-local",
+ "corpus": 253,
+ "embed_ok": "40/40",
+ "rerank": [
+  {
+   "query": "确定性程序之判与跨会话复现",
+   "top3": [
+    [
+     0.65052,
+     "跨录逐秒核查与确定性程序之判_DF-AI-20261009-CAIRN-79.otl"
+    ],
+    [
+     0.59344,
+     "跨会话复现性检验_DF-AI-20261009-CAIRN-52.otl"
+    ],
+    [
+     0.02247,
+     "涌现判据与证据链v1_DF-AI-20261009-CAIRN-80.otl"
+    ]
+   ]
+  },
+  {
+   "query": "音频通道之开与静音头",
+   "top3": [
+    [
+     0.10719,
+     "静音头普遍性与常数指纹法_DF-AI-20261009-CAIRN-76.otl"
+    ],
+    [
+     0.05857,
+     "多通道开场时序表与持平之更正_DF-AI-20261009-CAIRN-78.otl"
+    ],
+    [
+     0.02094,
+     "开场强音与提亮是否同源之判_DF-AI-20261009-CAIRN-75.otl"
+    ]
+   ]
+  },
+  {
+   "query": "论据戒七条与自查",
+   "top3": [
+    [
+     0.97412,
+     "论据戒七条与自查表_DF-AI-20261009-CAIRN-83.otl"
+    ],
+    [
+     0.0265,
+     "avatar封版与规范自检表_DF-PERSONA-20261009-CAIRN-10.otl"
+    ],
+    [
+     0.01098,
+     "功率谱追查与判据更正_DF-AI-20261009-CAIRN-48.otl"
+    ]
+   ]
+  },
+  {
+   "query": "世界模型资格墙与解耦问法",
+   "top3": [
+    [
+     0.0055,
+     "SBOM初稿与标准对齐待核_DF-META-20261009-CAIRN-06.otl"
+    ],
+    [
+     0.00474,
+     "世界模型作业总册v3_DF-AI-20261009-CAIRN-50.otl"
+    ],
+    [
+     0.00386,
+     "世界模型访问失效_DF-OPS-20261009-CAIRN-19.otl"
+    ]
+   ]
+  }
+ ],
+ "decision": [
+  {
+   "file": "人设总册v3修订r1_DF-PERSONA-20261009-CAIRN-17.otl",
+   "class": "INTERNAL_ONLY",
+   "prob": 0.98,
+   "conf": 0.95,
+   "why": "含内部代号与未公开模型"
+  },
+  {
+   "file": "本地替身世界v2行迹驱动_DF-PERSONA-20261009-CAIRN-16.otl",
+   "class": "INTERNAL_ONLY",
+   "prob": 0.92,
+   "conf": 0.88,
+   "why": "含内部标识与未公开技术细节"
+  },
+  {
+   "file": "总册v3修订r4_DF-AI-20261009-CAIRN-84.otl",
+   "class": "INTERNAL_ONLY",
+   "prob": 0.92,
+   "conf": 0.88,
+   "why": "含内部席位/档号/技术细节"
+  },
+  {
+   "file": "论据戒七条与自查表_DF-AI-20261009-CAIRN-83.otl",
+   "class": "INTERNAL_ONLY",
+   "prob": 0.95,
+   "conf": 0.98,
+   "why": "含内部席位编码与未公开方法论"
+  },
+  {
+   "file": "第二次活动期之性质与抓帧之戒_DF-AI-20261009-CAIRN-82.otl",
+   "class": "INTERNAL_ONLY",
+   "prob": 0.92,
+   "conf": 0.88,
+   "why": "含内部席位/档号/工具名"
+  },
+  {
+   "file": "未闭合项三之结案_DF-AI-20261009-CAIRN-81.otl",
+   "class": "INTERNAL_ONLY",
+   "prob": 0.92,
+   "conf": 0.88,
+   "why": "含敏感编号与内部系统术语"
+  },
+  {
+   "file": "涌现判据与证据链v1_DF-AI-20261009-CAIRN-80.otl",
+   "class": "INTERNAL_ONLY",
+   "prob": 0.95,
+   "conf": 0.98,
+   "why": "涉AI涌现内部研判"
+  },
+  {
+   "file": "跨录逐秒核查与确定性程序之判_DF-AI-20261009-CAIRN-79.otl",
+   "class": "INTERNAL_ONLY",
+   "prob": 0.92,
+   "conf": 0.85,
+   "why": "含敏感档号与内部席位"
+  },
+  {
+   "file": "多通道开场时序表与持平之更正_DF-AI-20261009-CAIRN-78.otl",
+   "class": "INTERNAL_ONLY",
+   "prob": 0.95,
+   "conf": 0.88,
+   "why": "含内部席位/档号/器物"
+  },
+  {
+   "file": "音轨时间演变剖面与两处更正_DF-AI-20261009-CAIRN-77.otl",
+   "class": "INTERNAL_ONLY",
+   "prob": 0.92,
+   "conf": 0.85,
+   "why": "含敏感时间戳与内部编号"
+  },
+  {
+   "file": "静音头普遍性与常数指纹法_DF-AI-20261009-CAIRN-76.otl",
+   "class": "INTERNAL_ONLY",
+   "prob": 0.95,
+   "conf": 0.88,
+   "why": "含内部实验数据"
+  },
+  {
+   "file": "开场强音与提亮是否同源之判_DF-AI-20261009-CAIRN-75.otl",
+   "class": "INTERNAL_ONLY",
+   "prob": 0.95,
+   "conf": 0.98,
+   "why": "含内部编号与技术细节"
+  },
+  {
+   "file": "音轨电平实测与四路一致_DF-AI-20261009-CAIRN-74.otl",
+   "class": "INTERNAL_ONLY",
+   "prob": 0.95,
+   "conf": 0.98,
+   "why": "含内部席位/档号/器物路径"
+  },
+  {
+   "file": "音轨剖面代理审计_DF-AI-20261009-CAIRN-73.otl",
+   "class": "INTERNAL_ONLY",
+   "prob": 0.95,
+   "conf": 0.98,
+   "why": "含内部席位/档号/路径"
+  },
+  {
+   "file": "instruct录像体积异常之查明_DF-AI-20261009-CAIRN-72.otl",
+   "class": "INTERNAL_ONLY",
+   "prob": 0.95,
+   "conf": 0.98,
+   "why": "含内部席位/档号/器物"
+  },
+  {
+   "file": "四层墙之精确定位_DF-AI-20261009-CAIRN-71.otl",
+   "class": "INTERNAL_ONLY",
+   "prob": 0.95,
+   "conf": 0.98,
+   "why": "含内部席位/密钥/诊断机制"
+  },
+  {
+   "file": "上午续报20261009_0955_DF-OPS-20261009-CAIRN-22.otl",
+   "class": "INTERNAL_ONLY",
+   "prob": 0.98,
+   "conf": 0.95,
+   "why": "含内部席位、档号、系统状态"
+  },
+  {
+   "file": "器物全量指纹清单_DF-META-20261009-CAIRN-10.otl",
+   "class": "INTERNAL_ONLY",
+   "prob": 0.98,
+   "conf": 0.95,
+   "why": "含内部席位名/路径/哈希口径"
+  },
+  {
+   "file": "标识落地NOTICE与不改既有件_DF-META-20261009-CAIRN-09.otl",
+   "class": "INTERNAL_ONLY",
+   "prob": 0.98,
+   "conf": 0.95,
+   "why": "含内部席位与仓路径"
+  },
+  {
+   "file": "生成式AI备案预研v1_DF-META-20261009-CAIRN-08.otl",
+   "class": "BLOCKED",
+   "prob": 0.98,
+   "conf": 0.95,
+   "why": "含敏感备案信息"
+  },
+  {
+   "file": "SBOM附表许可实测与指纹清单_DF-META-20261009-CAIRN-07.otl",
+   "class": "INTERNAL_ONLY",
+   "prob": 0.95,
+   "conf": 0.98,
+   "why": "含内部席位、档号、预研标识"
+  },
+  {
+   "file": "SBOM初稿与标准对齐待核_DF-META-20261009-CAIRN-06.otl",
+   "class": "INTERNAL_ONLY",
+   "prob": 0.95,
+   "conf": 0.98,
+   "why": "含内部席位/档号/未公开标准"
+  },
+  {
+   "file": "语料v5三模块复测与单点方法论_DF-AI-20261009-CAIRN-70.otl",
+   "class": "INTERNAL_ONLY",
+   "prob": 0.95,
+   "conf": 0.98,
+   "why": "含内部席位、档号、模型名"
+  },
+  {
+   "file": "行迹驱动之替身世界_DF-PERSONA-20261009-CAIRN-15.otl",
+   "class": "INTERNAL_ONLY",
+   "prob": 0.92,
+   "conf": 0.88,
+   "why": "含内部台账/席位/器物路径"
+  },
+  {
+   "file": "人设入世作业总册v3_DF-PERSONA-20261009-CAIRN-14.otl",
+   "class": "INTERNAL_ONLY",
+   "prob": 0.92,
+   "conf": 0.85,
+   "why": "含内部席位/档号/未公开人设"
+  },
+  {
+   "file": "门径一开即行总装脚本_DF-AI-20261009-CAIRN-69.otl",
+   "class": "INTERNAL_ONLY",
+   "prob": 0.92,
+   "conf": 0.88,
+   "why": "含未公开系统名与席位"
+  },
+  {
+   "file": "本地替身世界v1r1与五态对照_DF-PERSONA-20261009-CAIRN-13.otl",
+   "class": "INTERNAL_ONLY",
+   "prob": 0.92,
+   "conf": 0.85,
+   "why": "含内部档号与席位"
+  },
+  {
+   "file": "本地替身世界v1_DF-PERSONA-20261009-CAIRN-12.otl",
+   "class": "BLOCKED",
+   "prob": 0.98,
+   "conf": 0.95,
+   "why": "含敏感替身/分身概念"
+  },
+  {
+   "file": "总册v3修订r3_DF-AI-20261009-CAIRN-68.otl",
+   "class": "INTERNAL_ONLY",
+   "prob": 0.92,
+   "conf": 0.98,
+   "why": "含内部档号与席位信息"
+  },
+  {
+   "file": "avatar4根因定位未解项关闭_DF-PERSONA-20261009-CAIRN-11.otl",
+   "class": "INTERNAL_ONLY",
+   "prob": 0.95,
+   "conf": 0.98,
+   "why": "含内部项目编号与敏感调试细节"
+  }
+ ],
+ "summary": {
+  "INTERNAL_ONLY": 28,
+  "BLOCKED": 2
+ }
+}
