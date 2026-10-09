@@ -1,0 +1,38 @@
+﻿{
+    "rows":  [
+                 {
+                     "first_window_rms":  72.19,
+                     "name":  "A 数据虚空",
+                     "head8":  "72 101 129 183 180 230 180 221",
+                     "onset_s":  0
+                 },
+                 {
+                     "first_window_rms":  3.64,
+                     "name":  "B 数据塔",
+                     "head8":  "4 5 5 5 5 278 470 116",
+                     "onset_s":  1.04
+                 },
+                 {
+                     "first_window_rms":  3.62,
+                     "name":  "M1 检验室",
+                     "head8":  "4 5 5 5 5 445 778 251",
+                     "onset_s":  1.04
+                 },
+                 {
+                     "first_window_rms":  3.65,
+                     "name":  "M2 检验室·再",
+                     "head8":  "4 5 5 5 5 455 804 256",
+                     "onset_s":  1.04
+                 },
+                 {
+                     "first_window_rms":  3.65,
+                     "name":  "★INSTRUCT",
+                     "head8":  "4 5 5 5 5 414 734 227",
+                     "onset_s":  1.04
+                 }
+             ],
+    "window_ms":  200,
+    "criterion":  "起声时刻＝首个 RMS\u003e50 之窗起点",
+    "seat":  "a2a-node-local",
+    "ts":  "2026-10-09T10:08:03+08:00"
+}
