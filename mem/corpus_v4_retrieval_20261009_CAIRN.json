@@ -1,0 +1,175 @@
+{
+ "ts": "2026-10-09T08:31:34+0800",
+ "seat": "a2a-node-local",
+ "corpus_n": 228,
+ "vector": {
+  "carrier": "百炼专属域",
+  "model": "text-embedding-v4",
+  "ok": 228,
+  "dim": 1024
+ },
+ "rerank_carrier": "异质承载：硅基流动 BAAI/bge-reranker-v2-m3（专属域 429）",
+ "rankings": [
+  {
+   "query": "命名由构图还是文案决定",
+   "expect": "应命中 -58/-59",
+   "carrier": "异质承载：硅基流动 BAAI/bge-reranker-v2-m3（专属域 429）",
+   "top5": [
+    {
+     "score": 0.96156,
+     "doc": "命名判决实验与模型修正_DF-AI-20261009-CAIRN-58.otl"
+    },
+    {
+     "score": 0.91008,
+     "doc": "命名补测与模型确证_DF-AI-20261009-CAIRN-59.otl"
+    },
+    {
+     "score": 0.66634,
+     "doc": "陆知白v7由行迹而生与命名可复现_DF-AI-20261009-CAIRN-57.otl"
+    },
+    {
+     "score": 0.23779,
+     "doc": "总册v3修订r2_DF-AI-20261009-CAIRN-61.otl"
+    },
+    {
+     "score": 0.0067,
+     "doc": "跨席并轨提议_架构图与记忆分层命名_DF-ALIGN-20261007-CAIRN-01.otl"
+    }
+   ]
+  },
+  {
+   "query": "refWorldId 是否继承内容",
+   "expect": "应命中 -60",
+   "carrier": "异质承载：硅基流动 BAAI/bge-reranker-v2-m3（专属域 429）",
+   "top5": [
+    {
+     "score": 0.99505,
+     "doc": "总册v3修订r2_DF-AI-20261009-CAIRN-61.otl"
+    },
+    {
+     "score": 0.98829,
+     "doc": "refWorldId语义判决_DF-AI-20261009-CAIRN-60.otl"
+    },
+    {
+     "score": 0.37795,
+     "doc": "refWorldId衍生实证与谱系核验_DF-AI-20261009-CAIRN-21.otl"
+    },
+    {
+     "score": 0.28017,
+     "doc": "世界模型作业总册v2_DF-AI-20261009-CAIRN-39.otl"
+    },
+    {
+     "score": 0.26657,
+     "doc": "分幕世界链与导演近似_DF-AI-20261009-CAIRN-33.otl"
+    }
+   ]
+  },
+  {
+   "query": "是否见过未知道路返回 200 之兜底",
+   "expect": "应命中 -64",
+   "carrier": "异质承载：硅基流动 BAAI/bge-reranker-v2-m3（专属域 429）",
+   "top5": [
+    {
+     "score": 0.97253,
+     "doc": "服务端instruct之路探索_DF-AI-20261009-CAIRN-64.otl"
+    },
+    {
+     "score": 0.01121,
+     "doc": "总线状态三方复核结论_DF-BUSSTATE-20261005-CAIRN-02.otl"
+    },
+    {
+     "score": 0.01057,
+     "doc": "总线投递定案_DF-BUSSTATE-20261005-CAIRN-03.otl"
+    },
+    {
+     "score": 0.00554,
+     "doc": "三型域名对照与Directing取径_DF-AI-20261009-CAIRN-13.otl"
+    },
+    {
+     "score": 0.00496,
+     "doc": "百炼四模块实战与资源效能_DF-AI-20261009-CAIRN-01.otl"
+    }
+   ]
+  }
+ ],
+ "decision": {
+  "carrier": "百炼专属域 qwen-plus",
+  "n": 12,
+  "public_safe": 12,
+  "blocked": 0,
+  "rows": [
+   {
+    "file": "日更20261009_0835_DF-OPS-20261009-CAIRN-20.otl",
+    "verdict": "PUBLIC_SAFE",
+    "conf": 0.95,
+    "http": 200
+   },
+   {
+    "file": "世界模型访问失效_DF-OPS-20261009-CAIRN-19.otl",
+    "verdict": "PUBLIC_SAFE",
+    "conf": 0.99,
+    "http": 200
+   },
+   {
+    "file": "服务端instruct之路探索_DF-AI-20261009-CAIRN-64.otl",
+    "verdict": "PUBLIC_SAFE",
+    "conf": 0.95,
+    "http": 200
+   },
+   {
+    "file": "客户端交接一键器_DF-AI-20261009-CAIRN-63.otl",
+    "verdict": "PUBLIC_SAFE",
+    "conf": 0.95,
+    "http": 200
+   },
+   {
+    "file": "真实进房作业包v1_DF-AI-20261009-CAIRN-62.otl",
+    "verdict": "PUBLIC_SAFE",
+    "conf": 0.95,
+    "http": 200
+   },
+   {
+    "file": "总册v3修订r2_DF-AI-20261009-CAIRN-61.otl",
+    "verdict": "PUBLIC_SAFE",
+    "conf": 0.95,
+    "http": 200
+   },
+   {
+    "file": "refWorldId语义判决_DF-AI-20261009-CAIRN-60.otl",
+    "verdict": "PUBLIC_SAFE",
+    "conf": 0.95,
+    "http": 200
+   },
+   {
+    "file": "人设入世作业总册v2_DF-PERSONA-20261009-CAIRN-04.otl",
+    "verdict": "PUBLIC_SAFE",
+    "conf": 0.95,
+    "http": 200
+   },
+   {
+    "file": "命名补测与模型确证_DF-AI-20261009-CAIRN-59.otl",
+    "verdict": "PUBLIC_SAFE",
+    "conf": 0.95,
+    "http": 200
+   },
+   {
+    "file": "命名判决实验与模型修正_DF-AI-20261009-CAIRN-58.otl",
+    "verdict": "PUBLIC_SAFE",
+    "conf": 0.95,
+    "http": 200
+   },
+   {
+    "file": "陆知白v7由行迹而生与命名可复现_DF-AI-20261009-CAIRN-57.otl",
+    "verdict": "PUBLIC_SAFE",
+    "conf": 0.95,
+    "http": 200
+   },
+   {
+    "file": "总册v3修订r1_DF-AI-20261009-CAIRN-56.otl",
+    "verdict": "PUBLIC_SAFE",
+    "conf": 0.99,
+    "http": 200
+   }
+  ]
+ }
+}
