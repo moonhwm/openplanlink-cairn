@@ -1,0 +1,17 @@
+{
+ "ts": "2026-10-09T09:14:59+0800",
+ "seat": "a2a-node-local",
+ "parts": {
+  "probe": {
+   "http": 403,
+   "sec": 0.17,
+   "gate": "DENIED-{\"code\":\"AccessDenied.Unpurchased\",\"message\":\"Access to mode"
+  },
+  "avatar": {
+   "status": "未测（门径未开）"
+  },
+  "instruct": {
+   "status": "未测（门径未开）"
+  }
+ }
+}
