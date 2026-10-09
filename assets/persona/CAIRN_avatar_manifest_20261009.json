@@ -1,0 +1,43 @@
+{
+ "ts": "2026-10-09T08:49:10+0800",
+ "seat": "a2a-node-local",
+ "asset": "CAIRN_avatar",
+ "units": "meter",
+ "up": "Y",
+ "forward": "+Z",
+ "height_m": 1.72,
+ "joints": 17,
+ "animations": [
+  "IDLE_VERIFY",
+  "RELAY"
+ ],
+ "lods": {
+  "LOD0": {
+   "file": "CAIRN_avatar_LOD0.glb",
+   "bytes": 31300,
+   "verts": 456,
+   "tris": 796,
+   "sha3_24": "1814ffe649f8e7d354039617",
+   "ns": 12
+  },
+  "LOD1": {
+   "file": "CAIRN_avatar_LOD1.glb",
+   "bytes": 24580,
+   "verts": 344,
+   "tris": 572,
+   "sha3_24": "2894f802c361861f0737c6d6",
+   "ns": 8
+  },
+  "LOD2": {
+   "file": "CAIRN_avatar_LOD2.glb",
+   "bytes": 21220,
+   "verts": 288,
+   "tris": 460,
+   "sha3_24": "2c2e107b3be4ca8f2ce90b79",
+   "ns": 6
+  }
+ },
+ "spec_align": "DF-SPEC-20261009-HY4-07（可对齐项）",
+ "third_party_3d_libs": 0,
+ "cost": 0
+}
