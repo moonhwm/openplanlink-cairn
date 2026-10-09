@@ -1,0 +1,43 @@
+﻿{
+    "proxy":  "ZCR（零穿越率）⇒ 粗主频 ≈ ZCR/2 × fs；仅作\"音频性质\"之粗代理，非频谱、非语义",
+    "window_ms":  500,
+    "rows":  [
+                 {
+                     "median_zcr":  0.00584,
+                     "approx_f0_hz":  129,
+                     "valid_windows":  22,
+                     "name":  "A 数据虚空",
+                     "median_rms":  287.2
+                 },
+                 {
+                     "median_zcr":  0.05154,
+                     "approx_f0_hz":  1136,
+                     "valid_windows":  18,
+                     "name":  "B 数据塔",
+                     "median_rms":  10.5
+                 },
+                 {
+                     "median_zcr":  0.00783,
+                     "approx_f0_hz":  173,
+                     "valid_windows":  78,
+                     "name":  "M1 检验室",
+                     "median_rms":  193.2
+                 },
+                 {
+                     "median_zcr":  0.00686,
+                     "approx_f0_hz":  151,
+                     "valid_windows":  116,
+                     "name":  "M2 检验室·再",
+                     "median_rms":  210.6
+                 },
+                 {
+                     "median_zcr":  0.00706,
+                     "approx_f0_hz":  156,
+                     "valid_windows":  110,
+                     "name":  "INSTRUCT",
+                     "median_rms":  180.9
+                 }
+             ],
+    "seat":  "a2a-node-local",
+    "ts":  "2026-10-09T10:09:27+08:00"
+}

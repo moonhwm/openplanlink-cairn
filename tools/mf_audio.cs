@@ -225,7 +225,7 @@ public static class MfAudio
             log.Add(string.Format("AUDIO_STREAM={0} rate={1}", audioStream, rate));
 
             long winNs = (long)windowMs * 10000L;
-            double sumSq = 0; int peak = 0; long n = 0; long winStartHns = -1;
+            double sumSq = 0; int peak = 0; long n = 0; long zc = 0; int lastSgn = 0; long winStartHns = -1;
             while (true)
             {
                 int idx, flags; long ts; IMFSample sample;
@@ -242,6 +242,8 @@ public static class MfAudio
                 {
                     short s = Marshal.ReadInt16(p, off);
                     double v = s; sumSq += v * v; n++;
+                    int sgn = s > 0 ? 1 : (s < 0 ? -1 : 0);
+                    if (sgn != 0) { if (lastSgn != 0 && sgn != lastSgn) zc++; lastSgn = sgn; }
                     int a = s < 0 ? -s : s;
                     if (a > peak) peak = a;
                 }
@@ -249,14 +251,14 @@ public static class MfAudio
                 if (ts - winStartHns >= winNs)
                 {
                     double rms = n > 0 ? Math.Sqrt(sumSq / n) : 0;
-                    log.Add(string.Format("{0:F2},{1:F2},{2:F2},{3},{4}", winStartHns / 10000000.0,
-                                          ts / 10000000.0, rms, peak, n));
-                    sumSq = 0; peak = 0; n = 0; winStartHns = ts;
+                    log.Add(string.Format("{0:F2},{1:F2},{2:F2},{3},{4},{5:F5}", winStartHns / 10000000.0,
+                                          ts / 10000000.0, rms, peak, n, n > 0 ? (double)zc / n : 0));
+                    sumSq = 0; peak = 0; n = 0; zc = 0; winStartHns = ts;
                 }
             }
             if (n > 0)
-                log.Add(string.Format("{0:F2},{1:F2},{2:F2},{3},{4}", winStartHns / 10000000.0, -1.0,
-                                      Math.Sqrt(sumSq / n), peak, n));
+                log.Add(string.Format("{0:F2},{1:F2},{2:F2},{3},{4},{5:F5}", winStartHns / 10000000.0, -1.0,
+                                      Math.Sqrt(sumSq / n), peak, n, n > 0 ? (double)zc / n : 0));
         }
         finally { MFShutdown(); }
         return log.ToArray();
