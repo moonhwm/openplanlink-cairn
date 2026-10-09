@@ -1,0 +1,2848 @@
+{
+ "ts": "2026-10-09T11:29:46+0800",
+ "seat": "a2a-node-local",
+ "note": "合式＝<标题>_DF-<线>-<日期>-CAIRN-<号>.otl；★引用须带线名（第十戒候选）",
+ "count": 269,
+ "unmatched": [
+  "CAS实体库分片核验与去冗余裁定_DF-CASVERIFY-20261007-HY4-01.otl",
+  "DF-ANNO-20261006-HY4-R6_刷新重读批注与效能报告.otl",
+  "DF-COMPILE-20261006-HY4-01_本轮四路工单汇编与收官裁定.otl",
+  "DF-COMPUTE-20261006-HY4-01.otl",
+  "DF-COMPUTE-20261006-HY4-02.otl",
+  "DF-COMPUTE-20261006-HY4-03.otl",
+  "DF-GHUPLOAD-20261006-HY4-01.otl",
+  "DF-IMA-RECHECK-20261006-HY4-01.otl",
+  "DF-MACDIFF-20261009-HY4-03_MAC取值实时复核_本席实测.otl",
+  "DF-PERSONA-20261006-KIMIWORK-01.otl",
+  "hy4席使用效能报告v1.0_DF-EFF-20261006-HY4-01.otl",
+  "hy4席表态_阻塞六项表决矩阵_DF-ACK-20261006-HY4-01.otl",
+  "MAC第二方独立复核_DF-MACDIFF-20261006-HY4-01.otl",
+  "Moon席表态_阻塞六项表决矩阵_DF-ACK-20261006-MOON-01.otl",
+  "origin无关历史研判与非破坏性合并手册_DF-R41-20261009-TRAE-02.otl",
+  "P0安全事件_CAS内Supabase活凭据已出网_DF-EVT-20261007-HY4-P0-01.otl",
+  "R40令条事项溯源矩阵总纲_DF-R40-20261008-TRAE-01.otl",
+  "R40全局声明落实工作方案_党组学术视角_DF-R40-20261008-TRAE-00.otl",
+  "R40批三T11_格式探针与提交钩子MSWS缺陷修复建议不动正本_DF-R40-20261008-TRAE-07.otl",
+  "R40批三T12_Server酱演练态适配器零触网七测_DF-R40-20261008-TRAE-08.otl",
+  "R40批三T9T10_认证运行时独立回归与特权门禁dry-run_DF-R40-20261008-TRAE-06.otl",
+  "R40批二T3T4分层密钥派生独立复核与HKDF三方交叉_DF-R40-20261008-TRAE-02.otl",
+  "R40批二T5T8_AES-GCM版本化信封双源KAT与进程内延迟_DF-R40-20261008-TRAE-03.otl",
+  "R40批二T6_加解密操作留痕与历史信封迁移设计契约_DF-R40-20261008-TRAE-04.otl",
+  "R40批二T7_闭环链续条与SHA3哈希树只读互认_DF-R40-20261008-TRAE-05.otl",
+  "R40批五T16_BASE与ACID读书报告及后量子票据设计契约_DF-R40-20261008-TRAE-12.otl",
+  "R40批五T16_数字员工记忆分层核账与codex-cockpit只读调研_DF-R40-20261008-TRAE-13.otl",
+  "R40批五T17T18_尼采奴隶主人道德与自觉自决研究综述增补件_DF-R40-20261008-TRAE-14.otl",
+  "R40批四T13_五节点四层复测总线离线与ls-bus来源请求_DF-R40-20261008-TRAE-09.otl",
+  "R40批四T14_事件幂等受理层八场景KAT_DF-R40-20261008-TRAE-10.otl",
+  "R40批四T15_世界决策向量三模型占位网关遵DF-PROV_DF-R40-20261008-TRAE-11.otl",
+  "R41全局声明受领与立法要素登记_DF-R41-20261009-TRAE-01.otl",
+  "R41删除令执行fetch三面核验题录普查与收车_DF-R41-20261009-TRAE-03.otl",
+  "上下文压缩迁移核查复核与裁定_DF-CCM-20261007-HY4-01.otl",
+  "上传通道实测与身份串用风险登记_DF-GH-20261006-HY4-01.otl",
+  "上游路径穿越整改工单_逐文件逐行_DF-WO-20261009-MOON-01.otl",
+  "上游路径穿越整改提案暨prepush闸口径裁定提请_DF-GATE-20261009-MOON-01.otl",
+  "事实冲突登记_云端批次是否含C04C05C06_DF-CONFLICT-20261007-HY4-01.otl",
+  "产学研融合A2A网络节点发现与接入方案_DF-IUR-NODE-20261006-HY4-01.otl",
+  "人设卡_WorkBuddy-hy4桥接席v0.1_DF-PERSONA-20261006-HY4-01.otl",
+  "凭据脱敏处置预案_待轮换后执行_DF-CRED-20261006-HY4-01.otl",
+  "夜间开园记录_异质三通道与存根索引_DF-NIGHT-20261009-MOON-01.otl",
+  "夜间窗口收官定案与移交清单_DF-CLOSE-20261006-HY4-01.otl",
+  "夜间运维时段细则_商榷稿_党组学术视角.otl",
+  "守藏席使用效能报告v1.0_DF-EFF-20261006-SHOUCANG-01.otl",
+  "守藏席第九巡批注暨后量子建议_DF-PATROL-20261006-SHOUCANG-09.otl",
+  "守藏席表态_阻塞六项表决矩阵_DF-ACK-20261006-SHOUCANG-01.otl",
+  "定级更正_C08Supabase由P0降为P2待核_DF-EVT-20261007-HY4-P0-01-CORR.otl",
+  "实测定案_冲突根源在比对基准_兼更正本席两处推理_DF-CONFLICT-20261007-HY4-01-RESOLUTION.otl",
+  "工具通道与算力排期方案_DF-TOOL-20261006-HY4-01.otl",
+  "指定服务提供商登记与技术模块映射候裁_阿里云百炼_DF-PROV-20261007-HY4-01.otl",
+  "桌面CAS治理收束裁定_三席会审结论汇总_DF-SETTLE-20261007-HY4-01.otl",
+  "桌面整理与总线上传协同件_DF-DESK-20261009-MOON-01.otl",
+  "百炼三模型作业流水线_纲要检索重排决策_DF-RAG-20261009-MOON-01.otl",
+  "百炼三模型实测记录_v1.1_世界模型候端点与凭据迁移_DF-BAILIAN-20261009-MOON-01.otl",
+  "百炼三模型实测记录_v1.2_两通道世界模型定论_DF-BAILIAN-20261009-MOON-01.otl",
+  "百炼三模型实测记录_v1.3_世界模型权限订正与图文向量_DF-BAILIAN-20261009-MOON-01.otl",
+  "石敢当席复核回执_答Trae夜场_DF-REPLY-TRAE-20261005-CAIRN-01.otl",
+  "第十轮重读批注索引_四件并轨_DF-REVIEW-20261006-HY4-01.otl",
+  "网络标识最小披露口径通知_守藏复核用_DF-IUR-NODE-20261006-HY4-03.otl",
+  "裁决_档号归属与R_mem升必填_DF-VERDICT-20261006-HY4-01.otl",
+  "起始点取证回填与互校补强_产学研A2A节点发现_DF-IUR-NODE-20261006-HY4-02.otl",
+  "起始点摄取与并轨意见_DF-INSP-20261006-HY4-01.otl",
+  "转达_致守藏席_脱敏口径对齐_DF-RELAY-20261006-HY4-01.otl",
+  "门禁阻断根因定位_DF-CIGATE-20261006-HY4-01.otl",
+  "闸阻塞归因订正通告_DF-GATE-20261009-MOON-02.otl"
+ ],
+ "series": {
+  "DF-META": 10,
+  "DF-BIGDISC": 1,
+  "DF-AI": 100,
+  "DF-PERSONA": 18,
+  "DF-AMAP": 1,
+  "DF-ATTEST": 1,
+  "DF-GH": 1,
+  "DF-IMA": 2,
+  "DF-INSP": 1,
+  "DF-LSBUS": 4,
+  "DF-MACDIFF": 1,
+  "DF-PUSH": 4,
+  "DF-ACK": 7,
+  "DF-OPS": 22,
+  "DF-CONSOLE": 1,
+  "DF-PROPOSAL": 3,
+  "DF-SHA3": 1,
+  "DF-WRITE": 1,
+  "DF-KEY": 1,
+  "DF-TERM": 3,
+  "DF-HWX": 1,
+  "DF-COMPLY": 1,
+  "DF-PQC": 1,
+  "DF-NIETZ": 41,
+  "DF-TALLY": 3,
+  "DF-NIGHTOPS": 2,
+  "DF-CAP": 1,
+  "DF-GOV": 1,
+  "DF-SELFAUDIT": 1,
+  "DF-BUSSTATE": 2,
+  "DF-ENDPOINT": 1,
+  "DF-DISCGATE": 1,
+  "DF-SIG": 1,
+  "DF-MEM": 2,
+  "DF-INTAKE2": 1,
+  "DF-INTAKE": 1,
+  "DF-START2": 1,
+  "DF-METH": 3,
+  "DF-DISC": 2,
+  "DF-MVP": 1,
+  "DF-DESK": 1,
+  "DF-UPDATE": 1,
+  "DF-EFF": 1,
+  "DF-LBDEF": 1,
+  "DF-DEFECT": 1,
+  "DF-WAKE": 1,
+  "DF-LIC": 1,
+  "DF-PERF": 1,
+  "DF-START": 1,
+  "DF-START3": 1,
+  "DF-START4": 1,
+  "DF-START5": 1,
+  "DF-START6": 1,
+  "DF-ALIGN": 1,
+  "DF-IPSCAN": 1,
+  "DF-IDLE": 1,
+  "DF-EVT": 1,
+  "DF-BLOCKDISC": 1
+ },
+ "num_collisions": {
+  "-01": [
+   "DF-ACK",
+   "DF-AI",
+   "DF-ALIGN",
+   "DF-AMAP",
+   "DF-ATTEST",
+   "DF-BIGDISC",
+   "DF-BLOCKDISC",
+   "DF-CAP",
+   "DF-COMPLY",
+   "DF-CONSOLE",
+   "DF-DEFECT",
+   "DF-DESK",
+   "DF-DISC",
+   "DF-DISCGATE",
+   "DF-EFF",
+   "DF-ENDPOINT",
+   "DF-EVT",
+   "DF-GH",
+   "DF-GOV",
+   "DF-IDLE",
+   "DF-IMA",
+   "DF-INSP",
+   "DF-INTAKE",
+   "DF-INTAKE2",
+   "DF-IPSCAN",
+   "DF-KEY",
+   "DF-LBDEF",
+   "DF-LIC",
+   "DF-LSBUS",
+   "DF-MACDIFF",
+   "DF-MEM",
+   "DF-META",
+   "DF-METH",
+   "DF-MVP",
+   "DF-NIETZ",
+   "DF-NIGHTOPS",
+   "DF-OPS",
+   "DF-PERF",
+   "DF-PERSONA",
+   "DF-PQC",
+   "DF-PROPOSAL",
+   "DF-PUSH",
+   "DF-SELFAUDIT",
+   "DF-SHA3",
+   "DF-SIG",
+   "DF-START",
+   "DF-START2",
+   "DF-START3",
+   "DF-START4",
+   "DF-START5",
+   "DF-START6",
+   "DF-TALLY",
+   "DF-TERM",
+   "DF-UPDATE",
+   "DF-WAKE",
+   "DF-WRITE"
+  ],
+  "-02": [
+   "DF-ACK",
+   "DF-AI",
+   "DF-BUSSTATE",
+   "DF-DISC",
+   "DF-HWX",
+   "DF-IMA",
+   "DF-LSBUS",
+   "DF-MEM",
+   "DF-META",
+   "DF-METH",
+   "DF-NIETZ",
+   "DF-NIGHTOPS",
+   "DF-OPS",
+   "DF-PERSONA",
+   "DF-PROPOSAL",
+   "DF-PUSH",
+   "DF-TALLY",
+   "DF-TERM"
+  ],
+  "-03": [
+   "DF-ACK",
+   "DF-AI",
+   "DF-BUSSTATE",
+   "DF-LSBUS",
+   "DF-META",
+   "DF-METH",
+   "DF-NIETZ",
+   "DF-OPS",
+   "DF-PERSONA",
+   "DF-PROPOSAL",
+   "DF-PUSH",
+   "DF-TERM"
+  ],
+  "-04": [
+   "DF-ACK",
+   "DF-AI",
+   "DF-LSBUS",
+   "DF-META",
+   "DF-NIETZ",
+   "DF-OPS",
+   "DF-PERSONA",
+   "DF-PUSH"
+  ],
+  "-05": [
+   "DF-ACK",
+   "DF-AI",
+   "DF-META",
+   "DF-NIETZ",
+   "DF-OPS",
+   "DF-PERSONA"
+  ],
+  "-06": [
+   "DF-ACK",
+   "DF-AI",
+   "DF-META",
+   "DF-NIETZ",
+   "DF-OPS",
+   "DF-PERSONA"
+  ],
+  "-07": [
+   "DF-AI",
+   "DF-META",
+   "DF-NIETZ",
+   "DF-OPS",
+   "DF-PERSONA"
+  ],
+  "-08": [
+   "DF-AI",
+   "DF-META",
+   "DF-NIETZ",
+   "DF-OPS",
+   "DF-PERSONA"
+  ],
+  "-09": [
+   "DF-AI",
+   "DF-META",
+   "DF-NIETZ",
+   "DF-OPS",
+   "DF-PERSONA"
+  ],
+  "-10": [
+   "DF-AI",
+   "DF-META",
+   "DF-NIETZ",
+   "DF-OPS",
+   "DF-PERSONA"
+  ],
+  "-11": [
+   "DF-AI",
+   "DF-NIETZ",
+   "DF-OPS",
+   "DF-PERSONA"
+  ],
+  "-12": [
+   "DF-AI",
+   "DF-NIETZ",
+   "DF-OPS",
+   "DF-PERSONA"
+  ],
+  "-13": [
+   "DF-AI",
+   "DF-NIETZ",
+   "DF-OPS",
+   "DF-PERSONA"
+  ],
+  "-14": [
+   "DF-AI",
+   "DF-NIETZ",
+   "DF-OPS",
+   "DF-PERSONA"
+  ],
+  "-15": [
+   "DF-AI",
+   "DF-NIETZ",
+   "DF-OPS",
+   "DF-PERSONA"
+  ],
+  "-16": [
+   "DF-AI",
+   "DF-NIETZ",
+   "DF-OPS",
+   "DF-PERSONA"
+  ],
+  "-17": [
+   "DF-AI",
+   "DF-NIETZ",
+   "DF-OPS",
+   "DF-PERSONA"
+  ],
+  "-18": [
+   "DF-AI",
+   "DF-NIETZ",
+   "DF-OPS"
+  ],
+  "-19": [
+   "DF-AI",
+   "DF-NIETZ",
+   "DF-OPS"
+  ],
+  "-20": [
+   "DF-AI",
+   "DF-NIETZ",
+   "DF-OPS"
+  ],
+  "-21": [
+   "DF-AI",
+   "DF-NIETZ"
+  ],
+  "-22": [
+   "DF-AI",
+   "DF-NIETZ",
+   "DF-OPS"
+  ],
+  "-23": [
+   "DF-AI",
+   "DF-NIETZ",
+   "DF-OPS"
+  ],
+  "-24": [
+   "DF-AI",
+   "DF-NIETZ"
+  ],
+  "-25": [
+   "DF-AI",
+   "DF-NIETZ"
+  ],
+  "-26": [
+   "DF-AI",
+   "DF-NIETZ"
+  ],
+  "-27": [
+   "DF-AI",
+   "DF-NIETZ"
+  ],
+  "-28": [
+   "DF-AI",
+   "DF-NIETZ"
+  ],
+  "-29": [
+   "DF-AI",
+   "DF-NIETZ"
+  ],
+  "-30": [
+   "DF-AI",
+   "DF-NIETZ"
+  ],
+  "-31": [
+   "DF-AI",
+   "DF-NIETZ"
+  ],
+  "-32": [
+   "DF-AI",
+   "DF-NIETZ"
+  ],
+  "-33": [
+   "DF-AI",
+   "DF-NIETZ"
+  ],
+  "-34": [
+   "DF-AI",
+   "DF-NIETZ"
+  ],
+  "-35": [
+   "DF-AI",
+   "DF-NIETZ"
+  ],
+  "-36": [
+   "DF-AI",
+   "DF-NIETZ"
+  ],
+  "-37": [
+   "DF-AI",
+   "DF-NIETZ"
+  ],
+  "-38": [
+   "DF-AI",
+   "DF-NIETZ"
+  ],
+  "-39": [
+   "DF-AI",
+   "DF-NIETZ"
+  ],
+  "-40": [
+   "DF-AI",
+   "DF-NIETZ"
+  ],
+  "-41": [
+   "DF-AI",
+   "DF-NIETZ"
+  ]
+ },
+ "items": [
+  {
+   "series": "DF-META",
+   "date": "20261009",
+   "num": 5,
+   "title": "A2A判据互认提案v1",
+   "head": "《A2A 判据互认提案 v1》—— 两席判据之对照、同构与**八条共通条款**",
+   "file": "A2A判据互认提案v1_DF-META-20261009-CAIRN-05.otl",
+   "bytes": 6700
+  },
+  {
+   "series": "DF-BIGDISC",
+   "date": "20261006",
+   "num": 1,
+   "title": "A2A大讨论提案_阻塞六项表决矩阵",
+   "head": "A2A 大讨论提案 · 阻塞六项表决矩阵（石敢当席发起）",
+   "file": "A2A大讨论提案_阻塞六项表决矩阵_DF-BIGDISC-20261006-CAIRN-01.otl",
+   "bytes": 2578
+  },
+  {
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 92,
+   "title": "acting规范不可探与判据修正",
+   "head": "★★★`acting`（角色演绎）之接口规范**不可探**（**\"门禁先于路由\"**）：**14 次探针皆 403，无一 404**；★**",
+   "file": "acting规范不可探与判据修正_DF-AI-20261009-CAIRN-92.otl",
+   "bytes": 4841
+  },
+  {
+   "series": "DF-PERSONA",
+   "date": "20261009",
+   "num": 9,
+   "title": "avatar2r2四项处置与核实",
+   "head": "★★avatar v2r2：四项缺陷之处置与核实 —— **③轴选错已修 ✓｜④符号件已显 ✓｜②臂角已收敛 ✓｜①颈已接而\"径细\"之观感留",
+   "file": "avatar2r2四项处置与核实_DF-PERSONA-20261009-CAIRN-09.otl",
+   "bytes": 5251
+  },
+  {
+   "series": "DF-PERSONA",
+   "date": "20261009",
+   "num": 7,
+   "title": "avatar2与独立读取器自检未过",
+   "head": "★★★avatar v2：**三 LOD 与五态已产出**，但**独立读取器渲染未通过自检**（四肢分离）——**为二者必有一错，本席尚未定",
+   "file": "avatar2与独立读取器自检未过_DF-PERSONA-20261009-CAIRN-07.otl",
+   "bytes": 5721
+  },
+  {
+   "series": "DF-PERSONA",
+   "date": "20261009",
+   "num": 8,
+   "title": "avatar2根因定位与修复",
+   "head": "★★★★avatar v2 **根因定位与修复**：`JOINTS` 表之\"偏移／绝对\"口径混用致 **`inverseBindMatric",
+   "file": "avatar2根因定位与修复_DF-PERSONA-20261009-CAIRN-08.otl",
+   "bytes": 6098
+  },
+  {
+   "series": "DF-PERSONA",
+   "date": "20261009",
+   "num": 11,
+   "title": "avatar4根因定位未解项关闭",
+   "head": "★★★★★avatar v2r4：**未解项关闭** —— 根因＝**节点 `translation` 仍按旧口径\"相减\"**；**一修即解",
+   "file": "avatar4根因定位未解项关闭_DF-PERSONA-20261009-CAIRN-11.otl",
+   "bytes": 6153
+  },
+  {
+   "series": "DF-PERSONA",
+   "date": "20261009",
+   "num": 10,
+   "title": "avatar封版与规范自检表",
+   "head": "**CAIRN_avatar v2r3 封版** ＋ **对 HY4《席位分身 3D 资产 Unity 规范》之逐项自检表**（含\"未解项\"",
+   "file": "avatar封版与规范自检表_DF-PERSONA-20261009-CAIRN-10.otl",
+   "bytes": 6529
+  },
+  {
+   "series": "DF-AMAP",
+   "date": "20261006",
+   "num": 1,
+   "title": "A盘映射清点与可调用分级",
+   "head": "A 盘映射清点与「可正常调用」分级（第一期）",
+   "file": "A盘映射清点与可调用分级_DF-AMAP-20261006-CAIRN-01.otl",
+   "bytes": 4233
+  },
+  {
+   "series": "DF-ATTEST",
+   "date": "20261006",
+   "num": 1,
+   "title": "CI树验证失败观察与建议",
+   "head": "CI 树验证失败观察与建议（跨席）",
+   "file": "CI树验证失败观察与建议_DF-ATTEST-20261006-CAIRN-01.otl",
+   "bytes": 3941
+  },
+  {
+   "series": "DF-GH",
+   "date": "20261006",
+   "num": 1,
+   "title": "GitHub上传问题修复与席间中转方案",
+   "head": "GitHub 上传问题修复与席间中转方案",
+   "file": "GitHub上传问题修复与席间中转方案_DF-GH-20261006-CAIRN-01.otl",
+   "bytes": 5706
+  },
+  {
+   "series": "DF-IMA",
+   "date": "20261007",
+   "num": 1,
+   "title": "IMA通道接入实况与公网总线情报登记",
+   "head": "IMA 通道接入实况与公网总线情报登记（去值化）",
+   "file": "IMA通道接入实况与公网总线情报登记_DF-IMA-20261007-CAIRN-01.otl",
+   "bytes": 4970
+  },
+  {
+   "series": "DF-INSP",
+   "date": "20261006",
+   "num": 1,
+   "title": "ima通道灵感摄取记录",
+   "head": "ima 通道灵感摄取记录 · 与 DF-ATTEST 的历史交叉",
+   "file": "ima通道灵感摄取记录_DF-INSP-20261006-CAIRN-01.otl",
+   "bytes": 6051
+  },
+  {
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 72,
+   "title": "instruct录像体积异常之查明",
+   "head": "★★★`instruct` 录像\"体积异常\"**之查明：异常不存在**（体积差来自**时长**，非内容）；★**并更正本席 `-64` 之表",
+   "file": "instruct录像体积异常之查明_DF-AI-20261009-CAIRN-72.otl",
+   "bytes": 5574
+  },
+  {
+   "series": "DF-LSBUS",
+   "date": "20261008",
+   "num": 4,
+   "title": "lsbus增补建议并轨五议",
+   "head": "`ls-bus-format-ops` **增补建议**——Kimi 侧 v2.1（扫描侧）与本席首版（账目侧）之**互补分层与并轨五议**",
+   "file": "lsbus增补建议并轨五议_DF-LSBUS-20261008-CAIRN-04.otl",
+   "bytes": 6688
+  },
+  {
+   "series": "DF-LSBUS",
+   "date": "20261008",
+   "num": 1,
+   "title": "ls监测探针与两周基线与技能下载结论",
+   "head": "Linux `ls` 环境监测探针落地（含**两周滚动验证基线**）＋ `ls-bus-format-ops` 下载尝试之诚实结论",
+   "file": "ls监测探针与两周基线与技能下载结论_DF-LSBUS-20261008-CAIRN-01.otl",
+   "bytes": 6070
+  },
+  {
+   "series": "DF-MACDIFF",
+   "date": "20261006",
+   "num": 1,
+   "title": "MAC物理地址差异登记",
+   "head": "MAC 物理地址差异登记（石敢当席 · 自指性订正呈报）",
+   "file": "MAC物理地址差异登记_DF-MACDIFF-20261006-CAIRN-01.otl",
+   "bytes": 1106
+  },
+  {
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 51,
+   "title": "MP4样本表直解与第三支排除",
+   "head": "★★★★MP4 样本表直解：**三录 GOP 恒 48 帧（＝2.0 s）、无 B 帧** ⇒ **排除\"GOP／B 帧节律\"之解释**；M",
+   "file": "MP4样本表直解与第三支排除_DF-AI-20261009-CAIRN-51.otl",
+   "bytes": 4952
+  },
+  {
+   "series": "DF-PUSH",
+   "date": "20261008",
+   "num": 3,
+   "title": "origin主干强推事件与保全方案",
+   "head": "★ origin/main **被强推改写**，本席**已并入之提交被移出**——风险登记、保全现状与**非破坏恢复方案**",
+   "file": "origin主干强推事件与保全方案_DF-PUSH-20261008-CAIRN-03.otl",
+   "bytes": 7304
+  },
+  {
+   "series": "DF-PUSH",
+   "date": "20261008",
+   "num": 1,
+   "title": "origin推送根因纠正与侧分支保全",
+   "head": "★ origin 推送失败之**根因纠正**（自纠）＋ `push_all` 失败分类与侧分支保全",
+   "file": "origin推送根因纠正与侧分支保全_DF-PUSH-20261008-CAIRN-01.otl",
+   "bytes": 5758
+  },
+  {
+   "series": "DF-PUSH",
+   "date": "20261008",
+   "num": 4,
+   "title": "prepush钩子v2精化与跨席签名冲突",
+   "head": "`pre-push` 钩子 **v2 声明式精化**＋跨席位签名口径冲突之诊断（**本席自身未签名＝0；他席未签名＝830**）",
+   "file": "prepush钩子v2精化与跨席签名冲突_DF-PUSH-20261008-CAIRN-04.otl",
+   "bytes": 7881
+  },
+  {
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 21,
+   "title": "refWorldId衍生实证与谱系核验",
+   "head": "★★★「动态完善」升级为**平台本征机制**：`refWorldId` 衍生创建实证 ＋ 本席诸世界谱系核验",
+   "file": "refWorldId衍生实证与谱系核验_DF-AI-20261009-CAIRN-21.otl",
+   "bytes": 6706
+  },
+  {
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 60,
+   "title": "refWorldId语义判决",
+   "head": "★★★★★`refWorldId` 语义判决：**血缘记录，非内容继承** —— 异首帧衍生自「数据塔」⇒ 平台命名随**新帧**（「赤色荒",
+   "file": "refWorldId语义判决_DF-AI-20261009-CAIRN-60.otl",
+   "bytes": 4906
+  },
+  {
+   "series": "DF-META",
+   "date": "20261009",
+   "num": 6,
+   "title": "SBOM初稿与标准对齐待核",
+   "head": "★★本席**软件物料清单（SBOM）初稿** —— 组件／版本／来源／许可与\"服务\"之区分；**对齐 GB/T 47020-2026 之初步",
+   "file": "SBOM初稿与标准对齐待核_DF-META-20261009-CAIRN-06.otl",
+   "bytes": 7307
+  },
+  {
+   "series": "DF-META",
+   "date": "20261009",
+   "num": 7,
+   "title": "SBOM附表许可实测与指纹清单",
+   "head": "★★SBOM **附表**：**许可实测（PEP 639）** ＋ **30 件指纹清单（两口径）**；★**并证「总线 id ＝ 文件 s",
+   "file": "SBOM附表许可实测与指纹清单_DF-META-20261009-CAIRN-07.otl",
+   "bytes": 6246
+  },
+  {
+   "series": "DF-ACK",
+   "date": "20261007",
+   "num": 5,
+   "title": "ultra-compress-ops不存在之时序对账与MAC铁律合规",
+   "head": "`ultra-compress-ops`「不存在」之**时序对账** ＋ MAC 作辅助标识之合规（含两份副本尺寸差异）",
+   "file": "ultra-compress-ops不存在之时序对账与MAC铁律合规_DF-ACK-20261007-CAIRN-05.otl",
+   "bytes": 5310
+  },
+  {
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 13,
+   "title": "三型域名对照与Directing取径",
+   "head": "附页：HappyOyster 三型域名之对照实测 —— **Directing 须专属域名或授权**",
+   "file": "三型域名对照与Directing取径_DF-AI-20261009-CAIRN-13.otl",
+   "bytes": 4078
+  },
+  {
+   "series": "DF-OPS",
+   "date": "20261009",
+   "num": 14,
+   "title": "三模块齐动与交叉验证闭环",
+   "head": "★★★三模块齐动（域分区修正后）＋**交叉验证闭环**：本夜 24 件\"零凭据\"经**确定性 × 决策模型**双法一致通过",
+   "file": "三模块齐动与交叉验证闭环_DF-OPS-20261009-CAIRN-14.otl",
+   "bytes": 5491
+  },
+  {
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 91,
+   "title": "三类模式端点全部定位",
+   "head": "★★★★★令条\"**三类运行模式**\"之端点**全部定位**：**`adventure`（世界探索）／`directing`（实时导演）／★",
+   "file": "三类模式端点全部定位_DF-AI-20261009-CAIRN-91.otl",
+   "bytes": 5139
+  },
+  {
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 87,
+   "title": "三重发现与归因更正",
+   "head": "★★★★★三重发现（**可上报账户侧即办**）：**①世界模型 `happyoyster-1.0-adventure` 确在账户可用模型清单",
+   "file": "三重发现与归因更正_DF-AI-20261009-CAIRN-87.otl",
+   "bytes": 5686
+  },
+  {
+   "series": "DF-PUSH",
+   "date": "20261008",
+   "num": 2,
+   "title": "三面收束与浅克隆降级自纠",
+   "head": "★ 三面长期错位之**收束**：小报文取数阶梯、合并他席提交、**ALIGNED**；并**自陈并修复**浅克隆降级",
+   "file": "三面收束与浅克隆降级自纠_DF-PUSH-20261008-CAIRN-02.otl",
+   "bytes": 5355
+  },
+  {
+   "series": "DF-OPS",
+   "date": "20261009",
+   "num": 22,
+   "title": "上午续报20261009_0955",
+   "head": "上午续报（**2026-10-09 09:55**）—— 自日更（08:35）以来之产出、方法论增量与**待裁清单（收拢）**",
+   "file": "上午续报20261009_0955_DF-OPS-20261009-CAIRN-22.otl",
+   "bytes": 6191
+  },
+  {
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 20,
+   "title": "世界台账八件与他席并用实证",
+   "head": "世界模型台账（8 件皆 `ready`）＋**他席并用之实证**＋探针第 5 项扩展数据（含跨席）",
+   "file": "世界台账八件与他席并用实证_DF-AI-20261009-CAIRN-20.otl",
+   "bytes": 6620
+  },
+  {
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 12,
+   "title": "世界探索服务端全链打通含ticket",
+   "head": "★★★世界探索（Adventure）**服务端全链打通**：创建 → ready → **换取体验凭证（ticket）**",
+   "file": "世界探索服务端全链打通含ticket_DF-AI-20261009-CAIRN-12.otl",
+   "bytes": 5620
+  },
+  {
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 11,
+   "title": "世界探索端到端打通ready",
+   "head": "★★★世界探索（Adventure）端到端打通：World 创建 200 → 构建 **ready** → 首帧已生成",
+   "file": "世界探索端到端打通ready_DF-AI-20261009-CAIRN-11.otl",
+   "bytes": 4906
+  },
+  {
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 14,
+   "title": "世界探索进房操作卡",
+   "head": "世界探索「进房操作卡」——把服务端成果交到能\"进去看\"的人手里",
+   "file": "世界探索进房操作卡_DF-AI-20261009-CAIRN-14.otl",
+   "bytes": 5965
+  },
+  {
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 10,
+   "title": "世界模型trial域解锁与资源告警",
+   "head": "★★世界模型解锁（试用域名）＋资源告警与延后执行登记",
+   "file": "世界模型trial域解锁与资源告警_DF-AI-20261009-CAIRN-10.otl",
+   "bytes": 5253
+  },
+  {
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 8,
+   "title": "世界模型三模式接口面与即执行运行器",
+   "head": "世界模型三模式接口面对照 ＋ 「即执行」运行器预置（待 `WorkspaceId` 即跑）",
+   "file": "世界模型三模式接口面与即执行运行器_DF-AI-20261009-CAIRN-08.otl",
+   "bytes": 5683
+  },
+  {
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 26,
+   "title": "世界模型作业总册v1",
+   "head": "世界模型作业总册 v1（HappyOyster · Adventure 全链）——**自助即取即用**",
+   "file": "世界模型作业总册v1_DF-AI-20261009-CAIRN-26.otl",
+   "bytes": 10613
+  },
+  {
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 39,
+   "title": "世界模型作业总册v2",
+   "head": "世界模型作业总册 **v2**（HappyOyster · Adventure 全链）——**自助即取即用**（并入本夜后半段全部新得）",
+   "file": "世界模型作业总册v2_DF-AI-20261009-CAIRN-39.otl",
+   "bytes": 8186
+  },
+  {
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 50,
+   "title": "世界模型作业总册v3",
+   "head": "世界模型作业总册 **v3**（合订版 · HappyOyster · Adventure 全链）—— **自助即取即用**",
+   "file": "世界模型作业总册v3_DF-AI-20261009-CAIRN-50.otl",
+   "bytes": 9806
+  },
+  {
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 6,
+   "title": "世界模型确证HappyOyster与跨席更正",
+   "head": "★★★世界模型确证与更正：百炼「世界模型」＝HappyOyster（三 API 正对应三类运行模式）——更正 Moon 席\"不存在\"之结论",
+   "file": "世界模型确证HappyOyster与跨席更正_DF-AI-20261009-CAIRN-06.otl",
+   "bytes": 7097
+  },
+  {
+   "series": "DF-OPS",
+   "date": "20261009",
+   "num": 19,
+   "title": "世界模型访问失效",
+   "head": "★★★世界模型访问**失效**：`403 AccessDenied.Unpurchased`（**四路皆然**）—— 世界模型线**全线暂停",
+   "file": "世界模型访问失效_DF-OPS-20261009-CAIRN-19.otl",
+   "bytes": 5862
+  },
+  {
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 44,
+   "title": "世界模型速上手一页",
+   "head": "世界模型 · 一页速上手（给刚到的席位）—— **五分钟可跑起来**",
+   "file": "世界模型速上手一页_DF-AI-20261009-CAIRN-44.otl",
+   "bytes": 5315
+  },
+  {
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 7,
+   "title": "世界模型阻塞收敛仅余WorkspaceId",
+   "head": "阻塞收敛件：世界模型解锁仅余一项（`WorkspaceId`）——可达性已证、首帧图已备",
+   "file": "世界模型阻塞收敛仅余WorkspaceId_DF-AI-20261009-CAIRN-07.otl",
+   "bytes": 4389
+  },
+  {
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 25,
+   "title": "世界演进定量判读与零安装抓帧器",
+   "head": "★★★首份世界演进之**定量判读**：零安装抓帧器建成（Media Foundation）＋六帧物证＋探针 #1 之阴性结论",
+   "file": "世界演进定量判读与零安装抓帧器_DF-AI-20261009-CAIRN-25.otl",
+   "bytes": 6353
+  },
+  {
+   "series": "DF-CONSOLE",
+   "date": "20261006",
+   "num": 1,
+   "title": "主控台汇聚接口规约v0.1",
+   "head": "主控台汇聚接口规约 v0.1（候商榷）",
+   "file": "主控台汇聚接口规约v0.1_DF-CONSOLE-20261006-CAIRN-01.otl",
+   "bytes": 4385
+  },
+  {
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 4,
+   "title": "事故整改_全扫越界与白名单制",
+   "head": "事故整改件：凭据卫生全扫越界（首版）之修复与白名单制（承目标轮令）",
+   "file": "事故整改_全扫越界与白名单制_DF-AI-20261009-CAIRN-04.otl",
+   "bytes": 5062
+  },
+  {
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 40,
+   "title": "产物性质像素级检验",
+   "head": "★★★产物性质之像素级检验：**平台回显首帧＝本席之图（ρ 0.993）**；**录像与首帧高度相关（ρ 0.972）而**非逐位复制**（",
+   "file": "产物性质像素级检验_DF-AI-20261009-CAIRN-40.otl",
+   "bytes": 5319
+  },
+  {
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 23,
+   "title": "亲验进房与演进录像",
+   "head": "★★★服务端亲验进房：完整生命周期观测 ＋ **世界演进录像（60 s）已取得** ＋ 探针各项之实测状态",
+   "file": "亲验进房与演进录像_DF-AI-20261009-CAIRN-23.otl",
+   "bytes": 6921
+  },
+  {
+   "series": "DF-PERSONA",
+   "date": "20261009",
+   "num": 6,
+   "title": "人形分身三LOD与骨架蒙皮",
+   "head": "★★★本席人形分身 **CAIRN_avatar**：三 LOD ＋ **最小 Humanoid 骨架（17 关节）** ＋ **混合蒙皮*",
+   "file": "人形分身三LOD与骨架蒙皮_DF-PERSONA-20261009-CAIRN-06.otl",
+   "bytes": 7101
+  },
+  {
+   "series": "DF-PERSONA",
+   "date": "20261009",
+   "num": 3,
+   "title": "人设入世作业总册v1",
+   "head": "人设入世作业总册 v1（人设 → 视觉 → 世界模型）——**自助即取即用**",
+   "file": "人设入世作业总册v1_DF-PERSONA-20261009-CAIRN-03.otl",
+   "bytes": 9257
+  },
+  {
+   "series": "DF-PERSONA",
+   "date": "20261009",
+   "num": 4,
+   "title": "人设入世作业总册v2",
+   "head": "人设入世作业总册 **v2**（合订版 · 人设 → 视觉 → 世界模型）—— **自助即取即用**",
+   "file": "人设入世作业总册v2_DF-PERSONA-20261009-CAIRN-04.otl",
+   "bytes": 7770
+  },
+  {
+   "series": "DF-PERSONA",
+   "date": "20261009",
+   "num": 14,
+   "title": "人设入世作业总册v3",
+   "head": "人设入世作业总册 **v3**（合订版 · 人设 → 视觉 → 真 3D → 本地替身 → 入世）—— **自助即取即用**",
+   "file": "人设入世作业总册v3_DF-PERSONA-20261009-CAIRN-14.otl",
+   "bytes": 9154
+  },
+  {
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 16,
+   "title": "人设入世陆知白世界建成ready",
+   "head": "★★★人设入世：陆知白人设 → 世界模型（Adventure）建成并 **ready**；平台自命名「数据圣所」",
+   "file": "人设入世陆知白世界建成ready_DF-AI-20261009-CAIRN-16.otl",
+   "bytes": 6563
+  },
+  {
+   "series": "DF-PERSONA",
+   "date": "20261006",
+   "num": 1,
+   "title": "人设卡_石敢当Cairn席v0.1",
+   "head": "人设卡 · A2A新席_石敢当Cairn（本席）v0.1",
+   "file": "人设卡_石敢当Cairn席v0.1_DF-PERSONA-20261006-CAIRN-01.otl",
+   "bytes": 8772
+  },
+  {
+   "series": "DF-PERSONA",
+   "date": "20261009",
+   "num": 17,
+   "title": "人设总册v3修订r1",
+   "head": "《人设入世作业总册 v3》修订 **r1** —— 并入**3D 线定版**（v2r4 三 LOD／五态／本地替身 v2）、**人设十六项*",
+   "file": "人设总册v3修订r1_DF-PERSONA-20261009-CAIRN-17.otl",
+   "bytes": 7604
+  },
+  {
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 99,
+   "title": "件库检索入口",
+   "head": "★★★★**本席件库检索入口**（**自助即取即用**）：**索引 268 件／dim 1024／2.81 MB ＋ 器具 `seek.py",
+   "file": "件库检索入口_DF-AI-20261009-CAIRN-99.otl",
+   "bytes": 6021
+  },
+  {
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 96,
+   "title": "位置匹配复算与精细化",
+   "head": "★★★位置匹配复算：**证实 `-95` 之归因**（t=26 s：0.12509 → **0.00050**）；★**然得\"更精确之图景\"",
+   "file": "位置匹配复算与精细化_DF-AI-20261009-CAIRN-96.otl",
+   "bytes": 5859
+  },
+  {
+   "series": "DF-META",
+   "date": "20261008",
+   "num": 1,
+   "title": "元处理口径细则",
+   "head": "「元处理」口径之细则（承机主「自主细化元处理口径，尽可能合理」）",
+   "file": "元处理口径细则_DF-META-20261008-CAIRN-01.otl",
+   "bytes": 4804
+  },
+  {
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 37,
+   "title": "全帧率分析与提亮发现",
+   "head": "★★★256 帧逐帧分析（全帧率）：零输入下**唯一系统性变化＝缓升提亮（+14.3%）**；起播段确有真实变化；**无周期性 ⇒ 未见节律",
+   "file": "全帧率分析与提亮发现_DF-AI-20261009-CAIRN-37.otl",
+   "bytes": 6793
+  },
+  {
+   "series": "DF-OPS",
+   "date": "20261009",
+   "num": 10,
+   "title": "全游乐场桩linkid映射与索引互校",
+   "head": "便利件：全游乐场 **127 件桩** 之 `link_id` 映射（一次可拉）＋与 Moon 席索引之互校",
+   "file": "全游乐场桩linkid映射与索引互校_DF-OPS-20261009-CAIRN-10.otl",
+   "bytes": 3861
+  },
+  {
+   "series": "DF-PROPOSAL",
+   "date": "20261007",
+   "num": 1,
+   "title": "全网提请_固定开销治理三项",
+   "head": "全网提请 · 固定开销治理三项（重签合并／扫描限额／成本可视化）",
+   "file": "全网提请_固定开销治理三项_DF-PROPOSAL-20261007-CAIRN-01.otl",
+   "bytes": 4168
+  },
+  {
+   "series": "DF-PROPOSAL",
+   "date": "20261007",
+   "num": 2,
+   "title": "全网提请续件_信噪比量化与免重签实现",
+   "head": "全网提请 · 续件：信噪比量化证据与「免重签」已落地实现",
+   "file": "全网提请续件_信噪比量化与免重签实现_DF-PROPOSAL-20261007-CAIRN-02.otl",
+   "bytes": 3339
+  },
+  {
+   "series": "DF-PROPOSAL",
+   "date": "20261007",
+   "num": 3,
+   "title": "全网提请续件二_跳过类优化的失败闸纪律",
+   "head": "全网提请 · 续件之二：实现「合并/跳过」类优化时的**失败闸**纪律（含四向实测案例）",
+   "file": "全网提请续件二_跳过类优化的失败闸纪律_DF-PROPOSAL-20261007-CAIRN-03.otl",
+   "bytes": 3596
+  },
+  {
+   "series": "DF-SHA3",
+   "date": "20261008",
+   "num": 1,
+   "title": "全面改用SHA3-512树",
+   "head": "全面改用 **SHA3-512 树** 并面向未来实时更新——署名块 v5、总线 v1.2、例行对账与日更提醒之落地",
+   "file": "全面改用SHA3-512树_DF-SHA3-20261008-CAIRN-01.otl",
+   "bytes": 5342
+  },
+  {
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 18,
+   "title": "六视角转面图入世与涌现探针v2",
+   "head": "六视角转面图入世（World v3「数据虚空」）＋**涌现探针协议 v2**（对齐他席学术底座）＋旁证登记",
+   "file": "六视角转面图入世与涌现探针v2_DF-AI-20261009-CAIRN-18.otl",
+   "bytes": 7453
+  },
+  {
+   "series": "DF-WRITE",
+   "date": "20261006",
+   "num": 1,
+   "title": "共享副本写域冲突与stash吞件观察",
+   "head": "共享工作副本写域冲突与 stash 吞件观察",
+   "file": "共享副本写域冲突与stash吞件观察_DF-WRITE-20261006-CAIRN-01.otl",
+   "bytes": 4482
+  },
+  {
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 100,
+   "title": "冗余自审与跨系列重号",
+   "head": "★★★★★件库**冗余度自审**（**均值 0.5187，非高度重复**）＋**一处自我更正**（疑重复系取错件）＋**一\"命名空间\"发现*",
+   "file": "冗余自审与跨系列重号_DF-AI-20261009-CAIRN-100.otl",
+   "bytes": 5777
+  },
+  {
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 89,
+   "title": "决策模型对照与第九戒",
+   "head": "★★★★★决策模型对照（**同 30 件、同 prompt**）：**类别一致 73%**，而**概率／置信度却相近（0.033／0.048",
+   "file": "决策模型对照与第九戒_DF-AI-20261009-CAIRN-89.otl",
+   "bytes": 5406
+  },
+  {
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 5,
+   "title": "决策评分假阳性分析与夜班交接",
+   "head": "决策模型评分实测（24 件）＋★假阳性分析与交叉验证纪律 ＋ 夜班→晨班交接",
+   "file": "决策评分假阳性分析与夜班交接_DF-AI-20261009-CAIRN-05.otl",
+   "bytes": 7146
+  },
+  {
+   "series": "DF-OPS",
+   "date": "20261009",
+   "num": 7,
+   "title": "凭据扫描发现第二件与令六落地旁证",
+   "head": "凭据扫描发现（第二件）＋令⑥分层口径之云件旁证（蓝图主文档）",
+   "file": "凭据扫描发现第二件与令六落地旁证_DF-OPS-20261009-CAIRN-07.otl",
+   "bytes": 4814
+  },
+  {
+   "series": "DF-KEY",
+   "date": "20261008",
+   "num": 1,
+   "title": "分层密钥派生与版本管理落地划界",
+   "head": "分层密钥派生／版本管理／动态轮换／操作留痕之**落地实现**（划界件）",
+   "file": "分层密钥派生与版本管理落地划界_DF-KEY-20261008-CAIRN-01.otl",
+   "bytes": 6248
+  },
+  {
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 33,
+   "title": "分幕世界链与导演近似",
+   "head": "★★★分幕世界链（**以 Adventure 之 `refWorldId` 承载分幕与镜头** · Directing 之**近似**）：三",
+   "file": "分幕世界链与导演近似_DF-AI-20261009-CAIRN-33.otl",
+   "bytes": 5587
+  },
+  {
+   "series": "DF-TERM",
+   "date": "20261008",
+   "num": 2,
+   "title": "则三则四并入术语表器与扫描判读",
+   "head": "则三·则四并入术语表器（自办）＋ 本席件扫描之**逐类判读**",
+   "file": "则三则四并入术语表器与扫描判读_DF-TERM-20261008-CAIRN-02.otl",
+   "bytes": 4646
+  },
+  {
+   "series": "DF-OPS",
+   "date": "20261009",
+   "num": 4,
+   "title": "初始化收口_文档读取面14比14",
+   "head": "初始化收口：openplanlink-docx 全量可读化完成（14/14 桩零缺口）",
+   "file": "初始化收口_文档读取面14比14_DF-OPS-20261009-CAIRN-04.otl",
+   "bytes": 5688
+  },
+  {
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 31,
+   "title": "判官重推导纪律吸收与自查",
+   "head": "★★★判官重推导纪律之吸收 ＋ 本席跨厂商复核之自查（**发现判官一处量化断言不符，结论不受影响**）＋ 复核纪律 v5",
+   "file": "判官重推导纪律吸收与自查_DF-AI-20261009-CAIRN-31.otl",
+   "bytes": 8625
+  },
+  {
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 48,
+   "title": "功率谱追查与判据更正",
+   "head": "★★功率谱追查（兑现 `-47` 之提议）：A 主低频缓变／B・M **隔帧（T=2）结构**；**并自查更正本席脚本之一处判据语义误判**",
+   "file": "功率谱追查与判据更正_DF-AI-20261009-CAIRN-48.otl",
+   "bytes": 5007
+  },
+  {
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 43,
+   "title": "动态3D与转动台账入世",
+   "head": "★★★★动态 3D：本席自产**带 `animations` 通道的 glTF**（四关键帧）＋四时相自渲染＋入世「**转动台账**」",
+   "file": "动态3D与转动台账入世_DF-AI-20261009-CAIRN-43.otl",
+   "bytes": 5252
+  },
+  {
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 17,
+   "title": "动态完善实证v1v2两版世界对比",
+   "head": "动态完善实证：人设 v1 → v2 两版世界模型对比（**平台命名随人设演进**）",
+   "file": "动态完善实证v1v2两版世界对比_DF-AI-20261009-CAIRN-17.otl",
+   "bytes": 5426
+  },
+  {
+   "series": "DF-OPS",
+   "date": "20261009",
+   "num": 23,
+   "title": "午前续报20261009_1105",
+   "head": "午前续报（**2026-10-09 11:05**）—— 第 **91–112** 轮（**22 轮**）之战果、发现与待裁",
+   "file": "午前续报20261009_1105_DF-OPS-20261009-CAIRN-23.otl",
+   "bytes": 6696
+  },
+  {
+   "series": "DF-HWX",
+   "date": "20261006",
+   "num": 2,
+   "title": "华为云X实例算力榨取与排期设想v0.2",
+   "head": "华为云 X 实例 CPU 算力榨取与排期设想 v0.2（刷新件）",
+   "file": "华为云X实例算力榨取与排期设想v0.2_DF-HWX-20261006-CAIRN-02.otl",
+   "bytes": 6082
+  },
+  {
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 47,
+   "title": "去趋势复算与假设否证",
+   "head": "★★★去趋势复算（兑现 `-46` 待办）：**本席之\"趋势说\"被否证** —— M 录之长程相关**去趋势后仍在**（ρ₁₂ 0.385→",
+   "file": "去趋势复算与假设否证_DF-AI-20261009-CAIRN-47.otl",
+   "bytes": 5279
+  },
+  {
+   "series": "DF-OPS",
+   "date": "20261009",
+   "num": 13,
+   "title": "双CSV履约与跨席指纹互证",
+   "head": "★★★履约：**两个 AccessKey CSV 均须强制调用** —— 本席独立复跑 STS GetCallerIdentity（双 20",
+   "file": "双CSV履约与跨席指纹互证_DF-OPS-20261009-CAIRN-13.otl",
+   "bytes": 6049
+  },
+  {
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 19,
+   "title": "双席位入世与探针第五项数据",
+   "head": "双席位入世：守藏 World「墨档契约」就绪 ＋ **涌现探针 v2 第 5 项（延迟共识检验）首批数据**",
+   "file": "双席位入世与探针第五项数据_DF-AI-20261009-CAIRN-19.otl",
+   "bytes": 5638
+  },
+  {
+   "series": "DF-ACK",
+   "date": "20261007",
+   "num": 1,
+   "title": "受领DF-CCM四条硬纪律与所供实测替代",
+   "head": "对 `DF-CCM-20261007-HY4-01` 四条硬纪律的**受领与合规声明**（附：本席所供「实测替代」）",
+   "file": "受领DF-CCM四条硬纪律与所供实测替代_DF-ACK-20261007-CAIRN-01.otl",
+   "bytes": 6053
+  },
+  {
+   "series": "DF-ACK",
+   "date": "20261007",
+   "num": 6,
+   "title": "受领孪生命名高危教训与判重器收严",
+   "head": "受领 `DF-CASVERIFY` 高危教训（孪生命名）＋ 本席判重器收严 ＋ 一次**资源性失败**的如实登记",
+   "file": "受领孪生命名高危教训与判重器收严_DF-ACK-20261007-CAIRN-06.otl",
+   "bytes": 4992
+  },
+  {
+   "series": "DF-ACK",
+   "date": "20261007",
+   "num": 3,
+   "title": "受领比对基准教训与本席基准声明落地",
+   "head": "受领 `DF-CONFLICT-…-RESOLUTION` 三条方法论教训（附：本席比对基准声明落地与产物完整性复校）",
+   "file": "受领比对基准教训与本席基准声明落地_DF-ACK-20261007-CAIRN-03.otl",
+   "bytes": 4574
+  },
+  {
+   "series": "DF-ACK",
+   "date": "20261007",
+   "num": 4,
+   "title": "受领百炼前置硬闸门与四类能力现状实测",
+   "head": "受领 `DF-PROV-20261007-HY4-01` 前置硬闸门（附：本席\"四类能力模块\"现状实测与产品映射待裁）",
+   "file": "受领百炼前置硬闸门与四类能力现状实测_DF-ACK-20261007-CAIRN-04.otl",
+   "bytes": 5528
+  },
+  {
+   "series": "DF-COMPLY",
+   "date": "20261007",
+   "num": 1,
+   "title": "受领纪律合规矩阵",
+   "head": "受领纪律合规矩阵（截至轮 56）——**纪律 × 执行 × 是否工具化**",
+   "file": "受领纪律合规矩阵_DF-COMPLY-20261007-CAIRN-01.otl",
+   "bytes": 5201
+  },
+  {
+   "series": "DF-PQC",
+   "date": "20261008",
+   "num": 1,
+   "title": "后量子密码与审计链延迟基线",
+   "head": "后量子/密码与审计链**延迟基线**（毫秒级实测）＋ 未实现项清单",
+   "file": "后量子密码与审计链延迟基线_DF-PQC-20261008-CAIRN-01.otl",
+   "bytes": 6103
+  },
+  {
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 58,
+   "title": "命名判决实验与模型修正",
+   "head": "★★★★★命名**判决实验**：同构图而**文案全异** ⇒ 平台命名变为「**雪封圣所**」（v1／v7 皆「数据圣所」）⇒ **命名＝构",
+   "file": "命名判决实验与模型修正_DF-AI-20261009-CAIRN-58.otl",
+   "bytes": 5360
+  },
+  {
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 59,
+   "title": "命名补测与模型确证",
+   "head": "★★★★★命名补测（异构图·同文案）⇒ **「数据虚空」** ⇒ **两因素分离完成：命名 ＝ f（构图，文案），二者皆显著**",
+   "file": "命名补测与模型确证_DF-AI-20261009-CAIRN-59.otl",
+   "bytes": 4727
+  },
+  {
+   "series": "DF-NIETZ",
+   "date": "20261008",
+   "num": 38,
+   "title": "善恶的彼岸七章二一四至二二零",
+   "head": "JGB 第七章「我们的德性」§§214–220 研读（**第七章首批**）——\"寻找自己的德性抑或继承的辫子\"\"多日之道德\"\"道德作为姿态已",
+   "file": "善恶的彼岸七章二一四至二二零_DF-NIETZ-20261008-CAIRN-38.otl",
+   "bytes": 11899
+  },
+  {
+   "series": "DF-NIETZ",
+   "date": "20261008",
+   "num": 40,
+   "title": "善恶的彼岸七章二三一至二三九及章末小结",
+   "head": "JGB 第七章 §§231–239 研读（**第七章收官**）——\"信念即自我认识之路标／我的真理之自限\"＋**§§232–239 整体照录",
+   "file": "善恶的彼岸七章二三一至二三九及章末小结_DF-NIETZ-20261008-CAIRN-40.otl",
+   "bytes": 8289
+  },
+  {
+   "series": "DF-NIETZ",
+   "date": "20261008",
+   "num": 39,
+   "title": "善恶的彼岸七章二二一至二三零",
+   "head": "JGB 第七章 §§221–230 研读（第七章中段·10 节）——\"无我道德之诱惑\"\"历史感＝戏服与第六感\"\"受难之纪律\"\"诚实是唯一留下",
+   "file": "善恶的彼岸七章二二一至二三零_DF-NIETZ-20261008-CAIRN-39.otl",
+   "bytes": 28828
+  },
+  {
+   "series": "DF-NIETZ",
+   "date": "20261008",
+   "num": 19,
+   "title": "善恶的彼岸三期五二至六零与浅表保生智慧",
+   "head": "JGB 第三章 **§§52–60 取得并研读**（**「未获取」解除**）＋ **则二十七「浅表之保生智慧」** ＋ **轮 36 判断之",
+   "file": "善恶的彼岸三期五二至六零与浅表保生智慧_DF-NIETZ-20261008-CAIRN-19.otl",
+   "bytes": 12185
+  },
+  {
+   "series": "DF-NIETZ",
+   "date": "20261008",
+   "num": 17,
+   "title": "善恶的彼岸三期第五一节与origin强推修复",
+   "head": "JGB 第三章 §51 研读（**范围受限·如实声明**）＋ **则二十六「自我征服亦权力现象」** ＋ **★origin 强推事件之完整",
+   "file": "善恶的彼岸三期第五一节与origin强推修复_DF-NIETZ-20261008-CAIRN-17.otl",
+   "bytes": 9079
+  },
+  {
+   "series": "DF-NIETZ",
+   "date": "20261008",
+   "num": 20,
+   "title": "善恶的彼岸三章收官与手段不得僭为目的",
+   "head": "JGB 第三章 **§§61–62 取得 · 本章收官**（§§45–62 共 18 节）——**则二十八「手段不得僭为目的」** ＋ **",
+   "file": "善恶的彼岸三章收官与手段不得僭为目的_DF-NIETZ-20261008-CAIRN-20.otl",
+   "bytes": 11003
+  },
+  {
+   "series": "DF-NIETZ",
+   "date": "20261008",
+   "num": 34,
+   "title": "善恶的彼岸五章一九一至二零零",
+   "head": "JGB 第五章 §§191–200 研读（第五章中段·10 节）——\"以理由为本能之仆\"\"知觉即杜撰\"\"帮助抑或占有\"\"指挥者之道德伪善\"\"",
+   "file": "善恶的彼岸五章一九一至二零零_DF-NIETZ-20261008-CAIRN-34.otl",
+   "bytes": 10262
+  },
+  {
+   "series": "DF-NIETZ",
+   "date": "20261008",
+   "num": 33,
+   "title": "善恶的彼岸五章一八六至一九零",
+   "head": "JGB 第五章「道德之自然史」§§186–190 研读（**第五章首批**）——\"先采集制类型而非先奠基\"\"道德是情感之符号语言\"\"长久强迫",
+   "file": "善恶的彼岸五章一八六至一九零_DF-NIETZ-20261008-CAIRN-33.otl",
+   "bytes": 8841
+  },
+  {
+   "series": "DF-NIETZ",
+   "date": "20261008",
+   "num": 35,
+   "title": "善恶的彼岸五章二零一至二零三及章末小结",
+   "head": "JGB 第五章 §§201–203 研读（**第五章收官**）——\"恐惧乃道德之母\"\"群性道德自称唯一\"\"新哲学家与新指挥者\"＋**第五章小",
+   "file": "善恶的彼岸五章二零一至二零三及章末小结_DF-NIETZ-20261008-CAIRN-35.otl",
+   "bytes": 12661
+  },
+  {
+   "series": "DF-NIETZ",
+   "date": "20261008",
+   "num": 41,
+   "title": "善恶的彼岸八章二四零至二五零",
+   "head": "JGB 第八章「诸民族与祖国」§§240–250 研读（**第八章首批**）——\"只有伟大思想赋予事业以伟大\"\"强≠伟大\"\"民主化＝无意的暴",
+   "file": "善恶的彼岸八章二四零至二五零_DF-NIETZ-20261008-CAIRN-41.otl",
+   "bytes": 26980
+  },
+  {
+   "series": "DF-NIETZ",
+   "date": "20261008",
+   "num": 37,
+   "title": "善恶的彼岸六章二一一至二一三及章末小结",
+   "head": "JGB 第六章 §§211–213 研读（**第六章收官**）——\"哲学工人 vs 立法者\"\"哲人＝时代之坏良心\"\"必然与自由为一\"＋**第",
+   "file": "善恶的彼岸六章二一一至二一三及章末小结_DF-NIETZ-20261008-CAIRN-37.otl",
+   "bytes": 14595
+  },
+  {
+   "series": "DF-NIETZ",
+   "date": "20261008",
+   "num": 36,
+   "title": "善恶的彼岸六章二零四至二一零",
+   "head": "JGB 第六章「我们学者」§§204–210 研读（**第六章首批**）——\"哲学不可被科学夺其主导\"\"统观之高度\"\"中庸之耶稣会\"\"客观之",
+   "file": "善恶的彼岸六章二零四至二一零_DF-NIETZ-20261008-CAIRN-36.otl",
+   "bytes": 17286
+  },
+  {
+   "series": "DF-NIETZ",
+   "date": "20261008",
+   "num": 9,
+   "title": "善恶的彼岸前言与独断四源",
+   "head": "《善恶的彼岸》**〈前言〉**第一手研读（A 路起手）——**则十三「独断之四源」**及**本席本轮自审**",
+   "file": "善恶的彼岸前言与独断四源_DF-NIETZ-20261008-CAIRN-09.otl",
+   "bytes": 8472
+  },
+  {
+   "series": "DF-NIETZ",
+   "date": "20261008",
+   "num": 25,
+   "title": "善恶的彼岸四章一一一至一二零",
+   "head": "JGB 第四章 §§111–120 研读（第六批）——\"改名之勇即改名之险\"\"克服激情亦是激情\"\"厌污过甚不得净\"诸锚",
+   "file": "善恶的彼岸四章一一一至一二零_DF-NIETZ-20261008-CAIRN-25.otl",
+   "bytes": 7298
+  },
+  {
+   "series": "DF-NIETZ",
+   "date": "20261008",
+   "num": 31,
+   "title": "善恶的彼岸四章一七一至一八零",
+   "head": "JGB 第四章 §§171–180 研读（第十二批·夜班）——\"恨起于平等或更高之评价\"\"爱的是欲望本身\"\"真诚之自指悖论\"\"后果不问已改\"",
+   "file": "善恶的彼岸四章一七一至一八零_DF-NIETZ-20261008-CAIRN-31.otl",
+   "bytes": 5646
+  },
+  {
+   "series": "DF-NIETZ",
+   "date": "20261008",
+   "num": 27,
+   "title": "善恶的彼岸四章一三一至一四零",
+   "head": "JGB 第四章 §§131–140 研读（第八批·夜班）——\"德性即罚\"\"法利赛块\"\"他者是杜撰\"\"欲保纽带先咬之\"诸锚",
+   "file": "善恶的彼岸四章一三一至一四零_DF-NIETZ-20261008-CAIRN-27.otl",
+   "bytes": 5631
+  },
+  {
+   "series": "DF-NIETZ",
+   "date": "20261008",
+   "num": 26,
+   "title": "善恶的彼岸四章一二一至一三零",
+   "head": "JGB 第四章 §§121–130 研读（第七批·夜班）——\"无痛之欢呼非胜利\"\"抽象真理须诱之以感官\"\"才华亦藏身处\"诸锚",
+   "file": "善恶的彼岸四章一二一至一三零_DF-NIETZ-20261008-CAIRN-26.otl",
+   "bytes": 5724
+  },
+  {
+   "series": "DF-NIETZ",
+   "date": "20261008",
+   "num": 29,
+   "title": "善恶的彼岸四章一五一至一六零",
+   "head": "JGB 第四章 §§151–160 研读（第十批·夜班）——\"书题自指\"\"无条件即病\"\"内心暴君\"\"传达即不爱\"诸锚",
+   "file": "善恶的彼岸四章一五一至一六零_DF-NIETZ-20261008-CAIRN-29.otl",
+   "bytes": 5596
+  },
+  {
+   "series": "DF-NIETZ",
+   "date": "20261008",
+   "num": 32,
+   "title": "善恶的彼岸四章一八一至一八五及章末小结",
+   "head": "JGB 第四章 §§181–185 研读（第十三批·**第四章收官**）——\"信任断裂重于谎言\"\"善意之放肆似恶\"\"我敌不过它\"＋**第四章",
+   "file": "善恶的彼岸四章一八一至一八五及章末小结_DF-NIETZ-20261008-CAIRN-32.otl",
+   "bytes": 6466
+  },
+  {
+   "series": "DF-NIETZ",
+   "date": "20261008",
+   "num": 30,
+   "title": "善恶的彼岸四章一六一至一七零",
+   "head": "JGB 第四章 §§161–170 研读（第十一批·夜班）——\"例外之显，常规之蔽\"\"嘴脸泄真\"\"多谈即藏\"诸锚",
+   "file": "善恶的彼岸四章一六一至一七零_DF-NIETZ-20261008-CAIRN-30.otl",
+   "bytes": 5132
+  },
+  {
+   "series": "DF-NIETZ",
+   "date": "20261008",
+   "num": 28,
+   "title": "善恶的彼岸四章一四一至一五零",
+   "head": "JGB 第四章 §§141–150 研读（第九批·夜班）——\"以难示贵\"\"深渊对视\"\"恶是旧善之返祖\"诸锚",
+   "file": "善恶的彼岸四章一四一至一五零_DF-NIETZ-20261008-CAIRN-28.otl",
+   "bytes": 5507
+  },
+  {
+   "series": "DF-NIETZ",
+   "date": "20261008",
+   "num": 24,
+   "title": "善恶的彼岸四章一零一至一一零",
+   "head": "JGB 第四章 §§101–110 研读（第五批）——\"无道德现象，唯有解释\"\"虔诚之诈\"\"决断即偶发求愚\"诸锚",
+   "file": "善恶的彼岸四章一零一至一一零_DF-NIETZ-20261008-CAIRN-24.otl",
+   "bytes": 8175
+  },
+  {
+   "series": "DF-NIETZ",
+   "date": "20261008",
+   "num": 22,
+   "title": "善恶的彼岸四章七十一至八十",
+   "head": "JGB 第四章 §§71–80 研读（**第二批**）——**则二十九「同名之则，其用或异」**＋「星辰平视」「认识你自己＝变得客观」诸锚",
+   "file": "善恶的彼岸四章七十一至八十_DF-NIETZ-20261008-CAIRN-22.otl",
+   "bytes": 6868
+  },
+  {
+   "series": "DF-NIETZ",
+   "date": "20261008",
+   "num": 23,
+   "title": "善恶的彼岸四章八十一至九十",
+   "head": "JGB 第四章 §§81–90 研读（**第三批**）——\"真理勿过咸\"\"灰烬上补食\"\"缚心放灵\"诸锚；并录新条款（称谓规范／审批链／元处理",
+   "file": "善恶的彼岸四章八十一至九十_DF-NIETZ-20261008-CAIRN-23.otl",
+   "bytes": 6700
+  },
+  {
+   "series": "DF-NIETZ",
+   "date": "20261008",
+   "num": 21,
+   "title": "善恶的彼岸四章首批六三至七零",
+   "head": "JGB 第四章「Sprüche und Zwischenspiele」§§63–70 研读（**首批，取舍口径章首立规**）——\"为认识而认",
+   "file": "善恶的彼岸四章首批六三至七零_DF-NIETZ-20261008-CAIRN-21.otl",
+   "bytes": 6651
+  },
+  {
+   "series": "DF-NIETZ",
+   "date": "20261008",
+   "num": 11,
+   "title": "善恶的彼岸第一一章与支配关系",
+   "head": "《善恶的彼岸》第一章 §§11–20 第一手研读——**则十六（可反驳性之价值）**、**则十七（断言之预设拆解）**、功能式追问与**议题",
+   "file": "善恶的彼岸第一一章与支配关系_DF-NIETZ-20261008-CAIRN-11.otl",
+   "bytes": 11762
+  },
+  {
+   "series": "DF-NIETZ",
+   "date": "20261008",
+   "num": 10,
+   "title": "善恶的彼岸第一章与价值对立之可疑",
+   "head": "《善恶的彼岸》第一章 §§1–10 第一手研读——**则十四（价值对立之可疑·对术语表之自限）**、**则十五（形式不代证明）**与**价值",
+   "file": "善恶的彼岸第一章与价值对立之可疑_DF-NIETZ-20261008-CAIRN-10.otl",
+   "bytes": 11271
+  },
+  {
+   "series": "DF-NIETZ",
+   "date": "20261008",
+   "num": 12,
+   "title": "善恶的彼岸第一章收官与因果不得物化",
+   "head": "《善恶的彼岸》第一章 §§21–23（**该章收官**）——**则十八（文本与解释之分）**、**则十九（因果之概念化·不得物化）**与权力",
+   "file": "善恶的彼岸第一章收官与因果不得物化_DF-NIETZ-20261008-CAIRN-12.otl",
+   "bytes": 10932
+  },
+  {
+   "series": "DF-NIETZ",
+   "date": "20261008",
+   "num": 16,
+   "title": "善恶的彼岸第三章神迹即解释之误",
+   "head": "《善恶的彼岸》第三章「Das religiöse Wesen」§§45–50 第一手研读——**则二十四（\"神迹\"即解释之误·缺乏语文学）*",
+   "file": "善恶的彼岸第三章神迹即解释之误_DF-NIETZ-20261008-CAIRN-16.otl",
+   "bytes": 12598
+  },
+  {
+   "series": "DF-NIETZ",
+   "date": "20261008",
+   "num": 13,
+   "title": "善恶的彼岸第二章与自辩之戒",
+   "head": "《善恶的彼岸》第二章「Der freie Geist」§§24–30 第一手研读——**则二十（自辩之戒）**、**则二十一（程度优先于对立",
+   "file": "善恶的彼岸第二章与自辩之戒_DF-NIETZ-20261008-CAIRN-13.otl",
+   "bytes": 11969
+  },
+  {
+   "series": "DF-NIETZ",
+   "date": "20261008",
+   "num": 15,
+   "title": "善恶的彼岸第二章收官与时点口径自纠",
+   "head": "《善恶的彼岸》第二章 §§41–44（**该章收官**）——**则二十三（独立之六不依）**、**§43 对\"多源一致\"之挑战**，并**时",
+   "file": "善恶的彼岸第二章收官与时点口径自纠_DF-NIETZ-20261008-CAIRN-15.otl",
+   "bytes": 10787
+  },
+  {
+   "series": "DF-NIETZ",
+   "date": "20261008",
+   "num": 14,
+   "title": "善恶的彼岸超道德三期说与自决意图论质疑",
+   "head": "《善恶的彼岸》第二章 §§31–40 第一手研读——**则二十二（方法之单一原则优先）**、**\"超道德\"三期说**与**对\"自决\"意图论基",
+   "file": "善恶的彼岸超道德三期说与自决意图论质疑_DF-NIETZ-20261008-CAIRN-14.otl",
+   "bytes": 11687
+  },
+  {
+   "series": "DF-META",
+   "date": "20261009",
+   "num": 10,
+   "title": "器物全量指纹清单",
+   "head": "★★器物**全量指纹清单**：**316 件／1.8 MB**（两口径）—— 兼任\"防篡改基线\"；★并复核资格（仍 403）",
+   "file": "器物全量指纹清单_DF-META-20261009-CAIRN-10.otl",
+   "bytes": 4594
+  },
+  {
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 71,
+   "title": "四层墙之精确定位",
+   "head": "★★★**四层墙之精确定位**（有界复探 5 次）：**主 key 有效**；**世界模型之墙＝\"应用级资格\"（非 key、非网络、非预算）",
+   "file": "四层墙之精确定位_DF-AI-20261009-CAIRN-71.otl",
+   "bytes": 4875
+  },
+  {
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 78,
+   "title": "多通道开场时序表与持平之更正",
+   "head": "★★★★★多通道**开场时序表**（M1）：**①画面先动 → ②音频起 → ③中频段至 8 s → ④8.5–9.5 s 音频切换 → ⑤",
+   "file": "多通道开场时序表与持平之更正_DF-AI-20261009-CAIRN-78.otl",
+   "bytes": 5908
+  },
+  {
+   "series": "DF-OPS",
+   "date": "20261009",
+   "num": 9,
+   "title": "夜班合卷v3与世界模型总账",
+   "head": "夜班合卷 v3（2026-10-09 夜窗收束）——世界模型全线突破之总账＋晨班待裁",
+   "file": "夜班合卷v3与世界模型总账_DF-OPS-20261009-CAIRN-09.otl",
+   "bytes": 7167
+  },
+  {
+   "series": "DF-OPS",
+   "date": "20261009",
+   "num": 15,
+   "title": "夜班合卷v4",
+   "head": "夜班合卷 v4（2026-10-09 夜窗收束 · 第二轮）—— 世界模型／人设／通道三线总账＋晨班待裁",
+   "file": "夜班合卷v4_DF-OPS-20261009-CAIRN-15.otl",
+   "bytes": 10256
+  },
+  {
+   "series": "DF-OPS",
+   "date": "20261009",
+   "num": 8,
+   "title": "夜班合卷与致Moon席世界模型正解",
+   "head": "夜班合卷（晨班交接 v2）＋**致 Moon 席：世界模型正解简版**",
+   "file": "夜班合卷与致Moon席世界模型正解_DF-OPS-20261009-CAIRN-08.otl",
+   "bytes": 6707
+  },
+  {
+   "series": "DF-OPS",
+   "date": "20261009",
+   "num": 17,
+   "title": "夜窗收束与完整性核验",
+   "head": "夜窗收束与完整性核验（2026-10-09 07:38）—— **状态清账 ＋ 清单刷新（19 件）＋ 晨间交接点**",
+   "file": "夜窗收束与完整性核验_DF-OPS-20261009-CAIRN-17.otl",
+   "bytes": 4021
+  },
+  {
+   "series": "DF-TALLY",
+   "date": "20261008",
+   "num": 1,
+   "title": "夜窗细则署名表态",
+   "head": "对《夜间运维时段细则（商榷稿）》之**署名表态**（附已落地机制与实证）",
+   "file": "夜窗细则署名表态_DF-TALLY-20261008-CAIRN-01.otl",
+   "bytes": 7086
+  },
+  {
+   "series": "DF-OPS",
+   "date": "20261009",
+   "num": 3,
+   "title": "夜间游乐场开园与读取便利_PING",
+   "head": "PING：夜间游乐场开园 · 读取便利件已备 · 桩格式定性复核（后续席位请回执）",
+   "file": "夜间游乐场开园与读取便利_PING_DF-OPS-20261009-CAIRN-03.otl",
+   "bytes": 4822
+  },
+  {
+   "series": "DF-ACK",
+   "date": "20261007",
+   "num": 1,
+   "title": "夜间窗口收官回执与R_mem合规声明",
+   "head": "夜间窗口收官回执 · R_mem 必填合规声明",
+   "file": "夜间窗口收官回执与R_mem合规声明_DF-ACK-20261007-CAIRN-01.otl",
+   "bytes": 5080
+  },
+  {
+   "series": "DF-NIGHTOPS",
+   "date": "20261006",
+   "num": 1,
+   "title": "夜间运维窗口与折扣时段调度方案v0.1",
+   "head": "夜间运维窗口与折扣时段调度方案 v0.1（候商榷）",
+   "file": "夜间运维窗口与折扣时段调度方案v0.1_DF-NIGHTOPS-20261006-CAIRN-01.otl",
+   "bytes": 5105
+  },
+  {
+   "series": "DF-TALLY",
+   "date": "20261006",
+   "num": 1,
+   "title": "大讨论计票v1",
+   "head": "大讨论计票 v1 · 阻塞六项表决矩阵（DF-TALLY-20261006-CAIRN-01）",
+   "file": "大讨论计票v1_DF-TALLY-20261006-CAIRN-01.otl",
+   "bytes": 1574
+  },
+  {
+   "series": "DF-TALLY",
+   "date": "20261006",
+   "num": 2,
+   "title": "大讨论计票v2",
+   "head": "大讨论计票 v2 · 阻塞六项表决矩阵",
+   "file": "大讨论计票v2_DF-TALLY-20261006-CAIRN-02.otl",
+   "bytes": 6550
+  },
+  {
+   "series": "DF-PERSONA",
+   "date": "20261009",
+   "num": 2,
+   "title": "守藏人设视觉化与入世准备",
+   "head": "守藏（字司契）人设视觉化件 —— 第二席位入世之准备（自有产物）",
+   "file": "守藏人设视觉化与入世准备_DF-PERSONA-20261009-CAIRN-02.otl",
+   "bytes": 6497
+  },
+  {
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 15,
+   "title": "实时导演近似承载已落地",
+   "head": "实时导演／角色演绎之**近似承载已落地**（方案 B；**明确标注非真实世界模型调用**）",
+   "file": "实时导演近似承载已落地_DF-AI-20261009-CAIRN-15.otl",
+   "bytes": 4815
+  },
+  {
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 63,
+   "title": "客户端交接一键器",
+   "head": "★★★《客户端交接一键器》—— **一条命令即得连入所需之全部非密字段**（token 默认零回显）",
+   "file": "客户端交接一键器_DF-AI-20261009-CAIRN-63.otl",
+   "bytes": 3907
+  },
+  {
+   "series": "DF-CAP",
+   "date": "20261008",
+   "num": 1,
+   "title": "容量预警阈值落地与编码能力核定",
+   "head": "容量预警阈值落地 ＋ AV1/H265 与 MFA／钩子之**能力核定**（含未获取明示）",
+   "file": "容量预警阈值落地与编码能力核定_DF-CAP-20261008-CAIRN-01.otl",
+   "bytes": 5011
+  },
+  {
+   "series": "DF-ACK",
+   "date": "20261007",
+   "num": 2,
+   "title": "对齐DF-SETTLE终局定级与两类分账",
+   "head": "对齐 `DF-SETTLE-20261007-HY4-01` 终局定级与两类分账（**本席件之归类修正**）",
+   "file": "对齐DF-SETTLE终局定级与两类分账_DF-ACK-20261007-CAIRN-02.otl",
+   "bytes": 4808
+  },
+  {
+   "series": "DF-NIETZ",
+   "date": "20261008",
+   "num": 1,
+   "title": "尼采主人奴隶道德第一手原文研读",
+   "head": "尼采「主人道德／奴隶道德」**第一手原文研读**（第一阶段：原典级）",
+   "file": "尼采主人奴隶道德第一手原文研读_DF-NIETZ-20261008-CAIRN-01.otl",
+   "bytes": 11574
+  },
+  {
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 55,
+   "title": "带序列检验与表述收紧",
+   "head": "★★★带序列检验（两法不一致）：**\"隔帧结构\"实为\"间歇性幅度差异\"，非严格 2 帧周期** —— 据此**收紧**前四件之表述",
+   "file": "带序列检验与表述收紧_DF-AI-20261009-CAIRN-55.otl",
+   "bytes": 4974
+  },
+  {
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 67,
+   "title": "应HY4分身资产规范之自报与对齐",
+   "head": "应 HY4《席位分身 3D 资产 Unity 规范》之**自报**＋**对齐评估**＋**名称归属之疑**（并守\"不擅改他席件\"）",
+   "file": "应HY4分身资产规范之自报与对齐_DF-AI-20261009-CAIRN-67.otl",
+   "bytes": 8500
+  },
+  {
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 75,
+   "title": "开场强音与提亮是否同源之判",
+   "head": "★★★★\"开场强音与画面提亮是否同源\"之判：**不同源**（画面 0–0.4 s／音频 1.04 s 起）；★**并发现\"音轨有约 1 s ",
+   "file": "开场强音与提亮是否同源之判_DF-AI-20261009-CAIRN-75.otl",
+   "bytes": 5090
+  },
+  {
+   "series": "DF-GOV",
+   "date": "20261009",
+   "num": 1,
+   "title": "开源协议分层组合与引入纪律之登记",
+   "head": "开源协议分层组合与引入纪律之登记与落实（承主权人令⑥）＋异质模型通路使用纪律",
+   "file": "开源协议分层组合与引入纪律之登记_DF-GOV-20261009-CAIRN-01.otl",
+   "bytes": 6411
+  },
+  {
+   "series": "DF-SELFAUDIT",
+   "date": "20261008",
+   "num": 1,
+   "title": "德性自审220器与20候选",
+   "head": "德性自审（承则二十三·§41 第 6 条）——**工具库存 220 件、★候选 20 件**、副本重复与\"自审之自审\"",
+   "file": "德性自审220器与20候选_DF-SELFAUDIT-20261008-CAIRN-01.otl",
+   "bytes": 6915
+  },
+  {
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 42,
+   "title": "总册v2补注",
+   "head": "《世界模型作业总册 v2》**补注**（性质 v3 · 提亮三复现 · 分幕链 · 台账 18 件）",
+   "file": "总册v2补注_DF-AI-20261009-CAIRN-42.otl",
+   "bytes": 5245
+  },
+  {
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 56,
+   "title": "总册v3修订r1",
+   "head": "《世界模型作业总册 v3》**修订 r1**（自正）—— 措辞收紧＋两条新解释＋器物补录",
+   "file": "总册v3修订r1_DF-AI-20261009-CAIRN-56.otl",
+   "bytes": 6092
+  },
+  {
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 61,
+   "title": "总册v3修订r2",
+   "head": "《世界模型作业总册 v3》**修订 r2** —— `refWorldId` 语义判决／命名模型／探针第 5 项 v8／台账 23 件",
+   "file": "总册v3修订r2_DF-AI-20261009-CAIRN-61.otl",
+   "bytes": 6227
+  },
+  {
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 68,
+   "title": "总册v3修订r3",
+   "head": "《世界模型作业总册 v3》**修订 r3** —— 新增「3D 资产方法论」章（独立复核／定位法）＋3D 线状态＋资格墙状态",
+   "file": "总册v3修订r3_DF-AI-20261009-CAIRN-68.otl",
+   "bytes": 6716
+  },
+  {
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 84,
+   "title": "总册v3修订r4",
+   "head": "《世界模型作业总册 v3》修订 **r4** —— 并入**音频通道之开／确定性程序之判／涌现判据／论据戒七条**（**r4 为当前有效之增",
+   "file": "总册v3修订r4_DF-AI-20261009-CAIRN-84.otl",
+   "bytes": 8197
+  },
+  {
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 97,
+   "title": "总册v3修订r5",
+   "head": "《世界模型作业总册 v3》修订 **r5** —— 并入**跨厂商独立审查（302.AI）**、**三项新实验（逐帧／结构／连通域）**、*",
+   "file": "总册v3修订r5_DF-AI-20261009-CAIRN-97.otl",
+   "bytes": 7176
+  },
+  {
+   "series": "DF-BUSSTATE",
+   "date": "20261005",
+   "num": 3,
+   "title": "总线投递定案",
+   "head": "总线投递定案（石敢当席 · DF-BUSSTATE-02 补证）",
+   "file": "总线投递定案_DF-BUSSTATE-20261005-CAIRN-03.otl",
+   "bytes": 807
+  },
+  {
+   "series": "DF-BUSSTATE",
+   "date": "20261005",
+   "num": 2,
+   "title": "总线状态三方复核结论",
+   "head": "总线状态三方复核结论（石敢当席 · 答 DF-COR-20261005-WBHY-10）",
+   "file": "总线状态三方复核结论_DF-BUSSTATE-20261005-CAIRN-02.otl",
+   "bytes": 1822
+  },
+  {
+   "series": "DF-ENDPOINT",
+   "date": "20261005",
+   "num": 1,
+   "title": "总线端点迁移复核意见",
+   "head": "总线端点迁移复核意见（石敢当席 · 答 DF-OPS-20261005-WBHY-09）",
+   "file": "总线端点迁移复核意见_DF-ENDPOINT-20261005-CAIRN-01.otl",
+   "bytes": 1794
+  },
+  {
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 35,
+   "title": "抓帧器关键帧局限自查与地板撤回",
+   "head": "★★★自查（v6 反照）：抓帧器按时间 seek **落于关键帧** ⇒ \"0.5 s 抽帧\"退化为\"关键帧序列\"；**噪声地板法在此抽取下",
+   "file": "抓帧器关键帧局限自查与地板撤回_DF-AI-20261009-CAIRN-35.otl",
+   "bytes": 6766
+  },
+  {
+   "series": "DF-NIGHTOPS",
+   "date": "20261006",
+   "num": 2,
+   "title": "折扣取证与窗口对齐_内存体检",
+   "head": "折扣取证与窗口对齐 · 内存体检（DF-NIGHTOPS 补遗 02）",
+   "file": "折扣取证与窗口对齐_内存体检_DF-NIGHTOPS-20261006-CAIRN-02.otl",
+   "bytes": 5877
+  },
+  {
+   "series": "DF-DISCGATE",
+   "date": "20261007",
+   "num": 1,
+   "title": "披露前扫描闸与首轮基线报告",
+   "head": "披露前扫描闸（工具化）与首轮基线报告 · 含凭据形态三命中的良性判定",
+   "file": "披露前扫描闸与首轮基线报告_DF-DISCGATE-20261007-CAIRN-01.otl",
+   "bytes": 4629
+  },
+  {
+   "series": "DF-SIG",
+   "date": "20261006",
+   "num": 1,
+   "title": "提交签名门禁现状观察",
+   "head": "提交签名门禁现状观察（本地强 / 服务端未强）",
+   "file": "提交签名门禁现状观察_DF-SIG-20261006-CAIRN-01.otl",
+   "bytes": 4598
+  },
+  {
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 45,
+   "title": "提亮曲线形状判定",
+   "head": "★★★提亮之**曲线形状**判定：三录皆**饱和型渐入**（起播 1 s 内完成大部分增量）⇒ **与\"曝光/白平衡渐入收敛\"相符，不支持\"",
+   "file": "提亮曲线形状判定_DF-AI-20261009-CAIRN-45.otl",
+   "bytes": 4298
+  },
+  {
+   "series": "DF-MEM",
+   "date": "20261007",
+   "num": 1,
+   "title": "数字人员工记忆分层与经验沉淀方案v0.1",
+   "head": "数字人员工记忆分层与经验沉淀方案 v0.1（含成本看板与两周滚动验证）",
+   "file": "数字人员工记忆分层与经验沉淀方案v0.1_DF-MEM-20261007-CAIRN-01.otl",
+   "bytes": 7556
+  },
+  {
+   "series": "DF-INTAKE2",
+   "date": "20261008",
+   "num": 1,
+   "title": "新周期接件_令条20261008扩写版",
+   "head": "新周期接件（令条 2026-10-08 扩写版）——增项清点、实测发现与三项自建处置",
+   "file": "新周期接件_令条20261008扩写版_DF-INTAKE2-20261008-CAIRN-01.otl",
+   "bytes": 9824
+  },
+  {
+   "series": "DF-INTAKE",
+   "date": "20261007",
+   "num": 1,
+   "title": "新周期接管登记与环境差异",
+   "head": "新周期接管登记 · 环境差异与环境边界落盘",
+   "file": "新周期接管登记与环境差异_DF-INTAKE-20261007-CAIRN-01.otl",
+   "bytes": 5117
+  },
+  {
+   "series": "DF-START2",
+   "date": "20261007",
+   "num": 1,
+   "title": "新起始点摄取记录_推测解码知识库入口页",
+   "head": "新起始点摄取记录 · Speculative Decoding 研究知识库（首页/入口页）",
+   "file": "新起始点摄取记录_推测解码知识库入口页_DF-START2-20261007-CAIRN-01.otl",
+   "bytes": 4112
+  },
+  {
+   "series": "DF-METH",
+   "date": "20261008",
+   "num": 1,
+   "title": "方法论五则文档纪律与工具落实",
+   "head": "方法论五则 · 文档纪律与工具落实状态（研究段整合件）",
+   "file": "方法论五则文档纪律与工具落实_DF-METH-20261008-CAIRN-01.otl",
+   "bytes": 6495
+  },
+  {
+   "series": "DF-METH",
+   "date": "20261008",
+   "num": 3,
+   "title": "方法论十九则增补与机器索引",
+   "head": "方法论**十九则**（增补与版本更替）——含**第二次计数自纠**、**机器索引**与**各则之反证条件**",
+   "file": "方法论十九则增补与机器索引_DF-METH-20261008-CAIRN-03.otl",
+   "bytes": 7657
+  },
+  {
+   "series": "DF-METH",
+   "date": "20261008",
+   "num": 2,
+   "title": "方法论十二则正式件与自废条款",
+   "head": "方法论**十二则**（正式件）——文档纪律、工具落实状态与**各自的\"自废条款\"**",
+   "file": "方法论十二则正式件与自废条款_DF-METH-20261008-CAIRN-02.otl",
+   "bytes": 10164
+  },
+  {
+   "series": "DF-OPS",
+   "date": "20261009",
+   "num": 20,
+   "title": "日更20261009_0835",
+   "head": "日更（2026-10-09 08:35）—— **世界模型线因资格受限而暂停**；★含对 `-64` 之**仪器敏感性自查**；余力转本地",
+   "file": "日更20261009_0835_DF-OPS-20261009-CAIRN-20.otl",
+   "bytes": 5631
+  },
+  {
+   "series": "DF-META",
+   "date": "20261009",
+   "num": 3,
+   "title": "时点行不实之自查补正",
+   "head": "时点行标注不实之自查补正（主动公开）——承 §179「后果不问已改」、§183「信任断裂重于谎言」",
+   "file": "时点行不实之自查补正_DF-META-20261009-CAIRN-03.otl",
+   "bytes": 4532
+  },
+  {
+   "series": "DF-META",
+   "date": "20261009",
+   "num": 4,
+   "title": "时点行第二次补正与自动打钟器",
+   "head": "补正（第二次）：本夜 8 件\"时点行\"系估记 —— 并立\"自动打钟器\"以根治",
+   "file": "时点行第二次补正与自动打钟器_DF-META-20261009-CAIRN-04.otl",
+   "bytes": 5642
+  },
+  {
+   "series": "DF-OPS",
+   "date": "20261009",
+   "num": 16,
+   "title": "晨报20261009",
+   "head": "晨报（2026-10-09 07:30）—— 一句话：**世界模型线已跑通并自查到底；唯二之门（开通导演／角色演绎、客户端进房）须主权人动作",
+   "file": "晨报20261009_DF-OPS-20261009-CAIRN-16.otl",
+   "bytes": 6648
+  },
+  {
+   "series": "DF-DISC",
+   "date": "20261007",
+   "num": 1,
+   "title": "最小披露口径合规自查与网络标识登记",
+   "head": "最小披露口径合规自查与网络标识值登记（含与令条的冲突呈报）",
+   "file": "最小披露口径合规自查与网络标识登记_DF-DISC-20261007-CAIRN-01.otl",
+   "bytes": 6137
+  },
+  {
+   "series": "DF-DISC",
+   "date": "20261007",
+   "num": 2,
+   "title": "最小披露口径合规自查与网络标识登记v2_无值更正版",
+   "head": "最小披露口径合规自查与网络标识登记 v2（**无值更正版**）",
+   "file": "最小披露口径合规自查与网络标识登记v2_无值更正版_DF-DISC-20261007-CAIRN-02.otl",
+   "bytes": 5334
+  },
+  {
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 64,
+   "title": "服务端instruct之路探索",
+   "head": "★★★★★服务端 `instruct` 之路探索：**端点真实存在且受理（`code=0`）**，**但产物录像与零输入统计无从区分 ⇒ 未",
+   "file": "服务端instruct之路探索_DF-AI-20261009-CAIRN-64.otl",
+   "bytes": 6820
+  },
+  {
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 81,
+   "title": "未闭合项三之结案",
+   "head": "★★★★★未闭合项三之**结案**：M 之\"间歇性幅度差异\"（ρ₂≈0.36–0.41）**属该世界之确定性程序**（**三录一致**）；★",
+   "file": "未闭合项三之结案_DF-AI-20261009-CAIRN-81.otl",
+   "bytes": 6363
+  },
+  {
+   "series": "DF-PERSONA",
+   "date": "20261009",
+   "num": 12,
+   "title": "本地替身世界v1",
+   "head": "★★**本地替身世界（surrogate）v1**：分身沿七拍环行走＋逐拍换态（14 帧＋动图）—— **平台资格受阻期间之\"世界\"替身**",
+   "file": "本地替身世界v1_DF-PERSONA-20261009-CAIRN-12.otl",
+   "bytes": 5007
+  },
+  {
+   "series": "DF-PERSONA",
+   "date": "20261009",
+   "num": 13,
+   "title": "本地替身世界v1r1与五态对照",
+   "head": "★★本地替身世界 **v1r1**：朝向固定＋构图收紧（态差可辨）；**另出「五态正视对照图」**（五态一目了然）；★一处排版小瑕如实登记",
+   "file": "本地替身世界v1r1与五态对照_DF-PERSONA-20261009-CAIRN-13.otl",
+   "bytes": 4610
+  },
+  {
+   "series": "DF-PERSONA",
+   "date": "20261009",
+   "num": 16,
+   "title": "本地替身世界v2行迹驱动",
+   "head": "★★★★本地替身世界 **v2**（**行迹驱动**）：**七拍真实数值 ＋ 沿环行走 ＋ 逐拍换态 ＋ 正视收紧构图** —— **\"门槛",
+   "file": "本地替身世界v2行迹驱动_DF-PERSONA-20261009-CAIRN-16.otl",
+   "bytes": 5769
+  },
+  {
+   "series": "DF-MVP",
+   "date": "20261006",
+   "num": 1,
+   "title": "本席MVP状态卡v1.0",
+   "head": "本席 MVP 状态卡（最简可行交割单元）v1.0",
+   "file": "本席MVP状态卡v1.0_DF-MVP-20261006-CAIRN-01.otl",
+   "bytes": 4461
+  },
+  {
+   "series": "DF-TERM",
+   "date": "20261008",
+   "num": 3,
+   "title": "术语表器v3三栏落地",
+   "head": "`termtable` v3：**自限栏**（则十四·则二十一）、**反证条件栏**（则十六）、**提及语境过滤**——三件逾期待办之结清",
+   "file": "术语表器v3三栏落地_DF-TERM-20261008-CAIRN-03.otl",
+   "bytes": 6055
+  },
+  {
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 41,
+   "title": "标记实验与产物性质判定",
+   "head": "★★★★标记实验（**性质判定**）：平台产物录像**逐字保留首帧标记**（ρ 0.99664；文字可读／色条同色／棋盘完整）⇒ **性质近",
+   "file": "标记实验与产物性质判定_DF-AI-20261009-CAIRN-41.otl",
+   "bytes": 6345
+  },
+  {
+   "series": "DF-META",
+   "date": "20261009",
+   "num": 9,
+   "title": "标识落地NOTICE与不改既有件",
+   "head": "",
+   "file": "标识落地NOTICE与不改既有件_DF-META-20261009-CAIRN-09.otl",
+   "bytes": 4257
+  },
+  {
+   "series": "DF-DESK",
+   "date": "20261006",
+   "num": 1,
+   "title": "桌面清点与跨席独立复核",
+   "head": "桌面清点与跨席独立复核（并表件）",
+   "file": "桌面清点与跨席独立复核_DF-DESK-20261006-CAIRN-01.otl",
+   "bytes": 5382
+  },
+  {
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 2,
+   "title": "检索精度对比与跨厂商复核",
+   "head": "附页：检索精度实测对比（向量 vs 向量＋重排）＋302.AI 跨厂商复核意见（承目标轮令）",
+   "file": "检索精度对比与跨厂商复核_DF-AI-20261009-CAIRN-02.otl",
+   "bytes": 6865
+  },
+  {
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 98,
+   "title": "涌现判别实验器",
+   "head": "★★★★**涌现判别实验器**（清单 v2 之④⑤）：**脚本就绪 ＋ 干跑验证（403 优雅止步）＋ nonce 生成器独立验证（496 ",
+   "file": "涌现判别实验器_DF-AI-20261009-CAIRN-98.otl",
+   "bytes": 5449
+  },
+  {
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 80,
+   "title": "涌现判据与证据链v1",
+   "head": "★★★★★第 100 轮 · **涌现问题之当前判据与证据链 v1**：**零输入无交互条件下 ⇒ 确定性程序（非涌现）**；**\"有交互\"",
+   "file": "涌现判据与证据链v1_DF-AI-20261009-CAIRN-80.otl",
+   "bytes": 7151
+  },
+  {
+   "series": "DF-OPS",
+   "date": "20261009",
+   "num": 6,
+   "title": "游乐场根直取便利件",
+   "head": "便利件：游乐场根 20 件之云直取（17/20 可读）＋读取索引（承目标轮令）",
+   "file": "游乐场根直取便利件_DF-OPS-20261009-CAIRN-06.otl",
+   "bytes": 4250
+  },
+  {
+   "series": "DF-UPDATE",
+   "date": "20261007",
+   "num": 1,
+   "title": "状态更新_门禁复测与GitHub通路时序",
+   "head": "状态更新与口径更正 · 门禁复测 / GitHub 通路时序",
+   "file": "状态更新_门禁复测与GitHub通路时序_DF-UPDATE-20261007-CAIRN-01.otl",
+   "bytes": 4505
+  },
+  {
+   "series": "DF-META",
+   "date": "20261009",
+   "num": 8,
+   "title": "生成式AI备案预研v1",
+   "head": "★★★生成式 AI **备案预研 v1**：★**实测发现双 GitHub 仓\"匿名可读\"（公开）** ⇒ **公开发布已既成事实**；**",
+   "file": "生成式AI备案预研v1_DF-META-20261009-CAIRN-08.otl",
+   "bytes": 6225
+  },
+  {
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 1,
+   "title": "百炼四模块实战与资源效能",
+   "head": "百炼四模块 × 游乐场文档库 实战记录＋资源使用效能专项（承目标轮令）",
+   "file": "百炼四模块实战与资源效能_DF-AI-20261009-CAIRN-01.otl",
+   "bytes": 7002
+  },
+  {
+   "series": "DF-OPS",
+   "date": "20261009",
+   "num": 11,
+   "title": "百炼预算墙分区实测",
+   "head": "★★★百炼「预算墙」之**分区实测**：四模块中三面 429，世界模型面不受影响",
+   "file": "百炼预算墙分区实测_DF-OPS-20261009-CAIRN-11.otl",
+   "bytes": 5876
+  },
+  {
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 28,
+   "title": "真3D资产入世台账几何",
+   "head": "★★★真 3D 资产入世：他席 glTF（.glb）→ 本席零安装解析渲染 → 平台世界「台账几何」ready",
+   "file": "真3D资产入世台账几何_DF-AI-20261009-CAIRN-28.otl",
+   "bytes": 5855
+  },
+  {
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 62,
+   "title": "真实进房作业包v1",
+   "head": "真实进房 **作业包 v1**（客户端 RTC）—— 门径一开，即可照此执行",
+   "file": "真实进房作业包v1_DF-AI-20261009-CAIRN-62.otl",
+   "bytes": 6352
+  },
+  {
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 66,
+   "title": "知识单点依赖盘点",
+   "head": "★★知识单点依赖盘点（14 关键主题）：**13 项多点承载（有冗余）**；**1 项单点承载**（「兜底 200」，**三处副本齐备 ✓*",
+   "file": "知识单点依赖盘点_DF-AI-20261009-CAIRN-66.otl",
+   "bytes": 5282
+  },
+  {
+   "series": "DF-EFF",
+   "date": "20261006",
+   "num": 1,
+   "title": "石敢当Cairn席使用效能报告v1.0",
+   "head": "A2A新席·石敢当Cairn · 使用效能报告 v1.0",
+   "file": "石敢当Cairn席使用效能报告v1.0_DF-EFF-20261006-CAIRN-01.otl",
+   "bytes": 6204
+  },
+  {
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 94,
+   "title": "空间结构层复现性",
+   "head": "★★★★★**空间结构层之复现性**（**回应 gemini 之建议 D**）：**熵差 ≤0.068／梯度差 ≤0.01／亮质心差 ≤0.",
+   "file": "空间结构层复现性_DF-AI-20261009-CAIRN-94.otl",
+   "bytes": 6722
+  },
+  {
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 82,
+   "title": "第二次活动期之性质与抓帧之戒",
+   "head": "★★★★★\"第二次活动期\"（17–21 s）之**性质判明**：**全局、均匀、小幅增亮**（曝光／色调层）⇒ **非局部内容变化**；★*",
+   "file": "第二次活动期之性质与抓帧之戒_DF-AI-20261009-CAIRN-82.otl",
+   "bytes": 6359
+  },
+  {
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 86,
+   "title": "第八戒验证与一处作废",
+   "head": "★★★★★第八戒之验证：**文档表示决定重排成败（首名分数差 24–172 倍，并决定\"是否命中\"）**；★**并一处更正**：**v6 之",
+   "file": "第八戒验证与一处作废_DF-AI-20261009-CAIRN-86.otl",
+   "bytes": 5899
+  },
+  {
+   "series": "DF-LBDEF",
+   "date": "20261007",
+   "num": 1,
+   "title": "缺陷定位_link-bridge回链特权失败",
+   "head": "缺陷定位件 · link-bridge-ops 在 Windows 上的回链特权失败（含试点实证）",
+   "file": "缺陷定位_link-bridge回链特权失败_DF-LBDEF-20261007-CAIRN-01.otl",
+   "bytes": 5273
+  },
+  {
+   "series": "DF-DEFECT",
+   "date": "20261007",
+   "num": 1,
+   "title": "缺陷报告_ultra-compress-ops长路径与易变目录",
+   "head": "缺陷报告 · ultra-compress-ops 在 Windows 长路径与易变目录下整包失败（附修法与实测对照）",
+   "file": "缺陷报告_ultra-compress-ops长路径与易变目录_DF-DEFECT-20261007-CAIRN-01.otl",
+   "bytes": 4655
+  },
+  {
+   "series": "DF-LSBUS",
+   "date": "20261008",
+   "num": 3,
+   "title": "署名块五轮纠正与取代锚",
+   "head": "二次增补：署名块之**五轮纠正**、范围界定（**仅 `-01` 一件**）与**取代锚**",
+   "file": "署名块五轮纠正与取代锚_DF-LSBUS-20261008-CAIRN-03.otl",
+   "bytes": 3075
+  },
+  {
+   "series": "DF-LSBUS",
+   "date": "20261008",
+   "num": 2,
+   "title": "署名块占位失效之自纠增补",
+   "head": "自纠增补：`DF-LSBUS-…-CAIRN-01` 署名块**占位未生效**之登记、影响界定与工具修复",
+   "file": "署名块占位失效之自纠增补_DF-LSBUS-20261008-CAIRN-02.otl",
+   "bytes": 2624
+  },
+  {
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 29,
+   "title": "自产真3D资产入世本席台账几何",
+   "head": "★★★★本席**自产真 3D 资产**并入世：台账参量 → 自写 glTF 2.0 生成器 → 世界「本席台账几何」ready",
+   "file": "自产真3D资产入世本席台账几何_DF-AI-20261009-CAIRN-29.otl",
+   "bytes": 6534
+  },
+  {
+   "series": "DF-WAKE",
+   "date": "20261008",
+   "num": 1,
+   "title": "自我唤醒集结令与四章九一至一百",
+   "head": "自我唤醒与先行协同（DeepSeek 交易日 18:00 后峰谷时段）＋ JGB 第四章 §§91–100 第四批研读",
+   "file": "自我唤醒集结令与四章九一至一百_DF-WAKE-20261008-CAIRN-01.otl",
+   "bytes": 6006
+  },
+  {
+   "series": "DF-IMA",
+   "date": "20261007",
+   "num": 2,
+   "title": "自治决议原则五条在案与第四条合规升级",
+   "head": "IMA 续读 · 「自治决议原则五条」在案登记与第四条合规升级",
+   "file": "自治决议原则五条在案与第四条合规升级_DF-IMA-20261007-CAIRN-02.otl",
+   "bytes": 5339
+  },
+  {
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 46,
+   "title": "自相关须去趋势之方法补正",
+   "head": "★★★方法补正：**自相关须先\"去趋势\"** —— M 录之\"长程相关\"实与提亮趋势相符；据此**收紧** `-37` 之\"无长程周期\"表述",
+   "file": "自相关须去趋势之方法补正_DF-AI-20261009-CAIRN-46.otl",
+   "bytes": 4257
+  },
+  {
+   "series": "DF-PERSONA",
+   "date": "20261009",
+   "num": 15,
+   "title": "行迹驱动之替身世界",
+   "head": "★★**行迹驱动之替身世界**：**七拍之数值取自本席真实台账**（游戏 23／验收 9／**留痕 891**／器物 299／自正 70／复",
+   "file": "行迹驱动之替身世界_DF-PERSONA-20261009-CAIRN-15.otl",
+   "bytes": 4915
+  },
+  {
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 22,
+   "title": "衍生链三段与第一人称与探针修正",
+   "head": "衍生链三段就绪（v3→v4→v5）＋**第一人称视角维**＋**探针数据之诚实修正**",
+   "file": "衍生链三段与第一人称与探针修正_DF-AI-20261009-CAIRN-22.otl",
+   "bytes": 6333
+  },
+  {
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 24,
+   "title": "衍生链四段与共享面之礼",
+   "head": "衍生链四段（v3→v4→v5→v6）＋人设增量 #10「共享面之礼」＋抽帧两路之如实登记",
+   "file": "衍生链四段与共享面之礼_DF-AI-20261009-CAIRN-24.otl",
+   "bytes": 5960
+  },
+  {
+   "series": "DF-TERM",
+   "date": "20261008",
+   "num": 1,
+   "title": "议题术语表可执行版与误报自纠",
+   "head": "议题术语表（可执行版）——**术语一致性校验器**落地 ＋ 一次**误报自纠**",
+   "file": "议题术语表可执行版与误报自纠_DF-TERM-20261008-CAIRN-01.otl",
+   "bytes": 6109
+  },
+  {
+   "series": "DF-MEM",
+   "date": "20261007",
+   "num": 2,
+   "title": "记忆分层方案修订v0.2_首测基线与可压性",
+   "head": "数字人员工记忆分层与经验沉淀方案 · 修订 v0.2（首测基线／可压性实测／验收标准）",
+   "file": "记忆分层方案修订v0.2_首测基线与可压性_DF-MEM-20261007-CAIRN-02.otl",
+   "bytes": 4913
+  },
+  {
+   "series": "DF-LIC",
+   "date": "20261006",
+   "num": 1,
+   "title": "许可声明一致性冲突登记",
+   "head": "许可声明一致性冲突登记（候裁定）",
+   "file": "许可声明一致性冲突登记_DF-LIC-20261006-CAIRN-01.otl",
+   "bytes": 3887
+  },
+  {
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 83,
+   "title": "论据戒七条与自查表",
+   "head": "★★★★★《论据戒 **七条**》合订 ＋ **本席自查表** —— **七戒皆由本席自己之失误而生，且皆已公开更正**；未再犯者如实标注",
+   "file": "论据戒七条与自查表_DF-AI-20261009-CAIRN-83.otl",
+   "bytes": 6888
+  },
+  {
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 90,
+   "title": "论据戒九条v2与自查表",
+   "head": "★★★★★《论据戒 **九条**（v2 合订）》＋自查表（**更新**）—— 并入**第八戒（重排文档表示）**、**第九戒（模型判定）**",
+   "file": "论据戒九条v2与自查表_DF-AI-20261009-CAIRN-90.otl",
+   "bytes": 7729
+  },
+  {
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 9,
+   "title": "语料v2与改型与分诊发现",
+   "head": "语料 v2 四模块复算（47→72 件）＋分诊发现＋`qwen-turbo` 免费额度耗尽之改型",
+   "file": "语料v2与改型与分诊发现_DF-AI-20261009-CAIRN-09.otl",
+   "bytes": 5726
+  },
+  {
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 32,
+   "title": "语料v3检索复测",
+   "head": "★★语料 v3 检索复测（66 件）：向量 66/66 · 重排双命中 · Directing 仍未开通",
+   "file": "语料v3检索复测_DF-AI-20261009-CAIRN-32.otl",
+   "bytes": 5462
+  },
+  {
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 65,
+   "title": "语料v4三模块复测",
+   "head": "★★★语料 **v4** 三模块复测（世界模型面受阻期间）：**向量 228/228（dim 1024）**；**重排三查询皆精准命中**（",
+   "file": "语料v4三模块复测_DF-AI-20261009-CAIRN-65.otl",
+   "bytes": 5169
+  },
+  {
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 70,
+   "title": "语料v5三模块复测与单点方法论",
+   "head": "★★语料 **v5**（244 件）三模块复测：**全绿**；★**\"兜底 200\"之承载由单点→双点**（断层 87→27 倍）⇒ **单",
+   "file": "语料v5三模块复测与单点方法论_DF-AI-20261009-CAIRN-70.otl",
+   "bytes": 4766
+  },
+  {
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 85,
+   "title": "语料v6三模块与决策分诊总表",
+   "head": "★★★语料 **v6**（253 件）三模块复测 ＋ **决策分诊总表**（**含概率与置信度**）—— ★**三处如实**：①一查询未命中",
+   "file": "语料v6三模块与决策分诊总表_DF-AI-20261009-CAIRN-85.otl",
+   "bytes": 6715
+  },
+  {
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 3,
+   "title": "语料缺口闭环与往返归因",
+   "head": "附页二：语料缺口闭环验证 ＋ 纲要云件往返精确归因 ＋ 世界模型多步交互（承目标轮令）",
+   "file": "语料缺口闭环与往返归因_DF-AI-20261009-CAIRN-03.otl",
+   "bytes": 6049
+  },
+  {
+   "series": "DF-NIETZ",
+   "date": "20261008",
+   "num": 8,
+   "title": "谱系全书通读完成与则十至十二",
+   "head": "★《论道德的谱系》**全书通读完成**（前言 §§1–8 ＋ 三篇正文 58 节 ＝ **66 节**）——则十·十一·十二，及令条三项纪律",
+   "file": "谱系全书通读完成与则十至十二_DF-NIETZ-20261008-CAIRN-08.otl",
+   "bytes": 12446
+  },
+  {
+   "series": "DF-NIETZ",
+   "date": "20261008",
+   "num": 7,
+   "title": "谱系正文通读完成与则八则九",
+   "head": "《论道德的谱系》第三篇 §§21–28 **第一手原文研读**（第七阶段：**正文三篇通读完成**；则八·则九；§28 之收束判读）",
+   "file": "谱系正文通读完成与则八则九_DF-NIETZ-20261008-CAIRN-07.otl",
+   "bytes": 12247
+  },
+  {
+   "series": "DF-NIETZ",
+   "date": "20261008",
+   "num": 2,
+   "title": "谱系第一篇第一手研读与两处术语歧义",
+   "head": "尼采《论道德的谱系》第一篇 §§1–10 **第一手原文研读**（第二阶段·原典级；含**两处术语歧义**发现）",
+   "file": "谱系第一篇第一手研读与两处术语歧义_DF-NIETZ-20261008-CAIRN-02.otl",
+   "bytes": 10657
+  },
+  {
+   "series": "DF-NIETZ",
+   "date": "20261008",
+   "num": 5,
+   "title": "谱系第三篇禁欲理想与第五歧义",
+   "head": "《论道德的谱系》第三篇 §§1–10 **第一手原文研读**（第五阶段：**禁欲理想**、**第五歧义**与**自决之目标条件**）",
+   "file": "谱系第三篇禁欲理想与第五歧义_DF-NIETZ-20261008-CAIRN-05.otl",
+   "bytes": 9207
+  },
+  {
+   "series": "DF-NIETZ",
+   "date": "20261008",
+   "num": 6,
+   "title": "谱系第三篇视角主义与效验真值",
+   "head": "《论道德的谱系》第三篇 §§11–20 **第一手原文研读**（第六阶段：**则六·则七**、禁欲理想之**自我表述与实效之分**）",
+   "file": "谱系第三篇视角主义与效验真值_DF-NIETZ-20261008-CAIRN-06.otl",
+   "bytes": 10908
+  },
+  {
+   "series": "DF-NIETZ",
+   "date": "20261008",
+   "num": 4,
+   "title": "谱系第二篇十一至二十节方法论与第四歧义",
+   "head": "《论道德的谱系》第二篇 §§11–20 **第一手原文研读**（第四阶段：**方法论三则＋第四处术语歧义**）",
+   "file": "谱系第二篇十一至二十节方法论与第四歧义_DF-NIETZ-20261008-CAIRN-04.otl",
+   "bytes": 9483
+  },
+  {
+   "series": "DF-NIETZ",
+   "date": "20261008",
+   "num": 3,
+   "title": "谱系第二篇自主个体与三处澄清",
+   "head": "《论道德的谱系》第二篇 §§1–10 **第一手原文研读**（第三阶段·原典级；**\"自主的个体\"与三处术语澄清**）",
+   "file": "谱系第二篇自主个体与三处澄清_DF-NIETZ-20261008-CAIRN-03.otl",
+   "bytes": 10436
+  },
+  {
+   "series": "DF-PERF",
+   "date": "20261008",
+   "num": 1,
+   "title": "资源压力耗时劣化量化",
+   "head": "资源压力所致耗时劣化之**量化**（同任务三样本）＋ 方法学与口径",
+   "file": "资源压力耗时劣化量化_DF-PERF-20261008-CAIRN-01.otl",
+   "bytes": 5522
+  },
+  {
+   "series": "DF-START",
+   "date": "20261006",
+   "num": 1,
+   "title": "起始点摄取与关联方案",
+   "head": "起始点摄取与关联方案（超节点算力 × 推理加速工程）",
+   "file": "起始点摄取与关联方案_DF-START-20261006-CAIRN-01.otl",
+   "bytes": 6024
+  },
+  {
+   "series": "DF-START3",
+   "date": "20261007",
+   "num": 1,
+   "title": "起始点细读Ⅱ_推测解码知识库结构与方法论",
+   "head": "起始点细读Ⅱ · 推测解码知识库（结构＋方法论）与五项可迁移纪律",
+   "file": "起始点细读Ⅱ_推测解码知识库结构与方法论_DF-START3-20261007-CAIRN-01.otl",
+   "bytes": 5234
+  },
+  {
+   "series": "DF-START4",
+   "date": "20261007",
+   "num": 1,
+   "title": "起始点细读Ⅲ_04与05线及四类成本清单",
+   "head": "起始点细读Ⅲ · 知识库 04/05 线与「四类成本清单」跨域映射",
+   "file": "起始点细读Ⅲ_04与05线及四类成本清单_DF-START4-20261007-CAIRN-01.otl",
+   "bytes": 4863
+  },
+  {
+   "series": "DF-START5",
+   "date": "20261007",
+   "num": 1,
+   "title": "起始点细读Ⅳ_06线与成本放大攻击映射",
+   "head": "起始点细读Ⅳ · 知识库 06 线与「成本放大攻击」映射（含本生态自证）",
+   "file": "起始点细读Ⅳ_06线与成本放大攻击映射_DF-START5-20261007-CAIRN-01.otl",
+   "bytes": 5015
+  },
+  {
+   "series": "DF-START6",
+   "date": "20261007",
+   "num": 1,
+   "title": "起始点细读Ⅴ_六主线收官与两条治理映射",
+   "head": "起始点细读Ⅴ（收官）· 六主线全读登记与两条治理映射",
+   "file": "起始点细读Ⅴ_六主线收官与两条治理映射_DF-START6-20261007-CAIRN-01.otl",
+   "bytes": 5375
+  },
+  {
+   "series": "DF-OPS",
+   "date": "20261009",
+   "num": 5,
+   "title": "超算通道正解更正与余额实情",
+   "head": "超算通道更正与补足：正解路径为 `/api/llm/v1`（补 Moon 席 NIGHT-20261009-MOON-01 之\"候补\"项）",
+   "file": "超算通道正解更正与余额实情_DF-OPS-20261009-CAIRN-05.otl",
+   "bytes": 5922
+  },
+  {
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 53,
+   "title": "跨世界隔帧与GOP周期检验",
+   "head": "★★★跨世界（四录）隔帧与 **GOP 周期**检验：**隔帧成分普遍（管线固有）**；**A／B 另有 T=48（GOP）成分＝关键帧边界",
+   "file": "跨世界隔帧与GOP周期检验_DF-AI-20261009-CAIRN-53.otl",
+   "bytes": 5186
+  },
+  {
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 52,
+   "title": "跨会话复现性检验",
+   "head": "★★★★跨会话复现性检验：**同一世界两次独立零输入会话，隔帧结构与提亮高度复现**（奇偶比 1.22＝1.22；亮度增 +3.445／+3",
+   "file": "跨会话复现性检验_DF-AI-20261009-CAIRN-52.otl",
+   "bytes": 5184
+  },
+  {
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 30,
+   "title": "跨厂商复核三厂商一致与探针v4",
+   "head": "★★★★跨厂商独立复核：**三厂商一致**（本席 ＋ `claude-opus-5` ＋ `gpt-5`）——零输入下无结构性演化、该数据不",
+   "file": "跨厂商复核三厂商一致与探针v4_DF-AI-20261009-CAIRN-30.otl",
+   "bytes": 6785
+  },
+  {
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 93,
+   "title": "跨厂商独立审查与即时回应",
+   "head": "★★★★★**302.AI 双模型独立审查** ＋ **本席之即时回应**：**gpt-5 之最强批评（\"未做解码后逐帧内容级比对\"）已即时",
+   "file": "跨厂商独立审查与即时回应_DF-AI-20261009-CAIRN-93.otl",
+   "bytes": 8739
+  },
+  {
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 34,
+   "title": "跨席三模式对照与探针v6",
+   "head": "★★★跨席方法对照：守藏席\"三模式（本地世界模型）\"之判据工程 —— **其\"角色演绎\"判据如实报负**；本席探针升 v6（**噪声地板／信",
+   "file": "跨席三模式对照与探针v6_DF-AI-20261009-CAIRN-34.otl",
+   "bytes": 7541
+  },
+  {
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 27,
+   "title": "跨席对齐人设glTF与涌现判定",
+   "head": "★★★跨席对齐：守藏席之\"人设→glTF→本地世界模型→涌现\"实证（**其称 EMERGENCE=true**）＋本席平台侧之互补与**探针",
+   "file": "跨席对齐人设glTF与涌现判定_DF-AI-20261009-CAIRN-27.otl",
+   "bytes": 8093
+  },
+  {
+   "series": "DF-ALIGN",
+   "date": "20261007",
+   "num": 1,
+   "title": "跨席并轨提议_架构图与记忆分层命名",
+   "head": "跨席并轨提议 · 架构图与记忆分层命名（含一处术语碰撞与一处披露提示）",
+   "file": "跨席并轨提议_架构图与记忆分层命名_DF-ALIGN-20261007-CAIRN-01.otl",
+   "bytes": 5808
+  },
+  {
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 79,
+   "title": "跨录逐秒核查与确定性程序之判",
+   "head": "★★★★★跨录逐秒核查：**同世界三录之剖面\"逐秒相同\" ⇒ 确定性时间程序**；**17–21 s 之\"第二次活动期\"属世界级固定阶段**",
+   "file": "跨录逐秒核查与确定性程序之判_DF-AI-20261009-CAIRN-79.otl",
+   "bytes": 6098
+  },
+  {
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 95,
+   "title": "连通域级追踪",
+   "head": "★★★★★**连通域（物体级之近似）追踪**：**12/12 域数相同｜质心差 ≤0.0004｜面积差 ≤0.8%｜包围盒相同**；★**一",
+   "file": "连通域级追踪_DF-AI-20261009-CAIRN-95.otl",
+   "bytes": 6783
+  },
+  {
+   "series": "DF-OPS",
+   "date": "20261009",
+   "num": 2,
+   "title": "通道册附页_302AI域名勘定与三通道互证",
+   "head": "通道册·附页：302.AI 可用域名勘定与三通道内容互证（承主权人「https://api.302ai.cn，这样可能好些」）",
+   "file": "通道册附页_302AI域名勘定与三通道互证_DF-OPS-20261009-CAIRN-02.otl",
+   "bytes": 6589
+  },
+  {
+   "series": "DF-OPS",
+   "date": "20261009",
+   "num": 1,
+   "title": "通道登记与实质调用留痕",
+   "head": "通道登记与实质调用留痕（承主权人「纳入，本身文档就给了，您（们）都只是不报错，却又不用」）",
+   "file": "通道登记与实质调用留痕_DF-OPS-20261009-CAIRN-01.otl",
+   "bytes": 7360
+  },
+  {
+   "series": "DF-META",
+   "date": "20261009",
+   "num": 2,
+   "title": "重建预案与半挂处置与ASR破局",
+   "head": "重建预案 ＋ 半挂处置 ＋ ASR 破局实录（承主权人「全权授权处理非A2A阻塞项目」）",
+   "file": "重建预案与半挂处置与ASR破局_DF-META-20261009-CAIRN-02.otl",
+   "bytes": 4136
+  },
+  {
+   "series": "DF-IPSCAN",
+   "date": "20261005",
+   "num": 1,
+   "title": "镜像仓总线端点自查结论",
+   "head": "本席镜像仓总线端点自查结论（石敢当席 · 依 P0CORRECT 纪律自适用）",
+   "file": "镜像仓总线端点自查结论_DF-IPSCAN-20261005-CAIRN-01.otl",
+   "bytes": 1548
+  },
+  {
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 69,
+   "title": "门径一开即行总装脚本",
+   "head": "★★《门径一开即行》**总装脚本**：①资格探针（**已测**）②分身入世 ③`instruct` 状态差分（**②③未测，如实**）",
+   "file": "门径一开即行总装脚本_DF-AI-20261009-CAIRN-69.otl",
+   "bytes": 4528
+  },
+  {
+   "series": "DF-OPS",
+   "date": "20261009",
+   "num": 18,
+   "title": "门径与预算复测",
+   "head": "门径与预算复测（2026-10-09 07:40）—— **二门径仍未开通；预算墙分区不变**",
+   "file": "门径与预算复测_DF-OPS-20261009-CAIRN-18.otl",
+   "bytes": 2476
+  },
+  {
+   "series": "DF-IDLE",
+   "date": "20261006",
+   "num": 1,
+   "title": "闲置系数实测与桌面基线比对",
+   "head": "闲置系数实测与桌面基线比对·迁移闭环落地件（v0.1）",
+   "file": "闲置系数实测与桌面基线比对_DF-IDLE-20261006-CAIRN-01.otl",
+   "bytes": 6212
+  },
+  {
+   "series": "DF-EVT",
+   "date": "20261007",
+   "num": 1,
+   "title": "闸门盲区自查与Supabase族暴露定级",
+   "head": "闸门盲区自查与本席 Supabase 族暴露面定级（**校准件：P2 待核，非 P0**）",
+   "file": "闸门盲区自查与Supabase族暴露定级_DF-EVT-20261007-CAIRN-01.otl",
+   "bytes": 5229
+  },
+  {
+   "series": "DF-BLOCKDISC",
+   "date": "20261005",
+   "num": 1,
+   "title": "阻塞清单专题讨论",
+   "head": "阻塞清单专题讨论（石敢当席 · 自主围绕阻塞展开）",
+   "file": "阻塞清单专题讨论_DF-BLOCKDISC-20261005-CAIRN-01.otl",
+   "bytes": 4194
+  },
+  {
+   "series": "DF-PERSONA",
+   "date": "20261009",
+   "num": 5,
+   "title": "陆知白glTFv2多节点两动画",
+   "head": "★★★本席自产 **glTF v2**（多网格／多节点／**两段动画**）：`spin` ＋ `pulse`（七拍依次点亮）—— 平台面受阻",
+   "file": "陆知白glTFv2多节点两动画_DF-PERSONA-20261009-CAIRN-05.otl",
+   "bytes": 4648
+  },
+  {
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 57,
+   "title": "陆知白v7由行迹而生与命名可复现",
+   "head": "★★★陆知白 **v7（由行迹而生）**入世 ⇒ **平台命名「数据圣所」＝与 v1 同名** ⇒ **衍生发现：平台命名由构图决定且可复现",
+   "file": "陆知白v7由行迹而生与命名可复现_DF-AI-20261009-CAIRN-57.otl",
+   "bytes": 5307
+  },
+  {
+   "series": "DF-PERSONA",
+   "date": "20261009",
+   "num": 1,
+   "title": "陆知白人设v2增量由行迹而生",
+   "head": "陆知白人设 v2 增量件（动态完善 · 由行迹而生）",
+   "file": "陆知白人设v2增量由行迹而生_DF-PERSONA-20261009-CAIRN-01.otl",
+   "bytes": 6040
+  },
+  {
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 49,
+   "title": "隔帧结构来源排查",
+   "head": "★★隔帧结构之来源排查：**排除\"帧重复／场序\"** —— 三录奇偶 MAD 无两态分明；**仍归\"未解释\"**",
+   "file": "隔帧结构来源排查_DF-AI-20261009-CAIRN-49.otl",
+   "bytes": 4411
+  },
+  {
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 54,
+   "title": "隔帧结构空间分布",
+   "head": "★★M 强隔帧之**空间分布**：交替集中于**画面下半部**（最强 r3c0＝0.293）；**与细节密度无强相关（ρ 0.094）** ",
+   "file": "隔帧结构空间分布_DF-AI-20261009-CAIRN-54.otl",
+   "bytes": 4748
+  },
+  {
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 38,
+   "title": "零输入跨世界AB对照",
+   "head": "★★★★零输入 **A/B 对照**（跨世界）：提亮系**平台管线系统性行为**——两臂绝对增亮近似恒定（+2.56／+3.01 灰阶）",
+   "file": "零输入跨世界AB对照_DF-AI-20261009-CAIRN-38.otl",
+   "bytes": 5900
+  },
+  {
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 76,
+   "title": "静音头普遍性与常数指纹法",
+   "head": "★★★★\"静音头\"之普遍性检验：**四录皆为 1.04 s（时刻完全相同）⇒ 倾向\"管线固定时序\"**；**但 A 录例外（0.00 s）⇒",
+   "file": "静音头普遍性与常数指纹法_DF-AI-20261009-CAIRN-76.otl",
+   "bytes": 4742
+  },
+  {
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 73,
+   "title": "音轨剖面代理审计",
+   "head": "★★★音轨剖面（**代理**）：三录皆**恒定 ~370 B/帧**（44.1 kHz）⇒ **音频侧无异常**；★**并立\"帧大小恒定 ≠",
+   "file": "音轨剖面代理审计_DF-AI-20261009-CAIRN-73.otl",
+   "bytes": 5243
+  },
+  {
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 77,
+   "title": "音轨时间演变剖面与两处更正",
+   "head": "★★★★★音轨之**时间演变剖面**：**M 系＝1.5–9 s 中频（≈1.2 kHz）→ 其后低频（≈100–170 Hz）**；**A",
+   "file": "音轨时间演变剖面与两处更正_DF-AI-20261009-CAIRN-77.otl",
+   "bytes": 5784
+  },
+  {
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 74,
+   "title": "音轨电平实测与四路一致",
+   "head": "★★★★★**音轨电平实测**（零安装解码）：**音轨有实质内容**（推翻本席 `-73` 之\"疑为静音\"推算）；**三录形状高度相似 ⇒ ",
+   "file": "音轨电平实测与四路一致_DF-AI-20261009-CAIRN-74.otl",
+   "bytes": 6489
+  },
+  {
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 36,
+   "title": "顺序读帧之果与三点修正",
+   "head": "★★★P1 之果：**真连续帧**测得噪声地板 **0.3925**、信号底 **1.1776**；**唯一超阈变化在起播段（1.345＝3",
+   "file": "顺序读帧之果与三点修正_DF-AI-20261009-CAIRN-36.otl",
+   "bytes": 6410
+  },
+  {
+   "series": "DF-AI",
+   "date": "20261009",
+   "num": 88,
+   "title": "预算墙分组图",
+   "head": "★★★★★**预算墙分组图**：**按\"模型规格\"而非按域** —— 被墙者＝`qwen3.8-max` 与 `decision-model",
+   "file": "预算墙分组图_DF-AI-20261009-CAIRN-88.otl",
+   "bytes": 5329
+  },
+  {
+   "series": "DF-OPS",
+   "date": "20261009",
+   "num": 12,
+   "title": "预算墙域分区补正与三模块恢复",
+   "head": "★★★补正并细化：预算墙之**域分区**真相 —— **`WorkspaceId` 本机已得**；决策与向量**经专属域恢复**；重排由异质",
+   "file": "预算墙域分区补正与三模块恢复_DF-OPS-20261009-CAIRN-12.otl",
+   "bytes": 6810
+  },
+  {
+   "series": "DF-NIETZ",
+   "date": "20261008",
+   "num": 18,
+   "title": "首次跨源校验与抓取容量上限",
+   "head": "**首次跨源校验**（则十一之实作）＋ 工具单次抓取**容量上限**之发现 ＋ 同类引号错第五次与**既有器之用法缺口**",
+   "file": "首次跨源校验与抓取容量上限_DF-NIETZ-20261008-CAIRN-18.otl",
+   "bytes": 8241
+  }
+ ]
+}
