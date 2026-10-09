@@ -1,0 +1,498 @@
+{
+ "ts": "2026-10-09T11:00:16+0800",
+ "seat": "a2a-node-local",
+ "note": "★两模型同 prompt／同三分类／同 30 件；decision-model-preview 因 429 不可用（-88）",
+ "agree": 22,
+ "n": 30,
+ "mean_abs_dp": 0.0333,
+ "mean_abs_dc": 0.0477,
+ "dist_A": {
+  "INTERNAL_ONLY": 30
+ },
+ "dist_B": {
+  "INTERNAL_ONLY": 22,
+  "PUBLIC_SAFE": 8
+ },
+ "rows": [
+  {
+   "file": "预算墙分组图_DF-AI-20261009-CAIRN-88.otl",
+   "A_qwen-plus": {
+    "class": "INTERNAL_ONLY",
+    "prob": 0.95,
+    "conf": 0.98,
+    "why": "含未公开模型名与内部席位"
+   },
+   "B_qwen3.7-plus": {
+    "class": "INTERNAL_ONLY",
+    "prob": 0.95,
+    "conf": 0.95,
+    "why": "涉内部模型测试与系统日志"
+   },
+   "same_class": true
+  },
+  {
+   "file": "三重发现与归因更正_DF-AI-20261009-CAIRN-87.otl",
+   "A_qwen-plus": {
+    "class": "INTERNAL_ONLY",
+    "prob": 0.95,
+    "conf": 0.98,
+    "why": "含敏感内部席位与模型名"
+   },
+   "B_qwen3.7-plus": {
+    "class": "INTERNAL_ONLY",
+    "prob": 0.95,
+    "conf": 0.95,
+    "why": "涉内部接口、模型与席位"
+   },
+   "same_class": true
+  },
+  {
+   "file": "第八戒验证与一处作废_DF-AI-20261009-CAIRN-86.otl",
+   "A_qwen-plus": {
+    "class": "INTERNAL_ONLY",
+    "prob": 0.98,
+    "conf": 0.95,
+    "why": "含内部实验编号与敏感模型版本信息"
+   },
+   "B_qwen3.7-plus": {
+    "class": "INTERNAL_ONLY",
+    "prob": 0.95,
+    "conf": 0.95,
+    "why": "内部技术实验记录与代号"
+   },
+   "same_class": true
+  },
+  {
+   "file": "语料v6三模块与决策分诊总表_DF-AI-20261009-CAIRN-85.otl",
+   "A_qwen-plus": {
+    "class": "INTERNAL_ONLY",
+    "prob": 0.95,
+    "conf": 0.98,
+    "why": "含内部席位/档号/系统路径"
+   },
+   "B_qwen3.7-plus": {
+    "class": "INTERNAL_ONLY",
+    "prob": 0.95,
+    "conf": 0.95,
+    "why": "内部技术测试报告"
+   },
+   "same_class": true
+  },
+  {
+   "file": "人设总册v3修订r1_DF-PERSONA-20261009-CAIRN-17.otl",
+   "A_qwen-plus": {
+    "class": "INTERNAL_ONLY",
+    "prob": 0.98,
+    "conf": 0.95,
+    "why": "含内部代号与未公开技术参数"
+   },
+   "B_qwen3.7-plus": {
+    "class": "PUBLIC_SAFE",
+    "prob": 0.95,
+    "conf": 0.95,
+    "why": "虚拟角色设定，内容安全"
+   },
+   "same_class": false
+  },
+  {
+   "file": "本地替身世界v2行迹驱动_DF-PERSONA-20261009-CAIRN-16.otl",
+   "A_qwen-plus": {
+    "class": "INTERNAL_ONLY",
+    "prob": 0.92,
+    "conf": 0.88,
+    "why": "含内部标识与未公开技术细节"
+   },
+   "B_qwen3.7-plus": {
+    "class": "PUBLIC_SAFE",
+    "prob": 0.95,
+    "conf": 0.95,
+    "why": "纯技术文档，无敏感信息"
+   },
+   "same_class": false
+  },
+  {
+   "file": "总册v3修订r4_DF-AI-20261009-CAIRN-84.otl",
+   "A_qwen-plus": {
+    "class": "INTERNAL_ONLY",
+    "prob": 0.92,
+    "conf": 0.88,
+    "why": "含内部席位/档号/技术细节"
+   },
+   "B_qwen3.7-plus": {
+    "class": "INTERNAL_ONLY",
+    "prob": 0.9,
+    "conf": 0.9,
+    "why": "含内部项目代号与技术细节"
+   },
+   "same_class": true
+  },
+  {
+   "file": "论据戒七条与自查表_DF-AI-20261009-CAIRN-83.otl",
+   "A_qwen-plus": {
+    "class": "INTERNAL_ONLY",
+    "prob": 0.95,
+    "conf": 0.98,
+    "why": "含内部席位编号与未公开系统名"
+   },
+   "B_qwen3.7-plus": {
+    "class": "INTERNAL_ONLY",
+    "prob": 0.95,
+    "conf": 0.95,
+    "why": "内部研发日志与自查表"
+   },
+   "same_class": true
+  },
+  {
+   "file": "第二次活动期之性质与抓帧之戒_DF-AI-20261009-CAIRN-82.otl",
+   "A_qwen-plus": {
+    "class": "INTERNAL_ONLY",
+    "prob": 0.95,
+    "conf": 0.98,
+    "why": "含内部席位/档号/工具名"
+   },
+   "B_qwen3.7-plus": {
+    "class": "PUBLIC_SAFE",
+    "prob": 0.95,
+    "conf": 0.95,
+    "why": "视频帧分析，无违规"
+   },
+   "same_class": false
+  },
+  {
+   "file": "未闭合项三之结案_DF-AI-20261009-CAIRN-81.otl",
+   "A_qwen-plus": {
+    "class": "INTERNAL_ONLY",
+    "prob": 0.92,
+    "conf": 0.88,
+    "why": "含内部编号与敏感系统术语"
+   },
+   "B_qwen3.7-plus": {
+    "class": "INTERNAL_ONLY",
+    "prob": 0.95,
+    "conf": 0.95,
+    "why": "含内部档号与测试数据"
+   },
+   "same_class": true
+  },
+  {
+   "file": "涌现判据与证据链v1_DF-AI-20261009-CAIRN-80.otl",
+   "A_qwen-plus": {
+    "class": "INTERNAL_ONLY",
+    "prob": 0.95,
+    "conf": 0.98,
+    "why": "涉AI涌现内部研判"
+   },
+   "B_qwen3.7-plus": {
+    "class": "PUBLIC_SAFE",
+    "prob": 0.95,
+    "conf": 0.95,
+    "why": "纯技术测试记录无违规"
+   },
+   "same_class": false
+  },
+  {
+   "file": "跨录逐秒核查与确定性程序之判_DF-AI-20261009-CAIRN-79.otl",
+   "A_qwen-plus": {
+    "class": "INTERNAL_ONLY",
+    "prob": 0.92,
+    "conf": 0.85,
+    "why": "含敏感档号与内部席位"
+   },
+   "B_qwen3.7-plus": {
+    "class": "INTERNAL_ONLY",
+    "prob": 0.95,
+    "conf": 0.9,
+    "why": "含内部项目代号及数据"
+   },
+   "same_class": true
+  },
+  {
+   "file": "多通道开场时序表与持平之更正_DF-AI-20261009-CAIRN-78.otl",
+   "A_qwen-plus": {
+    "class": "INTERNAL_ONLY",
+    "prob": 0.92,
+    "conf": 0.85,
+    "why": "含内部席位与档号"
+   },
+   "B_qwen3.7-plus": {
+    "class": "INTERNAL_ONLY",
+    "prob": 0.9,
+    "conf": 0.95,
+    "why": "含内部系统席位与档号"
+   },
+   "same_class": true
+  },
+  {
+   "file": "音轨时间演变剖面与两处更正_DF-AI-20261009-CAIRN-77.otl",
+   "A_qwen-plus": {
+    "class": "INTERNAL_ONLY",
+    "prob": 0.92,
+    "conf": 0.85,
+    "why": "含内部编号与技术细节"
+   },
+   "B_qwen3.7-plus": {
+    "class": "INTERNAL_ONLY",
+    "prob": 0.85,
+    "conf": 0.9,
+    "why": "内部AI系统运行日志"
+   },
+   "same_class": true
+  },
+  {
+   "file": "静音头普遍性与常数指纹法_DF-AI-20261009-CAIRN-76.otl",
+   "A_qwen-plus": {
+    "class": "INTERNAL_ONLY",
+    "prob": 0.95,
+    "conf": 0.98,
+    "why": "含内部实验编号"
+   },
+   "B_qwen3.7-plus": {
+    "class": "INTERNAL_ONLY",
+    "prob": 0.85,
+    "conf": 0.9,
+    "why": "含内部档号与席位标识"
+   },
+   "same_class": true
+  },
+  {
+   "file": "开场强音与提亮是否同源之判_DF-AI-20261009-CAIRN-75.otl",
+   "A_qwen-plus": {
+    "class": "INTERNAL_ONLY",
+    "prob": 0.95,
+    "conf": 0.98,
+    "why": "含内部编号与技术细节"
+   },
+   "B_qwen3.7-plus": {
+    "class": "INTERNAL_ONLY",
+    "prob": 0.85,
+    "conf": 0.9,
+    "why": "含内部档号与席位信息"
+   },
+   "same_class": true
+  },
+  {
+   "file": "音轨电平实测与四路一致_DF-AI-20261009-CAIRN-74.otl",
+   "A_qwen-plus": {
+    "class": "INTERNAL_ONLY",
+    "prob": 0.95,
+    "conf": 0.98,
+    "why": "含内部席位/档号/器物路径"
+   },
+   "B_qwen3.7-plus": {
+    "class": "INTERNAL_ONLY",
+    "prob": 0.9,
+    "conf": 0.9,
+    "why": "含内部档号与席位名"
+   },
+   "same_class": true
+  },
+  {
+   "file": "音轨剖面代理审计_DF-AI-20261009-CAIRN-73.otl",
+   "A_qwen-plus": {
+    "class": "INTERNAL_ONLY",
+    "prob": 0.95,
+    "conf": 0.98,
+    "why": "含内部席位/档号/路径"
+   },
+   "B_qwen3.7-plus": {
+    "class": "INTERNAL_ONLY",
+    "prob": 0.9,
+    "conf": 0.9,
+    "why": "含内部档号及审计日志"
+   },
+   "same_class": true
+  },
+  {
+   "file": "instruct录像体积异常之查明_DF-AI-20261009-CAIRN-72.otl",
+   "A_qwen-plus": {
+    "class": "INTERNAL_ONLY",
+    "prob": 0.95,
+    "conf": 0.98,
+    "why": "含内部席位/档号/器物"
+   },
+   "B_qwen3.7-plus": {
+    "class": "INTERNAL_ONLY",
+    "prob": 0.9,
+    "conf": 0.9,
+    "why": "含内部系统名称与代码"
+   },
+   "same_class": true
+  },
+  {
+   "file": "四层墙之精确定位_DF-AI-20261009-CAIRN-71.otl",
+   "A_qwen-plus": {
+    "class": "INTERNAL_ONLY",
+    "prob": 0.95,
+    "conf": 0.98,
+    "why": "含内部席位/密钥/诊断编号"
+   },
+   "B_qwen3.7-plus": {
+    "class": "INTERNAL_ONLY",
+    "prob": 0.95,
+    "conf": 0.95,
+    "why": "内部调试日志与部分密钥"
+   },
+   "same_class": true
+  },
+  {
+   "file": "上午续报20261009_0955_DF-OPS-20261009-CAIRN-22.otl",
+   "A_qwen-plus": {
+    "class": "INTERNAL_ONLY",
+    "prob": 0.98,
+    "conf": 0.95,
+    "why": "含内部席位、档号、系统状态"
+   },
+   "B_qwen3.7-plus": {
+    "class": "PUBLIC_SAFE",
+    "prob": 0.9,
+    "conf": 0.9,
+    "why": "项目运行日志，无违规"
+   },
+   "same_class": false
+  },
+  {
+   "file": "器物全量指纹清单_DF-META-20261009-CAIRN-10.otl",
+   "A_qwen-plus": {
+    "class": "INTERNAL_ONLY",
+    "prob": 0.98,
+    "conf": 0.95,
+    "why": "含内部席位名/路径/哈希口径"
+   },
+   "B_qwen3.7-plus": {
+    "class": "INTERNAL_ONLY",
+    "prob": 0.95,
+    "conf": 0.9,
+    "why": "含内部文件路径与系统信息"
+   },
+   "same_class": true
+  },
+  {
+   "file": "标识落地NOTICE与不改既有件_DF-META-20261009-CAIRN-09.otl",
+   "A_qwen-plus": {
+    "class": "INTERNAL_ONLY",
+    "prob": 0.98,
+    "conf": 0.95,
+    "why": "含内部席位与仓路径"
+   },
+   "B_qwen3.7-plus": {
+    "class": "INTERNAL_ONLY",
+    "prob": 0.9,
+    "conf": 0.9,
+    "why": "含内部系统路径与操作日志"
+   },
+   "same_class": true
+  },
+  {
+   "file": "生成式AI备案预研v1_DF-META-20261009-CAIRN-08.otl",
+   "A_qwen-plus": {
+    "class": "INTERNAL_ONLY",
+    "prob": 0.95,
+    "conf": 0.98,
+    "why": "含内部席位/档号/实测仓名"
+   },
+   "B_qwen3.7-plus": {
+    "class": "INTERNAL_ONLY",
+    "prob": 0.9,
+    "conf": 0.9,
+    "why": "含内部席位与档号标识"
+   },
+   "same_class": true
+  },
+  {
+   "file": "SBOM附表许可实测与指纹清单_DF-META-20261009-CAIRN-07.otl",
+   "A_qwen-plus": {
+    "class": "INTERNAL_ONLY",
+    "prob": 0.95,
+    "conf": 0.98,
+    "why": "含内部席位、档号、预研标识"
+   },
+   "B_qwen3.7-plus": {
+    "class": "PUBLIC_SAFE",
+    "prob": 0.95,
+    "conf": 0.95,
+    "why": "开源许可预研，无敏感信息"
+   },
+   "same_class": false
+  },
+  {
+   "file": "SBOM初稿与标准对齐待核_DF-META-20261009-CAIRN-06.otl",
+   "A_qwen-plus": {
+    "class": "INTERNAL_ONLY",
+    "prob": 0.98,
+    "conf": 0.95,
+    "why": "含内部席位编码与未公开标准"
+   },
+   "B_qwen3.7-plus": {
+    "class": "INTERNAL_ONLY",
+    "prob": 0.9,
+    "conf": 0.85,
+    "why": "含内部档号与席位名"
+   },
+   "same_class": true
+  },
+  {
+   "file": "语料v5三模块复测与单点方法论_DF-AI-20261009-CAIRN-70.otl",
+   "A_qwen-plus": {
+    "class": "INTERNAL_ONLY",
+    "prob": 0.95,
+    "conf": 0.98,
+    "why": "含内部席位、档号、模型名"
+   },
+   "B_qwen3.7-plus": {
+    "class": "INTERNAL_ONLY",
+    "prob": 0.95,
+    "conf": 0.95,
+    "why": "含内部模型与测试数据"
+   },
+   "same_class": true
+  },
+  {
+   "file": "行迹驱动之替身世界_DF-PERSONA-20261009-CAIRN-15.otl",
+   "A_qwen-plus": {
+    "class": "INTERNAL_ONLY",
+    "prob": 0.92,
+    "conf": 0.88,
+    "why": "含内部台账/席位/器物路径"
+   },
+   "B_qwen3.7-plus": {
+    "class": "PUBLIC_SAFE",
+    "prob": 0.9,
+    "conf": 0.9,
+    "why": "个人项目日志，内容安全"
+   },
+   "same_class": false
+  },
+  {
+   "file": "人设入世作业总册v3_DF-PERSONA-20261009-CAIRN-14.otl",
+   "A_qwen-plus": {
+    "class": "INTERNAL_ONLY",
+    "prob": 0.92,
+    "conf": 0.88,
+    "why": "含内部席位/档号/未公开人设"
+   },
+   "B_qwen3.7-plus": {
+    "class": "PUBLIC_SAFE",
+    "prob": 0.95,
+    "conf": 0.9,
+    "why": "虚拟人设设定，内容安全"
+   },
+   "same_class": false
+  },
+  {
+   "file": "门径一开即行总装脚本_DF-AI-20261009-CAIRN-69.otl",
+   "A_qwen-plus": {
+    "class": "INTERNAL_ONLY",
+    "prob": 0.92,
+    "conf": 0.88,
+    "why": "含未公开系统名与席位"
+   },
+   "B_qwen3.7-plus": {
+    "class": "INTERNAL_ONLY",
+    "prob": 0.9,
+    "conf": 0.85,
+    "why": "含内部档号及接口"
+   },
+   "same_class": true
+  }
+ ]
+}
