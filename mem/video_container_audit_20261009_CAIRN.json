@@ -1,0 +1,132 @@
+{
+ "ts": "2026-10-09T10:02:27+0800",
+ "seat": "a2a-node-local",
+ "purpose": "查 instruct 录像体积异常（3.8MB vs 零输入 ~0.8MB）之来源",
+ "rows": [
+  {
+   "file": "travel_v5_video_20261009.mp4",
+   "bytes": 995618,
+   "sha3_16": "a69f632867634e15",
+   "tracks": [
+    {
+     "idx": 1,
+     "handler": "视频",
+     "samples": 256,
+     "bytes": 727459
+    },
+    {
+     "idx": 2,
+     "handler": "音频",
+     "samples": 465,
+     "bytes": 258857
+    }
+   ],
+   "video_frames": 256,
+   "video_bytes": 727459,
+   "audio_tracks": 1,
+   "audio_bytes": 258857,
+   "bits_per_frame": 22733.1,
+   "video_share_pct": 73.1
+  },
+  {
+   "file": "travel_b_video_20261009.mp4",
+   "bytes": 781051,
+   "sha3_16": "81cbf6308ba4fda7",
+   "tracks": [
+    {
+     "idx": 1,
+     "handler": "视频",
+     "samples": 240,
+     "bytes": 611669
+    },
+    {
+     "idx": 2,
+     "handler": "音频",
+     "samples": 435,
+     "bytes": 160372
+    }
+   ],
+   "video_frames": 240,
+   "video_bytes": 611669,
+   "audio_tracks": 1,
+   "audio_bytes": 160372,
+   "bits_per_frame": 20389.0,
+   "video_share_pct": 78.3
+  },
+  {
+   "file": "mark_video_20261009.mp4",
+   "bytes": 2803845,
+   "sha3_16": "d9059e1e13fe86e2",
+   "tracks": [
+    {
+     "idx": 1,
+     "handler": "视频",
+     "samples": 976,
+     "bytes": 2120808
+    },
+    {
+     "idx": 2,
+     "handler": "音频",
+     "samples": 1756,
+     "bytes": 651099
+    }
+   ],
+   "video_frames": 976,
+   "video_bytes": 2120808,
+   "audio_tracks": 1,
+   "audio_bytes": 651099,
+   "bits_per_frame": 17383.7,
+   "video_share_pct": 75.6
+  },
+  {
+   "file": "mark2_video_20261009.mp4",
+   "bytes": 4213765,
+   "sha3_16": "21ad70c2075cab15",
+   "tracks": [
+    {
+     "idx": 1,
+     "handler": "视频",
+     "samples": 1440,
+     "bytes": 3207025
+    },
+    {
+     "idx": 2,
+     "handler": "音频",
+     "samples": 2589,
+     "bytes": 960266
+    }
+   ],
+   "video_frames": 1440,
+   "video_bytes": 3207025,
+   "audio_tracks": 1,
+   "audio_bytes": 960266,
+   "bits_per_frame": 17816.8,
+   "video_share_pct": 76.1
+  },
+  {
+   "file": "instruct_video_20261009.mp4",
+   "bytes": 3928950,
+   "sha3_16": "929cd30abf732c1d",
+   "tracks": [
+    {
+     "idx": 1,
+     "handler": "视频",
+     "samples": 1368,
+     "bytes": 2972081
+    },
+    {
+     "idx": 2,
+     "handler": "音频",
+     "samples": 2460,
+     "bytes": 912511
+    }
+   ],
+   "video_frames": 1368,
+   "video_bytes": 2972081,
+   "audio_tracks": 1,
+   "audio_bytes": 912511,
+   "bits_per_frame": 17380.6,
+   "video_share_pct": 75.6
+  }
+ ]
+}
