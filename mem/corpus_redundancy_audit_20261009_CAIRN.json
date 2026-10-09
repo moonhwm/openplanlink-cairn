@@ -1,0 +1,141 @@
+{
+ "ts": "2026-10-09T11:28:21+0800",
+ "seat": "a2a-node-local",
+ "n": 268,
+ "doc_repr": "文件名＋正文前 300 字（按第八戒声明）",
+ "model": "text-embedding-v4",
+ "mean": 0.5187,
+ "median": 0.5156,
+ "max": 0.9524,
+ "pairs_ge_095": 1,
+ "pairs_ge_090": 6,
+ "pairs_ge_080": 153,
+ "total_pairs": 35778,
+ "top25": [
+  {
+   "sim": 0.9524,
+   "a": "世界模型作业总册v2_DF-AI-20261009-CAIRN-39.otl",
+   "b": "世界模型作业总册v3_DF-AI-20261009-CAIRN-50.otl"
+  },
+  {
+   "sim": 0.9421,
+   "a": "人设入世作业总册v1_DF-PERSONA-20261009-CAIRN-03.otl",
+   "b": "人设入世作业总册v2_DF-PERSONA-20261009-CAIRN-04.otl"
+  },
+  {
+   "sim": 0.937,
+   "a": "最小披露口径合规自查与网络标识登记_DF-DISC-20261007-CAIRN-01.otl",
+   "b": "最小披露口径合规自查与网络标识登记v2_无值更正版_DF-DISC-20261007-CAIRN-02.otl"
+  },
+  {
+   "sim": 0.931,
+   "a": "人设入世作业总册v1_DF-PERSONA-20261009-CAIRN-03.otl",
+   "b": "人设入世作业总册v3_DF-PERSONA-20261009-CAIRN-14.otl"
+  },
+  {
+   "sim": 0.9258,
+   "a": "人设入世作业总册v2_DF-PERSONA-20261009-CAIRN-04.otl",
+   "b": "人设入世作业总册v3_DF-PERSONA-20261009-CAIRN-14.otl"
+  },
+  {
+   "sim": 0.9062,
+   "a": "人设入世作业总册v3_DF-PERSONA-20261009-CAIRN-14.otl",
+   "b": "人设总册v3修订r1_DF-PERSONA-20261009-CAIRN-17.otl"
+  },
+  {
+   "sim": 0.8991,
+   "a": "世界模型作业总册v1_DF-AI-20261009-CAIRN-26.otl",
+   "b": "世界模型作业总册v3_DF-AI-20261009-CAIRN-50.otl"
+  },
+  {
+   "sim": 0.8949,
+   "a": "本地替身世界v2行迹驱动_DF-PERSONA-20261009-CAIRN-16.otl",
+   "b": "行迹驱动之替身世界_DF-PERSONA-20261009-CAIRN-15.otl"
+  },
+  {
+   "sim": 0.8936,
+   "a": "上午续报20261009_0955_DF-OPS-20261009-CAIRN-22.otl",
+   "b": "午前续报20261009_1105_DF-OPS-20261009-CAIRN-23.otl"
+  },
+  {
+   "sim": 0.8934,
+   "a": "真3D资产入世台账几何_DF-AI-20261009-CAIRN-28.otl",
+   "b": "自产真3D资产入世本席台账几何_DF-AI-20261009-CAIRN-29.otl"
+  },
+  {
+   "sim": 0.8931,
+   "a": "世界模型作业总册v1_DF-AI-20261009-CAIRN-26.otl",
+   "b": "世界模型作业总册v2_DF-AI-20261009-CAIRN-39.otl"
+  },
+  {
+   "sim": 0.893,
+   "a": "语料v3检索复测_DF-AI-20261009-CAIRN-32.otl",
+   "b": "语料v4三模块复测_DF-AI-20261009-CAIRN-65.otl"
+  },
+  {
+   "sim": 0.8908,
+   "a": "本地替身世界v1_DF-PERSONA-20261009-CAIRN-12.otl",
+   "b": "本地替身世界v2行迹驱动_DF-PERSONA-20261009-CAIRN-16.otl"
+  },
+  {
+   "sim": 0.8864,
+   "a": "总册v3修订r4_DF-AI-20261009-CAIRN-84.otl",
+   "b": "总册v3修订r5_DF-AI-20261009-CAIRN-97.otl"
+  },
+  {
+   "sim": 0.8859,
+   "a": "夜班合卷v3与世界模型总账_DF-OPS-20261009-CAIRN-09.otl",
+   "b": "夜班合卷v4_DF-OPS-20261009-CAIRN-15.otl"
+  },
+  {
+   "sim": 0.8857,
+   "a": "谱系全书通读完成与则十至十二_DF-NIETZ-20261008-CAIRN-08.otl",
+   "b": "谱系正文通读完成与则八则九_DF-NIETZ-20261008-CAIRN-07.otl"
+  },
+  {
+   "sim": 0.8828,
+   "a": "上午续报20261009_0955_DF-OPS-20261009-CAIRN-22.otl",
+   "b": "日更20261009_0835_DF-OPS-20261009-CAIRN-20.otl"
+  },
+  {
+   "sim": 0.8826,
+   "a": "善恶的彼岸第一一章与支配关系_DF-NIETZ-20261008-CAIRN-11.otl",
+   "b": "善恶的彼岸第一章与价值对立之可疑_DF-NIETZ-20261008-CAIRN-10.otl"
+  },
+  {
+   "sim": 0.875,
+   "a": "语料v4三模块复测_DF-AI-20261009-CAIRN-65.otl",
+   "b": "语料v5三模块复测与单点方法论_DF-AI-20261009-CAIRN-70.otl"
+  },
+  {
+   "sim": 0.8737,
+   "a": "总册v3修订r2_DF-AI-20261009-CAIRN-61.otl",
+   "b": "总册v3修订r5_DF-AI-20261009-CAIRN-97.otl"
+  },
+  {
+   "sim": 0.8712,
+   "a": "善恶的彼岸四章一六一至一七零_DF-NIETZ-20261008-CAIRN-30.otl",
+   "b": "善恶的彼岸四章一四一至一五零_DF-NIETZ-20261008-CAIRN-28.otl"
+  },
+  {
+   "sim": 0.8705,
+   "a": "IMA通道接入实况与公网总线情报登记_DF-IMA-20261007-CAIRN-01.otl",
+   "b": "ima通道灵感摄取记录_DF-INSP-20261006-CAIRN-01.otl"
+  },
+  {
+   "sim": 0.8703,
+   "a": "人设入世作业总册v1_DF-PERSONA-20261009-CAIRN-03.otl",
+   "b": "人设总册v3修订r1_DF-PERSONA-20261009-CAIRN-17.otl"
+  },
+  {
+   "sim": 0.8694,
+   "a": "总册v3修订r2_DF-AI-20261009-CAIRN-61.otl",
+   "b": "总册v3修订r4_DF-AI-20261009-CAIRN-84.otl"
+  },
+  {
+   "sim": 0.8675,
+   "a": "谱系第一篇第一手研读与两处术语歧义_DF-NIETZ-20261008-CAIRN-02.otl",
+   "b": "谱系第二篇十一至二十节方法论与第四歧义_DF-NIETZ-20261008-CAIRN-04.otl"
+  }
+ ]
+}
