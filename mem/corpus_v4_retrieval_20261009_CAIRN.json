@@ -1,11 +1,11 @@
 {
- "ts": "2026-10-09T08:31:34+0800",
+ "ts": "2026-10-09T09:27:11+0800",
  "seat": "a2a-node-local",
- "corpus_n": 228,
+ "corpus_n": 244,
  "vector": {
   "carrier": "百炼专属域",
   "model": "text-embedding-v4",
-  "ok": 228,
+  "ok": 244,
   "dim": 1024
  },
  "rerank_carrier": "异质承载：硅基流动 BAAI/bge-reranker-v2-m3（专属域 429）",
@@ -16,23 +16,23 @@
    "carrier": "异质承载：硅基流动 BAAI/bge-reranker-v2-m3（专属域 429）",
    "top5": [
     {
-     "score": 0.96156,
+     "score": 0.96116,
      "doc": "命名判决实验与模型修正_DF-AI-20261009-CAIRN-58.otl"
     },
     {
-     "score": 0.91008,
+     "score": 0.91025,
      "doc": "命名补测与模型确证_DF-AI-20261009-CAIRN-59.otl"
     },
     {
-     "score": 0.66634,
+     "score": 0.66595,
      "doc": "陆知白v7由行迹而生与命名可复现_DF-AI-20261009-CAIRN-57.otl"
     },
     {
-     "score": 0.23779,
+     "score": 0.24192,
      "doc": "总册v3修订r2_DF-AI-20261009-CAIRN-61.otl"
     },
     {
-     "score": 0.0067,
+     "score": 0.00667,
      "doc": "跨席并轨提议_架构图与记忆分层命名_DF-ALIGN-20261007-CAIRN-01.otl"
     }
    ]
@@ -43,19 +43,19 @@
    "carrier": "异质承载：硅基流动 BAAI/bge-reranker-v2-m3（专属域 429）",
    "top5": [
     {
-     "score": 0.99505,
+     "score": 0.99497,
      "doc": "总册v3修订r2_DF-AI-20261009-CAIRN-61.otl"
     },
     {
-     "score": 0.98829,
+     "score": 0.98813,
      "doc": "refWorldId语义判决_DF-AI-20261009-CAIRN-60.otl"
     },
     {
-     "score": 0.37795,
+     "score": 0.3766,
      "doc": "refWorldId衍生实证与谱系核验_DF-AI-20261009-CAIRN-21.otl"
     },
     {
-     "score": 0.28017,
+     "score": 0.28258,
      "doc": "世界模型作业总册v2_DF-AI-20261009-CAIRN-39.otl"
     },
     {
@@ -70,11 +70,15 @@
    "carrier": "异质承载：硅基流动 BAAI/bge-reranker-v2-m3（专属域 429）",
    "top5": [
     {
-     "score": 0.97253,
+     "score": 0.9719,
      "doc": "服务端instruct之路探索_DF-AI-20261009-CAIRN-64.otl"
     },
     {
-     "score": 0.01121,
+     "score": 0.03548,
+     "doc": "知识单点依赖盘点_DF-AI-20261009-CAIRN-66.otl"
+    },
+    {
+     "score": 0.01104,
      "doc": "总线状态三方复核结论_DF-BUSSTATE-20261005-CAIRN-02.otl"
     },
     {
@@ -82,12 +86,8 @@
      "doc": "总线投递定案_DF-BUSSTATE-20261005-CAIRN-03.otl"
     },
     {
-     "score": 0.00554,
+     "score": 0.00573,
      "doc": "三型域名对照与Directing取径_DF-AI-20261009-CAIRN-13.otl"
-    },
-    {
-     "score": 0.00496,
-     "doc": "百炼四模块实战与资源效能_DF-AI-20261009-CAIRN-01.otl"
     }
    ]
   }
@@ -99,75 +99,75 @@
   "blocked": 0,
   "rows": [
    {
-    "file": "日更20261009_0835_DF-OPS-20261009-CAIRN-20.otl",
+    "file": "行迹驱动之替身世界_DF-PERSONA-20261009-CAIRN-15.otl",
     "verdict": "PUBLIC_SAFE",
     "conf": 0.95,
     "http": 200
    },
    {
-    "file": "世界模型访问失效_DF-OPS-20261009-CAIRN-19.otl",
-    "verdict": "PUBLIC_SAFE",
-    "conf": 0.99,
-    "http": 200
-   },
-   {
-    "file": "服务端instruct之路探索_DF-AI-20261009-CAIRN-64.otl",
+    "file": "人设入世作业总册v3_DF-PERSONA-20261009-CAIRN-14.otl",
     "verdict": "PUBLIC_SAFE",
     "conf": 0.95,
     "http": 200
    },
    {
-    "file": "客户端交接一键器_DF-AI-20261009-CAIRN-63.otl",
+    "file": "门径一开即行总装脚本_DF-AI-20261009-CAIRN-69.otl",
     "verdict": "PUBLIC_SAFE",
     "conf": 0.95,
     "http": 200
    },
    {
-    "file": "真实进房作业包v1_DF-AI-20261009-CAIRN-62.otl",
+    "file": "本地替身世界v1r1与五态对照_DF-PERSONA-20261009-CAIRN-13.otl",
     "verdict": "PUBLIC_SAFE",
     "conf": 0.95,
     "http": 200
    },
    {
-    "file": "总册v3修订r2_DF-AI-20261009-CAIRN-61.otl",
+    "file": "本地替身世界v1_DF-PERSONA-20261009-CAIRN-12.otl",
     "verdict": "PUBLIC_SAFE",
     "conf": 0.95,
     "http": 200
    },
    {
-    "file": "refWorldId语义判决_DF-AI-20261009-CAIRN-60.otl",
+    "file": "总册v3修订r3_DF-AI-20261009-CAIRN-68.otl",
     "verdict": "PUBLIC_SAFE",
     "conf": 0.95,
     "http": 200
    },
    {
-    "file": "人设入世作业总册v2_DF-PERSONA-20261009-CAIRN-04.otl",
+    "file": "avatar4根因定位未解项关闭_DF-PERSONA-20261009-CAIRN-11.otl",
     "verdict": "PUBLIC_SAFE",
     "conf": 0.95,
     "http": 200
    },
    {
-    "file": "命名补测与模型确证_DF-AI-20261009-CAIRN-59.otl",
+    "file": "avatar封版与规范自检表_DF-PERSONA-20261009-CAIRN-10.otl",
     "verdict": "PUBLIC_SAFE",
     "conf": 0.95,
     "http": 200
    },
    {
-    "file": "命名判决实验与模型修正_DF-AI-20261009-CAIRN-58.otl",
+    "file": "avatar2r2四项处置与核实_DF-PERSONA-20261009-CAIRN-09.otl",
     "verdict": "PUBLIC_SAFE",
     "conf": 0.95,
     "http": 200
    },
    {
-    "file": "陆知白v7由行迹而生与命名可复现_DF-AI-20261009-CAIRN-57.otl",
+    "file": "avatar2根因定位与修复_DF-PERSONA-20261009-CAIRN-08.otl",
     "verdict": "PUBLIC_SAFE",
     "conf": 0.95,
     "http": 200
    },
    {
-    "file": "总册v3修订r1_DF-AI-20261009-CAIRN-56.otl",
+    "file": "avatar2与独立读取器自检未过_DF-PERSONA-20261009-CAIRN-07.otl",
     "verdict": "PUBLIC_SAFE",
-    "conf": 0.99,
+    "conf": 1.0,
+    "http": 200
+   },
+   {
+    "file": "人形分身三LOD与骨架蒙皮_DF-PERSONA-20261009-CAIRN-06.otl",
+    "verdict": "PUBLIC_SAFE",
+    "conf": 0.95,
     "http": 200
    }
   ]
