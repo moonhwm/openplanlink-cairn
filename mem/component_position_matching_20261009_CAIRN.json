@@ -1,0 +1,104 @@
+{
+ "ts": "2026-10-09T11:20:15+0800",
+ "seat": "a2a-node-local",
+ "method": "质心最近优先贪心一对一配对（替代面积排序逐位配对）",
+ "note": "承 -95 之方法学限制；连通域级非语义物体级",
+ "rows": [
+  {
+   "t": 2,
+   "n_M1": 32,
+   "n_M2": 31,
+   "matched": 31,
+   "max_centroid_dist": 0.010297,
+   "max_rel_area_diff": 0.84577
+  },
+  {
+   "t": 5,
+   "n_M1": 31,
+   "n_M2": 31,
+   "matched": 31,
+   "max_centroid_dist": 0.000614,
+   "max_rel_area_diff": 0.02913
+  },
+  {
+   "t": 8,
+   "n_M1": 30,
+   "n_M2": 30,
+   "matched": 30,
+   "max_centroid_dist": 0.000311,
+   "max_rel_area_diff": 0.03947
+  },
+  {
+   "t": 11,
+   "n_M1": 31,
+   "n_M2": 32,
+   "matched": 31,
+   "max_centroid_dist": 0.008556,
+   "max_rel_area_diff": 0.35028
+  },
+  {
+   "t": 14,
+   "n_M1": 30,
+   "n_M2": 31,
+   "matched": 30,
+   "max_centroid_dist": 0.008858,
+   "max_rel_area_diff": 0.40741
+  },
+  {
+   "t": 17,
+   "n_M1": 31,
+   "n_M2": 32,
+   "matched": 31,
+   "max_centroid_dist": 0.00838,
+   "max_rel_area_diff": 0.35393
+  },
+  {
+   "t": 20,
+   "n_M1": 31,
+   "n_M2": 31,
+   "matched": 31,
+   "max_centroid_dist": 0.254098,
+   "max_rel_area_diff": 0.3544
+  },
+  {
+   "t": 23,
+   "n_M1": 29,
+   "n_M2": 29,
+   "matched": 29,
+   "max_centroid_dist": 0.001391,
+   "max_rel_area_diff": 0.06897
+  },
+  {
+   "t": 26,
+   "n_M1": 29,
+   "n_M2": 29,
+   "matched": 29,
+   "max_centroid_dist": 0.000503,
+   "max_rel_area_diff": 0.03158
+  },
+  {
+   "t": 29,
+   "n_M1": 29,
+   "n_M2": 29,
+   "matched": 29,
+   "max_centroid_dist": 0.000761,
+   "max_rel_area_diff": 0.06
+  },
+  {
+   "t": 32,
+   "n_M1": 29,
+   "n_M2": 29,
+   "matched": 29,
+   "max_centroid_dist": 0.000796,
+   "max_rel_area_diff": 0.03736
+  },
+  {
+   "t": 35,
+   "n_M1": 30,
+   "n_M2": 31,
+   "matched": 30,
+   "max_centroid_dist": 0.008266,
+   "max_rel_area_diff": 0.35
+  }
+ ]
+}
