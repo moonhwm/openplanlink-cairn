@@ -1,0 +1,135 @@
+{
+ "ts": "2026-10-09T08:33:33+0800",
+ "seat": "a2a-node-local",
+ "corpus_n": 215,
+ "carrier": "硅基流动 BAAI/bge-reranker-v2-m3",
+ "topics": [
+  {
+   "topic": "噪声地板与信号底之测定口径",
+   "key": "floor",
+   "top1": 0.94456,
+   "top2": 0.90201,
+   "gap": 1.05,
+   "top1_doc": "抓帧器关键帧局限自查与地板撤回_DF-AI-20261009-CAIRN-35.otl",
+   "kind": "多点承载"
+  },
+  {
+   "topic": "提亮是否为管线行为",
+   "key": "bright",
+   "top1": 0.94514,
+   "top2": 0.331,
+   "gap": 2.86,
+   "top1_doc": "零输入跨世界AB对照_DF-AI-20261009-CAIRN-38.otl",
+   "kind": "多点承载"
+  },
+  {
+   "topic": "GOP 关键帧间隔之证据",
+   "key": "gop",
+   "top1": 0.93804,
+   "top2": 0.79949,
+   "gap": 1.17,
+   "top1_doc": "MP4样本表直解与第三支排除_DF-AI-20261009-CAIRN-51.otl",
+   "kind": "多点承载"
+  },
+  {
+   "topic": "产物录像是否为首帧条件渲染",
+   "key": "firstframe",
+   "top1": 0.97143,
+   "top2": 0.93099,
+   "gap": 1.04,
+   "top1_doc": "标记实验与产物性质判定_DF-AI-20261009-CAIRN-41.otl",
+   "kind": "多点承载"
+  },
+  {
+   "topic": "命名由构图与文案共同决定",
+   "key": "naming",
+   "top1": 0.95769,
+   "top2": 0.89138,
+   "gap": 1.07,
+   "top1_doc": "命名判决实验与模型修正_DF-AI-20261009-CAIRN-58.otl",
+   "kind": "多点承载"
+  },
+  {
+   "topic": "refWorldId 是血缘还是继承",
+   "key": "lineage",
+   "top1": 0.99072,
+   "top2": 0.98848,
+   "gap": 1.0,
+   "top1_doc": "总册v3修订r2_DF-AI-20261009-CAIRN-61.otl",
+   "kind": "多点承载"
+  },
+  {
+   "topic": "未知路径之兜底 200 响应",
+   "key": "fallback",
+   "top1": 0.96294,
+   "top2": 0.10712,
+   "gap": 8.99,
+   "top1_doc": "服务端instruct之路探索_DF-AI-20261009-CAIRN-64.otl",
+   "kind": "**单点承载**"
+  },
+  {
+   "topic": "跨会话复现性检验之判据",
+   "key": "repro",
+   "top1": 0.95505,
+   "top2": 0.93961,
+   "gap": 1.02,
+   "top1_doc": "跨会话复现性检验_DF-AI-20261009-CAIRN-52.otl",
+   "kind": "多点承载"
+  },
+  {
+   "topic": "去趋势后自相关之处置",
+   "key": "detrend",
+   "top1": 0.87246,
+   "top2": 0.55556,
+   "gap": 1.57,
+   "top1_doc": "去趋势复算与假设否证_DF-AI-20261009-CAIRN-47.otl",
+   "kind": "多点承载"
+  },
+  {
+   "topic": "功率谱边界峰之辨识",
+   "key": "spectral",
+   "top1": 0.18189,
+   "top2": 0.14677,
+   "gap": 1.24,
+   "top1_doc": "功率谱追查与判据更正_DF-AI-20261009-CAIRN-48.otl",
+   "kind": "弱承载"
+  },
+  {
+   "topic": "隔帧现象之空间分布",
+   "key": "zones",
+   "top1": 0.98567,
+   "top2": 0.53152,
+   "gap": 1.85,
+   "top1_doc": "隔帧结构空间分布_DF-AI-20261009-CAIRN-54.otl",
+   "kind": "多点承载"
+  },
+  {
+   "topic": "世界模型访问失效与配额",
+   "key": "quota",
+   "top1": 0.97303,
+   "top2": 0.89681,
+   "gap": 1.08,
+   "top1_doc": "日更20261009_0835_DF-OPS-20261009-CAIRN-20.otl",
+   "kind": "多点承载"
+  },
+  {
+   "topic": "进房作业包与十拍序列",
+   "key": "entrypack",
+   "top1": 0.55646,
+   "top2": 0.18929,
+   "gap": 2.94,
+   "top1_doc": "真实进房作业包v1_DF-AI-20261009-CAIRN-62.otl",
+   "kind": "多点承载"
+  },
+  {
+   "topic": "真 3D 双向量产（glTF）",
+   "key": "gltf",
+   "top1": 0.8514,
+   "top2": 0.84481,
+   "gap": 1.01,
+   "top1_doc": "自产真3D资产入世本席台账几何_DF-AI-20261009-CAIRN-29.otl",
+   "kind": "多点承载"
+  }
+ ],
+ "single_point_count": 1
+}
