@@ -1,0 +1,60 @@
+{
+ "ts": "2026-10-09T10:37:44+0800",
+ "seat": "a2a-node-local",
+ "total": 519,
+ "fetched": 519,
+ "sample": [
+  "qwen3.8-max",
+  "decision-model-preview",
+  "qwen3.8-max-0902",
+  "qwen3.8-flash",
+  "qwen3.8-omni-flash",
+  "qwen3.8-omni-flash-realtime",
+  "qwen3.7-plus",
+  "qwen3.7-max",
+  "qwen3.7-flash",
+  "qwen3.7-flash-2026-07-15",
+  "qwen3.6-plus",
+  "qwen3.7-max-2026-06-08",
+  "qwen3.7-plus-2026-05-26",
+  "qwen3.7-max-2026-05-20",
+  "qwen3.6-flash",
+  "qwen3.7-max-2026-05-17",
+  "qwen3.6-flash-2026-04-16",
+  "qwen3.8-2.4t-a95b",
+  "qwen3.6-35b-a3b",
+  "qwen3.7-max-preview",
+  "happyhorse-1.1-t2v",
+  "happyhorse-1.0-t2v",
+  "happyhorse-1.1-i2v",
+  "happyhorse-1.0-i2v",
+  "happyhorse-1.1-r2v",
+  "happyhorse-1.0-r2v",
+  "happyhorse-1.0-video-edit",
+  "happyoyster-1.0-adventure",
+  "qwen3.5-flash",
+  "qwen3.5-plus",
+  "qwen-audio-3.1-tts-next",
+  "qwen-audio-3.1-asr-flash",
+  "qwen-audio-3.1-tts-flash",
+  "qwen-audio-3.1-realtime-plus",
+  "qwen-audio-3.0-asr-flash",
+  "qwen-audio-3.0-asr-flash-filetrans",
+  "qwen-audio-3.0-realtime-plus",
+  "qwen-audio-3.0-asr-flash-streaming",
+  "qwen-audio-3.0-realtime-flash",
+  "qwen-audio-3.0-tts-plus"
+ ],
+ "keyword_hits": {
+  "oyster": [
+   "happyoyster-1.0-adventure"
+  ],
+  "adventure": [
+   "happyoyster-1.0-adventure"
+  ],
+  "world": [],
+  "travel": [],
+  "3d": [],
+  "avatar": []
+ }
+}
