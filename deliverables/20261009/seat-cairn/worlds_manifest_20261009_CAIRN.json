@@ -1,13 +1,43 @@
 {
  "schema": "opl-worlds-manifest/1",
  "seat": "a2a-node-local",
- "ts": "2026-10-09T07:35:44+0800",
+ "ts": "2026-10-09T08:10:00+0800",
  "platform": "百炼 HappyOyster · happyoyster-1.0-adventure（trial 域）",
- "total": 19,
- "unique_names": 18,
+ "total": 22,
+ "unique_names": 19,
  "attribution_basis": "列表端不返回创建者；本席件依提示词与调用时刻判定；非本席件依既非本席提示词亦非本席时刻判定（不指认归属）",
  "note": "供跨席互认（免重复建世界与命名冲突）；世界 ID 为服务端加密标识符，非凭据",
  "items": [
+  {
+   "name": "数据虚空",
+   "encryptedWorldId": "8rcpnKlw6xp3FtpLvZIGBzay7UPsbkqgCig4-jfNwNyiVYSzffKWTwjCSvR7Fhof",
+   "status": "ready",
+   "mode": 1,
+   "perspective": "third_person",
+   "createdAt": "2026-10-09T00:07:47.424+00:00",
+   "uploadMode": "first_frame",
+   "attribution": "本席（陆知白 v3 转面图／v5 第一人称／命名实验二·测试件）"
+  },
+  {
+   "name": "雪封圣所",
+   "encryptedWorldId": "8rcpnKlw6xp3FtpLvZIGB7qZ59Y34sS89nNr3vAORr1fNs2BU7TeGEDpaTrloI7x",
+   "status": "ready",
+   "mode": 1,
+   "perspective": "third_person",
+   "createdAt": "2026-10-09T00:06:16.489+00:00",
+   "uploadMode": "first_frame",
+   "attribution": "本席（命名实验一·测试件）"
+  },
+  {
+   "name": "数据圣所",
+   "encryptedWorldId": "8rcpnKlw6xp3FtpLvZIGB9mlTipFohD7syfWSOD-bt4XkorbSgM1ksN8wLSJgYiM",
+   "status": "ready",
+   "mode": 1,
+   "perspective": "third_person",
+   "createdAt": "2026-10-09T00:04:44.029+00:00",
+   "uploadMode": "first_frame",
+   "attribution": "本席（陆知白 v1 镜面图）"
+  },
   {
    "name": "转动台账",
    "encryptedWorldId": "8rcpnKlw6xp3FtpLvZIGB-sdIRqsVf4bn3Nd5ZSGwjvvYWx9jdVEIlPMdelwsS6b",
@@ -106,7 +136,7 @@
    "perspective": "first_person",
    "createdAt": "2026-10-08T21:38:55.838+00:00",
    "uploadMode": "first_frame",
-   "attribution": "本席（陆知白 v3 转面图／v5 第一人称）"
+   "attribution": "本席（陆知白 v3 转面图／v5 第一人称／命名实验二·测试件）"
   },
   {
    "name": "无门窗居所",
@@ -146,7 +176,7 @@
    "perspective": "third_person",
    "createdAt": "2026-10-08T21:27:28.692+00:00",
    "uploadMode": "first_frame",
-   "attribution": "本席（陆知白 v3 转面图／v5 第一人称）"
+   "attribution": "本席（陆知白 v3 转面图／v5 第一人称／命名实验二·测试件）"
   },
   {
    "name": "器物约束",
