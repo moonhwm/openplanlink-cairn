@@ -1,0 +1,39 @@
+{
+ "ts": "2026-10-09T08:18:16+0800",
+ "seat": "a2a-node-local",
+ "purpose": "B 组自办尝试：running 期间以 /travels/instruct 下发 content",
+ "world": "极简检验室",
+ "travelId": "8rcpnKlw6xp3FtpLvZIGB9p7aCIBv0CLBoEMv9X2_oceXZFiVk889HrvHtCxWWeB",
+ "instructions": [
+  {
+   "i": 1,
+   "content": "请向前走两步",
+   "http": 200,
+   "code": 0,
+   "resp": "{\"request_id\":\"10903924-43d7-4740-afc3-1b2187e7dcd3\",\"output\":{\"code\":0,\"message\":null,\"data\":{\"encryptedTravelId\":\"8rcpnKlw6xp3FtpLvZIGB9p7aCIBv0CLBoEMv9X2_oce"
+  },
+  {
+   "i": 2,
+   "content": "向左转 90 度",
+   "http": 200,
+   "code": 0,
+   "resp": "{\"request_id\":\"78a2d47f-4d1e-4205-ac7c-e10e99050d29\",\"output\":{\"code\":0,\"message\":null,\"data\":{\"encryptedTravelId\":\"8rcpnKlw6xp3FtpLvZIGB9p7aCIBv0CLBoEMv9X2_oce"
+  },
+  {
+   "i": 3,
+   "content": "跳一下",
+   "http": 200,
+   "code": 0,
+   "resp": "{\"request_id\":\"6ec9e3e2-a5a6-4733-b4f2-415b0ce06726\",\"output\":{\"code\":0,\"message\":null,\"data\":{\"encryptedTravelId\":\"8rcpnKlw6xp3FtpLvZIGB9p7aCIBv0CLBoEMv9X2_oce"
+  },
+  {
+   "i": 4,
+   "content": "向前走并环顾四周",
+   "http": 200,
+   "code": 0,
+   "resp": "{\"request_id\":\"a6e42705-fc69-40bc-afda-669b58a16c0b\",\"output\":{\"code\":0,\"message\":null,\"data\":{\"encryptedTravelId\":\"8rcpnKlw6xp3FtpLvZIGB9p7aCIBv0CLBoEMv9X2_oce"
+  }
+ ],
+ "final": "completed",
+ "note": "★与官档『不支持 instruct』之出入须如实标注；结果以录像比对为准"
+}
