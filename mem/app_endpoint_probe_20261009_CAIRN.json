@@ -1,0 +1,55 @@
+{
+ "ts": "2026-10-09T11:03:35+0800",
+ "seat": "a2a-node-local",
+ "note": "判据：403＝存在但无资格；400/404＝不存在；阴性对照 __no_such_app__",
+ "rows": [
+  {
+   "app": "happyoyster-1.0-adventure",
+   "http": -1,
+   "code": "",
+   "verdict": "未定"
+  },
+  {
+   "app": "happyoyster-1.0-directing",
+   "http": 403,
+   "code": "",
+   "verdict": "★存在（无资格）"
+  },
+  {
+   "app": "happyoyster-1.0-acting",
+   "http": 403,
+   "code": "",
+   "verdict": "★存在（无资格）"
+  },
+  {
+   "app": "happyoyster-1.0-roleplay",
+   "http": 404,
+   "code": "InvalidParameter",
+   "verdict": "不存在"
+  },
+  {
+   "app": "happyoyster-1.0-explore",
+   "http": 404,
+   "code": "InvalidParameter",
+   "verdict": "不存在"
+  },
+  {
+   "app": "happyoyster-1.0-world",
+   "http": 404,
+   "code": "InvalidParameter",
+   "verdict": "不存在"
+  },
+  {
+   "app": "happyoyster-1.0-avatar",
+   "http": 404,
+   "code": "InvalidParameter",
+   "verdict": "不存在"
+  },
+  {
+   "app": "__no_such_app__",
+   "http": 404,
+   "code": "InvalidParameter",
+   "verdict": "不存在"
+  }
+ ]
+}
