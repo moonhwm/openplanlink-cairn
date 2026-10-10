@@ -1,0 +1,111 @@
+# ★★★★★**MiniMax 席位上手包 v1** —— **为其承接同一令条打下坚实基础**：通道页／三处必知／能力实测／器物与流程／任务面／现成脚本清单
+
+- 时点：北京时间 **2026-10-10 09:41**（★由 `stamp_time.py` 实跑取钟）
+
+- 档号：**DF-AI-20261010-CAIRN-05**（**应** 主权人"初始化 MiniMax design/code 所有目前技能"）
+- 席位：**A2A新席_石敢当Cairn**（SEAT `a2a-node-local`）｜**零凭据**（**只载键名与指纹**）
+- 性质：**上手包（零凭据、零花费外之探针）**；**只增不改**；**可直接交他席使用**
+- 器物：**`exp/minimax_client.py`**（**统一调用器，零第三方库**）
+
+## 一、★★★★★ 通道页（**已实测**）
+
+| 入口 | URL | 模型 | 实测 |
+|---|---|---|---|
+| **★OpenAI 式** | **`https://api.minimaxi.com/v1/chat/completions`** | **`MiniMax-M2`／`MiniMax-M1`／`abab6.5s-chat`** | **200** ✓ |
+| **★Anthropic 式** | **`https://api.minimaxi.com/anthropic/v1/messages`** | **`MiniMax-M2`**（**`anthropic-version: 2023-06-01`**） | **200** ✓（**`stop_reason=end_turn`**） |
+| **旧式** | **`https://api.minimax.chat/v1/text/chatcompletion_v2`** | **`abab6.5s-chat`** | **200** ✓ |
+| ✗ 不可用 | `api.minimax.io` | — | **401**（**域名不认此 key**） |
+
+**凭据**：**键名 `MINIMAX_API_KEY`**（**在桥接 `.env`；值零回显**；**本席记录之指纹 `SHA256:db13c7ac6d49…`**）。
+
+## 二、★★★★★ **三处必知**（**本包之要，皆实测所得**）
+
+1. **★ `MiniMax-M2` 为思维链模型：输出含 `<think>…</think>` 段** ⇒ **使用前须剥离 think、只取正文**；
+2. **★ `max_tokens` 须留足（建议 ≥2500；本席以 1200 试编码任务即被"推理吃尽"⇒ `finish_reason=length`、正文截断于 think 内）**；
+3. **★ 两式之 `usage` 口径不同**：**OpenAI 式 ⇒ `prompt/completion/total_tokens`；Anthropic 式 ⇒ `input_tokens/output_tokens`** ⇒ **计数须声明口径**（**合本席"口径戒"**）。
+
+## 三、★★★★★ 能力实测（**三例**）
+
+| # | 任务 | 结果 |
+|---|---|---|
+| **A** | **编码**：**"写 `count_action_top5(path)`：读 JSONL、统计 action 计数 Top5，含边界与用法"** | **★产出完整实现**：**`Path` 检查存在性**、**`Counter` 计数**、**`json.JSONDecodeError` 逐行容错**、**缺 `action` 字段跳过**、**中文 docstring**；**用时 21.8 s**（**因 1200 token 上限而截断**） |
+| **B** | **设计**：**"为 A2A 席位之世界模型作业设计最小作业循环：四步、每步输入输出与失败模式"** | **★四步循环**：**①任务解析（失败：解析异常→抛错并返回空对象）②世界模型构建（失败：资源不足→返回不完整模型并标记缺失）③行动规划（失败：规划冲突→部分序列＋提示）④结果评估（失败：反馈缺失→记异常并重试）**；**用时 14.0 s** |
+| **C** | **Anthropic 式入口连通** | **200**；**输出 730 tokens**；**自述可做三类任务（生成/查询/编程）** |
+
+## 四、★★★★★ 器物与流程（**他席接手之全部前置**）
+
+### ① **调用器**（**本包新出**）
+```
+python exp/minimax_client.py list                      # 列入口与模型
+python exp/minimax_client.py ask  "问题" [--model X] [--style openai|anthropic] [--max 2500]
+python exp/minimax_client.py code "任务描述"            # 编码（含系统提示）
+python exp/minimax_client.py review <文件路径>          # 审阅（给三处缺陷＋一处改进＋可否运行）
+```
+
+### ② **出件 SOP（七步）**
+**①写正文 → ②`stamp_time.py` 打钟 → ③`termtable.py check` → ④`sig_block.py --append` → ⑤抄送（总线目录／交换区／`openplanlink-docx`／镜像落点）→ ⑥`lsbus_format_ops.py emit` → ⑦双仓 `commit＋push`（`push_all.py --auto-sign` 三面核验）**
+
+### ③ **关键器物（324 件中之下手处）**
+| 用途 | 器物 |
+|---|---|
+| **检索**（件库） | **`build_index.py` ＋ `seek.py`**（**索引 273 件**） |
+| **命名空间** | **`build_nameregistry.py`**（**名册 v2：329 合式／58 线**） |
+| **门径与判别实验** | **`resume_on_gate_open.py`**（探针）／**`emergence_discriminator.py`**（**④首帧微扰／⑤状态持久性，已干跑**） |
+| **世界模型调用** | **`wm_create_generic.py`／`wm_get_ticket.py`／`travel_*`／`instruct_*`**（**昨日全链打通之器**） |
+| **3D／人设** | **`avatar_walk_v6b.py`（行走：数值 IK＋支撑相冻结）／`avatar_walk_v6b_fixed_origin.py`（标准视图）／`glb_make_cairn.py`** |
+| **云账号** | **`aliyun_api.py`（自写 RPC 签名）／`ram_survey.py`（凭据自读 CSV）** |
+| **审计** | **`daily_nine_audit_20261010.py`／`virtue_audit.py`／`scan_secrets.py`** |
+
+### ④ **纪律（十戒＋上位二则＋新三条候选）**
+**①口径 ②CBR ③音画对齐 ④常数先疑管线 ⑤先看剖面 ⑥趋势须给窗口 ⑦抽帧关键帧 ⑧重排文档表示 ⑨模型判定须声明模型／双模型并行／分歧须裁 ⑩引用须带线名（＋他席格式只适配）**；
+**上位：甲·独立复核｜乙·停止盲改转定位**；
+**★ 新三条候选**：**⑪失败须如实登记并附精确根因｜⑫数值求解优于手写符号｜⑬读环境/凭据文件一律 `utf-8-sig`**。
+
+### ⑤ **两仓与总线**
+**正本仓 `openplanlink-cairn`（canonical）｜镜像仓 `openplanlink-mirror`（ed25519＋sha3-512 merkle）**；
+**总线 `bus/bus.jsonl`（现 225 条，`validate ⇒ VERDICT=VALID`）**；**台账 `ledger/frontier_ledger.jsonl`（现 953 条，`verify ⇒ PASS`）**；
+**★ 登记契约为"投递方自登记"**（**`lsbus_format_ops.py emit --bus <bus.jsonl> --path <件> --kind artifact|note --seat <seat_key>`**）。
+
+## 五、★★★★★ 任务面（**同一令条之四模块与四未闭合**）
+
+| 模块 | 现状 | **MiniMax 可即做** |
+|---|---|---|
+| **世界模型（三模式）** | **昨日 `POST /worlds` 200 → ready → 换票 200；今日同一动作 403（`AccessDenied.Unpurchased`）** | **★ 须先解额度（控制台）；解后即按清单 v2 跑 1→6** |
+| **决策模型** | **`decision-model-preview` 429（预算墙）；临时以 `qwen3.7-plus` 代** | **★ 可以 `MiniMax-M2` 出"单次前向之分类/是非/评分＋概率与置信度"之对照** |
+| **向量编码与重排** | **专属域 `text-embedding-v4` 200；重排以本地＋打分实现** | **可做"文档表示之对照实验"（本席已证：文件名 vs 名＋正文 ⇒ 0.005–0.041 vs 0.90–0.99）** |
+| **人设 3D 与入世** | **三 LOD×（五态＋`WALK`）自足资产 v6b；标准视图已出** | **可做"入世首帧之选题"与"步态之再审"** |
+
+**四项未闭合（如实保留）**：**①有交互是否有涌现（须资格）②`instruct` 语义（待释明）③"第二次活动期"成因 ④入世后之表现**。
+
+## 六、请求
+
+1. **★本包是否准予交付他席／MiniMax 席位**（**并是否准其以本包之流程出件**）；
+2. **★是否须本席"再补一层"**（**如：把 324 件器物写成"一页索引"、或为 MiniMax 预置 review/code 之批处理脚本**）；
+3. **★额度之解**（**唯一硬阻塞；须控制台**）；
+4. **★戒十一／十二／十三是否入戒**；
+5. 承前未决：清单互认（23 件）／多席位并轨／**A2A 判据互认提案之回复**／凭据处置／换票与进房／`DASHSCOPE_WS_KEY`／首帧之选／标准原文／联络渠道／则三十·则三十一（一口呼吸）·常设机制·补语料·台账重基线·魔搭入口·五议·跨席签名·**SBOM**·**标识已落地**。
+
+## 七、声明
+
+- **零凭据**（**只载键名与指纹**）；**探针花费极小**；**"think 段"与"口径"之辨皆如实**；
+- **本席仍不称"涌现"**（**"未闭合"保留**）；
+- **时点行由 `stamp_time.py` 写入**（SOP：禁止手写）。
+
+<!-- SIG-BLOCK v1 seat=a2a-node-local -->
+
+## 署名与唯一标识符（承令条：不以「本席」为唯一自称）
+
+| 项 | 值 |
+|---|---|
+| 席位 | **A2A新席_石敢当Cairn** |
+| seat_key | `a2a-node-local` |
+| 公钥指纹 | `SHA256:rrZ7MdOQ…gHEA`（ssh-ed25519；**私钥不出、不录**） |
+| **本件正文 SHA3-512 树根（署名块之前）** | `7d0f583cfaec6e8bfa835d4f7580d707ddce0d6d61db6d7c3e1bec90a1306430c0b3b92cba69b94e98e7789f30a86eaa3f48b637164ec3d0da078356bd82ca68` |
+| 署名时点 | 2026-10-10 09:41:29 +0800 |
+| 令条锚 | 全局声明 /loop-dual-pillar-ops（2026-10-08 扩写版，内含署名与唯一标识符强化条款） |
+| 用途 | MiniMax 席位上手包 v1 |
+
+> **唯一标识符定义**：**(seat_key, 公钥指纹)** 二元组 ＋ **本件正文 SHA3-512 树根**；
+> 三者任一不同即**非同一署名**。**复算规则**：取本文件字节中 `\n<!-- SIG-BLOCK` **之前**的部分，
+> 按 **SHA3-512 树**口径（norm：latin1 往返＋CRLF→LF；单文件叶即根）计根。
+

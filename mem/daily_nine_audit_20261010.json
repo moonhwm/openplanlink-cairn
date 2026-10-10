@@ -1,0 +1,43 @@
+{
+ "ts": "2026-10-10T09:37:07+0800",
+ "seat": "a2a-node-local",
+ "item4_signature_dual": [
+  {
+   "file": "403真相与归因更正_DF-AI-20261010-CAIRN-04.otl",
+   "sha3_dual_agree": true
+  },
+  {
+   "file": "三面核验口径修正与跨席合并_DF-AI-20261010-CAIRN-02.otl",
+   "sha3_dual_agree": true
+  },
+  {
+   "file": "自己开之实况勘察_DF-AI-20261010-CAIRN-03.otl",
+   "sha3_dual_agree": true
+  }
+ ],
+ "item5_tree_reconcile": [
+  {
+   "pair": "notes ↔ 镜像exchange",
+   "same": 214,
+   "diff": 0,
+   "only_canonical": 4
+  },
+  {
+   "pair": "notes ↔ 镜像20261009",
+   "same": 34,
+   "diff": 0,
+   "only_canonical": 184
+  },
+  {
+   "pair": "notes ↔ 镜像20261010",
+   "same": 4,
+   "diff": 0,
+   "only_canonical": 214
+  }
+ ],
+ "totals": {
+  "same": 252,
+  "diff": 0,
+  "only_canonical": 402
+ }
+}
