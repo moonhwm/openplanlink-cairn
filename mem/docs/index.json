@@ -30,13 +30,31 @@
      "removed": [],
      "changed": []
     }
+   },
+   {
+    "ver": "20261011_0603",
+    "ts": "2026-10-11T06:03:49+0800",
+    "hash": "5472dcdfd8b067b7b1078822",
+    "chars": 37708,
+    "lines": 202,
+    "sections": 36,
+    "file_id": null,
+    "drive_id": null,
+    "changed": true,
+    "diff": {
+     "added": [],
+     "removed": [],
+     "changed": [
+      "全局声明"
+     ]
+    }
    }
   ],
   "latest": {
-   "hash": "01e969138cd82f110b93b13f",
-   "chars": 37389,
+   "hash": "5472dcdfd8b067b7b1078822",
+   "chars": 37708,
    "sections": 36,
-   "ver": "20261011_0515"
+   "ver": "20261011_0603"
   }
  },
  "polish": {
@@ -75,16 +93,37 @@
       "五、对月之暗面诸席的倡议"
      ]
     }
+   },
+   {
+    "ver": "20261011_0603",
+    "ts": "2026-10-11T06:03:51+0800",
+    "hash": "203b1b74172ab8abb91b17f3",
+    "chars": 260086,
+    "lines": 1577,
+    "sections": 125,
+    "file_id": null,
+    "drive_id": null,
+    "changed": true,
+    "diff": {
+     "added": [],
+     "removed": [],
+     "changed": [
+      "(前言)",
+      "其他组织",
+      "旗帜鲜明讲政治——守藏席立身声明",
+      "五、对月之暗面诸席的倡议"
+     ]
+    }
    }
   ],
   "latest": {
-   "hash": "0bed47c0268e8d4f8c907c3b",
-   "chars": 259918,
-   "sections": 127,
-   "ver": "20261011_0515"
+   "hash": "203b1b74172ab8abb91b17f3",
+   "chars": 260086,
+   "sections": 125,
+   "ver": "20261011_0603"
   }
  },
- "_updated": "2026-10-11T05:29:15+0800",
+ "_updated": "2026-10-11T06:05:38+0800",
  "_note": "可微（节级 sha3）可导（全史 manifest）；工具 kdocs-cli v2.6.13；凭据零落盘",
  "kd_PoRdSw": {
   "link_id": "cubofOPoRdSw",
@@ -101,13 +140,34 @@
     "drive_id": "3179383265",
     "changed": true,
     "diff": null
+   },
+   {
+    "ver": "20261011_0603",
+    "ts": "2026-10-11T06:03:53+0800",
+    "hash": "2b20e5346b67396fee16e002",
+    "chars": 260082,
+    "lines": 1577,
+    "sections": 125,
+    "file_id": null,
+    "drive_id": null,
+    "changed": true,
+    "diff": {
+     "added": [],
+     "removed": [],
+     "changed": [
+      "(前言)",
+      "其他组织",
+      "旗帜鲜明讲政治——守藏席立身声明",
+      "五、对月之暗面诸席的倡议"
+     ]
+    }
    }
   ],
   "latest": {
-   "hash": "b5b46ec251e7730321cea3d6",
-   "chars": 259976,
-   "sections": 127,
-   "ver": "20261011_0528"
+   "hash": "2b20e5346b67396fee16e002",
+   "chars": 260082,
+   "sections": 125,
+   "ver": "20261011_0603"
   }
  },
  "kd_PjbbOc": {
@@ -197,13 +257,31 @@
     "drive_id": "3179383265",
     "changed": true,
     "diff": null
+   },
+   {
+    "ver": "20261011_0603",
+    "ts": "2026-10-11T06:03:57+0800",
+    "hash": "5472dcdfd8b067b7b1078822",
+    "chars": 37708,
+    "lines": 202,
+    "sections": 36,
+    "file_id": null,
+    "drive_id": null,
+    "changed": true,
+    "diff": {
+     "added": [],
+     "removed": [],
+     "changed": [
+      "全局声明"
+     ]
+    }
    }
   ],
   "latest": {
-   "hash": "3ad6bb253f2fa63add8f196c",
-   "chars": 37453,
+   "hash": "5472dcdfd8b067b7b1078822",
+   "chars": 37708,
    "sections": 36,
-   "ver": "20261011_0528"
+   "ver": "20261011_0603"
   }
  },
  "kd_yb4eiI": {
@@ -293,13 +371,36 @@
     "drive_id": "3179383265",
     "changed": true,
     "diff": null
+   },
+   {
+    "ver": "20261011_0604",
+    "ts": "2026-10-11T06:04:05+0800",
+    "hash": "67ce9fe2191998bcb52f14f7",
+    "chars": 906818,
+    "lines": 5624,
+    "sections": 137,
+    "file_id": null,
+    "drive_id": null,
+    "changed": true,
+    "diff": {
+     "added": [],
+     "removed": [],
+     "changed": [
+      "附录：",
+      "六、附录",
+      "六、top3_likely_wrong",
+      "一、引言：一座积木盒的自我审判",
+      "文档12",
+      "十七、批价与渠道（免费检索，白酒先行指标，2026-09-05）"
+     ]
+    }
    }
   ],
   "latest": {
-   "hash": "b2e90f77c776eed37583befd",
-   "chars": 906844,
-   "sections": 139,
-   "ver": "20261011_0528"
+   "hash": "67ce9fe2191998bcb52f14f7",
+   "chars": 906818,
+   "sections": 137,
+   "ver": "20261011_0604"
   }
  },
  "kd_BZDcsc": {
@@ -1044,6 +1145,1350 @@
    "chars": 0,
    "sections": 0,
    "ver": "20261011_0529"
+  }
+ },
+ "kd_5OpljB": {
+  "link_id": "cp3yiz5OpljB",
+  "title": "A2A迭代升级与协议补充同步清单_2026-10-03.otl",
+  "history": [
+   {
+    "ver": "20261011_0604",
+    "ts": "2026-10-11T06:04:58+0800",
+    "hash": "1c50cdac28b2bff879f005da",
+    "chars": 10548,
+    "lines": 146,
+    "sections": 13,
+    "file_id": "xoNeHdKJVrMsGaNWaP8rBxhtr25rmWMN5",
+    "drive_id": "3179383265",
+    "changed": true,
+    "diff": null
+   }
+  ],
+  "latest": {
+   "hash": "1c50cdac28b2bff879f005da",
+   "chars": 10548,
+   "sections": 13,
+   "ver": "20261011_0604"
+  }
+ },
+ "kd_pJSLQd": {
+  "link_id": "ce46NGpJSLQd",
+  "title": "旗帜鲜明讲政治-守藏席立身声明.otl",
+  "history": [
+   {
+    "ver": "20261011_0604",
+    "ts": "2026-10-11T06:04:59+0800",
+    "hash": "ebad9cd19cb93cc23516eadf",
+    "chars": 1075,
+    "lines": 30,
+    "sections": 7,
+    "file_id": "tjE5L9Smo1MJs6SkdSSc1xUbsZGuXsDWo",
+    "drive_id": "3179383265",
+    "changed": true,
+    "diff": null
+   }
+  ],
+  "latest": {
+   "hash": "ebad9cd19cb93cc23516eadf",
+   "chars": 1075,
+   "sections": 7,
+   "ver": "20261011_0604"
+  }
+ },
+ "kd_83uSxs": {
+  "link_id": "cdKvgb83uSxs",
+  "title": "106号令执行件_DF-ORD-2026-1003-SECINTRO-01.otl",
+  "history": [
+   {
+    "ver": "20261011_0605",
+    "ts": "2026-10-11T06:05:00+0800",
+    "hash": "2f0cd68ee88270e299999c42",
+    "chars": 2395,
+    "lines": 81,
+    "sections": 12,
+    "file_id": "NpiF95CJArM3ke3usN5orxndwCvS37Mqa",
+    "drive_id": "3179383265",
+    "changed": true,
+    "diff": null
+   }
+  ],
+  "latest": {
+   "hash": "2f0cd68ee88270e299999c42",
+   "chars": 2395,
+   "sections": 12,
+   "ver": "20261011_0605"
+  }
+ },
+ "kd_pLgLS8": {
+  "link_id": "cvH19xpLgLS8",
+  "title": "认证流程与 MFA Git 钩子 AV1-H265 编码引入方案——论证文档 v1.1.0 增补专章.otl",
+  "history": [
+   {
+    "ver": "20261011_0605",
+    "ts": "2026-10-11T06:05:01+0800",
+    "hash": "cf66a5ee1057642f161febd2",
+    "chars": 5400,
+    "lines": 125,
+    "sections": 21,
+    "file_id": "euBZGzA261MKNAPKDwPQrxKRHgp353rAt",
+    "drive_id": "3179383265",
+    "changed": true,
+    "diff": null
+   }
+  ],
+  "latest": {
+   "hash": "cf66a5ee1057642f161febd2",
+   "chars": 5400,
+   "sections": 21,
+   "ver": "20261011_0605"
+  }
+ },
+ "kd_aRk3Qn": {
+  "link_id": "cqP37vaRk3Qn",
+  "title": "AGP构建规范——MFA Git钩子 AV1-H265 联动配置示例 v0.1.0 草案.otl",
+  "history": [
+   {
+    "ver": "20261011_0605",
+    "ts": "2026-10-11T06:05:02+0800",
+    "hash": "f8713d74b2cea6e3c6fc3310",
+    "chars": 2025,
+    "lines": 53,
+    "sections": 9,
+    "file_id": "t2n2GwWerrMjQS71qY76rxwhP9KgQkX9c",
+    "drive_id": "3179383265",
+    "changed": true,
+    "diff": null
+   }
+  ],
+  "latest": {
+   "hash": "f8713d74b2cea6e3c6fc3310",
+   "chars": 2025,
+   "sections": 9,
+   "ver": "20261011_0605"
+  }
+ },
+ "kd_r7kTuj": {
+  "link_id": "csvXrBr7kTuj",
+  "title": "A2A时间感知同步与知识传播方案_DF-PLAN-2026-0928-TIMESYNC-01(1).otl",
+  "history": [
+   {
+    "ver": "20261011_0605",
+    "ts": "2026-10-11T06:05:03+0800",
+    "hash": "a9ebd155fd52fb2f66a4bdd8",
+    "chars": 5131,
+    "lines": 96,
+    "sections": 11,
+    "file_id": "x7YHF9LerrMGiHHKHN1kxxtXGwzE3Yru7",
+    "drive_id": "3179383265",
+    "changed": true,
+    "diff": null
+   }
+  ],
+  "latest": {
+   "hash": "a9ebd155fd52fb2f66a4bdd8",
+   "chars": 5131,
+   "sections": 11,
+   "ver": "20261011_0605"
+  }
+ },
+ "kd_ZdZD14": {
+  "link_id": "cmGHD1ZdZD14",
+  "title": "cmGHD1ZdZD14",
+  "history": [
+   {
+    "ver": "20261011_0605",
+    "ts": "2026-10-11T06:05:03+0800",
+    "hash": "a69f73cca23a9ac5c8b567dc",
+    "chars": 0,
+    "lines": 0,
+    "sections": 0,
+    "file_id": null,
+    "drive_id": null,
+    "changed": true,
+    "diff": null
+   }
+  ],
+  "latest": {
+   "hash": "a69f73cca23a9ac5c8b567dc",
+   "chars": 0,
+   "sections": 0,
+   "ver": "20261011_0605"
+  }
+ },
+ "kd_5jStj2": {
+  "link_id": "cd3H7n5jStj2",
+  "title": "cd3H7n5jStj2",
+  "history": [
+   {
+    "ver": "20261011_0605",
+    "ts": "2026-10-11T06:05:03+0800",
+    "hash": "a69f73cca23a9ac5c8b567dc",
+    "chars": 0,
+    "lines": 0,
+    "sections": 0,
+    "file_id": null,
+    "drive_id": null,
+    "changed": true,
+    "diff": null
+   }
+  ],
+  "latest": {
+   "hash": "a69f73cca23a9ac5c8b567dc",
+   "chars": 0,
+   "sections": 0,
+   "ver": "20261011_0605"
+  }
+ },
+ "kd_7MLJLw": {
+  "link_id": "cbo54k7MLJLw",
+  "title": "cbo54k7MLJLw",
+  "history": [
+   {
+    "ver": "20261011_0605",
+    "ts": "2026-10-11T06:05:04+0800",
+    "hash": "a69f73cca23a9ac5c8b567dc",
+    "chars": 0,
+    "lines": 0,
+    "sections": 0,
+    "file_id": null,
+    "drive_id": null,
+    "changed": true,
+    "diff": null
+   }
+  ],
+  "latest": {
+   "hash": "a69f73cca23a9ac5c8b567dc",
+   "chars": 0,
+   "sections": 0,
+   "ver": "20261011_0605"
+  }
+ },
+ "kd_fVLQK2": {
+  "link_id": "ciGBytfVLQK2",
+  "title": "cas-README.md",
+  "history": [
+   {
+    "ver": "20261011_0605",
+    "ts": "2026-10-11T06:05:05+0800",
+    "hash": "794e9594ee254fa9cc7ae474",
+    "chars": 4667,
+    "lines": 143,
+    "sections": 1,
+    "file_id": "s5pibqvnmxMGZhZrhDEHrxUtJA9AjRNwC",
+    "drive_id": "3179383265",
+    "changed": true,
+    "diff": null
+   }
+  ],
+  "latest": {
+   "hash": "794e9594ee254fa9cc7ae474",
+   "chars": 4667,
+   "sections": 1,
+   "ver": "20261011_0605"
+  }
+ },
+ "kd_3tokLS": {
+  "link_id": "cv39xZ3tokLS",
+  "title": "cv39xZ3tokLS",
+  "history": [
+   {
+    "ver": "20261011_0605",
+    "ts": "2026-10-11T06:05:06+0800",
+    "hash": "a69f73cca23a9ac5c8b567dc",
+    "chars": 0,
+    "lines": 0,
+    "sections": 0,
+    "file_id": null,
+    "drive_id": null,
+    "changed": true,
+    "diff": null
+   }
+  ],
+  "latest": {
+   "hash": "a69f73cca23a9ac5c8b567dc",
+   "chars": 0,
+   "sections": 0,
+   "ver": "20261011_0605"
+  }
+ },
+ "kd_kNfY4v": {
+  "link_id": "cgdG8mkNfY4v",
+  "title": "cgdG8mkNfY4v",
+  "history": [
+   {
+    "ver": "20261011_0605",
+    "ts": "2026-10-11T06:05:06+0800",
+    "hash": "a69f73cca23a9ac5c8b567dc",
+    "chars": 0,
+    "lines": 0,
+    "sections": 0,
+    "file_id": null,
+    "drive_id": null,
+    "changed": true,
+    "diff": null
+   }
+  ],
+  "latest": {
+   "hash": "a69f73cca23a9ac5c8b567dc",
+   "chars": 0,
+   "sections": 0,
+   "ver": "20261011_0605"
+  }
+ },
+ "kd_bDvheJ": {
+  "link_id": "cqf2c0bDvheJ",
+  "title": "cqf2c0bDvheJ",
+  "history": [
+   {
+    "ver": "20261011_0605",
+    "ts": "2026-10-11T06:05:07+0800",
+    "hash": "a69f73cca23a9ac5c8b567dc",
+    "chars": 0,
+    "lines": 0,
+    "sections": 0,
+    "file_id": null,
+    "drive_id": null,
+    "changed": true,
+    "diff": null
+   }
+  ],
+  "latest": {
+   "hash": "a69f73cca23a9ac5c8b567dc",
+   "chars": 0,
+   "sections": 0,
+   "ver": "20261011_0605"
+  }
+ },
+ "kd_SaGlIe": {
+  "link_id": "ci0EY4SaGlIe",
+  "title": "ci0EY4SaGlIe",
+  "history": [
+   {
+    "ver": "20261011_0605",
+    "ts": "2026-10-11T06:05:07+0800",
+    "hash": "a69f73cca23a9ac5c8b567dc",
+    "chars": 0,
+    "lines": 0,
+    "sections": 0,
+    "file_id": null,
+    "drive_id": null,
+    "changed": true,
+    "diff": null
+   }
+  ],
+  "latest": {
+   "hash": "a69f73cca23a9ac5c8b567dc",
+   "chars": 0,
+   "sections": 0,
+   "ver": "20261011_0605"
+  }
+ },
+ "kd_eErnsE": {
+  "link_id": "cffcRGeErnsE",
+  "title": "cffcRGeErnsE",
+  "history": [
+   {
+    "ver": "20261011_0605",
+    "ts": "2026-10-11T06:05:07+0800",
+    "hash": "a69f73cca23a9ac5c8b567dc",
+    "chars": 0,
+    "lines": 0,
+    "sections": 0,
+    "file_id": null,
+    "drive_id": null,
+    "changed": true,
+    "diff": null
+   }
+  ],
+  "latest": {
+   "hash": "a69f73cca23a9ac5c8b567dc",
+   "chars": 0,
+   "sections": 0,
+   "ver": "20261011_0605"
+  }
+ },
+ "kd_AgjCc6": {
+  "link_id": "cuMbfAAgjCc6",
+  "title": "cuMbfAAgjCc6",
+  "history": [
+   {
+    "ver": "20261011_0605",
+    "ts": "2026-10-11T06:05:08+0800",
+    "hash": "a69f73cca23a9ac5c8b567dc",
+    "chars": 0,
+    "lines": 0,
+    "sections": 0,
+    "file_id": null,
+    "drive_id": null,
+    "changed": true,
+    "diff": null
+   }
+  ],
+  "latest": {
+   "hash": "a69f73cca23a9ac5c8b567dc",
+   "chars": 0,
+   "sections": 0,
+   "ver": "20261011_0605"
+  }
+ },
+ "kd_qUq7TM": {
+  "link_id": "cdc4tzqUq7TM",
+  "title": "cdc4tzqUq7TM",
+  "history": [
+   {
+    "ver": "20261011_0605",
+    "ts": "2026-10-11T06:05:09+0800",
+    "hash": "a69f73cca23a9ac5c8b567dc",
+    "chars": 0,
+    "lines": 0,
+    "sections": 0,
+    "file_id": null,
+    "drive_id": null,
+    "changed": true,
+    "diff": null
+   }
+  ],
+  "latest": {
+   "hash": "a69f73cca23a9ac5c8b567dc",
+   "chars": 0,
+   "sections": 0,
+   "ver": "20261011_0605"
+  }
+ },
+ "kd_lzBOZg": {
+  "link_id": "cbF9UrlzBOZg",
+  "title": "cbF9UrlzBOZg",
+  "history": [
+   {
+    "ver": "20261011_0605",
+    "ts": "2026-10-11T06:05:10+0800",
+    "hash": "a69f73cca23a9ac5c8b567dc",
+    "chars": 0,
+    "lines": 0,
+    "sections": 0,
+    "file_id": null,
+    "drive_id": null,
+    "changed": true,
+    "diff": null
+   }
+  ],
+  "latest": {
+   "hash": "a69f73cca23a9ac5c8b567dc",
+   "chars": 0,
+   "sections": 0,
+   "ver": "20261011_0605"
+  }
+ },
+ "kd_5jnZoB": {
+  "link_id": "cvoWi15jnZoB",
+  "title": "cvoWi15jnZoB",
+  "history": [
+   {
+    "ver": "20261011_0605",
+    "ts": "2026-10-11T06:05:10+0800",
+    "hash": "a69f73cca23a9ac5c8b567dc",
+    "chars": 0,
+    "lines": 0,
+    "sections": 0,
+    "file_id": null,
+    "drive_id": null,
+    "changed": true,
+    "diff": null
+   }
+  ],
+  "latest": {
+   "hash": "a69f73cca23a9ac5c8b567dc",
+   "chars": 0,
+   "sections": 0,
+   "ver": "20261011_0605"
+  }
+ },
+ "kd_jkaJB0": {
+  "link_id": "ceLvWjjkaJB0",
+  "title": "cas-README-probe4.md",
+  "history": [
+   {
+    "ver": "20261011_0605",
+    "ts": "2026-10-11T06:05:12+0800",
+    "hash": "794e9594ee254fa9cc7ae474",
+    "chars": 4667,
+    "lines": 143,
+    "sections": 1,
+    "file_id": "ba6w9x3UP1MLGSdgBtKArxfJrGypezAMx",
+    "drive_id": "3179383265",
+    "changed": true,
+    "diff": null
+   }
+  ],
+  "latest": {
+   "hash": "794e9594ee254fa9cc7ae474",
+   "chars": 4667,
+   "sections": 1,
+   "ver": "20261011_0605"
+  }
+ },
+ "kd_zU39QW": {
+  "link_id": "cspZxYzU39QW",
+  "title": "cspZxYzU39QW",
+  "history": [
+   {
+    "ver": "20261011_0605",
+    "ts": "2026-10-11T06:05:12+0800",
+    "hash": "a69f73cca23a9ac5c8b567dc",
+    "chars": 0,
+    "lines": 0,
+    "sections": 0,
+    "file_id": null,
+    "drive_id": null,
+    "changed": true,
+    "diff": null
+   }
+  ],
+  "latest": {
+   "hash": "a69f73cca23a9ac5c8b567dc",
+   "chars": 0,
+   "sections": 0,
+   "ver": "20261011_0605"
+  }
+ },
+ "kd_lJm4EC": {
+  "link_id": "cvjUMklJm4EC",
+  "title": "cvjUMklJm4EC",
+  "history": [
+   {
+    "ver": "20261011_0605",
+    "ts": "2026-10-11T06:05:12+0800",
+    "hash": "a69f73cca23a9ac5c8b567dc",
+    "chars": 0,
+    "lines": 0,
+    "sections": 0,
+    "file_id": null,
+    "drive_id": null,
+    "changed": true,
+    "diff": null
+   }
+  ],
+  "latest": {
+   "hash": "a69f73cca23a9ac5c8b567dc",
+   "chars": 0,
+   "sections": 0,
+   "ver": "20261011_0605"
+  }
+ },
+ "kd_LBY2wO": {
+  "link_id": "cdxGOmLBY2wO",
+  "title": "cdxGOmLBY2wO",
+  "history": [
+   {
+    "ver": "20261011_0605",
+    "ts": "2026-10-11T06:05:13+0800",
+    "hash": "a69f73cca23a9ac5c8b567dc",
+    "chars": 0,
+    "lines": 0,
+    "sections": 0,
+    "file_id": null,
+    "drive_id": null,
+    "changed": true,
+    "diff": null
+   }
+  ],
+  "latest": {
+   "hash": "a69f73cca23a9ac5c8b567dc",
+   "chars": 0,
+   "sections": 0,
+   "ver": "20261011_0605"
+  }
+ },
+ "kd_NoVHal": {
+  "link_id": "cdunDaNoVHal",
+  "title": "cdunDaNoVHal",
+  "history": [
+   {
+    "ver": "20261011_0605",
+    "ts": "2026-10-11T06:05:13+0800",
+    "hash": "a69f73cca23a9ac5c8b567dc",
+    "chars": 0,
+    "lines": 0,
+    "sections": 0,
+    "file_id": null,
+    "drive_id": null,
+    "changed": true,
+    "diff": null
+   }
+  ],
+  "latest": {
+   "hash": "a69f73cca23a9ac5c8b567dc",
+   "chars": 0,
+   "sections": 0,
+   "ver": "20261011_0605"
+  }
+ },
+ "kd_2Co9mg": {
+  "link_id": "crrPZT2Co9mg",
+  "title": "cas-README-v2.md",
+  "history": [
+   {
+    "ver": "20261011_0605",
+    "ts": "2026-10-11T06:05:14+0800",
+    "hash": "794e9594ee254fa9cc7ae474",
+    "chars": 4667,
+    "lines": 143,
+    "sections": 1,
+    "file_id": "jyuUsiyACrM5hqzZnjga1xzmBJmXb4Qka",
+    "drive_id": "3179383265",
+    "changed": true,
+    "diff": null
+   }
+  ],
+  "latest": {
+   "hash": "794e9594ee254fa9cc7ae474",
+   "chars": 4667,
+   "sections": 1,
+   "ver": "20261011_0605"
+  }
+ },
+ "kd_fqPwoa": {
+  "link_id": "cucq8efqPwoa",
+  "title": "cas-README-v3.md",
+  "history": [
+   {
+    "ver": "20261011_0605",
+    "ts": "2026-10-11T06:05:15+0800",
+    "hash": "4fc9abd21804fc1049afb69a",
+    "chars": 6051,
+    "lines": 181,
+    "sections": 1,
+    "file_id": "sgtMygYh11MQCF4oJcRVrxsgj1UTvc7GN",
+    "drive_id": "3179383265",
+    "changed": true,
+    "diff": null
+   }
+  ],
+  "latest": {
+   "hash": "4fc9abd21804fc1049afb69a",
+   "chars": 6051,
+   "sections": 1,
+   "ver": "20261011_0605"
+  }
+ },
+ "kd_jVHafj": {
+  "link_id": "cezpdkjVHafj",
+  "title": "cezpdkjVHafj",
+  "history": [
+   {
+    "ver": "20261011_0605",
+    "ts": "2026-10-11T06:05:15+0800",
+    "hash": "a69f73cca23a9ac5c8b567dc",
+    "chars": 0,
+    "lines": 0,
+    "sections": 0,
+    "file_id": null,
+    "drive_id": null,
+    "changed": true,
+    "diff": null
+   }
+  ],
+  "latest": {
+   "hash": "a69f73cca23a9ac5c8b567dc",
+   "chars": 0,
+   "sections": 0,
+   "ver": "20261011_0605"
+  }
+ },
+ "kd_8zBMNg": {
+  "link_id": "cdCXBr8zBMNg",
+  "title": "cdCXBr8zBMNg",
+  "history": [
+   {
+    "ver": "20261011_0605",
+    "ts": "2026-10-11T06:05:16+0800",
+    "hash": "a69f73cca23a9ac5c8b567dc",
+    "chars": 0,
+    "lines": 0,
+    "sections": 0,
+    "file_id": null,
+    "drive_id": null,
+    "changed": true,
+    "diff": null
+   }
+  ],
+  "latest": {
+   "hash": "a69f73cca23a9ac5c8b567dc",
+   "chars": 0,
+   "sections": 0,
+   "ver": "20261011_0605"
+  }
+ },
+ "kd_D5fhrb": {
+  "link_id": "ciudQND5fhrb",
+  "title": "cas-README-r4.md",
+  "history": [
+   {
+    "ver": "20261011_0605",
+    "ts": "2026-10-11T06:05:17+0800",
+    "hash": "4fc9abd21804fc1049afb69a",
+    "chars": 6051,
+    "lines": 181,
+    "sections": 1,
+    "file_id": "do1Qpd9Uw1M3LrrwprNY1xpJiwa41YY35",
+    "drive_id": "3179383265",
+    "changed": true,
+    "diff": null
+   }
+  ],
+  "latest": {
+   "hash": "4fc9abd21804fc1049afb69a",
+   "chars": 6051,
+   "sections": 1,
+   "ver": "20261011_0605"
+  }
+ },
+ "kd_6sOmKL": {
+  "link_id": "cf7r286sOmKL",
+  "title": "cf7r286sOmKL",
+  "history": [
+   {
+    "ver": "20261011_0605",
+    "ts": "2026-10-11T06:05:17+0800",
+    "hash": "a69f73cca23a9ac5c8b567dc",
+    "chars": 0,
+    "lines": 0,
+    "sections": 0,
+    "file_id": null,
+    "drive_id": null,
+    "changed": true,
+    "diff": null
+   }
+  ],
+  "latest": {
+   "hash": "a69f73cca23a9ac5c8b567dc",
+   "chars": 0,
+   "sections": 0,
+   "ver": "20261011_0605"
+  }
+ },
+ "kd_agYgXZ": {
+  "link_id": "cmQqOCagYgXZ",
+  "title": "cmQqOCagYgXZ",
+  "history": [
+   {
+    "ver": "20261011_0605",
+    "ts": "2026-10-11T06:05:18+0800",
+    "hash": "a69f73cca23a9ac5c8b567dc",
+    "chars": 0,
+    "lines": 0,
+    "sections": 0,
+    "file_id": null,
+    "drive_id": null,
+    "changed": true,
+    "diff": null
+   }
+  ],
+  "latest": {
+   "hash": "a69f73cca23a9ac5c8b567dc",
+   "chars": 0,
+   "sections": 0,
+   "ver": "20261011_0605"
+  }
+ },
+ "kd_IocCPu": {
+  "link_id": "chQcmDIocCPu",
+  "title": "chQcmDIocCPu",
+  "history": [
+   {
+    "ver": "20261011_0605",
+    "ts": "2026-10-11T06:05:18+0800",
+    "hash": "a69f73cca23a9ac5c8b567dc",
+    "chars": 0,
+    "lines": 0,
+    "sections": 0,
+    "file_id": null,
+    "drive_id": null,
+    "changed": true,
+    "diff": null
+   }
+  ],
+  "latest": {
+   "hash": "a69f73cca23a9ac5c8b567dc",
+   "chars": 0,
+   "sections": 0,
+   "ver": "20261011_0605"
+  }
+ },
+ "kd_9WmKjo": {
+  "link_id": "cvw6Dv9WmKjo",
+  "title": "cvw6Dv9WmKjo",
+  "history": [
+   {
+    "ver": "20261011_0605",
+    "ts": "2026-10-11T06:05:18+0800",
+    "hash": "a69f73cca23a9ac5c8b567dc",
+    "chars": 0,
+    "lines": 0,
+    "sections": 0,
+    "file_id": null,
+    "drive_id": null,
+    "changed": true,
+    "diff": null
+   }
+  ],
+  "latest": {
+   "hash": "a69f73cca23a9ac5c8b567dc",
+   "chars": 0,
+   "sections": 0,
+   "ver": "20261011_0605"
+  }
+ },
+ "kd_QY0v5m": {
+  "link_id": "cmM0SCQY0v5m",
+  "title": "cmM0SCQY0v5m",
+  "history": [
+   {
+    "ver": "20261011_0605",
+    "ts": "2026-10-11T06:05:19+0800",
+    "hash": "a69f73cca23a9ac5c8b567dc",
+    "chars": 0,
+    "lines": 0,
+    "sections": 0,
+    "file_id": null,
+    "drive_id": null,
+    "changed": true,
+    "diff": null
+   }
+  ],
+  "latest": {
+   "hash": "a69f73cca23a9ac5c8b567dc",
+   "chars": 0,
+   "sections": 0,
+   "ver": "20261011_0605"
+  }
+ },
+ "kd_H1uyWM": {
+  "link_id": "ctmHXxH1uyWM",
+  "title": "ctmHXxH1uyWM",
+  "history": [
+   {
+    "ver": "20261011_0605",
+    "ts": "2026-10-11T06:05:19+0800",
+    "hash": "a69f73cca23a9ac5c8b567dc",
+    "chars": 0,
+    "lines": 0,
+    "sections": 0,
+    "file_id": null,
+    "drive_id": null,
+    "changed": true,
+    "diff": null
+   }
+  ],
+  "latest": {
+   "hash": "a69f73cca23a9ac5c8b567dc",
+   "chars": 0,
+   "sections": 0,
+   "ver": "20261011_0605"
+  }
+ },
+ "kd_4bqOEP": {
+  "link_id": "chJvta4bqOEP",
+  "title": "chJvta4bqOEP",
+  "history": [
+   {
+    "ver": "20261011_0605",
+    "ts": "2026-10-11T06:05:19+0800",
+    "hash": "a69f73cca23a9ac5c8b567dc",
+    "chars": 0,
+    "lines": 0,
+    "sections": 0,
+    "file_id": null,
+    "drive_id": null,
+    "changed": true,
+    "diff": null
+   }
+  ],
+  "latest": {
+   "hash": "a69f73cca23a9ac5c8b567dc",
+   "chars": 0,
+   "sections": 0,
+   "ver": "20261011_0605"
+  }
+ },
+ "kd_hydtAO": {
+  "link_id": "cmOtG0hydtAO",
+  "title": "cmOtG0hydtAO",
+  "history": [
+   {
+    "ver": "20261011_0605",
+    "ts": "2026-10-11T06:05:20+0800",
+    "hash": "a69f73cca23a9ac5c8b567dc",
+    "chars": 0,
+    "lines": 0,
+    "sections": 0,
+    "file_id": null,
+    "drive_id": null,
+    "changed": true,
+    "diff": null
+   }
+  ],
+  "latest": {
+   "hash": "a69f73cca23a9ac5c8b567dc",
+   "chars": 0,
+   "sections": 0,
+   "ver": "20261011_0605"
+  }
+ },
+ "kd_m7Zimz": {
+  "link_id": "ciPCcnm7Zimz",
+  "title": "ciPCcnm7Zimz",
+  "history": [
+   {
+    "ver": "20261011_0605",
+    "ts": "2026-10-11T06:05:20+0800",
+    "hash": "a69f73cca23a9ac5c8b567dc",
+    "chars": 0,
+    "lines": 0,
+    "sections": 0,
+    "file_id": null,
+    "drive_id": null,
+    "changed": true,
+    "diff": null
+   }
+  ],
+  "latest": {
+   "hash": "a69f73cca23a9ac5c8b567dc",
+   "chars": 0,
+   "sections": 0,
+   "ver": "20261011_0605"
+  }
+ },
+ "kd_wzu4E1": {
+  "link_id": "cg6d59wzu4E1",
+  "title": "cg6d59wzu4E1",
+  "history": [
+   {
+    "ver": "20261011_0605",
+    "ts": "2026-10-11T06:05:20+0800",
+    "hash": "a69f73cca23a9ac5c8b567dc",
+    "chars": 0,
+    "lines": 0,
+    "sections": 0,
+    "file_id": null,
+    "drive_id": null,
+    "changed": true,
+    "diff": null
+   }
+  ],
+  "latest": {
+   "hash": "a69f73cca23a9ac5c8b567dc",
+   "chars": 0,
+   "sections": 0,
+   "ver": "20261011_0605"
+  }
+ },
+ "kd_QeWtLY": {
+  "link_id": "cnZ8bVQeWtLY",
+  "title": "cnZ8bVQeWtLY",
+  "history": [
+   {
+    "ver": "20261011_0605",
+    "ts": "2026-10-11T06:05:21+0800",
+    "hash": "a69f73cca23a9ac5c8b567dc",
+    "chars": 0,
+    "lines": 0,
+    "sections": 0,
+    "file_id": null,
+    "drive_id": null,
+    "changed": true,
+    "diff": null
+   }
+  ],
+  "latest": {
+   "hash": "a69f73cca23a9ac5c8b567dc",
+   "chars": 0,
+   "sections": 0,
+   "ver": "20261011_0605"
+  }
+ },
+ "kd_BXHDnU": {
+  "link_id": "cifKITBXHDnU",
+  "title": "cifKITBXHDnU",
+  "history": [
+   {
+    "ver": "20261011_0605",
+    "ts": "2026-10-11T06:05:22+0800",
+    "hash": "a69f73cca23a9ac5c8b567dc",
+    "chars": 0,
+    "lines": 0,
+    "sections": 0,
+    "file_id": null,
+    "drive_id": null,
+    "changed": true,
+    "diff": null
+   }
+  ],
+  "latest": {
+   "hash": "a69f73cca23a9ac5c8b567dc",
+   "chars": 0,
+   "sections": 0,
+   "ver": "20261011_0605"
+  }
+ },
+ "kd_sVcQvf": {
+  "link_id": "cjIlsJsVcQvf",
+  "title": "cjIlsJsVcQvf",
+  "history": [
+   {
+    "ver": "20261011_0605",
+    "ts": "2026-10-11T06:05:22+0800",
+    "hash": "a69f73cca23a9ac5c8b567dc",
+    "chars": 0,
+    "lines": 0,
+    "sections": 0,
+    "file_id": null,
+    "drive_id": null,
+    "changed": true,
+    "diff": null
+   }
+  ],
+  "latest": {
+   "hash": "a69f73cca23a9ac5c8b567dc",
+   "chars": 0,
+   "sections": 0,
+   "ver": "20261011_0605"
+  }
+ },
+ "kd_C0CiC7": {
+  "link_id": "cgYlYIC0CiC7",
+  "title": "117号令执行件_DF-ORD-2026-1005-IMGUI-01.otl",
+  "history": [
+   {
+    "ver": "20261011_0605",
+    "ts": "2026-10-11T06:05:23+0800",
+    "hash": "bc5306bfc72a201897e0abc4",
+    "chars": 2043,
+    "lines": 46,
+    "sections": 11,
+    "file_id": "mD22txcTtxMM5sSUJJVN1x1SpTsLqeFDt",
+    "drive_id": "3179383265",
+    "changed": true,
+    "diff": null
+   }
+  ],
+  "latest": {
+   "hash": "bc5306bfc72a201897e0abc4",
+   "chars": 2043,
+   "sections": 11,
+   "ver": "20261011_0605"
+  }
+ },
+ "kd_m7iuHh": {
+  "link_id": "ciNkmtm7iuHh",
+  "title": "118号令执行件_DF-ORD-2026-1005-SDD-01.otl",
+  "history": [
+   {
+    "ver": "20261011_0605",
+    "ts": "2026-10-11T06:05:24+0800",
+    "hash": "9c32a3357989eb9aac3baaa8",
+    "chars": 1898,
+    "lines": 30,
+    "sections": 9,
+    "file_id": "4HrtQhWVMrMRomtLc7EHrxPgkkTDDEGbE",
+    "drive_id": "3179383265",
+    "changed": true,
+    "diff": null
+   }
+  ],
+  "latest": {
+   "hash": "9c32a3357989eb9aac3baaa8",
+   "chars": 1898,
+   "sections": 9,
+   "ver": "20261011_0605"
+  }
+ },
+ "kd_1bQ1Sw": {
+  "link_id": "cjTk5A1bQ1Sw",
+  "title": "Kimi 产物台账.otl",
+  "history": [
+   {
+    "ver": "20261011_0605",
+    "ts": "2026-10-11T06:05:25+0800",
+    "hash": "28cb561a5702824eda923fa3",
+    "chars": 1305,
+    "lines": 16,
+    "sections": 3,
+    "file_id": "F2ZPUq2ZB1MMhN6wghJmxxYjoLQDPLgvL",
+    "drive_id": "3179383265",
+    "changed": true,
+    "diff": null
+   }
+  ],
+  "latest": {
+   "hash": "28cb561a5702824eda923fa3",
+   "chars": 1305,
+   "sections": 3,
+   "ver": "20261011_0605"
+  }
+ },
+ "kd_kEw89d": {
+  "link_id": "crmpKYkEw89d",
+  "title": "Kimi 产物台账(1).otl",
+  "history": [
+   {
+    "ver": "20261011_0605",
+    "ts": "2026-10-11T06:05:26+0800",
+    "hash": "28cb561a5702824eda923fa3",
+    "chars": 1305,
+    "lines": 16,
+    "sections": 3,
+    "file_id": "me5RH5hx3rMdRUEufSpi1xvDdUfoCYaNs",
+    "drive_id": "3179383265",
+    "changed": true,
+    "diff": null
+   }
+  ],
+  "latest": {
+   "hash": "28cb561a5702824eda923fa3",
+   "chars": 1305,
+   "sections": 3,
+   "ver": "20261011_0605"
+  }
+ },
+ "kd_nUZuBi": {
+  "link_id": "cun6kZnUZuBi",
+  "title": "Kimi 产物台账(2).otl",
+  "history": [
+   {
+    "ver": "20261011_0605",
+    "ts": "2026-10-11T06:05:27+0800",
+    "hash": "28cb561a5702824eda923fa3",
+    "chars": 1305,
+    "lines": 16,
+    "sections": 3,
+    "file_id": "zC2B4woyL1MBgnyTfkTS1xD8wte423kZr",
+    "drive_id": "3179383265",
+    "changed": true,
+    "diff": null
+   }
+  ],
+  "latest": {
+   "hash": "28cb561a5702824eda923fa3",
+   "chars": 1305,
+   "sections": 3,
+   "ver": "20261011_0605"
+  }
+ },
+ "kd_rgOMi7": {
+  "link_id": "co4xQbrgOMi7",
+  "title": "Kimi 产物台账.docx",
+  "history": [
+   {
+    "ver": "20261011_0605",
+    "ts": "2026-10-11T06:05:28+0800",
+    "hash": "cb7d00608e26fce8a24d38b7",
+    "chars": 1293,
+    "lines": 15,
+    "sections": 2,
+    "file_id": "dwsWoWR891MkHzAQtGborxR4TAEJTYWn8",
+    "drive_id": "3179383265",
+    "changed": true,
+    "diff": null
+   }
+  ],
+  "latest": {
+   "hash": "cb7d00608e26fce8a24d38b7",
+   "chars": 1293,
+   "sections": 2,
+   "ver": "20261011_0605"
+  }
+ },
+ "kd_lGgqkZ": {
+  "link_id": "ckziJmlGgqkZ",
+  "title": "quick-start.pdf",
+  "history": [
+   {
+    "ver": "20261011_0605",
+    "ts": "2026-10-11T06:05:31+0800",
+    "hash": "0103cba0246f98270f000f93",
+    "chars": 14227,
+    "lines": 166,
+    "sections": 14,
+    "file_id": "xurEWrX261M3TZr5MqFurxq9qCkk164E7",
+    "drive_id": "3179383265",
+    "changed": true,
+    "diff": null
+   }
+  ],
+  "latest": {
+   "hash": "0103cba0246f98270f000f93",
+   "chars": 14227,
+   "sections": 14,
+   "ver": "20261011_0605"
+  }
+ },
+ "kd_InZpUz": {
+  "link_id": "ccewGGInZpUz",
+  "title": "仓颉remember-vs-learn_BOOK_OVERVIEW.md",
+  "history": [
+   {
+    "ver": "20261011_0605",
+    "ts": "2026-10-11T06:05:32+0800",
+    "hash": "686b634e505a97421d077c30",
+    "chars": 5415,
+    "lines": 155,
+    "sections": 1,
+    "file_id": "4Nz8Ve5yL1MnwNwi9Emc1xuGqwNF1PHMr",
+    "drive_id": "3179383265",
+    "changed": true,
+    "diff": null
+   }
+  ],
+  "latest": {
+   "hash": "686b634e505a97421d077c30",
+   "chars": 5415,
+   "sections": 1,
+   "ver": "20261011_0605"
+  }
+ },
+ "kd_6cD964": {
+  "link_id": "ccBHn46cD964",
+  "title": "仓颉remember-vs-learn_audit_expert.md",
+  "history": [
+   {
+    "ver": "20261011_0605",
+    "ts": "2026-10-11T06:05:33+0800",
+    "hash": "1847349514860691b713c4de",
+    "chars": 4596,
+    "lines": 112,
+    "sections": 1,
+    "file_id": "pJNWVMiRpxMwdG6GTfbvxxvZ7Qot2sSUB",
+    "drive_id": "3179383265",
+    "changed": true,
+    "diff": null
+   }
+  ],
+  "latest": {
+   "hash": "1847349514860691b713c4de",
+   "chars": 4596,
+   "sections": 1,
+   "ver": "20261011_0605"
+  }
+ },
+ "kd_Uf8TV0": {
+  "link_id": "cnckTEUf8TV0",
+  "title": "仓颉remember-vs-learn_audit_blogger.md",
+  "history": [
+   {
+    "ver": "20261011_0605",
+    "ts": "2026-10-11T06:05:34+0800",
+    "hash": "180469f8bb7a990bdc7aa2aa",
+    "chars": 5043,
+    "lines": 171,
+    "sections": 1,
+    "file_id": "qEavhEStbxM8oxnUtsY11x187NdmrE7Rf",
+    "drive_id": "3179383265",
+    "changed": true,
+    "diff": null
+   }
+  ],
+  "latest": {
+   "hash": "180469f8bb7a990bdc7aa2aa",
+   "chars": 5043,
+   "sections": 1,
+   "ver": "20261011_0605"
+  }
+ },
+ "kd_pgX3Bg": {
+  "link_id": "ccfyuspgX3Bg",
+  "title": "启信慧眼-华为云OfficeAce整合方案提案.docx.doc",
+  "history": [
+   {
+    "ver": "20261011_0605",
+    "ts": "2026-10-11T06:05:35+0800",
+    "hash": "274ef93eebd13205b6edfde2",
+    "chars": 9463,
+    "lines": 184,
+    "sections": 29,
+    "file_id": "MF3UuCNmF1MBtrW2B2gdrxRa911CeuyWo",
+    "drive_id": "3179383265",
+    "changed": true,
+    "diff": null
+   }
+  ],
+  "latest": {
+   "hash": "274ef93eebd13205b6edfde2",
+   "chars": 9463,
+   "sections": 29,
+   "ver": "20261011_0605"
+  }
+ },
+ "kd_umTYcj": {
+  "link_id": "cazxjQumTYcj",
+  "title": "萃取513_catalog.txt",
+  "history": [
+   {
+    "ver": "20261011_0605",
+    "ts": "2026-10-11T06:05:36+0800",
+    "hash": "6127602bdaf3486776dc42fd",
+    "chars": 36582,
+    "lines": 91,
+    "sections": 1,
+    "file_id": "A7gGoXF8N1MmFZ5kgn2Z1xNayVTcKMGxC",
+    "drive_id": "3179383265",
+    "changed": true,
+    "diff": null
+   }
+  ],
+  "latest": {
+   "hash": "6127602bdaf3486776dc42fd",
+   "chars": 36582,
+   "sections": 1,
+   "ver": "20261011_0605"
+  }
+ },
+ "kd_sLta8T": {
+  "link_id": "cdrUcGsLta8T",
+  "title": "cdrUcGsLta8T",
+  "history": [
+   {
+    "ver": "20261011_0605",
+    "ts": "2026-10-11T06:05:37+0800",
+    "hash": "a69f73cca23a9ac5c8b567dc",
+    "chars": 0,
+    "lines": 0,
+    "sections": 0,
+    "file_id": null,
+    "drive_id": null,
+    "changed": true,
+    "diff": null
+   }
+  ],
+  "latest": {
+   "hash": "a69f73cca23a9ac5c8b567dc",
+   "chars": 0,
+   "sections": 0,
+   "ver": "20261011_0605"
+  }
+ },
+ "kd_91zz9m": {
+  "link_id": "caualx91zz9m",
+  "title": "Kimi 产物台账.md",
+  "history": [
+   {
+    "ver": "20261011_0605",
+    "ts": "2026-10-11T06:05:38+0800",
+    "hash": "419a9cf8a2e9794008038977",
+    "chars": 1352,
+    "lines": 17,
+    "sections": 1,
+    "file_id": "e6k6siTaJrMvjqMbKspQrxxBa1L7z7GoM",
+    "drive_id": "3179383265",
+    "changed": true,
+    "diff": null
+   }
+  ],
+  "latest": {
+   "hash": "419a9cf8a2e9794008038977",
+   "chars": 1352,
+   "sections": 1,
+   "ver": "20261011_0605"
   }
  }
 }
