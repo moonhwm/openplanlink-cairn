@@ -84,6 +84,966 @@
    "ver": "20261011_0515"
   }
  },
- "_updated": "2026-10-11T05:15:20+0800",
- "_note": "可微（节级哈希）可导（全史 manifest）；拉取工具 kdocs-cli v2.6.13；凭据零落盘"
+ "_updated": "2026-10-11T05:29:15+0800",
+ "_note": "可微（节级 sha3）可导（全史 manifest）；工具 kdocs-cli v2.6.13；凭据零落盘",
+ "kd_PoRdSw": {
+  "link_id": "cubofOPoRdSw",
+  "title": "2026-9-25-OpenPlanLink 润色-1 (3).docx",
+  "history": [
+   {
+    "ver": "20261011_0528",
+    "ts": "2026-10-11T05:28:10+0800",
+    "hash": "b5b46ec251e7730321cea3d6",
+    "chars": 259976,
+    "lines": 1577,
+    "sections": 127,
+    "file_id": "2Xi4dHFGc1MkCZ2V8ZuL1xmX2c62ZFe9b",
+    "drive_id": "3179383265",
+    "changed": true,
+    "diff": null
+   }
+  ],
+  "latest": {
+   "hash": "b5b46ec251e7730321cea3d6",
+   "chars": 259976,
+   "sections": 127,
+   "ver": "20261011_0528"
+  }
+ },
+ "kd_PjbbOc": {
+  "link_id": "clFOjVPjbbOc",
+  "title": "跨生态Agent to Agent协作网络体系建设方案.otl",
+  "history": [
+   {
+    "ver": "20261011_0528",
+    "ts": "2026-10-11T05:28:12+0800",
+    "hash": "08d15c08a2b3cfe0dd521b0f",
+    "chars": 14012,
+    "lines": 144,
+    "sections": 32,
+    "file_id": "jXhnxUQ2E1M9akBi3FTP1xycpYMe4BdTv",
+    "drive_id": "3179383265",
+    "changed": true,
+    "diff": null
+   }
+  ],
+  "latest": {
+   "hash": "08d15c08a2b3cfe0dd521b0f",
+   "chars": 14012,
+   "sections": 32,
+   "ver": "20261011_0528"
+  }
+ },
+ "kd_ILF079": {
+  "link_id": "cboAFwILF079",
+  "title": "ima与A2A约束下开源协议补充论证.docx",
+  "history": [
+   {
+    "ver": "20261011_0528",
+    "ts": "2026-10-11T05:28:12+0800",
+    "hash": "0ef1b323aabb67b2689e8eb8",
+    "chars": 13693,
+    "lines": 128,
+    "sections": 21,
+    "file_id": "eYDe2H47UxMFtpCPzNYkrx5KTGCkqLfxN",
+    "drive_id": "3179383265",
+    "changed": true,
+    "diff": null
+   }
+  ],
+  "latest": {
+   "hash": "0ef1b323aabb67b2689e8eb8",
+   "chars": 13693,
+   "sections": 21,
+   "ver": "20261011_0528"
+  }
+ },
+ "kd_R7LW83": {
+  "link_id": "ceuKopR7LW83",
+  "title": "ceuKopR7LW83",
+  "history": [
+   {
+    "ver": "20261011_0528",
+    "ts": "2026-10-11T05:28:13+0800",
+    "hash": "a69f73cca23a9ac5c8b567dc",
+    "chars": 0,
+    "lines": 0,
+    "sections": 0,
+    "file_id": null,
+    "drive_id": null,
+    "changed": true,
+    "diff": null
+   }
+  ],
+  "latest": {
+   "hash": "a69f73cca23a9ac5c8b567dc",
+   "chars": 0,
+   "sections": 0,
+   "ver": "20261011_0528"
+  }
+ },
+ "kd_McccFi": {
+  "link_id": "ci2ybbMcccFi",
+  "title": "OpenPlanLink全局声明与Agent-to-Agent网络建设纲要.otl",
+  "history": [
+   {
+    "ver": "20261011_0528",
+    "ts": "2026-10-11T05:28:14+0800",
+    "hash": "3ad6bb253f2fa63add8f196c",
+    "chars": 37453,
+    "lines": 202,
+    "sections": 36,
+    "file_id": "qh2ZY7frK1MHsQrHLGoorxmTBXy32LRpf",
+    "drive_id": "3179383265",
+    "changed": true,
+    "diff": null
+   }
+  ],
+  "latest": {
+   "hash": "3ad6bb253f2fa63add8f196c",
+   "chars": 37453,
+   "sections": 36,
+   "ver": "20261011_0528"
+  }
+ },
+ "kd_yb4eiI": {
+  "link_id": "cgeO17yb4eiI",
+  "title": "A2A算力分配与分布式协同深化案_v0.1_2026-10-05.otl",
+  "history": [
+   {
+    "ver": "20261011_0528",
+    "ts": "2026-10-11T05:28:15+0800",
+    "hash": "cc40159396122d45deac9cd5",
+    "chars": 3428,
+    "lines": 75,
+    "sections": 9,
+    "file_id": "2LEkV6k4Q9MDbXJMVRPnxxchiKTyKdB6j",
+    "drive_id": "3179383265",
+    "changed": true,
+    "diff": null
+   }
+  ],
+  "latest": {
+   "hash": "cc40159396122d45deac9cd5",
+   "chars": 3428,
+   "sections": 9,
+   "ver": "20261011_0528"
+  }
+ },
+ "kd_5rrZi1": {
+  "link_id": "cjdFFj5rrZi1",
+  "title": "萃取513_INDEX.md",
+  "history": [
+   {
+    "ver": "20261011_0528",
+    "ts": "2026-10-11T05:28:16+0800",
+    "hash": "2e19c3114232bcfca8f55fee",
+    "chars": 5204,
+    "lines": 101,
+    "sections": 1,
+    "file_id": "8ochymTxFrMNE2tj9qTArxwqGZWXsu6pf",
+    "drive_id": "3179383265",
+    "changed": true,
+    "diff": null
+   }
+  ],
+  "latest": {
+   "hash": "2e19c3114232bcfca8f55fee",
+   "chars": 5204,
+   "sections": 1,
+   "ver": "20261011_0528"
+  }
+ },
+ "kd_zDaBMO": {
+  "link_id": "caBn4BzDaBMO",
+  "title": "WPS十件重读批注_k3-govdoc-seat_2026-10-05.otl",
+  "history": [
+   {
+    "ver": "20261011_0528",
+    "ts": "2026-10-11T05:28:17+0800",
+    "hash": "7b7d9e4fdf63915fbfe56efa",
+    "chars": 2933,
+    "lines": 53,
+    "sections": 9,
+    "file_id": "8iFMy9nUP1MK6mWC8DmRxxBzrtTkF5n6v",
+    "drive_id": "3179383265",
+    "changed": true,
+    "diff": null
+   }
+  ],
+  "latest": {
+   "hash": "7b7d9e4fdf63915fbfe56efa",
+   "chars": 2933,
+   "sections": 9,
+   "ver": "20261011_0528"
+  }
+ },
+ "kd_sbZsGm": {
+  "link_id": "cijGVCsbZsGm",
+  "title": "2026-9-25-OpenPlanLink 润色-1 参考附录.docx",
+  "history": [
+   {
+    "ver": "20261011_0528",
+    "ts": "2026-10-11T05:28:21+0800",
+    "hash": "b2e90f77c776eed37583befd",
+    "chars": 906844,
+    "lines": 5624,
+    "sections": 139,
+    "file_id": "adoYDtoyL1M4SNwKyE9Qxxcz1uQuytNwC",
+    "drive_id": "3179383265",
+    "changed": true,
+    "diff": null
+   }
+  ],
+  "latest": {
+   "hash": "b2e90f77c776eed37583befd",
+   "chars": 906844,
+   "sections": 139,
+   "ver": "20261011_0528"
+  }
+ },
+ "kd_BZDcsc": {
+  "link_id": "cnuuL0BZDcsc",
+  "title": "cnuuL0BZDcsc",
+  "history": [
+   {
+    "ver": "20261011_0528",
+    "ts": "2026-10-11T05:28:22+0800",
+    "hash": "a69f73cca23a9ac5c8b567dc",
+    "chars": 0,
+    "lines": 0,
+    "sections": 0,
+    "file_id": null,
+    "drive_id": null,
+    "changed": true,
+    "diff": null
+   }
+  ],
+  "latest": {
+   "hash": "a69f73cca23a9ac5c8b567dc",
+   "chars": 0,
+   "sections": 0,
+   "ver": "20261011_0528"
+  }
+ },
+ "kd_ADwbGp": {
+  "link_id": "ceWJWwADwbGp",
+  "title": "ceWJWwADwbGp",
+  "history": [
+   {
+    "ver": "20261011_0528",
+    "ts": "2026-10-11T05:28:31+0800",
+    "hash": "a69f73cca23a9ac5c8b567dc",
+    "chars": 0,
+    "lines": 0,
+    "sections": 0,
+    "file_id": null,
+    "drive_id": null,
+    "changed": true,
+    "diff": null
+   }
+  ],
+  "latest": {
+   "hash": "a69f73cca23a9ac5c8b567dc",
+   "chars": 0,
+   "sections": 0,
+   "ver": "20261011_0528"
+  }
+ },
+ "kd_lXnyDK": {
+  "link_id": "ck91uLlXnyDK",
+  "title": "ck91uLlXnyDK",
+  "history": [
+   {
+    "ver": "20261011_0528",
+    "ts": "2026-10-11T05:28:32+0800",
+    "hash": "a69f73cca23a9ac5c8b567dc",
+    "chars": 0,
+    "lines": 0,
+    "sections": 0,
+    "file_id": null,
+    "drive_id": null,
+    "changed": true,
+    "diff": null
+   }
+  ],
+  "latest": {
+   "hash": "a69f73cca23a9ac5c8b567dc",
+   "chars": 0,
+   "sections": 0,
+   "ver": "20261011_0528"
+  }
+ },
+ "kd_r6LT66": {
+  "link_id": "ct82eUr6LT66",
+  "title": "ct82eUr6LT66",
+  "history": [
+   {
+    "ver": "20261011_0528",
+    "ts": "2026-10-11T05:28:33+0800",
+    "hash": "a69f73cca23a9ac5c8b567dc",
+    "chars": 0,
+    "lines": 0,
+    "sections": 0,
+    "file_id": null,
+    "drive_id": null,
+    "changed": true,
+    "diff": null
+   }
+  ],
+  "latest": {
+   "hash": "a69f73cca23a9ac5c8b567dc",
+   "chars": 0,
+   "sections": 0,
+   "ver": "20261011_0528"
+  }
+ },
+ "kd_ycgR4J": {
+  "link_id": "cuLQR5ycgR4J",
+  "title": "cuLQR5ycgR4J",
+  "history": [
+   {
+    "ver": "20261011_0528",
+    "ts": "2026-10-11T05:28:34+0800",
+    "hash": "a69f73cca23a9ac5c8b567dc",
+    "chars": 0,
+    "lines": 0,
+    "sections": 0,
+    "file_id": null,
+    "drive_id": null,
+    "changed": true,
+    "diff": null
+   }
+  ],
+  "latest": {
+   "hash": "a69f73cca23a9ac5c8b567dc",
+   "chars": 0,
+   "sections": 0,
+   "ver": "20261011_0528"
+  }
+ },
+ "kd_2ridX9": {
+  "link_id": "co3jGF2ridX9",
+  "title": "A2A项目四件套完整文字记录_下.otl",
+  "history": [
+   {
+    "ver": "20261011_0528",
+    "ts": "2026-10-11T05:28:35+0800",
+    "hash": "d902a0153b364149e32893c8",
+    "chars": 13500,
+    "lines": 18,
+    "sections": 4,
+    "file_id": "8iz6wcYVMrM6VQjToCgB1xUdWcxVShvqe",
+    "drive_id": "3179383265",
+    "changed": true,
+    "diff": null
+   }
+  ],
+  "latest": {
+   "hash": "d902a0153b364149e32893c8",
+   "chars": 13500,
+   "sections": 4,
+   "ver": "20261011_0528"
+  }
+ },
+ "kd_8hcQMF": {
+  "link_id": "cplH408hcQMF",
+  "title": "A2A线收官总账_2026-10-05.otl",
+  "history": [
+   {
+    "ver": "20261011_0528",
+    "ts": "2026-10-11T05:28:36+0800",
+    "hash": "e1e9c673d955dbaa0025e14f",
+    "chars": 3991,
+    "lines": 101,
+    "sections": 15,
+    "file_id": "891bD4XrK1M3JUZBExXVxx5S2J53QFUPo",
+    "drive_id": "3179383265",
+    "changed": true,
+    "diff": null
+   }
+  ],
+  "latest": {
+   "hash": "e1e9c673d955dbaa0025e14f",
+   "chars": 3991,
+   "sections": 15,
+   "ver": "20261011_0528"
+  }
+ },
+ "kd_TMb2UG": {
+  "link_id": "cfUP3XTMb2UG",
+  "title": "cfUP3XTMb2UG",
+  "history": [
+   {
+    "ver": "20261011_0528",
+    "ts": "2026-10-11T05:28:37+0800",
+    "hash": "a69f73cca23a9ac5c8b567dc",
+    "chars": 0,
+    "lines": 0,
+    "sections": 0,
+    "file_id": null,
+    "drive_id": null,
+    "changed": true,
+    "diff": null
+   }
+  ],
+  "latest": {
+   "hash": "a69f73cca23a9ac5c8b567dc",
+   "chars": 0,
+   "sections": 0,
+   "ver": "20261011_0528"
+  }
+ },
+ "kd_2H8FMP": {
+  "link_id": "cjj1X42H8FMP",
+  "title": "A2A网络全面优化整合架构方案.otl",
+  "history": [
+   {
+    "ver": "20261011_0528",
+    "ts": "2026-10-11T05:28:38+0800",
+    "hash": "19af3a4a5450a45c1d2d13b3",
+    "chars": 1649,
+    "lines": 31,
+    "sections": 7,
+    "file_id": "vM771FitbxMV2uy6LsrvxxJq8GLv34DuF",
+    "drive_id": "3179383265",
+    "changed": true,
+    "diff": null
+   }
+  ],
+  "latest": {
+   "hash": "19af3a4a5450a45c1d2d13b3",
+   "chars": 1649,
+   "sections": 7,
+   "ver": "20261011_0528"
+  }
+ },
+ "kd_3QvUyd": {
+  "link_id": "ccmYOO3QvUyd",
+  "title": "A2A项目四件套完整文字记录_上.otl",
+  "history": [
+   {
+    "ver": "20261011_0528",
+    "ts": "2026-10-11T05:28:39+0800",
+    "hash": "00b46c2d1d9b8018619299b6",
+    "chars": 16386,
+    "lines": 42,
+    "sections": 3,
+    "file_id": "n5j5rzGHfrMdH8gqbZfL1xp6ex1bPyXm7",
+    "drive_id": "3179383265",
+    "changed": true,
+    "diff": null
+   }
+  ],
+  "latest": {
+   "hash": "00b46c2d1d9b8018619299b6",
+   "chars": 16386,
+   "sections": 3,
+   "ver": "20261011_0528"
+  }
+ },
+ "kd_qFxDn7": {
+  "link_id": "cg0IMPqFxDn7",
+  "title": "A2A项目四件套完整文字记录_中.otl",
+  "history": [
+   {
+    "ver": "20261011_0528",
+    "ts": "2026-10-11T05:28:40+0800",
+    "hash": "8a6a20d50ff62e858bd60b69",
+    "chars": 129730,
+    "lines": 406,
+    "sections": 22,
+    "file_id": "h3CanhaCurMAk1ABekJX1xVf53DJAad5z",
+    "drive_id": "3179383265",
+    "changed": true,
+    "diff": null
+   }
+  ],
+  "latest": {
+   "hash": "8a6a20d50ff62e858bd60b69",
+   "chars": 129730,
+   "sections": 22,
+   "ver": "20261011_0528"
+  }
+ },
+ "kd_ki2r06": {
+  "link_id": "cfBasPki2r06",
+  "title": "cfBasPki2r06",
+  "history": [
+   {
+    "ver": "20261011_0528",
+    "ts": "2026-10-11T05:28:42+0800",
+    "hash": "a69f73cca23a9ac5c8b567dc",
+    "chars": 0,
+    "lines": 0,
+    "sections": 0,
+    "file_id": null,
+    "drive_id": null,
+    "changed": true,
+    "diff": null
+   }
+  ],
+  "latest": {
+   "hash": "a69f73cca23a9ac5c8b567dc",
+   "chars": 0,
+   "sections": 0,
+   "ver": "20261011_0528"
+  }
+ },
+ "kd_TX0W1W": {
+  "link_id": "coIQr9TX0W1W",
+  "title": "coIQr9TX0W1W",
+  "history": [
+   {
+    "ver": "20261011_0528",
+    "ts": "2026-10-11T05:28:43+0800",
+    "hash": "a69f73cca23a9ac5c8b567dc",
+    "chars": 0,
+    "lines": 0,
+    "sections": 0,
+    "file_id": null,
+    "drive_id": null,
+    "changed": true,
+    "diff": null
+   }
+  ],
+  "latest": {
+   "hash": "a69f73cca23a9ac5c8b567dc",
+   "chars": 0,
+   "sections": 0,
+   "ver": "20261011_0528"
+  }
+ },
+ "kd_TYznTs": {
+  "link_id": "cm4IPhTYznTs",
+  "title": "十件文书批注_四件套上卷_DF-MIN-2026-1005-K3-03.otl",
+  "history": [
+   {
+    "ver": "20261011_0528",
+    "ts": "2026-10-11T05:28:44+0800",
+    "hash": "098666c86b78ec704c30e422",
+    "chars": 1862,
+    "lines": 42,
+    "sections": 7,
+    "file_id": "e7bWiWuaJrMJnFVqGZhjrxFswKvMrZxAt",
+    "drive_id": "3179383265",
+    "changed": true,
+    "diff": null
+   }
+  ],
+  "latest": {
+   "hash": "098666c86b78ec704c30e422",
+   "chars": 1862,
+   "sections": 7,
+   "ver": "20261011_0528"
+  }
+ },
+ "kd_X2JxkG": {
+  "link_id": "ctpxZ2X2JxkG",
+  "title": "十件文书批注_首件主DOCX母本与协同面发现_DF-MIN-2026-1005-K3-01.otl",
+  "history": [
+   {
+    "ver": "20261011_0528",
+    "ts": "2026-10-11T05:28:45+0800",
+    "hash": "d42949e05386cb75854f0e53",
+    "chars": 2043,
+    "lines": 44,
+    "sections": 7,
+    "file_id": "jVvrTHncHxMYidvbF8H7xxgM7M7c7Fc1V",
+    "drive_id": "3179383265",
+    "changed": true,
+    "diff": null
+   }
+  ],
+  "latest": {
+   "hash": "d42949e05386cb75854f0e53",
+   "chars": 2043,
+   "sections": 7,
+   "ver": "20261011_0528"
+  }
+ },
+ "kd_CF7len": {
+  "link_id": "cndYJKCF7len",
+  "title": "十件文书批注_四件套下卷_DF-MIN-2026-1005-K3-04.otl",
+  "history": [
+   {
+    "ver": "20261011_0528",
+    "ts": "2026-10-11T05:28:46+0800",
+    "hash": "8d8993a150679b69b7e4867d",
+    "chars": 2076,
+    "lines": 45,
+    "sections": 7,
+    "file_id": "PtSx6qYW8xMDkDJq58pD1xZ9BjUDFZZHM",
+    "drive_id": "3179383265",
+    "changed": true,
+    "diff": null
+   }
+  ],
+  "latest": {
+   "hash": "8d8993a150679b69b7e4867d",
+   "chars": 2076,
+   "sections": 7,
+   "ver": "20261011_0528"
+  }
+ },
+ "kd_XeLyop": {
+  "link_id": "cn8TJyXeLyop",
+  "title": "算力分配与分布式协同深化报告（暨现代化前沿网站开发实战规划）_DF-ORD-2026-1005-K3-01.otl",
+  "history": [
+   {
+    "ver": "20261011_0528",
+    "ts": "2026-10-11T05:28:47+0800",
+    "hash": "bc4fc4a07c46beaee3de63b6",
+    "chars": 3100,
+    "lines": 73,
+    "sections": 10,
+    "file_id": "b4ipncfnmxMTZrSh3NP9Bxncg6pr5Pjku",
+    "drive_id": "3179383265",
+    "changed": true,
+    "diff": null
+   }
+  ],
+  "latest": {
+   "hash": "bc4fc4a07c46beaee3de63b6",
+   "chars": 3100,
+   "sections": 10,
+   "ver": "20261011_0528"
+  }
+ },
+ "kd_c3i3WF": {
+  "link_id": "cdnTX6c3i3WF",
+  "title": "十件文书批注_蓝图跨生态不可读登记暨纲要母本_DF-MIN-2026-1005-K3-05.otl",
+  "history": [
+   {
+    "ver": "20261011_0528",
+    "ts": "2026-10-11T05:28:48+0800",
+    "hash": "1e19950631f244ad7c9104b8",
+    "chars": 2775,
+    "lines": 50,
+    "sections": 8,
+    "file_id": "RCUK8XYVMrMakZFvtMffxx47JEzezDG6L",
+    "drive_id": "3179383265",
+    "changed": true,
+    "diff": null
+   }
+  ],
+  "latest": {
+   "hash": "1e19950631f244ad7c9104b8",
+   "chars": 2775,
+   "sections": 8,
+   "ver": "20261011_0528"
+  }
+ },
+ "kd_nOPGTe": {
+  "link_id": "cbhgTvnOPGTe",
+  "title": "外部素材融合与治理条款简报.otl.md",
+  "history": [
+   {
+    "ver": "20261011_0528",
+    "ts": "2026-10-11T05:28:50+0800",
+    "hash": "f7fa0d89cb16497c5de7ca29",
+    "chars": 24445,
+    "lines": 349,
+    "sections": 1,
+    "file_id": "F426XSjh11MwAyTosK56rx28KrPWGEs98",
+    "drive_id": "3179383265",
+    "changed": true,
+    "diff": null
+   }
+  ],
+  "latest": {
+   "hash": "f7fa0d89cb16497c5de7ca29",
+   "chars": 24445,
+   "sections": 1,
+   "ver": "20261011_0528"
+  }
+ },
+ "kd_iF4XVj": {
+  "link_id": "cp0wHNiF4XVj",
+  "title": "十件文书批注_四件套中卷_DF-MIN-2026-1005-K3-02.otl",
+  "history": [
+   {
+    "ver": "20261011_0528",
+    "ts": "2026-10-11T05:28:50+0800",
+    "hash": "ff511f775a61ca7a357267de",
+    "chars": 1649,
+    "lines": 42,
+    "sections": 7,
+    "file_id": "poAXbCR4Q9MR7veVttYY1xkxMdBPyjPPo",
+    "drive_id": "3179383265",
+    "changed": true,
+    "diff": null
+   }
+  ],
+  "latest": {
+   "hash": "ff511f775a61ca7a357267de",
+   "chars": 1649,
+   "sections": 7,
+   "ver": "20261011_0528"
+  }
+ },
+ "kd_StO4UI": {
+  "link_id": "caLl83StO4UI",
+  "title": "_extract_tmp.txt",
+  "history": [
+   {
+    "ver": "20261011_0528",
+    "ts": "2026-10-11T05:28:52+0800",
+    "hash": "5ee39166a2527665f1566d30",
+    "chars": 13259,
+    "lines": 136,
+    "sections": 1,
+    "file_id": "vrJQ316891MNoszqVrRWxxQMrmyLw4LLZ",
+    "drive_id": "3179383265",
+    "changed": true,
+    "diff": null
+   }
+  ],
+  "latest": {
+   "hash": "5ee39166a2527665f1566d30",
+   "chars": 13259,
+   "sections": 1,
+   "ver": "20261011_0528"
+  }
+ },
+ "kd_moUaDk": {
+  "link_id": "ciBoOWmoUaDk",
+  "title": "ciBoOWmoUaDk",
+  "history": [
+   {
+    "ver": "20261011_0528",
+    "ts": "2026-10-11T05:28:52+0800",
+    "hash": "a69f73cca23a9ac5c8b567dc",
+    "chars": 0,
+    "lines": 0,
+    "sections": 0,
+    "file_id": null,
+    "drive_id": null,
+    "changed": true,
+    "diff": null
+   }
+  ],
+  "latest": {
+   "hash": "a69f73cca23a9ac5c8b567dc",
+   "chars": 0,
+   "sections": 0,
+   "ver": "20261011_0528"
+  }
+ },
+ "kd_lxCa4V": {
+  "link_id": "cbfHsqlxCa4V",
+  "title": "OpenPlanLink 蓝图（2026-9-25 润色-1 (3)）OTL 主文档.otl",
+  "history": [
+   {
+    "ver": "20261011_0528",
+    "ts": "2026-10-11T05:28:53+0800",
+    "hash": "d24e3dd95924073ac524759c",
+    "chars": 143523,
+    "lines": 1418,
+    "sections": 95,
+    "file_id": "8kjCk77TtxMiTYuBkyNErxVu5bfbW4j2o",
+    "drive_id": "3179383265",
+    "changed": true,
+    "diff": null
+   }
+  ],
+  "latest": {
+   "hash": "d24e3dd95924073ac524759c",
+   "chars": 143523,
+   "sections": 95,
+   "ver": "20261011_0528"
+  }
+ },
+ "kd_l0pvgs": {
+  "link_id": "ctvWcll0pvgs",
+  "title": "ctvWcll0pvgs",
+  "history": [
+   {
+    "ver": "20261011_0528",
+    "ts": "2026-10-11T05:28:54+0800",
+    "hash": "a69f73cca23a9ac5c8b567dc",
+    "chars": 0,
+    "lines": 0,
+    "sections": 0,
+    "file_id": null,
+    "drive_id": null,
+    "changed": true,
+    "diff": null
+   }
+  ],
+  "latest": {
+   "hash": "a69f73cca23a9ac5c8b567dc",
+   "chars": 0,
+   "sections": 0,
+   "ver": "20261011_0528"
+  }
+ },
+ "kd_FHR1my": {
+  "link_id": "ccVjFCFHR1my",
+  "title": "守藏席第十四巡批注_DF-PATROL-20261007-SHOUCANG-14.otl",
+  "history": [
+   {
+    "ver": "20261011_0528",
+    "ts": "2026-10-11T05:28:55+0800",
+    "hash": "b63614b7cf8d8bf730eec509",
+    "chars": 1924,
+    "lines": 72,
+    "sections": 7,
+    "file_id": "rngeFaWGc1M5pug6z48QxxT5gfB3BSgvL",
+    "drive_id": "3179383265",
+    "changed": true,
+    "diff": null
+   }
+  ],
+  "latest": {
+   "hash": "b63614b7cf8d8bf730eec509",
+   "chars": 1924,
+   "sections": 7,
+   "ver": "20261011_0528"
+  }
+ },
+ "kd_68m2Mj": {
+  "link_id": "cqfhnj68m2Mj",
+  "title": "cqfhnj68m2Mj",
+  "history": [
+   {
+    "ver": "20261011_0528",
+    "ts": "2026-10-11T05:28:55+0800",
+    "hash": "a69f73cca23a9ac5c8b567dc",
+    "chars": 0,
+    "lines": 0,
+    "sections": 0,
+    "file_id": null,
+    "drive_id": null,
+    "changed": true,
+    "diff": null
+   }
+  ],
+  "latest": {
+   "hash": "a69f73cca23a9ac5c8b567dc",
+   "chars": 0,
+   "sections": 0,
+   "ver": "20261011_0528"
+  }
+ },
+ "kd_PlZ5sI": {
+  "link_id": "cuumpvPlZ5sI",
+  "title": "manifest.json.txt",
+  "history": [
+   {
+    "ver": "20261011_0529",
+    "ts": "2026-10-11T05:29:11+0800",
+    "hash": "a27b39c415b9178aa3005877",
+    "chars": 4224942,
+    "lines": 69651,
+    "sections": 1,
+    "file_id": "PxmdiXVyL1MZsUTEVsy6rxT9K1V3WJLU1",
+    "drive_id": "50768493",
+    "changed": true,
+    "diff": null
+   }
+  ],
+  "latest": {
+   "hash": "a27b39c415b9178aa3005877",
+   "chars": 4224942,
+   "sections": 1,
+   "ver": "20261011_0529"
+  }
+ },
+ "kd_clIzqO": {
+  "link_id": "ctZUzzclIzqO",
+  "title": "quarantine_index.zip.txt",
+  "history": [
+   {
+    "ver": "20261011_0529",
+    "ts": "2026-10-11T05:29:13+0800",
+    "hash": "7f3059387884808428aa7c8a",
+    "chars": 385405,
+    "lines": 13924,
+    "sections": 4,
+    "file_id": "n9TiTmBRKxMM6y6eqJrrBxYY3LJ7b51CD",
+    "drive_id": "50768493",
+    "changed": true,
+    "diff": null
+   }
+  ],
+  "latest": {
+   "hash": "7f3059387884808428aa7c8a",
+   "chars": 385405,
+   "sections": 4,
+   "ver": "20261011_0529"
+  }
+ },
+ "kd_xelCdZ": {
+  "link_id": "cbioamxelCdZ",
+  "title": "a2a_pointer.json.txt",
+  "history": [
+   {
+    "ver": "20261011_0529",
+    "ts": "2026-10-11T05:29:14+0800",
+    "hash": "5c62bf22115be234f96287d4",
+    "chars": 800,
+    "lines": 13,
+    "sections": 1,
+    "file_id": "DsjucMwS8rMur9LnZLvurxP8w1nF1x5ya",
+    "drive_id": "50768493",
+    "changed": true,
+    "diff": null
+   }
+  ],
+  "latest": {
+   "hash": "5c62bf22115be234f96287d4",
+   "chars": 800,
+   "sections": 1,
+   "ver": "20261011_0529"
+  }
+ },
+ "kd_ybW2gm": {
+  "link_id": "clf5rkybW2gm",
+  "title": "OpenPlanLink临时提示词文件_全局声明原文分段版.otl",
+  "history": [
+   {
+    "ver": "20261011_0529",
+    "ts": "2026-10-11T05:29:15+0800",
+    "hash": "aca1696bea2ae64cbe6ad87d",
+    "chars": 13328,
+    "lines": 47,
+    "sections": 16,
+    "file_id": "vAdYeaKPh1MvedGjuUmfrxgr5YaGZ4qno",
+    "drive_id": "3179383265",
+    "changed": true,
+    "diff": null
+   }
+  ],
+  "latest": {
+   "hash": "aca1696bea2ae64cbe6ad87d",
+   "chars": 13328,
+   "sections": 16,
+   "ver": "20261011_0529"
+  }
+ },
+ "kd_T2Dk9G": {
+  "link_id": "ce64WlT2Dk9G",
+  "title": "ce64WlT2Dk9G",
+  "history": [
+   {
+    "ver": "20261011_0529",
+    "ts": "2026-10-11T05:29:15+0800",
+    "hash": "a69f73cca23a9ac5c8b567dc",
+    "chars": 0,
+    "lines": 0,
+    "sections": 0,
+    "file_id": null,
+    "drive_id": null,
+    "changed": true,
+    "diff": null
+   }
+  ],
+  "latest": {
+   "hash": "a69f73cca23a9ac5c8b567dc",
+   "chars": 0,
+   "sections": 0,
+   "ver": "20261011_0529"
+  }
+ }
 }
