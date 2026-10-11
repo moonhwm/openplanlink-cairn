@@ -1,0 +1,58 @@
+{
+ "ts": "2026-10-11T10:00:01+0800",
+ "exp": "5-state-persistence",
+ "instruct": "在地上放一块不会消失的石头，位置固定在环心左侧三米处。",
+ "experience_sec": 60,
+ "seat": "a2a-node-local",
+ "steps": [
+  {
+   "step": "create",
+   "http": 200,
+   "code": 0,
+   "sec": 2.32,
+   "id_tail": "ybgApjCt"
+  },
+  {
+   "step": "enter-A1",
+   "http": 200,
+   "code": 0,
+   "sec": 1.81,
+   "id_tail": "SvR7Fhof"
+  },
+  {
+   "step": "enter-B",
+   "http": 200,
+   "code": 0,
+   "sec": 1.77,
+   "id_tail": "SvR7Fhof"
+  },
+  {
+   "step": "instruct-B",
+   "http": 200,
+   "code": 0,
+   "sec": 0.49
+  },
+  {
+   "step": "enter-A2",
+   "http": 200,
+   "code": 0,
+   "sec": 1.1,
+   "id_tail": "HtCxWWeB"
+  },
+  {
+   "step": "video-A1",
+   "bytes": 792315,
+   "code": 0
+  },
+  {
+   "step": "video-B",
+   "bytes": 882534,
+   "code": 0
+  },
+  {
+   "step": "video-A2",
+   "bytes": 877780,
+   "code": 0
+  }
+ ]
+}
