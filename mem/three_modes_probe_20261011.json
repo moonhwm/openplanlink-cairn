@@ -1,0 +1,68 @@
+{
+ "ts": "2026-10-11T17:10:58+0800",
+ "op": "three-modes-probe",
+ "endpoints": {
+  "/travels/direct": {
+   "http": 200,
+   "brief": "code=None msg=None"
+  },
+  "/travels/director": {
+   "http": 200,
+   "brief": "code=None msg=None"
+  },
+  "/worlds/direct": {
+   "http": 200,
+   "brief": "code=None msg=None"
+  },
+  "/travels/role-play": {
+   "http": 200,
+   "brief": "code=None msg=None"
+  },
+  "/travels/roleplay": {
+   "http": 200,
+   "brief": "code=None msg=None"
+  },
+  "/travels/performance": {
+   "http": 200,
+   "brief": "code=None msg=None"
+  },
+  "/travels/dub": {
+   "http": 200,
+   "brief": "code=None msg=None"
+  },
+  "/worlds/modes": {
+   "http": 200,
+   "brief": "code=None msg=None"
+  },
+  "/apps/modes": {
+   "http": 200,
+   "brief": "code=None msg=None"
+  },
+  "/travels/modes": {
+   "http": 200,
+   "brief": "code=None msg=None"
+  }
+ },
+ "modes": {
+  "1": {
+   "http": 200,
+   "brief": "code=401010 msg=ticket is invalid or expired."
+  },
+  "2": {
+   "http": 200,
+   "brief": "code=401010 msg=ticket is invalid or expired."
+  },
+  "3": {
+   "http": 200,
+   "brief": "code=401010 msg=ticket is invalid or expired."
+  },
+  "4": {
+   "http": 200,
+   "brief": "code=401010 msg=ticket is invalid or expired."
+  },
+  "0": {
+   "http": 200,
+   "brief": "code=401010 msg=ticket is invalid or expired."
+  }
+ }
+}
