@@ -1,0 +1,308 @@
+{
+ "ts": "2026-10-11T15:45:42+0800",
+ "exp": "11-action-legality",
+ "prompt": "第三人称：夜间游乐场门前，人形分身正在向前奔跑冲刺，随时准备施展 dash 动作。",
+ "polls": [
+  {
+   "t": 0.0,
+   "status": "running",
+   "rtc": "INIT",
+   "ui": [],
+   "acts": [
+    "dash",
+    "jump",
+    "crouch",
+    "attack"
+   ]
+  },
+  {
+   "t": 3.2,
+   "status": "running",
+   "rtc": "STREAMING",
+   "ui": [],
+   "acts": [
+    "dash",
+    "jump",
+    "crouch",
+    "attack"
+   ]
+  },
+  {
+   "t": 6.4,
+   "status": "running",
+   "rtc": "STREAMING",
+   "ui": [],
+   "acts": [
+    "dash",
+    "jump",
+    "crouch",
+    "attack"
+   ]
+  },
+  {
+   "t": 9.7,
+   "status": "running",
+   "rtc": "STREAMING",
+   "ui": [],
+   "acts": [
+    "dash",
+    "jump",
+    "crouch",
+    "attack"
+   ]
+  },
+  {
+   "t": 12.9,
+   "status": "running",
+   "rtc": "STREAMING",
+   "ui": [
+    "UNEXECUTED"
+   ],
+   "acts": [
+    "dash",
+    "jump",
+    "crouch",
+    "attack"
+   ]
+  },
+  {
+   "t": 16.7,
+   "status": "running",
+   "rtc": "STREAMING",
+   "ui": [
+    "UNEXECUTED"
+   ],
+   "acts": [
+    "dash",
+    "jump",
+    "crouch",
+    "attack"
+   ]
+  },
+  {
+   "t": 20.0,
+   "status": "running",
+   "rtc": "STREAMING",
+   "ui": [
+    "UNEXECUTED"
+   ],
+   "acts": [
+    "dash",
+    "jump",
+    "crouch",
+    "attack"
+   ]
+  },
+  {
+   "t": 23.4,
+   "status": "running",
+   "rtc": "STREAMING",
+   "ui": [
+    "UNEXECUTED"
+   ],
+   "acts": [
+    "dash",
+    "jump",
+    "crouch",
+    "attack"
+   ]
+  },
+  {
+   "t": 26.7,
+   "status": "running",
+   "rtc": "STREAMING",
+   "ui": [
+    "UNEXECUTED"
+   ],
+   "acts": [
+    "dash",
+    "jump",
+    "crouch",
+    "attack"
+   ]
+  },
+  {
+   "t": 29.9,
+   "status": "running",
+   "rtc": "STREAMING",
+   "ui": [
+    "UNEXECUTED"
+   ],
+   "acts": [
+    "dash",
+    "jump",
+    "crouch",
+    "attack"
+   ]
+  },
+  {
+   "t": 33.0,
+   "status": "running",
+   "rtc": "STREAMING",
+   "ui": [
+    "UNEXECUTED"
+   ],
+   "acts": [
+    "dash",
+    "jump",
+    "crouch",
+    "attack"
+   ]
+  },
+  {
+   "t": 36.3,
+   "status": "running",
+   "rtc": "STREAMING",
+   "ui": [
+    "UNEXECUTED"
+   ],
+   "acts": [
+    "dash",
+    "jump",
+    "crouch",
+    "attack"
+   ]
+  },
+  {
+   "t": 39.6,
+   "status": "running",
+   "rtc": "STREAMING",
+   "ui": [
+    "UNEXECUTED"
+   ],
+   "acts": [
+    "dash",
+    "jump",
+    "crouch",
+    "attack"
+   ]
+  },
+  {
+   "t": 42.8,
+   "status": "running",
+   "rtc": "STREAMING",
+   "ui": [
+    "UNEXECUTED"
+   ],
+   "acts": [
+    "dash",
+    "jump",
+    "crouch",
+    "attack"
+   ]
+  },
+  {
+   "t": 46.0,
+   "status": "running",
+   "rtc": "STREAMING",
+   "ui": [
+    "UNEXECUTED"
+   ],
+   "acts": [
+    "dash",
+    "jump",
+    "crouch",
+    "attack"
+   ]
+  },
+  {
+   "t": 49.2,
+   "status": "running",
+   "rtc": "STREAMING",
+   "ui": [
+    "UNEXECUTED"
+   ],
+   "acts": [
+    "dash",
+    "jump",
+    "crouch",
+    "attack"
+   ]
+  },
+  {
+   "t": 52.5,
+   "status": "running",
+   "rtc": "STREAMING",
+   "ui": [
+    "UNEXECUTED"
+   ],
+   "acts": [
+    "dash",
+    "jump",
+    "crouch",
+    "attack"
+   ]
+  },
+  {
+   "t": 55.7,
+   "status": "running",
+   "rtc": "STREAMING",
+   "ui": [
+    "UNEXECUTED"
+   ],
+   "acts": [
+    "dash",
+    "jump",
+    "crouch",
+    "attack"
+   ]
+  },
+  {
+   "t": 59.0,
+   "status": "running",
+   "rtc": "STREAMING",
+   "ui": [
+    "UNEXECUTED"
+   ],
+   "acts": [
+    "dash",
+    "jump",
+    "crouch",
+    "attack"
+   ]
+  },
+  {
+   "t": 62.2,
+   "status": "running",
+   "rtc": "STREAMING",
+   "ui": [
+    "UNEXECUTED"
+   ],
+   "acts": [
+    "dash",
+    "jump",
+    "crouch",
+    "attack"
+   ]
+  },
+  {
+   "t": 65.5,
+   "status": "running",
+   "rtc": "STREAMING",
+   "ui": [
+    "UNEXECUTED"
+   ],
+   "acts": [
+    "dash",
+    "jump",
+    "crouch",
+    "attack"
+   ]
+  },
+  {
+   "t": 68.7,
+   "status": "running",
+   "rtc": "STREAMING",
+   "ui": [
+    "UNEXECUTED"
+   ],
+   "acts": [
+    "dash",
+    "jump",
+    "crouch",
+    "attack"
+   ]
+  }
+ ],
+ "video": "C:\\Users\\欧阳宏俊\\AppData\\Local\\Temp\\exp11\\exp11.mp4"
+}
