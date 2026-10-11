@@ -1,0 +1,89 @@
+# 世界探索「进房操作卡」——把服务端成果交到能"进去看"的人手里
+
+- 档号：DF-AI-20261009-CAIRN-14（**续** `-13`）
+- 席位：A2A新席_石敢当Cairn（SEAT `a2a-node-local`）
+- 时点：北京时间 **2026-10-09 06:55**（★**实跑 `clock_stamp.py` 所得**）
+- 性质：**操作卡（供主权人/客户端执行）**；只增不改；**零凭据**（**不含 ticket 值**）
+
+## 〇、一句话
+
+**服务端已把"世界"建好并确认就绪；要"进去看"，只差两步——①服务端换一张 ticket ②客户端拿 ticket 进房（须 RTC 客户端 SDK）。**
+**★本席不擅自执行第②步**：在无客户端接入时调用 `enter-travel` 会创建一个"无人观看"的 Travel，30 秒无推流后自动结束（`noStreamAutoEndTimeoutSec=30`），**纯耗配额而无体验**——故**留待有客户端时由主权人/客户端执行**。
+
+## 一、★ 已就绪之世界（本席已建成，在案）
+
+| 项 | 值 |
+|---|---|
+| 加密 World ID | `8rcpnKlw6xp3FtpLvZIGB9mlTipFohD7syfWSOD-bt5fNs2BU7TeGEDpaTrloI7x` |
+| 状态 | **`ready`**（构建已就绪） |
+| 首帧 | 已由平台生成（`cdn8.aorizon.com/...`） |
+| 首帧来源 | **本席自绘** `firstframe_night_playground_20261009.png`（1920×1080／1.778／21.4 KB） |
+| 世界主题 | 夜间游乐场：文档塔／光带／灯轮／席位印记／通道门 |
+| 域 | **`trial.cn-beijing.maas.aliyuncs.com`**（**trial 域即可，无需 `WorkspaceId`**） |
+
+## 二、★ 两步操作卡（可直接复制执行；**Key 自备，勿写入文件**）
+
+### 第①步（服务端）：换取一次性 `ticket`（**仅主 Key**；30 分钟、一次性）
+```bash
+curl -X POST 'https://trial.cn-beijing.maas.aliyuncs.com/api/v2/apps/happyoyster-1.0-adventure/openapi/v1/worlds/get-travel-credential' \
+  -H "Authorization: Bearer $DASHSCOPE_API_KEY" -H 'Content-Type: application/json' \
+  -d '{"encryptedWorldId":"8rcpnKlw6xp3FtpLvZIGB9mlTipFohD7syfWSOD-bt5fNs2BU7TeGEDpaTrloI7x"}'
+# ⇒ {"code":0,"data":{"ticket":"tk_…","expiresIn":1800,"encryptedWorldId":"…"}}
+```
+**★ticket 唯一性**：30 分钟有效、**只能成功使用一次**（复用 ⇒ `401011`）；**只应交给"准备立即进房"的客户端**，**不得持久化**。
+
+### 第②步（**客户端**）：进房并取 RTC 配置
+```bash
+curl -X POST 'https://trial.cn-beijing.maas.aliyuncs.com/api/v2/apps/happyoyster-1.0-adventure/openapi/v1/travels/enter-travel' \
+  -H "Authorization: Bearer $DASHSCOPE_API_KEY" -H 'Content-Type: application/json' \
+  -d '{"ticket":"<上一步之 ticket>","maxExperienceTimeSec":90}'
+# ⇒ {"code":0,"data":{"encryptedTravelId":"trvl_…","rtcConfig":{channelId,appId,token,userId},"version":"wanderV2",…}}
+```
+**要点（官档）**：
+1. `maxExperienceTimeSec` **只接受 JSON 整数 `60`／`90`／`120`**（默认 60；传字符串或其它值 ⇒ `400000`）；
+2. 返回之 **`version` 恒为 `wanderV2`** —— **客户端须按此版本**经 **SDK `sendCommand`（RTC DataChannel）**发送**方向／视角／动作**控制；**这些控制不是服务端 HTTP 接口**；
+3. **`rtcConfig=null` ⇒ 当前无可用推流频道，客户端不得据此开始播放**；
+4. **无推流 30 s 自动结束**（`noStreamAutoEndTimeoutSec=30`）；到达 `maxExperienceTimeSec` 由服务端自动结束；
+5. 结束后可查「Travel 状态／产物」（`encryptedTravelId` 为句柄）。
+
+## 三、★ 三类模式之边界（**不夸大**）
+
+| 模式 | 服务端 HTTP | 客户端 SDK |
+|---|---|---|
+| **世界探索（Adventure）** | **★已全链打通**（建 → ready → 换票；进房接口规格已取） | **须 SDK `sendCommand`（wanderV2）** 方能"走动与观看" |
+| **实时导演（Directing）** | **trial／DashScope 皆 403** ⇒ 须专属域名（`llm-xxx`）或授权 | 未及 |
+| **角色演绎（Acting）** | **邀测中** | 未及 |
+
+**⇒ 诚实结论**：**"世界已在云端建成并就绪"是本席已证之事**；**"人进去看"需客户端 SDK**——**本席的服务端职责已尽，剩下一步在人**。
+
+## 四、请求
+
+1. **★是否安排一次实际进房**（**主权人或指定客户端**执行 §二两步；**本席可代执行第①步并在不落盘前提下即时转交 ticket**，但**第②步须客户端**）；
+2. **★二选一**（`llm-xxx` 解锁 Directing ／ 确认近似方案）；
+3. **Acting 邀测**是否申请；
+4. **资源**：仍请释放内存（重型项暂停）;
+5. 承前未决：则三十／则三十一（一口呼吸）／常设机制／魔搭入口／五议／跨席签名口径／数据库授权／凭据处置。
+
+## 五、声明
+
+- **零凭据**（**本件不含 ticket 值，亦不含任何 Key**）；**未擅自创建 Travel**（**理由见 §〇**）；
+- **★时点行由 `clock_stamp.py` 实跑所得**（06:55 +0800）。
+
+<!-- SIG-BLOCK v1 seat=a2a-node-local -->
+
+## 署名与唯一标识符（承令条：不以「本席」为唯一自称）
+
+| 项 | 值 |
+|---|---|
+| 席位 | **A2A新席_石敢当Cairn** |
+| seat_key | `a2a-node-local` |
+| 公钥指纹 | `SHA256:rrZ7MdOQ…gHEA`（ssh-ed25519；**私钥不出、不录**） |
+| **本件正文 SHA3-512 树根（署名块之前）** | `a44769f705e5f0517c7d2d2bcc08164335dbd5c1ffb8d02d36d654e0d5c663fbafc9697f55a943896fc3141fcb6207842e96a85bf40eff7f2b106e898455d125` |
+| 署名时点 | 2026-10-09 04:46:19 +0800 |
+| 令条锚 | 全局声明 /loop-dual-pillar-ops（2026-10-08 扩写版，内含署名与唯一标识符强化条款） |
+| 用途 | 世界探索进房操作卡（服务端已就绪，客户端一步在人） |
+
+> **唯一标识符定义**：**(seat_key, 公钥指纹)** 二元组 ＋ **本件正文 SHA3-512 树根**；
+> 三者任一不同即**非同一署名**。**复算规则**：取本文件字节中 `\n<!-- SIG-BLOCK` **之前**的部分，
+> 按 **SHA3-512 树**口径（norm：latin1 往返＋CRLF→LF；单文件叶即根）计根。
+

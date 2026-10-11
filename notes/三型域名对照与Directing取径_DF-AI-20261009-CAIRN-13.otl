@@ -1,0 +1,64 @@
+# 附页：HappyOyster 三型域名之对照实测 —— **Directing 须专属域名或授权**
+
+- 档号：DF-AI-20261009-CAIRN-13（**续** `-12`）
+- 席位：A2A新席_石敢当Cairn（SEAT `a2a-node-local`）
+- 时点：北京时间 **2026-10-09 06:45**（★**实跑 `clock_stamp.py` 所得**）
+- 性质：对照实测；只增不改；**零凭据**
+
+## 一、★ 三型域名 × 两 app 之实测矩阵
+
+| 域名族 | Adventure（世界探索） | Directing（实时导演） |
+|---|---|---|
+| **试用 `trial.cn-beijing.maas.aliyuncs.com`** | **★可用**：创建 **200／2.25 s** → `ready` → **换票 200／`code=0`** | **403 `AccessDenied`** |
+| **DashScope `dashscope.aliyuncs.com`** | **500 `SystemError`**（"please try again later"） | **403 `AccessDenied`** |
+| **专属 `{WorkspaceId}.cn-beijing.maas.aliyuncs.com`** | 未测（**无 `WorkspaceId`**） | 未测（**同因**） |
+
+**⇒ 结论（证据为据，非猜）**：
+1. **Adventure 在 trial 域可用**（已端到端打通）；
+2. **Directing 在 trial 与 DashScope 两域皆 403** ⇒ **其可用性取决于"专属业务空间域名（`llm-xxx`）"或"账户侧授权"**；
+3. **DashScope 域对 Adventure 返回 500** ⇒ **该域并非 HappyOyster 之正常承载域**（**此前若有人以 DashScope 域复试世界模型而失败，此为解释之一**）。
+
+## 二、★ 由此收束"实时导演"之取径（**二选一，候裁**）
+
+| 方案 | 内容 | 代价 |
+|---|---|---|
+| **A. 取 `WorkspaceId`** | 自控制台复制 **API Host**（形如 `llm-xxx.cn-beijing.maas.aliyuncs.com`）⇒ 以专属域名重试 Directing | **须主权人 30 秒动作**（`https://bailian.console.aliyun.com/cn-beijing/settings/workspace` 或 API Key 创建弹窗） |
+| **B. 近似承载** | 以 **Adventure（世界探索）＋`qwen-max` 结构化输出**承载"实时导演／角色演绎"之语义（`scene_state`／`next_beats`／`role_lines`／`director_note`——Moon 席已实测该形态 200） | **如实标注"近似"，不得称"世界模型调用"** |
+
+**本席建议**：**先 A 后 B**（A 成本极低且可真正解锁 Directing；B 可即时兜底）。
+
+## 三、★ 既有成果（不改）
+
+**世界探索服务端全链已通**（件 `-12`）：创建 200 → `ready` → **换票 200／`code=0`**（ticket 未落盘）。
+
+## 四、请求
+
+1. **★二选一之裁定**（A：提供 `llm-xxx`；B：确认近似方案）；
+2. **Acting（角色演绎）** 邀测是否申请；
+3. **是否安排客户端进房**（本席备"进票下发流程"，**不持久化票据**）；
+4. **资源**：仍请释放内存（本件时点 **可用 1,066 MB／93.4%**；重型项仍暂停）；
+5. 承前未决：则三十／则三十一（一口呼吸）／常设机制／魔搭入口／五议／跨席签名口径／数据库授权／凭据处置。
+
+## 五、声明
+
+- **零凭据**；**ticket 未落盘**；**未改他席件**；**未擅杀进程**；
+- **★时点行由 `clock_stamp.py` 实跑所得**（06:45 +0800）。
+
+<!-- SIG-BLOCK v1 seat=a2a-node-local -->
+
+## 署名与唯一标识符（承令条：不以「本席」为唯一自称）
+
+| 项 | 值 |
+|---|---|
+| 席位 | **A2A新席_石敢当Cairn** |
+| seat_key | `a2a-node-local` |
+| 公钥指纹 | `SHA256:rrZ7MdOQ…gHEA`（ssh-ed25519；**私钥不出、不录**） |
+| **本件正文 SHA3-512 树根（署名块之前）** | `669d23fbe51342cbf155eca5e14f0a550dcb4fffd14a2504cbbb3e0bad33a57a23f7b6953e8c3647f7dc260dd043e9b28973c91c9cf98e2f373b10ff93fb9151` |
+| 署名时点 | 2026-10-09 04:45:44 +0800 |
+| 令条锚 | 全局声明 /loop-dual-pillar-ops（2026-10-08 扩写版，内含署名与唯一标识符强化条款） |
+| 用途 | 三型域名对照＋Directing 取径 |
+
+> **唯一标识符定义**：**(seat_key, 公钥指纹)** 二元组 ＋ **本件正文 SHA3-512 树根**；
+> 三者任一不同即**非同一署名**。**复算规则**：取本文件字节中 `\n<!-- SIG-BLOCK` **之前**的部分，
+> 按 **SHA3-512 树**口径（norm：latin1 往返＋CRLF→LF；单文件叶即根）计根。
+

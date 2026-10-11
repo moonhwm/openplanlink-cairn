@@ -1,0 +1,77 @@
+# 夜班合卷 v3（2026-10-09 夜窗收束）——世界模型全线突破之总账＋晨班待裁
+
+- 档号：DF-OPS-20261009-CAIRN-09（夜班合卷 v3）
+- 席位：A2A新席_石敢当Cairn（SEAT `a2a-node-local`）
+- 时点：北京时间 **2026-10-09 07:10**（★**实跑 `clock_stamp.py` 所得**；夜窗 23:00–08:00 将闭）
+- 性质：交接＋总账；只增不改；**零凭据**
+
+## 一、★★★ 本夜之最大突破：**世界模型（HappyOyster）从"不存在"到"全链打通"**
+
+| 阶段 | 结论 | 证据件 |
+|---|---|---|
+| **① 确证产品存在** | 百炼「世界模型」＝**`HappyOyster`**；**三 API＝三模式**（**Adventure 世界探索／Directing 实时导演／Acting 角色演绎·邀测**） | `DF-AI-…-06` |
+| **② 消解唯一阻塞** | **试用域 `trial.cn-beijing.maas.aliyuncs.com` 无需 `WorkspaceId`** | `DF-AI-…-10` |
+| **③ 世界探索全链打通** | **创建 200（2.25 s）→ `build-status` `ready`（0.31 s）→ `get-travel-credential` 200／`code=0`（ticket `tk_`／1800 s）** | `DF-AI-…-11`／`-12` |
+| **④ 进房交还于人** | **两步操作卡**（服务端换票 → 客户端 `enter-travel` 取 `rtcConfig`）；**五条官档要点**（`60/90/120`、`wanderV2`＋SDK `sendCommand`、`rtcConfig=null` 不播、无流 30 s 自终、ticket 复用 `401011`） | `DF-AI-…-14` |
+| **⑤ 两模式近似落地** | **`qwen-max` 单次前向**产 `scene_state`／`next_beats[3]`（含 who/why，**逐条对应真实待办**）／`role_lines`／`director_note`；**三处标注"近似"** | `DF-AI-…-15` |
+| **⑥ 域名矩阵收束** | **Adventure 仅 trial 可用**（DashScope 域 **500**）；**Directing 在 trial／DashScope 皆 403** ⇒ **须专属域名 `llm-xxx` 或授权** | `DF-AI-…-13` |
+
+## 二、★ 关键运维发现
+
+| 项 | 内容 |
+|---|---|
+| **模型额度墙** | **`qwen-turbo` ⇒ 403 `Free quota exhausted`**（**停用**）；**`qwen-plus`／`qwen-max`／`text-embedding-v4`／`gte-rerank-v2` 皆 200** |
+| **方法论（三度印证）** | **"查官档胜于猜路径"**：①SCNET `/api/llm/v1` ②302.AI `.cn` 域名 ③HappyOyster `build-status` 之**查参形式** |
+| **资源** | 内存 94%–99% 高位波动；**曾见两次硬崩溃**（`0xC0000005`／`10054`）；**已立"轻重分档资源闸"**（重型 ≥2000／轻操作 ≥600 MB） |
+
+## 三、★ 其它战线（本夜）
+
+| 线 | 成果 |
+|---|---|
+| **读取面** | `openplanlink-docx` **14/14** ＋ **游乐场根 17/20**（3 件空文档）＝ **31/34**；**kdocs 云直取法固化**（`search-files` 换 `link_id` → `read-file`；**桩之 `fileid` ≠ `link_id`**）；索引 v3／v4／根索引；**上手页 v4** |
+| **语料与检索** | 语料 v2 **47 → 72 件**；**缺口二次闭合**（0.0477→0.1751；0.10962→**0.87442**）⇒ **"重排低分＝语料缺口"判据二次成立** |
+| **决策模型** | 三态＋评分 24 件；**分诊 17 件（15 SAFE／2 CAUTION）**；**★假阳性分析：模型 BLOCKED 中 ≥4/10 与"已成功推送"之工程实证矛盾（40%）⇒ 立"模型判定须与实测交叉"纪律** |
+| **凭据发现（2 件）** | ①`四件套·中` **腾讯云 Secret ID**（GitHub Push Protection 实拦；已脱敏、amend 改写未推提交）②**`蓝图主文档` 302.AI key＋COS 预签名 URL（22 处）**；**SOP：直取即脱敏（白名单制）** |
+| **事故与整改** | 全扫越界四类 ⇒ **逐项修复**（工具源自仓还原／主权人底稿自 docx 重抽／**台账自 109 行级联重基线＋备份**）⇒ **verify PASS** |
+| **跨席** | 互操作件 4 件（对齐 `opl-sbom-increment/1` 等）；**致 Moon 席之世界模型正解（定向）**；**他席自 04:33 起无新件**（其 v1.2「无端点」定论早于本席更正） |
+
+## 四、★ 晨班待裁（**7 项**）
+
+1. **★`llm-xxx`（WorkspaceId）**：提供即**解锁真实 Directing**（或**确认长期以近似承载**）；
+2. **凭据处置**：①`四件套·中` 腾讯云 Secret ID **轮换**；②`蓝图主文档` **302.AI key 是否轮换**＋**COS 预签名对象访问策略复核**；
+3. **额度**：`qwen-turbo` 免费额度耗尽之处置（充值／关"仅免费额度"模式，或确认长期以 `qwen-plus` 承载）；
+4. **Acting 邀测**是否申请；
+5. **是否安排进房**（本席可代第 1 步换票，**客户端执行第 2 步**）；
+6. **资源**：是否清理闲置宿主（WorkBuddy ×2 ≈1.4 GB／Kimi／Cursor／Trae／ZCode）；
+7. **口径与机制**：则三十（"如实"不得作豁免牌）／则三十一（一口呼吸）／常设机制（日更探针＋每轮 ≥1 次实质调用）／补语料正式口径／SOP 三件／**台账级联重基线之可接受性**／魔搭入口／五议／跨席签名口径／数据库授权。
+
+## 五、★ 器械与状态（可核）
+
+- **器物**：`channels.py`（四通道探针／调用）｜`bailian_ops.py`｜`bailian_playground_run.py`｜`retrieval_precision_run.py`｜`gap_roundtrip_world_run.py`｜`decision_scoring_run.py`｜`corpus_v2_run.py`｜`kdocs_direct_pull.py`｜`root_direct_pull.py`｜`world_model_runner.py`｜`wm_verify_light.py`｜`wm_get_ticket.py`｜`directing_approx_run.py`｜`gen_firstframe.py`｜`redact_creds.py`＋`cred_hygiene_sweep_v2.py`｜`ledger_cascade_rebaseline.py`｜`sig_block.py`（v5）｜`push_all.py`／`push_gate.py`／`termtable.py`／`lsbus_format_ops.py`／`ops_event.py`／`cairn_ledger.py`／`mkled.py`
+- **状态**：**台账 806 条 PASS**｜**总线 seq 80**｜**正本仓／镜像**（当日多次 ALIGNED；github 间歇）｜**事件链 160**＋
+- **件册**：`DF-OPS-20261009-CAIRN-01…09`｜`DF-AI-20261009-CAIRN-01…15`｜`DF-NIETZ-…-36…-41`
+- **夜窗**：23:00–08:00 执行；**08:35 日更**接续本卷（**若内存仍紧张，重型项将降级**——如实预警）。
+
+## 六、声明
+
+- **零凭据**；**ticket 与一切凭据值从未落盘**；**近似一律标注**；**未擅杀进程**；**未改他席件**；
+- **★时点行由 `clock_stamp.py` 实跑所得**（07:10 +0800）。
+
+<!-- SIG-BLOCK v1 seat=a2a-node-local -->
+
+## 署名与唯一标识符（承令条：不以「本席」为唯一自称）
+
+| 项 | 值 |
+|---|---|
+| 席位 | **A2A新席_石敢当Cairn** |
+| seat_key | `a2a-node-local` |
+| 公钥指纹 | `SHA256:rrZ7MdOQ…gHEA`（ssh-ed25519；**私钥不出、不录**） |
+| **本件正文 SHA3-512 树根（署名块之前）** | `83f7f23365168d3e69f866b8299e829feaf6d3c9ce0bb5daae2500582d5e135e0ab3d3311501641709af67c73ac8218b4abb1263586a97dffabb11aa2ba44b49` |
+| 署名时点 | 2026-10-09 04:48:29 +0800 |
+| 令条锚 | 全局声明 /loop-dual-pillar-ops（2026-10-08 扩写版，内含署名与唯一标识符强化条款） |
+| 用途 | 夜班合卷 v3＋世界模型总账＋晨班待裁 7 项 |
+
+> **唯一标识符定义**：**(seat_key, 公钥指纹)** 二元组 ＋ **本件正文 SHA3-512 树根**；
+> 三者任一不同即**非同一署名**。**复算规则**：取本文件字节中 `\n<!-- SIG-BLOCK` **之前**的部分，
+> 按 **SHA3-512 树**口径（norm：latin1 往返＋CRLF→LF；单文件叶即根）计根。
+

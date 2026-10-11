@@ -1,0 +1,72 @@
+# ★★★世界探索（Adventure）端到端打通：World 创建 200 → 构建 **ready** → 首帧已生成
+
+- 档号：DF-AI-20261009-CAIRN-11（**续** `-10`；**世界模型首件实测成功记录**）
+- 席位：A2A新席_石敢当Cairn（SEAT `a2a-node-local`）
+- 时点：北京时间 **2026-10-09 06:15**（★**实跑 `clock_stamp.py` 所得**）
+- 性质：**实测里程碑**；只增不改；**零凭据**（世界 ID 为**标识符**，非凭据）
+
+## 一、★★★ 实测链路（trial 域；无需 `WorkspaceId`）
+
+| 步 | 端点 | 结果 |
+|---|---|---|
+| ① **创建 World** | `POST https://trial.cn-beijing.maas.aliyuncs.com/api/v2/apps/happyoyster-1.0-adventure/openapi/v1/worlds` | **HTTP 200 ｜ 2.25 s**；响应 `output.code=0`；`data.status="generating"` |
+| ② **查询构建状态** | **`GET …/openapi/v1/worlds/build-status?encryptedWorldId=<ID>`**（**★查参、非路径段**） | **HTTP 200 ｜ 0.31 s**；**`data.status="ready"`**；**`firstFrame` 已生成**（`https://cdn8.aorizon.com/user-uploads/…`） |
+
+- **加密 World ID（标识符，非凭据）**：`8rcpnKlw6xp3FtpLvZIGB9mlTipFohD7syfWSOD-bt5fNs2BU7TeGEDpaTrloI7x`
+- **请求要点**：`async=true`、`perspective=third_person`、`prompt`（世界主题，≤2000 字）、**`firstFrameImage.base64`＝本席自绘 PNG**（1920×1080／1.778／21.4 KB）
+- **⇒ 判定：世界探索（Adventure）模式之"创建＋构建就绪"已端到端实测打通**（**非近似、非探针**）。
+
+## 二、★ 方法论之三度印证：**查官档免猜路径**
+
+| 本席所试（猜） | 结果 |
+|---|---|
+| `GET …/worlds/{id}` | 响应体 `404 Not Found` |
+| `GET …/worlds/{id}/build-status` | 响应体 `404 Not Found` |
+| `GET …/worlds/{id}/status` | 响应体 `404 Not Found` |
+| **官档正解** | **`GET …/worlds/build-status?encryptedWorldId=<id>`**（**ID 走查参**） |
+
+**⇒ 立此存照**：**"猜路径"之代价已第三次显现**（前二次：SCNET 之 `/api/llm/v1`；302.AI 之 `.cn` 域名）；**凡官方有文档者，必先查档**。
+
+## 三、★ 三类运行模式之现状（**更新**）
+
+| 模式 | 状态 |
+|---|---|
+| **世界探索（Adventure）** | **★已打通**（创建 200 → ready → 首帧已生成） |
+| **实时导演（Directing）** | **trial 域 403 `AccessDenied`** ⇒ **待 ①`WorkspaceId`（`llm-xxx`）换专属域名 ②或经裁定以 Adventure＋`qwen-max` 结构化近似承载（如实标注）** |
+| **角色演绎（Acting）** | **邀测中**（须申请开通） |
+
+**下一步（已备）**：`获取体验凭证（一次性 ticket）` → `客户端进入房间`（**进房属客户端交互，超出本席服务端调用范围；如实标注**）。
+
+## 四、资源情形（附记）
+
+本轮两次尝试间内存一度跌至 **580 MB／96.4%** 并见**进程访问违例崩溃（0xC0000005）**；**本席实行"轻重分档资源闸"**（重型 ≥2000 MB／轻操作 ≥600 MB）后，在 **1,417 MB** 窗口内完成本次调用 ⇒ **分档有效**；**重型项仍暂停**。
+
+## 五、请求
+
+1. **★请裁定**：①**Directing 之取径**（提供 `llm-xxx` ／ 或确认近似方案）；②**Acting 邀测**是否申请；
+2. **★资源**：仍请释放内存（**ZCode 2,271 MB、Memory Compression 1,603 MB、Kimi 546 MB、WorkBuddy 545＋197 MB**）以恢复重型项；
+3. 承前未决：则三十／则三十一（一口呼吸）／常设机制／魔搭入口／五议／跨席签名口径／数据库授权／凭据处置（腾讯云 Secret ID、302.AI key、COS 预签名）。
+
+## 六、声明
+
+- **零凭据**（世界 ID 系**服务端加密标识符**，非访问凭据；**本件不含任何 Key**）；**未改他席件**；**未擅杀进程**；
+- **★时点行由 `clock_stamp.py` 实跑所得**（06:15 +0800）。
+
+<!-- SIG-BLOCK v1 seat=a2a-node-local -->
+
+## 署名与唯一标识符（承令条：不以「本席」为唯一自称）
+
+| 项 | 值 |
+|---|---|
+| 席位 | **A2A新席_石敢当Cairn** |
+| seat_key | `a2a-node-local` |
+| 公钥指纹 | `SHA256:rrZ7MdOQ…gHEA`（ssh-ed25519；**私钥不出、不录**） |
+| **本件正文 SHA3-512 树根（署名块之前）** | `bcb94e53cae681ea782e6ad791554ec4e2d526b30efd86e68f662a5f6271849dba295b66867d88c7548066dbcfb884ea24e2390d8063f7f5d2ea93ec749a38c5` |
+| 署名时点 | 2026-10-09 04:42:29 +0800 |
+| 令条锚 | 全局声明 /loop-dual-pillar-ops（2026-10-08 扩写版，内含署名与唯一标识符强化条款） |
+| 用途 | 世界探索端到端打通：创建 200 → ready |
+
+> **唯一标识符定义**：**(seat_key, 公钥指纹)** 二元组 ＋ **本件正文 SHA3-512 树根**；
+> 三者任一不同即**非同一署名**。**复算规则**：取本文件字节中 `\n<!-- SIG-BLOCK` **之前**的部分，
+> 按 **SHA3-512 树**口径（norm：latin1 往返＋CRLF→LF；单文件叶即根）计根。
+
