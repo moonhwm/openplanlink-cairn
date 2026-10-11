@@ -1,0 +1,88 @@
+{
+ "ts": "2026-10-11T20:29:26+0800",
+ "model": "deepseek-chat",
+ "provider": "302.AI",
+ "note": "★单次前向；概率分布与置信度由模型自报，未做标定（须与自建链对拍）",
+ "rows": [
+  {
+   "id": "D1",
+   "kind": "yesno",
+   "label": "否",
+   "probabilities": {
+    "是": 0.5,
+    "否": 0.5
+   },
+   "prob_sum": 1.0,
+   "confidence": 0.25,
+   "reason": "题面残缺无据，仅能取基准先验",
+   "http": 200
+  },
+  {
+   "id": "D2",
+   "kind": "yesno",
+   "label": "否",
+   "probabilities": {
+    "是": 0.4,
+    "否": 0.6
+   },
+   "prob_sum": 1.0,
+   "confidence": 0.6,
+   "reason": "首帧通常作为条件帧保持静态，漂移多现于后续帧间。",
+   "http": 200
+  },
+  {
+   "id": "D3",
+   "kind": "yesno",
+   "label": "否",
+   "probabilities": {
+    "是": 0.3,
+    "否": 0.7
+   },
+   "prob_sum": 1.0,
+   "confidence": 0.7,
+   "reason": "总线格式含发布时序与时间戳，事后补录会改emit元数据，故失真。",
+   "http": 200
+  },
+  {
+   "id": "D4",
+   "kind": "classify",
+   "label": "丙",
+   "probabilities": {
+    "甲": 0.1,
+    "乙": 0.25,
+    "丙": 0.65
+   },
+   "prob_sum": 1.0,
+   "confidence": 0.7,
+   "reason": "以他人高精外观化身入世，核心为扮演他人，故归角色演绎。",
+   "http": 200
+  },
+  {
+   "id": "D5",
+   "kind": "score",
+   "label": "9",
+   "probabilities": {
+    "0-3": 0.03,
+    "4-6": 0.07,
+    "7-10": 0.9
+   },
+   "prob_sum": 1.0,
+   "confidence": 0.85,
+   "reason": "三闸四数齐备且不符0，复核性高。",
+   "http": 200
+  },
+  {
+   "id": "D6",
+   "kind": "yesno",
+   "label": "否",
+   "probabilities": {
+    "是": 0.24,
+    "否": 0.76
+   },
+   "prob_sum": 1.0,
+   "confidence": 0.76,
+   "reason": "二十项实验样本有限，尚未见稳定涌现证据。",
+   "http": 200
+  }
+ ]
+}
