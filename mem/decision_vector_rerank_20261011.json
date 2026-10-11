@@ -1,0 +1,195 @@
+{
+ "ts": "2026-10-11T15:29:25+0800",
+ "seat": "a2a-node-local",
+ "stage": "decision-vector-rerank",
+ "provider": "aliyun-bailian",
+ "model_embed": "text-embedding-v4",
+ "tau": 0.05,
+ "query": "世界模型之实时交互入口、会话时长与状态持久性",
+ "pool": 56,
+ "timing": {
+  "query_embed_s": 0.41,
+  "cand_embed_s": 76.46000000000001,
+  "total_s": 76.88
+ },
+ "usage": {
+  "query": {
+   "prompt_tokens": 16,
+   "total_tokens": 16
+  },
+  "candidates": [
+   {
+    "prompt_tokens": 6316,
+    "total_tokens": 6316
+   },
+   {
+    "prompt_tokens": 7045,
+    "total_tokens": 7045
+   },
+   {
+    "prompt_tokens": 5980,
+    "total_tokens": 5980
+   },
+   {
+    "prompt_tokens": 5861,
+    "total_tokens": 5861
+   },
+   {
+    "prompt_tokens": 5616,
+    "total_tokens": 5616
+   },
+   {
+    "prompt_tokens": 6393,
+    "total_tokens": 6393
+   },
+   {
+    "prompt_tokens": 5692,
+    "total_tokens": 5692
+   }
+  ]
+ },
+ "recall_top": [
+  {
+   "key": "kd_r7kTuj",
+   "cos": 0.451671
+  },
+  {
+   "key": "kd_FHR1my",
+   "cos": 0.448378
+  },
+  {
+   "key": "kd_yb4eiI",
+   "cos": 0.443841
+  },
+  {
+   "key": "kd_3QvUyd",
+   "cos": 0.439302
+  },
+  {
+   "key": "kd_sbZsGm",
+   "cos": 0.4389
+  },
+  {
+   "key": "kd_2H8FMP",
+   "cos": 0.435975
+  },
+  {
+   "key": "kd_XeLyop",
+   "cos": 0.422343
+  },
+  {
+   "key": "kd_pLgLS8",
+   "cos": 0.412101
+  },
+  {
+   "key": "kd_5OpljB",
+   "cos": 0.411549
+  },
+  {
+   "key": "kd_83uSxs",
+   "cos": 0.41123
+  },
+  {
+   "key": "kd_lGgqkZ",
+   "cos": 0.411209
+  },
+  {
+   "key": "kd_8hcQMF",
+   "cos": 0.407213
+  }
+ ],
+ "rerank_top": [
+  {
+   "key": "kd_sbZsGm",
+   "score": 0.36334,
+   "cos": 0.4389,
+   "overlap": 0.0,
+   "p": 0.26547103
+  },
+  {
+   "key": "kd_3QvUyd",
+   "score": 0.345511,
+   "cos": 0.439302,
+   "overlap": 0.0,
+   "p": 0.18584736
+  },
+  {
+   "key": "kd_lGgqkZ",
+   "score": 0.31781,
+   "cos": 0.411209,
+   "overlap": 0.0,
+   "p": 0.10679442
+  },
+  {
+   "key": "kd_5OpljB",
+   "score": 0.299669,
+   "cos": 0.411549,
+   "overlap": 0.0,
+   "p": 0.07429813
+  },
+  {
+   "key": "kd_r7kTuj",
+   "score": 0.296658,
+   "cos": 0.451671,
+   "overlap": 0.0,
+   "p": 0.06995595
+  },
+  {
+   "key": "kd_yb4eiI",
+   "score": 0.283445,
+   "cos": 0.443841,
+   "overlap": 0.0,
+   "p": 0.05371035
+  },
+  {
+   "key": "kd_FHR1my",
+   "score": 0.278647,
+   "cos": 0.448378,
+   "overlap": 0.0,
+   "p": 0.04879587
+  },
+  {
+   "key": "kd_pLgLS8",
+   "score": 0.274261,
+   "cos": 0.412101,
+   "overlap": 0.0,
+   "p": 0.04469786
+  },
+  {
+   "key": "kd_2H8FMP",
+   "score": 0.26983,
+   "cos": 0.435975,
+   "overlap": 0.0,
+   "p": 0.04090718
+  },
+  {
+   "key": "kd_XeLyop",
+   "score": 0.268906,
+   "cos": 0.422343,
+   "overlap": 0.0,
+   "p": 0.04015816
+  },
+  {
+   "key": "kd_8hcQMF",
+   "score": 0.264283,
+   "cos": 0.407213,
+   "overlap": 0.0,
+   "p": 0.03661162
+  },
+  {
+   "key": "kd_83uSxs",
+   "score": 0.258713,
+   "cos": 0.41123,
+   "overlap": 0.0,
+   "p": 0.03275206
+  }
+ ],
+ "decision": {
+  "top": "kd_sbZsGm",
+  "p_top": 0.26547103,
+  "margin": 0.07962366,
+  "norm_entropy": 0.893073,
+  "confidence": 0.106927,
+  "label": "低置信（近似并列）"
+ }
+}
