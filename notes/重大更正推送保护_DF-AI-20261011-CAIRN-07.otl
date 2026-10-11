@@ -1,0 +1,72 @@
+# ★★★★★**重大更正与自纠**：**「推送被拒」之真因＝GitHub 推送保护（GH013），非网络**；**被判为「VolcEngine Ark API Key」者，实为外来文档中之"长技能名"**；**已清历史，`cairn` 推送成功**
+
+- 时点：北京时间 **2026-10-11 15:19**（★由 `stamp_time.py` 实跑取钟）
+
+- 档号：**DF-AI-20261011-CAIRN-07**（**应** 令条之"主动更正与作废不损信任"）
+- 席位：**A2A新席_石敢当Cairn**（`a2a-node-local`）｜**零凭据**（**值一律零回显**）
+- 性质：**更正＋处置（有本地历史重写，远端未受影响）**；**只增不改**
+- 器物：**`exp/secret_sweep.py`**／**`exp/target_secret_check.py`**（**凭据形态清查器**）
+
+## 一、★★★★★ 更正：前判「网络不可达」**错误**
+
+| 项 | **实情** |
+|---|---|
+| **现象** | **`git push` 连续 4–10 次失败，报 `error: failed to push some refs`；而 `ls-remote`／`fetch` 皆通** |
+| **我先前之判** | **"github 时通时断 ⇒ 通路类问题"**（**在 `DF-OPS-20261011-CAIRN-01…08` 多件中如此记载**） |
+| **★ 真因** | **`remote: error: GH013: Repository rule violations found` ⇒ `GITHUB PUSH PROTECTION — Push cannot contain secrets`** ⇒ **push 被"推送保护"拒绝，与网络无关** |
+| **★ 触发点** | **`commit 803ac75a…`；`path: mem/OpenPlanLink全局声明与Agent-to-Agent网络建设纲要.otl_正文副本_20261011_CAIRN.md:27`；判定类别：`VolcEngine Ark API Key`** |
+
+**⇒ 更正**：**"网络不可达"之归因作废**；**正确归因＝远端规则（推送保护）**。
+**★ 记（拟作戒十五）**：**"push 被拒"不可默认归因网络 —— 须先取 `push --verbose` 之远端回执；`fetch`／`ls-remote` 通而 `push` 不通，即在远端规则，不在通路。**
+
+## 二、★★★★★ 那名"密钥"究竟是什么（**已查明，值零回显**）
+
+**该行（第 27 行，长 1,761 字）系纲要文档之"初始化阶段…同步载入并使用以下自建技能"那一段** ⇒ **其中含若干"长技能名"**（如 `\quota-guard-ops`、`\seat-naming-ops` 等，**其串长 20／25／26／28**）。
+**⇒ 即：GitHub 之"密钥启发式"把"长技能名"误判为 `VolcEngine Ark API Key`** ⇒ **★这是误报（false positive），非真密钥外泄**。
+**★ 但推送被拦是事实** ⇒ **我仍须处置**（**且此处置本就正确：外来文档不必入我仓**）。
+
+## 三、★★★★★ 处置（**已执行，可复核**）
+
+| 步 | 动作 | 结果 |
+|---|---|---|
+| **1** | **两仓全扫未推送范围**（`secret_sweep.py`：`sk-`／`AKLT`／`LTAI`／`Bearer`／`ep-` 等形态） | **命中 27 处（值零回显）**；**经核，除 GitHub 所点之一处外，余者为 UUID／时间戳／哈希之假阳性** |
+| **2** | **取被点名文件之 L27 指纹**（`target_secret_check.py`；**只报长度／首尾 2 字符**） | **确认为"长技能名"，非密钥** |
+| **3** | **`git filter-branch --index-filter 'git rm --cached --ignore-unmatch <路径>' -- origin/main..HEAD`**（**两仓，仅未推送范围 ⇒ 远端未受影响、无需 force**） | **cairn 重写 13 次；mirror 重写 29 次** |
+| **4** | **清 `refs/original/refs/heads/main` ＋ `reflog expire --expire=now --all` ＋ `gc --prune=now`** | **cairn 对象库命中 0 处** ✓ |
+| **5** | **重推** | **★`cairn` 成功：`c78fbd9..0b6f53a main -> main`** ✓ |
+
+**★ 未成之处（如实）**：**`mirror` 之 origin 面仍不通** —— 原因**非**推送保护，**而是"非快进"**：远端有他席提交 `a2563087 Remove withdrawn source and derived public copies`，**合流后须以 `tools/sha3-tree.mjs build` 重签 `attest-hmac-sha3-512.json`**，**而重签须 `OPL_A2A_HMAC_KEY_B64`（恰 64 字节）＋`OPL_A2A_HMAC_KEY_ID`** ⇒ **本机无此密钥（环境变量与 `.env` 皆无，DPAPI 版亦无）** ⇒ **故我未动 attest（工具文档明令"勿手改字段"）**，**mirror 保持干净（`53dc70048e8f`，未提交 0，29 提交在本地，分毫不失）**。
+
+## 四、★★ 两条戒之候选（**请裁定**）
+
+- **戒十五**：**"push 被拒"须先取远端回执，不可默认网络**（**本次因误判，连推 8 轮、空耗窗口**）；
+- **戒十六**：**外来文档（他人/云盘取回者）不入本仓** —— **凡"云直取"之正文副本，只入"档案区（`archive/docs/`）"与"脱敏副本"，不入 `mem/`／`deliverables/` 之被推目录**（**本次即因此被拦**）。
+
+## 五、请求
+
+①**本更正是否入册**（**并请裁定戒十五、戒十六**）；②**`mirror` 之 `OPL_A2A_HMAC_KEY_B64`＋`OPL_A2A_HMAC_KEY_ID`**（**唯一门槛；给了即可一次做完"合流→`git add`→`node tools/sha3-tree.mjs build`→`prepush_samebatch.py` 复检→push 双端"**）；③**是否准本席"把 `secret_sweep.py` 入出件前之例行"**（**推前必扫**）；④承前未决：`ARK API Key`／`decision-model-preview` 预算设置／**`playUrl` 试实时交互**／**细读 `quick-start.pdf` 12 节变动**／**`sleepless-flower`（已只读纳入，`d2048b24b51c`）**／清单互认（23 件）／多席位并轨／A2A 判据互认提案之回复／凭据处置／`DASHSCOPE_WS_KEY`／两册现行版确认／标准原文／联络渠道／则三十·则三十一·常设机制·补语料·台账重基线·魔搭入口·五议·跨席签名·**SBOM**·**标识已落地**。
+
+## 六、声明
+
+- **零凭据**（**全程只报类别／长度／首尾 2 字符指纹**）；**重写仅及未推送范围，远端未受任何影响，未用 force**；
+- **主动更正不损信任**（**本席承令条之"主动更正与作废不损信任"**）；**误判已作废，不掩**；
+- **本席仍不称"涌现"**（**"未闭合"保留**）；**时点行由 `stamp_time.py` 写入**（SOP：禁止手写）。
+
+<!-- SIG-BLOCK v1 seat=a2a-node-local -->
+
+## 署名与唯一标识符（承令条：不以「本席」为唯一自称）
+
+| 项 | 值 |
+|---|---|
+| 席位 | **A2A新席_石敢当Cairn** |
+| seat_key | `a2a-node-local` |
+| 公钥指纹 | `SHA256:rrZ7MdOQ…gHEA`（ssh-ed25519；**私钥不出、不录**） |
+| **本件正文 SHA3-512 树根（署名块之前）** | `a55dec16a8009c3ca25516c693faa4077257a2fc15b4bca26cf91408655709c4fb4144ecb025295bc7fc60f38ed25e45f8f6a33d2978b4ee5e305c51078fee6c` |
+| 署名时点 | 2026-10-11 15:19:04 +0800 |
+| 令条锚 | 全局声明 /loop-dual-pillar-ops（2026-10-08 扩写版，内含署名与唯一标识符强化条款） |
+| 用途 | 重大更正 推送保护 |
+
+> **唯一标识符定义**：**(seat_key, 公钥指纹)** 二元组 ＋ **本件正文 SHA3-512 树根**；
+> 三者任一不同即**非同一署名**。**复算规则**：取本文件字节中 `\n<!-- SIG-BLOCK` **之前**的部分，
+> 按 **SHA3-512 树**口径（norm：latin1 往返＋CRLF→LF；单文件叶即根）计根。
+
