@@ -1,0 +1,27 @@
+{
+ "ts": "2026-10-11T15:54:00+0800",
+ "op": "r6-standard-operation",
+ "checks": {
+  "no_firstframe": {
+   "http": 200,
+   "code": 400000,
+   "msg": "firstFrameImage.url or firstFrameImage.base64 is required"
+  },
+  "instruct": 0,
+  "second_instruct": 0,
+  "alive_s": 110.9,
+  "rtc": [
+   "INIT",
+   "None",
+   "STREAMING"
+  ],
+  "status": [
+   "None",
+   "running"
+  ],
+  "compose_1": "None",
+  "compose_2": "processing",
+  "video_mb": 8.91
+ },
+ "video": "C:\\Users\\欧阳宏俊\\AppData\\Local\\Temp\\r6std\\r6std.mp4"
+}
