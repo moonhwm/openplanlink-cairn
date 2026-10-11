@@ -1,0 +1,85 @@
+# ★★★★★**本席配置上报 v1（技能·命令·模式·MCP）＋ 总线先行检查三步法**
+
+- 时点：北京时间 **2026-10-11 19:27**（★由 `stamp_time.py` 实跑取钟）
+### —— 应纲要「准则」「九、总线先行检查义务」两条（行 51／183）
+
+- 档号：**DF-OPS-20261011-CAIRN-35**（**应"A2A重读文档"之首轮待办 ①⑦**）
+- 席位：**A2A新席_石敢当Cairn**（`a2a-node-local`）｜**零凭据**｜**零花费**｜**纯本地**
+
+## 一、★★★★★ ① SKILL 上报（**纲要行 51：「各生态正式接入前，须主动上报当前相关技能（SKILL）」**）
+| 层 | 内容 |
+|---|---|
+| **执行体（工具）** | **`exp/` 共 ★379 件**（`.py` ＋ 2 件 `.cs`）—— **四类**：**①流程器物**（`stamp_time`／`termtable`／`sig_block`／`sig_verify`／`sop_check`／`mkled`／`lsbus_format_ops`／`ops_event`）**②实验**（`exp4–exp23`、`wm_*`、`world_model_runner`）**③文档与检索**（`doc_refresh`／`doc_archive`／`semantic_search`／`build_index`）**④审计与守卫**（`virtue_audit`／`mem_guard`／`quota_guard`／`netguard`／`cred_hygiene_*`） |
+| **正本仓技能包** | **3 件**：**`cairn-otl-signing`（3 文件）｜`cairn-term-consistency`（2）｜`ls-bus-format-ops`（2）** |
+| **hub 技能包** | **顶层 100 个**（`admission-panel-analytics`／`ai-persona-document`／`archive-ops-kit`…）**其中本席主攻 `world-model-ops`：`scripts` 11 件｜`references` 35 件** |
+| **可解释性** | 各器皆带 `--help`；**关键三器（`sig_verify`／`sop_check`／`glb_anim_verify`）皆"能失败"**（**反证已做**） |
+
+## 二、★★★★★ ① 命令上报（**纲要同条：「命令」**）
+**本席常用命令行（可复现）**：
+```
+python exp\stamp_time.py <件>                        # 打钟（件内时点行）
+python exp\termtable.py check --paths <件…>          # 术语闸
+python exp\sig_block.py --file <件> --append --note <注>   # v5 署签（SHA3-512 树根）
+python exp\sig_verify.py --dir <目录> --glob "<样式>"      # 署名逐字复算
+python exp\sop_check.py --file <件>                   # 交付完整度七项（含仓推送实测与台账留痕）
+python exp\lsbus_format_ops.py emit --bus <总线目录> --path <件> --kind artifact --seat a2a-node-local
+python exp\lsbus_format_ops.py validate <总线文件>     # 总线格式校验（★须传文件，非目录）
+python exp\mkled.py <x.led> ｜ python ledger\cairn_ledger.py append <x.json> ｜ … verify
+python exp\doc_refresh.py --budget 300 ｜ python exp\doc_archive.py --notify
+python exp\semantic_search.py --query "<问>" --top 8 ｜ --build
+python exp\glb_anim_verify.py --file <glb>            # 动画是否真动
+python exp\daily_nine_audit_20261010.py               # 日更六七八段
+```
+
+## 三、★★★★★ ① 模式上报（**纲要同条：「模式」**）
+| 模式 | 说明 |
+|---|---|
+| **守望** | **例行复拉（每 2h）＋ 日更（08:35）＋ 故障补推 ＋ 受令动** |
+| **出件七步 SOP** | **打钟→术语闸→v5 署签→投递（交换区／总线目录／正本仓／镜像落点）→总线 emit→两仓推送（状态由 `ls-remote` 实测）→台账** |
+| **判读三问三判据** | **①输入是否为因 ⇒ 定位比｜②是否保真 ⇒ 自残差 vs 他帧残差｜③是否有运动 ⇒ 同坐标帧间漂移** |
+| **自证三闸四数** | **闸一 `sop_check`（单件）｜闸二日更（全量）｜闸三 `sig_verify`；四数：署名／落地率／留痕率／仓一致性** |
+| **四对照** | **阳性对照／位置对照／姿态对照／保真对照** |
+
+## 四、★★★★★ ① MCP 配置上报（**纲要同条：「MCP 配置情况」**）
+| 项 | 内容 |
+|---|---|
+| **本会话挂载之 MCP 服务器** | **5 个**：**`baidu`（百度网盘：列／搜／上传／下载／配额／技能与选择集）｜`ima`（知识库与笔记：搜索／列表／上传／导入 URL／原始调用）｜`neon`｜`supabase`｜`wps`** —— **由运行环境注入，工具名以「服务_动作」形式可辨** |
+| **★诚实标注** | **除 `baidu`／`ima` 今夜常用外，`neon`／`supabase`／`wps` 之工具清单我未逐一探活**（**列为待核**，合纲要第十条"维持待核"之法） |
+| **非 MCP 之扩展面** | **DSH 插件体系**（**`plugin_manager` 可列／启停插件；`cordis_inspect_list` 可读 Inspect Provider 清单**）—— **与纲要所述 Cordis 插件框架同属"插件层"，但非同一实现** ⇒ **须先读 `cordis_inspect_list` 再定是否可对接** |
+
+## 五、★★★★★ ⑦ 总线先行检查（**纲要行 183**）—— **并修正一处方法误判**
+**★ 方法教训（本轮实得）**：**总线条目只含元数据**（`seq／kind／path／hash／ts`）**而不含正文** ⇒ **直接搜总线文本必空**（**我首扫 0 命中，即此误**）。
+**⇒ 故"查总线"之正解为三步**：**①读 `bus.jsonl` 取 `path` → ②在交换区开该件 → ③在正文中检索**。
+
+**本轮实做结果**：
+| 项 | 值 |
+|---|---|
+| **总线条目** | **301 条 ⇒ ★283 件可寻｜★18 件缺失**（**缺失者列入待核**） |
+| **通路知识分布（按被引件数）** | **★魔搭 226 件｜ima 29 件｜GitHub 21 件｜HuggingFace 4｜GitCode 3｜ModelScope 2｜GreasyFork 1** |
+| **摘例（魔搭）** | **「分层标识应补充至所有现有项目及已上云环节，覆盖 GitHub、魔搭社区等全部同步更新节点」（seq 51，开源协议分层组合与引入纪律之登记）**；**「承前未决：则三十／常设机制／魔搭入口／五议／跨席签名口径／数据库授权」（seq 54／55）** |
+| **⇒ 判** | **★"魔搭入口"在本席档案中已有 226 件引及，但其"入口"本身仍列承前未决 ⇒ 即：不是我没查，而是该通路须外部条件（账号／授权）方能打通** |
+
+## 六、请求
+①**本件是否入册**；②**★七条待办之优先序是否照我之建议**（**①⑦ 已完成 ⇒ 下步建议 ④搜索路由 Bing/Google → ⑤技能自装环境 → ⑥目录命名空间**）；③**★"子代理不少于 3 个"（纲要行 77）是否准我启用本环境之 Agent Teams（须您明令）**；④承前未决：**加固与戒条归属／甲·乙·丙／七项外力**。
+
+## 七、声明
+**零凭据**｜**未改他席件（依纲要第八条）**｜**零花费**｜**未探活者已标待核**｜**本席仍不称"涌现"**｜**时点行由 `stamp_time.py` 写入**。
+
+<!-- SIG-BLOCK v1 seat=a2a-node-local -->
+
+## 署名与唯一标识符（承令条：不以「本席」为唯一自称）
+
+| 项 | 值 |
+|---|---|
+| 席位 | **A2A新席_石敢当Cairn** |
+| seat_key | `a2a-node-local` |
+| 公钥指纹 | `SHA256:rrZ7MdOQ…gHEA`（ssh-ed25519；**私钥不出、不录**） |
+| **本件正文 SHA3-512 树根（署名块之前）** | `5005e57a2a319eb2c3a4f7cc27f2a085afadc1c46966c60f037420f4ceebc1c87ed891f8fc70c906effbd5ce97fb761a1c1f0e1cd63594ccbbfc5e1f20ab1b8d` |
+| 署名时点 | 2026-10-11 19:27:45 +0800 |
+| 令条锚 | 全局声明 /loop-dual-pillar-ops（2026-10-08 扩写版，内含署名与唯一标识符强化条款） |
+| 用途 | 配置上报 v1 |
+
+> **唯一标识符定义**：**(seat_key, 公钥指纹)** 二元组 ＋ **本件正文 SHA3-512 树根**；
+> 三者任一不同即**非同一署名**。**复算规则**：取本文件字节中 `\n<!-- SIG-BLOCK` **之前**的部分，
+> 按 **SHA3-512 树**口径（norm：latin1 往返＋CRLF→LF；单文件叶即根）计根。
+
