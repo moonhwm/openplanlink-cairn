@@ -1,0 +1,50 @@
+{
+ "ts": "2026-10-11T16:32:41+0800",
+ "asset": "persona-animation-clips",
+ "fps": 24,
+ "frames": 24,
+ "clips": {
+  "dash": {
+   "ground_residual_max": 0.0,
+   "pelvis_min": 0.7995,
+   "pelvis_max": 0.8887,
+   "max_angle_step_deg": 12.0,
+   "apex_pelvis": null,
+   "drop_ratio": 0.1584,
+   "root_x_end": 1.12
+  },
+  "jump": {
+   "ground_residual_max": 0.0,
+   "pelvis_min": 0.6082,
+   "pelvis_max": 1.33,
+   "max_angle_step_deg": 24.67,
+   "apex_pelvis": 1.33,
+   "drop_ratio": 0.3598,
+   "root_x_end": 0.12
+  },
+  "crouch": {
+   "ground_residual_max": 0.0,
+   "pelvis_min": 0.6082,
+   "pelvis_max": 0.8887,
+   "max_angle_step_deg": 11.25,
+   "apex_pelvis": null,
+   "drop_ratio": 0.3598,
+   "root_x_end": 0.0
+  },
+  "attack": {
+   "ground_residual_max": 0.0,
+   "pelvis_min": 0.8327,
+   "pelvis_max": 0.8887,
+   "max_angle_step_deg": 12.75,
+   "apex_pelvis": null,
+   "drop_ratio": 0.1235,
+   "root_x_end": 0.26
+  }
+ },
+ "render": {
+  "file": "persona_animation_contact_sheet_20261011.png",
+  "w": 1392,
+  "h": 1200,
+  "bytes": 35862
+ }
+}
