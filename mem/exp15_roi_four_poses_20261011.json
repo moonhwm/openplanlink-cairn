@@ -1,0 +1,26 @@
+{
+ "dash": {
+  "roi": 20.118,
+  "out": 0.2006,
+  "ratio": 100.3,
+  "identical": 75.3
+ },
+ "jump": {
+  "roi": 16.621,
+  "out": 0.7178,
+  "ratio": 23.2,
+  "identical": 79.78
+ },
+ "crouch": {
+  "roi": 19.143,
+  "out": 0.1794,
+  "ratio": 106.7,
+  "identical": 80.39
+ },
+ "attack": {
+  "roi": 21.373,
+  "out": 0.2386,
+  "ratio": 89.6,
+  "identical": 79.37
+ }
+}
