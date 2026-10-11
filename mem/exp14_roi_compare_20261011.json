@@ -1,0 +1,36 @@
+{
+ "box": [
+  660,
+  230,
+  960,
+  590
+ ],
+ "rows": [
+  {
+   "t": 2,
+   "all_mean": 2.8525,
+   "roi_mean": 20.673,
+   "out_mean": 0.1835,
+   "ratio": 112.6,
+   "identical_pct": 73.4
+  },
+  {
+   "t": 5,
+   "all_mean": 2.6977,
+   "roi_mean": 19.899,
+   "out_mean": 0.2096,
+   "ratio": 94.9,
+   "identical_pct": 79.809
+  },
+  {
+   "t": 10,
+   "all_mean": 2.7843,
+   "roi_mean": 19.782,
+   "out_mean": 0.2087,
+   "ratio": 94.8,
+   "identical_pct": 72.689
+  }
+ ],
+ "ratio_mean": 100.8,
+ "identical_mean": 75.299
+}
