@@ -1,0 +1,31 @@
+{
+ "ts": "2026-10-11T15:40:20+0800",
+ "exp": "8-status-fields",
+ "cmd": "向左走三步。",
+ "steps": [],
+ "baseline": {
+  "status": "running",
+  "mode": null,
+  "rtcStatus": "INIT",
+  "userInstructions": [
+   "(0) 空"
+  ],
+  "chapters": null,
+  "characterActions": [
+   "(4) dash"
+  ]
+ },
+ "instruct_code": 0,
+ "after": {
+  "status": "completed",
+  "mode": null,
+  "rtcStatus": null,
+  "userInstructions": [
+   "(1) {'instruction': '向左走三步。', 'relativeStartTimeMs': None, 'relativeEndTimeMs': None, 'startTime': None, 'endTime': None, 'status': 'UNEXECUTED'}"
+  ],
+  "chapters": null,
+  "characterActions": [
+   "(4) dash"
+  ]
+ }
+}
