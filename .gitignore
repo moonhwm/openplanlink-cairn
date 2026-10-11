@@ -1,0 +1,5 @@
+﻿
+# Python 缓存（勿入库）
+__pycache__/
+*.pyc
+.pytest_cache/
