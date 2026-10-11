@@ -1,0 +1,13 @@
+{
+ "ts": "2026-10-11T21:52:01+0800",
+ "world": "8rcpnKlw…_WASH",
+ "input_frame": "exp24_persona_firstframe_16x9_20261011.png",
+ "platform_firstframe": "exp24_platform_firstframe_20261011.png",
+ "res_roi": 5.511,
+ "res_outside": 2.043,
+ "ratio": 2.7,
+ "magenta_mine": 197,
+ "magenta_platform": 195,
+ "mean_abs_residual": 2.051,
+ "block_corr_median": 0.996
+}
