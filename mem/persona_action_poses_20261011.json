@@ -1,0 +1,108 @@
+{
+ "ts": "2026-10-11T16:24:46+0800",
+ "asset": "persona-action-poses",
+ "skeleton": {
+  "pelvis_z": 0.95,
+  "hip_dx": 0.05,
+  "thigh": 0.42,
+  "shin": 0.42,
+  "foot": 0.11,
+  "torso": 0.55,
+  "upper_arm": 0.3,
+  "fore_arm": 0.28
+ },
+ "checks": {
+  "dash": {
+   "foot_z_before": 0.1505,
+   "shift": -0.1505,
+   "shift_le_0.25": true,
+   "knee_above_ankle": true,
+   "ankle_below_pelvis": true,
+   "plausible": true
+  },
+  "jump": {
+   "foot_z_before": 0.0671,
+   "shift": -0.0671,
+   "shift_le_0.25": true,
+   "knee_above_ankle": true,
+   "ankle_below_pelvis": true,
+   "plausible": true
+  },
+  "crouch": {
+   "foot_z_before": 0.3418,
+   "shift": -0.3418,
+   "shift_le_0.25": false,
+   "knee_above_ankle": true,
+   "ankle_below_pelvis": true,
+   "plausible": false
+  },
+  "attack": {
+   "foot_z_before": 0.1173,
+   "shift": -0.1173,
+   "shift_le_0.25": true,
+   "knee_above_ankle": true,
+   "ankle_below_pelvis": true,
+   "plausible": true
+  }
+ },
+ "poses": {
+  "dash": {
+   "torso_lean": 24,
+   "hip_L": 38,
+   "knee_L": 26,
+   "ankle_L": -8,
+   "hip_R": -30,
+   "knee_R": 42,
+   "ankle_R": 12,
+   "shoulder_L": -52,
+   "elbow_L": 68,
+   "shoulder_R": 46,
+   "elbow_R": 74
+  },
+  "jump": {
+   "torso_lean": 6,
+   "hip_L": 16,
+   "knee_L": 10,
+   "ankle_L": -4,
+   "hip_R": 14,
+   "knee_R": 8,
+   "ankle_R": -2,
+   "shoulder_L": -128,
+   "elbow_L": 18,
+   "shoulder_R": -126,
+   "elbow_R": 16
+  },
+  "crouch": {
+   "torso_lean": 18,
+   "hip_L": 62,
+   "knee_L": 96,
+   "ankle_L": -24,
+   "hip_R": 60,
+   "knee_R": 94,
+   "ankle_R": -22,
+   "shoulder_L": -20,
+   "elbow_L": 92,
+   "shoulder_R": 22,
+   "elbow_R": 90
+  },
+  "attack": {
+   "torso_lean": 14,
+   "hip_L": 30,
+   "knee_L": 34,
+   "ankle_L": -10,
+   "hip_R": -18,
+   "knee_R": 40,
+   "ankle_R": 10,
+   "shoulder_L": -96,
+   "elbow_L": 14,
+   "shoulder_R": 64,
+   "elbow_R": 88
+  }
+ },
+ "render": {
+  "file": "persona_action_poses_20261011.png",
+  "w": 1160,
+  "h": 620,
+  "bytes": 16730
+ }
+}
