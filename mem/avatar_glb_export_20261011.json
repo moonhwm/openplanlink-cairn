@@ -1,0 +1,21 @@
+{
+ "ts": "2026-10-11T16:33:57+0800",
+ "asset": "CAIRN_avatar_LOD0_actions",
+ "file": "CAIRN_avatar_LOD0_actions_20261011.glb",
+ "bytes": 35896,
+ "nodes": 23,
+ "animations": [
+  "dash",
+  "jump",
+  "crouch",
+  "attack"
+ ],
+ "frames": 24,
+ "fps": 24,
+ "channels_total": 52,
+ "selfcheck": {
+  "magic": true,
+  "declared_len": 35896,
+  "actual_len": 35896
+ }
+}
