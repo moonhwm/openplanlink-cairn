@@ -152,6 +152,24 @@ try:
         except Exception as _e:
             print("   %-7s ⚠ 未能核：%s" % (_n, str(_e)[:50]))
     print("   ⇒ 判：%s" % ("★四仓一致，无待补推" if not _pend else "★待补推：%s（须补）" % "、".join(_pend)))
+
+    # ── ★纲要：正本（kd_McccFi）与副本（outline）同哈希核验 ──
+    try:
+        import hashlib as _h
+        _D = SEAT/"archive"/"docs"
+        def _sh(name):
+            vs = sorted((_D/name).glob("v_2026*.md"))
+            if not vs: return None, None
+            x = vs[-1].read_text(encoding="utf-8", errors="replace")
+            return vs[-1].stem[2:], _h.sha3_256(x.encode()).hexdigest()[:16]
+        _a, _ha = _sh("kd_McccFi"); _b, _hb = _sh("outline")
+        _same = (_ha is not None and _ha == _hb)
+        print("   纲要 正本 %s/%s ｜ 副本 %s/%s ⇒ %s" % (
+            _a, (_ha or "无")[:12], _b, (_hb or "无")[:12], "★同哈希（基准最新）" if _same else "★不同哈希 ⇒ 须核"))
+        land["outline_hash"] = {"canon": _ha, "copy": _hb, "same": _same}
+    except Exception as _e:
+        print("   纲要核验未能执行：%s" % str(_e)[:60])
+
     land["repo_pending"] = _pend
 except Exception as e:
     print("   ⚠ ⑨ 未能执行：%s" % str(e)[:100])
