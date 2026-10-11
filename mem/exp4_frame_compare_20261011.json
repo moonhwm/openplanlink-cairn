@@ -1,0 +1,21 @@
+{
+ "note": "实验④：A(原首帧) vs B(nonce首帧) 同刻解码帧比对",
+ "rows": [
+  {
+   "t": 5,
+   "mean_abs": 0.3598,
+   "identical_pct": 85.841,
+   "max": 228,
+   "roi_mean": 128.442,
+   "outside_mean": 0.2112
+  },
+  {
+   "t": 10,
+   "mean_abs": 0.4431,
+   "identical_pct": 79.164,
+   "max": 226,
+   "roi_mean": 126.528,
+   "outside_mean": 0.2912
+  }
+ ]
+}
