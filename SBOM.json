@@ -21,7 +21,19 @@
    "version": "self-authored",
    "license": "AGPL-3.0",
    "path": "tools/",
-   "third_party": false
+   "third_party": false,
+   "files": 348,
+   "recent_additions": [
+    "sig_verify.py",
+    "sop_check.py",
+    "glb_anim_verify.py",
+    "semantic_search.py",
+    "mk_namespaces.py",
+    "bootstrap.py",
+    "pub_safe.py",
+    "search_route.py"
+   ],
+   "note": "tools/ 实有 348 件；下列为 2026-10-11 夜新增（8 件）"
   },
   {
    "name": "cairn notes (documents)",
@@ -47,7 +59,8 @@
   "HUAWEI_MAAS_BASE",
   "api.tushare.pro",
   "github.com",
-  "gitcode.com"
+  "gitcode.com",
+  "trial.cn-beijing.maas.aliyuncs.com"
  ],
  "vulnerability_scan": {
   "status": "not-run",
@@ -58,6 +71,10 @@
   "files": 2341,
   "hits": 57,
   "real_credentials": 0,
-  "notes": "2 synthetic test keys; 55 device identifiers (registered, pending ruling)"
- }
+  "notes": "2 synthetic test keys; 55 device identifiers (registered, pending ruling)",
+  "last_scanned": "2026-10-09",
+  "note_recheck": "★本夜未重扫（新增 10 器为纯本地逻辑，无新外部依赖）；重扫列阶段 1 待办"
+ },
+ "updated": "2026-10-11T19:52:42+0800",
+ "updated_note": "本席今夜（10-11）新增器物与外部服务之实况登记；历史字段（created／license_layers）不动"
 }
