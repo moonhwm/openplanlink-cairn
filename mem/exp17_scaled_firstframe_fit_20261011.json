@@ -1,0 +1,26 @@
+{
+ "dash": {
+  "best_s": 0.715,
+  "self_residual": 17.388,
+  "other_residual": 16.932,
+  "ratio": 1.0
+ },
+ "jump": {
+  "best_s": 0.715,
+  "self_residual": 15.708,
+  "other_residual": 15.812,
+  "ratio": 1.0
+ },
+ "crouch": {
+  "best_s": 0.715,
+  "self_residual": 16.052,
+  "other_residual": 15.94,
+  "ratio": 1.0
+ },
+ "attack": {
+  "best_s": 0.715,
+  "self_residual": 16.83,
+  "other_residual": 16.219,
+  "ratio": 1.0
+ }
+}
