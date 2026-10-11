@@ -1,0 +1,152 @@
+{
+ "ts": "2026-10-11T18:01:30+0800",
+ "op": "tripo-batch-thumbnails",
+ "assets": [
+  {
+   "file": "tripo_convert_0aa3454c-53bd-42",
+   "mb": 61.5,
+   "verts": 1073516,
+   "tris": 0,
+   "cover": 17.13,
+   "bbox": [
+    0.558,
+    0.979,
+    0.809
+   ]
+  },
+  {
+   "file": "tripo_convert_119a7289-bfb0-4e",
+   "mb": 59.0,
+   "verts": 1105744,
+   "tris": 0,
+   "cover": 16.41,
+   "bbox": [
+    0.676,
+    0.977,
+    0.62
+   ]
+  },
+  {
+   "file": "tripo_convert_177e8c14-6345-47",
+   "mb": 61.8,
+   "verts": 1081473,
+   "tris": 0,
+   "cover": 17.37,
+   "bbox": [
+    0.56,
+    0.976,
+    0.81
+   ]
+  },
+  {
+   "file": "tripo_convert_1e23c731-e454-4c",
+   "mb": 60.0,
+   "verts": 1107038,
+   "tris": 0,
+   "cover": 8.38,
+   "bbox": [
+    0.218,
+    0.978,
+    0.531
+   ]
+  },
+  {
+   "file": "tripo_convert_1e23c731-e454-4c",
+   "mb": 60.0,
+   "verts": 1107038,
+   "tris": 0,
+   "cover": 8.38,
+   "bbox": [
+    0.218,
+    0.978,
+    0.531
+   ]
+  },
+  {
+   "file": "tripo_convert_2aab1017-db4a-4f",
+   "mb": 64.0,
+   "verts": 1221014,
+   "tris": 0,
+   "cover": 17.5,
+   "bbox": [
+    0.453,
+    0.982,
+    0.449
+   ]
+  },
+  {
+   "file": "tripo_convert_346c580f-24bd-49",
+   "mb": 61.1,
+   "verts": 1228328,
+   "tris": 0,
+   "cover": 18.21,
+   "bbox": [
+    0.487,
+    1.0,
+    0.479
+   ]
+  },
+  {
+   "file": "tripo_convert_36972761-d87c-4f",
+   "mb": 72.8,
+   "verts": 1049904,
+   "tris": 0,
+   "cover": 17.07,
+   "bbox": [
+    0.548,
+    0.977,
+    0.902
+   ]
+  },
+  {
+   "file": "tripo_convert_57e56e67-cf5c-41",
+   "mb": 58.9,
+   "verts": 1096716,
+   "tris": 0,
+   "cover": 8.24,
+   "bbox": [
+    0.219,
+    0.977,
+    0.529
+   ]
+  },
+  {
+   "file": "tripo_convert_849b5686-9d74-45",
+   "mb": 60.2,
+   "verts": 1215676,
+   "tris": 0,
+   "cover": 18.01,
+   "bbox": [
+    0.474,
+    1.0,
+    0.469
+   ]
+  },
+  {
+   "file": "tripo_convert_e0d31904-1cce-43",
+   "mb": 44.1,
+   "verts": 553816,
+   "tris": 0,
+   "cover": 16.19,
+   "bbox": [
+    0.477,
+    0.215,
+    0.48
+   ]
+  },
+  {
+   "file": "tripo_convert_f1520e82-5c6a-43",
+   "mb": 57.7,
+   "verts": 1075283,
+   "tris": 0,
+   "cover": 2.58,
+   "bbox": [
+    0.178,
+    0.394,
+    0.98
+   ]
+  }
+ ],
+ "out": "tripo_assets_contact_sheet_20261011.png",
+ "secs": 1.1
+}
