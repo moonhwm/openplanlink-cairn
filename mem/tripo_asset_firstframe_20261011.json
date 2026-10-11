@@ -1,0 +1,22 @@
+{
+ "ts": "2026-10-11T17:46:03+0800",
+ "op": "tripo-asset-firstframe-composite",
+ "base": "opening_firstframe_16x9_20261011.jpg",
+ "silhouette": [
+  1280,
+  720
+ ],
+ "paste": [
+  665,
+  130,
+  523,
+  446
+ ],
+ "marker": [
+  926,
+  278
+ ],
+ "marker_px": 197,
+ "out": "exp20_tripo_asset_firstframe_20261011.jpg",
+ "out_kb": 49.2
+}
