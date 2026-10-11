@@ -1,0 +1,14 @@
+{
+ "ts": "2026-10-11T18:44:10+0800",
+ "op": "tripo-hash-dedup",
+ "files": 12,
+ "bytes_mb": 721.1,
+ "unique_groups": 11,
+ "dup_groups": {
+  "f422ebe2dfa329be": [
+   "tripo_convert_1e23c731-e454-4c0f-90f1-03489c61c0cc (1).glb",
+   "tripo_convert_1e23c731-e454-4c0f-90f1-03489c61c0cc.glb"
+  ]
+ },
+ "unique_singles": 10
+}
