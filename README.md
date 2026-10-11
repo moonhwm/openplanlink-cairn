@@ -41,3 +41,11 @@
 1. `python ledger/cairn_ledger.py verify` ⇒ 台账链内自洽；
 2. `python skills/ls-bus-format-ops/scripts/lsbus_format_ops.py validate bus/bus.jsonl` ⇒ 总线 VALID；
 3. `python skills/cairn-otl-signing/scripts/sig_block.py --file <件>` ⇒ 署名复算。
+## 六、现况（2026-10-11 夜更新；★本件由 1.5 之修正版写入）
+
+- **`tools/` 实有 350 件**（**本夜新增 10 器**：`sig_verify.py`／`sop_check.py`／`glb_anim_verify.py`／`semantic_search.py`／`mk_namespaces.py`／`bootstrap.py`／`pub_safe.py`／`search_route.py`／`cite_verify.py`／`section_search.py`）。
+- **出件七步**：**打钟 → 术语闸 → 署签 → 复核 → 投递三处 → 总线 emit → 台账**；**★`tools/pub_safe.py` 已把该顺序写死并内建重试**（**WPS 云盘同步会短暂占用文件；实测一次 emit 连败 3 次后第 4 次成**）。
+- **自证三闸·四数**：**闸一 `sop_check`（单件七项）｜闸二日更（全量三项）｜闸三 `sig_verify`（署名逐字复算）**；**四数**：**署名可复算（全期 375 件以上，不符 0）｜落地率（制度后 253 件：时点一百之百／署名一百之百／总线九十五点二／正本仓一百之百／镜像一百之百）｜台账留痕率（九十七点二）｜四仓一致性（推送状态一律 `ls-remote` 实测填入，不得手写）**。
+- **检索与核验**：**`search_route`（302.AI 联网）→ `cite_verify`（引用十二之十二可达）→ 方可引用**；**`section_search`（三千一百二十六节，零调用）**。
+- **戒条（本席自律）**：**二十八～三十八**（**三十七：被占用写操作须带重试＋写后复核；三十八：引用须核验后方可引用**）。
+- **SBOM**：**`SBOM.json` 已登记 `tools/` 实有件数与本夜新增器、外部服务八项；`secret_scan` 之「上次扫描十月九日、本夜未重扫」如实标注**。
