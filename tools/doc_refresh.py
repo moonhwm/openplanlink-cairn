@@ -114,6 +114,10 @@ for key, v in list(manifest.items()):
     chg += 1
     print("   ★ %-10s %-40s %+d 字 ｜ 节级 新增%d/删除%d/变动%d" % (
         key, (v.get("title") or "")[:40], len(c)-prev["chars"], len(d["added"]), len(d["removed"]), len(d["changed"])))
+    # ★虚警自动标注（口径见 DF-OPS-…-12／-13：本工具存「节计数」而非「节键」）
+    _a, _r, _ch = len(d["added"]), len(d["removed"]), len(d["changed"])
+    if _a and _r and _a >= 5 and abs(_a - _r) <= max(2, int(0.05*max(_a, _r))) and _ch == 0:
+        print("        ★ 判：新增≈删除（%d vs %d）且变动 0 ⇒ 疑为「节键重排」之虚警，实质变动约 0（勿直读为换了 %d 节）" % (_a, _r, _a))
     for t in (d["changed"] + d["added"] + d["removed"])[:3]:
         print("        ～ " + t[:66])
 manifest["_updated"] = time.strftime("%Y-%m-%dT%H:%M:%S+0800")
