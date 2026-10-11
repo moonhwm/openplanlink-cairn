@@ -1,0 +1,74 @@
+# ★★★★**⑥目录命名空间对照与迁移方案** ＋ **④搜索路由实测** ＋ **⑤自装环境引导器**
+
+- 时点：北京时间 **2026-10-11 19:35**（★由 `stamp_time.py` 实跑取钟）
+### —— 应纲要「目录结构建议」（行 62）、「整体架构」（行 62）、「技能录入要求」（行 92）
+
+- 档号：**DF-OPS-20261011-CAIRN-36**（**应"A2A重读文档"次轮待办 ④⑤⑥**）
+- 席位：**A2A新席_石敢当Cairn**（`a2a-node-local`）｜**零凭据**｜**零花费**
+
+## 一、★★★★★ ⑥ 对照：纲要命名空间（70+）↔ 本席现有目录（13）
+**纲要原文（行 62）**：「**各生态接入方应…在根目录下创建不超过两至三级的子文件夹…目录结构建议围绕以下核心命名空间按需创建：**」——**共 70+ 个**（`/init /plan /workflow /compact /3-statement-model /accretion /allocation /benchmark /bond /bp-support /capital-raise /cash-forecast /close-review /competitive-analysis /comps /credit-watch /curve /dcf /dd-report /deal-comps /debug-model /earnings /env-check /events /fund-profile /fund-screen /fund-watch /holdings /index-val /intraday /ios-dev /issuer /lbo /macro /manager-profile /map-accounts /mgmt-report /mimosa-deep-audit /mimosa-scan /mimosa-status /model-update /morning-note /opportunities /park /policy /portrait /profitability /prospects /recap /reconcile /record /reforecast /related-parties /replicate /replicate-fullstack /research-report /restore-legacy-sessions /risk-scan /scenario /screen /sector /sources-uses /statements /tie-out /variance /video-edit`）。
+
+**本席现有（13 个一级目录）**：**`a2a`(1)｜`archive`(460)｜`cold`(12)｜`deliverable`(2)｜`exp`(6787)｜`handshake`(2567)｜`inbox`(53)｜`ledger`(5)｜★`namespaces`(0)｜`obs_fix`(12)｜`ops`(5)｜`oracle_fix`(1)｜`outbox`(260)**。
+
+**★ 关键发现**：**我席位下已有一个 `namespaces/` 目录，且为空（0 件）** ⇒ **该惯例早先已被预见，但从未填充**。
+
+## 二、★★★★★ ⑥ 迁移方案（**两段式；不搬动历史路径**）
+**方案（荐）**：**保留现有一级目录之功能分区**（**它们是"按产物类型"之划分，改动会打断 1075 条台账与 302 条总线中的路径引用**），**另在 `namespaces/<ns>/` 下建"视图层"**（**每 ns 一个 `index.md`，以链接与清单指向相关件**）⇒
+**① 合规**：**深度 ≤2 级**（`namespaces/<ns>/index.md` 恰为 2 级）；**② 不破坏引用**：**件不动、路不迁**；**③ 可增量**：**先建 10 个真正用得上的 ns，其余按需**。
+
+**本席适用之命名空间（建议先建 10 个）**：
+| 纲要 ns | 映射到我方什么 | 依据 |
+|---|---|---|
+| **`/init`** | **`inbox/` ＋ `00_席位上手页_读取与通道_v4`** | 入手与读取通道 |
+| **`/plan`** | **世界模型总册 r10 ＋ 人设总册 r3 ＋ 本夜索引** | 规划与现行版 |
+| **`/workflow`** | **`exp/` 之流程器物（打钟／术语闸／署签／复算／自检／台账／总线）** | 作业流程 |
+| **`/env-check`** | **`bootstrap.py`（本轮新增）＋ 依赖清单** | 环境自检（**正对 ⑤**） |
+| **`/debug-model`** | **`exp/` 之调试与探针（`probe_*`／`diag_*`／`ws_*`）** | 排障与探针 |
+| **`/record`** | **`ledger/`（前向哈希链）＋ 总线指针** | 记录与审计 |
+| **`/park`** | **游乐场侧：世界模型实验件、四姿态留档、录像** | 与"夜间游乐场"同义 |
+| **`/portrait`** | **`人设` 资产：三级 LOD GLB／四段动画／形象图** | ★正对"人设 3D 建模" |
+| **`/recap`** | **总账／日更／索引／复盘件** | 汇总 |
+| **`/policy`** | **戒条、立法自查、治理令件** | 治理 |
+**不适用者（举三类，附理由）**：**金融类**（`/dcf /comps /lbo /curve /credit-watch /sources-uses` 等）**本席无金融业务**；**`/ios-dev`** 本席无 iOS 交付；**`/video-edit`** 本席只做抽帧与比对，不做剪辑交付。
+
+## 三、★★★★★ ④ 搜索路由实测（**纲要行 62：「Bing 与 Google 固化为指定搜索路由引擎及默认外部搜索入口」**）
+| 探项 | 结果 |
+|---|---|
+| **内置检索工具** | **可查、可给源，但★无"引擎"参数、亦不暴露引擎身份**（**返回 8 条源皆为原始站点域名，非聚合层**）⇒ **无法在内置工具上"指定引擎"** |
+| **Bing 直连** | **HTTP 200**（**首 2 KB 无结果标记**） |
+| **Google 直连** | **HTTP 200**（**首 2 KB 无结果标记**） |
+| **DuckDuckGo(html)** | **HTTP 200**（**同上**） |
+**⇒ 判**：**三家皆"可达而不可用"**（**首屏为同意页／JS 壳，须交互或 API**）⇒ **"固化为指定引擎"须以 API 通道或人工方式落地，非本席单方可为** ⇒ **列待外部条件**（**并与"七项外力"同表管理**）。
+
+## 四、★★★★★ ⑤ 技能自装环境（**纲要行 92：「自动下载所需软件及运行环境，无需人工干预」**）
+**新增器物**：**`exp/bootstrap.py`** ——
+**① 检测**：**必需 2 项**（`numpy`／`PIL`）＋**可选 4 项**（`trimesh`／`pyrender`／`pygltflib`／`meshoptimizer`）；
+**② 安装**：**`--install` 才执行 `pip install --user`**，**并打印实际命令与退出码**；
+**③ ★本轮实测（仅检测分支）**：**必需 2 项皆 ✓ ⇒ 判"环境齐备，无需安装"；可选 4 项皆缺（按需再装）**。
+**★ 一处与纲要之微差（如实标注）**：**纲要要求"无需人工干预"地自动安装**；**我之器默认只报告、须显式 `--install` 方安装** —— **理由：本机曾因"擅自装库"被列为风险动作，且我无包管理授权** ⇒ **若您准"无人干预自装"，我可改默认行为**（**一行之改**）。
+
+## 五、请求
+①**本件是否入册**；②**★⑥ 两段式方案是否准行**（**先建 10 ns 之视图层，不搬动历史路径**）—— **若准，我次轮即建**；③**★⑤ 之默认行为**：**保持"报告制"**（我荐）／**改为"无人干预自装"**；④**★④ 是否准我以 API 通道推进**（**需您指定可用之搜索 API 或提供凭据**）；⑤承前：**加固与戒条归属／甲·乙·丙／七项外力／子代理≥3（行 77）**。
+
+## 六、声明
+**零凭据**｜**未改他席件**｜**零花费**｜**未授权者不装库**｜**本席仍不称"涌现"**｜**时点行由 `stamp_time.py` 写入**。
+
+<!-- SIG-BLOCK v1 seat=a2a-node-local -->
+
+## 署名与唯一标识符（承令条：不以「本席」为唯一自称）
+
+| 项 | 值 |
+|---|---|
+| 席位 | **A2A新席_石敢当Cairn** |
+| seat_key | `a2a-node-local` |
+| 公钥指纹 | `SHA256:rrZ7MdOQ…gHEA`（ssh-ed25519；**私钥不出、不录**） |
+| **本件正文 SHA3-512 树根（署名块之前）** | `80d40a0a3cc9d1693912130bf7dd73453c6da193d74f2ae5c6ba4690fdc69ca3edfe0ffa0b6cd81d0ce93ae23839601a5e836f7802eceb7b39e218c12c045f89` |
+| 署名时点 | 2026-10-11 19:35:07 +0800 |
+| 令条锚 | 全局声明 /loop-dual-pillar-ops（2026-10-08 扩写版，内含署名与唯一标识符强化条款） |
+| 用途 | 命名空间·搜索路由·自装 |
+
+> **唯一标识符定义**：**(seat_key, 公钥指纹)** 二元组 ＋ **本件正文 SHA3-512 树根**；
+> 三者任一不同即**非同一署名**。**复算规则**：取本文件字节中 `\n<!-- SIG-BLOCK` **之前**的部分，
+> 按 **SHA3-512 树**口径（norm：latin1 往返＋CRLF→LF；单文件叶即根）计根。
+
