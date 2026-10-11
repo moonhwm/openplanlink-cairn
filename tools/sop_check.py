@@ -65,6 +65,29 @@ def main():
     for k, v in res.items():
         print("   %-14s %s" % (k, v))
         if str(v).startswith("✓"): ok += 1
+
+    # ⑥ 仓推送实测（★「已推」只能来自测量，不得手写）
+    import subprocess
+    print("   ⑥ 仓推送实测（ls-remote）")
+    for name, rp in (("cairn", CAIRN), ("mirror", MIRROR),
+                     ("hub", HOME/"qoder-skills-hub"),
+                     ("k3", HOME/"sleepless-flower-under-sealevel")):
+        try:
+            lo = subprocess.run(["git", "-C", str(rp), "rev-parse", "HEAD"],
+                                capture_output=True, text=True, timeout=30).stdout.strip()
+            rm = subprocess.run(["git", "-C", str(rp), "ls-remote", "origin", "main"],
+                                capture_output=True, text=True, timeout=60).stdout.strip()
+            rs = rm.split()[0] if rm else ""
+            if not rs:
+                st = "origin 不可达 ⇒ 待补推"
+            elif rs == lo:
+                st = "✓ 一致（%s）" % lo[:12]
+            else:
+                st = "★待补推 local=%s origin=%s" % (lo[:12], rs[:12])
+        except Exception as e:
+            st = "⚠ 未能核：%s" % str(e)[:50]
+        print("      %-7s %s" % (name, st))
+
     print("   ⇒ 判：%d／5 项落地%s" % (ok, "" if ok == 5 else "  ★有缺项，须补"))
     return 0 if ok == 5 else 1
 
