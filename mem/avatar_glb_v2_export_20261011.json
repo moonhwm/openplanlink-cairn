@@ -1,0 +1,60 @@
+{
+ "ts": "2026-10-11T16:34:59+0800",
+ "asset": "CAIRN_avatar_actions_v2",
+ "fps": 24,
+ "frames": 25,
+ "fixed": "时间轴修为 0…1.000（25 帧）",
+ "lods": {
+  "LOD0": {
+   "file": "CAIRN_avatar_LOD0_actions_v2_20261011.glb",
+   "bytes": 35968,
+   "bones": 12,
+   "nodes": 23,
+   "animations": [
+    "dash",
+    "jump",
+    "crouch",
+    "attack"
+   ],
+   "channels_per_anim": 13,
+   "t_min": 0.0,
+   "t_max": 1.0,
+   "len_ok": true,
+   "timeline_ok": true
+  },
+  "LOD1": {
+   "file": "CAIRN_avatar_LOD1_actions_v2_20261011.glb",
+   "bytes": 30464,
+   "bones": 10,
+   "nodes": 19,
+   "animations": [
+    "dash",
+    "jump",
+    "crouch",
+    "attack"
+   ],
+   "channels_per_anim": 11,
+   "t_min": 0.0,
+   "t_max": 1.0,
+   "len_ok": true,
+   "timeline_ok": true
+  },
+  "LOD2": {
+   "file": "CAIRN_avatar_LOD2_actions_v2_20261011.glb",
+   "bytes": 24964,
+   "bones": 8,
+   "nodes": 15,
+   "animations": [
+    "dash",
+    "jump",
+    "crouch",
+    "attack"
+   ],
+   "channels_per_anim": 9,
+   "t_min": 0.0,
+   "t_max": 1.0,
+   "len_ok": true,
+   "timeline_ok": true
+  }
+ }
+}
