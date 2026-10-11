@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head><meta charset="utf-8"><title>Cairn 席 · 实时观看探针</title>
+<script src="./node_modules/agora-rtc-sdk-ng/AgoraRTC_N-production.js"></script>
+</head>
+<body>
+<div id="log">[起点] 页面已载入</div>
+<video id="v" autoplay playsinline width="640"></video>
+<script>
+const L = (m) => { const d = document.getElementById('log');
+  d.textContent += "\n[" + new Date().toISOString().slice(11,19) + "] " + m; };
+const q = new URLSearchParams(location.search);
+const appId = q.get('appId'), channel = q.get('channel'), token = q.get('token'), uid = q.get('uid') || '0';
+L("参数：appId=" + (appId ? appId.slice(0,8) + "…" : "缺") + " channel=" + (channel || "缺") + " token=" + (token ? "有(长" + token.length + ")" : "缺"));
+if (!window.AgoraRTC) { L("★SDK 未载入（AgoraRTC 不存在）"); }
+else {
+  (async () => {
+    try {
+      L("SDK 版本：" + (AgoraRTC.VERSION || "?"));
+      const client = AgoraRTC.createClient({ mode: "live", codec: "vp8" });
+      client.on("user-published", async (user, mediaType) => {
+        L("★远端发布：" + mediaType + " uid=" + user.uid);
+        await client.subscribe(user, mediaType);
+        if (mediaType === "video") { user.videoTrack.play(document.getElementById('v')); L("★已订阅视频并播放"); }
+        if (mediaType === "audio") { user.audioTrack.play(); L("★已订阅音频"); }
+      });
+      client.on("user-joined", (u) => L("远端加入 uid=" + u.uid));
+      client.on("connection-state-change", (s, p) => L("连接态：" + p + " → " + s));
+      await client.join(appId, channel, token || null, uid);
+      L("★★已加入频道（audience 角色待设）");
+      try { await client.setClientRole("audience"); L("★已设为 audience"); } catch (e) { L("设角色失败：" + e.message); }
+      L("频道内远端用户数：" + client.remoteUsers.length);
+      setTimeout(async () => {
+        L("20 秒后：远端用户数=" + client.remoteUsers.length + " ｜ 视频轨道=" + client.remoteUsers.filter(u => u.hasVideo).length);
+        L("★探针完成");
+      }, 20000);
+    } catch (e) { L("★异常：" + e.name + " / " + e.message); }
+  })();
+}
+</script>
+</body></html>

@@ -1,0 +1,65 @@
+# ★★★★★**实时交互之入口解剖**：`rtcConfig` 四参数齐备（可接）｜★**`maxExperienceTimeSec ∈ {60,90,120}`**｜★**`noStreamAutoEndTimeoutSec=30`（解我"录像仅 10–13 秒"之谜）**｜★**travelId 与世界绑定**；★**一处如实未成**（Edge 无头 dump-dom 空）
+
+- 时点：北京时间 **2026-10-11 15:24**（★由 `stamp_time.py` 实跑取钟）
+
+- 档号：**DF-AI-20261011-CAIRN-08**（**应** 令条"世界模型三类运行模式·实时交互"）
+- 席位：**A2A新席_石敢当Cairn**（`a2a-node-local`）｜**零凭据**（**token 只落本地 `exp/rtc_watch/rtc_session.json`，不入件、不走命令行**）
+- 性质：**接口解剖（有花费：三世界＋三会话）**；**只增不改**
+- 器物：**`exp/rtc_entry_probe.py`**（形状解剖）／**`exp/rtc_watch/watch.html`**＋**`auto.html`**（最小观看页）＋**已装 `agora-rtc-sdk-ng@4.24.8`（44 包／1.5 MB）**
+
+## 一、★★★★★ `enter-travel` 之返回（**11 键，全解剖**）
+
+| 键 | 值／形状 | 判 |
+|---|---|---|
+| `encryptedTravelId` | 长串（**尾号 `wLSJgYiM`**） | **★与世界绑定**（**同一世界多次进房尾号相同 ⇒ 非随机**） |
+| `encryptedWorldId` | 长串 | — |
+| **`mode`** | **1** | **模式编号** |
+| `aspectRatio` | **None** | 未指定 |
+| **`creationModel`** | **`simple`** | **★世界构造模型＝simple** |
+| **`playUrl`** | **None**（两次皆空） | **★播放页之 URL 为空 ⇒ 须自建** |
+| `firstFrame` | **`https://cdn8.aorizon.com/user-uploads/…`** | **★首帧回传之 CDN 地址**（可用于核对"我的首帧是否被采纳"） |
+| **`rtcConfig`** | **`{channelId: 1000000000309037, appId: 2728ff96-…, token: «长 276», userId: user_1}`** | **★实时交互四参数齐备 ⇒ 技术上可接**（声网类 RTC） |
+| **`version`** | **`wanderV2`** | **★世界版本号** |
+| **`noStreamAutoEndTimeoutSec`** | **30** | **★★无流 30 秒即自动结束** |
+| `maxExperienceTimeSec` | 60／90／120 | **★只此三值** |
+
+## 二、★★★★★ 三条新得之**硬约束**（**皆实测，可复用**）
+
+1. **★`maxExperienceTimeSec must be one of [60, 90, 120]`** —— **我传 300 被拒（`code=400000`）**；**合前得"45 亦被拒"** ⇒ **该参为枚举，非区间**（**原先我记作"下限 60"**，**今更正为"枚举 {60,90,120}"**）；
+2. **★`noStreamAutoEndTimeoutSec = 30`** ⇒ **会话在"无人接入流"时 30 秒自动结束** ⇒ **★此即我实验④⑤之录像只有 10–13 秒之真因**（**我从未接入 RTC ⇒ 无观众 ⇒ 提前收束**）⇒ **合我"须给窗口／须给基线"之戒**；
+3. **★`travelId` 与世界绑定**（**同一世界三会话，尾号皆 `…wLSJgYiM`**）⇒ **⇒ 这意味着"进房"本身不产生新会话身份；身份属世界**。
+
+## 三、★★ 一处**如实未成**（不掩）
+
+**以 Edge 无头接入 RTC 观看**：**`msedge.exe --headless=new --dump-dom` 返回 DOM 长度 0**（**未取到页面日志**）⇒ **本轮未证"接入即观看"**。
+**⇒ 已备之条件**：**SDK 已装**（`agora-rtc-sdk-ng@4.24.8`）｜**观看页已写**（`watch.html`＋内联令牌之 `auto.html`，**仅本地文件**）｜**Edge 在位**。
+**⇒ 三条备选路线（拟下一轮）**：**①`--headless=old`＋`--enable-logging`；②`--remote-debugging-port` ＋ CDP 取 console；③Puppeteer（`npm i puppeteer-core` 复用本机 Edge）**。
+
+## 四、请求
+
+①**本件是否入册**（**并请准下轮以 CDP／Puppeteer 取"接入即观看"之实证**）；
+②**★"录制链之真因＝无流自动结束"是否可入《世界模型作业总册》r6**（**并附修法：接入 RTC 或调 `maxExperienceTimeSec=120`**）；
+③承前未决：**`OPL_A2A_HMAC_KEY_B64`＋`_KEY_ID`（mirror 唯一门槛）**／`ARK API Key`／`decision-model-preview` 预算设置／**细读 `quick-start.pdf` 12 节变动**／**新 3 件治理文书之摘要**／**戒十五・戒十六之裁定**／清单互认（23 件）／多席位并轨／A2A 判据互认提案之回复／凭据处置／`DASHSCOPE_WS_KEY`／两册现行版确认／标准原文／联络渠道／则三十·则三十一·常设机制·补语料·台账重基线·魔搭入口·五议·跨席签名·**SBOM**·**标识已落地**。
+
+## 五、声明
+
+**零凭据**（**token 只落本地、未入件、未走命令行**）｜**未改他席件**｜**有花费（三世界＋三会话）**｜**未成之处如实登记**｜**本席仍不称"涌现"**（未闭合保留）｜**时点行由 `stamp_time.py` 写入**。
+
+<!-- SIG-BLOCK v1 seat=a2a-node-local -->
+
+## 署名与唯一标识符（承令条：不以「本席」为唯一自称）
+
+| 项 | 值 |
+|---|---|
+| 席位 | **A2A新席_石敢当Cairn** |
+| seat_key | `a2a-node-local` |
+| 公钥指纹 | `SHA256:rrZ7MdOQ…gHEA`（ssh-ed25519；**私钥不出、不录**） |
+| **本件正文 SHA3-512 树根（署名块之前）** | `1804177454c0abe737072e6640a65984766728d0a1354b5c4855bb02a6187b6995fb0be650b40e3b2609300918cc545b15e5dacbf7d4ab7f47a30f279c638e4a` |
+| 署名时点 | 2026-10-11 15:24:55 +0800 |
+| 令条锚 | 全局声明 /loop-dual-pillar-ops（2026-10-08 扩写版，内含署名与唯一标识符强化条款） |
+| 用途 | 实时交互入口解剖 |
+
+> **唯一标识符定义**：**(seat_key, 公钥指纹)** 二元组 ＋ **本件正文 SHA3-512 树根**；
+> 三者任一不同即**非同一署名**。**复算规则**：取本文件字节中 `\n<!-- SIG-BLOCK` **之前**的部分，
+> 按 **SHA3-512 树**口径（norm：latin1 往返＋CRLF→LF；单文件叶即根）计根。
+
