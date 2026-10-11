@@ -1,0 +1,95 @@
+{
+ "ts": "2026-10-11T19:53:25+0800",
+ "engine": "sonar-pro",
+ "query": "Agent-to-Agent (A2A) protocol official specification and roadmap",
+ "n": 12,
+ "counts": {
+  "可达": 12
+ },
+ "rows": [
+  {
+   "url": "https://docs.aws.amazon.com/prescriptive-guidance/latest/agentic-ai-frameworks/agent-to-agent-protocols.html",
+   "status": 200,
+   "ctype": "text/html",
+   "title": "Agent-to-agent protocols - AWS Prescriptive Guidance",
+   "class": "可达"
+  },
+  {
+   "url": "https://www.linuxfoundation.org/press/a2a-protocol-surpasses-150-organizations-lands-in-major-cloud-platforms-and-sees-enterprise-production-use-in-first-year",
+   "status": 200,
+   "ctype": "text/html; charset=UTF-8",
+   "title": "",
+   "class": "可达"
+  },
+  {
+   "url": "https://agent2agent.info/docs/",
+   "status": 200,
+   "ctype": "text/html; charset=utf-8",
+   "title": "A2A Protocol Technical Documentation – Agent2Agent Protocol - The A2A Protocol Community",
+   "class": "可达"
+  },
+  {
+   "url": "https://microsoft.github.io/agent-resources/develop-agents/",
+   "status": 200,
+   "ctype": "text/html; charset=utf-8",
+   "title": "Microsoft Agent Developer Resources",
+   "class": "可达"
+  },
+  {
+   "url": "https://github.com/a2aproject/A2A/blob/main/docs/specification.md",
+   "status": 200,
+   "ctype": "text/html; charset=utf-8",
+   "title": "",
+   "class": "可达"
+  },
+  {
+   "url": "https://a2a-protocol.org/v1.0.0/",
+   "status": 200,
+   "ctype": "text/html; charset=utf-8",
+   "title": "A2A Protocol",
+   "class": "可达"
+  },
+  {
+   "url": "https://www.ibm.com/think/topics/agent-communication-protocol",
+   "status": 200,
+   "ctype": "text/html;charset=utf-8",
+   "title": "What is Agent Communication Protocol (ACP)? | IBM",
+   "class": "可达"
+  },
+  {
+   "url": "https://arxiv.org/html/2602.15055v1",
+   "status": 200,
+   "ctype": "text/html; charset=utf-8",
+   "title": "",
+   "class": "可达"
+  },
+  {
+   "url": "https://docs.cloud.google.com/gemini/enterprise/docs/register-and-manage-an-a2a-agent",
+   "status": 200,
+   "ctype": "text/html; charset=utf-8",
+   "title": "",
+   "class": "可达"
+  },
+  {
+   "url": "https://developers.googleblog.com/en/a2a-a-new-era-of-agent-interoperability/",
+   "status": 200,
+   "ctype": "text/html; charset=utf-8",
+   "title": "",
+   "class": "可达"
+  },
+  {
+   "url": "https://www.ibm.com/think/tutorials/use-a2a-protocol-for-ai-agent-communication",
+   "status": 200,
+   "ctype": "text/html;charset=utf-8",
+   "title": "Use the A2A Protocol for AI Agent Communication | IBM",
+   "class": "可达"
+  },
+  {
+   "url": "https://www.ibm.com/think/topics/agent2agent-protocol",
+   "status": 200,
+   "ctype": "text/html;charset=utf-8",
+   "title": "What Is Agent2Agent (A2A) Protocol? | IBM",
+   "class": "可达"
+  }
+ ]
+}
