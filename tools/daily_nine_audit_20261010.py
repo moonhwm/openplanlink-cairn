@@ -132,6 +132,30 @@ try:
 except Exception as e:
     print("   ⚠ 未能执行：%s" % str(e)[:120])
 
+print("\n  ═══ ⑨ 四仓一致性 ＋ 待补推监测 ═══")
+_pend = []
+try:
+    import subprocess as _sp
+    for _n, _r in (("cairn", CAIRN), ("mirror", MIRROR), ("hub", HOME/"qoder-skills-hub"), ("k3", HOME/"sleepless-flower-under-sealevel")):
+        try:
+            _lo = _sp.run(["git", "-C", str(_r), "rev-parse", "HEAD"], capture_output=True, text=True, timeout=30).stdout.strip()
+            _rm = _sp.run(["git", "-C", str(_r), "ls-remote", "origin", "main"], capture_output=True, text=True, timeout=60).stdout.strip()
+            _rs = _rm.split()[0] if _rm else ""
+            _un = len([x for x in _sp.run(["git", "-C", str(_r), "status", "--porcelain"], capture_output=True, text=True, timeout=30).stdout.splitlines()])
+            if not _rs:
+                _st = "origin 不可达 ⇒ ★待补推"; _pend.append(_n)
+            elif _rs == _lo:
+                _st = "★一致"
+            else:
+                _st = "★待补推（local %s / origin %s）" % (_lo[:12], _rs[:12]); _pend.append(_n)
+            print("   %-7s %-46s 未提交 %d" % (_n, _st, _un))
+        except Exception as _e:
+            print("   %-7s ⚠ 未能核：%s" % (_n, str(_e)[:50]))
+    print("   ⇒ 判：%s" % ("★四仓一致，无待补推" if not _pend else "★待补推：%s（须补）" % "、".join(_pend)))
+    land["repo_pending"] = _pend
+except Exception as e:
+    print("   ⚠ ⑨ 未能执行：%s" % str(e)[:100])
+
 print("\n  ═══ 汇总 ═══")
 tot_same = sum(x[1] for x in pairs); tot_diff = sum(x[2] for x in pairs); tot_miss = sum(x[3] for x in pairs)
 print("   同哈希 %d ｜ 异哈希 %d ｜ 仅正本有 %d" % (tot_same, tot_diff, tot_miss))
