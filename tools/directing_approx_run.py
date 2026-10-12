@@ -30,21 +30,36 @@ PROMPT = ("你是「实时导演＋角色演绎」之**结构化近似**引擎�
           '"role_lines":[{"role":"角色名","line":"≤40字台词"}]（2 条）,"director_note":"≤50字导演注"}\n'
           "要求：全部**可执行、可核**，不写空话；不涉凭据值。\n【态势】" + STATE)
 
-def chat(model, prompt, mx=900, to=120):
-    body = {"model": model, "messages":[{"role": "user", "content": prompt}], "max_tokens": mx}
-    r = urllib.request.Request("https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions",
-                               data=json.dumps(body, ensure_ascii=False).encode(), method="POST")
-    r.add_header("Authorization", "Bearer " + K); r.add_header("Content-Type", "application/json")
+RL = "https://api.302ai.cn/v1/chat/completions"      # ★302.AI（承 -1439：三模块全通）
+K2 = env.get("AI302_API_KEY", "")
+DS = "https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions"   # ★百炼（备用；已欠费）
+
+
+def _once(url, key, model, prompt, mx, to):
+    body = {"model": model, "messages": [{"role": "user", "content": prompt}], "max_tokens": mx}
+    r = urllib.request.Request(url, data=json.dumps(body, ensure_ascii=False).encode(), method="POST")
+    r.add_header("Authorization", "Bearer " + key); r.add_header("Content-Type", "application/json")
     t0 = time.time()
     try:
         with urllib.request.urlopen(r, timeout=to) as resp:
             j = json.loads(resp.read().decode("utf-8", "replace"))
             ch = (j.get("choices") or [{}])[0]
-            return str((ch.get("message") or {}).get("content") or "").strip(), round(time.time()-t0, 2), (j.get("usage") or {}).get("total_tokens")
+            return str((ch.get("message") or {}).get("content") or "").strip(), round(time.time()-t0, 2), (j.get("usage") or {})
     except urllib.error.HTTPError as e:
         return "", round(time.time()-t0, 2), "HTTP %s %s" % (e.code, e.read().decode("utf-8","replace")[:120])
     except Exception as e:
         return "", round(time.time()-t0, 2), str(e)[:100]
+
+
+def chat(model, prompt, mx=900, to=120):
+    """★先 302.AI（gpt-5），失败则回退百炼（原模型）"""
+    if K2:
+        out, dt, tk = _once(RL, K2, "gpt-5", prompt, mx, to)
+        if out:
+            print("    ★承 302.AI（gpt-5）")
+            return out, dt, tk
+        print("    ★302.AI 未成（%s）⇒ 回退百炼 %s" % (str(tk)[:60], model))
+    return _once(DS, K, model, prompt, mx, to)
 
 print("=== 近似承载（qwen-max；单次前向）===")
 out, dt, tk = chat("qwen-max", PROMPT)
@@ -62,7 +77,7 @@ if res:
     for r_ in (res.get("role_lines") or []):
         print("   · line[%s]：%s" % (r_.get("role"), r_.get("line")))
     print("  director_note：%s" % res.get("director_note"))
-    p = pathlib.Path(r"C:\Users\欧阳宏俊\WPSDrive\29969771\WPS云盘\月之暗面的Plasma游乐场\A2A共同体_共享交换区\directing_approx_20261009.json")
+    p = pathlib.Path(r"C:\Users\欧阳宏俊\WPSDrive\29969771\WPS云盘\月之暗面的Plasma游乐场\A2A共同体_共享交换区") / ("directing_approx_%s.json" % time.strftime("%Y%m%d"))
     p.write_text(json.dumps({"ts": time.strftime("%Y-%m-%dT%H:%M:%S+0800"), "model": "qwen-max",
                              "label": "结构化近似（非 HappyOyster Directing 调用）", "state": STATE, "result": res,
                              "latency_s": dt, "tokens": tk}, ensure_ascii=False, indent=1), encoding="utf-8", newline="\n")
