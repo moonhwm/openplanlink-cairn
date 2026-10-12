@@ -197,6 +197,32 @@ def scan_file(p):
     return hits
 
 
+SIDECAR = pathlib.Path.home()/"WPSDrive"/"29969771"/"WPS云盘"/"月之暗面的Plasma游乐场"/"A2A共同体_共享交换区"/"术语限定语清单_20261012.md"
+
+
+def sidecar_qualified():
+    """★读旁注件之可机读段（2026-10-12）：返回 {(档名, 行号): 限定语}
+    ★默认不启用（须 --accept-sidecar）；★本函数只读，不改任何件"""
+    out = {}
+    try:
+        txt = SIDECAR.read_text(encoding="utf-8", errors="replace")
+        cur = {}
+        for l in txt.splitlines():
+            l = l.strip()
+            if l.startswith("file="): cur["file"] = l.split("=", 1)[1].strip()
+            elif l.startswith("line="):
+                try: cur["line"] = int(l.split("=", 1)[1].strip())
+                except Exception: pass
+            elif l.startswith("qualify="):
+                cur["qualify"] = l.split("=", 1)[1].strip()
+                if cur.get("file") and cur.get("line"):
+                    out[(cur["file"], cur["line"])] = cur.get("qualify", "")
+                cur = {}
+    except Exception:
+        pass
+    return out
+
+
 def main():
     ap = argparse.ArgumentParser()
     sub = ap.add_subparsers(dest="cmd", required=True)
@@ -204,6 +230,8 @@ def main():
     c = sub.add_parser("check")
     c.add_argument("--paths", nargs="*", default=None)
     c.add_argument("--mine-only", action="store_true")
+    c.add_argument("--accept-sidecar", action="store_true",
+                   help="★承认旁注件之限定（默认关；启用须主权人裁定）")
     e = sub.add_parser("export")
     e.add_argument("--json", required=True)
     a = ap.parse_args()
@@ -262,15 +290,28 @@ def main():
             print("     不存在：%s" % m)
         return 2
     total = unqual = 0
+    _sc = sidecar_qualified() if getattr(a, "accept_sidecar", False) else {}
+    _sc_hits = 0
     for f in sorted(files):
         hs = scan_file(f)
         if not hs:
             continue
         bad = [h for h in hs if not h["qualified"]]
+        # ★旁注承认（2026-10-12，默认关）：若 (档名, 行) 在旁注清单中且有 qualify ⇒ 降级为"已由旁注限定"
+        if _sc:
+            _kept = []
+            for h in bad:
+                if (f.name, h["line"]) in _sc:
+                    _sc_hits += 1
+                else:
+                    _kept.append(h)
+            bad = _kept
         total += len(hs); unqual += len(bad)
         print("  · %s：命中 %d，其中**未加限定 %d**" % (f.name, len(hs), len(bad)))
         for h in bad[:2]:
             print("      行%d ｜ %s ｜ %s" % (h["line"], h["term"], h["advice"][:60]))
+    if _sc:
+        print("  ★旁注承认：已启用（--accept-sidecar）⇒ 由《术语限定语清单》承认 %d 处" % _sc_hits)
     print("  ⇒ 合计命中 %d ｜ **须人工判读 %d**（其余经行级或文档级限定）" % (total, unqual))
     print("  VERDICT=" + ("CLEAN" if total == 0 else ("QUALIFIED" if unqual == 0 else "NEEDS_REVIEW")))
     return 1 if unqual else 0
