@@ -247,6 +247,29 @@ try:
 except Exception as e:
     print("   ⚠ ⑪ 未能执行：%s" % str(e)[:100])
 
+# ★⑫ 决策读数之置信度校核（2026-10-12 立）：对全部决策读数档统一校核"自报 confidence vs max(概率)"并留痕
+_conf_cal = None
+try:
+    import subprocess as _sp3, os as _os3
+    _cc = SEAT/"exp"/"conf_calibration_audit.py"
+    if _cc.exists():
+        print("\n  ═══ ⑫ 决策读数之置信度校核 ═══")
+        _ccj = SEAT/"outbox"/"mem"/"conf_calibration_20261012.json"
+        _pr3 = _sp3.run([sys.executable, str(_cc), "--json", str(_ccj)], capture_output=True, text=True,
+                        encoding="utf-8", errors="replace", env=dict(_os3.environ))
+        for _l in ((_pr3.stdout or "") + (_pr3.stderr or "")).splitlines():
+            _s = _l.strip()
+            if _s.startswith(("置信度校核", "⇒ 汇总", "⇒ 已追加")) or (_s.startswith(("①", "②", "③")) and "⇒" in _s):
+                print("   " + _s[:118])
+        if _ccj.exists():
+            try: _conf_cal = json.loads(_ccj.read_text(encoding="utf-8"))
+            except Exception: pass
+        print("   ⇒ 判：%s（退出码 %d）" % ("✓ 校核完成（不一致项已逐项标注）" if _pr3.returncode == 0 else "★校核异常 ⇒ 须查", _pr3.returncode))
+    else:
+        print("\n  ═══ ⑫ 决策校核：★器不在（未测）")
+except Exception as e:
+    print("   ⚠ ⑫ 未能执行：%s" % str(e)[:100])
+
 print("\n  ═══ 汇总 ═══")
 tot_same = sum(x[1] for x in pairs); tot_diff = sum(x[2] for x in pairs); tot_miss = sum(x[3] for x in pairs)
 print("   同哈希 %d ｜ 异哈希 %d ｜ 仅正本有 %d" % (tot_same, tot_diff, tot_miss))
