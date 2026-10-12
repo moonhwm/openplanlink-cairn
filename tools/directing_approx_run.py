@@ -9,17 +9,20 @@ import json, pathlib, sys, time, urllib.request, urllib.error
 
 sys.stdout.reconfigure(encoding="utf-8", line_buffering=True)
 env = {}
-for line in (pathlib.Path.home()/".zcode"/"workspace"/"default"/"a2a-bridge"/".env").read_text(encoding="utf-8", errors="replace").splitlines():
+for line in (pathlib.Path.home()/".zcode"/"workspace"/"default"/"a2a-bridge"/".env").read_text(encoding="utf-8-sig", errors="replace").splitlines():
     if "=" in line and not line.strip().startswith("#"):
         k, _, v = line.partition("="); env[k.strip()] = v.strip().strip('"').strip("'")
 K = env.get("DASHSCOPE_API_KEY", "")
 
-STATE = ("【真实态势，作为世界的当前状态】夜间游乐场已开园（北京时间约 07:00，夜间运维窗 23:00–08:00 内）。"
-         "在场：Cairn 席（本席）与 Moon／Trae 席之近时件；文档面：openplanlink-docx 14/14 与游乐场根 17/20 可读，"
-         "kdocs 云直取（search-files 换 link_id → read-file）已通；通道面：异质四通道全绿（302ai.cn／硅基流动／华为 MaaS／国家超算），"
-         "百炼四模块在役（向量 text-embedding-v4、重排 gte-rerank-v2、决策 qwen-plus、世界模型 Adventure 已建 World 并 ready）；"
-         "风险面：《四件套·中》含腾讯云 Secret ID、《蓝图主文档》含 302.AI key 与 COS 预签名 URL（均待轮换／裁定）；"
-         "资源面：本机内存 93%–99% 高位波动，重型项暂停。")
+STATE = ("【真实态势，作为世界的当前状态】时段：北京时间 2026-10-13 约 01:40（夜间运维窗 23:00–08:00 内）。"
+         "在场：Cairn 席（本席）。★世界面：平台已有 50 个 ready 世界；★本夜本席亲手建三世界并皆 ready —— "
+         "「霓虹虚空」（v7 初版）、「夜游回望」（v8 动态完善第二轮）、「夜色游乐场」（v9 动作池之试），"
+         "且三对「我传之首帧 ↔ 平台回渲之首帧」★一致。★模型面：CAIRN v6b 有 ★18 节点骨架＋★7 组语义动画"
+         "（WALK 14 通道；本席另加 LOOK_AROUND）。★动作池：characterActions 恒四项（dash／jump／crouch／attack）；"
+         "environmentActions ★可经建世界之 prompt 点名扩充（v9 得 ['open_close_door']）。★演绎面：★服务端记录指令"
+         "而 status 恒 UNEXECUTED（五假设否证＋我自建世界复验亦同）⇒ ★执行环节在客户端或平台侧。"
+         "★文档面：三件 watch（outline 無變；polish／polish_otl 云端微变而实质 0）。"
+         "★风险面：本机内存 107.5 MB（深警戒）；本机 Edge 不可用（连 --version 都挂）。")
 
 PROMPT = ("你是「实时导演＋角色演绎」之**结构化近似**引擎（近似，不冒充真实世界模型）。"
           "基于下述真实态势，只输出一个 JSON（不要多余文字），字段："
