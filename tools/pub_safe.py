@@ -1,4 +1,4 @@
-﻿# -*- coding: utf-8 -*-
+# -*- coding: utf-8 -*-
 """pub_safe.py —— 出件安全驱动（把戒三十七做进流程）
 ★硬性顺序（不可倒序）：打钟 → 术语闸 → 署签 → 复核（署名复算＋七项自检）→ 投递三处 → 总线 emit → 台账
 ★每一步皆"带重试 ＋ 写后复核"（WPS 云盘同步会短暂占用文件，属环境常态）
@@ -38,6 +38,8 @@ def precheck_ledger(led):
     print("   ✓ 台账条目键齐备（%s）" % "、".join(need)); return True
 
 def main():
+    # ★2026-10-12 立（口径章一）：出件前必读「运行口径」—— 本夜 19 处自纠之总闸
+    print("   ★出件前必读：cairn/mem/运行口径_20261012.md（出件/时标/度量/裁决/写入/造器诸口径）")
     ap = argparse.ArgumentParser(); ap.add_argument("--file", required=True)
     ap.add_argument("--note", default=""); ap.add_argument("--evidence", default="")
     ap.add_argument("--ledger", default="")
@@ -46,7 +48,7 @@ def main():
     if a.dry:
         print("  ═══ 预演（不写任何文件）═══")
         print("   件：%s（%.1f KB）" % (f.name, f.stat().st_size/1024))
-        print("   顺序：打钟 → 术语闸 → 署签 → 复核 → 投递三处 → 总线 emit → 台账")
+        print("   顺序：打钟 → 术语闸 → 署签 → 复核 → 投递三处 → 总线 emit → 台账 → ★刷快照")
         print("   ⇒ 判：驱动就绪（本轮不落笔）"); return 0
     seat = SEAT
     if a.ledger:
