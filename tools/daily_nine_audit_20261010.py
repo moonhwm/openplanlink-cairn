@@ -191,18 +191,24 @@ except Exception as e:
 
 # ★⑩ 索引陈旧检测（2026-10-12 立）：应「旧索引 3,126 节／无 tf／件号映射仅 47%」之发现
 _idx_ok = None
+_idx_guard_json = None
 try:
     import os as _os, subprocess as _sp
     _ig = SEAT/"exp"/"index_guard.py"
     if _ig.exists():
         print("\n  ═══ ⑩ 索引陈旧检测（★--auto：检出即重建＋复查；★不改默认指针）═══")
-        _pr = _sp.run([sys.executable, str(_ig), "--auto", "--json", str(SEAT/"outbox"/"mem"/"index_guard_daily_20261012.json")],
+        _igj = SEAT/"outbox"/"mem"/"index_guard_daily_20261012.json"
+        _pr = _sp.run([sys.executable, str(_ig), "--auto", "--json", str(_igj)],
                       capture_output=True, text=True, encoding="utf-8", errors="replace", env=dict(_os.environ))
         for _l in ((_pr.stdout or "") + (_pr.stderr or "")).splitlines():
             _s = _l.strip()
             if _s.startswith(("节 ", "件号映射", "时效：", "→ ", "⇒ 复查判", "★节流", "⇒ 如需采用")) or (_s.startswith(("①", "②", "③", "④")) and "⇒" in _s):
                 print("   " + _s[:118])
         _idx_ok = (_pr.returncode == 0)
+        # ★机读键值（2026-10-12）：取 index_guard 之 JSON 读数
+        try:
+            if _igj.exists(): _idx_guard_json = json.loads(_igj.read_text(encoding="utf-8"))
+        except Exception: pass
         print("   ⇒ 判：%s（退出码 %d）" % ("✓ 索引新且自洽（或已重建／复用合规档并复查通过）" if _idx_ok else "★索引陈旧／不自洽且无合规档可复用 ⇒ 须人工查", _pr.returncode))
     else:
         print("\n  ═══ ⑩ 索引陈旧检测：★检测器不在（未测）")
@@ -211,6 +217,8 @@ except Exception as e:
 
 # ★⑪ 记忆变更日志（2026-10-12 立）：比对"记忆面"（指针／索引档／台账／登记表／档案／总线）之变更并留痕
 _mcl = None
+_mcl_last = None
+_mcl_state = None
 try:
     import subprocess as _sp2, os as _os2
     _mc = SEAT/"exp"/"memory_change_log.py"
@@ -223,6 +231,17 @@ try:
             if _s.startswith(("记忆变更日志 ｜", "★", "记忆面读数", "⇒ 判")):
                 print("   " + _s[:118])
         _mcl = (_pr2.returncode == 0)
+        # ★机读键值（2026-10-12）：取变更日志末条与状态快照
+        try:
+            _cf = SEAT/"ledger"/"memory_changes.jsonl"
+            if _cf.exists():
+                _ls = [x for x in _cf.read_text(encoding="utf-8", errors="replace").splitlines() if x.strip()]
+                if _ls: _mcl_last = json.loads(_ls[-1])
+        except Exception: pass
+        try:
+            _sf = SEAT/"ledger"/"memory_state.json"
+            if _sf.exists(): _mcl_state = json.loads(_sf.read_text(encoding="utf-8"))
+        except Exception: pass
     else:
         print("\n  ═══ ⑪ 记忆变更日志：★器不在（未测）")
 except Exception as e:
@@ -275,5 +294,9 @@ out.write_text(json.dumps({
     "totals": {"same": tot_same, "diff": tot_diff, "only_canonical": tot_miss},
     "item6_sig_verify": sig_stat,
     "item7_landing_rates": land,
+    "item10_index_guard": _idx_guard_json,
+    "item11_memory_changes": _mcl_last,
+    "item11_memory_state": _mcl_state,
+    "item_index_summary": _idx_sum,
 }, ensure_ascii=False, indent=1), encoding="utf-8", newline="\n")
 print("   落盘：" + str(out))
