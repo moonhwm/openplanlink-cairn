@@ -97,7 +97,7 @@ def main() -> int:
     if a[0] == "--check":
         p = pathlib.Path(a[1])
         try:
-            obj = json.loads(p.read_text(encoding="utf-8"))
+            obj = json.loads(p.read_text(encoding="utf-8-sig"))
         except Exception as e:
             print("[FAIL] %s 不可解析：%s" % (p.name, e)); return 1
         miss = [k for k in REQUIRED if k not in obj]
@@ -109,7 +109,7 @@ def main() -> int:
     src = pathlib.Path(a[0])
     if not src.is_file():
         print("[ERR] 无此文件：%s" % src); return 2
-    obj = parse_led(src.read_text(encoding="utf-8"))
+    obj = parse_led(src.read_text(encoding="utf-8-sig"))
     miss = [k for k in REQUIRED if not obj.get(k)]
     if miss:
         print("[ERR] 缺必填键或为空：%s" % miss); return 2
@@ -131,8 +131,31 @@ def main() -> int:
             return 2
     dst = src.with_suffix(".json")
     dst.write_text(json.dumps(obj, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    # ★2026-10-12 加（-1331 之训）：出件前之★真实钟核对 —— 凡 subject／detail 含 "HH:MM" 样者，
+    #   与真实钟相差 >5 min 即★告警（★训：批号与件名须取真实钟，不得以轮次推定）
+    try:
+        import re as _re, datetime as _dt
+        _now = _dt.datetime.now()
+        _blob = str(obj.get("subject") or "") + " " + str(obj.get("detail") or "")
+        _hits = _re.findall(r"(\d{1,2}):(\d{2})", _blob)
+        _bad = []
+        for _h, _m in _hits:
+            _hh, _mm = int(_h), int(_m)
+            if not (0 <= _hh <= 23 and 0 <= _mm <= 59): continue
+            _t = _now.replace(hour=_hh, minute=_mm, second=0, microsecond=0)
+            _d = abs((_t - _now).total_seconds())/60.0
+            _d = min(_d, 1440 - _d)          # ★跨零点取近者
+            if _d > 5: _bad.append("%s（差 %.0f min）" % ("%02d:%02d" % (_hh, _mm), _d))
+        print("   ★真实钟核对：现 %s ｜ 文中时间样 %d 处 ｜ %s"
+              % (_now.strftime("%Y-%m-%d %H:%M:%S"),
+                 len(_hits), ("★不符 " + "；".join(_bad[:4])) if _bad else "一致（≤5 min）"))
+        if _bad:
+            print("      ★告警：批号／件名与真实钟不符 ⇒ 请改取真实钟（训见 -1331）")
+    except Exception as _e:
+        print("   ★真实钟核对未成：%s" % str(_e)[:60])
+
     # ★ 立即回读校验：写出去的必须是合法 JSON——**写后即验，不留疑**
-    back = json.loads(dst.read_text(encoding="utf-8"))
+    back = json.loads(dst.read_text(encoding="utf-8-sig"))
     ok = all(back.get(k) == obj.get(k) for k in obj)
     print("[OK] 已生成 %s（%d B，%d 键）｜回读一致=%s" % (dst.name, dst.stat().st_size, len(obj), ok))
     print("     ★.led 里没有引号语法 ⇒ **这一类错误从源头消失**。")
