@@ -21,7 +21,21 @@ def call(url, body, to=60):
     try:
         with urllib.request.urlopen(r, timeout=to) as resp:
             return resp.status, round(time.time()-t0, 2), resp.read().decode("utf-8", "replace")
-    except urllib.error.HTTPError as e:        return e.code, round(time.time()-t0, 2), e.read().decode("utf-8", "replace")[:400]
+    except urllib.error.HTTPError as e:
+        _body = e.read().decode("utf-8", "replace")
+        # ★墙闸（逐支小步接入）：撞墙即停（零重试）并记墙账
+        try:
+            import sys as _s, pathlib as _p
+            _s.path.insert(0, str(_p.Path(__file__).resolve().parent))
+            import wall_guard as _wg
+            _k, _c, _a = _wg.classify(_body)
+            if _k == "wall":
+                _wg.record(_body, source=_p.Path(__file__).name, channel="wall")
+                print("   ★撞墙即停（零重试）：%s" % (_c or _a))
+                return e.code, round(time.time()-t0, 2), _body[:400]
+        except Exception:
+            pass
+        return e.code, round(time.time()-t0, 2), _body[:400]
     except Exception as e:
         return -1, round(time.time()-t0, 2), str(e)[:160]
 
