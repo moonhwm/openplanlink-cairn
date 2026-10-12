@@ -121,6 +121,7 @@ def measure(d, order, gold, ks=(1, 5)):
 
 def main():
     ap = argparse.ArgumentParser(); ap.add_argument("--scope", default="all"); ap.add_argument("--top", type=int, default=5)
+    ap.add_argument("--router", default="none", choices=["none", "score", "oracle", "kw"])   # ★两段式：先选域、后检索
     ap.add_argument("--json", default=""); a = ap.parse_args()
     d = load()
     secs = d["sections"]
@@ -137,18 +138,42 @@ def main():
         A.append({"q": span, "gold_i": i, "gold_head": secs[i]["head"][:40], "kind": "已知项"})
     # B 组：手写释义（不含原句）＋ 目标节标题子串（事先认定）
     B_SPEC = [
-        ("总线先行该做什么检查", "总线先行"),
-        ("子代理与异质模型之要求", "子代理"),
-        ("技能如何录入", "技能录入"),
-        ("死信队列与重试", "死信"),
-        ("推送前闸的检查项", "推送前闸"),
-        ("口径互认之提案", "口径互认"),
+        ("动手之前该先核什么，此项义务之章次", "总线先行"),
+        ("新技能要怎样登记才算合规", "技能录入"),
+        ("谁能替我干活、异种模型可否并用", "子代理"),
+        ("消息重复投递与异常补偿之机制", "事件驱动架构"),
+        ("研究要做到什么程度才合要求", "穷举研究"),
+        ("插件框架之名与用处", "Cordis"),
+        ("开源社区如何治理", "治理架构"),
+        ("跨平台数据怎样达成一致", "共识机制"),
+        ("对本文件自身作出永久性修正", "自指订正"),
+        ("仓内目录应当怎么摆", "目录结构"),
+        ("商业与人的发展之关系", "自由全面发展"),
+        ("底层协同与全栈实现", "全栈开发"),
     ]
     B = []
+    KW_OUTLINE = ("纲要", "章", "要求", "准则", "规范", "共识", "治理", "声明", "序言", "义务", "机制", "架构")
     for q, key in B_SPEC:
         tgt = [i for i, s in enumerate(secs) if key in (s["head"] or "")]
         B.append({"q": q, "gold_i": tgt[0] if tgt else None, "gold_key": key, "kind": "释义"})
     allow_set = set(scope_idx)
+    # ★两段式检索之域集合与路由（2026-10-12）
+    OUTLINE_IDX = [i for i, s in enumerate(secs) if "纲要" in s["doc"]]
+    ART_IDX = [i for i, s in enumerate(secs) if "纲要" not in s["doc"]]
+    DOMAINS = {"outline": set(OUTLINE_IDX), "artifact": set(ART_IDX)}
+
+    def route(q, gold_i=None):
+        """返回本查询应限定之域索引集合：score＝按各域 top-1 BM25 分择优（无金标泄漏）；oracle＝用金标所在域（上界参照）"""
+        if a.router == "oracle" and gold_i is not None:
+            return DOMAINS["outline"] if gold_i in DOMAINS["outline"] else DOMAINS["artifact"]
+        if a.router == "kw":
+            return DOMAINS["outline"] if any(w in q for w in KW_OUTLINE) else DOMAINS["artifact"]
+        best, bd = None, None
+        for name, allow in DOMAINS.items():
+            sc = bm25_scores(d, q, allow)
+            top = max(sc) if sc else -1e9
+            if best is None or top > best: best, bd = top, name
+        return DOMAINS[bd]
     print("   金标：A 已知项 %d 条｜B 释义 %d 条（★B 中有 %d 条未在库中命中标题，剔除）" % (
         len(A), len(B), sum(1 for x in B if x["gold_i"] is None)))
     out = {"scope": a.scope, "n_sections": len(secs), "modes": {}}
@@ -163,14 +188,25 @@ def main():
                     print("   %-5s ｜ %s：★域内无金标 ⇒ 不可评（非 0）" % (mode, grp)); continue
             gold = [x["gold_i"] for x in items]
             agg = {"P@1": [], "P@5": [], "MRR": []}
+            routed = 0
             for x in items:
-                if mode == "bm25": order, _ = ranks(bm25_scores(d, x["q"], allow_set))
-                elif mode == "rrf": order, _ = rrf(d, x["q"], allow=allow_set)
-                else: order = mmr(d, x["q"], allow=allow_set)
+                mask = allow_set if a.router == "none" else route(x["q"], x["gold_i"])
+                if x["gold_i"] not in mask:
+                    # ★自纠四（2026-10-12）：路由错域者★计为未命中（贡献 0），★不得剔除
+                    #   —— 剔除只留「路由对」之样本 ⇒ 幸存者偏差 ⇒ 指标虚高（假绿）
+                    for k in agg: agg[k].append(0.0)
+                    continue
+                routed += 1
+                if mode == "bm25": order, _ = ranks(bm25_scores(d, x["q"], mask))
+                elif mode == "rrf": order, _ = rrf(d, x["q"], allow=mask)
+                else: order = mmr(d, x["q"], allow=mask)
                 m = measure(d, order, [x["gold_i"]])
                 for k in agg: agg[k].append(m[k])
+            if not agg["MRR"]:
+                out.setdefault("modes", {}).setdefault(mode, {})[grp] = {"P@1": None, "P@5": None, "MRR": None, "n": 0, "note": "★路由后域内无金标 ⇒ 不可评"}
+                print("   %-5s ｜ %s：★路由后域内无金标 ⇒ 不可评" % (mode, grp)); continue
             per[grp] = {k: round(sum(v)/max(1, len(v)), 3) for k, v in agg.items()}
-            per[grp]["n"] = len(items)
+            per[grp]["n"] = routed
         out["modes"][mode] = per
         print("   %-5s ｜ A 已知项 P@1 %.3f P@5 %.3f MRR %.3f（n=%d）｜ B 释义 P@1 %.3f P@5 %.3f MRR %.3f（n=%d）" % (
             mode, per["A已知项"]["P@1"], per["A已知项"]["P@5"], per["A已知项"]["MRR"], per["A已知项"]["n"],
