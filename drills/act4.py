@@ -7,11 +7,23 @@
 import json, pathlib, subprocess, sys, time
 sys.stdout.reconfigure(encoding="utf-8")
 HERE = pathlib.Path(__file__).resolve().parent
-S = HERE.parent
-LED = S/"ledger"/"frontier_ledger.jsonl"
-BUS = S.parent/"A2A共同体_共享交换区"/"bus"/"bus.jsonl"
+import os
+def _seat():
+    _ov = os.environ.get("OPL_SEAT")
+    if _ov: return pathlib.Path(_ov)
+    for c in (HERE.parent, HERE.parent.parent):
+        if (c/"exp").is_dir() or (c/"ledger").is_dir(): return c
+    return HERE.parent
+S = _seat()
+import os
+_ovl = os.environ.get("OPL_LEDGER")
+LED = pathlib.Path(_ovl) if _ovl else (S/"ledger"/"frontier_ledger.jsonl")
+BUS = pathlib.Path(os.environ["OPL_BUS"]) if os.environ.get("OPL_BUS") else (S.parent/"A2A共同体_共享交换区"/"bus"/"bus.jsonl")
 def n(p): return len(p.read_text(encoding="utf-8", errors="replace").splitlines()) if p.exists() else -1
 n_led0, n_bus0 = n(LED), n(BUS)
+if n_led0 < 0 or n_bus0 < 0:
+    print("      · ★台账或总线不在 ⇒ 未测（环境不足；退出码 2）")
+    sys.exit(2)
 t0 = time.time()
 # ② 良性升级标记（只增不改；不删任何既有）
 stamp = S/"ledger"/"upgrade_stamp.jsonl"

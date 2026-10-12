@@ -96,8 +96,9 @@ def gate(repo, selftest=False):
     if _dr.exists():
         rc2, out2 = sh([sys.executable, str(_dr)], cwd=str(repo), to=300)
         ok2 = rc2 == 0
-        print("   ⑥ 五幕判据 ⇒ %s（%s）" % ("✓ 全绿" if ok2 else "★构建红", "★阻断" if _os2.environ.get("OPL_GATE_DRILLS_BLOCK") == "1" else "告警模式"))
-        if not ok2 and _os2.environ.get("OPL_GATE_DRILLS_BLOCK") == "1":
+        _st2 = "✓ 全绿" if ok2 else ("○ 未测（环境不足）" if rc2 == 2 else "★构建红")
+        print("   ⑥ 五幕判据 ⇒ %s（%s）" % (_st2, "★阻断" if _os2.environ.get("OPL_GATE_DRILLS_BLOCK") == "1" else "告警模式"))
+        if rc2 not in (0, 2) and _os2.environ.get("OPL_GATE_DRILLS_BLOCK") == "1":
             fails.append("五幕判据红")
     if selftest or _os.environ.get("OPL_GATE_SELFTEST") == "1":
         print("   ★ 自检：注入一个人为失败项（--selftest 或 OPL_GATE_SELFTEST=1）")

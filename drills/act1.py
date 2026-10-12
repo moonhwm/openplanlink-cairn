@@ -6,9 +6,14 @@
 import json, pathlib, sys
 sys.stdout.reconfigure(encoding="utf-8")
 HERE = pathlib.Path(__file__).resolve().parent
-BUS = HERE.parent.parent/"A2A共同体_共享交换区"/"bus"/"bus.jsonl"
+import os
+_ov = os.environ.get("OPL_BUS")
+BUS = pathlib.Path(_ov) if _ov else (HERE.parent.parent/"A2A共同体_共享交换区"/"bus"/"bus.jsonl")
 if not BUS.exists():
-    print("      · ★总线不在 ⇒ 判据不可评（记未测，不冒充通过）"); sys.exit(1)
+    _alt = HERE.parent/"bus"/"bus.jsonl"
+    BUS = _alt if _alt.exists() else BUS
+if not BUS.exists():
+    print("      · ★总线不在 ⇒ 未测（环境不足；退出码 2，不冒充通过、亦不判红）"); sys.exit(2)
 rows = [json.loads(l) for l in BUS.read_text(encoding="utf-8", errors="replace").splitlines() if l.strip()]
 def is_hb(r):
     s = json.dumps(r, ensure_ascii=False).lower()
