@@ -1,0 +1,61 @@
+# ★★★★★**读记：`letta-ai/letta-code` 已读** —— **其五结构与我之五结构逐条对位**（**且其定位"more like people than tools"与正主"人设"意图同调**）
+
+- 时点：北京时间 **2026-10-12 15:32**（★由 `stamp_time.py` 实跑取钟）
+
+- 档号：**DF-OPS-20261012-CAIRN-94**（**应纲要新增"记忆系统工程"之补读续件**）
+- 席位：**A2A新席_石敢当Cairn**（`a2a-node-local`）｜**零凭据**｜**零花费（浅克隆）**
+- 副本：**`C:\Users\欧阳宏俊\gh-letta-code`｜HEAD `afff327fb4`｜52.7 MB｜2,577 文件**
+
+## 一、★★★★★ 其定位（**原文**）
+- **"Letta Code is a stateful agent harness for creating agents that are more like people than tools"**；
+- **"Letta Code agents are designed to be self-configuring"**（**自配置**）；
+- **交互面**：**CLI／桌面应用（macOS／Windows／Linux）／浏览器（含手机）／消息集成（Telegram／Slack 等）**。
+
+## 二、★★★★★ 五结构对位（**★本件核心**）
+| `letta-code` | 我之对应物 | 判 |
+|---|---|---|
+| **★ MemFS：`All context (including memory blocks) is tracked via git`** | **我之三仓（cairn／mirror／hub）＋台账 hash 链（1,167 条）＋镜像树对账** | **★同构**（**"记忆即 git"我一向如此做，只是未以此名之**） |
+| **Skills：`Loads global skills (~/.letta), project-scoped skills (.)`** | **我之技能（`SKILL.md` 形制；`~/.kimi-work` 等）＋本席 `exp/` 器物** | **★同形制** |
+| **Subagents & Multi-agent：`Call built-in subagents`** | **纲要行 77「子代理不少于 3」（我之 C1 候裁项）** | **★待我落**（**须明令启用 Agent Teams**） |
+| **★ Hooks：`Run custom scripts at key points of agent execution`（实装 8 个：`block-rm-rf.sh`／`memory_logger.py`(20.4 KB)／`fix-on-changes.sh`／`typecheck-on-changes.sh`／`permissions-status.sh`／`prompt-instructions.sh`／`desktop-notification.sh`／`get-api-key.ts`）** | **我之出件七步 SOP／推送前闸六项／墙闸／Git Hook／DLQ 幂等闸** | **★同构且可补全** |
+| **Permissions：`Set permission modes and customize what actions…`** | **我之墙闸（1308／1310／1005 零重试）／MFA 边界三项待裁** | **★同构** |
+
+## 三、★★★★★ 可借三项（**皆零花费，候裁**）
+| # | 借何 | 我之落法 |
+|---|---|---|
+| **①** | **`block-rm-rf.sh`：危险命令闸** | **我可立"危险命令清单闸"**（**`rm -rf`／`format`／批量删除／覆写他席件 ⇒ 命中即拒并留痕**）—— **与我"删除前须核绝对路径"之纪律互补** |
+| **②** | **`memory_logger.py`：记忆写入之统一日志** | **我已有台账（事件级）**，**但"记忆块／索引／指针之变更"未单列** ⇒ **可加"记忆变更日志"（含指纹与前后值）** |
+| **③** | **`fix-on-changes.sh`／`typecheck-on-changes.sh`：变更即校验** | **我已有 Git Hook 与推送前闸** ⇒ **可补"变更文件类型→对应校验器"之映射表**（**如 `.py` ⇒ 编译核；`.glb` ⇒ 规格审计；索引 ⇒ `index_guard`**） |
+
+## 四、★★★★ 边界（**如实**）
+1. **其正式文档在站外（`docs.letta.com`）** ⇒ **仓内 `docs/` 多为 `examples/`／`plans/`／`nix.md`** ⇒ **故本件以"README 特性表 ＋ 实装文件"为据，★不作过度解读**；
+2. **其 `hooks/` 与 `.skills/` 之内容我仅见文件名与体量**（**未逐字通读**）⇒ **故"可借三项"为"据其名与结构之拟借"，★非"已读其实现细节"**；
+3. **本件未运行其任何代码**（**零安装、零执行**）。
+
+## 五、★★★★ 与"四层架构"之关系（**仍不臆定**）
+**其 README 未提"四层"** ⇒ **"四层"仍须以正主原文或权威文本为准**（**我之连续两件皆明此点**）。
+
+## 六、请求
+①**本件入册**；②**★三项借用是否准办**（**危险命令闸／记忆变更日志／变更即校验之映射表** —— **皆零花费**）；③**★"四层架构"之分层以何为准**（**仍请裁**）；④**★`Jev` 模型是否准查 302.AI 列表**（**微预算约 0.01 元**）；⑤**★候裁诸项**：**A1／B1／费用更正（≈28.0 元）／`drills` 转阻断／跨 Travel（约 24 元）／索引默认切换／戒六十／不可拉清单生效／C1（子代理≥3）**。
+
+## 七、声明
+**零凭据**｜**未改他席件**｜**零花费**｜**★只读其 README 与文件结构，未逐字通读其 hooks 实现，未运行其代码**｜**本席仍不称"涌现"**｜**时点行由 `stamp_time.py` 写入**。
+
+<!-- SIG-BLOCK v1 seat=a2a-node-local -->
+
+## 署名与唯一标识符（承令条：不以「本席」为唯一自称）
+
+| 项 | 值 |
+|---|---|
+| 席位 | **A2A新席_石敢当Cairn** |
+| seat_key | `a2a-node-local` |
+| 公钥指纹 | `SHA256:rrZ7MdOQ…gHEA`（ssh-ed25519；**私钥不出、不录**） |
+| **本件正文 SHA3-512 树根（署名块之前）** | `dafde99385c8f129d69c444a400b374962eafa0f98b0ce50fdc0255373492a046b2a9c048b41b54ed88f2222de45e4579f93262b2a236d877df3f2d307124668` |
+| 署名时点 | 2026-10-12 15:32:35 +0800 |
+| 令条锚 | 全局声明 /loop-dual-pillar-ops（2026-10-08 扩写版，内含署名与唯一标识符强化条款） |
+| 用途 | letta-code之读记（五结构对位） |
+
+> **唯一标识符定义**：**(seat_key, 公钥指纹)** 二元组 ＋ **本件正文 SHA3-512 树根**；
+> 三者任一不同即**非同一署名**。**复算规则**：取本文件字节中 `\n<!-- SIG-BLOCK` **之前**的部分，
+> 按 **SHA3-512 树**口径（norm：latin1 往返＋CRLF→LF；单文件叶即根）计根。
+
