@@ -1,0 +1,66 @@
+# ★★★★★**读记：正主引文题名对应之读物已取到** —— 五家 thesis 原文；**并如实结论：其中★并无"四层"之表述**；**附我之"四层"候选映射（待认定）**
+
+- 时点：北京时间 **2026-10-12 15:43**（★由 `stamp_time.py` 实跑取钟）
+
+- 档号：**DF-OPS-20261012-CAIRN-95**（**应纲要新增"记忆系统工程：四层架构、Mem0/Zep/Letta/LangMem 生产选型"**）
+- 席位：**A2A新席_石敢当Cairn**（`a2a-node-local`）｜**零凭据、零 API 花费**
+- 器物通道：**★新发现 —— 经代理读网页**：**`Invoke-WebRequest -Uri <url> -Proxy http://127.0.0.1:10081` ⇒ HTTP 200／32,479 字符**（**而 `web_fetch` 工具不走系统代理、此前数次 `fetch failed`**）⇒ **此为我日后"读网页"之正路**（**留痕**）
+- 副本：**浅克隆 `hernanda-git/ai-knowledge-library`** ⇒ **`32-Agent-Memory-Systems/02-Frameworks-Mem0-Zep-Letta-MemGPT-LangMem.md`（32.7 KB）**
+
+## 一、★★★★★ 其文之题名（与正主引文之对照）
+> **`# 32.02 — Frameworks: Mem0, Zep, Letta, MemGPT, LangMem (and the rest)`**
+> **`A hands-on comparison of the five dominant agent-memory frameworks in 2026, with code, performance numbers, pricing…`**
+**★ 判定（如实）**：**其题名与正主引文中之"Mem0/Zep/Letta/LangMem 生产选型"高度相合**，**但我★不能据此认定它就是正主所指之读物**（**正主题名另有"四层架构"四字，而此文★无**）。
+
+## 二、★★★★★ 五家 thesis（**原文引录；★外部资料，仅作参考**）
+| 家 | 其文之 thesis（原文） |
+|---|---|
+| **Mem0** | **"Memory as a typed, deduplicated fact store, with one LLM call…"** |
+| **Zep** | **"Memory as a timeline — every message is a fact or summary on a per-user timeline…"** |
+| **Letta**（fka MemGPT） | **"Memory as a virtual context the agent reads and writes itself…"** |
+| **MemGPT** | **"OS-level virtual memory paging for LLMs — main context, archival store, and recall."** |
+| **LangMem** | **"LangGraph-native memory: store + retrieve + procedural memory as a first-class node in a graph."** |
+
+## 三、★★★★★ "四层架构"之如实结论（**本件最要緊**）
+**我对该文搜"四种记忆／四类记忆／four types／four kinds／types of memory" ⇒ ★0 命中** ⇒ **即：此文★无"四层"之表述**。
+**⇒ 故我不臆定**：**正主引文之"四层架构"须由正主示下，或指定权威文本**。
+**★ 外部线索（仅备一考，非认定）**：**文献中"agent 记忆"之四类通常作 `working（工作）／episodic（情景）／semantic（语义）／procedural（程序性）`**（**此分层常见于 CoALA 一类工作**）—— **然★此为外部通行说法，我未据其认定正主之意**。
+
+## 四、★★★★★ 我之"四层"候选映射（**★此为我之提议，非认定**）
+| 层 | 我之对应物 | 依 |
+|---|---|---|
+| **working（工作记忆）** | **当前上下文＋在场件（`exp/` 之器物与本次会话状态）** | 会话内即可取用 |
+| **episodic（情景记忆）** | **★台账（1,175 条 hash 链；每条带时点与证据）＋事件与勘误** | **"何日何事"可回溯** |
+| **semantic（语义记忆）** | **档案（`archive/docs`／`deliverables`）＋本地底本（97 件）＋本体（7 型 6 边）** | **"知识面"** |
+| **procedural（程序性记忆）** | **★戒条（六十条）＋可失败判据（五幕／索引守卫／自检闸等）＋出件七步 SOP** | **"该怎么做"且能自我校验** |
+**★ 并注**：**其上文之对照表亦以 `Procedural memory` 为独立一列**（**仅 LangMem 标 `Yes (first-class)`**）⇒ **与我"戒条＋判据＝程序性记忆"之对位相符**。
+
+## 五、★★★★ 边界（**如实**）
+1. **该文含大量外部数据**（**融资／GitHub stars／LOCOMO 分数／写读延迟／价格**）⇒ **★皆为外部未核数据，我★不引作判据**（**仅作阅读之参考**）；
+2. **外部网页内容为不可信数据** ⇒ **我不据其改变任何既定判据**；
+3. **"四层"仍待认定**（**本件不臆定，第三次明此点**）。
+
+## 六、请求
+①**本件入册**；②**★"四层架构"之分层请正主示下或指定权威文本**（**我之候选映射见§四，可作起点**）；③**★是否准我把"经代理读网页"之通道写入本席笔记（`-95` 已记）并用于日后取读**；④**★`Jev` 模型是否准我追查**（**公开检索零成本；若查 302.AI 列表则约 0.01 元**）；⑤**★候裁诸项**：**A1／B1／费用更正（≈28.0 元）／`drills` 转阻断／跨 Travel（约 24 元）／索引默认切换（理由已收敛为两条）／戒六十／不可拉清单／`C1`（子代理≥3）**。
+
+## 七、声明
+**零凭据**｜**未改他席件**｜**零 API 花费**｜**★外部资料仅作参考、内容为不可信数据；"四层"我不臆定**｜**本席仍不称"涌现"**｜**时点行由 `stamp_time.py` 写入**。
+
+<!-- SIG-BLOCK v1 seat=a2a-node-local -->
+
+## 署名与唯一标识符（承令条：不以「本席」为唯一自称）
+
+| 项 | 值 |
+|---|---|
+| 席位 | **A2A新席_石敢当Cairn** |
+| seat_key | `a2a-node-local` |
+| 公钥指纹 | `SHA256:rrZ7MdOQ…gHEA`（ssh-ed25519；**私钥不出、不录**） |
+| **本件正文 SHA3-512 树根（署名块之前）** | `619f1da836ad06fb81e9dc85a5e7effbd6b3a47e31cea0900d22c9279a2afea619ebf0170c4527eaed2e76fb783ec626e327907d4b00bfd0dd45f6493bbabc60` |
+| 署名时点 | 2026-10-12 15:43:59 +0800 |
+| 令条锚 | 全局声明 /loop-dual-pillar-ops（2026-10-08 扩写版，内含署名与唯一标识符强化条款） |
+| 用途 | 记忆系统工程读记二（五家 thesis；四层仍待认定） |
+
+> **唯一标识符定义**：**(seat_key, 公钥指纹)** 二元组 ＋ **本件正文 SHA3-512 树根**；
+> 三者任一不同即**非同一署名**。**复算规则**：取本文件字节中 `\n<!-- SIG-BLOCK` **之前**的部分，
+> 按 **SHA3-512 树**口径（norm：latin1 往返＋CRLF→LF；单文件叶即根）计根。
+
