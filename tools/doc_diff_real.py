@@ -26,6 +26,17 @@ def cmp(name, a=None, b=None):
     if not (pa.exists() and pb.exists()): return None
     ta = pa.read_text(encoding="utf-8", errors="replace").splitlines()
     tb = pb.read_text(encoding="utf-8", errors="replace").splitlines()
+    if len("".join(ta)) == 0 and len("".join(tb)) == 0:
+        # ★双方皆空（0⇒0）亦不可比 —— 勿读作"无差异"
+        return {"doc": name, "a": pa.stem[2:], "b": pb.stem[2:], "lines": [0, 0], "diff_lines": None,
+                "url_only_lines": None, "real_lines": None, "char_delta": None, "char_delta_nourl": None,
+                "real_samples": [], "incomparable": True, "note": "★双方皆空 ⇒ 不可比（空档对空档，非'无差异'）"}
+    if len(ta) != len(tb):
+        # ★不可比分支（承 20261012 事故：空档致行数不等，而旧码仍报"仅 URL 抖动"）
+        return {"doc": name, "a": pa.stem[2:], "b": pb.stem[2:], "lines": [len(ta), len(tb)],
+                "diff_lines": None, "url_only_lines": None, "real_lines": None,
+                "char_delta": None, "char_delta_nourl": None, "real_samples": [],
+                "incomparable": True, "note": "★行数不等 ⇒ 不可比（忌以 0 行比较充'仅 URL 抖动'）"}
     m = min(len(ta), len(tb))
     diff = [i for i in range(m) if ta[i] != tb[i]]
     onlyurl = [i for i in diff if deurl(ta[i]) == deurl(tb[i])]
@@ -48,6 +59,10 @@ def main():
         r = cmp(n, args.a or None, args.b or None)
         if not r: continue
         rows.append(r)
+        if r.get("incomparable"):
+            print("   %-16s %s⇒%s ｜ 行 %d→%d ｜ ★不可比（行数不等）⇒ 须核（忌以 0 行比较充「仅URL抖动」）" % (
+                r["doc"][:16], r["a"][-4:], r["b"][-4:], r["lines"][0], r["lines"][1]))
+            continue
         flag = "★真实改动" if r["real_lines"] else "（仅URL抖动）"
         print("   %-16s %s⇒%s ｜ 差异行 %3d（仅URL %3d／真实 %3d）｜ 净字 %+d（去URL后 %+d）｜ %s" % (
             r["doc"][:16], r["a"][-4:], r["b"][-4:], r["diff_lines"], r["url_only_lines"], r["real_lines"],
