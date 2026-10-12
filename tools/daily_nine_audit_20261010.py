@@ -159,20 +159,46 @@ try:
         _D = SEAT/"archive"/"docs"
         def _sh(name):
             vs = sorted((_D/name).glob("v_2026*.md"))
-            if not vs: return None, None
+            if not vs: return None, None, 0
             x = vs[-1].read_text(encoding="utf-8", errors="replace")
-            return vs[-1].stem[2:], _h.sha3_256(x.encode()).hexdigest()[:16]
-        _a, _ha = _sh("kd_McccFi"); _b, _hb = _sh("outline")
-        _same = (_ha is not None and _ha == _hb)
-        print("   纲要 正本 %s/%s ｜ 副本 %s/%s ⇒ %s" % (
-            _a, (_ha or "无")[:12], _b, (_hb or "无")[:12], "★同哈希（基准最新）" if _same else "★不同哈希 ⇒ 须核"))
-        land["outline_hash"] = {"canon": _ha, "copy": _hb, "same": _same}
+            return vs[-1].stem[2:], _h.sha3_256(x.encode()).hexdigest()[:16], len(x)
+        # ★自纠（2026-10-12）：空档对空档亦"同哈希" ⇒ 若不核非空，即得"★同哈希（基准最新）"之假绿
+        _a, _ha, _na = _sh("kd_McccFi"); _b, _hb, _nb = _sh("outline")
+        if min(_na, _nb) == 0:
+            _same = False
+            _verdict = "★两者或其一为空档（%d／%d 字）⇒ ★不可判（勿读作同哈希）" % (_na, _nb)
+        else:
+            _same = (_ha is not None and _ha == _hb)
+            _verdict = "★同哈希（基准最新）" if _same else "★不同哈希 ⇒ 须核"
+        print("   纲要 正本 %s/%s（%d 字）｜ 副本 %s/%s（%d 字）⇒ %s" % (
+            _a, (_ha or "无")[:12], _na, _b, (_hb or "无")[:12], _nb, _verdict))
+        land["outline_hash"] = {"canon": _ha, "copy": _hb, "same": _same, "chars": [_na, _nb]}
     except Exception as _e:
         print("   纲要核验未能执行：%s" % str(_e)[:60])
 
     land["repo_pending"] = _pend
 except Exception as e:
     print("   ⚠ ⑨ 未能执行：%s" % str(e)[:100])
+
+# ★⑩ 索引陈旧检测（2026-10-12 立）：应「旧索引 3,126 节／无 tf／件号映射仅 47%」之发现
+_idx_ok = None
+try:
+    import os as _os, subprocess as _sp
+    _ig = SEAT/"exp"/"index_guard.py"
+    if _ig.exists():
+        print("\n  ═══ ⑩ 索引陈旧检测 ═══")
+        _pr = _sp.run([sys.executable, str(_ig), "--json", str(SEAT/"outbox"/"mem"/"index_guard_daily_20261012.json")],
+                      capture_output=True, text=True, encoding="utf-8", errors="replace", env=dict(_os.environ))
+        for _l in ((_pr.stdout or "") + (_pr.stderr or "")).splitlines():
+            _s = _l.strip()
+            if _s.startswith(("节 ", "件号映射", "时效：")) or (_s.startswith(("①", "②", "③", "④")) and "⇒" in _s):
+                print("   " + _s[:112])
+        _idx_ok = (_pr.returncode == 0)
+        print("   ⇒ 判：%s（退出码 %d）" % ("✓ 索引新且自洽" if _idx_ok else "★索引陈旧／不自洽 ⇒ 须重建（index_guard.py --rebuild）", _pr.returncode))
+    else:
+        print("\n  ═══ ⑩ 索引陈旧检测：★检测器不在（未测）")
+except Exception as e:
+    print("   ⚠ ⑩ 未能执行：%s" % str(e)[:100])
 
 print("\n  ═══ 汇总 ═══")
 tot_same = sum(x[1] for x in pairs); tot_diff = sum(x[2] for x in pairs); tot_miss = sum(x[3] for x in pairs)
