@@ -92,7 +92,11 @@ def main():
         rows.append({"cycle": c, "ok": True, "channel_tail": str(rtc.get("channelId"))[-6:],
                      "desk": wrote_desk, "tid_tail": str(d.get("encryptedTravelId"))[-6:]})
         if c < a.cycles:
-            time.sleep(10)
+            # ★2026-10-12 自纠二十九：轮间须等★近一轮之全程（≈sec-20），否则三轮★重叠而非接力
+            #   （-1400 实测：轮间 10 s ⇒ 三轮"有效期至"仅差 12–14 s ⇒ 窗口未延长）
+            _gap = max(10, a.sec - 20)
+            print("      ★轮间等 %d s（★接力：上一轮将过期时再签下一轮）" % _gap)
+            time.sleep(_gap)
     print("   ★共成 %d／%d 轮" % (sum(1 for r in rows if r.get("ok")), a.cycles))
     crit = {"①每轮进房 code=0": all(r.get("ok") for r in rows) if rows else False,
             "②★页已重写": any(r.get("ok") for r in rows), "③★末态已回读": True}
