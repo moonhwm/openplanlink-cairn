@@ -290,6 +290,80 @@ try:
 except Exception as e:
     print("   ⚠ ⑫b 未能执行：%s" % str(e)[:100])
 
+# ★⑬～⑯ 补采四项（2026-10-12 立；使「元处理口径细则」之 A 级九项名副其实）
+_four = {}
+# ⑬ 术语闸（termtable check --mine-only）
+try:
+    import subprocess as _sf1, os as _of1
+    _tt = SEAT/"exp"/"termtable.py"
+    if _tt.exists():
+        print("\n  ═══ ⑬ 术语闸（termtable check --mine-only）═══")
+        _r1 = _sf1.run([sys.executable, str(_tt), "check", "--mine-only"], capture_output=True, text=True,
+                       encoding="utf-8", errors="replace", env=dict(_of1.environ))
+        _ls1 = [l.strip() for l in ((_r1.stdout or "") + (_r1.stderr or "")).splitlines() if l.strip()]
+        for _l in _ls1[-5:]: print("   " + _l[:118])
+        _four["termtable_rc"] = _r1.returncode
+        print("   ⇒ 判：%s（退出码 %d）" % ("✓ 术语闸通过" if _r1.returncode == 0 else "★术语闸有告警 ⇒ 见上", _r1.returncode))
+    else:
+        print("\n  ═══ ⑬ 术语闸：★器不在（未测）"); _four["termtable_rc"] = None
+except Exception as e:
+    print("   ⚠ ⑬ 未能执行：%s" % str(e)[:90])
+# ⑭ 总线 status（死信队列与审计日志）
+try:
+    import subprocess as _sf2, os as _of2
+    _bd = SEAT/"exp"/"bus_dlq.py"
+    if _bd.exists():
+        print("\n  ═══ ⑭ 总线死信与审计（bus_dlq status）═══")
+        _r2 = _sf2.run([sys.executable, str(_bd), "status"], capture_output=True, text=True,
+                       encoding="utf-8", errors="replace", env=dict(_of2.environ))
+        for _l in ((_r2.stdout or "") + (_r2.stderr or "")).splitlines():
+            _s = _l.strip()
+            if _s: print("   " + _s[:118]); _four.setdefault("bus_status", []).append(_s[:80])
+        print("   ⇒ 判：%s（退出码 %d）" % ("✓ 已取总线状态" if _r2.returncode == 0 else "★取状态失败", _r2.returncode))
+    else:
+        print("\n  ═══ ⑭ 总线：★器不在（未测）")
+except Exception as e:
+    print("   ⚠ ⑭ 未能执行：%s" % str(e)[:90])
+# ⑮ 器械 virtue_audit
+try:
+    import subprocess as _sf3, os as _of3
+    _va = SEAT/"exp"/"virtue_audit.py"
+    if _va.exists():
+        print("\n  ═══ ⑮ 器械 virtue_audit ═══")
+        _vj = SEAT/"outbox"/"mem"/"virtue_audit_daily_20261012.json"
+        _r3 = _sf3.run([sys.executable, str(_va), "--json", str(_vj)], capture_output=True, text=True,
+                       encoding="utf-8", errors="replace", env=dict(_of3.environ))
+        _ls3 = [l.strip() for l in ((_r3.stdout or "") + (_r3.stderr or "")).splitlines() if l.strip()]
+        for _l in _ls3[-4:]: print("   " + _l[:118])
+        if _vj.exists():
+            try: _four["virtue_audit"] = json.loads(_vj.read_text(encoding="utf-8"))
+            except Exception: pass
+        print("   ⇒ 判：%s（退出码 %d）" % ("✓ 器械审计完成" if _r3.returncode == 0 else "★审计异常", _r3.returncode))
+    else:
+        print("\n  ═══ ⑮ 器械：★器不在（未测）")
+except Exception as e:
+    print("   ⚠ ⑮ 未能执行：%s" % str(e)[:90])
+# ⑯ R_mem 分级
+try:
+    import subprocess as _sf4, os as _of4
+    _rg = SEAT/"exp"/"rmem_grade.py"
+    if _rg.exists():
+        print("\n  ═══ ⑯ R_mem 分级 ═══")
+        _rj = SEAT/"outbox"/"mem"/"rmem_grade_daily_20261012.json"
+        _r4 = _sf4.run([sys.executable, str(_rg), "--json", str(_rj)], capture_output=True, text=True,
+                       encoding="utf-8", errors="replace", env=dict(_of4.environ))
+        for _l in ((_r4.stdout or "") + (_r4.stderr or "")).splitlines():
+            _s = _l.strip()
+            if _s.startswith(("可用", "门槛", "⇒ 判")) or "分级" in _s: print("   " + _s[:118])
+        if _rj.exists():
+            try: _four["rmem"] = json.loads(_rj.read_text(encoding="utf-8"))
+            except Exception: pass
+        print("   ⇒ 判：%s（退出码 %d）" % ("✓ 内存充裕" if _r4.returncode == 0 else "★低于警戒线 ⇒ 须收敛", _r4.returncode))
+    else:
+        print("\n  ═══ ⑯ R_mem：★器不在（未测）")
+except Exception as e:
+    print("   ⚠ ⑯ 未能执行：%s" % str(e)[:90])
+
 print("\n  ═══ 汇总 ═══")
 tot_same = sum(x[1] for x in pairs); tot_diff = sum(x[2] for x in pairs); tot_miss = sum(x[3] for x in pairs)
 print("   同哈希 %d ｜ 异哈希 %d ｜ 仅正本有 %d" % (tot_same, tot_diff, tot_miss))
@@ -340,7 +414,9 @@ out.write_text(json.dumps({
     "item10_index_guard": _idx_guard_json,
     "item11_memory_changes": _mcl_last,
     "item11_memory_state": _mcl_state,
+    "item12_conf_calibration": ({"checked": _conf_cal.get("checked"), "mismatch": _conf_cal.get("mismatch"), "batch_sha16": _conf_cal.get("batch_sha16")} if _conf_cal else None),
     "item12b_decision_selftest": _dm_st,
+    "items13_16_backfill": _four,
     "item_index_summary": _idx_sum,
 }, ensure_ascii=False, indent=1), encoding="utf-8", newline="\n")
 print("   落盘：" + str(out))
