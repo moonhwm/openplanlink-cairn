@@ -60,6 +60,7 @@ def d_of(txt):
 def main():
     ap = argparse.ArgumentParser(); ap.add_argument("--sec", type=int, default=60); ap.add_argument("--dry", action="store_true")
     ap.add_argument("--instr", action="append", default=[])   # ★自定义指令（可多次）
+    ap.add_argument("--rel", action="append", default=[], type=int)   # ★相对起始毫秒（可多次）
     a = ap.parse_args()
     print("  ═══ 以具名动作之明确指令再进房（★最小化：一次会话 %d s）═══" % a.sec)
     st, dt, tx = call("/worlds?page=1&pageSize=50&status=ready")   # ★pageSize 50（-1373 之训：勿截断）
@@ -97,7 +98,10 @@ def main():
         "请让角色执行 WALK 动作并前进，动画名 WALK",
     ]
     for i, c in enumerate(INSTR, 1):
-        st, dt, tx = call("/travels/instruct", {"encryptedTravelId": str(tid), "content": c})
+        _body = {"encryptedTravelId": str(tid), "content": c}
+        if i - 1 < len(a.rel):
+            _body["relativeStartTimeMs"] = int(a.rel[i - 1])     # ★2026-10-12 试：令服务端排期
+        st, dt, tx = call("/travels/instruct", _body)
         code, d = d_of(tx)
         print("   ⑤-%d 指令：%s" % (i, c))
         print("        ⇒ HTTP %s ｜ code=%s ｜ %.2fs ｜ 占比对：%s" % (st, code, dt, json.dumps(d, ensure_ascii=False)[:90]))
