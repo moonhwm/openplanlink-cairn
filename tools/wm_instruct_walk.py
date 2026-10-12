@@ -61,6 +61,8 @@ def main():
     ap = argparse.ArgumentParser(); ap.add_argument("--sec", type=int, default=60); ap.add_argument("--dry", action="store_true")
     ap.add_argument("--instr", action="append", default=[])   # ★自定义指令（可多次）
     ap.add_argument("--rel", action="append", default=[], type=int)   # ★相对起始毫秒（可多次）
+    ap.add_argument("--mode", default="")   # ★2026-10-12 试：进房时指定 mode（末态 mode 字段为 null）
+    ap.add_argument("--wait-stream", action="store_true")   # ★2026-10-12 试：等 rtcStatus=STREAMING 后再发指令
     a = ap.parse_args()
     print("  ═══ 以具名动作之明确指令再进房（★最小化：一次会话 %d s）═══" % a.sec)
     st, dt, tx = call("/worlds?page=1&pageSize=50&status=ready")   # ★pageSize 50（-1373 之训：勿截断）
@@ -82,7 +84,9 @@ def main():
     print("   ② 取票：HTTP %s ｜ code=%s ｜ %.2fs ｜ 票=%s" % (st, code, dt, "★有" if tk else "无"))
     if not tk:
         print("      ★原始：%s" % tx[:180]); return 2
-    st, dt, tx = call("/travels/enter-travel", {"ticket": tk, "maxExperienceTimeSec": a.sec})
+    _eb = {"ticket": tk, "maxExperienceTimeSec": a.sec}
+    if a.mode: _eb["mode"] = a.mode            # ★试指定 mode
+    st, dt, tx = call("/travels/enter-travel", _eb)
     code, d = d_of(tx); tid = d.get("encryptedTravelId")
     print("   ③ 进房：HTTP %s ｜ ★code=%s ｜ %.2fs ｜ TravelId 尾 %s" % (st, code, dt, str(tid)[-8:]))
     if code != 0 or not tid:
@@ -93,6 +97,15 @@ def main():
     print("   ④ 基线状态：status=%s ｜ rtcStatus=%s ｜ ★characterActions=%s"
           % (s0.get("status"), s0.get("rtcStatus"), json.dumps(base_acts, ensure_ascii=False)[:80]
              if base_acts is not None else "null"))
+    if a.wait_stream:
+        _t0 = time.time(); _seen = None
+        for _i in range(30):
+            _s, _d2, _tx = call("/travels/status?encryptedTravelId=" + urllib.parse.quote(str(tid)))
+            _, _dd = d_of(_tx); _seen = _dd.get("rtcStatus")
+            print("      ★等待流就绪：第 %d 次 ｜ rtcStatus=%s ｜ %.1fs" % (_i+1, _seen, time.time()-_t0))
+            if _seen == "STREAMING": break
+            time.sleep(2)
+        print("   ★流就绪判定：rtcStatus=%s（%.1fs）" % (_seen, time.time()-_t0))
     INSTR = a.instr if a.instr else [
         "播放行走动画，向前移动三步",
         "请让角色执行 WALK 动作并前进，动画名 WALK",
@@ -118,8 +131,8 @@ def main():
     time.sleep(max(0, a.sec))
     st, dt, tx = call("/travels/status?encryptedTravelId=" + urllib.parse.quote(str(tid)))
     _, s2 = d_of(tx)
-    print("   ⑦ 末态：status=%s ｜ rtcStatus=%s ｜ 键：%s"
-          % (s2.get("status"), s2.get("rtcStatus"), "、".join(list(s2.keys())[:12])))
+    print("   ⑦ 末态：status=%s ｜ ★mode=%s ｜ rtcStatus=%s ｜ 键：%s"
+          % (s2.get("status"), s2.get("mode"), s2.get("rtcStatus"), "、".join(list(s2.keys())[:12])))
     arts = s2.get("artifacts") or s2.get("videos") or s2.get("records")
     print("   ★产物线索：%s" % (json.dumps(arts, ensure_ascii=False)[:200] if arts else "（末态无 artifacts/videos/records 键）"))
     ui = s2.get("userInstructions") or []
