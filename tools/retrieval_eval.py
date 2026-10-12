@@ -122,7 +122,11 @@ def measure(d, order, gold, ks=(1, 5)):
 def main():
     ap = argparse.ArgumentParser(); ap.add_argument("--scope", default="all"); ap.add_argument("--top", type=int, default=5)
     ap.add_argument("--router", default="none", choices=["none", "score", "oracle", "kw", "multi", "multi2"])   # ★两段式：先选域、后检索
-    ap.add_argument("--json", default=""); a = ap.parse_args()
+    ap.add_argument("--json", default="")
+    ap.add_argument("--query", default="")          # ★分型使用：可直接当检索器用
+    ap.add_argument("--k", type=int, default=5)
+    ap.add_argument("--assert-baseline", action="store_true")   # ★回归判据：与 -1131/-1130 之六设置读数比对，漂移即红
+    a = ap.parse_args()
     d = load()
     secs = d["sections"]
     scope_idx = [i for i, s in enumerate(secs)
@@ -234,6 +238,40 @@ def main():
             elif out["modes"][mode][grp]["MRR"] < bm[grp]["MRR"]: verdict.append("★%s 劣于 bm25（%s）" % (mode, grp))
             else: verdict.append("%s 与 bm25 持平（%s）" % (mode, grp))
     print("   ⇒ 判：%s" % "；".join(verdict))
+    # ★分型使用（2026-10-12）：释义／规范类 ⇒ multi（各域平等发言）；其余 ⇒ none（全域平检索）
+    if a.query:
+        KW_SPEC = ("纲要", "规范", "要求", "机制", "义务", "准则", "共识", "治理", "章程", "架构", "声明")
+        strat = "multi" if any(w in a.query for w in KW_SPEC) else "none"
+        print("   ★分型：查询「%s」⇒ 策略=%s" % (a.query[:26], strat))
+        fused = {}
+        for _nm, _dom in DOMAINS.items():
+            sc = bm25_scores(d, a.query, _dom)
+            _, r = ranks(sc)
+            for i in _dom:
+                fused[i] = fused.get(i, 0.0) + (1.0/(60 + r[i]) if strat == "multi" else 0.0)
+        if strat == "none":
+            order, _ = ranks(bm25_scores(d, a.query, None))
+        else:
+            order = sorted(fused, key=lambda i: -fused[i]) + [i for i in range(len(secs)) if i not in fused]
+        print("   命中前 %d：" % a.k)
+        for pos, i in enumerate(order[:a.k], 1):
+            s = secs[i]
+            print("     %d. [%s] %s ｜ %s" % (pos, s["doc"][:18], (s["head"] or "")[:34], (s["body"] or "")[:44].replace("\n", " ")))
+    # ★回归判据（可失败）：以 -1130／-1131 之六设置为基线，漂移超容差即红
+    if a.assert_baseline:
+        BASE = {("none", "B释义"): 0.687, ("multi", "B释义"): 0.944, ("oracle", "B释义"): 0.958,
+                ("multi2", "B释义"): 0.015, ("none", "A已知项"): 0.801, ("multi", "A已知项"): 0.407}
+        bad = []; checked = 0
+        # ★自纠六（2026-10-12）：平表含其它 router 之期望 ⇒ 单跑一路时必然"不匹配"而报红
+        #   ⇒ ★只断言"本次所跑 router"之项（全量回归须逐 router 逐一跑）
+        for (rt, grp), want in BASE.items():
+            if rt != a.router: continue
+            checked += 1
+            got = out.get("modes", {}).get("bm25", {}).get(grp, {}).get("MRR")
+            if got is None: bad.append("%s/%s 未测" % (rt, grp)); continue
+            if abs(got - want) > 0.02: bad.append("%s/%s 期望 %.3f 实得 %.3f" % (rt, grp, want, got))
+        print("   ★回归判据（本轮 router=%s）：应查 %d 项 ⇒ %s" % (a.router, checked, "✓ 无漂移" if not bad else "✗ " + "；".join(bad[:4])))
+        if bad: print("   ⇒ ★构建红（检索行为已漂移）")
     out["verdict"] = verdict
     if a.json: pathlib.Path(a.json).write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8", newline="\n")
     print("   ★声明一：分域读数已按域筛金标（域外金标剔除，免「假红 0.000」；域内无金标则报「不可评」而非 0）")
