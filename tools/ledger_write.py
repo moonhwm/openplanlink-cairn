@@ -42,7 +42,11 @@ def main():
     print("   ③ 刷快照 rc=%s ｜ %s" % (rc3, ((out3 or "").strip().splitlines() or [""])[-1][:70]))
     crit = {"①闸检已跑": True, "②追加已跑": rc2 == 0, "③★快照已刷新": rc3 == 0}
     for k, v in crit.items(): print("   %s ⇒ %s" % (k, "✓" if v else "✗"))
-    print("   ⇒ 判：★三步齐备（闸检一致 → 追加成功 → 快照已刷新）")
+    # ★2026-10-12 自纠：原为★无条件打印"三步齐备"（判据 crit 已算而未用）⇒ 改依 crit 判
+    if all(crit.values()):
+        print("   ⇒ 判：★三步齐备（闸检一致 → 追加成功 → 快照已刷新）")
+    else:
+        print("   ⇒ 判：★未齐备 ⇒ %s" % "；".join(k for k, v in crit.items() if not v))
     return 0
 
 
