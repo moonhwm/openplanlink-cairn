@@ -14,7 +14,20 @@ HOME = pathlib.Path.home()
 SEAT = HOME/"WPSDrive"/"29969771"/"WPS云盘"/"月之暗面的Plasma游乐场"/"A2A新席_石敢当Cairn_20260928"
 EX = HOME/"WPSDrive"/"29969771"/"WPS云盘"/"月之暗面的Plasma游乐场"/"A2A共同体_共享交换区"
 import os as _os
-IDX = pathlib.Path(_os.environ["OPL_SECTION_IDX"]) if _os.environ.get("OPL_SECTION_IDX") else (SEAT/"exp"/".cache"/"section_index.json")
+def _resolve_idx():
+    """★索引解析（2026-10-12）：①环境变量 OPL_SECTION_IDX ②指针文件 exp/.cache/index_pointer.json 之 index 字段 ③默认档
+    ★设计为"改数据不改代码"：切换与回退皆由指针文件完成，可审计、可回退"""
+    _e = _os.environ.get("OPL_SECTION_IDX")
+    if _e: return pathlib.Path(_e), "env"
+    _p = SEAT/"exp"/".cache"/"index_pointer.json"
+    if _p.exists():
+        try:
+            import json as _j
+            _d = _j.loads(_p.read_text(encoding="utf-8"))
+            if _d.get("index"): return pathlib.Path(_d["index"]), "pointer"
+        except Exception: pass
+    return SEAT/"exp"/".cache"/"section_index.json", "default"
+IDX, IDX_SRC = _resolve_idx()
 
 
 def toks(s, n=2):

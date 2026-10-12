@@ -16,8 +16,21 @@ EX = HOME/"WPSDrive"/"29969771"/"WPS云盘"/"月之暗面的Plasma游乐场"/"A2
 DEF_IDX = SEAT/"exp"/".cache"/"section_index.json"
 
 def run(a):
-    idx = pathlib.Path(os.environ.get("OPL_SECTION_IDX") or a.index or DEF_IDX)
-    print("  ═══ 索引陈旧检测 ｜ %s ═══" % idx.name)
+    # ★索引解析（2026-10-12 修）：①env OPL_SECTION_IDX ②★指针文件 index_pointer.json ③默认档
+    #   —— 原先本器未读指针 ⇒ 切换后它仍报旧档（★"加了全局解析却未逐一接入消费者"之又一例）
+    if a.index:
+        idx, src = pathlib.Path(a.index), "arg"
+    elif os.environ.get("OPL_SECTION_IDX"):
+        idx, src = pathlib.Path(os.environ["OPL_SECTION_IDX"]), "env"
+    elif (SEAT/"exp"/".cache"/"index_pointer.json").exists():
+        try:
+            _d = json.loads((SEAT/"exp"/".cache"/"index_pointer.json").read_text(encoding="utf-8"))
+            idx, src = pathlib.Path(_d["index"]), "pointer"
+        except Exception:
+            idx, src = DEF_IDX, "default"
+    else:
+        idx, src = DEF_IDX, "default"
+    print("  ═══ 索引陈旧检测 ｜ %s（来源 %s）═══" % (idx.name, src))
     if not idx.exists():
         print("   ★索引不在 ⇒ 未测（环境不足；退出码 2）"); return 2
     try:
@@ -36,13 +49,18 @@ def run(a):
     cons = 100.0*hit/max(1, len(m))
     newest = max((p.stat().st_mtime for p in EX.glob("*.otl")), default=0)
     idx_mt = idx.stat().st_mtime
-    fresh = idx_mt >= newest
+    # ★时效容差（2026-10-12 修）：只要我持续产出，索引必落后于"最新件"⇒ 无容差则日更永红
+    #   ⇒ 改为"落后不超过 tolerance 分钟"（默认 30）；并打印落后分钟数
+    lag_min = (newest - idx_mt)/60.0
+    fresh = lag_min <= a.tolerance
     print("   节 %d ｜ 文档 %d ｜ 指纹 %s ｜ tf %s" % (len(secs), len(docs), sha16, "有" if has_tf else "★无"))
     print("   件号映射 %d 条 ⇒ 命中 %d 条（★%.0f%%；阈值 95%%）" % (len(m), hit, cons))
-    print("   时效：索引 %s ｜ 最新件 %s ⇒ %s" % (time.strftime("%m-%d %H:%M", time.localtime(idx_mt)),
-          time.strftime("%m-%d %H:%M", time.localtime(newest)), "✓ 不早于" if fresh else "★早于（陈旧）"))
+    print("   时效：索引 %s ｜ 最新件 %s ⇒ 落后 %.0f 分钟（容差 %d）⇒ %s" % (
+        time.strftime("%m-%d %H:%M", time.localtime(idx_mt)), time.strftime("%m-%d %H:%M", time.localtime(newest)),
+        max(0.0, lag_min), a.tolerance, "✓ 在容差内" if fresh else "★超出容差（陈旧）"))
     crit = {"①索引可读且含 sections": len(secs) > 0, "②tf 在场（免器空转）": has_tf,
-            "③件号映射一致性 ≥95%%（现 %.0f%%）" % cons: cons >= 95.0, "④索引不早于最新件": fresh}
+            "③件号映射一致性 ≥95%%（现 %.0f%%）" % cons: cons >= 95.0,
+            "④索引落后 ≤%d 分钟（现 %.0f 分钟）" % (a.tolerance, max(0.0, lag_min)): fresh}
     for k, v in crit.items(): print("   %s ⇒ %s" % (k, "✓" if v else "✗"))
     if a.json:
         pathlib.Path(a.json).write_text(json.dumps({"index": idx.name, "sha16": sha16, "sections": len(secs),
@@ -64,4 +82,5 @@ if __name__ == "__main__":
     sys.stdout.reconfigure(encoding="utf-8", line_buffering=True)
     ap = argparse.ArgumentParser(); ap.add_argument("--index", default=""); ap.add_argument("--rebuild", action="store_true")
     ap.add_argument("--json", default="")
+    ap.add_argument("--tolerance", type=int, default=30)   # ★时效容差（分钟）
     sys.exit(run(ap.parse_args()))
