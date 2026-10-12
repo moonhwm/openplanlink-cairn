@@ -1,4 +1,5 @@
-﻿import json, pathlib, sys, urllib.request, urllib.error
+"""channel_probe_minimax_20261010.py —— 探 MiniMax 通道可用性（读 .env 之凭据，★凭据零回显）。"""
+import json, pathlib, sys, urllib.request, urllib.error
 sys.stdout.reconfigure(encoding="utf-8", line_buffering=True)
 env = {}
 for line in (pathlib.Path.home()/".zcode"/"workspace"/"default"/"a2a-bridge"/".env").read_text(encoding="utf-8", errors="replace").splitlines():

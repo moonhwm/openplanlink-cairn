@@ -1,4 +1,5 @@
-﻿import json, pathlib, re, sys
+"""struct_metrics.py —— 图像结构指标（直方图熵等；PIL＋numpy），用于帧级比对。"""
+import json, pathlib, re, sys
 import numpy as np
 from PIL import Image
 D = pathlib.Path(r"C:\Users\欧阳宏俊\AppData\Local\Temp\struct_cmp")

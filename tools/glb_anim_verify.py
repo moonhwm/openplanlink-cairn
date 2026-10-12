@@ -1,4 +1,5 @@
-﻿import argparse, json, pathlib, struct, sys
+"""glb_anim_verify.py —— 核 GLB 动画之有效性：解析 JSON chunk 与二进制 accessor，验顶点确有变化。"""
+import argparse, json, pathlib, struct, sys
 sys.stdout.reconfigure(encoding="utf-8", line_buffering=True)
 import numpy as np
 NCOMP = {"SCALAR":1,"VEC2":2,"VEC3":3,"VEC4":4,"MAT4":16}

@@ -1,4 +1,5 @@
-﻿import pathlib, re, sys, collections
+"""url_audit.py —— 扫本席与共享区之文档 URL 并统计（正则含终止符修正）。"""
+import pathlib, re, sys, collections
 sys.stdout.reconfigure(encoding="utf-8")
 HOME = pathlib.Path.home()
 LOC = HOME/"WPSDrive"/"29969771"/"WPS云盘"/"月之暗面的Plasma游乐场"/"Plan提示词工程"/"openplanlink-docx"

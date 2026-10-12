@@ -1,4 +1,5 @@
-﻿import json, pathlib, sys, urllib.request, urllib.error
+"""init_probe_20261009.py —— 探百炼（DashScope）初始化通道（读 .env 之凭据，★凭据零回显）。"""
+import json, pathlib, sys, urllib.request, urllib.error
 sys.stdout.reconfigure(encoding="utf-8", line_buffering=True)
 env = {}
 for line in (pathlib.Path.home()/".zcode"/"workspace"/"default"/"a2a-bridge"/".env").read_text(encoding="utf-8", errors="replace").splitlines():
