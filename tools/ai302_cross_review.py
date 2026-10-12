@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+﻿# -*- coding: utf-8 -*-
 """302.AI 跨厂商独立复核：请 claude-opus-5 独立判定本席核心判读（零输入下世界是否有结构性演化）
 - 依令条：302.AI **不用于国内模型**、**优先最先进高性能模型** ⇒ 用 claude-opus-5
 - 投喂：实测数据（六帧差分表、目视一致结论、官档要点）；**不投喂本席结论**（避免诱导）⇒ 先请其独立判读，再比对
@@ -8,7 +8,7 @@ import json, pathlib, sys, time, urllib.request, urllib.error
 
 sys.stdout.reconfigure(encoding="utf-8", line_buffering=True)
 env = {}
-for line in (pathlib.Path.home()/".zcode"/"workspace"/"default"/"a2a-bridge"/".env").read_text(encoding="utf-8", errors="replace").splitlines():
+for line in (pathlib.Path.home()/".zcode"/"workspace"/"default"/"a2a-bridge"/".env").read_text(encoding="utf-8-sig", errors="replace").splitlines():
     if "=" in line and not line.strip().startswith("#"):
         k, _, v = line.partition("="); env[k.strip()] = v.strip().strip('"').strip("'")
 base = env.get("AI302_BASE", "https://api.302ai.cn").rstrip("/")
@@ -49,6 +49,19 @@ def call(model, prompt, mx=500, to=180):
             ch = (j.get("choices") or [{}])[0]
             return 200, round(time.time()-t0, 2), str((ch.get("message") or {}).get("content") or ""), (j.get("usage") or {})
     except urllib.error.HTTPError as e:
+
+        """★墙闸"""
+        try:
+            _b = e.read().decode("utf-8", "replace")
+            import sys as _s, pathlib as _p
+            _s.path.insert(0, str(_p.Path(__file__).resolve().parent))
+            import wall_guard as _wg
+            if _wg.classify(_b)[0] == "wall":
+                _wg.record(_b, source=_p.Path(__file__).name, channel="wall")
+                print("   ★撞墙即停（零重试）")
+                return e.code, _b[:200]
+        except Exception:
+            pass
         return e.code, round(time.time()-t0, 2), e.read().decode("utf-8", "replace")[:220], {}
     except Exception as e:
         return -1, round(time.time()-t0, 2), str(e)[:150], {}

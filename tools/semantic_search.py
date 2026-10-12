@@ -33,7 +33,20 @@ def embed_one(text, key):
         try:
             with urllib.request.urlopen(r, timeout=120) as resp:
                 return json.loads(resp.read().decode("utf-8", "replace"))["data"][0]["embedding"]
-        except urllib.error.HTTPError as e:       # ★戒三十六：4xx 不重试
+        except urllib.error.HTTPError as e:
+            """★墙闸"""
+            try:
+                _b = e.read().decode("utf-8", "replace")
+                import sys as _s, pathlib as _p
+                _s.path.insert(0, str(_p.Path(__file__).resolve().parent))
+                import wall_guard as _wg
+                if _wg.classify(_b)[0] == "wall":
+                    _wg.record(_b, source=_p.Path(__file__).name, channel="wall")
+                    print("   ★撞墙即停（零重试）")
+                    return e.code, _b[:200]
+            except Exception:
+                pass
+            # ★戒三十六：4xx 不重试
             msg = e.read().decode("utf-8", "replace")[:200].replace("\n", " ")
             if 400 <= e.code < 500:
                 if "Free quota exhausted" in msg:

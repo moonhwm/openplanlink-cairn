@@ -33,6 +33,19 @@ def call(method, path, body=None, to=150):
         with urllib.request.urlopen(r, timeout=to) as resp:
             return resp.status, resp.read().decode("utf-8", "replace")
     except urllib.error.HTTPError as e:
+
+        """★墙闸"""
+        try:
+            _b = e.read().decode("utf-8", "replace")
+            import sys as _s, pathlib as _p
+            _s.path.insert(0, str(_p.Path(__file__).resolve().parent))
+            import wall_guard as _wg
+            if _wg.classify(_b)[0] == "wall":
+                _wg.record(_b, source=_p.Path(__file__).name, channel="wall")
+                print("   ★撞墙即停（零重试）")
+                return e.code, _b[:200]
+        except Exception:
+            pass
         return e.code, e.read().decode("utf-8", "replace")
     except Exception as e:
         return -1, str(e)[:140]
