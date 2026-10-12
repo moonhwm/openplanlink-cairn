@@ -209,6 +209,25 @@ try:
 except Exception as e:
     print("   ⚠ ⑩ 未能执行：%s" % str(e)[:100])
 
+# ★⑪ 记忆变更日志（2026-10-12 立）：比对"记忆面"（指针／索引档／台账／登记表／档案／总线）之变更并留痕
+_mcl = None
+try:
+    import subprocess as _sp2, os as _os2
+    _mc = SEAT/"exp"/"memory_change_log.py"
+    if _mc.exists():
+        print("\n  ═══ ⑪ 记忆变更日志 ═══")
+        _pr2 = _sp2.run([sys.executable, str(_mc)], capture_output=True, text=True, encoding="utf-8",
+                        errors="replace", env=dict(_os2.environ))
+        for _l in ((_pr2.stdout or "") + (_pr2.stderr or "")).splitlines():
+            _s = _l.strip()
+            if _s.startswith(("记忆变更日志 ｜", "★", "记忆面读数", "⇒ 判")):
+                print("   " + _s[:118])
+        _mcl = (_pr2.returncode == 0)
+    else:
+        print("\n  ═══ ⑪ 记忆变更日志：★器不在（未测）")
+except Exception as e:
+    print("   ⚠ ⑪ 未能执行：%s" % str(e)[:100])
+
 print("\n  ═══ 汇总 ═══")
 tot_same = sum(x[1] for x in pairs); tot_diff = sum(x[2] for x in pairs); tot_miss = sum(x[3] for x in pairs)
 print("   同哈希 %d ｜ 异哈希 %d ｜ 仅正本有 %d" % (tot_same, tot_diff, tot_miss))
