@@ -45,7 +45,9 @@ def main():
     ap.add_argument("--semantic", action="store_true")   # ★第三路：语义（档名向量，零调用）
     ap.add_argument("--alpha", type=float, default=1.0)  # ★语义路之权重（RRF 加权）
     ap.add_argument("--group-by", default="", choices=["", "overlap"])  # ★分组平衡报告
-    ap.add_argument("--auto", action="store_true")  # ★双形态择一（释义型⇒语义融合；词袋型⇒词面）
+    ap.add_argument("--auto", action="store_true")  # ★双形态择一（★经验证判据不准，标为实验性）
+    ap.add_argument("--both", action="store_true")  # ★两臂并列返回（各出 top-5）
+    ap.add_argument("--oracle", action="store_true")  # ★算两臂之 oracle（每题取优者）
     a = ap.parse_args()
     S = pathlib.Path(__file__).resolve().parent
     p = a.index or (S/".cache"/"section_index_union_20261012.json")
@@ -114,14 +116,26 @@ def main():
                     if x in rs: fused[x] += a.alpha * 1.0/(kk + rs[x])
         return [x for x, _ in sorted(fused.items(), key=lambda kv: -kv[1])]
 
-    hits = []; _grp = []
+    hits = []; _grp = []; _orc = []
     for q, key in pairs:
         order = rank_docs(q)
         _use_sem = a.semantic
         if a.semantic and a.auto and (not is_explanatory(q)):
             # ★词袋型查询 ⇒ 只用词面（不用语义分量）
             _use_sem = False
-        order = rank_docs(q, 60, (a.semantic and (not a.auto or is_explanatory(q))))
+        _sem_on = a.semantic and (not a.auto or is_explanatory(q))
+        order = rank_docs(q, 60, _sem_on)
+        if (a.both or a.oracle) and a.semantic:
+            o_lex = rank_docs(q, 60, False); o_sem = rank_docs(q, 60, True)
+            _hit_lex = next((n for n, d in enumerate(o_lex, 1) if key in d), None)
+            _hit_sem = next((n for n, d in enumerate(o_sem, 1) if key in d), None)
+            if a.both:
+                print("      〔两臂并列〕%s" % str(q)[:26])
+                print("         词面 top5：%s" % "；".join(d[:18] for d in o_lex[:5]))
+                print("         ★语义 top5：%s" % "；".join(d[:18] for d in o_sem[:5]))
+            if a.oracle:
+                # ★2026-10-12 自纠：名次越小越好 ⇒ 取优者应为 min（我先前误写 max）
+                _orc.append(min([x for x in (_hit_lex, _hit_sem) if x], default=None))
         _hit = next((n for n, doc in enumerate(order, 1) if key in doc), None)
         hits.append(_hit)
         if a.group_by == "overlap":
@@ -132,6 +146,10 @@ def main():
     H1 = sum(1 for x in hits if x == 1)/max(1, n)
     M = sum((1.0/x) if x else 0.0 for x in hits)/max(1, n)
     print("   ★v2：Hit@1 %.4f ｜ ★MRR %.4f ｜ 未命中 %d ／ %d" % (H1, M, sum(1 for x in hits if not x), n))
+    if a.oracle and _orc:
+        print("   ★oracle（两臂取优）：MRR %.4f ｜ Hit@1 %.4f ｜ 未命中 %d／%d" % (
+            sum((1.0/x) if x else 0 for x in _orc)/len(_orc), sum(1 for x in _orc if x == 1)/len(_orc),
+            sum(1 for x in _orc if not x), len(_orc)))
     if a.group_by == "overlap" and _grp:
         print("   ── ★分组平衡报告（按与目标档名有无词面重叠）──")
         for g in ("零重叠", "有重叠"):
