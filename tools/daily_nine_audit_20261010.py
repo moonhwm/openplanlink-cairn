@@ -2,7 +2,7 @@
 """日更九项之：④署名双算法抽验 ⑤SHA3-512 树对账（正本仓 notes/bus ↔ 镜像仓/交换区）
 （引号一律用「」）
 """
-import hashlib, json, pathlib, sys
+import hashlib, json, pathlib, re, sys
 
 sys.stdout.reconfigure(encoding="utf-8", line_buffering=True)
 HOME = pathlib.Path.home()
@@ -15,24 +15,24 @@ MARK = b"\n<!-- SIG-BLOCK"
 print("  ═══ ④ 署名双算法抽验（三件）═══")
 cands = sorted(EX.glob("*DF-AI-20261010-CAIRN-0*.otl"), key=lambda p: p.name)
 cands = [p for p in cands if p.exists()][:3] or sorted(EX.glob("*CAIRN-*.otl"))[-3:]
+# ★修正（2026-10-12）：①树根为 SHA3-512＝128 位十六进制，旧码用 {64} 搜 ⇒ 恒误报不符；
+#                     ②须与验证器同法做 CRLF→LF 归一化（norm）；③判词以 sig_verify 为准。
+DIG = re.compile(r"本件正文 SHA3-512 树根（署名块之前）\*\* \| `([0-9a-f]{128})`")
 for p in cands:
     raw = p.read_bytes()
-    norm = raw[:raw.find(MARK)] if MARK in raw else raw
-    # 算法甲：SHA3-512（本席 v5 之定义：取署名块之前之原始字节）
-    a1 = hashlib.sha3_512(norm).hexdigest()
-    # 算法乙：独立实现（分块喂入，同字节序列；验证与一次性一致）
+    body = raw[:raw.find(MARK)] if MARK in raw else raw
+    nb = body.decode("latin1").replace("\r\n", "\n").encode("latin1")
+    a1 = hashlib.sha3_512(nb).hexdigest()
     h = hashlib.sha3_512()
-    for i in range(0, len(norm), 65536):
-        h.update(norm[i:i+65536])
+    for i in range(0, len(nb), 65536):
+        h.update(nb[i:i+65536])
     a2 = h.hexdigest()
-    # 件内所载树根（若在署名块中明载）
-    tail = raw[-1200:].decode("utf-8", "replace")
-    import re
-    m = re.search(r"([0-9a-f]{64})", tail)
+    m = DIG.search(raw.decode("utf-8", "replace"))
     rec = m.group(1) if m else ""
     print("   %-58s" % p.name[:58])
     print("      甲(SHA3-512)=%s… 乙(分块)=%s… ⇒ %s" % (a1[:24], a2[:24], "★两法一致 ✓" if a1 == a2 else "✗不一致"))
-    print("      件内载根=%s… ⇒ %s" % (rec[:24] if rec else "（未明载）", "与甲相符 ✓" if rec and rec == a1 else ("（须以 sig_block --dry 复算为准）" if not rec else "✗不符")))
+    print("      件内载根=%s… ⇒ %s" % (rec[:24] if rec else "（未明载）",
+          "与甲相符 ✓" if rec and rec == a1 else ("（旧件无树根记录，属分类）" if not rec else "✗不符")))
 
 print("\n  ═══ ⑤ SHA3-512 树对账（正本仓 notes／bus ↔ 镜像仓／交换区）═══")
 def sha3(p, n=65536):
