@@ -59,6 +59,7 @@ def d_of(txt):
 
 def main():
     ap = argparse.ArgumentParser(); ap.add_argument("--sec", type=int, default=60); ap.add_argument("--dry", action="store_true")
+    ap.add_argument("--instr", action="append", default=[])   # ★自定义指令（可多次）
     a = ap.parse_args()
     print("  ═══ 以具名动作之明确指令再进房（★最小化：一次会话 %d s）═══" % a.sec)
     st, dt, tx = call("/worlds?page=1&pageSize=50&status=ready")   # ★pageSize 50（-1373 之训：勿截断）
@@ -91,7 +92,7 @@ def main():
     print("   ④ 基线状态：status=%s ｜ rtcStatus=%s ｜ ★characterActions=%s"
           % (s0.get("status"), s0.get("rtcStatus"), json.dumps(base_acts, ensure_ascii=False)[:80]
              if base_acts is not None else "null"))
-    INSTR = [
+    INSTR = a.instr if a.instr else [
         "播放行走动画，向前移动三步",
         "请让角色执行 WALK 动作并前进，动画名 WALK",
     ]
@@ -117,12 +118,17 @@ def main():
           % (s2.get("status"), s2.get("rtcStatus"), "、".join(list(s2.keys())[:12])))
     arts = s2.get("artifacts") or s2.get("videos") or s2.get("records")
     print("   ★产物线索：%s" % (json.dumps(arts, ensure_ascii=False)[:200] if arts else "（末态无 artifacts/videos/records 键）"))
-    crit = {"①进房 code=0": code == 0, "②★指令后字段有变化": changed, "③末态已读": bool(s2)}
+    ui = s2.get("userInstructions") or []
+    sts = [str(r.get("status")) for r in ui]
+    print("   ★★userInstructions 之 status（★权威）：%s" % ("、".join(sts) if sts else "（无）"))
+    ex = any(s == "EXECUTED" for s in sts)
+    crit = {"①进房 code=0": code == 0, "②★指令后字段有变化": changed, "③末态已读": bool(s2),
+            "④★有指令被 EXECUTED": ex}
     for k, v in crit.items(): print("   %s ⇒ %s" % (k, "✓" if v else "✗"))
     out = pathlib.Path(__file__).resolve().parent.parent/"outbox"/"mem"/"wm_instruct_walk_20261012.json"
     out.write_text(json.dumps({"ts": time.strftime("%Y-%m-%dT%H:%M:%S+0800"), "world": str(wname), "sec": a.sec,
         "instructions": INSTR, "baseline_acts": base_acts, "after_acts": aft, "end_status": s2,
-        "changed": changed, "criteria": crit}, ensure_ascii=False, indent=1), encoding="utf-8", newline="\n")
+        "changed": changed, "ui_status": sts, "criteria": crit}, ensure_ascii=False, indent=1), encoding="utf-8", newline="\n")
     print("   ⇒ 已写：%s" % out.name)
     return 0
 
