@@ -37,6 +37,21 @@ def embed(texts):
             with urllib.request.urlopen(r, timeout=120) as resp:
                 j = json.loads(resp.read().decode("utf-8", "replace"))
             return [d["embedding"] for d in j["data"]], round(time.time()-t0, 2), j.get("usage", {})
+        except urllib.error.HTTPError as _eh:
+            """★墙闸"""
+            try:
+                _wb = _eh.read().decode("utf-8", "replace")
+                import sys as _ws, pathlib as _wp
+                _ws.path.insert(0, str(_wp.Path(__file__).resolve().parent))
+                import wall_guard as _wg
+                if _wg.classify(_wb)[0] == "wall":
+                    _wg.record(_wb, source=_wp.Path(__file__).name, channel="wall")
+                    print("   ★撞墙即停（零重试）")
+                    raise
+            except RuntimeError:
+                raise
+            except Exception:
+                pass
         except Exception as e:
             last = e; time.sleep(2 + 3*att)
     raise last
