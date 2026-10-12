@@ -15,13 +15,25 @@ from collections import Counter
 
 HOME = pathlib.Path.home()
 SEAT = HOME/"WPSDrive"/"29969771"/"WPS云盘"/"月之暗面的Plasma游乐场"/"A2A新席_石敢当Cairn_20260928"
-IDX = SEAT/"exp"/".cache"/"section_index.json"
+EX = HOME/"WPSDrive"/"29969771"/"WPS云盘"/"月之暗面的Plasma游乐场"/"A2A共同体_共享交换区"   # ★件号映射与索引源
+import os as _os
+IDX = pathlib.Path(_os.environ["OPL_SECTION_IDX"]) if _os.environ.get("OPL_SECTION_IDX") else (SEAT/"exp"/".cache"/"section_index.json")
 
 def toks(s, n=2):
     s = re.sub(r"\s+", "", s)
     out = [s[i:i+n] for i in range(len(s)-n+1)]
     out += re.findall(r"[A-Za-z0-9_\-]{2,}", s)
     return out
+
+def art_map():
+    """★件号 ↔ doc 标题 映射（2026-10-12）：索引之 doc ＝ 文件名 split("_")[0]（中文标题），★不含件号
+    ⇒ 扫交换区文件名（<标题>_DF-…-CAIRN-<nn>.otl）建映射，供"件号直通车"用；不动索引、零花费"""
+    m = {}
+    for f in EX.glob("*.otl"):
+        mm = re.search(r"CAIRN-(\d{1,3})", f.name)
+        if mm: m["CAIRN-%s" % mm.group(1)] = f.name.split("_")[0]
+    return m
+
 
 def load():
     if not IDX.exists():
@@ -180,7 +192,8 @@ def main():
         return DOMAINS[bd]
     print("   金标：A 已知项 %d 条｜B 释义 %d 条（★B 中有 %d 条未在库中命中标题，剔除）" % (
         len(A), len(B), sum(1 for x in B if x["gold_i"] is None)))
-    out = {"scope": a.scope, "n_sections": len(secs), "modes": {}}
+    import hashlib as _hl
+    out = {"scope": a.scope, "n_sections": len(secs), "index_sha16": _hl.sha3_256(IDX.read_bytes()).hexdigest()[:16], "modes": {}}
     for mode in ("bm25", "rrf", "mmr"):
         per = {}
         # ★按域筛金标（2026-10-12 自纠）：域外金标不可达 ⇒ 若计入即得"假红 0.000"
@@ -243,22 +256,42 @@ def main():
         KW_SPEC = ("纲要", "规范", "要求", "机制", "义务", "准则", "共识", "治理", "章程", "架构", "声明")
         strat = "multi" if any(w in a.query for w in KW_SPEC) else "none"
         print("   ★分型：查询「%s」⇒ 策略=%s" % (a.query[:26], strat))
-        fused = {}
-        for _nm, _dom in DOMAINS.items():
-            sc = bm25_scores(d, a.query, _dom)
-            _, r = ranks(sc)
-            for i in _dom:
-                fused[i] = fused.get(i, 0.0) + (1.0/(60 + r[i]) if strat == "multi" else 0.0)
-        if strat == "none":
-            order, _ = ranks(bm25_scores(d, a.query, None))
+        # ★件号直通车（2026-10-12）：查询含 CAIRN-<nn> ⇒ 先经 art_map 定位该件之 doc 标题，再在该子集内检索
+        AM = art_map()
+        _m = re.search(r"CAIRN-(\d{1,3})", a.query, re.I)
+        _direct = None
+        if _m:
+            _key = "CAIRN-%s" % _m.group(1)
+            _title = AM.get(_key)
+            if _title:
+                _sub = [i for i, s in enumerate(secs) if s["doc"] == _title]
+                if _sub:
+                    _direct = set(_sub)
+                    print("   ★件号直通车：%s ⇒ doc「%s」（%d 节）｜映射表 %d 条" % (_key, _title[:26], len(_sub), len(AM)))
+        if _direct:
+            _sc = bm25_scores(d, a.query, _direct)
+            order = [i for i, v in sorted(enumerate(_sc), key=lambda t: -t[1]) if i in _direct]
         else:
-            order = sorted(fused, key=lambda i: -fused[i]) + [i for i in range(len(secs)) if i not in fused]
+            fused = {}
+            for _nm, _dom in DOMAINS.items():
+                sc = bm25_scores(d, a.query, _dom)
+                _, r = ranks(sc)
+                for i in _dom:
+                    fused[i] = fused.get(i, 0.0) + (1.0/(60 + r[i]) if strat == "multi" else 0.0)
+            if strat == "none":
+                order, _ = ranks(bm25_scores(d, a.query, None))
+            else:
+                order = sorted(fused, key=lambda i: -fused[i]) + [i for i in range(len(secs)) if i not in fused]
         print("   命中前 %d：" % a.k)
         for pos, i in enumerate(order[:a.k], 1):
             s = secs[i]
             print("     %d. [%s] %s ｜ %s" % (pos, s["doc"][:18], (s["head"] or "")[:34], (s["body"] or "")[:44].replace("\n", " ")))
     # ★回归判据（可失败）：以 -1130／-1131 之六设置为基线，漂移超容差即红
     if a.assert_baseline:
+        # ★基线须绑"索引指纹"（2026-10-12）：语料一变，读数即变 ⇒ 不同档之基线不可互比
+        BASE_IDX = "65d2a9dfaa0c224f"   # ★旧档（3,126 节；section_index.json）之真指纹：该批基线（0.687／0.944／…）即在此档上测得
+        if out.get("index_sha16") != BASE_IDX:
+            print("   ★索引指纹不同（记 %s，今 %s）⇒ ★旧基线不适用：仅列本轮新读数，不判红" % (BASE_IDX, out.get("index_sha16")))
         BASE = {("none", "B释义"): 0.687, ("multi", "B释义"): 0.944, ("oracle", "B释义"): 0.958,
                 ("multi2", "B释义"): 0.015, ("none", "A已知项"): 0.801, ("multi", "A已知项"): 0.407}
         bad = []; checked = 0
@@ -266,6 +299,7 @@ def main():
         #   ⇒ ★只断言"本次所跑 router"之项（全量回归须逐 router 逐一跑）
         for (rt, grp), want in BASE.items():
             if rt != a.router: continue
+            if out.get("index_sha16") != BASE_IDX: continue
             checked += 1
             got = out.get("modes", {}).get("bm25", {}).get(grp, {}).get("MRR")
             if got is None: bad.append("%s/%s 未测" % (rt, grp)); continue
