@@ -8,6 +8,16 @@
 import hashlib, json, pathlib, re, subprocess, sys, time
 
 sys.stdout.reconfigure(encoding="utf-8", line_buffering=True)
+
+# ★2026-10-12 参数卫生（自纠）：本器原无参数解析 ⇒ ★任何参数（含 --help／-h）皆被忽略而主流程照跑
+#   ⇒ 我曾以 `--help` 探其用法，★竟真跑了一次复拉（-1279 之记载）⇒ 今补：-h／--help 只示帮助，--dry-run 只示计划
+if any(x in ("-h", "--help") for x in sys.argv):
+    print("用法：python doc_archive.py [--notify] ｜ --dry-run（只示计划，不拉取）")
+    print("  ★注意：本器会真拉取两档（outline／polish）并落 archive/docs；--help 只示帮助，不拉取。")
+    sys.exit(0)
+if "--dry-run" in sys.argv:
+    print("★dry-run：将拉取两档（outline、polish）并写 archive/docs；★本次不拉取、不落盘。")
+    sys.exit(0)
 HOME = pathlib.Path.home()
 SEAT = HOME/"WPSDrive"/"29969771"/"WPS云盘"/"月之暗面的Plasma游乐场"/"A2A新席_石敢当Cairn_20260928"
 EX = HOME/"WPSDrive"/"29969771"/"WPS云盘"/"月之暗面的Plasma游乐场"/"A2A共同体_共享交换区"
@@ -56,7 +66,7 @@ def sections(md):
 
 def load(path, default):
     try:
-        return json.loads(path.read_text(encoding="utf-8"))
+        return json.loads(path.read_text(encoding="utf-8-sig"))
     except Exception:
         return default
 
@@ -72,7 +82,7 @@ for d in DOCS:
         report.append((d["key"], "拉取失败", meta)); continue
     h = sha(content)
     secs = sections(content)
-    sec_idx = {t: sha(b) for t, b in secs}
+    sec_idx = {"%04d|%s" % (i, t): sha(b) for i, (t, b) in enumerate(secs)}   # ★键加序号：同名标题不再互相覆盖
     m = manifest.setdefault(d["key"], {"link_id": d["link_id"], "title": d["title"], "history": []})
     prev = m["history"][-1] if m["history"] else None
     changed = (prev is None) or (prev["hash"] != h)
