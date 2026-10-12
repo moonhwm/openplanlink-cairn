@@ -60,11 +60,24 @@ def main():
                 # ★2026-10-12 自纠（-1315 之果）：旧表 cairn_nameregistry_v2_20261009.json 之器名★在 items 之内，
                 #   而顶层 9 键（ts/seat/note/count/by_seat/by_series/hyphen_series/unmatched/items）★皆非器名
                 #   ⇒ 原取键法把顶层键当器名集 ⇒ "未登记"误报为"全部"（440/440）⇒ 今补 items 分支
+                def _stem(s):
+                    # ★2026-10-12 加（-1317 之果）：指纹清单之器名在 path（如 "exp/a2a_client.py"）
+                    #   ⇒ 须取 basename 并去扩展名，方能与现行器名（无目录无扩展名）匹配
+                    b = str(s).replace("\\", "/").split("/")[-1]
+                    return b[:-3] if b.endswith(".py") else b
                 def _names(v):
                     if isinstance(v, dict):
                         return {str(k) for k in v.keys()}
                     if isinstance(v, list):
-                        return {str(x.get("name") if isinstance(x, dict) else x) for x in v}
+                        out = set()
+                        for x in v:
+                            if isinstance(x, dict):
+                                if "path" in x: out.add(_stem(x["path"]))
+                                elif "name" in x: out.add(str(x["name"]))
+                                elif "file" in x: out.add(str(x["file"]))
+                            else:
+                                out.add(_stem(x))
+                        return out
                     return set()
                 if "tools" in j:
                     prev = _names(j["tools"])
