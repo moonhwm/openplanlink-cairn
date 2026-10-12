@@ -94,6 +94,9 @@ for key, v in list(manifest.items()):
     c, meta = pull(v["link_id"])
     if c is None:
         fail += 1; print("   ✗ %-10s %s" % (key, meta.get("err"))); continue
+    # ★空内容闸（2026-10-12 立；因 1319/1321 批曾写入 0 字空档而工器报"变更"）
+    if not c or not c.strip():
+        fail += 1; print("   ✗ %-10s ★空内容（拉取返回 0 字）⇒ 不计变更、不写版本" % key); continue
     h = sha(c); secs = {t: sha(b) for t, b in sections(c)}
     prev = v["history"][-1]
     if h == prev["hash"]:
