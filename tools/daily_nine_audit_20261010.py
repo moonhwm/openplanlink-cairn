@@ -212,6 +212,40 @@ except Exception as e:
 print("\n  ═══ 汇总 ═══")
 tot_same = sum(x[1] for x in pairs); tot_diff = sum(x[2] for x in pairs); tot_miss = sum(x[3] for x in pairs)
 print("   同哈希 %d ｜ 异哈希 %d ｜ 仅正本有 %d" % (tot_same, tot_diff, tot_miss))
+# ★索引指纹与读数纳入汇总（2026-10-12）：读 ledger/index_registry.jsonl，按指纹聚合，并标出"当前指向"之档与其读数
+_idx_sum = None
+try:
+    _REG = SEAT/"ledger"/"index_registry.jsonl"
+    if _REG.exists():
+        _rows = [json.loads(l) for l in _REG.read_text(encoding="utf-8").splitlines() if l.strip()]
+        _agg = {}
+        for _r in _rows:
+            if _r.get("kind") == "correction" or not _r.get("sha16"): continue
+            _a = _agg.setdefault(_r["sha16"], {"names": [], "sections": _r.get("sections"), "tf": _r.get("tf"),
+                                              "map_pct": _r.get("map_pct"), "readings": _r.get("readings") or {}})
+            _a["names"].append(_r.get("name"))
+        _cp, _csrc = None, None
+        _ptr = SEAT/"exp"/".cache"/"index_pointer.json"
+        if _ptr.exists():
+            try: _cp = pathlib.Path(json.loads(_ptr.read_text(encoding="utf-8"))["index"]).name; _csrc = "pointer"
+            except Exception: pass
+        if _cp is None: _cp, _csrc = "section_index.json", "default"
+        _cur_sha = None
+        for _s, _a in _agg.items():
+            if _cp in _a["names"]: _cur_sha = _s
+        print("   索引：%d 档 ⇒ ★%d 个指纹 ｜ 当前指向 %s（%s）%s" % (
+            sum(len(_a["names"]) for _a in _agg.values()), len(_agg), _cp, _csrc,
+            ("｜指纹 " + (_cur_sha or "未登记")) if True else ""))
+        for _s, _a in _agg.items():
+            _rd = _a.get("readings") or {}
+            _txt = ("读数 none_B %.3f／★multi_B %.3f／oracle_B %.3f" % (_rd["none_B"], _rd["multi_B"], _rd["oracle_B"])) if "none_B" in _rd else "★未录读数"
+            print("     %s ⇒ %d 份 ｜ 节 %s ｜ tf %s ｜ 映射 %s%% ｜ %s%s" % (
+                _s, len(_a["names"]), _a.get("sections"), "有" if _a.get("tf") else "★无", _a.get("map_pct"), _txt,
+                "　★当前" if _s == _cur_sha else ""))
+        _idx_sum = {"files": sum(len(_a["names"]) for _a in _agg.values()), "fingerprints": len(_agg),
+                    "current": _cp, "current_src": _csrc, "current_sha16": _cur_sha}
+except Exception as _e:
+    print("   ⚠ 索引汇总未能执行：%s" % str(_e)[:80])
 out = SEAT/"outbox"/"mem"/"daily_nine_audit_20261010.json"
 out.parent.mkdir(parents=True, exist_ok=True)
 out.write_text(json.dumps({
