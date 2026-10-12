@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+﻿# -*- coding: utf-8 -*-
 """通用建 World 器（Adventure；trial 域）——供人设迭代反复使用
 用法：
   python wm_create_generic.py --png <图片> --prompt-file <txt|缺失则用内联> [--label v3]
@@ -21,7 +21,7 @@ def free_mb():
 
 def key():
     env = {}
-    for line in (HOME/".zcode"/"workspace"/"default"/"a2a-bridge"/".env").read_text(encoding="utf-8", errors="replace").splitlines():
+    for line in (HOME/".zcode"/"workspace"/"default"/"a2a-bridge"/".env").read_text(encoding="utf-8-sig", errors="replace").splitlines():
         if "=" in line and not line.strip().startswith("#"):
             k, _, v = line.partition("="); env[k.strip()] = v.strip().strip('"').strip("'")
     return env.get("DASHSCOPE_API_KEY", "")
@@ -35,8 +35,7 @@ def call(url, K, body=None, method="GET", to=60):
     try:
         with urllib.request.urlopen(r, timeout=to) as resp:
             return resp.status, round(time.time()-t0, 2), resp.read().decode("utf-8", "replace")
-    except urllib.error.HTTPError as e:
-        return e.code, round(time.time()-t0, 2), e.read().decode("utf-8", "replace")[:300]
+    except urllib.error.HTTPError as e:        return e.code, round(time.time()-t0, 2), e.read().decode("utf-8", "replace")[:300]
     except Exception as e:
         return -1, round(time.time()-t0, 2), str(e)[:150]
 

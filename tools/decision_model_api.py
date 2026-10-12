@@ -22,7 +22,6 @@ SYS = ("你是结构化决策模型。对给定问题只做一次前向判断，
        "必须只输出 JSON：{\"label\":\"…\",\"probabilities\":{\"选项\":数值,…},\"confidence\":0到1,\"reason\":\"≤40字\"}。"
        "probabilities 之和须为 1；是非题选项用「是」「否」；分类题用「甲」「乙」「丙」；评分题 label 用 0–10 之整数并把各分值归并为 3 档概率。")
 
-
 def env():
     d = {}
     p = HOME/".zcode"/"workspace"/"default"/"a2a-bridge"/".env"
@@ -30,8 +29,6 @@ def env():
         if "=" in line and not line.strip().startswith("#"):
             k, _, v = line.partition("="); d[k.strip()] = v.strip().strip('"').strip("'")
     return d
-
-
 
 def tolerant_json(txt):
     """★容错解析：直取 → 首个平衡花括号块 → 去尾逗号重试。"""
@@ -82,7 +79,6 @@ def call(model, q, kind, to=120):
             if att == 3: return -1, None, str(e)[:140]
     return -1, None, "重试耗尽"
 
-
 def main():
     ap = argparse.ArgumentParser(); ap.add_argument("--model", default="deepseek-chat")
     ap.add_argument("--item", default=""); ap.add_argument("--json", default="")
@@ -112,7 +108,6 @@ def main():
             "provider": "302.AI", "note": "★单次前向；概率分布与置信度由模型自报，未做标定（须与自建链对拍）",
             "rows": rows}, ensure_ascii=False, indent=1), encoding="utf-8", newline="\n")
         print("   落盘：" + a.json)
-
 
 if __name__ == "__main__":
     sys.stdout.reconfigure(encoding="utf-8", line_buffering=True)

@@ -16,7 +16,6 @@ DEF_D = ["夜间游乐场开园：以首帧为条件之重绘", "总线 emit 不
          "人设三级 LOD GLB 与四段动画（46/52 通道有效）", "例行复拉与节键重排虚警之自动标注",
          "决策模型单次前向输出概率分布与置信度"]
 
-
 def env():
     d = {}
     p = HOME/".zcode"/"workspace"/"default"/"a2a-bridge"/".env"
@@ -24,7 +23,6 @@ def env():
         if "=" in line and not line.strip().startswith("#"):
             k, _, v = line.partition("="); d[k.strip()] = v.strip().strip('"').strip("'")
     return d
-
 
 def post(path, body, to=120):
     K = env().get("AI302_API_KEY", "")
@@ -40,12 +38,10 @@ def post(path, body, to=120):
             if att == 3: return -1, str(e)[:140]
     return -1, "重试耗尽"
 
-
 def encode(texts):
     st, j = post("/v1/embeddings", {"model": EMB, "input": texts})
     if st != 200 or not isinstance(j, dict): return st, None, j
     return st, [d["embedding"] for d in j["data"]], j.get("usage")
-
 
 def rerank(q, docs, top=None):
     body = {"model": RRK, "query": q, "documents": docs}
@@ -54,11 +50,9 @@ def rerank(q, docs, top=None):
     if st != 200 or not isinstance(j, dict): return st, None
     return st, (j.get("results") or j.get("data") or [])
 
-
 def cos(a, b):
     s = sum(x*y for x, y in zip(a, b))
     return s/(math.sqrt(sum(x*x for x in a))*math.sqrt(sum(x*x for x in b)) or 1)
-
 
 def main():
     ap = argparse.ArgumentParser(); ap.add_argument("--query", default=DEF_Q)
@@ -91,7 +85,6 @@ def main():
             "mine_cosine": [{"score": round(s, 4), "doc": d} for s, d in mine],
             "native_rerank": [{"score": s, "doc": d} for s, d in nat]}, ensure_ascii=False, indent=1), encoding="utf-8", newline="\n")
         print("   落盘：" + a.json)
-
 
 if __name__ == "__main__":
     sys.stdout.reconfigure(encoding="utf-8", line_buffering=True)

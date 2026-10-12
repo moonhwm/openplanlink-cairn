@@ -21,8 +21,7 @@ def call(url, body, to=60):
     try:
         with urllib.request.urlopen(r, timeout=to) as resp:
             return resp.status, round(time.time()-t0, 2), resp.read().decode("utf-8", "replace")
-    except urllib.error.HTTPError as e:
-        return e.code, round(time.time()-t0, 2), e.read().decode("utf-8", "replace")[:400]
+    except urllib.error.HTTPError as e:        return e.code, round(time.time()-t0, 2), e.read().decode("utf-8", "replace")[:400]
     except Exception as e:
         return -1, round(time.time()-t0, 2), str(e)[:160]
 
