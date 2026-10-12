@@ -200,10 +200,10 @@ try:
                       capture_output=True, text=True, encoding="utf-8", errors="replace", env=dict(_os.environ))
         for _l in ((_pr.stdout or "") + (_pr.stderr or "")).splitlines():
             _s = _l.strip()
-            if _s.startswith(("节 ", "件号映射", "时效：", "→ ", "⇒ 复查判")) or (_s.startswith(("①", "②", "③", "④")) and "⇒" in _s):
+            if _s.startswith(("节 ", "件号映射", "时效：", "→ ", "⇒ 复查判", "★节流", "⇒ 如需采用")) or (_s.startswith(("①", "②", "③", "④")) and "⇒" in _s):
                 print("   " + _s[:118])
         _idx_ok = (_pr.returncode == 0)
-        print("   ⇒ 判：%s（退出码 %d）" % ("✓ 索引新且自洽（或已自动重建并复查通过）" if _idx_ok else "★索引陈旧／不自洽且重建未过 ⇒ 须人工查", _pr.returncode))
+        print("   ⇒ 判：%s（退出码 %d）" % ("✓ 索引新且自洽（或已重建／复用合规档并复查通过）" if _idx_ok else "★索引陈旧／不自洽且无合规档可复用 ⇒ 须人工查", _pr.returncode))
     else:
         print("\n  ═══ ⑩ 索引陈旧检测：★检测器不在（未测）")
 except Exception as e:
