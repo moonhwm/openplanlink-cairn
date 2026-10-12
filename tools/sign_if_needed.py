@@ -1,4 +1,4 @@
-﻿# -*- coding: utf-8 -*-
+# -*- coding: utf-8 -*-
 """sign_if_needed.py —— **树未变则免重签提交**（把 DF-PROPOSAL §甲 落实为本席流程）
 
 背景（实测，见 DF-START5 §三 / bus_snr 轮38）：

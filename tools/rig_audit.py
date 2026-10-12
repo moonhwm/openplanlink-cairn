@@ -1,4 +1,4 @@
-﻿# -*- coding: utf-8 -*-
+# -*- coding: utf-8 -*-
 """rig_audit.py —— 骨格与绑定审计（应《席位分身3D资产 Unity 规范》之「2.3 骨骼与 Rig」）
 检查：①skin 存在 ②joints 数 ③骨名 ④层级（父子） ⑤根节点是否在原点 ⑥单位（米） ⑦是否含 inverseBindMatrices ⑧与"人形骨名惯例"之覆盖率
 用法：python rig_audit.py --in <glb> [--json out.json]

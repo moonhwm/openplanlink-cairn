@@ -1,4 +1,4 @@
-﻿# -*- coding: utf-8 -*-
+# -*- coding: utf-8 -*-
 """mk_namespaces.py —— 建 namespaces/ 视图层（应纲要「目录结构建议」行 62）
 ★原则：件不动、路不迁；每 ns 一 index.md，仅指路与计数。可反复重跑（幂等）。
 （中文串一律用「」）

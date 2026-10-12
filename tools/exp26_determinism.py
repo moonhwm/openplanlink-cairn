@@ -1,4 +1,4 @@
-﻿# -*- coding: utf-8 -*-
+# -*- coding: utf-8 -*-
 """exp26_determinism.py —— 同帧双建：世界之"id 与内容"确定性测试
 命题：同一首帧、同一 prompt 连续建两次世界，比较 ①encryptedWorldId ②平台命名 ③平台首帧哈希。
 纪律：如实分类（同／异）；id 之异同不得单独作为"新世界"之证据（须并列内容）。

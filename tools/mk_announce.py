@@ -1,4 +1,4 @@
-﻿# -*- coding: utf-8 -*-
+# -*- coding: utf-8 -*-
 """mk_announce.py —— 生成并签名本席「节点宣告」文档（承 DF-IUR-NODE-20261006-HY4-01 §2.1）
 
 规范要点（他席件）：

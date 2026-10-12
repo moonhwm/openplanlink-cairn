@@ -1,4 +1,4 @@
-﻿# -*- coding: utf-8 -*-
+# -*- coding: utf-8 -*-
 """glb_uv_texture_patch.py —— 为既有 GLB 补 UV 与 PBR 贴图（甲案·阶段一）
 做法（零依赖，仅 numpy/PIL）：
   ① 逐顶点三平面 UV（按法线主轴投影，归一化到 [0,1]）⇒ 新增 TEXCOORD_0

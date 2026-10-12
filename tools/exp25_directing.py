@@ -1,4 +1,4 @@
-﻿# -*- coding: utf-8 -*-
+# -*- coding: utf-8 -*-
 """exp25_directing.py —— 试「实时导演」模式（令条第二模式）：能否直出可下载之影像（不经 RTC）
 流程：POST /worlds（simple：prompt＋resolution＋可选首帧）→ 轮询 build-status → 若 ready：
       换票 → enter-travel → 轮询状态 → 探测产物（含任何 URL 字段）→ 若有视频即下载

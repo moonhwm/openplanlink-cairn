@@ -1,4 +1,4 @@
-﻿# -*- coding: utf-8 -*-
+# -*- coding: utf-8 -*-
 """local_read.py —— 本地直读通道（根治"复拉上游 404"之事故）
 缘起：2026-10-12 上游 kdocs-cli 对多数 link_id 返回 400100（带 file_id 时明示 404 page not found）
      ⇒ 而本机 WPS 同步目录内即有正本（37 件 .otl 为纯文本 ＋ 60 件 .md）

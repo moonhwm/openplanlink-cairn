@@ -1,4 +1,4 @@
-﻿# -*- coding: utf-8 -*-
+# -*- coding: utf-8 -*-
 """texel_density.py —— Texel Density 实测与对齐预研（应《席位分身3D资产 Unity 规范》之 2.4／规范口径"hero 10.24–20.48 px/cm"）
 口径（★本器所采，可复算）：
   ① 世界表面积 A_world(m²) = Σ 三角面积（由 POSITION 与索引计）

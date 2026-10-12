@@ -1,4 +1,4 @@
-﻿# -*- coding: utf-8 -*-
+# -*- coding: utf-8 -*-
 """bss_budget_probe.py —— 只读查询"预算管理"（Budget Management）配置
 ★绝不修改：改预算＝授权花钱，须主权人明示。
 ★密钥仅内存读取、不打印、不落盘；仅输出动作名、状态码与服务端原话。

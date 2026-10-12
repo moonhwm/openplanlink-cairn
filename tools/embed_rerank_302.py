@@ -1,4 +1,4 @@
-﻿# -*- coding: utf-8 -*-
+# -*- coding: utf-8 -*-
 """embed_rerank_302.py —— 向量编码与重排序（302.AI 为提供方；令条第三模块）
 ① 编码：POST /v1/embeddings（text-embedding-3-small，1536 维；备 text-embedding-3-large）
 ② 重排：POST /v1/rerank（jina-reranker-v2-base-multilingual；备 BAAI/bge-reranker-v2-m3）

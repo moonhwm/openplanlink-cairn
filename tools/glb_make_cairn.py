@@ -1,4 +1,4 @@
-﻿# -*- coding: utf-8 -*-
+# -*- coding: utf-8 -*-
 """本席自产真 glTF 2.0（.glb）：以本席台账为参量 → 环串＋器物立方塔＋中轴（三角面）
 - 参量取自 `ledger/frontier_ledger.jsonl`（真实可核）＋ 器物目录计数
 - 纯标准库；输出 GLB（JSON chunk + BIN chunk）；并回读自验（顶点/索引/包围盒）

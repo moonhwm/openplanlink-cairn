@@ -1,4 +1,4 @@
-﻿# -*- coding: utf-8 -*-
+# -*- coding: utf-8 -*-
 """exp24_enter.py —— 本世界（自生成人设首帧）进房与产物获取
 用法：python exp24_enter.py --wid <encryptedWorldId> [--sec 60] [--tag exp24]
 纪律：①ticket 不落盘不打印 ②RTC token 不打印（只报字段存在）③失败如实分类

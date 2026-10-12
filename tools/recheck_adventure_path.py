@@ -1,4 +1,4 @@
-﻿# -*- coding: utf-8 -*-
+# -*- coding: utf-8 -*-
 """复测昨日已打通之三动作（承 DF-AI-12）：① POST /worlds ② build-status ③ get-travel-credential
 ★ 与昨夜之"列举探针"（GET /worlds?...）作对照 ⇒ 判"403 未购买"之判是否成立
 ★ ticket 不落盘、不打印

@@ -1,4 +1,4 @@
-﻿# -*- coding: utf-8 -*-
+# -*- coding: utf-8 -*-
 """glb_spec_audit.py —— 以 persona-iteration-loop-ops/references/modeling-3d-materials.md 之口径核本席 3D 资产
 ★零依赖：直接解 GLB（header＋JSON chunk＋BIN chunk）
 输出：三角面数／LOD 比例／UV 有无／贴图数／材质 PBR 参数／骨数／动画／包围盒尺度（米）

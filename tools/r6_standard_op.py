@@ -1,4 +1,4 @@
-﻿# -*- coding: utf-8 -*-
+# -*- coding: utf-8 -*-
 """r6 标准作业（验收实证）：
 ① 16:9 带标记首帧 ⇒ 建世界（验 firstFrameImage 必需与比例）② ready ⇒ ③ 进房 120 s
 ④ 保活：每 3 s 轮询 status（验 INIT→STREAMING）⑤ 一令（验"一会话一令"）

@@ -1,4 +1,4 @@
-﻿# -*- coding: utf-8 -*-
+# -*- coding: utf-8 -*-
 """ports_triage.py —— 裸「名:端口」候选三分类甄别（**不回显值**）
 
 背景：`disclosure_scan.py` 精化后全仓仍有 81 处「裸名称:端口」**候选**（轮20 实测）。

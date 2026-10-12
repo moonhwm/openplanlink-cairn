@@ -1,4 +1,4 @@
-﻿# -*- coding: utf-8 -*-
+# -*- coding: utf-8 -*-
 """conf_gate.py —— 事实评级闸（★借 getzep/zep 之 min_fact_rating 形制，与我之 empirical／estimated／assumed 三档统一，并增第四档 unverified）
 词表：empirical 实测｜estimated 行业惯例转述｜assumed 推断｜unverified 未核
 可失败判据：①数值型断言所在条目须带 conf ②assumed/unverified 条目不得出现 empirical 字样 ③覆盖率 ≥ 阈值（默认 60%）

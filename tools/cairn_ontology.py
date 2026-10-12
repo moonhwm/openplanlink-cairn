@@ -1,4 +1,4 @@
-﻿# -*- coding: utf-8 -*-
+# -*- coding: utf-8 -*-
 """cairn_ontology.py —— 本席知识本体（★形制借自 getzep/zep 之 ontology/default_ontology.py：
   ①每类之 docstring 即"判据"（含优先级指令 ＋ Trigger patterns ＋ 示例）
   ②节点表 ③边表 ④★类型合法性矩阵 (源型, 目标型) → 允许之边型）

@@ -1,4 +1,4 @@
-﻿# -*- coding: utf-8 -*-
+# -*- coding: utf-8 -*-
 """esc_watch.py —— 升级面计时簿（使"esc.* 端到端 ≤60 s"从"不可评"变为"可评"）
 应正主（DF-IMA-RECHECK-20261006-HY4-01）：「esc.* 升级面（≤60s）」
 用法：

@@ -1,4 +1,4 @@
-﻿# -*- coding: utf-8 -*-
+# -*- coding: utf-8 -*-
 """console_report.py —— 主控台一页纸读数（审计就绪）
 
 对应令条：

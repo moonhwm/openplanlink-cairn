@@ -1,4 +1,4 @@
-﻿# -*- coding: utf-8 -*-
+# -*- coding: utf-8 -*-
 """cite_verify.py —— 引用核验器（应戒三十八草案：检索结果须核验后方可引用）
 用法：
   python cite_verify.py --query "<问>" [--engine sonar-pro] [--max 12]   # 先检索再核验

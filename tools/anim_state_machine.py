@@ -1,4 +1,4 @@
-﻿# -*- coding: utf-8 -*-
+# -*- coding: utf-8 -*-
 """anim_state_machine.py —— 动画状态机（应《席位分身3D资产 Unity 规范》之「2.6 动画状态机」）
 做法：①读 GLB 之动画名（clips）②按声明之状态表建状态机（状态／入口／转移／默认参数）③校验"每个 clip 皆被状态机覆盖"④输出 Unity 可消费之 JSON
 用法：python anim_state_machine.py --in <glb> [--out state_machine.json]

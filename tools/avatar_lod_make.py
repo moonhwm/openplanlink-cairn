@@ -1,4 +1,4 @@
-﻿# -*- coding: utf-8 -*-
+# -*- coding: utf-8 -*-
 """本席人形分身（CAIRN_avatar）三 LOD 生成器 —— 照 HY4《席位分身 3D 资产 Unity 规范》之可对齐项
 ① 单位米、Y-up、-Z forward（面朝 +Z）、身高 1.72 m ② LOD0/1/2（段数 12/8/6）
 ③ 最小 Humanoid 骨架 15 关节（pelvis→spine→chest→neck→head；chest→肩→肘→手×2；pelvis→髋→膝→足×2）

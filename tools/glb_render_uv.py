@@ -1,4 +1,4 @@
-﻿# -*- coding: utf-8 -*-
+# -*- coding: utf-8 -*-
 """glb_render_uv.py —— 极简 GLB 渲染器（含 UV 贴图采样与 Lambert 明暗）
 用途：★验证"贴图是否真生效"——同一几何分别以"采样贴图"与"仅基础色"渲染，比像素差
 用法：python glb_render_uv.py --in <glb> --out <png> [--size 512] [--notexture]

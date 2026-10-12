@@ -1,4 +1,4 @@
-﻿# -*- coding: utf-8 -*-
+# -*- coding: utf-8 -*-
 """bootstrap.py —— 技能自装环境（应纲要「技能录入要求」：自动下载所需软件与运行环境）
 用法：python bootstrap.py [--install]
 ★默认只检测并报告；--install 才执行 pip 安装（且逐项征求显式授权，不自作主张）

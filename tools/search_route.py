@@ -1,4 +1,4 @@
-﻿# -*- coding: utf-8 -*-
+# -*- coding: utf-8 -*-
 """search_route.py —— 搜索路由接入口（应纲要行 62：Bing 与 Google 固化为指定引擎）
 ★现状：无凭据 ⇒ 只做"待凭据"自检；凭据一到即可跑（本器为预备接入，不擅自爬取）
 凭据来源：.env 之 BING_API_KEY／GOOGLE_CSE_KEY+GOOGLE_CSE_CX／SERPAPI_KEY／AI302_API_KEY

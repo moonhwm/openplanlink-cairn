@@ -1,4 +1,4 @@
-﻿# -*- coding: utf-8 -*-
+# -*- coding: utf-8 -*-
 """通用建 World 器（Adventure；trial 域）——供人设迭代反复使用
 用法：
   python wm_create_generic.py --png <图片> --prompt-file <txt|缺失则用内联> [--label v3]
