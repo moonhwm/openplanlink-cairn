@@ -83,7 +83,11 @@ def pull(link_id, to=150):
     except Exception as e:
         return None, {"err": str(e)[:60]}
     d = j.get("data") or {}
-    return d.get("content", ""), {"code": j.get("code"), "name": d.get("name")}
+    code = j.get("code")
+    # ★上游错误码闸（2026-10-12 立）：非 0／无 data ⇒ 报"失败（上游）"，★绝不当"内容为空"
+    if code not in (0, None) or (not d and j.get("message")):
+        return None, {"err": "★上游 %s：%s" % (code, str(j.get("message"))[:60])}
+    return d.get("content", ""), {"code": code, "name": d.get("name")}
 
 print("\n  ═══ ② 全量复拉（%d 件）═══" % len([k for k in manifest if not k.startswith("_")]))
 t1 = time.time(); chg = same = fail = 0
