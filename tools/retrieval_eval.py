@@ -121,7 +121,7 @@ def measure(d, order, gold, ks=(1, 5)):
 
 def main():
     ap = argparse.ArgumentParser(); ap.add_argument("--scope", default="all"); ap.add_argument("--top", type=int, default=5)
-    ap.add_argument("--router", default="none", choices=["none", "score", "oracle", "kw"])   # ★两段式：先选域、后检索
+    ap.add_argument("--router", default="none", choices=["none", "score", "oracle", "kw", "multi", "multi2"])   # ★两段式：先选域、后检索
     ap.add_argument("--json", default=""); a = ap.parse_args()
     d = load()
     secs = d["sections"]
@@ -190,6 +190,21 @@ def main():
             agg = {"P@1": [], "P@5": [], "MRR": []}
             routed = 0
             for x in items:
+                if a.router in ("multi", "multi2"):
+                    # ★多域并行融合（2026-10-12）：各域各取 top-k，按域内秩融合 ⇒ ★不需路由准确率
+                    #   multi ＝原始秩 RRF（★小域被系统性抬升）；multi2 ＝域内秩归一（r/len(dom)）后再融合
+                    fused = {}
+                    for _nm, _dom in DOMAINS.items():
+                        _sc = bm25_scores(d, x["q"], _dom)
+                        _, _r = ranks(_sc)
+                        for _i in _dom:
+                            _rn = (_r[_i]/max(1, len(_dom))) if a.router == "multi2" else _r[_i]
+                            fused[_i] = fused.get(_i, 0.0) + 1.0/(60 + _rn*60 if a.router == "multi2" else 60 + _rn)
+                    order = sorted(fused, key=lambda i: -fused[i]) + [i for i in range(len(secs)) if i not in fused]
+                    m = measure(d, order, [x["gold_i"]])
+                    for k in agg: agg[k].append(m[k])
+                    routed += 1
+                    continue
                 mask = allow_set if a.router == "none" else route(x["q"], x["gold_i"])
                 if x["gold_i"] not in mask:
                     # ★自纠四（2026-10-12）：路由错域者★计为未命中（贡献 0），★不得剔除
