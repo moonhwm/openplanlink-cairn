@@ -1,0 +1,11 @@
+{
+ "ts": "2026-10-12T12:41:34+0800",
+ "file_bytes_identical": false,
+ "size": [
+  853,
+  480
+ ],
+ "pixel_max_diff": 0,
+ "pixel_mean_diff": 0.0,
+ "note": "同帧双建：平台首帧字节数相同而哈希不同；像素级判定见上"
+}

@@ -1,0 +1,26 @@
+{
+ "ts": "2026-10-12T12:41:25+0800",
+ "runs": [
+  {
+   "rnd": 1,
+   "http": 200,
+   "code": 0,
+   "worldId": "8rcpnKlw6xp3FtpLvZIGB9LkZMWa2nh8t8UV1MUxqKoeXZFiVk889HrvHtCxWWeB",
+   "name": "夜梦狂欢",
+   "firstFrameHash": "e8933e818c689fea（714997 B）"
+  },
+  {
+   "rnd": 2,
+   "http": 200,
+   "code": 0,
+   "worldId": "8rcpnKlw6xp3FtpLvZIGBys-FVzsXnG9BxSs9z7bqWsXkorbSgM1ksN8wLSJgYiM",
+   "name": "幽灵嘉年华",
+   "firstFrameHash": "c921fe6c398b0fa6（714997 B）"
+  }
+ ],
+ "same": {
+  "worldId": false,
+  "name": false,
+  "firstFrame": false
+ }
+}
