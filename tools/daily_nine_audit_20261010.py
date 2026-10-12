@@ -158,21 +158,30 @@ try:
         import hashlib as _h
         _D = SEAT/"archive"/"docs"
         def _sh(name):
+            """★改读"最后非空版"（＝现行版）（2026-10-12）：最新版可能为空档（见 -68 事故）
+            ⇒ 若据"最新版"判"基准"，必得假绿（空档对空档亦同哈希）"""
             vs = sorted((_D/name).glob("v_2026*.md"))
-            if not vs: return None, None, 0
-            x = vs[-1].read_text(encoding="utf-8", errors="replace")
-            return vs[-1].stem[2:], _h.sha3_256(x.encode()).hexdigest()[:16], len(x)
+            ok = []
+            for v in vs:
+                x = v.read_text(encoding="utf-8", errors="replace")
+                if len(x) > 0: ok.append((v, x))
+            if not ok: return None, None, 0, (vs[-1].stem[2:] if vs else None)
+            v, x = ok[-1]
+            return v.stem[2:], _h.sha3_256(x.encode()).hexdigest()[:16], len(x), (vs[-1].stem[2:])
         # ★自纠（2026-10-12）：空档对空档亦"同哈希" ⇒ 若不核非空，即得"★同哈希（基准最新）"之假绿
-        _a, _ha, _na = _sh("kd_McccFi"); _b, _hb, _nb = _sh("outline")
+        _a, _ha, _na, _la = _sh("kd_McccFi"); _b, _hb, _nb, _lb = _sh("outline")
+        _stale = (_la != _a) or (_lb != _b)
         if min(_na, _nb) == 0:
             _same = False
             _verdict = "★两者或其一为空档（%d／%d 字）⇒ ★不可判（勿读作同哈希）" % (_na, _nb)
         else:
             _same = (_ha is not None and _ha == _hb)
-            _verdict = "★同哈希（基准最新）" if _same else "★不同哈希 ⇒ 须核"
+            _verdict = "★同哈希（现行版）" if _same else "★不同哈希 ⇒ 须核"
+            if _stale: _verdict += "｜★注：最新版为空档（%s／%s），已改读现行版" % (_la, _lb)
         print("   纲要 正本 %s/%s（%d 字）｜ 副本 %s/%s（%d 字）⇒ %s" % (
             _a, (_ha or "无")[:12], _na, _b, (_hb or "无")[:12], _nb, _verdict))
-        land["outline_hash"] = {"canon": _ha, "copy": _hb, "same": _same, "chars": [_na, _nb]}
+        land["outline_hash"] = {"canon": _ha, "copy": _hb, "same": _same, "chars": [_na, _nb],
+                                "canon_ver": _a, "copy_ver": _b, "stale_latest": _stale}
     except Exception as _e:
         print("   纲要核验未能执行：%s" % str(_e)[:60])
 
