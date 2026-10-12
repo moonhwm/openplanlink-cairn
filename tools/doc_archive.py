@@ -87,7 +87,11 @@ for d in DOCS:
     secs = sections(content)
     sec_idx = {"%04d|%s" % (i, t): sha(b) for i, (t, b) in enumerate(secs)}   # ★键加序号：同名标题不再互相覆盖
     m = manifest.setdefault(d["key"], {"link_id": d["link_id"], "title": d["title"], "history": []})
-    prev = m["history"][-1] if m["history"] else None
+    # ★2026-10-13 修「两器自比」（承 -1432）：doc_refresh 与 doc_archive ★共用同一 history，
+    #   故 history[-1] 常为 doc_refresh 数分钟前所写 ⇒ 必报伪变更。
+    #   ⇒ ★只取「本器（by==doc_archive）所写之末条」为 prev；★旧条目无 by ⇒ 不计入。
+    _own = [e for e in m["history"] if e.get("by") == "doc_archive"]
+    prev = _own[-1] if _own else None
     changed = (prev is None) or (prev["hash"] != h)
     # 分节级差异（可微）
     diff = {"added": [], "removed": [], "changed": []}
@@ -102,7 +106,8 @@ for d in DOCS:
     vd = ARCH/d["key"]; vd.mkdir(parents=True, exist_ok=True)
     (vd/("v_%s.md" % ver)).write_text(content, encoding="utf-8", newline="\n")
     (vd/("sections_%s.json" % ver)).write_text(json.dumps(sec_idx, ensure_ascii=False, indent=1), encoding="utf-8", newline="\n")
-    ent = {"ver": ver, "ts": time.strftime("%Y-%m-%dT%H:%M:%S+0800"), "hash": h,
+    ent = {"ver": ver, "by": "doc_archive",
+           "ts": time.strftime("%Y-%m-%dT%H:%M:%S+0800"), "hash": h,
            "chars": len(content), "lines": len(content.splitlines()), "sections": len(secs),
            "file_id": meta.get("file_id"), "drive_id": meta.get("drive_id"),
            "changed": changed, "diff": diff if prev else None}
