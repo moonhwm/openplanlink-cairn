@@ -1,0 +1,121 @@
+{
+ "schema": "opl-keyregistry/1",
+ "rows": [
+  {
+   "id": "kd-层-热-audit-sign-v1",
+   "tier": "层-热",
+   "purpose": "audit-sign",
+   "version": 1,
+   "fp": "e94e3601203419f0",
+   "path": "HKDF-SHA3-512(opl/v1|层-热|audit-sign|v1)",
+   "status": "active",
+   "created_at": "2026-10-08 08:35:47 +08",
+   "master_source": "SELFTEST(临时，仅内存，未落盘)"
+  },
+  {
+   "id": "kd-层-热-pack-mac-v1",
+   "tier": "层-热",
+   "purpose": "pack-mac",
+   "version": 1,
+   "fp": "1911e6a6ef0bc73e",
+   "path": "HKDF-SHA3-512(opl/v1|层-热|pack-mac|v1)",
+   "status": "retired",
+   "created_at": "2026-10-08 08:35:47 +08",
+   "master_source": "SELFTEST(临时，仅内存，未落盘)",
+   "retired_at": "2026-10-08 08:35:48 +08",
+   "retire_reason": "演示轮换"
+  },
+  {
+   "id": "kd-层-热-index-mac-v1",
+   "tier": "层-热",
+   "purpose": "index-mac",
+   "version": 1,
+   "fp": "395d3733751245e3",
+   "path": "HKDF-SHA3-512(opl/v1|层-热|index-mac|v1)",
+   "status": "active",
+   "created_at": "2026-10-08 08:35:47 +08",
+   "master_source": "SELFTEST(临时，仅内存，未落盘)"
+  },
+  {
+   "id": "kd-层-温-audit-sign-v1",
+   "tier": "层-温",
+   "purpose": "audit-sign",
+   "version": 1,
+   "fp": "0aa7b5cda03b40d4",
+   "path": "HKDF-SHA3-512(opl/v1|层-温|audit-sign|v1)",
+   "status": "active",
+   "created_at": "2026-10-08 08:35:47 +08",
+   "master_source": "SELFTEST(临时，仅内存，未落盘)"
+  },
+  {
+   "id": "kd-层-温-pack-mac-v1",
+   "tier": "层-温",
+   "purpose": "pack-mac",
+   "version": 1,
+   "fp": "cace1feb1f9ee9ec",
+   "path": "HKDF-SHA3-512(opl/v1|层-温|pack-mac|v1)",
+   "status": "active",
+   "created_at": "2026-10-08 08:35:47 +08",
+   "master_source": "SELFTEST(临时，仅内存，未落盘)"
+  },
+  {
+   "id": "kd-层-温-index-mac-v1",
+   "tier": "层-温",
+   "purpose": "index-mac",
+   "version": 1,
+   "fp": "82b1eaf1d230dce8",
+   "path": "HKDF-SHA3-512(opl/v1|层-温|index-mac|v1)",
+   "status": "active",
+   "created_at": "2026-10-08 08:35:47 +08",
+   "master_source": "SELFTEST(临时，仅内存，未落盘)"
+  },
+  {
+   "id": "kd-层-冷-audit-sign-v1",
+   "tier": "层-冷",
+   "purpose": "audit-sign",
+   "version": 1,
+   "fp": "4a21c6e94dea9e73",
+   "path": "HKDF-SHA3-512(opl/v1|层-冷|audit-sign|v1)",
+   "status": "active",
+   "created_at": "2026-10-08 08:35:47 +08",
+   "master_source": "SELFTEST(临时，仅内存，未落盘)"
+  },
+  {
+   "id": "kd-层-冷-pack-mac-v1",
+   "tier": "层-冷",
+   "purpose": "pack-mac",
+   "version": 1,
+   "fp": "1e0c01274cc53186",
+   "path": "HKDF-SHA3-512(opl/v1|层-冷|pack-mac|v1)",
+   "status": "active",
+   "created_at": "2026-10-08 08:35:47 +08",
+   "master_source": "SELFTEST(临时，仅内存，未落盘)"
+  },
+  {
+   "id": "kd-层-冷-index-mac-v1",
+   "tier": "层-冷",
+   "purpose": "index-mac",
+   "version": 1,
+   "fp": "07ca319bfa95fb01",
+   "path": "HKDF-SHA3-512(opl/v1|层-冷|index-mac|v1)",
+   "status": "active",
+   "created_at": "2026-10-08 08:35:47 +08",
+   "master_source": "SELFTEST(临时，仅内存，未落盘)"
+  },
+  {
+   "id": "kd-层-热-pack-mac-v2",
+   "tier": "层-热",
+   "purpose": "pack-mac",
+   "version": 2,
+   "fp": "128ca6a195506bef",
+   "path": "HKDF-SHA3-512(opl/v1|层-热|pack-mac|v2)",
+   "status": "active",
+   "created_at": "2026-10-08 08:35:48 +08",
+   "master_source": "SELFTEST(临时，仅内存，未落盘)",
+   "rotated_from": [
+    "kd-层-热-pack-mac-v1"
+   ]
+  }
+ ],
+ "note": "**只存元数据与指纹，绝不存密钥材料**"
+}

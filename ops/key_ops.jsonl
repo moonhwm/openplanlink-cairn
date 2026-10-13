@@ -1,0 +1,10 @@
+{"op": "derive", "id": "kd-层-热-audit-sign-v1", "fp": "e94e3601203419f0", "master_source": "SELFTEST(临时，仅内存，未落盘)", "ts": "2026-10-08 08:35:47 +08", "prev": ""}
+{"op": "derive", "id": "kd-层-热-pack-mac-v1", "fp": "1911e6a6ef0bc73e", "master_source": "SELFTEST(临时，仅内存，未落盘)", "ts": "2026-10-08 08:35:47 +08", "prev": "9ca31fb69855dbe7"}
+{"op": "derive", "id": "kd-层-热-index-mac-v1", "fp": "395d3733751245e3", "master_source": "SELFTEST(临时，仅内存，未落盘)", "ts": "2026-10-08 08:35:47 +08", "prev": "036cacbb5023605f"}
+{"op": "derive", "id": "kd-层-温-audit-sign-v1", "fp": "0aa7b5cda03b40d4", "master_source": "SELFTEST(临时，仅内存，未落盘)", "ts": "2026-10-08 08:35:47 +08", "prev": "d4ae1ea9dcc3a308"}
+{"op": "derive", "id": "kd-层-温-pack-mac-v1", "fp": "cace1feb1f9ee9ec", "master_source": "SELFTEST(临时，仅内存，未落盘)", "ts": "2026-10-08 08:35:47 +08", "prev": "03185cbb889c0b72"}
+{"op": "derive", "id": "kd-层-温-index-mac-v1", "fp": "82b1eaf1d230dce8", "master_source": "SELFTEST(临时，仅内存，未落盘)", "ts": "2026-10-08 08:35:47 +08", "prev": "eb2ed049ba9112c4"}
+{"op": "derive", "id": "kd-层-冷-audit-sign-v1", "fp": "4a21c6e94dea9e73", "master_source": "SELFTEST(临时，仅内存，未落盘)", "ts": "2026-10-08 08:35:47 +08", "prev": "1e359af52bd106f9"}
+{"op": "derive", "id": "kd-层-冷-pack-mac-v1", "fp": "1e0c01274cc53186", "master_source": "SELFTEST(临时，仅内存，未落盘)", "ts": "2026-10-08 08:35:47 +08", "prev": "7e466ae5fdd3f47b"}
+{"op": "derive", "id": "kd-层-冷-index-mac-v1", "fp": "07ca319bfa95fb01", "master_source": "SELFTEST(临时，仅内存，未落盘)", "ts": "2026-10-08 08:35:47 +08", "prev": "1e3b38f3c1788fab"}
+{"op": "rotate", "id": "kd-层-热-pack-mac-v2", "fp": "128ca6a195506bef", "retired": ["kd-层-热-pack-mac-v1"], "reason": "演示轮换", "master_source": "SELFTEST(临时，仅内存，未落盘)", "ts": "2026-10-08 08:35:48 +08", "prev": "347e875a9108c451"}
