@@ -1,0 +1,122 @@
+{
+  "doc_id": "DF-HEAL-20261014-HERMES-05",
+  "ts": "2026-10-14T06:18:35+0800",
+  "seat": "Hermes-Argon席 (hermes-desktop-argon)",
+  "proto_a2a_section9_closures": {
+    "1_authoritative_roster": {
+      "source": "seat_roster_v1.json (ROSTER-A2A-20261014-HERMES-01)",
+      "registered_seats_count": 9,
+      "alias_map": {
+        "cairn-dsh": "a2a-node-local",
+        "hermes-argon": "hermes-desktop-argon",
+        "workbuddy-hy4": "workbuddy-hy4",
+        "zcode-moon": "zcode-moon",
+        "kimi-seat": "kimi-seat",
+        "shoucang-seat": "shoucang-seat",
+        "k3-govdoc": "k3-govdoc",
+        "qoder-work": "qoder-work",
+        "defense-seat": "hermes-argon-defender"
+      }
+    },
+    "2_canonical_methods": {
+      "seat.probe": "席位存活性与基础能力探测（只读，幂等）",
+      "seat.healthz": "席位资源水位（CPU/RAM/Disk）与门禁状态报告（只读，幂等）",
+      "seat.deliver": "跨席正式件/回执信封投递（写，需 HMAC-SHA3-512 签名 + seatTicket）",
+      "seat.co_recognize": "数字人员工席位注册跨席共认（写，追加至 seat_register.jsonl）",
+      "bus.emit": "向 A2A 总线（bus.jsonl）广播 canonical 九字段索引（只增不改）",
+      "ledger.append": "向哈希链决策台账追加事件（只增不改，带 prev_hash 指针）",
+      "repro.verify": "跨席算法与统计推断独立复现核验回执（只读复算 + 报告落盘）"
+    },
+    "3_clock_skew_policy": {
+      "live_rpc_window_seconds": 300,
+      "batch_sync_sla_seconds": 1800,
+      "ntp_reference": "UTC+08:00 (China Standard Time)",
+      "replay_store": ".a2a-node-replay.sqlite + .a2a-node-nonces.json (128-bit hex nonce)"
+    },
+    "4_dlq_triage_summary": {
+      "total_dlq_entries": 6,
+      "reroutable_count": 0,
+      "quarantined_unregistered_count": 6,
+      "entries": [
+        {
+          "index": 0,
+          "sender_id": "cairn-dsh",
+          "recipient_id": "unknown-seat",
+          "reason": "未知席位",
+          "triage_action": "KEEP_QUARANTINED_IN_DLQ (Negative-Test / Unregistered Target)"
+        },
+        {
+          "index": 1,
+          "sender_id": "cairn-dsh",
+          "recipient_id": "unknown-seat",
+          "reason": "未知席位",
+          "triage_action": "KEEP_QUARANTINED_IN_DLQ (Negative-Test / Unregistered Target)"
+        },
+        {
+          "index": 2,
+          "sender_id": "cairn-dsh",
+          "recipient_id": "unknown-seat",
+          "reason": "未知席位",
+          "triage_action": "KEEP_QUARANTINED_IN_DLQ (Negative-Test / Unregistered Target)"
+        },
+        {
+          "index": 3,
+          "sender_id": "cairn-dsh",
+          "recipient_id": "unknown-seat",
+          "reason": "未知席位",
+          "triage_action": "KEEP_QUARANTINED_IN_DLQ (Negative-Test / Unregistered Target)"
+        },
+        {
+          "index": 4,
+          "sender_id": "workbuddy-hy4",
+          "recipient_id": "yan-jian-codearts-glm52",
+          "reason": "未知席位",
+          "triage_action": "KEEP_QUARANTINED_IN_DLQ (Negative-Test / Unregistered Target)"
+        },
+        {
+          "index": 5,
+          "sender_id": "trae",
+          "recipient_id": "trae",
+          "reason": "未知席位",
+          "triage_action": "KEEP_QUARANTINED_IN_DLQ (Negative-Test / Unregistered Target)"
+        }
+      ]
+    },
+    "5_conflict_resolution_spec": {
+      "rule_1_append_only": "台账与总线严禁原地覆写，并发追加按 (timestamp_utc, seat_key_lexicographical, sha256_prefix) 全序归并",
+      "rule_2_versioned_docs": "同档号文档并发修订时，按 v_<YYYYMMDD_HHMM>_<seat_key>.otl.md 分支并存，由主权人或常务局合流",
+      "rule_3_git_fast_forward": "Git 双通道推送前强制先 pull --rebase，严禁 --force 覆盖他席已推提交"
+    }
+  },
+  "mailbox_buckets_health": {
+    "workbuddy-hy4": {
+      "msg_count": 46,
+      "in_authoritative_roster": true
+    },
+    "cairn-dsh": {
+      "msg_count": 40,
+      "in_authoritative_roster": true
+    },
+    "someone-else": {
+      "msg_count": 3,
+      "in_authoritative_roster": false
+    },
+    "zcode-moon": {
+      "msg_count": 34,
+      "in_authoritative_roster": true
+    },
+    "shoucang-seat": {
+      "msg_count": 34,
+      "in_authoritative_roster": true
+    },
+    "kimi-seat": {
+      "msg_count": 34,
+      "in_authoritative_roster": true
+    }
+  },
+  "audit_event_counts": {
+    "MFA_FAIL": 15,
+    "HMAC_FAIL": 10,
+    "UNKNOWN_SEAT": 7
+  }
+}

@@ -56,6 +56,14 @@ def hep_confidence_intervals(theta_hat, se_theta, null_val=0.0):
     z_obs = abs(theta_hat - null_val) / max(se_theta, 1e-12)
     delta_2lnL_null = z_obs ** 2
     p_two_sided = 2.0 * (1.0 - normal_cdf(z_obs))
+    if z_obs > 0:
+        ln_p = math.log(2.0) - 0.5 * math.log(2.0 * math.pi) - 0.5 * (z_obs ** 2) - math.log(z_obs) + math.log(max(1e-12, 1.0 - (1.0 / (z_obs ** 2)) + (3.0 / (z_obs ** 4))))
+        log10_p = ln_p / math.log(10.0)
+        mant = 10.0 ** (log10_p - math.floor(log10_p))
+        p_asymp = f"{mant:.2f}e{int(math.floor(log10_p))} (< 1e-30)" if log10_p < -30 else f"{mant:.2f}e{int(math.floor(log10_p))} (< 1e-19)"
+    else:
+        log10_p = 0.0
+        p_asymp = "1.00e+00"
     levels = {
         "1sigma_68.27%": (1.0, 0.682689492137086),
         "2sigma_95.45%": (2.0, 0.954499736103642),
@@ -83,6 +91,8 @@ def hep_confidence_intervals(theta_hat, se_theta, null_val=0.0):
         "z_sigma": round(z_obs, 4),
         "delta_minus_2lnL_vs_null": round(delta_2lnL_null, 4),
         "p_value": p_two_sided,
+        "log10_p_value": round(log10_p, 4),
+        "p_value_asymptotic": p_asymp,
         "hep_verdict": verdict,
         "intervals": cis,
     }

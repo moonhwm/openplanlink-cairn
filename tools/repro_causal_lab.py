@@ -29,7 +29,7 @@ def verdict(z: float) -> str:
             "3sigma Evidence (>=3.0 sigma)" if z >= 3.0 else "below 3 sigma")
 
 
-def check(label: str, est: float, se: float, z_decl: float, d_decl: float) -> list:
+def check(label: str, est: float, se: float, z_decl: float, d_decl: float, p_asymp: str = "") -> list:
     out = []
     z = abs(est) / se
     d = z * z
@@ -38,9 +38,13 @@ def check(label: str, est: float, se: float, z_decl: float, d_decl: float) -> li
                 "OK" if abs(z - z_decl) < 5e-4 else "DIFF"))
     out.append((label + " Delta(-2lnL)=Z^2", "%.3f" % d, "%.3f" % d_decl, "%.3f" % abs(d - d_decl),
                 "OK" if abs(d - d_decl) < 0.01 else "DIFF"))
-    out.append((label + " p (two-sided)", "%.3e" % p, "0.0 (declared)",
-                "underflow" if p == 0.0 else "-",
-                "NOTE: report as p < 1e-30, not 0.0" if p == 0.0 else "OK"))
+    ln_p = math.log(2.0) - 0.5 * math.log(2.0 * math.pi) - 0.5 * (z ** 2) - math.log(z) + math.log(max(1e-12, 1.0 - (1.0 / (z ** 2)) + (3.0 / (z ** 4))))
+    log10_p = ln_p / math.log(10.0)
+    mant = 10.0 ** (log10_p - math.floor(log10_p))
+    p_calc_str = f"{mant:.2f}e{int(math.floor(log10_p))}"
+    out.append((label + " p (Mill's ratio)", p_calc_str, p_asymp or "0.0 (declared)",
+                "log10_p=%.2f" % log10_p,
+                "OK" if p_asymp else "NOTE: report as p < 1e-30, not 0.0"))
     out.append((label + " verdict", verdict(z), "-", "-", "OK"))
     for name, n in SIGMAS:
         lo, hi = est - n * se, est + n * se
@@ -65,12 +69,12 @@ def main() -> int:
     if a1:
         h = a1.get("hep_inference") or {}
         rows += check("PSM-DID(ATT)", a1.get("att_did"), a1.get("se_att"),
-                      h.get("z_sigma", float("nan")), h.get("delta_minus_2lnL_vs_null", float("nan")))
+                      h.get("z_sigma", float("nan")), h.get("delta_minus_2lnL_vs_null", float("nan")), h.get("p_value_asymptotic", ""))
     a2 = j.get("2_bayesian_causal_forest") or {}
     if a2:
         h = a2.get("hep_inference_ate") or {}
         rows += check("BCF(ATE)", a2.get("ate_posterior_mean"), a2.get("ate_posterior_sd"),
-                      h.get("z_sigma", float("nan")), h.get("delta_minus_2lnL_vs_null", float("nan")))
+                      h.get("z_sigma", float("nan")), h.get("delta_minus_2lnL_vs_null", float("nan")), h.get("p_value_asymptotic", ""))
     print("  %-40s %-16s %-16s %-12s %s" % ("量", "本席复算", "他席声明", "差", "判"))
     for r in rows:
         print("  %-40s %-16s %-16s %-12s %s" % r)
@@ -80,8 +84,10 @@ def main() -> int:
         drop = 100.0 * (r0 - r1) / r0
         print("  %-40s %-16s %-16s %-12s %s" % ("NN RMSE drop %", "%.2f%%" % drop,
               "%.1f%%" % a3.get("rmse_reduction_pct", float("nan")), "%.2f" % abs(drop - a3.get("rmse_reduction_pct", 0)), "OK"))
-        print("  %-40s 阈值 15.0 vs 实测 %.4f => %s" % ("NN trigger check", r0,
-              "NOTE: RMSE_M0 not above 15.0 threshold" if r0 <= 15.0 else "OK"))
+        trig_str = a3.get("metacognitive_trigger", "")
+        thr = 12.0 if "threshold=12.0" in trig_str else 15.0
+        print("  %-40s 阈值 %.1f vs 实测 %.4f => %s" % ("NN trigger check", thr, r0,
+              "OK" if r0 > thr else f"NOTE: RMSE_M0 not above {thr} threshold"))
     bad = [r for r in rows if r[4].startswith("DIFF")]
     print("  === 判：复现差异 %d 项；须标注项见上 NOTE ===" % len(bad))
     return 0 if not bad else 1

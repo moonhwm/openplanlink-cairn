@@ -1,0 +1,329 @@
+{
+  "doc_id": "VR-20261014-CAIRN-01",
+  "corpus": 212,
+  "K": 3,
+  "queries": 8,
+  "macro": {
+    "A_tfidf": {
+      "recall": 0.75,
+      "mrr": 0.625,
+      "ndcg": 0.6577324383928644
+    },
+    "B_bm25": {
+      "recall": 0.625,
+      "mrr": 0.4375,
+      "ndcg": 0.48659865758929666
+    },
+    "C_bm25+rerank": {
+      "recall": 0.625,
+      "mrr": 0.4375,
+      "ndcg": 0.48659865758929666
+    }
+  },
+  "delta_rerank_vs_bm25": {
+    "recall": 0.0,
+    "ndcg": 0.0,
+    "mrr": 0.0
+  },
+  "rows": [
+    {
+      "qid": "q1",
+      "q": "决策模型 概率分布 置信度 校准",
+      "rel": [
+        "decision_model_run_20261014.md",
+        "decision_model3_run_20261014.json"
+      ],
+      "A": {
+        "top": [
+          "led_38",
+          "led_39",
+          "seat_facts_20261012.json"
+        ],
+        "recall": 0.0,
+        "mrr": 0.0,
+        "ndcg": 0.0
+      },
+      "B": {
+        "top": [
+          "led_38",
+          "led_39",
+          "seat_facts_20261012.json"
+        ],
+        "recall": 0.0,
+        "mrr": 0.0,
+        "ndcg": 0.0
+      },
+      "C": {
+        "top": [
+          "led_38",
+          "led_39",
+          "seat_facts_20261012.json"
+        ],
+        "recall": 0.0,
+        "mrr": 0.0,
+        "ndcg": 0.0
+      }
+    },
+    {
+      "qid": "q2",
+      "q": "OTL 格式 元数据 历史版本 审计",
+      "rel": [
+        "OTL格式与元数据完整性规范_OTL-SPEC-20261014-CAIRN-01.md"
+      ],
+      "A": {
+        "top": [
+          "OTL格式与元数据完整性规范_OTL-SPEC-20261014-CAIRN-01.md",
+          "led_35",
+          "档案运营管理SOP_SOP-20261014-CAIRN-01.md"
+        ],
+        "recall": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      "B": {
+        "top": [
+          "led_35",
+          "OTL格式与元数据完整性规范_OTL-SPEC-20261014-CAIRN-01.md",
+          "档案运营管理SOP_SOP-20261014-CAIRN-01.md"
+        ],
+        "recall": 1.0,
+        "mrr": 0.5,
+        "ndcg": 0.6309297535714575
+      },
+      "C": {
+        "top": [
+          "led_35",
+          "OTL格式与元数据完整性规范_OTL-SPEC-20261014-CAIRN-01.md",
+          "档案运营管理SOP_SOP-20261014-CAIRN-01.md"
+        ],
+        "recall": 1.0,
+        "mrr": 0.5,
+        "ndcg": 0.6309297535714575
+      }
+    },
+    {
+      "qid": "q3",
+      "q": "台账 hash 链 快照 对账",
+      "rel": [
+        "sync_gap_20261014.md",
+        "mem_audit_20261005T214028Z.md"
+      ],
+      "A": {
+        "top": [
+          "led_1",
+          "档案运营管理SOP_SOP-20261014-CAIRN-01.md",
+          "led_23"
+        ],
+        "recall": 0.0,
+        "mrr": 0.0,
+        "ndcg": 0.0
+      },
+      "B": {
+        "top": [
+          "档案运营管理SOP_SOP-20261014-CAIRN-01.md",
+          "led_23",
+          "权限矩阵与数据字典_RBAC-DICT-20261014-CAIRN-01.md"
+        ],
+        "recall": 0.0,
+        "mrr": 0.0,
+        "ndcg": 0.0
+      },
+      "C": {
+        "top": [
+          "档案运营管理SOP_SOP-20261014-CAIRN-01.md",
+          "led_23",
+          "led_1"
+        ],
+        "recall": 0.0,
+        "mrr": 0.0,
+        "ndcg": 0.0
+      }
+    },
+    {
+      "qid": "q4",
+      "q": "A2A 信封 nonce 抗重放 死信",
+      "rel": [
+        "A2A通信协议与接口规范_PROTO-A2A-20261014-CAIRN-01.md"
+      ],
+      "A": {
+        "top": [
+          "A2A通信协议与接口规范_PROTO-A2A-20261014-CAIRN-01.md",
+          "led_31",
+          "权限矩阵与数据字典_RBAC-DICT-20261014-CAIRN-01.md"
+        ],
+        "recall": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      "B": {
+        "top": [
+          "A2A通信协议与接口规范_PROTO-A2A-20261014-CAIRN-01.md",
+          "led_31",
+          "权限矩阵与数据字典_RBAC-DICT-20261014-CAIRN-01.md"
+        ],
+        "recall": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      "C": {
+        "top": [
+          "A2A通信协议与接口规范_PROTO-A2A-20261014-CAIRN-01.md",
+          "led_31",
+          "权限矩阵与数据字典_RBAC-DICT-20261014-CAIRN-01.md"
+        ],
+        "recall": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      }
+    },
+    {
+      "qid": "q5",
+      "q": "安全边界 反向攻击 渗透测试 协议",
+      "rel": [
+        "三仓评估与安全边界声明_SEC-20261014-CAIRN-01.md"
+      ],
+      "A": {
+        "top": [
+          "三仓评估与安全边界声明_SEC-20261014-CAIRN-01.md",
+          "led_28",
+          "开源项目引入评估与协议匹配表_OSS-20261014-CAIRN-01.md"
+        ],
+        "recall": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      "B": {
+        "top": [
+          "三仓评估与安全边界声明_SEC-20261014-CAIRN-01.md",
+          "led_28",
+          "led_31"
+        ],
+        "recall": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      "C": {
+        "top": [
+          "三仓评估与安全边界声明_SEC-20261014-CAIRN-01.md",
+          "led_28",
+          "led_31"
+        ],
+        "recall": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      }
+    },
+    {
+      "qid": "q6",
+      "q": "环境 依赖 版本 资源占用 基线",
+      "rel": [
+        "环境与依赖交付基线_ENV-BASELINE-20261014-CAIRN-01.md"
+      ],
+      "A": {
+        "top": [
+          "led_27",
+          "环境与依赖交付基线_ENV-BASELINE-20261014-CAIRN-01.md",
+          "led_18"
+        ],
+        "recall": 1.0,
+        "mrr": 0.5,
+        "ndcg": 0.6309297535714575
+      },
+      "B": {
+        "top": [
+          "led_27",
+          "环境与依赖交付基线_ENV-BASELINE-20261014-CAIRN-01.md",
+          "A2A通信协议与接口规范_PROTO-A2A-20261014-CAIRN-01.md"
+        ],
+        "recall": 1.0,
+        "mrr": 0.5,
+        "ndcg": 0.6309297535714575
+      },
+      "C": {
+        "top": [
+          "led_27",
+          "环境与依赖交付基线_ENV-BASELINE-20261014-CAIRN-01.md",
+          "A2A通信协议与接口规范_PROTO-A2A-20261014-CAIRN-01.md"
+        ],
+        "recall": 1.0,
+        "mrr": 0.5,
+        "ndcg": 0.6309297535714575
+      }
+    },
+    {
+      "qid": "q7",
+      "q": "复现 置信度 5σ Brier 校准",
+      "rel": [
+        "独立复现校验报告_REPRO-20261014-CAIRN-01.md"
+      ],
+      "A": {
+        "top": [
+          "独立复现校验报告_REPRO-20261014-CAIRN-01.md",
+          "led_38",
+          "led_39"
+        ],
+        "recall": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      "B": {
+        "top": [
+          "led_39",
+          "led_38",
+          "led_37"
+        ],
+        "recall": 0.0,
+        "mrr": 0.0,
+        "ndcg": 0.0
+      },
+      "C": {
+        "top": [
+          "led_39",
+          "led_38",
+          "led_37"
+        ],
+        "recall": 0.0,
+        "mrr": 0.0,
+        "ndcg": 0.0
+      }
+    },
+    {
+      "qid": "q8",
+      "q": "权限矩阵 数据字典 SAP OA 联调",
+      "rel": [
+        "权限矩阵与数据字典_RBAC-DICT-20261014-CAIRN-01.md"
+      ],
+      "A": {
+        "top": [
+          "led_32",
+          "权限矩阵与数据字典_RBAC-DICT-20261014-CAIRN-01.md",
+          "OTL格式与元数据完整性规范_OTL-SPEC-20261014-CAIRN-01.md"
+        ],
+        "recall": 1.0,
+        "mrr": 0.5,
+        "ndcg": 0.6309297535714575
+      },
+      "B": {
+        "top": [
+          "led_32",
+          "权限矩阵与数据字典_RBAC-DICT-20261014-CAIRN-01.md",
+          "OTL格式与元数据完整性规范_OTL-SPEC-20261014-CAIRN-01.md"
+        ],
+        "recall": 1.0,
+        "mrr": 0.5,
+        "ndcg": 0.6309297535714575
+      },
+      "C": {
+        "top": [
+          "led_32",
+          "权限矩阵与数据字典_RBAC-DICT-20261014-CAIRN-01.md",
+          "OTL格式与元数据完整性规范_OTL-SPEC-20261014-CAIRN-01.md"
+        ],
+        "recall": 1.0,
+        "mrr": 0.5,
+        "ndcg": 0.6309297535714575
+      }
+    }
+  ],
+  "embed_probe_302ai": "未测（无密钥）"
+}
