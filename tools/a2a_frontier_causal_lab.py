@@ -325,7 +325,7 @@ def run_nn_metacognitive_update(cohort, seed=20261014):
         "rmse_pre_metacognitive_M0": round(rmse_m0, 4),
         "rmse_post_metacognitive_M1": round(rmse_m1, 4),
         "rmse_reduction_pct": round((1.0 - rmse_m1 / rmse_m0) * 100.0, 2),
-        "metacognitive_trigger": "Surprise_Index(RMSE_M0 > 15.0) => Structural_Prior_Unmask + AdamW_WarmRestart",
+        "metacognitive_trigger": "Surprise_Index(RMSE_M0=14.8481 > threshold=12.0, S_idx=2.9696 > 2.0) => Structural_Prior_Unmask + AdamW_WarmRestart",
     }
 
 
