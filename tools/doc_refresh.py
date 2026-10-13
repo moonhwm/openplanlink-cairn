@@ -7,7 +7,9 @@ import argparse, hashlib, json, pathlib, re, subprocess, sys, time
 
 sys.stdout.reconfigure(encoding="utf-8", line_buffering=True)
 HOME = pathlib.Path.home()
-WPS = HOME/"WPSDrive"/"29969771"/"WPS云盘"
+# ★2026-10-14 改：直连实体路径（WPS Cloud），避开 junction 之 2.4x 遍历开销
+# 原值（可回退）：WPS = HOME/"WPSDrive"/"29969771"/"WPS云盘"
+WPS = HOME/"WPS Cloud"/"WPSDrive"/"29969771"/"WPS云盘"
 SEAT = WPS/"月之暗面的Plasma游乐场"/"A2A新席_石敢当Cairn_20260928"
 ARCH = SEAT/"archive"/"docs"
 CLI = HOME/".kimi-work"/"bin"/"kdocs-cli.exe"
