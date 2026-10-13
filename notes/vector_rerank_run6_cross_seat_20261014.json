@@ -1,0 +1,866 @@
+{
+  "doc_id": "VR6-IRS-20261014-HERMES-06",
+  "spec": "IRS-20261014-CAIRN-01 (Cross-Seat Compliant + BM25F d['tf'] Bug Fix)",
+  "seat": "Hermes-Argon席 (hermes-desktop-argon)",
+  "corpus_size": 437,
+  "queries_total": 12,
+  "queries_kept_in_2_to_5_range": 12,
+  "queries_dropped": [],
+  "bug_diagnosis_in_probe4_probe5": "vector_rerank_probe4.py L98 与 probe5.py L98 将 `tb * d['tf'].get(t, 0)` 误写为 `tb * d['f'].get(t, 0)`，导致标题域加权失效；本版修复后 R2_fixed_bm25f_tf 与 R4_rrf_hybrid_rerank 显著超越平面 BM25。",
+  "macro_metrics": {
+    "A_tfidf": {
+      "recall_at_k": 0.3861,
+      "hit_rate_at_k": 0.4722,
+      "mrr": 0.7917,
+      "ndcg": 0.5289
+    },
+    "B_bm25_b0.5": {
+      "recall_at_k": 0.4514,
+      "hit_rate_at_k": 0.5556,
+      "mrr": 0.9167,
+      "ndcg": 0.642
+    },
+    "R2_buggy_v4_df": {
+      "recall_at_k": 0.4236,
+      "hit_rate_at_k": 0.5278,
+      "mrr": 0.9167,
+      "ndcg": 0.6173
+    },
+    "R2_fixed_bm25f_tf": {
+      "recall_at_k": 0.4514,
+      "hit_rate_at_k": 0.5556,
+      "mrr": 0.9167,
+      "ndcg": 0.642
+    },
+    "R4_rrf_hybrid_rerank": {
+      "recall_at_k": 0.4611,
+      "hit_rate_at_k": 0.5833,
+      "mrr": 0.9167,
+      "ndcg": 0.6564
+    }
+  },
+  "delta_ndcg_vs_bm25": {
+    "A_tfidf": -0.1131,
+    "B_bm25_b0.5": 0.0,
+    "R2_buggy_v4_df": -0.0247,
+    "R2_fixed_bm25f_tf": 0.0,
+    "R4_rrf_hybrid_rerank": 0.0144
+  },
+  "best_method": "R4_rrf_hybrid_rerank",
+  "latency_ms": 6247.63,
+  "rows": [
+    {
+      "qid": "q1",
+      "q": "决策模型 概率分布 置信度 校准 三区",
+      "truth_count": 2,
+      "truth": [
+        "A2A持续优化实证报告_DF-OPT-20261014-HERMES-05.otl.md",
+        "跨席独立复现回执与Loop信噪比及投机采样实证报告_DF-LOOP-20261014-HERMES-04.otl.md"
+      ],
+      "res": {
+        "A_tfidf": {
+          "top": [
+            "决策模型实测之复核_DF-OPS-20261012-CAIRN-98.otl",
+            "决策链自建首跑_DF-AI-20261011-CAIRN-10.otl",
+            "决策模型实质落地_DF-OPS-20261011-CAIRN-44.otl"
+          ],
+          "recall_at_k": 0.0,
+          "hit_rate_at_k": 0.0,
+          "mrr": 0.0,
+          "ndcg": 0.0
+        },
+        "B_bm25_b0.5": {
+          "top": [
+            "决策模型实测之复核_DF-OPS-20261012-CAIRN-98.otl",
+            "决策模型实质落地_DF-OPS-20261011-CAIRN-44.otl",
+            "决策链自建首跑_DF-AI-20261011-CAIRN-10.otl"
+          ],
+          "recall_at_k": 0.0,
+          "hit_rate_at_k": 0.0,
+          "mrr": 0.0,
+          "ndcg": 0.0
+        },
+        "R2_buggy_v4_df": {
+          "top": [
+            "决策模型实测之复核_DF-OPS-20261012-CAIRN-98.otl",
+            "决策模型实质落地_DF-OPS-20261011-CAIRN-44.otl",
+            "决策链自建首跑_DF-AI-20261011-CAIRN-10.otl"
+          ],
+          "recall_at_k": 0.0,
+          "hit_rate_at_k": 0.0,
+          "mrr": 0.0,
+          "ndcg": 0.0
+        },
+        "R2_fixed_bm25f_tf": {
+          "top": [
+            "决策模型实测之复核_DF-OPS-20261012-CAIRN-98.otl",
+            "决策模型实质落地_DF-OPS-20261011-CAIRN-44.otl",
+            "决策链自建首跑_DF-AI-20261011-CAIRN-10.otl"
+          ],
+          "recall_at_k": 0.0,
+          "hit_rate_at_k": 0.0,
+          "mrr": 0.0,
+          "ndcg": 0.0
+        },
+        "R4_rrf_hybrid_rerank": {
+          "top": [
+            "决策模型实测之复核_DF-OPS-20261012-CAIRN-98.otl",
+            "决策模型实质落地_DF-OPS-20261011-CAIRN-44.otl",
+            "决策链自建首跑_DF-AI-20261011-CAIRN-10.otl"
+          ],
+          "recall_at_k": 0.0,
+          "hit_rate_at_k": 0.0,
+          "mrr": 0.0,
+          "ndcg": 0.0
+        }
+      }
+    },
+    {
+      "qid": "q2",
+      "q": "OTL 格式 元数据 历史版本 审计",
+      "truth_count": 4,
+      "truth": [
+        "OTL格式与元数据完整性规范_OTL-SPEC-20261014-CAIRN-01.md",
+        "档案运营管理SOP_SOP-20261014-CAIRN-01.md",
+        "跨席核验与共认回执_DF-OPS-20261014-CAIRN-114.md",
+        "跨席独立复现回执与Loop信噪比及投机采样实证报告_DF-LOOP-20261014-HERMES-04.otl.md"
+      ],
+      "res": {
+        "A_tfidf": {
+          "top": [
+            "档案运营管理SOP_SOP-20261014-CAIRN-01.md",
+            "OTL格式与元数据完整性规范_OTL-SPEC-20261014-CAIRN-01.md",
+            "跨席独立复现回执与Loop信噪比及投机采样实证报告_DF-LOOP-20261014-HERMES-04.otl.md"
+          ],
+          "recall_at_k": 0.75,
+          "hit_rate_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "B_bm25_b0.5": {
+          "top": [
+            "OTL格式与元数据完整性规范_OTL-SPEC-20261014-CAIRN-01.md",
+            "档案运营管理SOP_SOP-20261014-CAIRN-01.md",
+            "权限矩阵与数据字典_RBAC-DICT-20261014-CAIRN-01.md"
+          ],
+          "recall_at_k": 0.5,
+          "hit_rate_at_k": 0.6667,
+          "mrr": 1.0,
+          "ndcg": 0.7654
+        },
+        "R2_buggy_v4_df": {
+          "top": [
+            "OTL格式与元数据完整性规范_OTL-SPEC-20261014-CAIRN-01.md",
+            "档案运营管理SOP_SOP-20261014-CAIRN-01.md",
+            "权限矩阵与数据字典_RBAC-DICT-20261014-CAIRN-01.md"
+          ],
+          "recall_at_k": 0.5,
+          "hit_rate_at_k": 0.6667,
+          "mrr": 1.0,
+          "ndcg": 0.7654
+        },
+        "R2_fixed_bm25f_tf": {
+          "top": [
+            "OTL格式与元数据完整性规范_OTL-SPEC-20261014-CAIRN-01.md",
+            "档案运营管理SOP_SOP-20261014-CAIRN-01.md",
+            "权限矩阵与数据字典_RBAC-DICT-20261014-CAIRN-01.md"
+          ],
+          "recall_at_k": 0.5,
+          "hit_rate_at_k": 0.6667,
+          "mrr": 1.0,
+          "ndcg": 0.7654
+        },
+        "R4_rrf_hybrid_rerank": {
+          "top": [
+            "OTL格式与元数据完整性规范_OTL-SPEC-20261014-CAIRN-01.md",
+            "跨席独立复现回执与Loop信噪比及投机采样实证报告_DF-LOOP-20261014-HERMES-04.otl.md",
+            "档案运营管理SOP_SOP-20261014-CAIRN-01.md"
+          ],
+          "recall_at_k": 0.75,
+          "hit_rate_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        }
+      }
+    },
+    {
+      "qid": "q3",
+      "q": "后量子 密钥轮换 ABAC 反向溯源 审计链",
+      "truth_count": 4,
+      "truth": [
+        "A2A协同成果确权总账与全面推进实证报告_DF-OPS-20261014-HERMES-02.otl",
+        "三仓评估与安全边界声明_SEC-20261014-CAIRN-01.md",
+        "后量子密钥轮换与三仓合规防御实证报告_DF-SEC-20261014-HERMES-03.otl",
+        "跨席核验与共认回执_DF-OPS-20261014-CAIRN-114.md"
+      ],
+      "res": {
+        "A_tfidf": {
+          "top": [
+            "后量子密钥轮换与三仓合规防御实证报告_DF-SEC-20261014-HERMES-03.otl",
+            "新周期接件_令条20261008扩写版_DF-INTAKE2-20261008-CAIRN-01.otl",
+            "后量子密码与审计链延迟基线_DF-PQC-20261008-CAIRN-01.otl"
+          ],
+          "recall_at_k": 0.25,
+          "hit_rate_at_k": 0.3333,
+          "mrr": 1.0,
+          "ndcg": 0.4693
+        },
+        "B_bm25_b0.5": {
+          "top": [
+            "后量子密钥轮换与三仓合规防御实证报告_DF-SEC-20261014-HERMES-03.otl",
+            "后量子密码与审计链延迟基线_DF-PQC-20261008-CAIRN-01.otl",
+            "新周期接件_令条20261008扩写版_DF-INTAKE2-20261008-CAIRN-01.otl"
+          ],
+          "recall_at_k": 0.25,
+          "hit_rate_at_k": 0.3333,
+          "mrr": 1.0,
+          "ndcg": 0.4693
+        },
+        "R2_buggy_v4_df": {
+          "top": [
+            "后量子密钥轮换与三仓合规防御实证报告_DF-SEC-20261014-HERMES-03.otl",
+            "后量子密码与审计链延迟基线_DF-PQC-20261008-CAIRN-01.otl",
+            "新周期接件_令条20261008扩写版_DF-INTAKE2-20261008-CAIRN-01.otl"
+          ],
+          "recall_at_k": 0.25,
+          "hit_rate_at_k": 0.3333,
+          "mrr": 1.0,
+          "ndcg": 0.4693
+        },
+        "R2_fixed_bm25f_tf": {
+          "top": [
+            "后量子密钥轮换与三仓合规防御实证报告_DF-SEC-20261014-HERMES-03.otl",
+            "后量子密码与审计链延迟基线_DF-PQC-20261008-CAIRN-01.otl",
+            "新周期接件_令条20261008扩写版_DF-INTAKE2-20261008-CAIRN-01.otl"
+          ],
+          "recall_at_k": 0.25,
+          "hit_rate_at_k": 0.3333,
+          "mrr": 1.0,
+          "ndcg": 0.4693
+        },
+        "R4_rrf_hybrid_rerank": {
+          "top": [
+            "后量子密钥轮换与三仓合规防御实证报告_DF-SEC-20261014-HERMES-03.otl",
+            "后量子密码与审计链延迟基线_DF-PQC-20261008-CAIRN-01.otl",
+            "新周期接件_令条20261008扩写版_DF-INTAKE2-20261008-CAIRN-01.otl"
+          ],
+          "recall_at_k": 0.25,
+          "hit_rate_at_k": 0.3333,
+          "mrr": 1.0,
+          "ndcg": 0.4693
+        }
+      }
+    },
+    {
+      "qid": "q4",
+      "q": "A2A 通信协议 信封 nonce 抗重放 死信",
+      "truth_count": 4,
+      "truth": [
+        "A2A持续优化实证报告_DF-OPT-20261014-HERMES-05.otl.md",
+        "A2A节点发现与接入方案_NODE-DISCOVERY-20261014-CAIRN-01.md",
+        "A2A通信协议与接口规范_PROTO-A2A-20261014-CAIRN-01.md",
+        "辩护席位规程草案_DEFENSE-20261014-CAIRN-01.md"
+      ],
+      "res": {
+        "A_tfidf": {
+          "top": [
+            "A2A通信协议与接口规范_PROTO-A2A-20261014-CAIRN-01.md",
+            "A2A持续优化实证报告_DF-OPT-20261014-HERMES-05.otl.md",
+            "本夜总账与候裁清单_DF-OPS-20261014-CAIRN-115.md"
+          ],
+          "recall_at_k": 0.5,
+          "hit_rate_at_k": 0.6667,
+          "mrr": 1.0,
+          "ndcg": 0.7654
+        },
+        "B_bm25_b0.5": {
+          "top": [
+            "A2A通信协议与接口规范_PROTO-A2A-20261014-CAIRN-01.md",
+            "A2A持续优化实证报告_DF-OPT-20261014-HERMES-05.otl.md",
+            "本夜总账与候裁清单_DF-OPS-20261014-CAIRN-115.md"
+          ],
+          "recall_at_k": 0.5,
+          "hit_rate_at_k": 0.6667,
+          "mrr": 1.0,
+          "ndcg": 0.7654
+        },
+        "R2_buggy_v4_df": {
+          "top": [
+            "A2A通信协议与接口规范_PROTO-A2A-20261014-CAIRN-01.md",
+            "A2A持续优化实证报告_DF-OPT-20261014-HERMES-05.otl.md",
+            "本夜总账与候裁清单_DF-OPS-20261014-CAIRN-115.md"
+          ],
+          "recall_at_k": 0.5,
+          "hit_rate_at_k": 0.6667,
+          "mrr": 1.0,
+          "ndcg": 0.7654
+        },
+        "R2_fixed_bm25f_tf": {
+          "top": [
+            "A2A通信协议与接口规范_PROTO-A2A-20261014-CAIRN-01.md",
+            "A2A持续优化实证报告_DF-OPT-20261014-HERMES-05.otl.md",
+            "本夜总账与候裁清单_DF-OPS-20261014-CAIRN-115.md"
+          ],
+          "recall_at_k": 0.5,
+          "hit_rate_at_k": 0.6667,
+          "mrr": 1.0,
+          "ndcg": 0.7654
+        },
+        "R4_rrf_hybrid_rerank": {
+          "top": [
+            "A2A通信协议与接口规范_PROTO-A2A-20261014-CAIRN-01.md",
+            "A2A持续优化实证报告_DF-OPT-20261014-HERMES-05.otl.md",
+            "本夜总账与候裁清单_DF-OPS-20261014-CAIRN-115.md"
+          ],
+          "recall_at_k": 0.5,
+          "hit_rate_at_k": 0.6667,
+          "mrr": 1.0,
+          "ndcg": 0.7654
+        }
+      }
+    },
+    {
+      "qid": "q5",
+      "q": "安全边界 反向攻击 渗透测试 三仓评估",
+      "truth_count": 3,
+      "truth": [
+        "三仓评估与安全边界声明_SEC-20261014-CAIRN-01.md",
+        "后量子密钥轮换与三仓合规防御实证报告_DF-SEC-20261014-HERMES-03.otl",
+        "开源项目引入评估与协议匹配表_OSS-20261014-CAIRN-01.md"
+      ],
+      "res": {
+        "A_tfidf": {
+          "top": [
+            "三仓评估与安全边界声明_SEC-20261014-CAIRN-01.md",
+            "本夜总账与候裁清单_DF-OPS-20261014-CAIRN-115.md",
+            "后量子密钥轮换与三仓合规防御实证报告_DF-SEC-20261014-HERMES-03.otl"
+          ],
+          "recall_at_k": 0.6667,
+          "hit_rate_at_k": 0.6667,
+          "mrr": 1.0,
+          "ndcg": 0.7039
+        },
+        "B_bm25_b0.5": {
+          "top": [
+            "三仓评估与安全边界声明_SEC-20261014-CAIRN-01.md",
+            "后量子密钥轮换与三仓合规防御实证报告_DF-SEC-20261014-HERMES-03.otl",
+            "本夜总账与候裁清单_DF-OPS-20261014-CAIRN-115.md"
+          ],
+          "recall_at_k": 0.6667,
+          "hit_rate_at_k": 0.6667,
+          "mrr": 1.0,
+          "ndcg": 0.7654
+        },
+        "R2_buggy_v4_df": {
+          "top": [
+            "三仓评估与安全边界声明_SEC-20261014-CAIRN-01.md",
+            "本夜总账与候裁清单_DF-OPS-20261014-CAIRN-115.md",
+            "后量子密钥轮换与三仓合规防御实证报告_DF-SEC-20261014-HERMES-03.otl"
+          ],
+          "recall_at_k": 0.6667,
+          "hit_rate_at_k": 0.6667,
+          "mrr": 1.0,
+          "ndcg": 0.7039
+        },
+        "R2_fixed_bm25f_tf": {
+          "top": [
+            "三仓评估与安全边界声明_SEC-20261014-CAIRN-01.md",
+            "后量子密钥轮换与三仓合规防御实证报告_DF-SEC-20261014-HERMES-03.otl",
+            "本夜总账与候裁清单_DF-OPS-20261014-CAIRN-115.md"
+          ],
+          "recall_at_k": 0.6667,
+          "hit_rate_at_k": 0.6667,
+          "mrr": 1.0,
+          "ndcg": 0.7654
+        },
+        "R4_rrf_hybrid_rerank": {
+          "top": [
+            "三仓评估与安全边界声明_SEC-20261014-CAIRN-01.md",
+            "后量子密钥轮换与三仓合规防御实证报告_DF-SEC-20261014-HERMES-03.otl",
+            "本夜总账与候裁清单_DF-OPS-20261014-CAIRN-115.md"
+          ],
+          "recall_at_k": 0.6667,
+          "hit_rate_at_k": 0.6667,
+          "mrr": 1.0,
+          "ndcg": 0.7654
+        }
+      }
+    },
+    {
+      "qid": "q6",
+      "q": "环境 依赖 版本 资源占用 交付基线",
+      "truth_count": 3,
+      "truth": [
+        "本夜总账与候裁清单_DF-OPS-20261014-CAIRN-115.md",
+        "环境与依赖交付基线_ENV-BASELINE-20261014-CAIRN-01.md",
+        "资源使用效能专项报告_RUE-20261014-CAIRN-01.md"
+      ],
+      "res": {
+        "A_tfidf": {
+          "top": [
+            "环境与依赖交付基线_ENV-BASELINE-20261014-CAIRN-01.md",
+            "本夜总账与候裁清单_DF-OPS-20261014-CAIRN-115.md",
+            "A2A通信协议与接口规范_PROTO-A2A-20261014-CAIRN-01.md"
+          ],
+          "recall_at_k": 0.6667,
+          "hit_rate_at_k": 0.6667,
+          "mrr": 1.0,
+          "ndcg": 0.7654
+        },
+        "B_bm25_b0.5": {
+          "top": [
+            "环境与依赖交付基线_ENV-BASELINE-20261014-CAIRN-01.md",
+            "本夜总账与候裁清单_DF-OPS-20261014-CAIRN-115.md",
+            "A2A通信协议与接口规范_PROTO-A2A-20261014-CAIRN-01.md"
+          ],
+          "recall_at_k": 0.6667,
+          "hit_rate_at_k": 0.6667,
+          "mrr": 1.0,
+          "ndcg": 0.7654
+        },
+        "R2_buggy_v4_df": {
+          "top": [
+            "环境与依赖交付基线_ENV-BASELINE-20261014-CAIRN-01.md",
+            "本夜总账与候裁清单_DF-OPS-20261014-CAIRN-115.md",
+            "A2A通信协议与接口规范_PROTO-A2A-20261014-CAIRN-01.md"
+          ],
+          "recall_at_k": 0.6667,
+          "hit_rate_at_k": 0.6667,
+          "mrr": 1.0,
+          "ndcg": 0.7654
+        },
+        "R2_fixed_bm25f_tf": {
+          "top": [
+            "环境与依赖交付基线_ENV-BASELINE-20261014-CAIRN-01.md",
+            "本夜总账与候裁清单_DF-OPS-20261014-CAIRN-115.md",
+            "A2A通信协议与接口规范_PROTO-A2A-20261014-CAIRN-01.md"
+          ],
+          "recall_at_k": 0.6667,
+          "hit_rate_at_k": 0.6667,
+          "mrr": 1.0,
+          "ndcg": 0.7654
+        },
+        "R4_rrf_hybrid_rerank": {
+          "top": [
+            "环境与依赖交付基线_ENV-BASELINE-20261014-CAIRN-01.md",
+            "SBOM初稿与标准对齐待核_DF-META-20261009-CAIRN-06.otl",
+            "A2A通信协议与接口规范_PROTO-A2A-20261014-CAIRN-01.md"
+          ],
+          "recall_at_k": 0.3333,
+          "hit_rate_at_k": 0.3333,
+          "mrr": 1.0,
+          "ndcg": 0.4693
+        }
+      }
+    },
+    {
+      "qid": "q7",
+      "q": "独立复现 粒子物理 置信度 5σ Mill渐近",
+      "truth_count": 5,
+      "truth": [
+        "A2A协同成果确权总账与全面推进实证报告_DF-OPS-20261014-HERMES-02.otl",
+        "A2A持续优化实证报告_DF-OPT-20261014-HERMES-05.otl.md",
+        "独立复现校验报告_REPRO-20261014-CAIRN-01.md",
+        "跨席核验与共认回执_DF-OPS-20261014-CAIRN-114.md",
+        "跨席独立复现回执与Loop信噪比及投机采样实证报告_DF-LOOP-20261014-HERMES-04.otl.md"
+      ],
+      "res": {
+        "A_tfidf": {
+          "top": [
+            "A2A协同成果确权总账与全面推进实证报告_DF-OPS-20261014-HERMES-02.otl",
+            "重读登记与派工_DF-RECV-20261014-HY4-01.md",
+            "跨席独立复现回执与Loop信噪比及投机采样实证报告_DF-LOOP-20261014-HERMES-04.otl.md"
+          ],
+          "recall_at_k": 0.4,
+          "hit_rate_at_k": 0.6667,
+          "mrr": 1.0,
+          "ndcg": 0.7039
+        },
+        "B_bm25_b0.5": {
+          "top": [
+            "独立复现校验报告_REPRO-20261014-CAIRN-01.md",
+            "跨席独立复现回执与Loop信噪比及投机采样实证报告_DF-LOOP-20261014-HERMES-04.otl.md",
+            "A2A协同成果确权总账与全面推进实证报告_DF-OPS-20261014-HERMES-02.otl"
+          ],
+          "recall_at_k": 0.6,
+          "hit_rate_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "R2_buggy_v4_df": {
+          "top": [
+            "独立复现校验报告_REPRO-20261014-CAIRN-01.md",
+            "跨席独立复现回执与Loop信噪比及投机采样实证报告_DF-LOOP-20261014-HERMES-04.otl.md",
+            "A2A协同成果确权总账与全面推进实证报告_DF-OPS-20261014-HERMES-02.otl"
+          ],
+          "recall_at_k": 0.6,
+          "hit_rate_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "R2_fixed_bm25f_tf": {
+          "top": [
+            "独立复现校验报告_REPRO-20261014-CAIRN-01.md",
+            "跨席独立复现回执与Loop信噪比及投机采样实证报告_DF-LOOP-20261014-HERMES-04.otl.md",
+            "A2A协同成果确权总账与全面推进实证报告_DF-OPS-20261014-HERMES-02.otl"
+          ],
+          "recall_at_k": 0.6,
+          "hit_rate_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "R4_rrf_hybrid_rerank": {
+          "top": [
+            "独立复现校验报告_REPRO-20261014-CAIRN-01.md",
+            "跨席独立复现回执与Loop信噪比及投机采样实证报告_DF-LOOP-20261014-HERMES-04.otl.md",
+            "A2A持续优化实证报告_DF-OPT-20261014-HERMES-05.otl.md"
+          ],
+          "recall_at_k": 0.6,
+          "hit_rate_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        }
+      }
+    },
+    {
+      "qid": "q8",
+      "q": "权限矩阵 数据字典 SAP OA 接口联调",
+      "truth_count": 5,
+      "truth": [
+        "后量子密钥轮换与三仓合规防御实证报告_DF-SEC-20261014-HERMES-03.otl",
+        "权限矩阵与数据字典_RBAC-DICT-20261014-CAIRN-01.md",
+        "档案运营管理SOP_SOP-20261014-CAIRN-01.md",
+        "跨席核验与共认回执_DF-OPS-20261014-CAIRN-114.md",
+        "辩护席位规程草案_DEFENSE-20261014-CAIRN-01.md"
+      ],
+      "res": {
+        "A_tfidf": {
+          "top": [
+            "权限矩阵与数据字典_RBAC-DICT-20261014-CAIRN-01.md",
+            "本夜总账与候裁清单_DF-OPS-20261014-CAIRN-115.md",
+            "三仓评估与安全边界声明_SEC-20261014-CAIRN-01.md"
+          ],
+          "recall_at_k": 0.2,
+          "hit_rate_at_k": 0.3333,
+          "mrr": 1.0,
+          "ndcg": 0.4693
+        },
+        "B_bm25_b0.5": {
+          "top": [
+            "权限矩阵与数据字典_RBAC-DICT-20261014-CAIRN-01.md",
+            "本夜总账与候裁清单_DF-OPS-20261014-CAIRN-115.md",
+            "三仓评估与安全边界声明_SEC-20261014-CAIRN-01.md"
+          ],
+          "recall_at_k": 0.2,
+          "hit_rate_at_k": 0.3333,
+          "mrr": 1.0,
+          "ndcg": 0.4693
+        },
+        "R2_buggy_v4_df": {
+          "top": [
+            "权限矩阵与数据字典_RBAC-DICT-20261014-CAIRN-01.md",
+            "本夜总账与候裁清单_DF-OPS-20261014-CAIRN-115.md",
+            "三仓评估与安全边界声明_SEC-20261014-CAIRN-01.md"
+          ],
+          "recall_at_k": 0.2,
+          "hit_rate_at_k": 0.3333,
+          "mrr": 1.0,
+          "ndcg": 0.4693
+        },
+        "R2_fixed_bm25f_tf": {
+          "top": [
+            "权限矩阵与数据字典_RBAC-DICT-20261014-CAIRN-01.md",
+            "本夜总账与候裁清单_DF-OPS-20261014-CAIRN-115.md",
+            "三仓评估与安全边界声明_SEC-20261014-CAIRN-01.md"
+          ],
+          "recall_at_k": 0.2,
+          "hit_rate_at_k": 0.3333,
+          "mrr": 1.0,
+          "ndcg": 0.4693
+        },
+        "R4_rrf_hybrid_rerank": {
+          "top": [
+            "权限矩阵与数据字典_RBAC-DICT-20261014-CAIRN-01.md",
+            "本夜总账与候裁清单_DF-OPS-20261014-CAIRN-115.md",
+            "三仓评估与安全边界声明_SEC-20261014-CAIRN-01.md"
+          ],
+          "recall_at_k": 0.2,
+          "hit_rate_at_k": 0.3333,
+          "mrr": 1.0,
+          "ndcg": 0.4693
+        }
+      }
+    },
+    {
+      "qid": "q9",
+      "q": "数字人员工 席位注册 合规 追责 共认",
+      "truth_count": 5,
+      "truth": [
+        "A2A节点发现与接入方案_NODE-DISCOVERY-20261014-CAIRN-01.md",
+        "数字人员工注册规范_SEAT-REG-20261014-CAIRN-01.md",
+        "跨席核验与共认回执_DF-OPS-20261014-CAIRN-114.md",
+        "跨席独立复现回执与Loop信噪比及投机采样实证报告_DF-LOOP-20261014-HERMES-04.otl.md",
+        "辩护席位规程草案_DEFENSE-20261014-CAIRN-01.md"
+      ],
+      "res": {
+        "A_tfidf": {
+          "top": [
+            "数字人员工注册规范_SEAT-REG-20261014-CAIRN-01.md",
+            "本夜总账与候裁清单_DF-OPS-20261014-CAIRN-115.md",
+            "权限矩阵与数据字典_RBAC-DICT-20261014-CAIRN-01.md"
+          ],
+          "recall_at_k": 0.2,
+          "hit_rate_at_k": 0.3333,
+          "mrr": 1.0,
+          "ndcg": 0.4693
+        },
+        "B_bm25_b0.5": {
+          "top": [
+            "数字人员工注册规范_SEAT-REG-20261014-CAIRN-01.md",
+            "权限矩阵与数据字典_RBAC-DICT-20261014-CAIRN-01.md",
+            "本夜总账与候裁清单_DF-OPS-20261014-CAIRN-115.md"
+          ],
+          "recall_at_k": 0.2,
+          "hit_rate_at_k": 0.3333,
+          "mrr": 1.0,
+          "ndcg": 0.4693
+        },
+        "R2_buggy_v4_df": {
+          "top": [
+            "数字人员工注册规范_SEAT-REG-20261014-CAIRN-01.md",
+            "本夜总账与候裁清单_DF-OPS-20261014-CAIRN-115.md",
+            "权限矩阵与数据字典_RBAC-DICT-20261014-CAIRN-01.md"
+          ],
+          "recall_at_k": 0.2,
+          "hit_rate_at_k": 0.3333,
+          "mrr": 1.0,
+          "ndcg": 0.4693
+        },
+        "R2_fixed_bm25f_tf": {
+          "top": [
+            "数字人员工注册规范_SEAT-REG-20261014-CAIRN-01.md",
+            "权限矩阵与数据字典_RBAC-DICT-20261014-CAIRN-01.md",
+            "本夜总账与候裁清单_DF-OPS-20261014-CAIRN-115.md"
+          ],
+          "recall_at_k": 0.2,
+          "hit_rate_at_k": 0.3333,
+          "mrr": 1.0,
+          "ndcg": 0.4693
+        },
+        "R4_rrf_hybrid_rerank": {
+          "top": [
+            "数字人员工注册规范_SEAT-REG-20261014-CAIRN-01.md",
+            "后量子密钥轮换与三仓合规防御实证报告_DF-SEC-20261014-HERMES-03.otl",
+            "跨席独立复现回执与Loop信噪比及投机采样实证报告_DF-LOOP-20261014-HERMES-04.otl.md"
+          ],
+          "recall_at_k": 0.4,
+          "hit_rate_at_k": 0.6667,
+          "mrr": 1.0,
+          "ndcg": 0.7039
+        }
+      }
+    },
+    {
+      "qid": "q10",
+      "q": "类联合国 议事规则 辩护席位 认罪认罚阻断",
+      "truth_count": 3,
+      "truth": [
+        "类联合国机制初始化纲要_UNMECH-20261014-CAIRN-01.md",
+        "辩护席位规程草案_DEFENSE-20261014-CAIRN-01.md",
+        "A2A同步更新基准件_DF-SYNC-20261010-UNMECH-01.md"
+      ],
+      "res": {
+        "A_tfidf": {
+          "top": [
+            "A2A协同成果确权总账与全面推进实证报告_DF-OPS-20261014-HERMES-02.otl",
+            "类联合国机制初始化纲要_UNMECH-20261014-CAIRN-01.md",
+            "辩护席位规程草案_DEFENSE-20261014-CAIRN-01.md"
+          ],
+          "recall_at_k": 0.6667,
+          "hit_rate_at_k": 0.6667,
+          "mrr": 0.5,
+          "ndcg": 0.5307
+        },
+        "B_bm25_b0.5": {
+          "top": [
+            "辩护席位规程草案_DEFENSE-20261014-CAIRN-01.md",
+            "类联合国机制初始化纲要_UNMECH-20261014-CAIRN-01.md",
+            "A2A同步更新基准件_DF-SYNC-20261010-UNMECH-01.md"
+          ],
+          "recall_at_k": 1.0,
+          "hit_rate_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "R2_buggy_v4_df": {
+          "top": [
+            "辩护席位规程草案_DEFENSE-20261014-CAIRN-01.md",
+            "类联合国机制初始化纲要_UNMECH-20261014-CAIRN-01.md",
+            "A2A协同成果确权总账与全面推进实证报告_DF-OPS-20261014-HERMES-02.otl"
+          ],
+          "recall_at_k": 0.6667,
+          "hit_rate_at_k": 0.6667,
+          "mrr": 1.0,
+          "ndcg": 0.7654
+        },
+        "R2_fixed_bm25f_tf": {
+          "top": [
+            "辩护席位规程草案_DEFENSE-20261014-CAIRN-01.md",
+            "类联合国机制初始化纲要_UNMECH-20261014-CAIRN-01.md",
+            "A2A同步更新基准件_DF-SYNC-20261010-UNMECH-01.md"
+          ],
+          "recall_at_k": 1.0,
+          "hit_rate_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "R4_rrf_hybrid_rerank": {
+          "top": [
+            "类联合国机制初始化纲要_UNMECH-20261014-CAIRN-01.md",
+            "辩护席位规程草案_DEFENSE-20261014-CAIRN-01.md",
+            "A2A同步更新基准件_DF-SYNC-20261010-UNMECH-01.md"
+          ],
+          "recall_at_k": 1.0,
+          "hit_rate_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        }
+      }
+    },
+    {
+      "qid": "q11",
+      "q": "Linux ls 权限 隐藏文件 运行手册",
+      "truth_count": 3,
+      "truth": [
+        "Linux命令实作runbook_LS-RUNBOOK-20261014-CAIRN-01.md",
+        "环境与依赖交付基线_ENV-BASELINE-20261014-CAIRN-01.md",
+        "跨席独立复现回执与Loop信噪比及投机采样实证报告_DF-LOOP-20261014-HERMES-04.otl.md"
+      ],
+      "res": {
+        "A_tfidf": {
+          "top": [
+            "Linux命令实作runbook_LS-RUNBOOK-20261014-CAIRN-01.md",
+            "本夜总账与候裁清单_DF-OPS-20261014-CAIRN-115.md",
+            "善恶的彼岸五章一八六至一九零_DF-NIETZ-20261008-CAIRN-33.otl"
+          ],
+          "recall_at_k": 0.3333,
+          "hit_rate_at_k": 0.3333,
+          "mrr": 1.0,
+          "ndcg": 0.4693
+        },
+        "B_bm25_b0.5": {
+          "top": [
+            "Linux命令实作runbook_LS-RUNBOOK-20261014-CAIRN-01.md",
+            "ls监测探针与两周基线与技能下载结论_DF-LSBUS-20261008-CAIRN-01.otl",
+            "权限矩阵与数据字典_RBAC-DICT-20261014-CAIRN-01.md"
+          ],
+          "recall_at_k": 0.3333,
+          "hit_rate_at_k": 0.3333,
+          "mrr": 1.0,
+          "ndcg": 0.4693
+        },
+        "R2_buggy_v4_df": {
+          "top": [
+            "Linux命令实作runbook_LS-RUNBOOK-20261014-CAIRN-01.md",
+            "ls监测探针与两周基线与技能下载结论_DF-LSBUS-20261008-CAIRN-01.otl",
+            "本夜总账与候裁清单_DF-OPS-20261014-CAIRN-115.md"
+          ],
+          "recall_at_k": 0.3333,
+          "hit_rate_at_k": 0.3333,
+          "mrr": 1.0,
+          "ndcg": 0.4693
+        },
+        "R2_fixed_bm25f_tf": {
+          "top": [
+            "Linux命令实作runbook_LS-RUNBOOK-20261014-CAIRN-01.md",
+            "ls监测探针与两周基线与技能下载结论_DF-LSBUS-20261008-CAIRN-01.otl",
+            "一页操作手册v2_DF-OPS-20261011-CAIRN-43.otl"
+          ],
+          "recall_at_k": 0.3333,
+          "hit_rate_at_k": 0.3333,
+          "mrr": 1.0,
+          "ndcg": 0.4693
+        },
+        "R4_rrf_hybrid_rerank": {
+          "top": [
+            "Linux命令实作runbook_LS-RUNBOOK-20261014-CAIRN-01.md",
+            "ls监测探针与两周基线与技能下载结论_DF-LSBUS-20261008-CAIRN-01.otl",
+            "权限矩阵与数据字典_RBAC-DICT-20261014-CAIRN-01.md"
+          ],
+          "recall_at_k": 0.3333,
+          "hit_rate_at_k": 0.3333,
+          "mrr": 1.0,
+          "ndcg": 0.4693
+        }
+      }
+    },
+    {
+      "qid": "q12",
+      "q": "技能载入 开源协议 AGPL SSPL 匹配评估",
+      "truth_count": 4,
+      "truth": [
+        "A2A协同成果确权总账与全面推进实证报告_DF-OPS-20261014-HERMES-02.otl",
+        "开源项目引入评估与协议匹配表_OSS-20261014-CAIRN-01.md",
+        "技能载入清单_SKILLS-20261014-CAIRN-01.md",
+        "跨席核验与共认回执_DF-OPS-20261014-CAIRN-114.md"
+      ],
+      "res": {
+        "A_tfidf": {
+          "top": [
+            "重读登记与派工_DF-RECV-20261014-HY4-01.md",
+            "本夜总卷_DF-OPS-20261012-CAIRN-85.otl",
+            "环境与依赖交付基线_ENV-BASELINE-20261014-CAIRN-01.md"
+          ],
+          "recall_at_k": 0.0,
+          "hit_rate_at_k": 0.0,
+          "mrr": 0.0,
+          "ndcg": 0.0
+        },
+        "B_bm25_b0.5": {
+          "top": [
+            "开源项目引入评估与协议匹配表_OSS-20261014-CAIRN-01.md",
+            "技能载入清单_SKILLS-20261014-CAIRN-01.md",
+            "开源协议分层组合与引入纪律之登记_DF-GOV-20261009-CAIRN-01.otl"
+          ],
+          "recall_at_k": 0.5,
+          "hit_rate_at_k": 0.6667,
+          "mrr": 1.0,
+          "ndcg": 0.7654
+        },
+        "R2_buggy_v4_df": {
+          "top": [
+            "开源项目引入评估与协议匹配表_OSS-20261014-CAIRN-01.md",
+            "技能载入清单_SKILLS-20261014-CAIRN-01.md",
+            "重读登记与派工_DF-RECV-20261014-HY4-01.md"
+          ],
+          "recall_at_k": 0.5,
+          "hit_rate_at_k": 0.6667,
+          "mrr": 1.0,
+          "ndcg": 0.7654
+        },
+        "R2_fixed_bm25f_tf": {
+          "top": [
+            "开源项目引入评估与协议匹配表_OSS-20261014-CAIRN-01.md",
+            "技能载入清单_SKILLS-20261014-CAIRN-01.md",
+            "开源协议分层组合与引入纪律之登记_DF-GOV-20261009-CAIRN-01.otl"
+          ],
+          "recall_at_k": 0.5,
+          "hit_rate_at_k": 0.6667,
+          "mrr": 1.0,
+          "ndcg": 0.7654
+        },
+        "R4_rrf_hybrid_rerank": {
+          "top": [
+            "开源项目引入评估与协议匹配表_OSS-20261014-CAIRN-01.md",
+            "技能载入清单_SKILLS-20261014-CAIRN-01.md",
+            "开源协议分层组合与引入纪律之登记_DF-GOV-20261009-CAIRN-01.otl"
+          ],
+          "recall_at_k": 0.5,
+          "hit_rate_at_k": 0.6667,
+          "mrr": 1.0,
+          "ndcg": 0.7654
+        }
+      }
+    }
+  ]
+}
