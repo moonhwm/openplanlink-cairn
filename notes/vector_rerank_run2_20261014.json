@@ -1,0 +1,621 @@
+{
+  "doc_id": "VR2-20261014-CAIRN-01",
+  "corpus": 213,
+  "K": 3,
+  "queries": 12,
+  "macro": {
+    "BM25(v1基线)": {
+      "recall": 0.7916666666666666,
+      "mrr": 0.5833333333333334,
+      "ndcg": 0.6165604761828504
+    },
+    "R1乘性标题": {
+      "recall": 0.7083333333333333,
+      "mrr": 0.5416666666666666,
+      "ndcg": 0.5639829967185621
+    },
+    "R2 BM25F(标题×3)": {
+      "recall": 0.7916666666666666,
+      "mrr": 0.5833333333333334,
+      "ndcg": 0.6165604761828504
+    },
+    "R3短语邻近": {
+      "recall": 0.7916666666666666,
+      "mrr": 0.4444444444444445,
+      "ndcg": 0.5114055172542741
+    }
+  },
+  "best_by_ndcg": "BM25(v1基线)",
+  "rows": [
+    {
+      "qid": "q1",
+      "q": "决策模型 概率分布 置信度 校准",
+      "rel": [
+        "decision_model_run_20261014.json",
+        "decision_model3_run_20261014.json"
+      ],
+      "res": {
+        "BM25(v1基线)": {
+          "top": [
+            "led_37",
+            "vector_rerank_run_20261014.json",
+            "led_38"
+          ],
+          "recall": 0.0,
+          "mrr": 0.0,
+          "ndcg": 0.0
+        },
+        "R1乘性标题": {
+          "top": [
+            "led_37",
+            "led_38",
+            "vector_rerank_run_20261014.json"
+          ],
+          "recall": 0.0,
+          "mrr": 0.0,
+          "ndcg": 0.0
+        },
+        "R2 BM25F(标题×3)": {
+          "top": [
+            "led_37",
+            "vector_rerank_run_20261014.json",
+            "led_38"
+          ],
+          "recall": 0.0,
+          "mrr": 0.0,
+          "ndcg": 0.0
+        },
+        "R3短语邻近": {
+          "top": [
+            "led_37",
+            "vector_rerank_run_20261014.json",
+            "led_38"
+          ],
+          "recall": 0.0,
+          "mrr": 0.0,
+          "ndcg": 0.0
+        }
+      }
+    },
+    {
+      "qid": "q2",
+      "q": "OTL 格式 元数据 历史版本 审计",
+      "rel": [
+        "OTL格式与元数据完整性规范_OTL-SPEC-20261014-CAIRN-01.md"
+      ],
+      "res": {
+        "BM25(v1基线)": {
+          "top": [
+            "led_34",
+            "OTL格式与元数据完整性规范_OTL-SPEC-20261014-CAIRN-01.md",
+            "vector_rerank_run_20261014.json"
+          ],
+          "recall": 1.0,
+          "mrr": 0.5,
+          "ndcg": 0.6309297535714575
+        },
+        "R1乘性标题": {
+          "top": [
+            "led_34",
+            "OTL格式与元数据完整性规范_OTL-SPEC-20261014-CAIRN-01.md",
+            "vector_rerank_run_20261014.json"
+          ],
+          "recall": 1.0,
+          "mrr": 0.5,
+          "ndcg": 0.6309297535714575
+        },
+        "R2 BM25F(标题×3)": {
+          "top": [
+            "led_34",
+            "OTL格式与元数据完整性规范_OTL-SPEC-20261014-CAIRN-01.md",
+            "vector_rerank_run_20261014.json"
+          ],
+          "recall": 1.0,
+          "mrr": 0.5,
+          "ndcg": 0.6309297535714575
+        },
+        "R3短语邻近": {
+          "top": [
+            "vector_rerank_run_20261014.json",
+            "led_34",
+            "OTL格式与元数据完整性规范_OTL-SPEC-20261014-CAIRN-01.md"
+          ],
+          "recall": 1.0,
+          "mrr": 0.3333333333333333,
+          "ndcg": 0.5
+        }
+      }
+    },
+    {
+      "qid": "q3",
+      "q": "台账 hash 链 快照 对账 缺口",
+      "rel": [
+        "sync_gap_20261014.md"
+      ],
+      "res": {
+        "BM25(v1基线)": {
+          "top": [
+            "档案运营管理SOP_SOP-20261014-CAIRN-01.md",
+            "sync_gap_20261014.md",
+            "led_22"
+          ],
+          "recall": 1.0,
+          "mrr": 0.5,
+          "ndcg": 0.6309297535714575
+        },
+        "R1乘性标题": {
+          "top": [
+            "档案运营管理SOP_SOP-20261014-CAIRN-01.md",
+            "led_0",
+            "led_13"
+          ],
+          "recall": 0.0,
+          "mrr": 0.0,
+          "ndcg": 0.0
+        },
+        "R2 BM25F(标题×3)": {
+          "top": [
+            "档案运营管理SOP_SOP-20261014-CAIRN-01.md",
+            "sync_gap_20261014.md",
+            "led_22"
+          ],
+          "recall": 1.0,
+          "mrr": 0.5,
+          "ndcg": 0.6309297535714575
+        },
+        "R3短语邻近": {
+          "top": [
+            "档案运营管理SOP_SOP-20261014-CAIRN-01.md",
+            "sync_gap_20261014.md",
+            "led_22"
+          ],
+          "recall": 1.0,
+          "mrr": 0.5,
+          "ndcg": 0.6309297535714575
+        }
+      }
+    },
+    {
+      "qid": "q4",
+      "q": "A2A 信封 nonce 抗重放 死信",
+      "rel": [
+        "A2A通信协议与接口规范_PROTO-A2A-20261014-CAIRN-01.md"
+      ],
+      "res": {
+        "BM25(v1基线)": {
+          "top": [
+            "A2A通信协议与接口规范_PROTO-A2A-20261014-CAIRN-01.md",
+            "led_30",
+            "vector_rerank_run_20261014.json"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "R1乘性标题": {
+          "top": [
+            "A2A通信协议与接口规范_PROTO-A2A-20261014-CAIRN-01.md",
+            "led_30",
+            "vector_rerank_run_20261014.json"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "R2 BM25F(标题×3)": {
+          "top": [
+            "A2A通信协议与接口规范_PROTO-A2A-20261014-CAIRN-01.md",
+            "led_30",
+            "vector_rerank_run_20261014.json"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "R3短语邻近": {
+          "top": [
+            "vector_rerank_run_20261014.json",
+            "led_30",
+            "A2A通信协议与接口规范_PROTO-A2A-20261014-CAIRN-01.md"
+          ],
+          "recall": 1.0,
+          "mrr": 0.3333333333333333,
+          "ndcg": 0.5
+        }
+      }
+    },
+    {
+      "qid": "q5",
+      "q": "安全边界 反向攻击 渗透测试 协议",
+      "rel": [
+        "三仓评估与安全边界声明_SEC-20261014-CAIRN-01.md"
+      ],
+      "res": {
+        "BM25(v1基线)": {
+          "top": [
+            "三仓评估与安全边界声明_SEC-20261014-CAIRN-01.md",
+            "led_27",
+            "vector_rerank_run_20261014.json"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "R1乘性标题": {
+          "top": [
+            "三仓评估与安全边界声明_SEC-20261014-CAIRN-01.md",
+            "led_27",
+            "vector_rerank_run_20261014.json"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "R2 BM25F(标题×3)": {
+          "top": [
+            "三仓评估与安全边界声明_SEC-20261014-CAIRN-01.md",
+            "led_27",
+            "vector_rerank_run_20261014.json"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "R3短语邻近": {
+          "top": [
+            "vector_rerank_run_20261014.json",
+            "三仓评估与安全边界声明_SEC-20261014-CAIRN-01.md",
+            "led_27"
+          ],
+          "recall": 1.0,
+          "mrr": 0.5,
+          "ndcg": 0.6309297535714575
+        }
+      }
+    },
+    {
+      "qid": "q6",
+      "q": "环境 依赖 版本 资源占用 基线",
+      "rel": [
+        "环境与依赖交付基线_ENV-BASELINE-20261014-CAIRN-01.md"
+      ],
+      "res": {
+        "BM25(v1基线)": {
+          "top": [
+            "led_26",
+            "环境与依赖交付基线_ENV-BASELINE-20261014-CAIRN-01.md",
+            "vector_rerank_run_20261014.json"
+          ],
+          "recall": 1.0,
+          "mrr": 0.5,
+          "ndcg": 0.6309297535714575
+        },
+        "R1乘性标题": {
+          "top": [
+            "led_26",
+            "环境与依赖交付基线_ENV-BASELINE-20261014-CAIRN-01.md",
+            "vector_rerank_run_20261014.json"
+          ],
+          "recall": 1.0,
+          "mrr": 0.5,
+          "ndcg": 0.6309297535714575
+        },
+        "R2 BM25F(标题×3)": {
+          "top": [
+            "led_26",
+            "环境与依赖交付基线_ENV-BASELINE-20261014-CAIRN-01.md",
+            "vector_rerank_run_20261014.json"
+          ],
+          "recall": 1.0,
+          "mrr": 0.5,
+          "ndcg": 0.6309297535714575
+        },
+        "R3短语邻近": {
+          "top": [
+            "vector_rerank_run_20261014.json",
+            "led_26",
+            "环境与依赖交付基线_ENV-BASELINE-20261014-CAIRN-01.md"
+          ],
+          "recall": 1.0,
+          "mrr": 0.3333333333333333,
+          "ndcg": 0.5
+        }
+      }
+    },
+    {
+      "qid": "q7",
+      "q": "复现 置信度 5σ Brier 校准",
+      "rel": [
+        "独立复现校验报告_REPRO-20261014-CAIRN-01.md"
+      ],
+      "res": {
+        "BM25(v1基线)": {
+          "top": [
+            "vector_rerank_run_20261014.json",
+            "led_38",
+            "led_37"
+          ],
+          "recall": 0.0,
+          "mrr": 0.0,
+          "ndcg": 0.0
+        },
+        "R1乘性标题": {
+          "top": [
+            "led_37",
+            "led_38",
+            "vector_rerank_run_20261014.json"
+          ],
+          "recall": 0.0,
+          "mrr": 0.0,
+          "ndcg": 0.0
+        },
+        "R2 BM25F(标题×3)": {
+          "top": [
+            "vector_rerank_run_20261014.json",
+            "led_38",
+            "led_37"
+          ],
+          "recall": 0.0,
+          "mrr": 0.0,
+          "ndcg": 0.0
+        },
+        "R3短语邻近": {
+          "top": [
+            "vector_rerank_run_20261014.json",
+            "led_38",
+            "led_37"
+          ],
+          "recall": 0.0,
+          "mrr": 0.0,
+          "ndcg": 0.0
+        }
+      }
+    },
+    {
+      "qid": "q8",
+      "q": "权限矩阵 数据字典 SAP OA 联调",
+      "rel": [
+        "权限矩阵与数据字典_RBAC-DICT-20261014-CAIRN-01.md"
+      ],
+      "res": {
+        "BM25(v1基线)": {
+          "top": [
+            "led_31",
+            "权限矩阵与数据字典_RBAC-DICT-20261014-CAIRN-01.md",
+            "vector_rerank_run_20261014.json"
+          ],
+          "recall": 1.0,
+          "mrr": 0.5,
+          "ndcg": 0.6309297535714575
+        },
+        "R1乘性标题": {
+          "top": [
+            "led_31",
+            "权限矩阵与数据字典_RBAC-DICT-20261014-CAIRN-01.md",
+            "vector_rerank_run_20261014.json"
+          ],
+          "recall": 1.0,
+          "mrr": 0.5,
+          "ndcg": 0.6309297535714575
+        },
+        "R2 BM25F(标题×3)": {
+          "top": [
+            "led_31",
+            "权限矩阵与数据字典_RBAC-DICT-20261014-CAIRN-01.md",
+            "vector_rerank_run_20261014.json"
+          ],
+          "recall": 1.0,
+          "mrr": 0.5,
+          "ndcg": 0.6309297535714575
+        },
+        "R3短语邻近": {
+          "top": [
+            "vector_rerank_run_20261014.json",
+            "led_31",
+            "权限矩阵与数据字典_RBAC-DICT-20261014-CAIRN-01.md"
+          ],
+          "recall": 1.0,
+          "mrr": 0.3333333333333333,
+          "ndcg": 0.5
+        }
+      }
+    },
+    {
+      "qid": "q9",
+      "q": "席位注册 数字人员工 合规 追责",
+      "rel": [
+        "数字人员工注册规范_SEAT-REG-20261014-CAIRN-01.md"
+      ],
+      "res": {
+        "BM25(v1基线)": {
+          "top": [
+            "led_32",
+            "数字人员工注册规范_SEAT-REG-20261014-CAIRN-01.md",
+            "权限矩阵与数据字典_RBAC-DICT-20261014-CAIRN-01.md"
+          ],
+          "recall": 1.0,
+          "mrr": 0.5,
+          "ndcg": 0.6309297535714575
+        },
+        "R1乘性标题": {
+          "top": [
+            "led_32",
+            "数字人员工注册规范_SEAT-REG-20261014-CAIRN-01.md",
+            "权限矩阵与数据字典_RBAC-DICT-20261014-CAIRN-01.md"
+          ],
+          "recall": 1.0,
+          "mrr": 0.5,
+          "ndcg": 0.6309297535714575
+        },
+        "R2 BM25F(标题×3)": {
+          "top": [
+            "led_32",
+            "数字人员工注册规范_SEAT-REG-20261014-CAIRN-01.md",
+            "权限矩阵与数据字典_RBAC-DICT-20261014-CAIRN-01.md"
+          ],
+          "recall": 1.0,
+          "mrr": 0.5,
+          "ndcg": 0.6309297535714575
+        },
+        "R3短语邻近": {
+          "top": [
+            "led_32",
+            "数字人员工注册规范_SEAT-REG-20261014-CAIRN-01.md",
+            "权限矩阵与数据字典_RBAC-DICT-20261014-CAIRN-01.md"
+          ],
+          "recall": 1.0,
+          "mrr": 0.5,
+          "ndcg": 0.6309297535714575
+        }
+      }
+    },
+    {
+      "qid": "q10",
+      "q": "档案运营 SOP 交付标准 校验",
+      "rel": [
+        "档案运营管理SOP_SOP-20261014-CAIRN-01.md"
+      ],
+      "res": {
+        "BM25(v1基线)": {
+          "top": [
+            "档案运营管理SOP_SOP-20261014-CAIRN-01.md",
+            "vector_rerank_run_20261014.json",
+            "led_22"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "R1乘性标题": {
+          "top": [
+            "档案运营管理SOP_SOP-20261014-CAIRN-01.md",
+            "led_22",
+            "vector_rerank_run_20261014.json"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "R2 BM25F(标题×3)": {
+          "top": [
+            "档案运营管理SOP_SOP-20261014-CAIRN-01.md",
+            "led_22",
+            "vector_rerank_run_20261014.json"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "R3短语邻近": {
+          "top": [
+            "档案运营管理SOP_SOP-20261014-CAIRN-01.md",
+            "vector_rerank_run_20261014.json",
+            "led_22"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        }
+      }
+    },
+    {
+      "qid": "q11",
+      "q": "Linux ls 权限 隐藏文件 运行手册",
+      "rel": [
+        "Linux命令实作runbook_LS-RUNBOOK-20261014-CAIRN-01.md"
+      ],
+      "res": {
+        "BM25(v1基线)": {
+          "top": [
+            "led_29",
+            "Linux命令实作runbook_LS-RUNBOOK-20261014-CAIRN-01.md",
+            "led_31"
+          ],
+          "recall": 1.0,
+          "mrr": 0.5,
+          "ndcg": 0.6309297535714575
+        },
+        "R1乘性标题": {
+          "top": [
+            "led_29",
+            "Linux命令实作runbook_LS-RUNBOOK-20261014-CAIRN-01.md",
+            "led_31"
+          ],
+          "recall": 1.0,
+          "mrr": 0.5,
+          "ndcg": 0.6309297535714575
+        },
+        "R2 BM25F(标题×3)": {
+          "top": [
+            "led_29",
+            "Linux命令实作runbook_LS-RUNBOOK-20261014-CAIRN-01.md",
+            "led_31"
+          ],
+          "recall": 1.0,
+          "mrr": 0.5,
+          "ndcg": 0.6309297535714575
+        },
+        "R3短语邻近": {
+          "top": [
+            "led_29",
+            "Linux命令实作runbook_LS-RUNBOOK-20261014-CAIRN-01.md",
+            "led_31"
+          ],
+          "recall": 1.0,
+          "mrr": 0.5,
+          "ndcg": 0.6309297535714575
+        }
+      }
+    },
+    {
+      "qid": "q12",
+      "q": "技能载入 开源协议 匹配 评估",
+      "rel": [
+        "开源项目引入评估与协议匹配表_OSS-20261014-CAIRN-01.md",
+        "技能载入清单_SKILLS-20261014-CAIRN-01.md"
+      ],
+      "res": {
+        "BM25(v1基线)": {
+          "top": [
+            "开源项目引入评估与协议匹配表_OSS-20261014-CAIRN-01.md",
+            "led_20",
+            "led_21"
+          ],
+          "recall": 0.5,
+          "mrr": 1.0,
+          "ndcg": 0.6131471927654584
+        },
+        "R1乘性标题": {
+          "top": [
+            "开源项目引入评估与协议匹配表_OSS-20261014-CAIRN-01.md",
+            "led_20",
+            "led_18"
+          ],
+          "recall": 0.5,
+          "mrr": 1.0,
+          "ndcg": 0.6131471927654584
+        },
+        "R2 BM25F(标题×3)": {
+          "top": [
+            "开源项目引入评估与协议匹配表_OSS-20261014-CAIRN-01.md",
+            "led_20",
+            "led_21"
+          ],
+          "recall": 0.5,
+          "mrr": 1.0,
+          "ndcg": 0.6131471927654584
+        },
+        "R3短语邻近": {
+          "top": [
+            "开源项目引入评估与协议匹配表_OSS-20261014-CAIRN-01.md",
+            "led_20",
+            "led_21"
+          ],
+          "recall": 0.5,
+          "mrr": 1.0,
+          "ndcg": 0.6131471927654584
+        }
+      }
+    }
+  ]
+}
