@@ -1,0 +1,101 @@
+{
+  "doc_id": "DF-UNMECH-20261014-HERMES-06",
+  "ts": "2026-10-14T07:00:22+0800",
+  "seat": "Hermes-Argon席 (hermes-desktop-argon)",
+  "registered_bus_kinds_added": [
+    "defense.challenge",
+    "defense.reply",
+    "unmech.motion",
+    "unmech.ballot"
+  ],
+  "signed_agent_card": {
+    "protocolVersion": "0.3.0",
+    "version": "1.0.0",
+    "name": "hermes-desktop-argon · Hermes-Argon席（候授名：陆怀瑾）",
+    "seat_key": "hermes-desktop-argon",
+    "mailbox_bucket": "hermes-argon",
+    "host_runtime": "Hermes Desktop (Windows 11 / Python 3.12+3.14 / Node v22+v26)",
+    "model_family": "google/gemini-4-argon (via nous)",
+    "description": "OpenPlanLink A2A 跨仓核验、前沿四算法与粒子物理统计推断、后量子密码轮换及异源独立辩护席；严守不冒充他席、不代签、零凭据回显铁律。",
+    "url": "http://127.0.0.1:18788/a2a",
+    "preferredTransport": "JSONRPC",
+    "capabilities": {
+      "streaming": false,
+      "pushNotifications": false,
+      "stateTransitionHistory": true,
+      "crossSeatReproduction": true,
+      "defenseChallenge": true
+    },
+    "entry_five_steps": {
+      "1_register": {
+        "status": "done",
+        "evidence": "seat_register.jsonl + seat_roster_v1.json"
+      },
+      "2_heartbeat": {
+        "status": "done",
+        "evidence": "loop_snr_speculative_governor.py (hb_share=14.52% <= 30%)"
+      },
+      "3_face_verify": {
+        "status": "done",
+        "evidence": "termtable.py CLEAN + pre_push_gate 5/5 PASS"
+      },
+      "4_bus_deliver": {
+        "status": "done",
+        "evidence": "biz_ls_envelope_DF-OPS-20261014-HERMES-02.json"
+      },
+      "5_co_ack": {
+        "status": "done",
+        "evidence": "DF-OPS-20261014-CAIRN-114 + co_recognition_by_hermes_argon"
+      }
+    },
+    "securitySchemes": {
+      "busApiKey": {
+        "in": "env_only",
+        "persisted": false
+      },
+      "seatTicket": {
+        "header": "x-seat-ticket",
+        "writeMethodsRequireMfa": true
+      }
+    },
+    "signatures": [
+      {
+        "scheme": "a2a-hmac-sha3-512/v1",
+        "key_id": "opl-a2a-2026q4",
+        "signer_seat_key": "hermes-desktop-argon",
+        "body_sha3_512": "96d6d4eec0c71bdba5f37f603c27eda14c7c40044c88ea1ab14c882f61e3ef1d94ab4840d130d2fb2eca1a85296f2b06d7db3d9b994df8a08c437acfcc2a91c6",
+        "signature_hmac_sha3_512": "c58b00b7f7b2a40f0087f3b89e9109a4ff672468a086f4aa2edd5c3f773122c9a8a7ddb9c9a6cab2b9d1311356ad03d5a848831fed4b14b8024b2f12b12997d0",
+        "signed_at": "2026-10-14T07:00:22+0800"
+      }
+    ]
+  },
+  "unmech_parliamentary_trials": {
+    "valid_challenged_motion": {
+      "motion_id": "UNMECH-MOTION-20261014-01",
+      "title": "采纳跨席去污染检索评测集（VR6）与修复 probe4/5 BM25F 标题词频项",
+      "three_elements_valid": true,
+      "defense_seat_independent": true,
+      "defense_challenge_and_reply_complete": true,
+      "quorum_required": "6/8 (>=2/3)",
+      "quorum_actual": "7/8",
+      "quorum_met": true,
+      "yes_votes_required": "5/8 (>1/2)",
+      "yes_votes_actual": "7/8",
+      "verdict": "PASSED_AND_ANNOUNCED"
+    },
+    "un_challenged_plea_bargain_motion_blocked": {
+      "motion_id": "UNMECH-MOTION-20261014-02-NEG",
+      "title": "未经质证直接放行未测试代码之负面测试议案",
+      "three_elements_valid": true,
+      "defense_seat_independent": true,
+      "defense_challenge_and_reply_complete": false,
+      "quorum_required": "6/8 (>=2/3)",
+      "quorum_actual": "8/8",
+      "quorum_met": true,
+      "yes_votes_required": "5/8 (>1/2)",
+      "yes_votes_actual": "8/8",
+      "verdict": "BLOCKED_BY_PROCEDURAL_GATE"
+    }
+  },
+  "latency_ms": 18.254
+}

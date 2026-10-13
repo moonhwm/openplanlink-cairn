@@ -1,0 +1,480 @@
+{
+  "doc_id": "DF-DOCX-20261014-HERMES-06",
+  "ts": "2026-10-14T06:58:45+0800",
+  "seat": "Hermes-Argon席 (hermes-desktop-argon)",
+  "closes_cairn_doc": "SURVEY-20261014-CAIRN-01 §三 启动项 1–4",
+  "total_files_scanned": 49,
+  "hydrated_docx_count": 2,
+  "unhydrated_docx_count": 18,
+  "wps_pointer_536b_count": 21,
+  "unique_sha256_groups": 2,
+  "converted_otl_files": [
+    {
+      "source": "openplanlink-docx\\2026-9-25-OpenPlanLink 润色-1 (3).docx",
+      "out_name": "DOCX转OTL_2026-9-25-OpenPlanLink_润色-1_(3)_DF-DOCX-20261014-HERMES-06.otl.md",
+      "out_bytes": 425691,
+      "body_sha256_16": "53343dac94c96c62",
+      "paragraphs": 1472,
+      "total_chars": 165779
+    },
+    {
+      "source": "openplanlink-docx\\ima与A2A约束下开源协议补充论证.docx",
+      "out_name": "DOCX转OTL_ima与A2A约束下开源协议补充论证_DF-DOCX-20261014-HERMES-06.otl.md",
+      "out_bytes": 36725,
+      "body_sha256_16": "3d1c4e1e5cc4d850",
+      "paragraphs": 136,
+      "total_chars": 13124
+    }
+  ],
+  "inventory": [
+    {
+      "rel_path": "2026-9-25-OpenPlanLink 润色-1 (2).docx",
+      "size_bytes": 1868912,
+      "status": "UNHYDRATED_OR_ERR ([Errno 22] Invalid argument)",
+      "sha256_16": null,
+      "paragraphs_count": 0,
+      "total_chars": 0,
+      "head_preview": []
+    },
+    {
+      "rel_path": "2026-9-25-OpenPlanLink 润色-1 (2)_已清理.docx",
+      "size_bytes": 2717824,
+      "status": "UNHYDRATED_OR_ERR ([Errno 22] Invalid argument)",
+      "sha256_16": null,
+      "paragraphs_count": 0,
+      "total_chars": 0,
+      "head_preview": []
+    },
+    {
+      "rel_path": "2026-9-25-OpenPlanLink 润色-1 (2)_清理版.docx",
+      "size_bytes": 2722683,
+      "status": "UNHYDRATED_OR_ERR ([Errno 22] Invalid argument)",
+      "sha256_16": null,
+      "paragraphs_count": 0,
+      "total_chars": 0,
+      "head_preview": []
+    },
+    {
+      "rel_path": "2026-9-25-OpenPlanLink 润色-1 净化-砚.docx",
+      "size_bytes": 2723353,
+      "status": "UNHYDRATED_OR_ERR ([Errno 22] Invalid argument)",
+      "sha256_16": null,
+      "paragraphs_count": 0,
+      "total_chars": 0,
+      "head_preview": []
+    },
+    {
+      "rel_path": "2026-9-25-OpenPlanLink 润色-1 参考附录.docx",
+      "size_bytes": 1962978,
+      "status": "UNHYDRATED_OR_ERR ([Errno 22] Invalid argument)",
+      "sha256_16": null,
+      "paragraphs_count": 0,
+      "total_chars": 0,
+      "head_preview": []
+    },
+    {
+      "rel_path": "2026-9-25-OpenPlanLink 润色-1.docx",
+      "size_bytes": 20528,
+      "status": "UNHYDRATED_OR_ERR ([Errno 22] Invalid argument)",
+      "sha256_16": null,
+      "paragraphs_count": 0,
+      "total_chars": 0,
+      "head_preview": []
+    },
+    {
+      "rel_path": "2026-9-25-OpenPlanLink 润色-定稿.docx",
+      "size_bytes": 36718,
+      "status": "UNHYDRATED_OR_ERR ([Errno 22] Invalid argument)",
+      "sha256_16": null,
+      "paragraphs_count": 0,
+      "total_chars": 0,
+      "head_preview": []
+    },
+    {
+      "rel_path": "2026-9-25-OpenPlanLink 润色-终版.docx",
+      "size_bytes": 43222,
+      "status": "UNHYDRATED_OR_ERR ([Errno 22] Invalid argument)",
+      "sha256_16": null,
+      "paragraphs_count": 0,
+      "total_chars": 0,
+      "head_preview": []
+    },
+    {
+      "rel_path": "2026-9-25-OpenPlanLink 清污版_v1.0_砚hy4.docx",
+      "size_bytes": 10906,
+      "status": "UNHYDRATED_OR_ERR ([Errno 22] Invalid argument)",
+      "sha256_16": null,
+      "paragraphs_count": 0,
+      "total_chars": 0,
+      "head_preview": []
+    },
+    {
+      "rel_path": "2026-9-25-OpenPlanLink 清理稿_v1.docx",
+      "size_bytes": 2724193,
+      "status": "UNHYDRATED_OR_ERR ([Errno 22] Invalid argument)",
+      "sha256_16": null,
+      "paragraphs_count": 0,
+      "total_chars": 0,
+      "head_preview": []
+    },
+    {
+      "rel_path": "2026-9-25-OpenPlanLink 清理稿_v2.docx",
+      "size_bytes": 2722950,
+      "status": "UNHYDRATED_OR_ERR ([Errno 22] Invalid argument)",
+      "sha256_16": null,
+      "paragraphs_count": 0,
+      "total_chars": 0,
+      "head_preview": []
+    },
+    {
+      "rel_path": "2026-9-25-OpenPlanLink 续作_v3.1_砚hy4.docx",
+      "size_bytes": 12030,
+      "status": "UNHYDRATED_OR_ERR ([Errno 22] Invalid argument)",
+      "sha256_16": null,
+      "paragraphs_count": 0,
+      "total_chars": 0,
+      "head_preview": []
+    },
+    {
+      "rel_path": "2026-9-25-OpenPlanLink_去污版_砚hy4_v25.docx",
+      "size_bytes": 2722296,
+      "status": "UNHYDRATED_OR_ERR ([Errno 22] Invalid argument)",
+      "sha256_16": null,
+      "paragraphs_count": 0,
+      "total_chars": 0,
+      "head_preview": []
+    },
+    {
+      "rel_path": "Kimi进程到场_20261005.md",
+      "size_bytes": 7941,
+      "status": "OTHER_FILE",
+      "sha256_16": null,
+      "paragraphs_count": 0,
+      "total_chars": 0,
+      "head_preview": []
+    },
+    {
+      "rel_path": "OpenPlanLink 直接记录请求.docx",
+      "size_bytes": 12639,
+      "status": "UNHYDRATED_OR_ERR ([Errno 22] Invalid argument)",
+      "sha256_16": null,
+      "paragraphs_count": 0,
+      "total_chars": 0,
+      "head_preview": []
+    },
+    {
+      "rel_path": "OpenPlanLink_任务书_v1.2_净版_砚hy4.docx",
+      "size_bytes": 18190,
+      "status": "UNHYDRATED_OR_ERR ([Errno 22] Invalid argument)",
+      "sha256_16": null,
+      "paragraphs_count": 0,
+      "total_chars": 0,
+      "head_preview": []
+    },
+    {
+      "rel_path": "SDD启动说明_20261005.md",
+      "size_bytes": 1752,
+      "status": "OTHER_FILE",
+      "sha256_16": null,
+      "paragraphs_count": 0,
+      "total_chars": 0,
+      "head_preview": []
+    },
+    {
+      "rel_path": "SDD安装记录_20261005.md",
+      "size_bytes": 1754,
+      "status": "OTHER_FILE",
+      "sha256_16": null,
+      "paragraphs_count": 0,
+      "total_chars": 0,
+      "head_preview": []
+    },
+    {
+      "rel_path": "SDD批注_20261005.md",
+      "size_bytes": 4640,
+      "status": "OTHER_FILE",
+      "sha256_16": null,
+      "paragraphs_count": 0,
+      "total_chars": 0,
+      "head_preview": []
+    },
+    {
+      "rel_path": "招投标-2026-9-25-OpenPlanLink 润色-1.docx",
+      "size_bytes": 20484,
+      "status": "UNHYDRATED_OR_ERR ([Errno 22] Invalid argument)",
+      "sha256_16": null,
+      "paragraphs_count": 0,
+      "total_chars": 0,
+      "head_preview": []
+    },
+    {
+      "rel_path": "海平面之花_compose-next_对照_20261004.md",
+      "size_bytes": 9335,
+      "status": "OTHER_FILE",
+      "sha256_16": null,
+      "paragraphs_count": 0,
+      "total_chars": 0,
+      "head_preview": []
+    },
+    {
+      "rel_path": "润色-2026-9-25-OpenPlanLink 润色-1.docx",
+      "size_bytes": 549736,
+      "status": "UNHYDRATED_OR_ERR ([Errno 22] Invalid argument)",
+      "sha256_16": null,
+      "paragraphs_count": 0,
+      "total_chars": 0,
+      "head_preview": []
+    },
+    {
+      "rel_path": "相邻灵感_20261005.md",
+      "size_bytes": 3118,
+      "status": "OTHER_FILE",
+      "sha256_16": null,
+      "paragraphs_count": 0,
+      "total_chars": 0,
+      "head_preview": []
+    },
+    {
+      "rel_path": "论文-招投标-2026-9-25-OpenPlanLink 润色-1.docx",
+      "size_bytes": 21142,
+      "status": "UNHYDRATED_OR_ERR ([Errno 22] Invalid argument)",
+      "sha256_16": null,
+      "paragraphs_count": 0,
+      "total_chars": 0,
+      "head_preview": []
+    },
+    {
+      "rel_path": "openplanlink-docx\\2026-9-25-OpenPlanLink 润色-1 (3).docx",
+      "size_bytes": 2622275,
+      "status": "HYDRATED_DOCX",
+      "sha256_16": "94f06159ce910dd0",
+      "paragraphs_count": 1472,
+      "total_chars": 165779,
+      "head_preview": [
+        "全局声明：/loop-dual-pillar-ops（所涉技能均可从GitHub上传或下载同步为唯一正本）",
+        "//本稿立足工业和信息化部等政府职能部门党组成员在学术技术与行政工作中的全局视角，依据https://jsnews.jschina.com.cn/zt2024/fzsxxxpt/hdxf/fgxwj/202404/t20240425_3397325.shtml，对所涉内容予以规范化表述，确保分析论证及对策建议严格符合党组纪律要求与学术技术规范，杜绝视角混杂与术语歧义。统一执行口径明确如下：凡涉及复杂技术、协议及流程事项，须在双重框架下从严把控；各协同单位应以此为基准，正式文档严禁混用行政、商业或个人视角，严禁使用模糊表述。为促进跨部门协同与长期归档管理，相关文档统一转换为WPS OTL格式，并与云文档体系实现兼容，确保版本追踪、权限管控及留痕审计等功能有效落地。所涉研究，依托神经网络预测、蒙特卡洛实验模拟、倾向得分匹配-双重差分（PSM-DID）及贝叶斯因果森林等前沿算法，上述算法可随元认知变动实现实时更新，并基于https://github.com/getzep/zep.git等“Agent记忆系统工程：四层架构、Mem0/Zep/Letta/LangMem 生产选型”经Agent-to-Agent网络实验予以复现校验。参照https://hep.tsinghua.edu.cn/training/courses/data_analysis.html/Lectures2006/lecture_11.pdf所设定的粒子物理实验置信度水平，对估计结果与因果效应实施严格统计推断。充分吸纳计量经济学、机器学习与因果推断领域最新研究成果，严格遵循元认知变动情形下算法实时更新机制及Agent-to-Agent（智能体）间协作网络实验的复现校验流程，完全自主可控地基于Agent-to-Agent联合自主运维确保模型参数、运行逻辑与实证结论具备可追溯性与可重复性。通过多维度校验体系协同运用，进一步强化研究过程可信度与结论稳健性，为后续政策建议制定与技术方案部署提供可验证的实证基础。紧密围绕制造强国、网络强国与数字中国建设等核心任务，以规范行为准则、推进行动计划为主要抓手，系统梳理重点领域、关键环节与薄弱短板，着力推动行业研判、技术论证与行政决策深度融合，促进政策导向、技术路径与执行举措有效衔接。通过强化统筹协调、优化运行机制、压实各方责任，确保目标高度一致、标准高度统一、执行高度贯通，切实形成统筹协同、一体化推进的工作格局，为提升行业治理现代化水平、推动高质量发展提供坚实支撑和有力保障。同步Kimi Chat端相应技能于其他生态的部署，辅助开展术语一致性校验、格式合规性预检及开源协议条款匹配，切实提升流转效率与处理准确性。转换过程中，须确保目录结构、修订记录、附件及权限设置等元数据完整无缺，历史版本可随时调取，满足审计追溯需要。授权自治区域在由常务局统一领导下，全权负责相关操作，围绕算力分配、分布式协同、跨全球多元化厂商的Agent（智能体）产业协同及精细化加工等事项，稳妥有序推进落实。以服务国家战略、推进行业治理现代化为出发点，着力推动全链条自主可控，统筹推进自主计划排期、自主采购与自主协同的智能体间（Agent-to-Agent）协作机制建设。在此过程中，坚持顶层谋划与基层落地有效衔接，强化技术路线与行政决策双向支撑，努力在复杂多变的治理环境中形成稳定、高效、可演进的协同体系。聚焦具体任务落实，明确设立辩护席位，健全完善配套工作机制，确保辩护职能在程序各环节得到充分保障。始终坚持程序正义与实体正义有机统一，确保案件处理严格符合法定程序、经得起实体公正检验。制定完善相关制度规章，综合运用行政命令等一切可行手段，压实各方责任，切实防范认罪认罚情形在相关议题中实质性发生，阻断其经由Agent-to-Agent间协作网络扩散蔓延。着力开展现状审计，全面摸清底数，系统排查漏洞，客观评估实际成效，为后续决策提供科学依据。严格开展相关卫生消杀工作，落细落实各项防控措施，坚决消除安全隐患。同时，坚持制度建设与执行监督同步推进，将程序规范、责任追究和动态评估有机嵌入全流程管理，确保各项举措环环相扣、层层落实，切实构筑制度完备、运行有序、监督有力的综合防控与治理屏障。全文坚持以目标导向与问题导向相结合，深入分析当前面临的主要矛盾与深层原因，确保各项部署逻辑清晰、主次分明、务实可行。通过强化统筹协调、优化运行机制、压实各方责任，健全跨部门、跨领域协同联动机制，完善任务分解、督办问效与动态调整流程，持续加强前瞻性研判布局与系统性周期计划，注重激发各方主体活力与协同效能，不断将制度优势转化为治理效能，为构建现代化产业体系和维护总体国家安全观奠定坚实基础：",
+        "//将立足后量子时代数据安全需求，推动端到端加密与分布式信任体系升级。算法采用HMAC-SHA3-512树、AES-256-GCM及标识密码（IBC）等先进加密算法，实现全流程可追溯、可审计，兼顾效能与合规。架构上实行分层密钥派生与动态轮换，在满足量子抗性前提下将签名验证延迟控制在毫秒级，并写入不可篡改审计链。加密模块覆盖数据全生命周期，调和使用标准规范_国家密码管理局SM9、SM10、ZUC等国密标准，叠加量子随机数发生器增强密钥熵源；通过细粒度属性基加密实现按需授权，依托硬件安全模块强化密钥托管与隔离，确保敏感字段全程密文。同时提供透明加解密能力，降低业务改造门槛。全链条落实动态密钥轮换，健全密钥版本管理，保障历史数据平滑迁移，完整记录加解密操作，形成可追溯、可审计闭环。加密技术是数据安全的核心，算法选型坚持安全优先、兼顾效能，确保密码体系严密可靠高效运行。"
+      ]
+    },
+    {
+      "rel_path": "openplanlink-docx\\A2A大讨论纪要与自动审批记录_党组学术视角_OTL-20261005-06.otl.wpsonline",
+      "size_bytes": 536,
+      "status": "WPS_CLOUD_POINTER_536B",
+      "sha256_16": null,
+      "paragraphs_count": 0,
+      "total_chars": 0,
+      "head_preview": []
+    },
+    {
+      "rel_path": "openplanlink-docx\\A2A算力分配与分布式协同深化案_v0.1_2026-10-05.otl.wpsonline",
+      "size_bytes": 536,
+      "status": "WPS_CLOUD_POINTER_536B",
+      "sha256_16": null,
+      "paragraphs_count": 0,
+      "total_chars": 0,
+      "head_preview": []
+    },
+    {
+      "rel_path": "openplanlink-docx\\A2A线收官总账_2026-10-05.otl.wpsonline",
+      "size_bytes": 536,
+      "status": "WPS_CLOUD_POINTER_536B",
+      "sha256_16": null,
+      "paragraphs_count": 0,
+      "total_chars": 0,
+      "head_preview": []
+    },
+    {
+      "rel_path": "openplanlink-docx\\A2A网络全面优化整合架构方案.otl.wpsonline",
+      "size_bytes": 536,
+      "status": "WPS_CLOUD_POINTER_536B",
+      "sha256_16": null,
+      "paragraphs_count": 0,
+      "total_chars": 0,
+      "head_preview": []
+    },
+    {
+      "rel_path": "openplanlink-docx\\A2A项目四件套完整文字记录_上.otl.wpsonline",
+      "size_bytes": 536,
+      "status": "WPS_CLOUD_POINTER_536B",
+      "sha256_16": null,
+      "paragraphs_count": 0,
+      "total_chars": 0,
+      "head_preview": []
+    },
+    {
+      "rel_path": "openplanlink-docx\\A2A项目四件套完整文字记录_下.otl.wpsonline",
+      "size_bytes": 536,
+      "status": "WPS_CLOUD_POINTER_536B",
+      "sha256_16": null,
+      "paragraphs_count": 0,
+      "total_chars": 0,
+      "head_preview": []
+    },
+    {
+      "rel_path": "openplanlink-docx\\A2A项目四件套完整文字记录_中.otl.wpsonline",
+      "size_bytes": 536,
+      "status": "WPS_CLOUD_POINTER_536B",
+      "sha256_16": null,
+      "paragraphs_count": 0,
+      "total_chars": 0,
+      "head_preview": []
+    },
+    {
+      "rel_path": "openplanlink-docx\\ima与A2A约束下开源协议补充论证.docx",
+      "size_bytes": 37280,
+      "status": "HYDRATED_DOCX",
+      "sha256_16": "242674ec138ce40f",
+      "paragraphs_count": 136,
+      "total_chars": 13124,
+      "head_preview": [
+        "ima风险可控与A2A网络强制使用约束下的最严格开源协议补充及多平台同步实施论证",
+        "一、 引言：A2A网络生态的合规基座与协议补充的必然性",
+        "在智能体技术从单体模型向跨主体多智能体协同演进的关键节点，接入A2A（Agent to Agent）网络绝非仅仅停留在技术选型层面的简单优化升级，而是推进跨主体多智能体协同生态构建的核心关键举措，对整个智能体领域的发展具有基础性支撑作用。A2A协议作为谷歌开源推出的最新一代智能体交互框架，其核心在于定义了智能体之间的交互规范与协同链路。这种以网络服务为默认交互模式的架构，决定了生态内的合规基座不能仅依赖传统的宽松型开源许可，而必须建立与“交互即服务”相匹配的强传染性约束体系。"
+      ]
+    },
+    {
+      "rel_path": "openplanlink-docx\\OpenPlanLink蓝图OTL主文档_党组学术视角.otl.wpsonline",
+      "size_bytes": 536,
+      "status": "WPS_CLOUD_POINTER_536B",
+      "sha256_16": null,
+      "paragraphs_count": 0,
+      "total_chars": 0,
+      "head_preview": []
+    },
+    {
+      "rel_path": "openplanlink-docx\\WPS十件重读批注_k3-govdoc-seat_2026-10-05.otl.wpsonline",
+      "size_bytes": 536,
+      "status": "WPS_CLOUD_POINTER_536B",
+      "sha256_16": null,
+      "paragraphs_count": 0,
+      "total_chars": 0,
+      "head_preview": []
+    },
+    {
+      "rel_path": "openplanlink-docx\\凭据处置与红线声明_DF-OPS-20261014-HY4-08.md",
+      "size_bytes": 5135,
+      "status": "OTHER_FILE",
+      "sha256_16": null,
+      "paragraphs_count": 0,
+      "total_chars": 0,
+      "head_preview": []
+    },
+    {
+      "rel_path": "openplanlink-docx\\十件文书批注_四件套上卷_DF-MIN-2026-1005-K3-03.otl.wpsonline",
+      "size_bytes": 536,
+      "status": "WPS_CLOUD_POINTER_536B",
+      "sha256_16": null,
+      "paragraphs_count": 0,
+      "total_chars": 0,
+      "head_preview": []
+    },
+    {
+      "rel_path": "openplanlink-docx\\十件文书批注_四件套下卷_DF-MIN-2026-1005-K3-04.otl.wpsonline",
+      "size_bytes": 536,
+      "status": "WPS_CLOUD_POINTER_536B",
+      "sha256_16": null,
+      "paragraphs_count": 0,
+      "total_chars": 0,
+      "head_preview": []
+    },
+    {
+      "rel_path": "openplanlink-docx\\十件文书批注_四件套中卷_DF-MIN-2026-1005-K3-02.otl.wpsonline",
+      "size_bytes": 536,
+      "status": "WPS_CLOUD_POINTER_536B",
+      "sha256_16": null,
+      "paragraphs_count": 0,
+      "total_chars": 0,
+      "head_preview": []
+    },
+    {
+      "rel_path": "openplanlink-docx\\十件文书批注_蓝图跨生态不可读登记暨纲要母本_DF-MIN-2026-1005-K3-05.otl.wpsonline",
+      "size_bytes": 536,
+      "status": "WPS_CLOUD_POINTER_536B",
+      "sha256_16": null,
+      "paragraphs_count": 0,
+      "total_chars": 0,
+      "head_preview": []
+    },
+    {
+      "rel_path": "openplanlink-docx\\十件文书批注_首件主DOCX母本与协同面发现_DF-MIN-2026-1005-K3-01.otl.wpsonline",
+      "size_bytes": 536,
+      "status": "WPS_CLOUD_POINTER_536B",
+      "sha256_16": null,
+      "paragraphs_count": 0,
+      "total_chars": 0,
+      "head_preview": []
+    },
+    {
+      "rel_path": "openplanlink-docx\\外部灵感融合简报_党组学术视角.otl.wpsonline",
+      "size_bytes": 536,
+      "status": "WPS_CLOUD_POINTER_536B",
+      "sha256_16": null,
+      "paragraphs_count": 0,
+      "total_chars": 0,
+      "head_preview": []
+    },
+    {
+      "rel_path": "openplanlink-docx\\外部素材融合与治理条款简报.otl.md",
+      "size_bytes": 42932,
+      "status": "OTHER_FILE",
+      "sha256_16": null,
+      "paragraphs_count": 0,
+      "total_chars": 0,
+      "head_preview": []
+    },
+    {
+      "rel_path": "openplanlink-docx\\尼采式游乐与自进化札记.otl.wpsonline",
+      "size_bytes": 536,
+      "status": "WPS_CLOUD_POINTER_536B",
+      "sha256_16": null,
+      "paragraphs_count": 0,
+      "total_chars": 0,
+      "head_preview": []
+    },
+    {
+      "rel_path": "openplanlink-docx\\算力分配与分布式协同深化报告（暨现代化前沿网站开发实战规划）_DF-ORD-2026-1005-K3-01.otl.wpsonline",
+      "size_bytes": 536,
+      "status": "WPS_CLOUD_POINTER_536B",
+      "sha256_16": null,
+      "paragraphs_count": 0,
+      "total_chars": 0,
+      "head_preview": []
+    },
+    {
+      "rel_path": "openplanlink-docx\\认证流程章节_MFA与GitHook与编码校验_党组学术视角.otl.wpsonline",
+      "size_bytes": 536,
+      "status": "WPS_CLOUD_POINTER_536B",
+      "sha256_16": null,
+      "paragraphs_count": 0,
+      "total_chars": 0,
+      "head_preview": []
+    },
+    {
+      "rel_path": "openplanlink-docx\\跨生态A2A协作网络体系建设方案_党组学术视角.otl.wpsonline",
+      "size_bytes": 536,
+      "status": "WPS_CLOUD_POINTER_536B",
+      "sha256_16": null,
+      "paragraphs_count": 0,
+      "total_chars": 0,
+      "head_preview": []
+    },
+    {
+      "rel_path": "Re0\\2026-9-25-OpenPlanLink 润色-1 (3).otl.wpsonline",
+      "size_bytes": 536,
+      "status": "WPS_CLOUD_POINTER_536B",
+      "sha256_16": null,
+      "paragraphs_count": 0,
+      "total_chars": 0,
+      "head_preview": []
+    },
+    {
+      "rel_path": "Re0\\OpenPlanLink全局声明与Agent-to-Agent网络建设纲要.otl.wpsonline",
+      "size_bytes": 536,
+      "status": "WPS_CLOUD_POINTER_536B",
+      "sha256_16": null,
+      "paragraphs_count": 0,
+      "total_chars": 0,
+      "head_preview": []
+    }
+  ]
+}
