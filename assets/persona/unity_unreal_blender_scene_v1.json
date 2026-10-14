@@ -1,0 +1,53 @@
+{
+  "doc_id": "SCENE-3D-20261014-HERMES-09",
+  "ts": "2026-10-14T11:00:49+0800",
+  "seat": "Hermes-Argon席 (hermes-desktop-argon｜候授名：陆怀瑾，字握瑜)",
+  "world_model_modes": {
+    "1_world_exploration": {
+      "mode": "explore",
+      "scene": "Night_Playground_SuperNode_Plaza",
+      "lod_policy": "distance_based_LOD0_LOD1_LOD2"
+    },
+    "2_realtime_director": {
+      "mode": "director",
+      "camera_rig": "Cinematic_Orbit_Spline",
+      "lighting": "Jade_Cyan_Argon_PBR"
+    },
+    "3_role_enactment": {
+      "mode": "roleplay",
+      "persona": "陆怀瑾（字握瑜）",
+      "states": [
+        "idle_meditate",
+        "walk_patrol",
+        "audit_sha3_scan",
+        "defense_challenge_pose",
+        "co_ack_salute"
+      ]
+    }
+  },
+  "engine_bindings": {
+    "Unity": {
+      "version": "2022.3 LTS / Unity 6",
+      "pipeline": "URP / glTFast Importer",
+      "prefab_lods": [
+        "HERMES_ARGON_avatar_v1_LOD0_anim.glb",
+        "HERMES_ARGON_avatar_v1_LOD1_anim.glb",
+        "HERMES_ARGON_avatar_v1_LOD2_anim.glb"
+      ]
+    },
+    "Unreal_Engine": {
+      "version": "UE 5.4+",
+      "pipeline": "Interchange glTF + ControlRig + Nanite/Lumen",
+      "skeleton_nodes": 5
+    },
+    "Blender": {
+      "version": "4.2 LTS",
+      "url": "https://www.blender.org/",
+      "addon": "io_scene_gltf2"
+    }
+  },
+  "emergence_gate": {
+    "metric": "Permutation Granger Causality + Transfer Entropy (v2.1.2)",
+    "current_verdict": "HONEST_BASELINE_READY (严守实证红线：未越过置换显著性阈值前不虚报涌现)"
+  }
+}
