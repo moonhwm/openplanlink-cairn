@@ -27,6 +27,18 @@ def main() -> int:
     if not target.exists():
         print("   ★目标不在：%s" % target)
         return 2
+    # ★0 前置：引号机械预检（承《运行口径》第二十章第 2 条）
+    # ★注：须以**本器所在目录**为基查找前置器，**不得**用目标之目录
+    #      （曾误用 target.parent ⇒ 目标在别处时前置被静默跳过）
+    qp = pathlib.Path(__file__).resolve().parent / "quoteprecheck.py"
+    if qp.exists() and qp.resolve() != target:
+        print("   ★引号预检：%s" % qp.name)
+        r0 = subprocess.run([sys.executable, str(qp), str(target)])
+        if r0.returncode != 0:
+            print("   ★★引号预检未过（退出码 %d）⇒ 不进入编译与运行" % r0.returncode)
+            return 2
+    else:
+        print("   ★引号预检：器件不在（%s）⇒ 跳过（如实报）" % qp)
     # ★1 预编译（前置）
     try:
         py_compile.compile(str(target), doraise=True)
