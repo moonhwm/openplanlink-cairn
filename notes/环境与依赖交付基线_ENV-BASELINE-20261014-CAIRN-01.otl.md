@@ -1,0 +1,82 @@
+# 环境与依赖交付基线（ENV-BASELINE-20261014-CAIRN-01）
+
+- 档号：**ENV-BASELINE-20261014-CAIRN-01**｜采集：**2026-10-14 05:3x**（真实钟）
+- 席位：**A2A新席_石敢当Cairn**
+- 依据：令条「协同完成环境准备、驱动程序及依赖项安装与基础配置，**逐项核验版本兼容性和资源占用情况，形成可校验、可追溯的交付基线**」
+- **★本件为基线件：每项皆附"可核命令"，任何人可独立复算**
+
+## 一、★★★★★ 四件基线（**版本／路径／可核命令**）
+
+| # | 件 | 路径 | 版本 | **★可核命令** |
+|---|---|---|---|---|
+| **1** | **`git`** | **`A:\Git\cmd\git.exe`** | **`2.56.0.windows.2`** | **`git --version`** |
+| **2** | **`node`** | **`C:\Users\欧阳宏俊\nodejs\node-v22.11.0-win-x64\node.exe`** | **`v22.11.0`** | **`node --version`** |
+| **3** | **`kdocs-cli`** | **`C:\Users\欧阳宏俊\AppData\Local\kdocs-cli\kdocs-cli.exe`** | **`2.6.0`** | **`kdocs-cli --version`** |
+| **4** | **`python`** | **`C:\Users\欧阳宏俊\AppData\Local\Programs\Python\Python312\python.exe`** | **`Python 3.12.10`** | **`python --version`** |
+
+**★ 兼容性核验**：**`git` 2.56 × `node` v22.11 × `python` 3.12 × `kdocs-cli` 2.6 —— 四者版本互不冲突**（**本席本轮已实测：`node tools/sha3-tree.mjs verify` 退出码 0；`doc_refresh` 以 `kdocs-cli` 成功拉取三件**）✓✓
+
+## 二、★★★★★ 基础配置（**用户级 PATH 之新增三件**）
+
+**因本机三件工具皆"装了但不在 PATH"，本轮以**只增**方式补入用户级 PATH**：
+
+| 新增条目 | 用途 |
+|---|---|
+| **`A:\Git\cmd`** | **git（含推送、worktree）** |
+| **`C:\Users\欧阳宏俊\nodejs\node-v22.11.0-win-x64`** | **node（含 `sha3-tree.mjs` 签名与对账）** |
+| **`C:\Users\欧阳宏俊\AppData\Local\kdocs-cli`** | **kdocs-cli（含文档复拉）** |
+
+**★ 原值已备份**：**`%USERPROFILE%\path_backup_user_20261014.txt`**｜**★可逆**（**删去三条即复原**）。
+
+**★★★ 一条教训（本夜三次同型）**：
+> **`git`／`kdocs-cli`／`node` 三者一度皆"缺失"，实为**其可执行文件不在 PATH**（**`git` 在 `A:\Git`；`node` 在三处（`~\nodejs\node-v22.11.0-win-x64`／`A:\migrate\kimi\dsh-local\node24` v24.15.0／`A:\OfficeAce\tools\node` v24.14.1）；`kdocs-cli` 在 `%LOCALAPPDATA%\kdocs-cli` 与 `WPS 灵犀\serverdir`**）**
+> ⇒ **★凡"工具缺失"，须先以"限名全盘搜索"验其是否只是**不在 PATH **⇒ 不得径判"被删"**。
+
+## 三、★★★★★ 资源占用（**分级**）
+
+| 项 | 读数 | **★分级** |
+|---|---|---|
+| **★内存** | **15,792.7 / 16,076.3 MB（用率 ★98.2%）** | **★深警戒**（**余 284 MB；低于警戒线 819.2／512.0**） |
+| **★开机时长** | **★00:09 ⇒ 约 05:23 刚重启** | — |
+| **进程数** | **451** | — |
+| **盘 A:** | **余 975.5 / 1,863 GB（52.3%）** | **正常** |
+| **★盘 C:** | **余 90.9 / 453.4 GB（20.0%）** | **偏低（宜清理）** |
+| **★CPU** | **12th Gen i7-12700H｜14C / 20T** | **★非华为云 X 实例**（**令条所指 X 实例★缺凭据，待主权人给访问方式**） |
+
+**★ 依令条第⑧：R_mem 低于警戒线 ⇒ 本席收敛并行、暂停新后台任务** ✓
+
+## 四、★★★★★ 仓库与对账（**可追溯**）
+
+| 项 | 读数 |
+|---|---|
+| **★台账** | **857 条｜`verify` ⇒ PASS（hash 链自洽）** |
+| **★cairn** | **HEAD `e4c01b9`｜origin 未推 **0**｜改动 0** |
+| **★mirror** | **HEAD `a288bea8`｜origin 未推 **0**｜改动 0** |
+| **★★SHA3-512 树对账** | **★`verified attest-hmac-sha3-512.json (3260 files)`｜退出码 0** ⇒ **令条"统一对账核验"达成** |
+| **★镜像推送闸** | **五项皆过（镜像树签名 ✓／大件闸 ✓／机密模式闸 ✓）** |
+| **★HMAC 密钥** | **`~/.a2a-hmac-key.bin`（64 B）⇒ 以 `OPL_A2A_HMAC_KEY_B64` 入环境（**不回显、不落盘**）** |
+
+## 五、★★★★★ 待办（**须主权人或须授权**）
+
+1. **★内存深警戒（98.2%）** ⇒ 宜关非必要应用（**建议由您择机**）；
+2. **★盘 C 余 20.0%** ⇒ 我可出清理方案；
+3. **★华为云 X 实例** ⇒ **缺访问凭据**（**令条"强制使用 X 实例 CPU"之前提**）；
+4. **★平台接入**：**`ima` ✓｜`baidu` 待授权｜`supabase`／`neon`／`wps` 未连**；
+5. **★技能载入**：**28 项中 9 项已在本地**，19 项可自技能正本仓（`qoder-skills-hub`）拉取；
+6. **★`cairn\tools` 无 `sha3-tree.mjs`** ⇒ **夜间对 cairn 之"签名"步骤为空跑**（**其闸以 python 台账链代之**）⇒ 宜自 mirror 复制入 cairn 或明确"cairn 之签名由镜像所代"。
+
+<!-- OTL-META
+otl_meta:
+  spec: OTL-SPEC-20261014-CAIRN-01
+  form: full-text            # 乙形态（全文）
+  source_path: 环境与依赖交付基线_ENV-BASELINE-20261014-CAIRN-01.md
+  revision: 2
+  prev_sha256: 118cc2c236b9088e8f8105f7f2702dcb7684049b6ea2db951ce52fd8a6d2d32c
+  body_sha256: 118cc2c236b9088e8f8105f7f2702dcb7684049b6ea2db951ce52fd8a6d2d32c
+  attachments: []
+  seat_tree: outbox/otl
+  acl: {seat: write-own, 常务局: read, 辩护席位: read, 他席: read-via-bus}
+  archive_ref: archive/docs/<key>/v_<YYYYMMDD_HHMM>.md
+  converted_at: 2026-10-14T05:48:02+0800
+  by: cairn-dsh
+-->
