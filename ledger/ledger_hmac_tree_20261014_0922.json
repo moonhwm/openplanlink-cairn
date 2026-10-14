@@ -1,0 +1,17 @@
+{
+ "schema": "opl-ledger-hmac-tree/1",
+ "algo": "HMAC-SHA3-512（叶=行字节；干=HMAC(key, 'L'||L||'R'||R)）",
+ "ts": "2026-10-14T09:22:19+0800",
+ "ledger": "ledger/frontier_ledger.jsonl",
+ "lines": 937,
+ "leaves": 937,
+ "root": "b9e8cf33e1b0f07ff38cb422fbe395093a4e1d0fb077e9a2a3230369094de241ad32c9bea5a01c16e4c849beb77216e03d9f3bd179fe575a6bb8283520e2e372",
+ "key_id": "opl-a2a-2026q4",
+ "key_fp_sha256_16": "02e06b305b0840ec",
+ "key_bytes": 64,
+ "honesty": [
+  "★所证为台账字节之完整性，非内容之真实性",
+  "★键为对称 HMAC，非 SM9／格基之非对称后量子签名 ⇒ 仅量子抗性之哈希层",
+  "★键之来源与生成方式尚无记录（PQC 一期①待补记）"
+ ]
+}
