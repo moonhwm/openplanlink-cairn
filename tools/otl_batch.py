@@ -28,6 +28,7 @@ SECRET = [re.compile(r"sk-cp-[A-Za-z0-9_\-]{20,}"), re.compile(r"sk-[A-Za-z0-9_\
 BOX = re.compile(r"[│├└─┌┐┘┬┴┼╔╗╚╝║═]")
 
 TARGETS = [
+    "pull_csiE4H0dSPh9_20261012_REDACTED_DF-REDACT-20261014-CAIRN-01.md",  # ★Round 73：脱敏版（源件含密钥，器物自动排除源件）
     "档案运营管理SOP_SOP-20261014-CAIRN-01.md",
     "环境与依赖交付基线_ENV-BASELINE-20261014-CAIRN-01.md",
     "A2A通信协议与接口规范_PROTO-A2A-20261014-CAIRN-01.md",
@@ -147,6 +148,13 @@ def main() -> int:
         md = to_commonmark(t)
         title = re.sub(r"\.md$", "", name)[:48]
         print("   ── %s（%d 字 ⇒ CommonMark 后 %d 字）" % (name[:44], len(t), len(md)))
+        # ★体积闸（承 led_1550）：正文经命令行传入 ⇒ 超 32 KB 必失败且**静默留空件**
+        _nb = len(md.encode("utf-8"))
+        if _nb > 32000:
+            print("      ★★超命令行闸（%.1f KB > 32 KB）⇒ 跳过（★以免静默留空件；须改分块 block-insert，候批）"
+                  % (_nb / 1024))
+            res.append({"name": name, "title": title, "status": "SKIPPED_OVERSIZE", "bytes": _nb})
+            continue
         if dry:
             continue
         # ★幂等：先查「我的云文档」是否已有同名件 ⇒ 命中则复用其 file_id（insert-content 覆盖），不新建
