@@ -21,7 +21,7 @@ H = pathlib.Path.home()
 CLI = H / ".kimi-work" / "bin" / "kdocs-cli.exe"
 SEAT = (H / "WPS Cloud" / "WPSDrive" / "29969771" / "WPS云盘" / "月之暗面的Plasma游乐场"
         / "A2A新席_石敢当Cairn_20260928")
-LOG = SEAT / "outbox" / "wps_read" / "OTL批量转换_20261014.json"
+LOG = SEAT / "outbox" / "wps_read" / ("OTL批量转换_%s.json" % time.strftime("%Y%m%d_%H%M"))  # ★分文件（不覆盖）
 SECRET = [re.compile(r"sk-cp-[A-Za-z0-9_\-]{20,}"), re.compile(r"sk-[A-Za-z0-9_\-]{20,}"),
           re.compile(r"ark-[0-9a-f]{8}-[0-9a-f\-]{20,}"), re.compile(r"AKID[A-Za-z0-9]{12,}"),
           re.compile(r"LTAI[A-Za-z0-9]{10,}")]
@@ -106,6 +106,15 @@ def main() -> int:
         if a == "--limit" and i + 1 < len(sys.argv):
             lim = int(sys.argv[i + 1])
     res = []
+    # ★幂等之基：先取「我的云文档」现有件（名 ⇒ id），供复用
+    existing = {}
+    if not dry:
+        jl = call("drive", "list-my-files", {"page_size": 300, "filter_type": "file"})
+        for it in (((jl.get("data") or {}).get("items")) or []):
+            nm = str(it.get("name") or "").replace(".otl", "")
+            if nm and it.get("id"):
+                existing.setdefault(nm, it.get("id"))
+        print("   ★现有云端件 %d 件（幂等之基）" % len(existing))
     for name in TARGETS[:lim]:
         p = SEAT / "outbox" / "mem" / name
         if not p.exists():
@@ -118,8 +127,14 @@ def main() -> int:
         print("   ── %s（%d 字 ⇒ CommonMark 后 %d 字）" % (name[:44], len(t), len(md)))
         if dry:
             continue
-        j1 = call("drive", "create-empty-file", {"name": title, "file_extension": "otl", "on_name_conflict": "rename"})
-        fid = deep_id(j1)
+        # ★幂等：先查「我的云文档」是否已有同名件 ⇒ 命中则复用其 file_id（insert-content 覆盖），不新建
+        fid = existing.get(title)
+        if fid:
+            print("      · 已存在同名件，复用 ⇒ 覆盖（不新建）")
+            j1 = {"code": 0, "_reused": True}
+        else:
+            j1 = call("drive", "create-empty-file", {"name": title, "file_extension": "otl", "on_name_conflict": "rename"})
+            fid = deep_id(j1)
         if not fid:
             print("      ★建件未得 id（code=%s msg=%s）⇒ 跳过" % (j1.get("code"), str(j1.get("message"))[:40])); continue
         j2 = call("otl", "insert-content", {"file_id": fid, "title": title, "content": md,
