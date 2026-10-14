@@ -13,6 +13,26 @@
    "card_protocolVersion": "0.3.0",
    "card_signatures": [],
    "match": "same_seat_by_alias"
+  },
+  {
+   "seat": "Hermes-Argon席（候授名：陆怀瑾）",
+   "card_name": "hermes-desktop-argon · Hermes-Argon席（候授名：陆怀瑾）",
+   "seat_key": "hermes-desktop-argon",
+   "card_path": "agent-card-hermes-argon.json",
+   "card_url": "http://127.0.0.1:18788/a2a",
+   "card_protocolVersion": "0.3.0",
+   "card_signatures": [
+    "a2a-hmac-sha3-512/v1 (opl-a2a-2026q4)"
+   ],
+   "match": "verified_signed_card_and_roster"
+  },
+  {
+   "seat": "Qoder席",
+   "card_name": "qoder-882fec9c",
+   "seat_key": "qoder-work",
+   "atlas_shelf": "openplanlink-mirror/atlas/data/shelf-qoder-882fec9c.json",
+   "bus_notice": "DF-NOTICE-2026-1014-QODER-882FEC9C-01 (bus seq=31)",
+   "match": "same_seat_by_roster_and_bus_seq31"
   }
  ],
  "note": "★三层标识之三元合取：seat（名册人读名）＋ card_name（名片人读名）＋ seat_key／bus_key（机读键）⇒ 三者互指方可校验",

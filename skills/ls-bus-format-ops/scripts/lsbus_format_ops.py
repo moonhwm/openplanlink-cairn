@@ -48,7 +48,7 @@ import sys
 sys.stdout.reconfigure(encoding="utf-8")
 TZ = datetime.timezone(datetime.timedelta(hours=8))
 REQ = ("seq", "id", "ts", "seat", "kind", "path", "bytes", "sha3_512")
-KINDS = ("artifact", "pack", "note", "skill", "other")
+KINDS = ("artifact", "pack", "note", "skill", "notice", "defense.challenge", "defense.reply", "unmech.motion", "unmech.ballot", "other")
 
 
 def _ts() -> str:

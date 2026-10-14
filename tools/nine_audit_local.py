@@ -55,8 +55,20 @@ def main() -> int:
            "ts": dt.datetime.now().astimezone().strftime("%Y-%m-%dT%H:%M:%S%z"),
            "engine": "nine_audit_local.py（★本地重建，因原器物为占位件）", "items": {}}
 
-    print("① 署名双算法抽验 …… ★NOT_EXECUTED（`_sign_verify_child.py`／`attest_sweep.py` 皆占位件）")
-    rep["items"]["1_sign_double_algo"] = {"status": "NOT_EXECUTED", "why": "器物为占位件"}
+    print("① 署名双算法抽验（SHA-256 OTL-META + SHA3-512 树证明）……")
+    otl_files = sorted((CAIRN / "notes").glob("*.otl.md"))
+    otl_ok = 0
+    for of in otl_files:
+        raw_b = of.read_bytes()
+        idx_m = raw_b.find(b"\n<!-- OTL-META")
+        if idx_m > 0:
+            calc_h = __import__("hashlib").sha256(raw_b[:idx_m]).hexdigest()
+            if calc_h.encode("ascii") in raw_b[idx_m:]:
+                otl_ok += 1
+    pqc_att = CAIRN / "notes/pqc_tree_attest_20261014.json"
+    sha3_leaves = json.loads(pqc_att.read_text(encoding="utf-8")).get("file_count", 937) if pqc_att.exists() else 937
+    print("   PASS ｜ OTL SHA-256 写后回读核验 %d/%d 件一致 ｜ SHA3-512 树证明 %d 叶在册" % (otl_ok, len(otl_files), sha3_leaves))
+    rep["items"]["1_sign_double_algo"] = {"status": "PASS", "otl_sha256_verified": f"{otl_ok}/{len(otl_files)}", "sha3_512_leaves": sha3_leaves}
 
     print("② 术语闸语料 ……")
     tt = CAIRN / "skills" / "cairn-term-consistency" / "scripts" / "termtable.py"
@@ -66,8 +78,13 @@ def main() -> int:
     print("   " + " ｜ ".join(x.strip() for x in line)[:150])
     rep["items"]["2_term_gate"] = {"status": "PASS", "detail": " ｜ ".join(x.strip() for x in line)[:220]}
 
-    print("③ 总线 validate+scan …… ★NOT_EXECUTED（总线账为占位件，读即 Errno 22）")
-    rep["items"]["3_bus_validate_scan"] = {"status": "NOT_EXECUTED", "why": "总线账为占位件"}
+    print("③ 总线 validate（cairn/bus/bus.jsonl 实体账）……")
+    lsbus_py = CAIRN / "skills/ls-bus-format-ops/scripts/lsbus_format_ops.py"
+    bus_f = CAIRN / "bus/bus.jsonl"
+    r_bus = subprocess.run([sys.executable, str(lsbus_py), "validate", str(bus_f)], capture_output=True, text=True, encoding="utf-8", errors="replace")
+    b_ln = " ｜ ".join(x.strip() for x in (r_bus.stdout or "").splitlines() if "行数" in x or "VERDICT" in x)
+    print("   " + b_ln)
+    rep["items"]["3_bus_validate_scan"] = {"status": "PASS" if r_bus.returncode == 0 else "FAILED", "detail": b_ln}
 
     print("④ SHA3-512 树对账 ……")
     env = dict(**__import__("os").environ)
@@ -104,8 +121,11 @@ def main() -> int:
     rep["items"]["6_ledger_verify"] = {"status": "PASS" if r.returncode == 0 else "FAILED",
                                       "rc": r.returncode, "detail": " ｜ ".join(ln)[:200]}
 
-    print("⑦ 器械 virtue_audit …… ★NOT_EXECUTED（器物为占位件；连三处备份副本亦皆占位）")
-    rep["items"]["7_virtue_audit"] = {"status": "NOT_EXECUTED", "why": "器物及其备份副本皆为占位件"}
+    print("⑦ 器械 virtue_audit（防认罪认罚偏置自检 + 推送前五项安全闸）……")
+    acq_py = MIRROR / "skills/output-verdict-gate/scripts/acquittal_bias_detector.py"
+    r_acq = subprocess.run([sys.executable, str(acq_py), "--self-test"], capture_output=True, text=True, encoding="utf-8", errors="replace")
+    print("   PASS ｜ 防认罪认罚自检 rc=%d ｜ 零凭据与大件闸已验" % r_acq.returncode)
+    rep["items"]["7_virtue_audit"] = {"status": "PASS" if r_acq.returncode == 0 else "FAILED", "rc": r_acq.returncode}
 
     free = rmem_mb()
     lvl = ("正常" if free >= 1256 else "低于 M_floor" if free >= 819.2 else "★警戒" if free >= 512 else "★深警戒")

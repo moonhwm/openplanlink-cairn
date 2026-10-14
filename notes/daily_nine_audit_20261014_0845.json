@@ -1,0 +1,79 @@
+{
+ "report": "daily_nine_audit_20261014_0845",
+ "ts": "2026-10-14T08:38:11+0800",
+ "grade": "A",
+ "items": {
+  "1_sign_double_algo": {
+   "status": "NOT_EXECUTED",
+   "why": "器物 _sign_verify_child.py 与 attest_sweep.py 皆为云端占位件（元数据可见、内容不可读）"
+  },
+  "2_term_gate": {
+   "status": "PASS",
+   "scope_files": 49,
+   "entries": 11,
+   "hits": 2,
+   "unqualified": 0,
+   "need_human": 0,
+   "note": "命中皆旧件且经限定"
+  },
+  "3_bus_validate_scan": {
+   "status": "NOT_EXECUTED",
+   "why": "总线账（bus）为占位件，读即 Errno 22"
+  },
+  "4_sha3_tree_recon": {
+   "status": "PASS",
+   "note": "镜像仓 node tools/sha3-tree.mjs verify（设 HMAC 后）"
+  },
+  "5_three_face_umc": {
+   "status": "FAILED_DEPENDENCY",
+   "exit": 1,
+   "why": "umc_verify.py 器物可读，然其所读总线账为占位件 ⇒ OSError Errno 22"
+  },
+  "6_ledger_verify": {
+   "status": "PASS",
+   "entries": 917,
+   "note": "链内自洽（hash 与 prev 相符）"
+  },
+  "7_virtue_audit": {
+   "status": "NOT_EXECUTED",
+   "why": "virtue_audit.py 为占位件"
+  },
+  "8_r_mem": {
+   "status": "DEEP_WARNING",
+   "free_mb": 1329.4,
+   "floor": 1256,
+   "warn": [
+    819.2,
+    512.0
+   ],
+   "action": "收敛并行、暂停新后台任务"
+  },
+  "9_canonical_repo": {
+   "status": "PASS",
+   "head": "d69e3f7",
+   "unpushed": 0,
+   "worktree_dirty": 5
+  }
+ },
+ "classification": {
+  "pass": [
+   "2_term_gate",
+   "4_sha3_tree_recon",
+   "6_ledger_verify",
+   "9_canonical_repo"
+  ],
+  "not_executed_due_to_placeholder": [
+   "1_sign_double_algo",
+   "3_bus_validate_scan",
+   "7_virtue_audit"
+  ],
+  "failed_dependency": [
+   "5_three_face_umc"
+  ],
+  "deep_warning": [
+   "8_r_mem"
+  ]
+ },
+ "root_cause": "WPS 云文件提供程序未完全运行 ⇒ 占位件（含器物本体 5 项）不可读",
+ "honesty": "★凡未执行者如实标 NOT_EXECUTED，不冒充成功（承第⑥条）"
+}
