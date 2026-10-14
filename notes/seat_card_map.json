@@ -1,0 +1,20 @@
+{
+ "schema": "opl-seat-card-map/1",
+ "ts": "2026-10-14T08:46:20+0800",
+ "seat_root": "A2A新席_石敢当Cairn_20260928",
+ "purpose": "名册与名片之互指映射（承运行口径第十四章第 2 条；★只增不改：不改登记件与名片本体）",
+ "entries": [
+  {
+   "seat": "A2A新席_石敢当Cairn",
+   "card_name": "cairn-dsh · 石敢当席",
+   "seat_key": "a2a-node-local",
+   "pubkey_fp": "SHA256:rrZ7MdOQ…gHEA（ssh-ed25519；私钥不出、不录）",
+   "card_url": "http://127.0.0.1:18787/a2a",
+   "card_protocolVersion": "0.3.0",
+   "card_signatures": [],
+   "match": "same_seat_by_alias"
+  }
+ ],
+ "note": "★三层标识之三元合取：seat（名册人读名）＋ card_name（名片人读名）＋ seat_key／bus_key（机读键）⇒ 三者互指方可校验",
+ "honesty": "★本件为新增映射，不修改 registry/seat_register.jsonl 与 agent-card.json；若常务局准其本体加字段，本件可即废"
+}
