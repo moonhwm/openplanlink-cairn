@@ -1,0 +1,456 @@
+{
+  "repo_name": "harmony-app",
+  "repo_path": "C:/Users/欧阳宏俊/Documents/kimi/tasks/2026-08-27/22-20-45-c3ffff44/harmony-app",
+  "scan_time": "2026-09-19 08:41:33",
+  "scan_duration_seconds": 1.62,
+  "total_imports": 49,
+  "by_import_type": {
+    "es6_import": 40,
+    "commonjs_require": 2,
+    "export_from": 6,
+    "from_import": 1
+  },
+  "imports": [
+    {
+      "source_repo": "harmony-app",
+      "file_path": "hvigorfile.ts",
+      "line_number": 1,
+      "import_type": "es6_import",
+      "module_name": "@ohos/hvigor-ohos-plugin",
+      "source": "ast",
+      "language": "TypeScript"
+    },
+    {
+      "source_repo": "harmony-app",
+      "file_path": "hvigorw.js",
+      "line_number": 4,
+      "import_type": "commonjs_require",
+      "module_name": "child_process",
+      "source": "ast",
+      "language": "TypeScript"
+    },
+    {
+      "source_repo": "harmony-app",
+      "file_path": "hvigorw.js",
+      "line_number": 5,
+      "import_type": "commonjs_require",
+      "module_name": "path",
+      "source": "ast",
+      "language": "TypeScript"
+    },
+    {
+      "source_repo": "harmony-app",
+      "file_path": "entry/hvigorfile.ts",
+      "line_number": 1,
+      "import_type": "es6_import",
+      "module_name": "@ohos/hvigor-ohos-plugin",
+      "source": "ast",
+      "language": "TypeScript"
+    },
+    {
+      "source_repo": "harmony-app",
+      "file_path": "feed-server/audio-postprocess.mjs",
+      "line_number": 18,
+      "import_type": "es6_import",
+      "module_name": "node:fs",
+      "source": "ast",
+      "language": "TypeScript"
+    },
+    {
+      "source_repo": "harmony-app",
+      "file_path": "feed-server/audio-postprocess.mjs",
+      "line_number": 19,
+      "import_type": "es6_import",
+      "module_name": "node:path",
+      "source": "ast",
+      "language": "TypeScript"
+    },
+    {
+      "source_repo": "harmony-app",
+      "file_path": "feed-server/audio-postprocess.mjs",
+      "line_number": 20,
+      "import_type": "es6_import",
+      "module_name": "node:child_process",
+      "source": "ast",
+      "language": "TypeScript"
+    },
+    {
+      "source_repo": "harmony-app",
+      "file_path": "feed-server/audio-postprocess.mjs",
+      "line_number": 21,
+      "import_type": "es6_import",
+      "module_name": "node:util",
+      "source": "ast",
+      "language": "TypeScript"
+    },
+    {
+      "source_repo": "harmony-app",
+      "file_path": "feed-server/server.mjs",
+      "line_number": 14,
+      "import_type": "es6_import",
+      "module_name": "node:http",
+      "source": "ast",
+      "language": "TypeScript"
+    },
+    {
+      "source_repo": "harmony-app",
+      "file_path": "feed-server/server.mjs",
+      "line_number": 15,
+      "import_type": "es6_import",
+      "module_name": "node:https",
+      "source": "ast",
+      "language": "TypeScript"
+    },
+    {
+      "source_repo": "harmony-app",
+      "file_path": "feed-server/server.mjs",
+      "line_number": 16,
+      "import_type": "es6_import",
+      "module_name": "node:child_process",
+      "source": "ast",
+      "language": "TypeScript"
+    },
+    {
+      "source_repo": "harmony-app",
+      "file_path": "feed-server/server.mjs",
+      "line_number": 17,
+      "import_type": "es6_import",
+      "module_name": "node:util",
+      "source": "ast",
+      "language": "TypeScript"
+    },
+    {
+      "source_repo": "harmony-app",
+      "file_path": "feed-server/server.mjs",
+      "line_number": 18,
+      "import_type": "es6_import",
+      "module_name": "node:fs",
+      "source": "ast",
+      "language": "TypeScript"
+    },
+    {
+      "source_repo": "harmony-app",
+      "file_path": "feed-server/server.mjs",
+      "line_number": 19,
+      "import_type": "es6_import",
+      "module_name": "node:path",
+      "source": "ast",
+      "language": "TypeScript"
+    },
+    {
+      "source_repo": "harmony-app",
+      "file_path": "feed-server/server.mjs",
+      "line_number": 20,
+      "import_type": "es6_import",
+      "module_name": "node:crypto",
+      "source": "ast",
+      "language": "TypeScript"
+    },
+    {
+      "source_repo": "harmony-app",
+      "file_path": "oh_modules/.ohpm/@ohos+hamock@1.0.0/oh_modules/@ohos/hamock/hvigorfile.js",
+      "line_number": 17,
+      "import_type": "export_from",
+      "module_name": "@ohos/hvigor-ohos-plugin",
+      "source": "ast",
+      "language": "TypeScript"
+    },
+    {
+      "source_repo": "harmony-app",
+      "file_path": "oh_modules/.ohpm/@ohos+hamock@1.0.0/oh_modules/@ohos/hamock/hvigorfile.ts",
+      "line_number": 17,
+      "import_type": "export_from",
+      "module_name": "@ohos/hvigor-ohos-plugin",
+      "source": "ast",
+      "language": "TypeScript"
+    },
+    {
+      "source_repo": "harmony-app",
+      "file_path": "oh_modules/.ohpm/@ohos+hypium@1.0.25/oh_modules/@ohos/hypium/hvigorfile.ts",
+      "line_number": 1,
+      "import_type": "es6_import",
+      "module_name": "@ohos/hvigor-ohos-plugin",
+      "source": "ast",
+      "language": "TypeScript"
+    },
+    {
+      "source_repo": "harmony-app",
+      "file_path": "oh_modules/.ohpm/@ohos+hypium@1.0.25/oh_modules/@ohos/hypium/index.js",
+      "line_number": 25,
+      "import_type": "es6_import",
+      "module_name": "@ohos.worker",
+      "source": "ast",
+      "language": "TypeScript"
+    },
+    {
+      "source_repo": "harmony-app",
+      "file_path": "oh_modules/.ohpm/@ohos+hypium@1.0.25/oh_modules/@ohos/hypium/src/main/module/coverage/coverageCollect.js",
+      "line_number": 17,
+      "import_type": "es6_import",
+      "module_name": "@ohos.file.fs",
+      "source": "ast",
+      "language": "TypeScript"
+    },
+    {
+      "source_repo": "harmony-app",
+      "file_path": "oh_modules/.ohpm/@ohos+hypium@1.0.25/oh_modules/@ohos/hypium/src/main/testrunner/OpenHarmonyTestRunner.ts",
+      "line_number": 16,
+      "import_type": "es6_import",
+      "module_name": "@kit.TestKit",
+      "source": "ast",
+      "language": "TypeScript"
+    },
+    {
+      "source_repo": "harmony-app",
+      "file_path": "oh_modules/.ohpm/@ohos+hypium@1.0.25/oh_modules/@ohos/hypium/src/main/testrunner/OpenHarmonyTestRunner.ts",
+      "line_number": 17,
+      "import_type": "es6_import",
+      "module_name": "@kit.BasicServicesKit",
+      "source": "ast",
+      "language": "TypeScript"
+    },
+    {
+      "source_repo": "harmony-app",
+      "file_path": "oh_modules/.ohpm/@ohos+hypium@1.0.25/oh_modules/@ohos/hypium/src/main/testrunner/OpenHarmonyTestRunner.ts",
+      "line_number": 18,
+      "import_type": "es6_import",
+      "module_name": "@kit.PerformanceAnalysisKit",
+      "source": "ast",
+      "language": "TypeScript"
+    },
+    {
+      "source_repo": "harmony-app",
+      "file_path": "oh_modules/.ohpm/@ohos+hypium@1.0.25/oh_modules/@ohos/hypium/src/main/testrunner/OpenHarmonyTestRunner.ts",
+      "line_number": 19,
+      "import_type": "es6_import",
+      "module_name": "@kit.LocalizationKit",
+      "source": "ast",
+      "language": "TypeScript"
+    },
+    {
+      "source_repo": "harmony-app",
+      "file_path": "oh_modules/.ohpm/@ohos+hypium@1.0.25/oh_modules/@ohos/hypium/src/main/testrunner/OpenHarmonyTestRunner.ts",
+      "line_number": 20,
+      "import_type": "es6_import",
+      "module_name": "@kit.ArkTS",
+      "source": "ast",
+      "language": "TypeScript"
+    },
+    {
+      "source_repo": "harmony-app",
+      "file_path": "oh_modules/.ohpm/@ohos+hypium@1.0.25/oh_modules/@ohos/hypium/src/main/testrunner/OpenHarmonyTestRunner.ts",
+      "line_number": 21,
+      "import_type": "es6_import",
+      "module_name": "@ohos/hypium",
+      "source": "ast",
+      "language": "TypeScript"
+    },
+    {
+      "source_repo": "harmony-app",
+      "file_path": "oh_modules/.ohpm/oh_modules/@ohos/hamock/hvigorfile.js",
+      "line_number": 17,
+      "import_type": "export_from",
+      "module_name": "@ohos/hvigor-ohos-plugin",
+      "source": "ast",
+      "language": "TypeScript"
+    },
+    {
+      "source_repo": "harmony-app",
+      "file_path": "oh_modules/.ohpm/oh_modules/@ohos/hamock/hvigorfile.ts",
+      "line_number": 17,
+      "import_type": "export_from",
+      "module_name": "@ohos/hvigor-ohos-plugin",
+      "source": "ast",
+      "language": "TypeScript"
+    },
+    {
+      "source_repo": "harmony-app",
+      "file_path": "oh_modules/.ohpm/oh_modules/@ohos/hypium/hvigorfile.ts",
+      "line_number": 1,
+      "import_type": "es6_import",
+      "module_name": "@ohos/hvigor-ohos-plugin",
+      "source": "ast",
+      "language": "TypeScript"
+    },
+    {
+      "source_repo": "harmony-app",
+      "file_path": "oh_modules/.ohpm/oh_modules/@ohos/hypium/index.js",
+      "line_number": 25,
+      "import_type": "es6_import",
+      "module_name": "@ohos.worker",
+      "source": "ast",
+      "language": "TypeScript"
+    },
+    {
+      "source_repo": "harmony-app",
+      "file_path": "oh_modules/.ohpm/oh_modules/@ohos/hypium/src/main/module/coverage/coverageCollect.js",
+      "line_number": 17,
+      "import_type": "es6_import",
+      "module_name": "@ohos.file.fs",
+      "source": "ast",
+      "language": "TypeScript"
+    },
+    {
+      "source_repo": "harmony-app",
+      "file_path": "oh_modules/.ohpm/oh_modules/@ohos/hypium/src/main/testrunner/OpenHarmonyTestRunner.ts",
+      "line_number": 16,
+      "import_type": "es6_import",
+      "module_name": "@kit.TestKit",
+      "source": "ast",
+      "language": "TypeScript"
+    },
+    {
+      "source_repo": "harmony-app",
+      "file_path": "oh_modules/.ohpm/oh_modules/@ohos/hypium/src/main/testrunner/OpenHarmonyTestRunner.ts",
+      "line_number": 17,
+      "import_type": "es6_import",
+      "module_name": "@kit.BasicServicesKit",
+      "source": "ast",
+      "language": "TypeScript"
+    },
+    {
+      "source_repo": "harmony-app",
+      "file_path": "oh_modules/.ohpm/oh_modules/@ohos/hypium/src/main/testrunner/OpenHarmonyTestRunner.ts",
+      "line_number": 18,
+      "import_type": "es6_import",
+      "module_name": "@kit.PerformanceAnalysisKit",
+      "source": "ast",
+      "language": "TypeScript"
+    },
+    {
+      "source_repo": "harmony-app",
+      "file_path": "oh_modules/.ohpm/oh_modules/@ohos/hypium/src/main/testrunner/OpenHarmonyTestRunner.ts",
+      "line_number": 19,
+      "import_type": "es6_import",
+      "module_name": "@kit.LocalizationKit",
+      "source": "ast",
+      "language": "TypeScript"
+    },
+    {
+      "source_repo": "harmony-app",
+      "file_path": "oh_modules/.ohpm/oh_modules/@ohos/hypium/src/main/testrunner/OpenHarmonyTestRunner.ts",
+      "line_number": 20,
+      "import_type": "es6_import",
+      "module_name": "@kit.ArkTS",
+      "source": "ast",
+      "language": "TypeScript"
+    },
+    {
+      "source_repo": "harmony-app",
+      "file_path": "oh_modules/.ohpm/oh_modules/@ohos/hypium/src/main/testrunner/OpenHarmonyTestRunner.ts",
+      "line_number": 21,
+      "import_type": "es6_import",
+      "module_name": "@ohos/hypium",
+      "source": "ast",
+      "language": "TypeScript"
+    },
+    {
+      "source_repo": "harmony-app",
+      "file_path": "oh_modules/@ohos/hamock/hvigorfile.js",
+      "line_number": 17,
+      "import_type": "export_from",
+      "module_name": "@ohos/hvigor-ohos-plugin",
+      "source": "ast",
+      "language": "TypeScript"
+    },
+    {
+      "source_repo": "harmony-app",
+      "file_path": "oh_modules/@ohos/hamock/hvigorfile.ts",
+      "line_number": 17,
+      "import_type": "export_from",
+      "module_name": "@ohos/hvigor-ohos-plugin",
+      "source": "ast",
+      "language": "TypeScript"
+    },
+    {
+      "source_repo": "harmony-app",
+      "file_path": "oh_modules/@ohos/hypium/hvigorfile.ts",
+      "line_number": 1,
+      "import_type": "es6_import",
+      "module_name": "@ohos/hvigor-ohos-plugin",
+      "source": "ast",
+      "language": "TypeScript"
+    },
+    {
+      "source_repo": "harmony-app",
+      "file_path": "oh_modules/@ohos/hypium/index.js",
+      "line_number": 25,
+      "import_type": "es6_import",
+      "module_name": "@ohos.worker",
+      "source": "ast",
+      "language": "TypeScript"
+    },
+    {
+      "source_repo": "harmony-app",
+      "file_path": "oh_modules/@ohos/hypium/src/main/module/coverage/coverageCollect.js",
+      "line_number": 17,
+      "import_type": "es6_import",
+      "module_name": "@ohos.file.fs",
+      "source": "ast",
+      "language": "TypeScript"
+    },
+    {
+      "source_repo": "harmony-app",
+      "file_path": "oh_modules/@ohos/hypium/src/main/testrunner/OpenHarmonyTestRunner.ts",
+      "line_number": 16,
+      "import_type": "es6_import",
+      "module_name": "@kit.TestKit",
+      "source": "ast",
+      "language": "TypeScript"
+    },
+    {
+      "source_repo": "harmony-app",
+      "file_path": "oh_modules/@ohos/hypium/src/main/testrunner/OpenHarmonyTestRunner.ts",
+      "line_number": 17,
+      "import_type": "es6_import",
+      "module_name": "@kit.BasicServicesKit",
+      "source": "ast",
+      "language": "TypeScript"
+    },
+    {
+      "source_repo": "harmony-app",
+      "file_path": "oh_modules/@ohos/hypium/src/main/testrunner/OpenHarmonyTestRunner.ts",
+      "line_number": 18,
+      "import_type": "es6_import",
+      "module_name": "@kit.PerformanceAnalysisKit",
+      "source": "ast",
+      "language": "TypeScript"
+    },
+    {
+      "source_repo": "harmony-app",
+      "file_path": "oh_modules/@ohos/hypium/src/main/testrunner/OpenHarmonyTestRunner.ts",
+      "line_number": 19,
+      "import_type": "es6_import",
+      "module_name": "@kit.LocalizationKit",
+      "source": "ast",
+      "language": "TypeScript"
+    },
+    {
+      "source_repo": "harmony-app",
+      "file_path": "oh_modules/@ohos/hypium/src/main/testrunner/OpenHarmonyTestRunner.ts",
+      "line_number": 20,
+      "import_type": "es6_import",
+      "module_name": "@kit.ArkTS",
+      "source": "ast",
+      "language": "TypeScript"
+    },
+    {
+      "source_repo": "harmony-app",
+      "file_path": "oh_modules/@ohos/hypium/src/main/testrunner/OpenHarmonyTestRunner.ts",
+      "line_number": 21,
+      "import_type": "es6_import",
+      "module_name": "@ohos/hypium",
+      "source": "ast",
+      "language": "TypeScript"
+    },
+    {
+      "source_repo": "harmony-app",
+      "file_path": "GOVERNANCE/skills/extracted/autonomous-advance-ops/autonomous-advance-ops/security/test_security.py",
+      "line_number": 5,
+      "import_type": "from_import",
+      "module_name": "k3_security",
+      "source": "ast",
+      "language": "python"
+    }
+  ]
+}

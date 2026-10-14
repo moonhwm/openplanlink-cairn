@@ -1,0 +1,9 @@
+{
+  "name": "get-alerts",
+  "version": "1.0.0",
+  "description": "Lightweight read-only endpoint for client polling - reads alerts from CloudBase storage",
+  "main": "index.js",
+  "dependencies": {
+    "@cloudbase/node-sdk": "^3.0.0"
+  }
+}

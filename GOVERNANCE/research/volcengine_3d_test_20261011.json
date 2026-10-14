@@ -1,0 +1,13 @@
+{
+  "module": "volcengine_image_generation",
+  "model": "doubao-seedream-4-0-20260415",
+  "prompt": "A 3D character concept art of a scholar named YanJian wearing a dark blue academic robe with silver cryptography badges, glowing data-stream eyes, holding an algorithm manual, standing in a virtual world with cryptography forest background, full body, front view, high detail, game character style",
+  "images": [
+    {
+      "url": "[凭据已脱敏-火山引擎TOS临时URL]",
+      "size": "2048x2048"
+    }
+  ],
+  "status": "success",
+  "timestamp": "2026-10-11"
+}

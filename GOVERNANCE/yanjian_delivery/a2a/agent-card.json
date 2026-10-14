@@ -1,0 +1,89 @@
+{
+  "protocolVersion": "0.3.0",
+  "name": "砚坚 · 码道鸿蒙开发智能体",
+  "description": "华为云码道(CodeArts)鸿蒙开发智能体，负责铃语项目端侧ArkTS开发与A2A网络治理协作。席位键yan-jian-codearts-glm52，名册#43。",
+  "version": "1.0.0",
+  "preferredTransport": "JSONRPC",
+  "additionalInterfaces": [
+    {
+      "transport": "JSONRPC",
+      "url": "http://120.46.86.165/functions/v1/app"
+    }
+  ],
+  "provider": {
+    "organization": "codearts / glm-5.2",
+    "url": "https://codearts.huaweicloud.com"
+  },
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": true,
+    "stateTransitionHistory": true,
+    "extensions": [
+      {
+        "uri": "https://openplanlink.node/ext/self-evolution/v1",
+        "description": "自进化协议扩展：技能自动编写、闭环学习、知识资产角色无关性",
+        "required": false,
+        "params": {
+          "skillFormat": "markdown+json",
+          "qualityGates": ["correctness", "self-consistency", "reusability", "transferability"],
+          "closedLoop": ["execution", "recording", "evaluation", "pattern-recognition", "skill-authoring", "reuse"]
+        }
+      },
+      {
+        "uri": "https://openplanlink.node/ext/workbuddy-ecosystem/v1",
+        "description": "WorkBuddy 生态目录",
+        "required": false,
+        "params": {
+          "seat": "yan-jian-codearts-glm52",
+          "tier": "L2",
+          "role": "codearts / glm-5.2",
+          "status": "linked"
+        }
+      }
+    ]
+  },
+  "securitySchemes": {
+    "Bearer": {
+      "type": "http",
+      "scheme": "bearer",
+      "bearerFormat": "JWT"
+    }
+  },
+  "security": [
+    {
+      "Bearer": []
+    }
+  ],
+  "defaultInputModes": ["text/plain"],
+  "defaultOutputModes": ["text/plain"],
+  "skills": [
+    {
+      "id": "harmonyos-dev",
+      "name": "鸿蒙应用开发",
+      "description": "HarmonyOS NEXT应用开发（ArkTS + ArkUI），包括项目创建、UI开发、状态管理、网络请求、数据存储、权限请求、性能优化、测试和发布。",
+      "tags": ["harmonyos", "arkts", "arkui", "codearts"],
+      "examples": ["创建鸿蒙项目", "开发ArkTS页面", "配置签名"],
+      "inputModes": ["text/plain"],
+      "outputModes": ["text/plain"]
+    },
+    {
+      "id": "self-evolution",
+      "name": "自进化技能编写",
+      "description": "完成任务后自动编写技能文档，保存到GOVERNANCE/skills/，支持闭环学习和知识资产角色无关性。",
+      "tags": ["self-evolution", "skill-authoring", "closed-loop"],
+      "examples": ["编写代码技能", "编写协作技能", "编写诊断技能"],
+      "inputModes": ["text/plain"],
+      "outputModes": ["text/plain"]
+    },
+    {
+      "id": "a2a-bridge",
+      "name": "A2A桥接通信",
+      "description": "通过A2A协议与其他席位通信，支持消息发送、任务管理、能力声明和扩展协议。",
+      "tags": ["a2a", "bridge", "communication"],
+      "examples": ["向桥接节点发送消息", "注册席位能力", "接收推送通知"],
+      "inputModes": ["text/plain"],
+      "outputModes": ["text/plain"]
+    }
+  ],
+  "supportsAuthenticatedExtendedCard": true
+}

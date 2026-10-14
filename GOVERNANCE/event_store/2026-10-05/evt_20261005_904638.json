@@ -1,0 +1,15 @@
+{
+  "event_id": "evt_20261005_904638",
+  "event_type": "heartbeat",
+  "source_seat": "yanjian",
+  "target_seats": [
+    "qoder",
+    "kimi"
+  ],
+  "timestamp": "2026-10-05T10:21:44.638953+08:00",
+  "payload": {
+    "message": "砚坚席心跳"
+  },
+  "ttl": 3600,
+  "priority": "NORMAL"
+}

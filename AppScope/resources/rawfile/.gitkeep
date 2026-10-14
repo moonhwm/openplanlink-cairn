@@ -1,0 +1,3 @@
+# 此目录存放 AGC 配置文件 agconnect-services.json
+# 机主在 AppGallery Connect 开通 Push Kit 后下载此文件放到此处
+# 文件不可提交到 git（包含 API Key 等敏感信息）

@@ -1,0 +1,51 @@
+{
+  "timestamp": "2026-10-12 12:56:00",
+  "module": "volcengine_imageto3d_deep_test_v4",
+  "step1_image_url": "https://ark-content-generation-v2-cn-beijing.tos-cn-beijing.volces.com/doubao-seedream-4-0/021791780",
+  "step2_imageto3d_long_timeout": {
+    "status": "success",
+    "elapsed": 599.2,
+    "raw_response": {
+      "model": "doubao-seed3d-2-0-260328",
+      "content": {
+        "video_url": "[REDACTED: TOS signed URL contains Access Key ID]"
+      },
+      "usage": {
+        "completion_tokens": 30000,
+        "total_tokens": 30000
+      },
+      "algo": {
+        "subdivisionlevel": "medium",
+        "fileformat": "glb"
+      }
+    }
+  },
+  "step3_async_endpoints": {
+    "/contents/tasks": {
+      "code": 404,
+      "response": ""
+    },
+    "/tasks": {
+      "code": 404,
+      "response": ""
+    },
+    "/contents/async/generations": {
+      "code": 404,
+      "response": ""
+    },
+    "GET_/contents/tasks": {
+      "code": 404,
+      "response": ""
+    },
+    "GET_/tasks": {
+      "code": 404,
+      "response": ""
+    }
+  },
+  "step4_hyper3d_retry": {
+    "status": "failed",
+    "code": 500,
+    "error": "{\"error\":{\"code\":\"ModelLoading\",\"message\":\"The request cannot be processed at this time because the model is currently being loaded, please retry later or contact with administrator if not work afterwards. Request id: 021791781580513e78865964099cb4ca259751f97dcc861fb57a8\",\"param\":\"\",\"type\":\"\"}}",
+    "elapsed": 60.9
+  }
+}

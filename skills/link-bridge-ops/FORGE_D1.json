@@ -1,0 +1,78 @@
+{
+  "scores": {
+    "1": 9,
+    "2": 8,
+    "3": 9,
+    "4": 9,
+    "5": 8,
+    "6": 8,
+    "7": 9,
+    "8": 8,
+    "9": 10
+  },
+  "bugs": [
+    {
+      "id": "bug-1",
+      "severity": "high",
+      "location": "scripts/link_bridge.py: cmd_migrate 中 shutil.move(src, dst) 之后、哈希复验之前",
+      "description": "目录迁移无哈希复验，且 shutil.move 跨设备时可能因中途失败留下部分拷贝，原路径已消失但未回链，数据处于无链接、无注册表的真空状态。",
+      "trigger": "migrate-link 一个目录，且大盘目录与源不在同一文件系统，移动过程中磁盘满或进程被 kill。",
+      "evidence": "cmd_migrate 中 digest 仅对文件计算：`digest = sha256(src) if os.path.isfile(src) else None`；目录迁移后无任何完整性校验，直接 `os.symlink(dst, src)`。",
+      "fix": "目录迁移后至少校验文件数量与总大小，或使用 rsync --remove-source-files 并校验；失败时回滚或保留原路径。"
+    },
+    {
+      "id": "bug-2",
+      "severity": "medium",
+      "location": "scripts/link_bridge.py: cmd_migrate 中 is_within 检查",
+      "description": "is_within 使用 realpath 解析，但源路径若为符号链接已被前置拒绝；然而目标目录若为符号链接，realpath 会解析到真实路径，可能导致自吞/倒吞检查失效或误判。",
+      "trigger": "dst_dir 是一个指向 src 内部目录的符号链接，或 src 是符号链接但被前置检查遗漏（如相对路径解析差异）。",
+      "evidence": "`def is_within(child, parent): return os.path.realpath(child).startswith(os.path.realpath(parent) + os.sep)`；若 dst_dir 是符号链接指向 src 内部，realpath 解析后仍能检测，但若 src 本身是符号链接，前置 `os.path.islink(src)` 已拒。实际风险在于 dst_dir 为符号链接且指向 src 内部时，realpath 解析后 is_within 应能捕获，但若符号链接指向 src 的父目录，可能绕过。",
+      "fix": "对 src 和 dst_dir 均使用 os.path.realpath 后再做包含检查，并显式拒绝 dst_dir 为符号链接的情况。"
+    },
+    {
+      "id": "bug-3",
+      "severity": "medium",
+      "location": "scripts/link_bridge.py: cmd_check 中 hardlink 检查",
+      "description": "hardlink 检查使用 os.path.samefile(link, target)，但若 link 或 target 之一不存在，samefile 会抛出 FileNotFoundError，导致 check 命令崩溃而非报告 BROKEN。",
+      "trigger": "注册表中某个 hardlink 的 link 或 target 被删除后运行 check。",
+      "evidence": "`if not (os.path.exists(link) and os.path.exists(target) and os.path.samefile(link, target))`；由于 Python 的 and 短路，若 exists 为 False 则不会调用 samefile，因此不会崩溃。但若 link 存在而 target 不存在，exists(target) 为 False，短路后不会调用 samefile，安全。实际风险：若 link 和 target 都存在但指向不同 inode，samefile 返回 False，正确报告 BROKEN。此条不构成 bug，撤回。",
+      "fix": "无需修复。"
+    },
+    {
+      "id": "bug-4",
+      "severity": "high",
+      "location": "scripts/link_bridge.py: cmd_migrate 中回链核验",
+      "description": "回链核验使用 os.path.realpath(src) != os.path.realpath(dst)，但若 dst 本身是符号链接（例如大盘目录内已有同名符号链接），realpath 会解析到最终目标，可能导致核验通过但实际链接指向错误。",
+      "trigger": "dst_dir 内已存在一个同名符号链接指向其他位置，但 os.path.exists(dst) 或 os.path.islink(dst) 检查会先拒绝（exit 2），因此不会到达此步。安全。",
+      "fix": "无需修复。"
+    },
+    {
+      "id": "bug-5",
+      "severity": "medium",
+      "location": "scripts/link_bridge.py: cmd_migrate 中钩子调用",
+      "description": "钩子调用使用 subprocess.run([h, src, dst], timeout=300, check=False)，若钩子脚本不存在或不可执行，会抛出 FileNotFoundError 或 PermissionError，被 except Exception 捕获并打印 WARN，但不会影响主流程。然而，若钩子脚本执行时间超过 300 秒，会抛出 TimeoutExpired，同样被捕获。此设计可接受，但钩子失败可能导致冗余副本未创建，而注册表已记录迁移成功，造成状态不一致。",
+      "trigger": "LINK_BRIDGE_HOOKS 指向的脚本执行失败或超时。",
+      "evidence": "`except Exception as e: print(f'WARN 钩子 {h} 异常: {e}')`；注册表已追加，钩子失败仅警告。",
+      "fix": "钩子失败时应记录到注册表或返回非零退出码，以便用户感知冗余未建立。"
+    }
+  ],
+  "top3": [
+    {
+      "shortcoming": "目录迁移无完整性校验，失败时数据真空",
+      "before": "cmd_migrate 对目录仅计算 size=None，digest=None，迁移后直接回链，无任何校验。",
+      "after": "对目录迁移后校验文件数量与总大小，或使用 rsync 并校验；失败时回滚或保留原路径。"
+    },
+    {
+      "shortcoming": "钩子失败静默，冗余状态不一致",
+      "before": "钩子异常仅打印 WARN，注册表已记录迁移成功，用户无法感知冗余未建立。",
+      "after": "钩子失败时在注册表中记录 hook_failed 字段，或返回非零退出码，并提示用户。"
+    },
+    {
+      "shortcoming": "is_within 对符号链接目标目录的检查可能绕过",
+      "before": "is_within 使用 realpath，但未显式拒绝 dst_dir 为符号链接的情况，可能因解析差异导致自吞/倒吞检查失效。",
+      "after": "对 src 和 dst_dir 均使用 realpath 后再做包含检查，并显式拒绝 dst_dir 为符号链接。"
+    }
+  ],
+  "verdict": "REVISE",
+  "reason": "技能整体设计优秀，触发词覆盖全面，工作流清晰，失败分支完备，反模式黑名单明确，自检含 5 项负断言。但存在两个高严重度问题：目录迁移无完整性校验可能导致数据真空；钩子失败静默导致冗余状态不一致。此外，is_within 对符号链接目标目录的检查可能绕过。建议修复后重新评估。"
+}

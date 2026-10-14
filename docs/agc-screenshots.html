@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>铃语 - AGC截图素材</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: #1a1f2e;
+    font-family: -apple-system, 'PingFang SC', 'Microsoft YaHei', sans-serif;
+    display: flex;
+    gap: 40px;
+    padding: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  /* 手机外框 */
+  .phone {
+    width: 360px;
+    height: 780px;
+    background: #0d1117;
+    border-radius: 32px;
+    border: 3px solid #2a3344;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.5);
+  }
+
+  /* 状态栏 */
+  .status-bar {
+    height: 28px;
+    background: #0d1117;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 16px;
+    color: #c6ceda;
+    font-size: 12px;
+  }
+
+  /* 顶栏 */
+  .top-bar {
+    display: flex;
+    align-items: center;
+    padding: 12px 20px 10px;
+    background: #0d1117;
+  }
+  .top-bar .title {
+    font-size: 34px;
+    font-weight: 700;
+    color: #e8edf5;
+  }
+  .top-bar .broadcast-off {
+    font-size: 20px;
+    color: #e74c3c;
+    margin-left: 8px;
+  }
+  .top-bar .spacer { flex: 1; }
+  .top-bar .refresh-time {
+    font-size: 20px;
+    color: #c6ceda;
+    text-align: right;
+  }
+  .top-bar .settings-btn {
+    font-size: 20px;
+    font-weight: 700;
+    color: #f0b232;
+    margin-left: 12px;
+    padding: 10px 12px;
+  }
+
+  /* 卡片 */
+  .card {
+    margin: 0 16px 16px;
+    background: #1c2433;
+    border-radius: 16px;
+    padding: 20px;
+  }
+  .card-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  .direction-tag {
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+    padding: 4px 14px;
+    border-radius: 10px;
+  }
+  .direction-tag.up { background: #e74c3c; }
+  .direction-tag.down { background: #2ecc71; }
+  .stock-name {
+    font-size: 30px;
+    font-weight: 700;
+    color: #e8edf5;
+    margin-left: 12px;
+    flex: 1;
+  }
+  .signal-badge {
+    font-size: 18px;
+    color: #f0b232;
+    border: 1px solid #f0b232;
+    border-radius: 6px;
+    padding: 2px 8px;
+    margin-left: 10px;
+  }
+  .play-btn {
+    font-size: 28px;
+    font-weight: 700;
+    color: #f0b232;
+  }
+  .headline {
+    font-size: 28px;
+    color: #e8edf5;
+    margin-bottom: 6px;
+  }
+  .detail {
+    font-size: 22px;
+    color: #c6ceda;
+  }
+
+  /* 空态/提示 */
+  .empty-state {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    padding: 40px;
+  }
+  .empty-state .text {
+    font-size: 28px;
+    color: #c6ceda;
+  }
+  .empty-state .sub {
+    font-size: 20px;
+    color: #c6ceda;
+    margin-top: 12px;
+  }
+
+  /* 通知样式 */
+  .notification {
+    margin: 8px 12px;
+    background: #1c2433;
+    border-radius: 12px;
+    padding: 14px 16px;
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+  }
+  .notification .app-icon {
+    width: 36px;
+    height: 36px;
+    border-radius: 8px;
+    background: #f0b232;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 700;
+    color: #0d1117;
+    flex-shrink: 0;
+  }
+  .notification .content { flex: 1; }
+  .notification .notif-title {
+    font-size: 16px;
+    font-weight: 600;
+    color: #e8edf5;
+    margin-bottom: 2px;
+  }
+  .notification .notif-body {
+    font-size: 14px;
+    color: #c6ceda;
+  }
+  .notification .time {
+    font-size: 12px;
+    color: #86909c;
+  }
+
+  /* 设置页 */
+  .settings-top {
+    display: flex;
+    align-items: center;
+    padding: 12px 20px 10px;
+    background: #0d1117;
+  }
+  .settings-top .back-btn {
+    font-size: 28px;
+    font-weight: 700;
+    color: #f0b232;
+    padding: 8px;
+  }
+  .settings-top .title {
+    font-size: 34px;
+    font-weight: 700;
+    color: #e8edf5;
+    margin-left: 16px;
+  }
+
+  .settings-section {
+    margin: 0 16px 16px;
+    background: #1c2433;
+    border-radius: 16px;
+    padding: 20px;
+  }
+  .settings-section .section-title {
+    font-size: 28px;
+    font-weight: 700;
+    color: #e8edf5;
+    margin-bottom: 12px;
+  }
+  .settings-row {
+    display: flex;
+    align-items: center;
+    padding: 12px 0;
+  }
+  .settings-row .label {
+    font-size: 28px;
+    color: #e8edf5;
+    flex: 1;
+  }
+  .settings-row .value {
+    font-size: 28px;
+    color: #c6ceda;
+  }
+  .toggle {
+    width: 60px;
+    height: 28px;
+    border-radius: 14px;
+    background: #2ecc71;
+    position: relative;
+  }
+  .toggle::after {
+    content: '';
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background: #fff;
+    position: absolute;
+    right: 2px;
+    top: 2px;
+  }
+  .stock-item {
+    display: flex;
+    align-items: center;
+    padding: 12px 16px;
+    background: #1c2433;
+    border-radius: 12px;
+    margin-bottom: 8px;
+  }
+  .stock-item .code {
+    font-size: 28px;
+    color: #e8edf5;
+    flex: 1;
+  }
+  .stock-item .delete-btn {
+    font-size: 22px;
+    color: #e74c3c;
+    padding: 8px 12px;
+  }
+  .font-btn {
+    font-size: 22px;
+    padding: 12px;
+    border-radius: 8px;
+    flex: 1;
+    text-align: center;
+  }
+  .font-btn.active {
+    background: #f0b232;
+    color: #0d1117;
+    font-weight: 700;
+  }
+  .font-btn.inactive {
+    background: #1c2433;
+    color: #e8edf5;
+    border: 1px solid #c6ceda;
+  }
+
+  /* 标签 */
+  .screenshot-label {
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #c6ceda;
+    font-size: 14px;
+    white-space: nowrap;
+  }
+
+  /* 通知栏 */
+  .notif-bar {
+    background: #0d1117;
+    padding: 4px 0;
+  }
+</style>
+</head>
+<body>
+
+<!-- 截图1：主界面 - 异动卡片流（订阅消息对应界面） -->
+<div class="phone" style="position: relative;">
+  <div class="status-bar">
+    <span>9:41</span>
+    <span>📶 5G 🔋 100%</span>
+  </div>
+  <div class="top-bar">
+    <span class="title">铃语</span>
+    <span class="spacer"></span>
+    <div>
+      <div class="refresh-time">09:35:12</div>
+    </div>
+    <span class="settings-btn">设置</span>
+  </div>
+
+  <!-- 异动卡片1 -->
+  <div class="card">
+    <div class="card-header">
+      <span class="direction-tag up">涨</span>
+      <span class="stock-name">中国巨石</span>
+      <span class="play-btn">▶ 听</span>
+    </div>
+    <div class="headline">中国巨石 2分钟内上涨2.3%</div>
+    <div class="detail">600176 · 量能放大1.5倍</div>
+  </div>
+
+  <!-- 异动卡片2 -->
+  <div class="card">
+    <div class="card-header">
+      <span class="direction-tag down">跌</span>
+      <span class="stock-name">宁德时代</span>
+      <span class="play-btn">▶ 听</span>
+    </div>
+    <div class="headline">宁德时代 5分钟内下跌1.8%</div>
+    <div class="detail">300750 · 跌破前低支撑位</div>
+  </div>
+
+  <!-- 信号卡片 -->
+  <div class="card">
+    <div class="card-header">
+      <span class="direction-tag up">涨</span>
+      <span class="stock-name">贵州茅台</span>
+      <span class="signal-badge">自家信号</span>
+      <span class="play-btn">▶ 听</span>
+    </div>
+    <div class="headline">动量策略今日目标：贵州茅台</div>
+    <div class="detail">600519 · 5日动量排名首位</div>
+  </div>
+
+  <div class="screenshot-label">截图1：订阅消息 — 异动卡片流主界面</div>
+</div>
+
+<!-- 截图2：通知中心 — 推送通知样式 -->
+<div class="phone" style="position: relative;">
+  <div class="status-bar">
+    <span>9:41</span>
+    <span>📶 5G 🔋 100%</span>
+  </div>
+  <div class="notif-bar">
+    <!-- 通知1 -->
+    <div class="notification">
+      <div class="app-icon">铃</div>
+      <div class="content">
+        <div class="notif-title">自选股异动提醒</div>
+        <div class="notif-body">中国巨石(600176)2分钟内上涨2.3%，点击收听详细播报。</div>
+      </div>
+      <div class="time">09:35</div>
+    </div>
+
+    <!-- 通知2 -->
+    <div class="notification">
+      <div class="app-icon">铃</div>
+      <div class="content">
+        <div class="notif-title">自选股异动提醒</div>
+        <div class="notif-body">宁德时代(300750)5分钟内下跌1.8%，点击收听详细播报。</div>
+      </div>
+      <div class="time">09:32</div>
+    </div>
+
+    <!-- 通知3 -->
+    <div class="notification">
+      <div class="app-icon">铃</div>
+      <div class="content">
+        <div class="notif-title">监测服务状态提醒</div>
+        <div class="notif-body">铃语异动监测服务已启动，正在为您实时监测3只自选股。</div>
+      </div>
+      <div class="time">09:30</div>
+    </div>
+  </div>
+
+  <div class="screenshot-label">截图2：推送通知 — 通知中心消息样式</div>
+</div>
+
+<!-- 截图3：设置界面（账号动态对应界面） -->
+<div class="phone" style="position: relative;">
+  <div class="status-bar">
+    <span>9:41</span>
+    <span>📶 5G 🔋 100%</span>
+  </div>
+  <div class="settings-top">
+    <span class="back-btn">← 返回</span>
+    <span class="title">设置</span>
+  </div>
+
+  <!-- 自选股管理 -->
+  <div class="settings-section">
+    <div class="section-title">自选股管理</div>
+    <div class="stock-item">
+      <span class="code">600176</span>
+      <span class="delete-btn">删除</span>
+    </div>
+    <div class="stock-item">
+      <span class="code">300750</span>
+      <span class="delete-btn">删除</span>
+    </div>
+    <div class="stock-item">
+      <span class="code">600519</span>
+      <span class="delete-btn">删除</span>
+    </div>
+  </div>
+
+  <!-- 播报开关 -->
+  <div class="settings-section">
+    <div class="section-title">播报开关</div>
+    <div class="settings-row">
+      <span class="label">播报已开</span>
+      <div class="toggle"></div>
+    </div>
+  </div>
+
+  <!-- 字体大小 -->
+  <div class="settings-section">
+    <div class="section-title">字体大小</div>
+    <div class="settings-row" style="gap: 12px;">
+      <div class="font-btn active">标准</div>
+      <div class="font-btn inactive">特大</div>
+    </div>
+  </div>
+
+  <div class="screenshot-label">截图3：账号动态 — 设置与服务状态界面</div>
+</div>
+
+</body>
+</html>

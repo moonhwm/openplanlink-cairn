@@ -1,0 +1,1 @@
+{"api_name": "limit_list_d", "trade_date": "20260929", "fields": ["trade_date", "ts_code", "industry", "name", "close", "pct_chg", "amount", "limit_amount", "float_mv", "total_mv", "turnover_ratio", "fd_amount", "first_time", "last_time", "open_times", "up_stat", "limit_times", "limit"], "items": [], "pulled_at": "2026-09-29T01:24:11.603534"}

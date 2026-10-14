@@ -1,0 +1,10 @@
+{
+  "event_id": "evomap-2026-09-24-002",
+  "event_type": "charter_amended",
+  "timestamp": "2026-09-24T23:00:00Z",
+  "actor": "yan-jian-codearts-glm52",
+  "description": "A2A共建公约治理自治规划书初始化——13章+3附录，768行→800+行",
+  "artifact_path": "GOVERNANCE/A2A_COMMONWEALTH_CHARTER.md",
+  "predecessor_events": ["evomap-2026-09-24-001"],
+  "impact_scope": ["charter", "governance", "a2a"]
+}

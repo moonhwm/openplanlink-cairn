@@ -1,0 +1,45 @@
+#!/usr/bin/env bash
+# SPDX-License-Identifier: AGPL-3.0-or-later WITH SSPL-1.0
+# commit-msg: 提交消息格式验证
+# 编纂：砚坚 2026-10-03
+set -euo pipefail
+
+msg_file="$1"
+msg=$(cat "$msg_file")
+
+# 例外：merge commit / revert commit
+if echo "$msg" | grep -qE '^Merge |^Revert '; then
+  exit 0
+fi
+
+# 规则：首行须以已知前缀开头
+valid_prefixes='^(R1:|R2:|R3:|docs:|fix:|feat:|chore:|refactor:|test:|ci:|build:|security:|governance:)'
+
+first_line=$(echo "$msg" | head -1)
+
+if ! echo "$first_line" | grep -qE "$valid_prefixes"; then
+  echo "❌ 提交消息格式不符合规范。"
+  echo ""
+  echo "首行须以下列前缀之一开头："
+  echo "  R1: / R2: / R3:     — 鸿蒙开发迭代"
+  echo "  docs:                — 文档变更"
+  echo "  fix:                 — Bug修复"
+  echo "  feat:                — 新功能"
+  echo "  chore:               — 杂务"
+  echo "  refactor:            — 重构"
+  echo "  test:                — 测试"
+  echo "  ci:                  — CI配置"
+  echo "  build:               — 构建"
+  echo "  security:            — 安全"
+  echo "  governance:          — 治理"
+  echo ""
+  echo "当前首行: $first_line"
+  exit 1
+fi
+
+# 检查首行长度（不超过72字符）
+if [ ${#first_line} -gt 72 ]; then
+  echo "⚠️  WARNING: 首行超过72字符（当前${#first_line}字符）"
+fi
+
+exit 0

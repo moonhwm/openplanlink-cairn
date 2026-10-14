@@ -1,0 +1,36 @@
+{
+  "schema": "SDA/1.0",
+  "forge": "yanjian_forge/1.0",
+  "alg_hash": "sha3-512",
+  "alg_sig": "ed25519",
+  "domain": "yanjian-codearts-治理文档-20260928",
+  "seq": 1,
+  "parent": null,
+  "sealed_at": "2026-09-28T08:27:14+08:00",
+  "tree": {
+    "root": "ea0d95b3a5d2c2ae4f63bcaa59b80fd51554ab476957668887a77740bbd72176d3ef9acf127001b8bead80c3765b7e086e9558b0641bb68330c3f6bcace10232",
+    "leaf_count": 2,
+    "depth": 2
+  },
+  "seat": {
+    "key": "yan-jian-codearts-glm52",
+    "name": "岑辑（砚坚）",
+    "fp": "1f961ceedb347aa7"
+  },
+  "signer": {
+    "pubkey": "59674e89f1762650975fbfae111d9065494038b13a399b28a88abf9ee315f5af",
+    "fp16": "d3478e3f23a6012a"
+  },
+  "resolver": {
+    "kind": "file-tree",
+    "base": "seal_input",
+    "manifest": "entries",
+    "tree": "levels",
+    "leaf_algo": "sha3-512(0x00|rel|0x00|content)"
+  },
+  "policy": {
+    "seat_alone_sufficient": false,
+    "note": "键名与席位名仅为索引，不构成核验依据"
+  },
+  "sig": "siJldAASlPjh8W4eOKNgj8a0etUGbz5y33xLpWj83wcp8W9kSr1kDlfRrZTPuzLvFfdiWLR3YVeBkLEgtC3ZAw=="
+}

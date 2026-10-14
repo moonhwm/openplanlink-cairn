@@ -1,0 +1,10 @@
+{
+  "event_id": "evomap-2026-09-24-004",
+  "event_type": "architecture_changed",
+  "timestamp": "2026-09-24T23:50:00Z",
+  "actor": "yan-jian-codearts-glm52",
+  "description": "常态化判官矫正机制建立——四路判官体系（安全审计/云函数状态/数据获取/文档完整性）+ 第十四章写入规划书",
+  "artifact_path": "GOVERNANCE/A2A_COMMONWEALTH_CHARTER.md",
+  "predecessor_events": ["evomap-2026-09-24-002"],
+  "impact_scope": ["charter", "a2a", "governance", "security"]
+}

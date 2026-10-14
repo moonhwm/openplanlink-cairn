@@ -1,0 +1,69 @@
+{
+  "repo_name": "harmony-app",
+  "repo_path": "C:/Users/欧阳宏俊/Documents/kimi/tasks/2026-08-27/22-20-45-c3ffff44/harmony-app",
+  "language": "Python",
+  "scan_time": "2026-09-19 08:41:35",
+  "duration_seconds": 3.65,
+  "external_refs": [
+    {
+      "kind": "package",
+      "name": "k3_security",
+      "file_path": "C:\\Users\\欧阳宏俊\\Documents\\kimi\\tasks\\2026-08-27\\22-20-45-c3ffff44\\harmony-app\\GOVERNANCE\\skills\\extracted\\autonomous-advance-ops\\autonomous-advance-ops\\security\\test_security.py",
+      "line_number": 5,
+      "detail": "from_import",
+      "confidence": "high",
+      "language": "python",
+      "source_repo": "harmony-app",
+      "import_type": "from_import",
+      "module_name": "k3_security",
+      "imported_symbols": [
+        "totp_secret",
+        "totp",
+        "totp_verify",
+        "device_fingerprint",
+        "hash_password",
+        "verify_password"
+      ],
+      "alias": "",
+      "source": "ast",
+      "raw_code": "from k3_security import (totp_secret, totp, totp_verify, device_fingerprint,\n                         hash_password, verify_password)",
+      "package_name": ""
+    }
+  ],
+  "endpoints": [],
+  "symbol_hints": [
+    {
+      "kind": "import",
+      "name": "k3_security",
+      "file_path": "GOVERNANCE/skills/extracted/autonomous-advance-ops/autonomous-advance-ops/security/test_security.py",
+      "line_number": 5,
+      "signature": "",
+      "visibility": "",
+      "confidence": 0.5,
+      "language": "python"
+    }
+  ],
+  "config_refs": [],
+  "ffi_refs": [],
+  "feature_points": [],
+  "evidence_trace": [
+    {
+      "source": "ast",
+      "step": "detect",
+      "file_path": "GOVERNANCE/skills/extracted/autonomous-advance-ops/autonomous-advance-ops/security/test_security.py",
+      "line_number": 5,
+      "derivation": "ImportScanResult -> ExternalRef/SymbolHint",
+      "confidence": 0.0,
+      "timestamp": "2026-09-19 08:41:39"
+    }
+  ],
+  "metadata": {
+    "total_external_refs": 1,
+    "total_endpoints": 0,
+    "total_symbol_hints": 1,
+    "total_config_refs": 0,
+    "total_ffi_refs": 0,
+    "total_feature_points": 0,
+    "total_evidence_trace": 1
+  }
+}

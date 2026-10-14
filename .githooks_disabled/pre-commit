@@ -1,0 +1,65 @@
+#!/usr/bin/env bash
+# SPDX-License-Identifier: AGPL-3.0-or-later WITH SSPL-1.0
+# pre-commit: 凭据扫描 + SPDX标识检查 + 敏感文件拦截
+# 编纂：砚坚 2026-10-03
+set -euo pipefail
+
+staged=$(git diff --cached --name-only --diff-filter=ACM 2>/dev/null || true)
+if [ -z "$staged" ]; then exit 0; fi
+
+errors=0
+warnings=0
+
+# ── 1. 敏感文件拦截 ──
+sensitive_patterns='\.key$|\.pem$|\.p12$|\.pfx$|\.env$|secrets/|\.ssh/|id_ed25519|id_rsa'
+for f in $staged; do
+  if echo "$f" | grep -qE "$sensitive_patterns"; then
+    echo "❌ BLOCKED: 敏感文件禁止提交: $f"
+    errors=$((errors + 1))
+  fi
+done
+
+# ── 2. 凭据扫描 ──
+cred_patterns='AKIA[0-9A-Z]{16}|sk-[a-zA-Z0-9]{20,}|Bearer [a-zA-Z0-9._-]{20,}|-----BEGIN (RSA |EC )?PRIVATE KEY-----|ghp_[a-zA-Z0-9]{36}|gho_[a-zA-Z0-9]{36}'
+for f in $staged; do
+  if [ ! -f "$f" ]; then continue; fi
+  # 跳过二进制文件
+  if file "$f" 2>/dev/null | grep -qi 'binary'; then continue; fi
+  if grep -qE "$cred_patterns" "$f" 2>/dev/null; then
+    echo "❌ BLOCKED: 疑似凭据明文: $f"
+    errors=$((errors + 1))
+  fi
+done
+
+# ── 3. SPDX标识检查（源文件须含SPDX-License-Identifier）──
+source_exts='\.(ts|mjs|js|py|ets|sh|bash)$'
+for f in $staged; do
+  if echo "$f" | grep -qE "$source_exts"; then
+    if [ -f "$f" ] && ! grep -q 'SPDX-License-Identifier' "$f" 2>/dev/null; then
+      echo "⚠️  WARNING: 缺少SPDX标识: $f"
+      warnings=$((warnings + 1))
+    fi
+  fi
+done
+
+# ── 4. AGENTS.md / CHANGELOG.md 不可意外删除 ──
+for critical in AGENTS.md CHANGELOG.md LICENSE; do
+  if echo "$staged" | grep -q "^D $critical$" || git diff --cached --name-only --diff-filter=D | grep -qx "$critical"; then
+    echo "❌ BLOCKED: 关键文件禁止删除: $critical"
+    errors=$((errors + 1))
+  fi
+done
+
+echo ""
+echo "pre-commit 结果: ${errors} 错误, ${warnings} 警告"
+
+if [ $errors -gt 0 ]; then
+  echo "提交被拒绝。请修复上述错误后重试。"
+  exit 1
+fi
+
+if [ $warnings -gt 0 ]; then
+  echo "有警告但不阻止提交。建议补充SPDX标识。"
+fi
+
+exit 0

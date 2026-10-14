@@ -1,0 +1,9 @@
+{
+  "name": "broadcast-a2a",
+  "version": "1.0.0",
+  "description": "Broadcast alerts to A2A bus and push notifications to HarmonyOS devices",
+  "main": "index.js",
+  "dependencies": {
+    "@cloudbase/node-sdk": "^3.0.0"
+  }
+}

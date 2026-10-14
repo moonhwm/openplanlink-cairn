@@ -1,0 +1,14 @@
+{
+  "modelVersion": "6.0.2",
+  "name": "stockpulse",
+  "version": "0.1.0",
+  "description": "适老化行情异动播报（私有分发，云端监测+推送+点按播报）",
+  "main": "",
+  "author": "",
+  "license": "UNLICENSED",
+  "dependencies": {},
+  "devDependencies": {
+    "@ohos/hypium": "1.0.25",
+    "@ohos/hamock": "1.0.0"
+  }
+}

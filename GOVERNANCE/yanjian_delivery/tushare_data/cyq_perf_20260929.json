@@ -1,0 +1,1 @@
+{"api_name": "cyq_perf", "trade_date": "20260929", "fields": ["ts_code", "trade_date", "his_low", "his_high", "cost_5pct", "cost_15pct", "cost_50pct", "cost_85pct", "cost_95pct", "weight_avg", "winner_rate"], "items": [], "pulled_at": "2026-09-29T01:22:16.540447"}

@@ -1,0 +1,10 @@
+{
+  "name": "generate-tts",
+  "version": "1.0.0",
+  "description": "Generate TTS audio for alert headlines using Alibaba Bailian API, cache in cloud storage",
+  "main": "index.js",
+  "dependencies": {
+    "ws": "^8.16.0",
+    "@cloudbase/node-sdk": "^3.0.0"
+  }
+}

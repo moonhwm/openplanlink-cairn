@@ -1,0 +1,54 @@
+#!/usr/bin/env bash
+# SPDX-License-Identifier: AGPL-3.0-or-later WITH SSPL-1.0
+# pre-push: attest验证 + 协议合规检查
+# 编纂：砚坚 2026-10-03
+set -euo pipefail
+
+# 读取推送目标
+remote="$1"
+url="$2"
+
+errors=0
+
+# ── 1. LICENSE文件存在性检查 ──
+if [ ! -f "LICENSE" ]; then
+  echo "❌ BLOCKED: LICENSE文件不存在"
+  errors=$((errors + 1))
+fi
+
+# ── 2. NOTICE_SSPL.md存在性检查 ──
+if [ ! -f "NOTICE_SSPL.md" ] && [ -f "LICENSE" ]; then
+  echo "⚠️  WARNING: NOTICE_SSPL.md不存在（SSPL分层组合协议说明缺失）"
+fi
+
+# ── 3. AGENTS.md存在性检查 ──
+if [ ! -f "AGENTS.md" ]; then
+  echo "⚠️  WARNING: AGENTS.md不存在（共治契约缺失）"
+fi
+
+# ── 4. attest_v2.json存在性检查（如有secrets目录则检查）──
+if [ -d "secrets" ] && [ ! -f "attest_v2.json" ]; then
+  echo "⚠️  WARNING: attest_v2.json不存在（HMAC-SHA3-512 attest缺失）"
+fi
+
+# ── 5. 关键文件不可包含凭据明文 ──
+cred_patterns='AKIA[0-9A-Z]{16}|sk-[a-zA-Z0-9]{20,}|Bearer [a-zA-Z0-9._-]{20,}|-----BEGIN (RSA |EC )?PRIVATE KEY-----'
+for f in $(git diff --name-only HEAD 2>/dev/null || true); do
+  if [ ! -f "$f" ]; then continue; fi
+  if file "$f" 2>/dev/null | grep -qi 'binary'; then continue; fi
+  if grep -qE "$cred_patterns" "$f" 2>/dev/null; then
+    echo "❌ BLOCKED: 疑似凭据明文: $f"
+    errors=$((errors + 1))
+  fi
+done
+
+echo ""
+echo "pre-push 结果: ${errors} 错误"
+
+if [ $errors -gt 0 ]; then
+  echo "推送被拒绝。请修复上述错误后重试。"
+  exit 1
+fi
+
+echo "✅ pre-push检查通过"
+exit 0
