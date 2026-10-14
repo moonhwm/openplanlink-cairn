@@ -1,0 +1,17 @@
+{
+  "timestamp": "2026-10-13 04:56:22",
+  "bailian_result": {
+    "status": "error",
+    "reason": "<urlopen error EOF occurred in violation of protocol (_ssl.c:2427)>"
+  },
+  "alternative_result": {
+    "status": "error",
+    "reason": "http_404",
+    "error": "{\"error\":{\"err_code\":-10003,\"message\":\"Parameter error.Plase check your request parameters.\",\"message_cn\":\"参数错误。请检查您的请求参数。\",\"message_jp\":\"パラメーターのエラーです。リクエストパラメーターを確認してください。\",\"type\":\"api_error\"}}"
+  },
+  "status": "blocked",
+  "blockers": [
+    "裁五: 百炼预算调高",
+    "裁六: P4世界模型实跑预算上限"
+  ]
+}
