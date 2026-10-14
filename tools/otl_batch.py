@@ -48,6 +48,13 @@ TARGETS = [
     "大件归档评估_ARCHIVE-20261014-CAIRN-01.md",
     "开源协议条款匹配对拍表_LIC-MATCH-20261014-CAIRN-02.md",
     "三目录摸底与启动方案_SURVEY-20261014-CAIRN-01.md",
+    # ── 第三批（Round 69 续转：本夜新出之件）──
+    "Round13-51总账与候裁清单_DF-OPS-20261014-CAIRN-117.md",
+    "安装包候选清理清单_DLCLEAN-20261014-CAIRN-01.md",
+    "类联合国机制初始化纲要_UNMECH-20261014-CAIRN-01.md",
+    "辩护席位规程草案_DEFENSE-20261014-CAIRN-01.md",
+    "数字人员工注册规范_SEAT-REG-20261014-CAIRN-01.md",
+    "权限矩阵与数据字典_RBAC-DICT-20261014-CAIRN-01.md",
 ]
 
 
@@ -105,6 +112,21 @@ def main() -> int:
     for i, a in enumerate(sys.argv):
         if a == "--limit" and i + 1 < len(sys.argv):
             lim = int(sys.argv[i + 1])
+    # ★--all：遍历 outbox/mem 之全部可转件（≥400 字之 .md；含密钥者由下方自动排除）
+    targets = list(TARGETS)
+    if "--all" in sys.argv:
+        mem = SEAT / "outbox" / "mem"
+        names = []
+        for p in sorted(mem.glob("*.md"), key=lambda q: -q.stat().st_size):
+            try:
+                if len(p.read_text(encoding="utf-8", errors="replace")) >= 400:
+                    names.append(p.name)
+            except OSError:
+                continue
+        # 已转者置前（幂等复用，可刷新 version），未转者随后
+        targets = names + [x for x in TARGETS if x not in names]
+        lim = len(targets)
+        print("   ★--all：候选 %d 件（含已转者，将复用覆盖）" % len(targets))
     res = []
     # ★幂等之基：先取「我的云文档」现有件（名 ⇒ id），供复用
     existing = {}
@@ -115,7 +137,7 @@ def main() -> int:
             if nm and it.get("id"):
                 existing.setdefault(nm, it.get("id"))
         print("   ★现有云端件 %d 件（幂等之基）" % len(existing))
-    for name in TARGETS[:lim]:
+    for name in targets[:lim]:   # ★--all 支持：用 targets（原误写 TARGETS[:lim]，致 --all 无效）
         p = SEAT / "outbox" / "mem" / name
         if not p.exists():
             print("   ★缺件：%s" % name); continue
