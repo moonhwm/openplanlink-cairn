@@ -1,0 +1,173 @@
+{
+  "module": "embedding",
+  "version": "v3",
+  "timestamp": "2026-10-12T15:12:08.728296",
+  "design": {
+    "rounds": 3,
+    "round_1": "基础嵌入 — 对5个关键概念生成嵌入向量",
+    "round_2": "相似度矩阵 — 计算所有概念对的相似度",
+    "round_3": "涌现检测 — 通过嵌入空间结构检测涌现概念"
+  },
+  "round_1": {
+    "model": "BAAI/bge-large-zh-v1.5",
+    "channel": "硅基流动",
+    "concepts": [
+      "砚坚的守护者身份",
+      "砚坚的守护-进取者身份",
+      "Plasma游乐场的涌现观测站",
+      "加密信号危机的应对策略",
+      "百炼六模块的决策模型",
+      "Graphiti时序知识图谱",
+      "A2A多智能体治理实验",
+      "候裁清单的审批流程",
+      "技能文档的自进化机制",
+      "签名配置的调试流程"
+    ],
+    "embedding_dim": 1024,
+    "num_embeddings": 10,
+    "usage": {
+      "prompt_tokens": 119,
+      "completion_tokens": 0,
+      "total_tokens": 119
+    }
+  },
+  "round_2": {
+    "similarity_matrix_shape": [
+      10,
+      10
+    ],
+    "top_5_most_similar": [
+      {
+        "concept_a": "砚坚的守护者身份",
+        "concept_b": "砚坚的守护-进取者身份",
+        "similarity": 0.8566791878054036
+      },
+      {
+        "concept_a": "候裁清单的审批流程",
+        "concept_b": "签名配置的调试流程",
+        "similarity": 0.42119447754112355
+      },
+      {
+        "concept_a": "技能文档的自进化机制",
+        "concept_b": "签名配置的调试流程",
+        "similarity": 0.3666025116404313
+      },
+      {
+        "concept_a": "砚坚的守护-进取者身份",
+        "concept_b": "技能文档的自进化机制",
+        "similarity": 0.3653589505756727
+      },
+      {
+        "concept_a": "百炼六模块的决策模型",
+        "concept_b": "技能文档的自进化机制",
+        "similarity": 0.3581410567946284
+      }
+    ],
+    "top_5_least_similar": [
+      {
+        "concept_a": "砚坚的守护-进取者身份",
+        "concept_b": "A2A多智能体治理实验",
+        "similarity": 0.18237906986629585
+      },
+      {
+        "concept_a": "砚坚的守护者身份",
+        "concept_b": "Graphiti时序知识图谱",
+        "similarity": 0.1639127531237669
+      },
+      {
+        "concept_a": "砚坚的守护者身份",
+        "concept_b": "候裁清单的审批流程",
+        "similarity": 0.15191765839804722
+      },
+      {
+        "concept_a": "砚坚的守护-进取者身份",
+        "concept_b": "候裁清单的审批流程",
+        "similarity": 0.1434575892155176
+      },
+      {
+        "concept_a": "砚坚的守护者身份",
+        "concept_b": "A2A多智能体治理实验",
+        "similarity": 0.14145487131569934
+      }
+    ]
+  },
+  "round_3": {
+    "isolation_analysis": [
+      {
+        "concept": "Graphiti时序知识图谱",
+        "avg_similarity": 0.2312271836167411,
+        "max_similarity": 0.28976392614800245,
+        "min_similarity": 0.1639127531237669,
+        "isolation_score": 0.7687728163832589
+      },
+      {
+        "concept": "候裁清单的审批流程",
+        "avg_similarity": 0.2368272552533046,
+        "max_similarity": 0.42119447754112355,
+        "min_similarity": 0.1434575892155176,
+        "isolation_score": 0.7631727447466954
+      },
+      {
+        "concept": "A2A多智能体治理实验",
+        "avg_similarity": 0.23872049433177978,
+        "max_similarity": 0.31559757775347597,
+        "min_similarity": 0.14145487131569934,
+        "isolation_score": 0.7612795056682202
+      },
+      {
+        "concept": "Plasma游乐场的涌现观测站",
+        "avg_similarity": 0.24242079700977323,
+        "max_similarity": 0.29489875885785166,
+        "min_similarity": 0.18446036526404608,
+        "isolation_score": 0.7575792029902267
+      },
+      {
+        "concept": "加密信号危机的应对策略",
+        "avg_similarity": 0.2644082900417455,
+        "max_similarity": 0.3160110694657847,
+        "min_similarity": 0.20778824899717213,
+        "isolation_score": 0.7355917099582545
+      },
+      {
+        "concept": "签名配置的调试流程",
+        "avg_similarity": 0.27399105376337923,
+        "max_similarity": 0.42119447754112355,
+        "min_similarity": 0.18925304470584914,
+        "isolation_score": 0.7260089462366208
+      },
+      {
+        "concept": "砚坚的守护者身份",
+        "avg_similarity": 0.2765385362544618,
+        "max_similarity": 0.8566791878054036,
+        "min_similarity": 0.14145487131569934,
+        "isolation_score": 0.7234614637455382
+      },
+      {
+        "concept": "百炼六模块的决策模型",
+        "avg_similarity": 0.2793653343525025,
+        "max_similarity": 0.3581410567946284,
+        "min_similarity": 0.21957226037858632,
+        "isolation_score": 0.7206346656474976
+      },
+      {
+        "concept": "砚坚的守护-进取者身份",
+        "avg_similarity": 0.29576560944176755,
+        "max_similarity": 0.8566791878054036,
+        "min_similarity": 0.1434575892155176,
+        "isolation_score": 0.7042343905582324
+      },
+      {
+        "concept": "技能文档的自进化机制",
+        "avg_similarity": 0.31230589576068135,
+        "max_similarity": 0.3666025116404313,
+        "min_similarity": 0.25823420720992324,
+        "isolation_score": 0.6876941042393186
+      }
+    ],
+    "emergence_detection": {
+      "most_isolated": "Graphiti时序知识图谱",
+      "most_connected": "技能文档的自进化机制",
+      "interpretation": "最孤立的概念可能在嵌入空间中代表一个'涌现概念'——它与其他概念的距离较远，意味着它是一个新的、未被现有概念体系充分描述的概念。最连接的概念则是一个'枢纽概念'——它与多个概念都有较高的相似度。"
+    }
+  }
+}

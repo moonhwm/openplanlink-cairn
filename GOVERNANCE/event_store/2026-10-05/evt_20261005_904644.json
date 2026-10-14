@@ -1,0 +1,13 @@
+{
+  "event_id": "evt_20261005_904644",
+  "event_type": "consensus_result",
+  "source_seat": "consensus_aggregator",
+  "target_seats": [],
+  "timestamp": "2026-10-05T10:21:44.644043+08:00",
+  "payload": {
+    "consensus_id": "test_consensus_001",
+    "decision": "accepted"
+  },
+  "ttl": 3600,
+  "priority": "HIGH"
+}

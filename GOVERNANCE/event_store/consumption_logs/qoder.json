@@ -1,0 +1,11 @@
+{
+  "seat": "qoder",
+  "consumed_events": [
+    {
+      "event_id": "evt_20261005_904638",
+      "consumed_at": "2026-10-05T10:21:44.643034+08:00",
+      "result": "processing",
+      "event_type": "heartbeat"
+    }
+  ]
+}

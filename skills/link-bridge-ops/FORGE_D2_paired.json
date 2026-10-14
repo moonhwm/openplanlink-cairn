@@ -1,0 +1,17 @@
+{
+  "votes": [
+    {
+      "vote": "better",
+      "reason": "delta 在 cmd_migrate 中新增目录迁前 dir_stats（件数+字节）与迁后复验（第 60-77 行），不符即中止不回链，直接修复 bug-1 的数据真空；钩子结果 hook_results 入注册表且任一失败 exit 4（第 96-108 行），修复 bug-5 的静默不一致；冒烟新增负断言 6/7 覆盖目录完整性与钩子失败（第 168-186 行），文档与流程完备性显著提升。"
+    },
+    {
+      "vote": "better",
+      "reason": "delta 在 cmd_migrate 中新增目录迁前/迁后件数与字节复验（dir_stats 计算与比对，不符即 return 1 不回链），并将 hook_results 写入注册表且任一钩子失败返回 exit 4，冒烟新增对应负断言，直接闭合 D1 的 bug-1 与钩子静默短板，故相对基线为 better。"
+    },
+    {
+      "vote": "better",
+      "reason": "delta 在 cmd_migrate 中新增目录迁前/迁后件数与字节复验（dir_stats 计算与比对，不符即 return 1 不回链），并将 hook_results 写入注册表且任一钩子失败返回 exit 4，直接修复了 D1 指出的目录迁移数据真空与钩子静默不一致两个短板；冒烟新增负断言 6/7 覆盖这两条路径，故相对基线为 better。"
+    }
+  ],
+  "verdict": "KEEP"
+}

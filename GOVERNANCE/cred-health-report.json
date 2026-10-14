@@ -1,0 +1,47 @@
+{
+  "timestamp": "2026-09-20T05:27:37.494Z",
+  "summary": {
+    "pass": 2,
+    "warn": 2,
+    "fail": 0,
+    "info": 2
+  },
+  "results": [
+    {
+      "name": "百炼凭据文件",
+      "status": "INFO",
+      "detail": "文件不存在（凭据已内联到 cloudbaserc.json）",
+      "ts": "2026-09-20T05:27:36.981Z"
+    },
+    {
+      "name": "Supabase凭据文件",
+      "status": "INFO",
+      "detail": "文件不存在（凭据已内联到 cloudbaserc.json）",
+      "ts": "2026-09-20T05:27:36.981Z"
+    },
+    {
+      "name": "CloudBase 配置",
+      "status": "PASS",
+      "detail": "配置完整，5 个函数全部就绪",
+      "ts": "2026-09-20T05:27:36.983Z"
+    },
+    {
+      "name": "百炼 API Key",
+      "status": "PASS",
+      "detail": "API Key 格式正确，服务端点可达 (https://ws-ay6o8osb22o9dc3t.cn-beijing.maas.aliyuncs.com)",
+      "ts": "2026-09-20T05:27:37.416Z"
+    },
+    {
+      "name": "Tushare Token",
+      "status": "WARN",
+      "detail": "API 返回错误码 40203: 抱歉，您访问接口(trade_cal)频率超限(1次/小时)，具体频次详情：https://tushare.pro/document/1?doc_id=108。",
+      "ts": "2026-09-20T05:27:37.484Z"
+    },
+    {
+      "name": "Supabase 凭据",
+      "status": "WARN",
+      "detail": "API 连通但认证失败 (401)——KEY 可能已过期",
+      "ts": "2026-09-20T05:27:37.493Z"
+    }
+  ]
+}

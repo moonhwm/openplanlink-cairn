@@ -1,0 +1,33 @@
+{
+  "timestamp": "2026-10-12 12:43:05",
+  "module": "volcengine_imageto3d_deep_test_v2",
+  "test1_imageto3d": {
+    "status": "failed",
+    "error": "image_generation_failed",
+    "detail": "{\"error\":{\"code\":\"InvalidParameter\",\"message\":\"The parameter `size` specified in the request is not valid: image size must be at least 921600 pixels. Request id: 021791780186822c9dba16029eae5f1d61ad70a3ced1072cc6312\",\"param\":\"\",\"type\":\"\"}}"
+  },
+  "test2_textto3d": {
+    "status": "failed",
+    "code": 400,
+    "error": "{\"error\":{\"code\":\"InvalidParameter\",\"message\":\"One or more parameters specified in the request are not valid: [{\\\"field\\\": \\\"body -\\u003e image_data\\\", \\\"message\\\": \\\"Input should be a valid string\\\", \\\"type\\\": \\\"string_type\\\"}] Request id: 021791780187363ead242b7b62655495f8a8e764bfb9cfabb72f2.\",\"param\":\"\",\"type\":\"\"}}",
+    "elapsed": 0.8
+  },
+  "test3_explore_formats": {
+    "type_image": {
+      "code": 400,
+      "response": "{\"error\":{\"code\":\"InvalidParameter\",\"message\":\"One or more parameters specified in the request are not valid: [{\\\"field\\\": \\\"body -\\u003e image_data\\\", \\\"message\\\": \\\"Input should be a valid string\\\", \\\"type\\\": \\\"string_type\\\"}] Request id: 021791780188165f9c14257dc53941c7842a2e8d7c14804c22552.\",\"pa"
+    },
+    "type_input_image": {
+      "code": 400,
+      "response": "{\"error\":{\"code\":\"InvalidParameter\",\"message\":\"The parameter `content.image_url` specified in the request is not valid. Request id: 0217917801900739147904061828da2e34644a32f13ef2745a928\",\"param\":\"\",\"type\":\"\"}}"
+    },
+    "with_prompt": {
+      "code": 400,
+      "response": "{\"error\":{\"code\":\"InvalidParameter\",\"message\":\"One or more parameters specified in the request are not valid: [{\\\"field\\\": \\\"body -\\u003e image_data\\\", \\\"message\\\": \\\"Input should be a valid string\\\", \\\"type\\\": \\\"string_type\\\"}] Request id: 0217917801909320a3079a058b707e59510a9e5fba8ef68c22bd4.\",\"pa"
+    },
+    "images_with_prompt": {
+      "code": 400,
+      "response": "{\"error\":{\"code\":\"InvalidParameter\",\"message\":\"The parameter `model` specified in the request is not valid: image generation is only supported by certain models. Request id: 021791780192089b6ef94156a979b704a6b85dbeb7998faccc268\",\"param\":\"\",\"type\":\"\"}}"
+    }
+  }
+}

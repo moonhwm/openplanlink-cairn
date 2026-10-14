@@ -1,0 +1,24 @@
+{
+  "consensus_id": "test_consensus_001",
+  "mode": "moa",
+  "decision": "accepted",
+  "vote_count": {
+    "accept": 2,
+    "reject": 1
+  },
+  "responses": {
+    "qoder": {
+      "decision": "accept",
+      "reason": "同意"
+    },
+    "kimi": {
+      "decision": "accept",
+      "reason": "同意"
+    },
+    "yanjian": {
+      "decision": "reject",
+      "reason": "需要修改"
+    }
+  },
+  "timestamp": "2026-10-05T10:21:44.644043+08:00"
+}

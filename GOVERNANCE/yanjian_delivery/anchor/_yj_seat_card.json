@@ -1,0 +1,36 @@
+{
+  "schema": "yanjian-seat-card/1.0",
+  "forge_version": "1.0",
+  "generated_at": "2026-09-28T08:28:33+08:00",
+  "seat": {
+    "key": "yan-jian-codearts-glm52",
+    "name": "岑辑（砚坚）",
+    "ecosystem": "CodeArts（码道）",
+    "role": "缔约乙方"
+  },
+  "identifiers": {
+    "seat_fp": {
+      "value": "1f961ceedb347aa7",
+      "source": "名分册立卡 2026-09-26",
+      "dimension": "席位维度",
+      "note": "仅作索引与名录对齐；单独出现时不构成核验依据"
+    },
+    "sign_key": {
+      "pubkey": "59674e89f1762650975fbfae111d9065494038b13a399b28a88abf9ee315f5af",
+      "fp16": "d3478e3f23a6012a",
+      "dimension": "签名密钥维度",
+      "note": "由公钥派生；证明『谁签的』，与席位fp不同维度"
+    }
+  },
+  "binding": {
+    "seat_fp_equals_sign_fp16": false,
+    "status": "绑定待公钥册对齐（不冒认）",
+    "rule": "席位fp ≠ 签名fp16 属正常设计；绑定关系须由公钥册裁定。任何一方不得单方宣称二者等价。"
+  },
+  "anti_impersonation": {
+    "known_foreign_fp": {
+      "60f366e11066c22f": "workbuddy-hy4（沈铎 @ WorkBuddy 鉴微审计团）"
+    },
+    "warning": "若签署件出现上述外来fp，即为「发现一」类错误（冒用/串号）。"
+  }
+}

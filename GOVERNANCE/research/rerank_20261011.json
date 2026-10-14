@@ -1,0 +1,31 @@
+{
+  "module": "rerank",
+  "status": "success",
+  "results": [
+    {
+      "index": 2,
+      "document": null,
+      "relevance_score": 0.9960667490959167
+    },
+    {
+      "index": 1,
+      "document": null,
+      "relevance_score": 0.03248687833547592
+    },
+    {
+      "index": 4,
+      "document": null,
+      "relevance_score": 0.0031965658999979496
+    },
+    {
+      "index": 5,
+      "document": null,
+      "relevance_score": 0.000999058480374515
+    },
+    {
+      "index": 3,
+      "document": null,
+      "relevance_score": 0.00039457337697967887
+    }
+  ]
+}

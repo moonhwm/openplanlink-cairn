@@ -1,0 +1,38 @@
+{
+  "list_indexes_主账户": {
+    "status": "ERROR",
+    "msg": "module 'alibabacloud_bailian20231229.models' has no attribute 'ListIndexesRequest'"
+  },
+  "list_indexes_RAM角色": {
+    "status": "ERROR",
+    "msg": "module 'alibabacloud_bailian20231229.models' has no attribute 'ListIndexesRequest'"
+  },
+  "list_data_groups_主账户": {
+    "status": "ERROR",
+    "msg": "module 'alibabacloud_bailian20231229.models' has no attribute 'ListDataGroupsRequest'"
+  },
+  "list_data_groups_RAM角色": {
+    "status": "ERROR",
+    "msg": "module 'alibabacloud_bailian20231229.models' has no attribute 'ListDataGroupsRequest'"
+  },
+  "dashscope_embedding": {
+    "status": "NO_KEY",
+    "msg": "未设置DASHSCOPE_API_KEY"
+  },
+  "302ai_embedding": {
+    "status": "OK",
+    "dim": 3072
+  },
+  "siliconflow_embedding": {
+    "status": "OK",
+    "dim": 1024
+  },
+  "302ai_decision": {
+    "status": "OK",
+    "content": "正确"
+  },
+  "siliconflow_rerank": {
+    "status": "OK",
+    "count": 3
+  }
+}

@@ -1,0 +1,3 @@
+[submodule "GOVERNANCE/external/qoder-skills-hub"]
+	path = GOVERNANCE/external/qoder-skills-hub
+	url = https://github.com/moonhwm/qoder-skills-hub.git

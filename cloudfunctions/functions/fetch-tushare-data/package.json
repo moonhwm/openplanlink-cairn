@@ -1,0 +1,9 @@
+{
+  "name": "fetch-tushare-data",
+  "version": "1.0.0",
+  "description": "Fetch stock market data from Tushare API, detect significant price movements, and store alerts in CloudBase storage",
+  "main": "index.js",
+  "dependencies": {
+    "@cloudbase/node-sdk": "^3.0.0"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "module": "rerank",
+  "model": "BAAI/bge-reranker-v2-m3",
+  "query": "人设动态完善3D建模放入世界模型涌现",
+  "results": [
+    {
+      "index": 0,
+      "document": {
+        "text": "砚坚人设3D建模放入世界模型涌现实验"
+      },
+      "relevance_score": 0.9949771761894226
+    },
+    {
+      "index": 1,
+      "document": {
+        "text": "AI席位动态完善3D建模与世界模型交互"
+      },
+      "relevance_score": 0.9510719776153564
+    },
+    {
+      "index": 3,
+      "document": {
+        "text": "世界模型角色演绎涌现行为判定"
+      },
+      "relevance_score": 0.4835796058177948
+    },
+    {
+      "index": 4,
+      "document": {
+        "text": "决策模型对涌现命题的结构化判断"
+      },
+      "relevance_score": 0.07109739631414413
+    },
+    {
+      "index": 7,
+      "document": {
+        "text": "百炼世界模型三类运行模式探索"
+      },
+      "relevance_score": 0.045115772634744644
+    },
+    {
+      "index": 5,
+      "document": {
+        "text": "MiniMax H3与火山引擎3D建模API调研"
+      },
+      "relevance_score": 0.01042220275849104
+    },
+    {
+      "index": 2,
+      "document": {
+        "text": "密码学身份管理与后量子密码学合规"
+      },
+      "relevance_score": 0.00022397986322175711
+    },
+    {
+      "index": 6,
+      "document": {
+        "text": "硅基流动向量编码与重排序模块调用"
+      },
+      "relevance_score": 0.00021759960509371012
+    }
+  ],
+  "timestamp": "2026-10-11"
+}

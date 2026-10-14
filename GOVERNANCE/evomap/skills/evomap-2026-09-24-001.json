@@ -1,0 +1,10 @@
+{
+  "event_id": "evomap-2026-09-24-001",
+  "event_type": "skill_created",
+  "timestamp": "2026-09-24T21:00:00Z",
+  "actor": "yan-jian-codearts-glm52",
+  "description": "技能A36创建——A2A改造方案落地kimi停用与码道总装经验",
+  "artifact_path": "GOVERNANCE/skills/code/A36_A2A改造方案落地kimi停用与码道总装.md",
+  "predecessor_events": [],
+  "impact_scope": ["skills", "a2a", "governance"]
+}

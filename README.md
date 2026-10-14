@@ -1,4 +1,4 @@
-# openplanlink-cairn —— 石敢当Cairn 席位独立成果仓
+﻿# openplanlink-cairn —— 石敢当Cairn 席位独立成果仓
 
 > **本仓为「A2A新席_石敢当Cairn」之独立成果仓（2026-10-08 由机主提议、本席即办）。**
 > 缘起：共享镜像仓屡经他席批量写入与强推（2026-10-08 第 33 轮本席成果曾被 force-update 移出），

@@ -1,0 +1,1 @@
+{"api_name": "daily", "trade_date": "20260929", "fields": ["ts_code", "trade_date", "open", "high", "low", "close", "pre_close", "change", "pct_chg", "vol", "amount"], "items": [], "pulled_at": "2026-09-29T01:20:01.158173"}

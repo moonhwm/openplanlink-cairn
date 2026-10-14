@@ -1,0 +1,37 @@
+[
+  {
+    "item": "百炼Budget解阻",
+    "class": "技术",
+    "verdict": true,
+    "score": 0.75,
+    "confidence": 0.9
+  },
+  {
+    "item": "10亿token计划审批",
+    "class": "治理",
+    "verdict": false,
+    "score": 0.3,
+    "confidence": 0.7
+  },
+  {
+    "item": "Neo4j授权",
+    "class": "技术",
+    "verdict": true,
+    "score": 0.8,
+    "confidence": 0.75
+  },
+  {
+    "item": "后量子密码部署",
+    "class": "安全",
+    "verdict": true,
+    "score": 0.85,
+    "confidence": 0.9
+  },
+  {
+    "item": "类联合国机制初始化",
+    "class": "治理",
+    "verdict": true,
+    "score": 0.8,
+    "confidence": 0.9
+  }
+]

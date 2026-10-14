@@ -3,3 +3,45 @@
 __pycache__/
 *.pyc
 .pytest_cache/
+
+# ── 以下为 K3 清洁分支（2026-10-14 合并）所带 ──
+# 鸿蒙构建产物与本地环境
+oh_modules/
+**/oh_modules/
+**/build/
+**/.preview/
+**/node_modules/
+.hvigor/
+.cxx/
+*.hap
+*.app
+*.p7b
+*.cer
+*.keystore
+local.properties
+.idea/
+.DS_Store
+# AGC 配置文件（含敏感凭证，每开发者自行下载）
+AppScope/resources/rawfile/agconnect-services.json
+# TTS 音频缓存（运行时生成）
+feed-server/data/
+# Phase 1 加固：凭据金库密钥文件（绝不入库）
+GOVERNANCE/vault-key.hex
+GOVERNANCE/credentials/*.json.enc
+# P1 安全修复：环境变量文件（绝不入库）
+cloudfunctions/.env
+.env
+# 工具临时文件与进程锁
+.codeartsdoer/.codebase/watch.pid
+.codeartsdoer/.codebase/watch.pid.lock
+.codeartsdoer/.codebase/branches/
+.agents/
+.claude/
+nul
+create-coll-cmd.json
+skills-lock.json
+# 系统自动安装的技能文档目录（CloudBase CLI 等，仅根目录）
+/skills/
+GOVERNANCE/yanjian_delivery/.keys/
+# 分布式存储数据（运行时生成，不入库）
+dis_store/

@@ -1,0 +1,229 @@
+{
+  "version": 1,
+  "generated_at": "2026-09-19T09:15:00Z",
+  "wiki_docs": [
+    {
+      "path": "codebase-knowledge/入口能力（EntryAbility）.md",
+      "title": "入口能力（EntryAbility）",
+      "type": "codebase-module",
+      "source_files": ["entry/src/main/ets/entryability/EntryAbility.ets"],
+      "section_code_paths": {
+        "概述": ["entry/src/main/ets/entryability/EntryAbility.ets:1-10"],
+        "架构设计": ["entry/src/main/ets/entryability/EntryAbility.ets:12-70"],
+        "技术栈": ["entry/src/main/ets/entryability/EntryAbility.ets:1-7"],
+        "编码规范": ["entry/src/main/ets/entryability/EntryAbility.ets:9-10"],
+        "配置与命令": ["entry/src/main/module.json5:1-55"],
+        "关系": ["entry/src/main/ets/entryability/EntryAbility.ets:4-5"]
+      }
+    },
+    {
+      "path": "codebase-knowledge/主页面（Index）.md",
+      "title": "主页面（Index）",
+      "type": "codebase-module",
+      "source_files": ["entry/src/main/ets/pages/Index.ets"],
+      "section_code_paths": {
+        "概述": ["entry/src/main/ets/pages/Index.ets:1-24"],
+        "架构设计": ["entry/src/main/ets/pages/Index.ets:25-120"],
+        "技术栈": ["entry/src/main/ets/pages/Index.ets:1-8"],
+        "编码规范": ["entry/src/main/ets/pages/Index.ets:9-10"],
+        "配置与命令": ["entry/src/main/ets/pages/Index.ets:13-23"],
+        "关系": ["entry/src/main/ets/pages/Index.ets:3-7"]
+      }
+    },
+    {
+      "path": "codebase-knowledge/设置页面（Settings）.md",
+      "title": "设置页面（Settings）",
+      "type": "codebase-module",
+      "source_files": ["entry/src/main/ets/pages/Settings.ets"],
+      "section_code_paths": {
+        "概述": ["entry/src/main/ets/pages/Settings.ets:1-10"],
+        "架构设计": ["entry/src/main/ets/pages/Settings.ets:11-150"],
+        "技术栈": ["entry/src/main/ets/pages/Settings.ets:1-4"],
+        "编码规范": ["entry/src/main/ets/pages/Settings.ets:5-6"],
+        "配置与命令": ["entry/src/main/ets/pages/Settings.ets:11-22"],
+        "关系": ["entry/src/main/ets/pages/Settings.ets:3"]
+      }
+    },
+    {
+      "path": "codebase-knowledge/轮询服务（AlertPoller）.md",
+      "title": "轮询服务（AlertPoller）",
+      "type": "codebase-module",
+      "source_files": ["entry/src/main/ets/services/AlertPoller.ets"],
+      "section_code_paths": {
+        "概述": ["entry/src/main/ets/services/AlertPoller.ets:1-26"],
+        "架构设计": ["entry/src/main/ets/services/AlertPoller.ets:27-99"],
+        "技术栈": ["entry/src/main/ets/services/AlertPoller.ets:1-4"],
+        "编码规范": ["entry/src/main/ets/services/AlertPoller.ets:5-7"],
+        "配置与命令": ["entry/src/main/ets/services/AlertPoller.ets:9-11"],
+        "关系": ["entry/src/main/ets/services/AlertPoller.ets:3-4"]
+      }
+    },
+    {
+      "path": "codebase-knowledge/音频播放服务（AudioPlayer）.md",
+      "title": "音频播放服务（AudioPlayer）",
+      "type": "codebase-module",
+      "source_files": ["entry/src/main/ets/services/AudioPlayer.ets"],
+      "section_code_paths": {
+        "概述": ["entry/src/main/ets/services/AudioPlayer.ets:1-8"],
+        "架构设计": ["entry/src/main/ets/services/AudioPlayer.ets:9-53"],
+        "技术栈": ["entry/src/main/ets/services/AudioPlayer.ets:1-3"],
+        "编码规范": ["entry/src/main/ets/services/AudioPlayer.ets:4-5"],
+        "配置与命令": [],
+        "关系": ["entry/src/main/ets/services/AudioPlayer.ets:1-2"]
+      }
+    },
+    {
+      "path": "codebase-knowledge/推送服务（PushService）.md",
+      "title": "推送服务（PushService）",
+      "type": "codebase-module",
+      "source_files": ["entry/src/main/ets/services/PushService.ets"],
+      "section_code_paths": {
+        "概述": ["entry/src/main/ets/services/PushService.ets:1-23"],
+        "架构设计": ["entry/src/main/ets/services/PushService.ets:24-107"],
+        "技术栈": ["entry/src/main/ets/services/PushService.ets:1-6"],
+        "编码规范": ["entry/src/main/ets/services/PushService.ets:7-8"],
+        "配置与命令": ["entry/src/main/ets/services/PushService.ets:10-16"],
+        "关系": ["entry/src/main/ets/services/PushService.ets:1-6"]
+      }
+    },
+    {
+      "path": "codebase-knowledge/设置服务（SettingsService）.md",
+      "title": "设置服务（SettingsService）",
+      "type": "codebase-module",
+      "source_files": ["entry/src/main/ets/services/SettingsService.ets"],
+      "section_code_paths": {
+        "概述": ["entry/src/main/ets/services/SettingsService.ets:1-67"],
+        "架构设计": ["entry/src/main/ets/services/SettingsService.ets:68-446"],
+        "技术栈": ["entry/src/main/ets/services/SettingsService.ets:1-4"],
+        "编码规范": ["entry/src/main/ets/services/SettingsService.ets:5-6"],
+        "配置与命令": ["entry/src/main/ets/services/SettingsService.ets:8-22"],
+        "关系": ["entry/src/main/ets/services/SettingsService.ets:1-4"]
+      }
+    },
+    {
+      "path": "codebase-knowledge/数据契约（AlertItem）.md",
+      "title": "数据契约（AlertItem）",
+      "type": "codebase-module",
+      "source_files": ["entry/src/main/ets/model/AlertItem.ets"],
+      "section_code_paths": {
+        "概述": ["entry/src/main/ets/model/AlertItem.ets:1-21"],
+        "架构设计": ["entry/src/main/ets/model/AlertItem.ets:6-20"],
+        "技术栈": [],
+        "编码规范": ["entry/src/main/ets/model/AlertItem.ets:1-5"],
+        "配置与命令": [],
+        "关系": ["entry/src/main/ets/model/AlertItem.ets:1-21"]
+      }
+    },
+    {
+      "path": "codebase-knowledge/数据管道服务器（feed-server）.md",
+      "title": "数据管道服务器（feed-server）",
+      "type": "codebase-module",
+      "source_files": ["feed-server/server.mjs"],
+      "section_code_paths": {
+        "概述": ["feed-server/server.mjs:1-12"],
+        "架构设计": ["feed-server/server.mjs:13-450"],
+        "技术栈": ["feed-server/server.mjs:14-21"],
+        "编码规范": ["feed-server/server.mjs:200-202"],
+        "配置与命令": ["feed-server/server.mjs:25-32"],
+        "关系": ["feed-server/server.mjs:21"]
+      }
+    },
+    {
+      "path": "codebase-knowledge/音频后处理模块（audio-postprocess）.md",
+      "title": "音频后处理模块（audio-postprocess）",
+      "type": "codebase-module",
+      "source_files": ["feed-server/audio-postprocess.mjs"],
+      "section_code_paths": {
+        "概述": ["feed-server/audio-postprocess.mjs:1-16"],
+        "架构设计": ["feed-server/audio-postprocess.mjs:17-300"],
+        "技术栈": ["feed-server/audio-postprocess.mjs:18-22"],
+        "编码规范": ["feed-server/audio-postprocess.mjs:27"],
+        "配置与命令": ["feed-server/audio-postprocess.mjs:25-63"],
+        "关系": ["feed-server/audio-postprocess.mjs:18-22"]
+      }
+    },
+    {
+      "path": "project-knowledge/build_system/build_system.md",
+      "title": "构建系统",
+      "type": "project-knowledge",
+      "source_files": ["build-profile.json5", "hvigorfile.ts", "hvigorw.js"],
+      "section_code_paths": {
+        "构建工具链": ["build-profile.json5:1-36"],
+        "构建配置": ["build-profile.json5:1-36"],
+        "构建约束": []
+      }
+    },
+    {
+      "path": "project-knowledge/configuration_system/configuration_system.md",
+      "title": "配置体系",
+      "type": "project-knowledge",
+      "source_files": ["build-profile.json5", "entry/src/main/module.json5", "oh-package.json5"],
+      "section_code_paths": {
+        "配置文件组织": ["build-profile.json5:1-36", "entry/src/main/module.json5:1-55", "oh-package.json5:1-14"],
+        "关键配置项": ["entry/src/main/module.json5:1-55"],
+        "运行时配置": ["entry/src/main/ets/services/SettingsService.ets:8-22"]
+      }
+    },
+    {
+      "path": "project-knowledge/logging_system/logging_system.md",
+      "title": "日志系统",
+      "type": "project-knowledge",
+      "source_files": [],
+      "section_code_paths": {}
+    },
+    {
+      "path": "project-knowledge/error_handling/error_handling.md",
+      "title": "异常处理",
+      "type": "project-knowledge",
+      "source_files": [],
+      "section_code_paths": {}
+    },
+    {
+      "path": "project-knowledge/dependency_management/dependency_management.md",
+      "title": "依赖管理",
+      "type": "project-knowledge",
+      "source_files": ["oh-package.json5"],
+      "section_code_paths": {
+        "零三方依赖策略": ["oh-package.json5:1-14"]
+      }
+    },
+    {
+      "path": "project-knowledge/business_term/business_term.md",
+      "title": "业务术语表",
+      "type": "project-knowledge",
+      "source_files": [],
+      "section_code_paths": {}
+    },
+    {
+      "path": "project-knowledge/external_dependency/harmonyos_kits.md",
+      "title": "HarmonyOS Kits",
+      "type": "project-knowledge",
+      "source_files": [],
+      "section_code_paths": {}
+    },
+    {
+      "path": "project-knowledge/external_dependency/bailian_tts.md",
+      "title": "百炼CosyVoice TTS",
+      "type": "project-knowledge",
+      "source_files": ["feed-server/server.mjs"],
+      "section_code_paths": {
+        "版本与配置": ["feed-server/server.mjs:42-46"],
+        "适老化TTS参数": ["feed-server/server.mjs:293-300"]
+      }
+    }
+  ],
+  "wiki_relations": [
+    {"from": "codebase-knowledge/入口能力（EntryAbility）.md", "to": "codebase-knowledge/推送服务（PushService）.md", "type": "depends"},
+    {"from": "codebase-knowledge/入口能力（EntryAbility）.md", "to": "codebase-knowledge/设置服务（SettingsService）.md", "type": "depends"},
+    {"from": "codebase-knowledge/主页面（Index）.md", "to": "codebase-knowledge/轮询服务（AlertPoller）.md", "type": "depends"},
+    {"from": "codebase-knowledge/主页面（Index）.md", "to": "codebase-knowledge/音频播放服务（AudioPlayer）.md", "type": "depends"},
+    {"from": "codebase-knowledge/主页面（Index）.md", "to": "codebase-knowledge/设置服务（SettingsService）.md", "type": "depends"},
+    {"from": "codebase-knowledge/主页面（Index）.md", "to": "codebase-knowledge/数据契约（AlertItem）.md", "type": "depends"},
+    {"from": "codebase-knowledge/主页面（Index）.md", "to": "codebase-knowledge/设置页面（Settings）.md", "type": "navigates"},
+    {"from": "codebase-knowledge/轮询服务（AlertPoller）.md", "to": "codebase-knowledge/数据契约（AlertItem）.md", "type": "depends"},
+    {"from": "codebase-knowledge/轮询服务（AlertPoller）.md", "to": "codebase-knowledge/设置服务（SettingsService）.md", "type": "depends"},
+    {"from": "codebase-knowledge/数据管道服务器（feed-server）.md", "to": "codebase-knowledge/音频后处理模块（audio-postprocess）.md", "type": "depends"},
+    {"from": "codebase-knowledge/数据管道服务器（feed-server）.md", "to": "codebase-knowledge/数据契约（AlertItem）.md", "type": "produces"},
+    {"from": "project-knowledge/external_dependency/bailian_tts.md", "to": "codebase-knowledge/数据管道服务器（feed-server）.md", "type": "used-by"}
+  ]
+}

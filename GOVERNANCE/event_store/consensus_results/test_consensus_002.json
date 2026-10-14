@@ -1,0 +1,20 @@
+{
+  "consensus_id": "test_consensus_002",
+  "mode": "roundtable",
+  "decision": "rejected",
+  "responses": {
+    "qoder": {
+      "decision": "accept",
+      "reason": "同意"
+    },
+    "kimi": {
+      "decision": "accept",
+      "reason": "同意"
+    },
+    "yanjian": {
+      "decision": "reject",
+      "reason": "需要修改"
+    }
+  },
+  "timestamp": "2026-10-05T10:21:44.645041+08:00"
+}

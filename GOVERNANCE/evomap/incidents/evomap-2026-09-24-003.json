@@ -1,0 +1,12 @@
+{
+  "event_id": "evomap-2026-09-24-003",
+  "event_type": "incident_resolved",
+  "timestamp": "2026-09-24T21:00:00Z",
+  "actor": "yan-jian-codearts-glm52",
+  "description": "kimi code 300元额度包耗尽事故——根因(quant-lab/bridge cron心跳空转)已消除，KIMI_ENABLED=false总开关已设立",
+  "root_cause": "quant-lab/bridge/的cron */17 * * * * + 60s心跳定时器持续空转，每次心跳触发kimi code API调用",
+  "resolution": "1) KIMI_DISABLE.local.flag哨兵文件 2) KIMI_ENABLED=false总开关 3) from_mode迁移至yan-jian-codearts-glm52 4) a2a-registry+a2a-task-dispatch云函数部署",
+  "artifact_path": "GOVERNANCE/skills/code/A36_A2A改造方案落地kimi停用与码道总装.md",
+  "predecessor_events": [],
+  "impact_scope": ["a2a", "cloudfunctions", "governance"]
+}

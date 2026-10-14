@@ -1,0 +1,40 @@
+{
+  "embedding_主账户": {
+    "status": "FAIL",
+    "code": 401,
+    "msg": "Invalid API-key provided."
+  },
+  "embedding_RAM角色": {
+    "status": "FAIL",
+    "code": 401,
+    "msg": "Invalid API-key provided."
+  },
+  "rerank_主账户": {
+    "status": "FAIL",
+    "code": 401,
+    "msg": "Invalid API-key provided."
+  },
+  "rerank_RAM角色": {
+    "status": "FAIL",
+    "code": 401,
+    "msg": "Invalid API-key provided."
+  },
+  "decision_主账户": {
+    "status": "FAIL",
+    "code": 401,
+    "msg": "Invalid API-key provided."
+  },
+  "decision_RAM角色": {
+    "status": "FAIL",
+    "code": 401,
+    "msg": "Invalid API-key provided."
+  },
+  "sts_主账户": {
+    "status": "ERROR",
+    "msg": "Client.get_caller_identity() takes 1 positional argument but 2 were given"
+  },
+  "sts_RAM角色": {
+    "status": "ERROR",
+    "msg": "Client.get_caller_identity() takes 1 positional argument but 2 were given"
+  }
+}

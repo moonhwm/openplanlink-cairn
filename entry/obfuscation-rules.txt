@@ -1,0 +1,3 @@
+# 混淆关闭时的占位规则文件（release 构建保留）
+# 实装发布前如需开启混淆，再在 entry/build-profile.json5 将 enable 置 true
+-keep-property-name

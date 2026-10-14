@@ -1,0 +1,10 @@
+{
+  "module": "minimax_image_generation",
+  "model": "image-01",
+  "prompt": "A 3D character concept art of a scholar named YanJian wearing a dark blue academic robe with silver cryptography badges, glowing data-stream eyes, holding an algorithm manual, standing in a virtual world with cryptography forest background, full body, front view, high detail, game character style",
+  "image_urls": [
+    "[凭据已脱敏-MiniMax OSS临时URL]"
+  ],
+  "status": "success",
+  "timestamp": "2026-10-11"
+}
