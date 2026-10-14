@@ -34,6 +34,20 @@ TARGETS = [
     "类联合国机制初始化纲要_UNMECH-20261014-CAIRN-01.md",
     "辩护席位规程草案_DEFENSE-20261014-CAIRN-01.md",
     "WPS_OTL正解链路与实操约束_OTLCHAIN-20261014-CAIRN-01.md",
+    # ── 第二批（Round 46 续转）──
+    "权限矩阵与数据字典_RBAC-DICT-20261014-CAIRN-01.md",
+    "数字人员工注册规范_SEAT-REG-20261014-CAIRN-01.md",
+    "检索评测集规范_IRS-20261014-CAIRN-01.md",
+    "独立复现校验报告_REPRO-20261014-CAIRN-01.md",
+    "WPS云文档API直读方法学_WPSAPI-20261014-CAIRN-01.md",
+    "A2A节点发现与接入方案_NODE-DISCOVERY-20261014-CAIRN-01.md",
+    "OTL格式与元数据完整性规范_OTL-SPEC-20261014-CAIRN-01.md",
+    "两账对账总表_LEDGER-RECON-20261014-CAIRN-03.md",
+    "台账分叉研判_LEDGER-FORK-20261014-CAIRN-02.md",
+    "盘C归因更正_CLOUDPLACEHOLDER-20261014-CAIRN-01.md",
+    "大件归档评估_ARCHIVE-20261014-CAIRN-01.md",
+    "开源协议条款匹配对拍表_LIC-MATCH-20261014-CAIRN-02.md",
+    "三目录摸底与启动方案_SURVEY-20261014-CAIRN-01.md",
 ]
 
 

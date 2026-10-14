@@ -2,7 +2,7 @@
  {
   "name": "档案运营管理SOP_SOP-20261014-CAIRN-01.md",
   "title": "档案运营管理SOP_SOP-20261014-CAIRN-01",
-  "file_id": "dQJ8KBjyL1MDucfA3ru5rxGyCHbaDp5BL",
+  "file_id": "bFWT9J5FfxMC1UV8jBcFrxsHTEbVxgPxC",
   "create": 0,
   "insert": 0,
   "version": 3,
@@ -13,7 +13,7 @@
  {
   "name": "环境与依赖交付基线_ENV-BASELINE-20261014-CAIRN-01.md",
   "title": "环境与依赖交付基线_ENV-BASELINE-20261014-CAIRN-01",
-  "file_id": "j6YXmVnuk9MPVMpaXbSWxxZVsbmbqXKaJ",
+  "file_id": "pJvYwq4JVrMypm851GSc1xShEpmBzqHqP",
   "create": 0,
   "insert": 0,
   "version": 3,
@@ -24,7 +24,7 @@
  {
   "name": "A2A通信协议与接口规范_PROTO-A2A-20261014-CAIRN-01.md",
   "title": "A2A通信协议与接口规范_PROTO-A2A-20261014-CAIRN-01",
-  "file_id": "z9df6jxubxMtQYZPnYiP1xbXUfhaUqLKt",
+  "file_id": "q2tMxq2S8rMLyuuwgpbvxxf9DQPm8oTpX",
   "create": 0,
   "insert": 0,
   "version": 3,
@@ -35,7 +35,7 @@
  {
   "name": "类联合国机制初始化纲要_UNMECH-20261014-CAIRN-01.md",
   "title": "类联合国机制初始化纲要_UNMECH-20261014-CAIRN-01",
-  "file_id": "P2R9C7BzrxMQAsTJhjYa1xNrazzKZL4nb",
+  "file_id": "dG3Q66NsjrMBL2fvJLiArx8omoTUD9Qka",
   "create": 0,
   "insert": 0,
   "version": 3,
@@ -46,7 +46,7 @@
  {
   "name": "辩护席位规程草案_DEFENSE-20261014-CAIRN-01.md",
   "title": "辩护席位规程草案_DEFENSE-20261014-CAIRN-01",
-  "file_id": "MxtghWvGc1MkVEXqum5QxxpBjjSj1bukp",
+  "file_id": "M4Ycxnvq9xM1VhUXBVUmxxpUd1xejvjn8",
   "create": 0,
   "insert": 0,
   "version": 3,
@@ -57,12 +57,155 @@
  {
   "name": "WPS_OTL正解链路与实操约束_OTLCHAIN-20261014-CAIRN-01.md",
   "title": "WPS_OTL正解链路与实操约束_OTLCHAIN-20261014-CAIRN-01",
-  "file_id": "ESfLwLULvrMUxXfZoozN1xhh9pPwEseF8",
+  "file_id": "NNFBUTbJArMpFGchcggCrxfxrSS2U7NvY",
   "create": 0,
   "insert": 0,
   "version": 3,
   "readback_code": 0,
   "readback_chars": 2088,
   "src_chars": 2414
+ },
+ {
+  "name": "权限矩阵与数据字典_RBAC-DICT-20261014-CAIRN-01.md",
+  "title": "权限矩阵与数据字典_RBAC-DICT-20261014-CAIRN-01",
+  "file_id": "jctP2cGHfrMJVRStnZSZ1x99gB4pfgp3N",
+  "create": 0,
+  "insert": 0,
+  "version": 3,
+  "readback_code": 0,
+  "readback_chars": 3597,
+  "src_chars": 4545
+ },
+ {
+  "name": "数字人员工注册规范_SEAT-REG-20261014-CAIRN-01.md",
+  "title": "数字人员工注册规范_SEAT-REG-20261014-CAIRN-01",
+  "file_id": "eYaM442mo1MbV4vRhzpCrxgU8XB2muTH9",
+  "create": 0,
+  "insert": 0,
+  "version": 3,
+  "readback_code": 0,
+  "readback_chars": 3441,
+  "src_chars": 4172
+ },
+ {
+  "name": "检索评测集规范_IRS-20261014-CAIRN-01.md",
+  "title": "检索评测集规范_IRS-20261014-CAIRN-01",
+  "file_id": "sWUqem6ew1MLzkHeBCjL1xFYbCQDoDRdU",
+  "create": 0,
+  "insert": 0,
+  "version": 3,
+  "readback_code": 0,
+  "readback_chars": 1736,
+  "src_chars": 2005
+ },
+ {
+  "name": "独立复现校验报告_REPRO-20261014-CAIRN-01.md",
+  "title": "独立复现校验报告_REPRO-20261014-CAIRN-01",
+  "file_id": "tEEhBx3cHxMR1YiFnpCorxHfghUXFuBdg",
+  "create": 0,
+  "insert": 0,
+  "version": 3,
+  "readback_code": 0,
+  "readback_chars": 2803,
+  "src_chars": 3336
+ },
+ {
+  "name": "WPS云文档API直读方法学_WPSAPI-20261014-CAIRN-01.md",
+  "title": "WPS云文档API直读方法学_WPSAPI-20261014-CAIRN-01",
+  "file_id": "NDxG6fEJVrMJL6NbDCV91x3oXCbW2zbZM",
+  "create": 0,
+  "insert": 0,
+  "version": 3,
+  "readback_code": 0,
+  "readback_chars": 2172,
+  "src_chars": 2582
+ },
+ {
+  "name": "A2A节点发现与接入方案_NODE-DISCOVERY-20261014-CAIRN-01.md",
+  "title": "A2A节点发现与接入方案_NODE-DISCOVERY-20261014-CAIRN-01",
+  "file_id": "eGS9B6JnmxMA5mffxfhurxxnhfZBBQcjC",
+  "create": 0,
+  "insert": 0,
+  "version": 3,
+  "readback_code": 0,
+  "readback_chars": 3383,
+  "src_chars": 3935
+ },
+ {
+  "name": "OTL格式与元数据完整性规范_OTL-SPEC-20261014-CAIRN-01.md",
+  "title": "OTL格式与元数据完整性规范_OTL-SPEC-20261014-CAIRN-01",
+  "file_id": "EWFPBTA6qxM5vBsY6RnfxxRqHraJTpuSB",
+  "create": 0,
+  "insert": 0,
+  "version": 3,
+  "readback_code": 0,
+  "readback_chars": 2928,
+  "src_chars": 3367
+ },
+ {
+  "name": "两账对账总表_LEDGER-RECON-20261014-CAIRN-03.md",
+  "title": "两账对账总表_LEDGER-RECON-20261014-CAIRN-03",
+  "file_id": "mEi6SskAxrM2MUpv9ZHArxn43WAAH3UC7",
+  "create": 0,
+  "insert": 0,
+  "version": 3,
+  "readback_code": 0,
+  "readback_chars": 2151,
+  "src_chars": 2571
+ },
+ {
+  "name": "台账分叉研判_LEDGER-FORK-20261014-CAIRN-02.md",
+  "title": "台账分叉研判_LEDGER-FORK-20261014-CAIRN-02",
+  "file_id": "85v6v8TETxMG1xk8NBKCrxj9yrVa2juEh",
+  "create": 0,
+  "insert": 0,
+  "version": 3,
+  "readback_code": 0,
+  "readback_chars": 1947,
+  "src_chars": 2396
+ },
+ {
+  "name": "盘C归因更正_CLOUDPLACEHOLDER-20261014-CAIRN-01.md",
+  "title": "盘C归因更正_CLOUDPLACEHOLDER-20261014-CAIRN-01",
+  "file_id": "xutpMwNFfxMWLTowxBWorxj4iNijUJrdg",
+  "create": 0,
+  "insert": 0,
+  "version": 3,
+  "readback_code": 0,
+  "readback_chars": 1682,
+  "src_chars": 1940
+ },
+ {
+  "name": "大件归档评估_ARCHIVE-20261014-CAIRN-01.md",
+  "title": "大件归档评估_ARCHIVE-20261014-CAIRN-01",
+  "file_id": "RQU4C3NTtxM3CikxFN1z1xX8ZkDMcUqR3",
+  "create": 0,
+  "insert": 0,
+  "version": 3,
+  "readback_code": 0,
+  "readback_chars": 1936,
+  "src_chars": 2413
+ },
+ {
+  "name": "开源协议条款匹配对拍表_LIC-MATCH-20261014-CAIRN-02.md",
+  "title": "开源协议条款匹配对拍表_LIC-MATCH-20261014-CAIRN-02",
+  "file_id": "D4YUiTNRKxMV8ZbG5BA5rxDDsXhmG5F1D",
+  "create": 0,
+  "insert": 0,
+  "version": 3,
+  "readback_code": 0,
+  "readback_chars": 1920,
+  "src_chars": 2260
+ },
+ {
+  "name": "三目录摸底与启动方案_SURVEY-20261014-CAIRN-01.md",
+  "title": "三目录摸底与启动方案_SURVEY-20261014-CAIRN-01",
+  "file_id": "arzW61kGRxMXH5pwtLMT1x2RghQNurewV",
+  "create": 0,
+  "insert": 0,
+  "version": 3,
+  "readback_code": 0,
+  "readback_chars": 2776,
+  "src_chars": 3332
  }
 ]
