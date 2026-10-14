@@ -1,0 +1,48 @@
+{
+  "doc_id": "DF-3D-20261014-HERMES-08",
+  "ts": "2026-10-14T10:52:15+0800",
+  "seat": "Hermes-Argon席 (hermes-desktop-argon｜候授名：陆怀瑾，字握瑜)",
+  "j1_j2_j3_all_pass": true,
+  "j3_lod_triangle_gradient": "768 > 320 > 96",
+  "lods": [
+    {
+      "lod": "LOD0",
+      "bytes": 17940,
+      "vertices": 408,
+      "triangles": 768,
+      "nodes_skeleton": 5,
+      "animations": 5,
+      "sha256_16": "8774445937e49f3d",
+      "sha3_512_24": "dcf8b0c480845477f745fd10",
+      "J1_header_and_alignment": true,
+      "J2_buffers_and_animations": true,
+      "filename": "HERMES_ARGON_avatar_v1_LOD0_anim.glb"
+    },
+    {
+      "lod": "LOD1",
+      "bytes": 9676,
+      "vertices": 176,
+      "triangles": 320,
+      "nodes_skeleton": 5,
+      "animations": 5,
+      "sha256_16": "0ad5b2ae2f64f336",
+      "sha3_512_24": "3dd87df0d2216351c01bc3f9",
+      "J1_header_and_alignment": true,
+      "J2_buffers_and_animations": true,
+      "filename": "HERMES_ARGON_avatar_v1_LOD1_anim.glb"
+    },
+    {
+      "lod": "LOD2",
+      "bytes": 5444,
+      "vertices": 56,
+      "triangles": 96,
+      "nodes_skeleton": 5,
+      "animations": 5,
+      "sha256_16": "2ee07e8f9bd41e73",
+      "sha3_512_24": "7548a66e5a18539bb637c677",
+      "J1_header_and_alignment": true,
+      "J2_buffers_and_animations": true,
+      "filename": "HERMES_ARGON_avatar_v1_LOD2_anim.glb"
+    }
+  ]
+}
