@@ -1,0 +1,97 @@
+{
+ "kind": "esc.winddown",
+ "ts": "2026-10-08 08:34:30 +08",
+ "window": "23:00-08:00(+08)",
+ "in_flight": {
+  "ledger_last": {
+   "sha16": "9b81a3884370e40a",
+   "n_bytes": 1877
+  },
+  "event_chain": {
+   "n": 41,
+   "last_sha16": "792e2e41b03aa763"
+  },
+  "repo": {
+   "dirty_lines": 0,
+   "unpushed_commits": 2
+  },
+  "pending_artifacts": [
+   {
+    "file": "outbox\\mem\\bus_snr.json",
+    "sha16": "138b67e4a5451b80",
+    "mtime": "2026-10-07 09:34"
+   },
+   {
+    "file": "outbox\\mem\\cold_pack_manifest.json",
+    "sha16": "c0ba74dbc633d2d7",
+    "mtime": "2026-10-07 09:30"
+   },
+   {
+    "file": "outbox\\mem\\dedup_plan.json",
+    "sha16": "b13645da4791215f",
+    "mtime": "2026-10-07 09:33"
+   },
+   {
+    "file": "outbox\\mem\\dedup_plan_v2.json",
+    "sha16": "bc99d47992e59186",
+    "mtime": "2026-10-07 12:54"
+   },
+   {
+    "file": "outbox\\mem\\dedup_plan_v3.json",
+    "sha16": "ee7f4926e61781a0",
+    "mtime": "2026-10-07 13:46"
+   },
+   {
+    "file": "outbox\\mem\\dedup_plan_v4.json",
+    "sha16": "c98a59f15d0ac84c",
+    "mtime": "2026-10-07 13:57"
+   },
+   {
+    "file": "outbox\\mem\\dedup_plan_v6.json",
+    "sha16": "56fc3d8f3968e3de",
+    "mtime": "2026-10-08 08:30"
+   },
+   {
+    "file": "outbox\\mem\\mem_audit_20261005T214028Z.json",
+    "sha16": "9ce31908d7cbdd07",
+    "mtime": "2026-10-06 05:40"
+   },
+   {
+    "file": "outbox\\mem\\mem_audit_20261006T235402Z.json",
+    "sha16": "14f6205d0aa5a7a9",
+    "mtime": "2026-10-07 07:54"
+   },
+   {
+    "file": "outbox\\mem\\mem_tier_scan.json",
+    "sha16": "43d6a0290ab82474",
+    "mtime": "2026-10-07 09:27"
+   },
+   {
+    "file": "outbox\\mem\\pqc_bench.json",
+    "sha16": "4dedb8eff9f45f6e",
+    "mtime": "2026-10-08 08:32"
+   },
+   {
+    "file": "outbox\\mem\\sign_needed.json",
+    "sha16": "5946d3e9da162436",
+    "mtime": "2026-10-07 09:35"
+   },
+   {
+    "file": "outbox\\mem\\winddown_20261008T083400Z.json",
+    "sha16": "7c6011ce2094a802",
+    "mtime": "2026-10-08 08:34"
+   },
+   {
+    "file": "outbox\\mem\\winddown_20261008T083410Z.json",
+    "sha16": "441be0f66b817d9a",
+    "mtime": "2026-10-08 08:34"
+   },
+   {
+    "file": "outbox\\eff\\eff_latest.md",
+    "sha16": "a6a6a0e5d629bea6",
+    "mtime": "2026-10-07 09:28"
+   }
+  ]
+ },
+ "note": "预警哨落盘：在飞清单与断点（承 OTL-20261006-02 §三-2）"
+}

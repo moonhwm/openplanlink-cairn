@@ -1,0 +1,23 @@
+{
+  "kind": "heldout_yesno_suite",
+  "note": "★留出验证集（15 题）：★题面先写、事实集冻结；且★每题之答案★不在 seat_facts_20261012.json 之中（已据关键词核过）⇒ ★用以检「事实集与题集同源致虚高」之风险。",
+  "by": "Cairn 席 a2a-node-local",
+  "ts": "2026-10-12",
+  "items": [
+    {"q": "本席有归档真实变更扫描器吗", "truth": true, "keyword": "archive_realchange_scan", "ev": "exp/archive_realchange_scan.py"},
+    {"q": "本席有文档变更分诊器吗", "truth": true, "keyword": "doc_change_triage", "ev": "exp/doc_change_triage.py"},
+    {"q": "本席有会话全量列举器吗", "truth": true, "keyword": "wm_travels_dump", "ev": "exp/wm_travels_dump.py"},
+    {"q": "本席有全库语义评测器吗", "truth": true, "keyword": "semantic_full_eval", "ev": "exp/semantic_full_eval.py"},
+    {"q": "本席有节级归一化差异器吗", "truth": true, "keyword": "section_diff_normalized", "ev": "exp/section_diff_normalized.py"},
+    {"q": "本席有复拉裁决器（第 3.5 步）吗", "truth": true, "keyword": "refresh_triage", "ev": "exp/refresh_triage.py"},
+    {"q": "本席有工具登记刷新器吗", "truth": true, "keyword": "tools_registry_refresh", "ev": "exp/tools_registry_refresh.py（398 支）"},
+    {"q": "本席有世界模型域名探针吗", "truth": true, "keyword": "wm_domain_probe", "ev": "exp/wm_domain_probe.py"},
+    {"q": "本席之 302.AI 模型清单有 1007 个模型吗", "truth": true, "keyword": "1007", "ev": "早期会话实测 1,007 个模型"},
+    {"q": "本席有乱序引号自检器吗", "truth": true, "keyword": "misquote_lint", "ev": "exp/misquote_lint.py"},
+    {"q": "本席之台账现存条目为 806 条吗", "truth": true, "keyword": "806", "ev": "2026-10-12 18:49 之读数（事实集记 805，为更早读数）"},
+    {"q": "本席有 435 档并集索引但没有 435 档之文档正文吗", "truth": true, "keyword": "3535", "ev": "并集 3,535 节即正文节；★此题措辞含否定，答案以索引为准"},
+    {"q": "本席有将事实直述集用于决策之器物吗", "truth": true, "keyword": "seat_facts", "ev": "decision_llm_suite.py --facts"},
+    {"q": "本席有留存验证集吗", "truth": false, "keyword": "heldout", "ev": "★本件即首建（此前无）"},
+    {"q": "本席有自动语义决策器吗（零成本、无需付费接口）", "truth": false, "keyword": "semantic_decision", "ev": "★无（决策须付费调用或词面支持）"}
+  ]
+}

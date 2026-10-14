@@ -1,0 +1,22 @@
+{
+ "ts": "2026-10-12T17:51:06+0800",
+ "name": "夜间游乐场",
+ "found": true,
+ "fields": {
+  "encryptedWorldId": "8rcpnKlw6xp3FtpLvZIGB0G5gEekLc2xgt4Xh4Y6GfceXZFiVk889HrvHtCxWWeB",
+  "name": "夜间游乐场",
+  "status": "ready",
+  "mode": "1",
+  "previewUrl": "None",
+  "createdAt": "2026-10-11T10:07:03.867+00:00",
+  "perspective": "third_person",
+  "creationModel": "simple",
+  "uploadMode": "first_frame"
+ },
+ "urls": [],
+ "criteria": {
+  "①找到该世界": true,
+  "②其字段数 > 0": true,
+  "③★对每个 URL 字段之可达性已给出": true
+ }
+}

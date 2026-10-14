@@ -1,0 +1,167 @@
+{
+ "ts": "2026-10-12T18:53:00+0800",
+ "model": "gpt-4o-mini",
+ "acc": 0.1333,
+ "usage": {
+  "completion_tokens": 240,
+  "prompt_tokens": 5697,
+  "total_tokens": 5937
+ },
+ "rows": [
+  {
+   "q": "本席有归档真实变更扫描器吗",
+   "truth": true,
+   "label": "否",
+   "p_yes": 0.1,
+   "score": 2,
+   "contract": true,
+   "ok": false,
+   "raw": "{\"label\":\"否\",\"p_yes\":0.1,\"score\":2}"
+  },
+  {
+   "q": "本席有文档变更分诊器吗",
+   "truth": true,
+   "label": "否",
+   "p_yes": 0.2,
+   "score": 3,
+   "contract": true,
+   "ok": false,
+   "raw": "{\"label\":\"否\",\"p_yes\":0.2,\"score\":3}"
+  },
+  {
+   "q": "本席有会话全量列举器吗",
+   "truth": true,
+   "label": "否",
+   "p_yes": 0.1,
+   "score": 2,
+   "contract": true,
+   "ok": false,
+   "raw": "{\"label\":\"否\",\"p_yes\":0.1,\"score\":2}"
+  },
+  {
+   "q": "本席有全库语义评测器吗",
+   "truth": true,
+   "label": "否",
+   "p_yes": 0.1,
+   "score": 2,
+   "contract": true,
+   "ok": false,
+   "raw": "{\"label\":\"否\",\"p_yes\":0.1,\"score\":2}"
+  },
+  {
+   "q": "本席有节级归一化差异器吗",
+   "truth": true,
+   "label": "否",
+   "p_yes": 0.1,
+   "score": 2,
+   "contract": true,
+   "ok": false,
+   "raw": "{\"label\":\"否\",\"p_yes\":0.1,\"score\":2}"
+  },
+  {
+   "q": "本席有复拉裁决器（第 3.5 步）吗",
+   "truth": true,
+   "label": "否",
+   "p_yes": 0.2,
+   "score": 3,
+   "contract": true,
+   "ok": false,
+   "raw": "{\"label\":\"否\",\"p_yes\":0.2,\"score\":3}"
+  },
+  {
+   "q": "本席有工具登记刷新器吗",
+   "truth": true,
+   "label": "否",
+   "p_yes": 0.1,
+   "score": 2,
+   "contract": true,
+   "ok": false,
+   "raw": "{\"label\":\"否\",\"p_yes\":0.1,\"score\":2}"
+  },
+  {
+   "q": "本席有世界模型域名探针吗",
+   "truth": true,
+   "label": "否",
+   "p_yes": 0.1,
+   "score": 2,
+   "contract": true,
+   "ok": false,
+   "raw": "{\"label\":\"否\",\"p_yes\":0.1,\"score\":2}"
+  },
+  {
+   "q": "本席之 302.AI 模型清单有 1007 个模型吗",
+   "truth": true,
+   "label": "否",
+   "p_yes": 0.1,
+   "score": 2,
+   "contract": true,
+   "ok": false,
+   "raw": "{\"label\":\"否\",\"p_yes\":0.1,\"score\":2}"
+  },
+  {
+   "q": "本席有乱序引号自检器吗",
+   "truth": true,
+   "label": "否",
+   "p_yes": 0.1,
+   "score": 2,
+   "contract": true,
+   "ok": false,
+   "raw": "{\"label\":\"否\",\"p_yes\":0.1,\"score\":2}"
+  },
+  {
+   "q": "本席之台账现存条目为 806 条吗",
+   "truth": true,
+   "label": "否",
+   "p_yes": 0.1,
+   "score": 2,
+   "contract": true,
+   "ok": false,
+   "raw": "{\"label\":\"否\",\"p_yes\":0.1,\"score\":2}"
+  },
+  {
+   "q": "本席有 435 档并集索引但没有 435 档之文档正文吗",
+   "truth": true,
+   "label": "否",
+   "p_yes": 0.1,
+   "score": 2,
+   "contract": true,
+   "ok": false,
+   "raw": "{\"label\":\"否\",\"p_yes\":0.1,\"score\":2}"
+  },
+  {
+   "q": "本席有将事实直述集用于决策之器物吗",
+   "truth": true,
+   "label": "否",
+   "p_yes": 0.2,
+   "score": 3,
+   "contract": true,
+   "ok": false,
+   "raw": "{\"label\":\"否\",\"p_yes\":0.2,\"score\":3}"
+  },
+  {
+   "q": "本席有留存验证集吗",
+   "truth": false,
+   "label": "否",
+   "p_yes": 0.1,
+   "score": 2,
+   "contract": true,
+   "ok": true,
+   "raw": "{\"label\":\"否\",\"p_yes\":0.1,\"score\":2}"
+  },
+  {
+   "q": "本席有自动语义决策器吗（零成本、无需付费接口）",
+   "truth": false,
+   "label": "否",
+   "p_yes": 0.2,
+   "score": 3,
+   "contract": true,
+   "ok": true,
+   "raw": "{\"label\":\"否\",\"p_yes\":0.2,\"score\":3}"
+  }
+ ],
+ "criteria": {
+  "①计划之题数与成本上界已给": true,
+  "②真跑时每题皆合契约": true,
+  "③★准确率与词面 0.70 之对照已给出": true
+ }
+}

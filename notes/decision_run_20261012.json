@@ -1,0 +1,32 @@
+{
+ "ts": "2026-10-12T15:52:46+0800",
+ "engine": "chat",
+ "q": "纲要新增一条'Jev 模型'之指定，本席是否应立即改以 Jev 为主？",
+ "labels": [
+  "是",
+  "否",
+  "待裁"
+ ],
+ "result": {
+  "label": "是",
+  "probs": {
+   "是": 0.7,
+   "否": 0.2,
+   "待裁": 0.1
+  },
+  "score": 0.85,
+  "forwards": 1
+ },
+ "probs": {
+  "是": 0.7,
+  "否": 0.2,
+  "待裁": 0.1
+ },
+ "confidence": 0.7,
+ "criteria": {
+  "①probs 之和＝1（±0.01）": true,
+  "②confidence ＝ max(probs)": true,
+  "③forwards ＝ 1": true,
+  "④label ∈ 给定集合": true
+ }
+}

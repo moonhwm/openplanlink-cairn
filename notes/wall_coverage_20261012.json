@@ -1,0 +1,101 @@
+{
+ "ts": "2026-10-12T16:15:32+0800",
+ "targets": 11,
+ "marked": 11,
+ "compiled": 11,
+ "rows": [
+  {
+   "file": "embed_rerank_302.py",
+   "marked": 1,
+   "compiled": true,
+   "hits": 0,
+   "origin_split": {}
+  },
+  {
+   "file": "decision_model_api.py",
+   "marked": 1,
+   "compiled": true,
+   "hits": 0,
+   "origin_split": {}
+  },
+  {
+   "file": "wm_create_generic.py",
+   "marked": 1,
+   "compiled": true,
+   "hits": 0,
+   "origin_split": {}
+  },
+  {
+   "file": "bailian_probe2.py",
+   "marked": 1,
+   "compiled": true,
+   "hits": 0,
+   "origin_split": {}
+  },
+  {
+   "file": "semantic_search.py",
+   "marked": 1,
+   "compiled": true,
+   "hits": 2,
+   "origin_split": {
+    "unknown（旧行无此字段）": 2
+   }
+  },
+  {
+   "file": "ai302_cross_review.py",
+   "marked": 1,
+   "compiled": true,
+   "hits": 2,
+   "origin_split": {
+    "unknown（旧行无此字段）": 2
+   }
+  },
+  {
+   "file": "exp11_action_legality.py",
+   "marked": 1,
+   "compiled": true,
+   "hits": 1,
+   "origin_split": {
+    "unknown（旧行无此字段）": 1
+   }
+  },
+  {
+   "file": "recheck_adventure_path.py",
+   "marked": 1,
+   "compiled": true,
+   "hits": 0,
+   "origin_split": {}
+  },
+  {
+   "file": "search_route.py",
+   "marked": 1,
+   "compiled": true,
+   "hits": 1,
+   "origin_split": {
+    "unknown（旧行无此字段）": 1
+   }
+  },
+  {
+   "file": "decision_vector_rerank.py",
+   "marked": 1,
+   "compiled": true,
+   "hits": 1,
+   "origin_split": {
+    "unknown（旧行无此字段）": 1
+   }
+  },
+  {
+   "file": "decision_vector_rerank_v2.py",
+   "marked": 1,
+   "compiled": true,
+   "hits": 0,
+   "origin_split": {}
+  }
+ ],
+ "criteria": {
+  "①十一支皆含★墙闸标记": true,
+  "②十一支皆编译通过": true,
+  "③台账命中数为参考（不设阈值）": true
+ },
+ "note": "★覆盖以标记＋编译为证；台账命中数按 origin 分读（runtime／scan／unknown）"
+}

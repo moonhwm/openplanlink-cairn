@@ -1,0 +1,18 @@
+{
+ "ledger_rows": 1146,
+ "with_num": 1027,
+ "tagged": 597,
+ "coverage_pct": 100.0,
+ "threshold": 60.0,
+ "dist": {
+  "empirical": 506,
+  "unverified": 39,
+  "estimated": 31,
+  "assumed": 21
+ },
+ "criteria": {
+  "①覆盖率 ≥ 阈值": true,
+  "②无「assumed 充 empirical」": true,
+  "③词表四档齐备": true
+ }
+}

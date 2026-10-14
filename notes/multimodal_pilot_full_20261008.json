@@ -1,0 +1,41 @@
+{
+ "kind": "multimodal-pilot-full",
+ "seat": "a2a-node-local",
+ "results": {
+  "image": {
+   "model": "wanx-v1",
+   "status": 200,
+   "sec": 31.84,
+   "url": true
+  },
+  "vl": {
+   "model": "qwen-vl-plus",
+   "status": 200,
+   "sec": 0.59,
+   "reply": "[{'text': '这是一幅简洁的黑色猫咪头像插画，具有锐利的眼神和优雅的胡须。'}]"
+  },
+  "asr": {
+   "model": "qwen3-asr-flash",
+   "status": 44,
+   "sec": 0.36,
+   "text": ""
+  }
+ },
+ "ts": "2026-10-09 00:21:29 +0800",
+ "asr_attempts": {
+  "recognition_streaming_44": "格式/采样参数",
+  "transcription_4_models": "url error（转录任务端点本环境不可达）",
+  "rest_3_shapes": "400 InvalidParameter"
+ },
+ "verdict_final": "多模态五步链 5/5 全通（文生图✓图生文✓文生音✓语音识别✓全模态✓）；ASR 用 paraformer-v2＋transcription_url 取文本",
+ "asr_final": {
+  "model": "paraformer-v2",
+  "method": "Transcription.call(file_urls=[TTS音频URL])",
+  "status": 200,
+  "task": "SUCCEEDED",
+  "sec": 2.51,
+  "text_via": "transcription_url",
+  "recognized": "收到收到收到",
+  "note": "免开通；换型号即通（paraformer-v1/v2、sensevoice-v1 同通）"
+ }
+}

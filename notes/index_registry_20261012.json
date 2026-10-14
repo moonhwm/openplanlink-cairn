@@ -1,0 +1,89 @@
+{
+ "ts": "2026-10-12T15:04:54+0800",
+ "rows": [
+  {
+   "name": "section_index_20261012_1500.json",
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\exp\\.cache\\section_index_20261012_1500.json",
+   "sha16": "eb47856e6cb692ea",
+   "sections": 1068,
+   "docs": 144,
+   "tf": true,
+   "map_pct": 100.0,
+   "mtime": 1791788402.3571396,
+   "lag_min": 1.1,
+   "readings": {
+    "档": "新档（1,068 节；含 tf）",
+    "none_A": 0.711,
+    "none_B": 0.697,
+    "multi_A": 0.372,
+    "multi_B": 0.87,
+    "multi2_B": 0.05,
+    "oracle_B": 0.892,
+    "来源": "重建后复测（-1133）"
+   }
+  },
+  {
+   "name": "section_index_20261012_1459.json",
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\exp\\.cache\\section_index_20261012_1459.json",
+   "sha16": "eb47856e6cb692ea",
+   "sections": 1068,
+   "docs": 144,
+   "tf": true,
+   "map_pct": 100.0,
+   "mtime": 1791788380.4211082,
+   "lag_min": 1.5,
+   "readings": {
+    "档": "新档（1,068 节；含 tf）",
+    "none_A": 0.711,
+    "none_B": 0.697,
+    "multi_A": 0.372,
+    "multi_B": 0.87,
+    "multi2_B": 0.05,
+    "oracle_B": 0.892,
+    "来源": "重建后复测（-1133）"
+   }
+  },
+  {
+   "name": "section_index_20261012.json",
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\archive\\cache\\section_index_20261012.json",
+   "sha16": "eb47856e6cb692ea",
+   "sections": 1068,
+   "docs": 144,
+   "tf": true,
+   "map_pct": 100.0,
+   "mtime": 1791787808.6721978,
+   "lag_min": 11.0,
+   "readings": {
+    "档": "新档（1,068 节；含 tf）",
+    "none_A": 0.711,
+    "none_B": 0.697,
+    "multi_A": 0.372,
+    "multi_B": 0.87,
+    "multi2_B": 0.05,
+    "oracle_B": 0.892,
+    "来源": "重建后复测（-1133）"
+   }
+  },
+  {
+   "name": "section_index.json",
+   "path": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\exp\\.cache\\section_index.json",
+   "sha16": "65d2a9dfaa0c224f",
+   "sections": 3126,
+   "docs": 385,
+   "tf": false,
+   "map_pct": 47.1,
+   "mtime": 1791719695.9069185,
+   "lag_min": 1146.2,
+   "readings": {
+    "档": "旧档（3,126 节；无 tf）",
+    "none_A": 0.801,
+    "none_B": 0.687,
+    "multi_A": 0.407,
+    "multi_B": 0.944,
+    "multi2_B": 0.015,
+    "oracle_B": 0.958,
+    "来源": "-1130／-1131"
+   }
+  }
+ ]
+}

@@ -1,0 +1,19 @@
+{
+ "index": "section_index_20261012_1811.json",
+ "sha16": "9e8e235b72225c8d",
+ "sections": 1162,
+ "docs": 155,
+ "has_tf": true,
+ "map_total": 99,
+ "map_hit": 99,
+ "map_consistency_pct": 100.0,
+ "index_mtime": 1791799878.2279663,
+ "newest_artifact_mtime": 1791799103.9732988,
+ "fresh": true,
+ "criteria": {
+  "①索引可读且含 sections": true,
+  "②tf 在场（免器空转）": true,
+  "③件号映射一致性 ≥95%（现 100%）": true,
+  "④索引落后 ≤30 分钟（现 0 分钟）": true
+ }
+}

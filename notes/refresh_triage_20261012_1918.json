@@ -1,0 +1,30 @@
+{
+ "ts": "2026-10-12T19:18:23+0800",
+ "notify": "doc_update_20261012_1918.md",
+ "docs": [
+  {
+   "doc": "polish",
+   "a": "v_20261012_1916.md",
+   "b": "v_20261012_1918.md",
+   "real_change": false,
+   "norm_chars": [
+    239996,
+    239996
+   ],
+   "sections": [
+    124,
+    124
+   ],
+   "added": [],
+   "removed": [],
+   "changed": []
+  }
+ ],
+ "real_change_count": 0,
+ "verdict": "★全部为假变更（归一后节级差异皆 0）⇒ ★只台账一行，不出短件",
+ "criteria": {
+  "①能读到最新通知": true,
+  "②能取到该档 ≥2 版": true,
+  "③★裁决已给出（出件／不出件）": true
+ }
+}

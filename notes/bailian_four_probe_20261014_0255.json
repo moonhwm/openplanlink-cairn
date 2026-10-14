@@ -1,0 +1,33 @@
+{
+ "ts": "2026-10-14T02:55:40+0800",
+ "base": "https://ws-ay6o8osb22o9dc3t.cn-beijing.maas.aliyuncs.com/compatible-mode/v1",
+ "rows": [
+  {
+   "tag": "① chat(qwen-plus)",
+   "http": 200,
+   "code": "",
+   "ok": true
+  },
+  {
+   "tag": "② embedding(v4)",
+   "http": 403,
+   "code": "",
+   "ok": false
+  },
+  {
+   "tag": "③a rerank(compatible)",
+   "http": 404,
+   "code": "",
+   "ok": false
+  },
+  {
+   "tag": "③b rerank(原生 api/v1)",
+   "http": 429,
+   "code": "BudgetLimitExceeded",
+   "ok": false
+  }
+ ],
+ "good": [
+  "① chat(qwen-plus)"
+ ]
+}

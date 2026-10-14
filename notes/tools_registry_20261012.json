@@ -1,0 +1,3267 @@
+{
+ "ts": "2026-10-12T16:47:03+0800",
+ "dir": "tools",
+ "count": 398,
+ "nodoc": [
+  "attest_lab_test",
+  "audit_evidence_pack",
+  "audit_evidence_source",
+  "audit_nonjs_site",
+  "audit_robots_compliance",
+  "audit_skill_frontmatter",
+  "audit_skill_index",
+  "audit_skill_naming",
+  "auth_policy",
+  "auth_split",
+  "blast_radius",
+  "bom_audit",
+  "bom_seal",
+  "channel_probe_minimax_20261010",
+  "check_claims",
+  "check_handshake52",
+  "contract_check",
+  "decision_scoring_run",
+  "demo_clip_offset",
+  "emit_status_js",
+  "extract_media",
+  "feed_to_deduce",
+  "fetch_wechat_article",
+  "fix_chain_signature",
+  "fix_observe_v21",
+  "gen_staroffice_state",
+  "gen_status_feed",
+  "glb_anim_verify",
+  "ico_to_png",
+  "ignition_gate",
+  "init_probe_20261009",
+  "intake_20260929",
+  "json_where",
+  "line_tails",
+  "live_state_loop",
+  "md2docx",
+  "meow_push",
+  "mkled",
+  "netguard",
+  "pilot_publish",
+  "policy_abc",
+  "probe_opl_history",
+  "robots_gate",
+  "scan_secrets",
+  "seed_render",
+  "seed_verify",
+  "struct_metrics",
+  "test_chain_rewrite",
+  "test_deduce_core",
+  "test_deduce_d4",
+  "tool_hygiene",
+  "tree_ambiguity_demo",
+  "url_audit",
+  "verify_hub_merkle",
+  "verify_opc_agentcard",
+  "verify_opl_attest",
+  "verify_peer_kit"
+ ],
+ "unregistered": [
+  "a2a_client",
+  "a2a_exchange",
+  "a2a_hmac",
+  "a2a_multiseat_demo",
+  "a2a_node",
+  "a2a_send_remote",
+  "ab_test_fixed",
+  "across_records_profile",
+  "agp_matrix",
+  "ai302_cross_review",
+  "anim_state_machine",
+  "arch_diagram",
+  "archive_health",
+  "archive_layout",
+  "archive_selfprove",
+  "ark_signed_probe",
+  "artifact_nature_test2",
+  "ask_self",
+  "attest_lab_test",
+  "attest_sweep",
+  "audio_profile_audit",
+  "audit_argument_arc",
+  "audit_blast_transitivity",
+  "audit_by_evtype",
+  "audit_declared_paths",
+  "audit_declared_still_diverges",
+  "audit_deferrals",
+  "audit_delete_guards",
+  "audit_evidence_pack",
+  "audit_evidence_source",
+  "audit_filters",
+  "audit_honesty_claims",
+  "audit_nonjs_site",
+  "audit_orphans",
+  "audit_read_verdicts",
+  "audit_refusal_words",
+  "audit_replacement_writes",
+  "audit_robots_compliance",
+  "audit_skill_frontmatter",
+  "audit_skill_index",
+  "audit_skill_naming",
+  "audit_static_vs_live",
+  "audit_toolset",
+  "audit_verdict_coverage",
+  "audit_wording_siblings",
+  "auth_policy",
+  "auth_split",
+  "avatar_bake_walk",
+  "avatar_bake_walk_v3b",
+  "avatar_lod_make",
+  "avatar_lod_make_v2",
+  "avatar_render",
+  "avatar_walk_ik_v4",
+  "avatar_walk_lock_v5",
+  "avatar_walk_side_v3",
+  "avatar_walk_v3",
+  "avatar_walk_v6_world",
+  "avatar_walk_v6b",
+  "avatar_walk_v6b_fixed_origin",
+  "avatar_walk_v6b_render",
+  "bailian_ops",
+  "bailian_playground_run",
+  "bailian_probe2",
+  "band_series",
+  "baseline_digest",
+  "billing_survey",
+  "blast_radius",
+  "blindspot_trials",
+  "bom_audit",
+  "bom_seal",
+  "bootstrap",
+  "bss_balance_probe",
+  "bss_budget_probe",
+  "build_index",
+  "build_nameregistry",
+  "build_opl_tree",
+  "burn_daemon",
+  "bus_dlq",
+  "cairn_ontology",
+  "capacity_alert",
+  "cas_store",
+  "change_check_map",
+  "channel_probe_minimax_20261010",
+  "channels",
+  "check_citations",
+  "check_claims",
+  "check_closing_append",
+  "check_contamination",
+  "check_envclaims",
+  "check_expectations",
+  "check_handshake52",
+  "check_my_recheck",
+  "check_playbook_commands",
+  "check_policy_coverage",
+  "cite_verify",
+  "client_handoff",
+  "clock_stamp",
+  "cold_pack",
+  "collect_final",
+  "collect_inventory",
+  "compare_three_modules",
+  "compensate",
+  "compliance_check",
+  "component_match_by_position",
+  "component_tracking",
+  "conf_calibration_audit",
+  "conf_gate",
+  "console_report",
+  "contract_check",
+  "control_probe",
+  "corpus_redundancy_audit",
+  "corpus_v2_run",
+  "corpus_v3_retrieval",
+  "corpus_v4_modules",
+  "corpus_v6_modules",
+  "cost_ledger",
+  "cred_crosscheck_night",
+  "cred_hygiene_sweep_v2",
+  "criterion_selfcheck",
+  "crossworld_t2",
+  "daily_nine_audit_20261010",
+  "daily_statement",
+  "danger_guard",
+  "decision_model",
+  "decision_model_api",
+  "decision_model_compare",
+  "decision_rerank",
+  "decision_scoring_run",
+  "decision_vector_rerank",
+  "decision_vector_rerank_v2",
+  "declare_net",
+  "dedup_plan",
+  "demo_clip_offset",
+  "desk_baseline",
+  "desktop_archive",
+  "detrend_recheck",
+  "diag_seed",
+  "directing_approx_run",
+  "disclosure_scan",
+  "doc_archive",
+  "doc_archive_extend",
+  "doc_diff_real",
+  "doc_refresh",
+  "doc_update_diff",
+  "edit_declaration",
+  "eff_report",
+  "emb_cache",
+  "embed_rerank_302",
+  "emergence_discriminator",
+  "emit_arc_index",
+  "emit_closing_block",
+  "emit_current_pointer",
+  "emit_duration",
+  "emit_gateway_spec",
+  "emit_lockpin",
+  "emit_status_js",
+  "esc_watch",
+  "event_driven",
+  "exp10_presence_heartbeat",
+  "exp11_action_legality",
+  "exp24_enter",
+  "exp25_directing",
+  "exp26_determinism",
+  "exp4_fetch_videos",
+  "exp4_nonce_perturbation",
+  "exp5_state_persistence",
+  "exp6_persona_in_world",
+  "exp7_short_commands",
+  "exp8_status_fields",
+  "exp9_character_actions",
+  "extract_media",
+  "falsify_kit_check",
+  "feed_to_deduce",
+  "fetch_wechat_article",
+  "fix_chain_signature",
+  "fix_observe_v21",
+  "fix_stale_paths",
+  "fix_stale_paths_recover",
+  "forge_demo",
+  "frame_series_analysis",
+  "gap_roundtrip_world_run",
+  "gen_persona_frame",
+  "gen_persona_frame_v2",
+  "gen_persona_frame_v4",
+  "gen_persona_frame_v5",
+  "gen_persona_frame_v6",
+  "gen_persona_shoucang",
+  "gen_persona_turnaround",
+  "gen_staroffice_state",
+  "gen_status_feed",
+  "gitcode_search",
+  "glb_anim_verify",
+  "glb_facets",
+  "glb_make_cairn",
+  "glb_make_cairn_anim",
+  "glb_make_cairn_anim_v2",
+  "glb_render",
+  "glb_render_uv",
+  "glb_spec_audit",
+  "glb_static_lod",
+  "glb_uv_check",
+  "glb_uv_texture_patch",
+  "gov_orders_pull",
+  "heartbeat_daemon",
+  "hetero_models",
+  "ico_to_png",
+  "ignition_gate",
+  "index_guard",
+  "index_registry",
+  "index_switch",
+  "init_probe_20261009",
+  "instruct_experiment",
+  "intake_20260929",
+  "json_where",
+  "kdocs_direct_pull",
+  "keyderiv",
+  "knowledge_digest",
+  "ledger_cascade_rebaseline",
+  "line_tails",
+  "lineage_semantics",
+  "lint_cn_quotes",
+  "live_state_loop",
+  "local_read",
+  "local_world_sim",
+  "local_world_sim_v2",
+  "lsbus_format_ops",
+  "lsprobe",
+  "make_pack",
+  "mark2_reproduce",
+  "mark_analysis",
+  "mark_experiment",
+  "md2docx",
+  "media_validate",
+  "mem_audit",
+  "mem_guard",
+  "mem_tier_scan",
+  "memory_change_log",
+  "meow_push",
+  "minimax_client",
+  "missing_inventory",
+  "mk_announce",
+  "mk_namespaces",
+  "mkled",
+  "mp4_sampletables",
+  "naming_test",
+  "naming_test2",
+  "neg_control_batch",
+  "neg_control_seat_location",
+  "neg_control_tool_hygiene",
+  "netguard",
+  "night_window",
+  "noise_floor_local",
+  "open_access",
+  "opening_proof2_20261011",
+  "ops_event",
+  "outsider_trial",
+  "panel_loop_demo",
+  "patch_auditor",
+  "patch_feed",
+  "perm",
+  "persona_pull",
+  "persona_v7",
+  "pilot_publish",
+  "policy_abc",
+  "ports_triage",
+  "pqc_bench",
+  "pre_push_gate",
+  "principles_index",
+  "probe_guard_hole",
+  "probe_guard_hole2",
+  "probe_meow_constraints",
+  "probe_opl_history",
+  "probe_qtorrent_card",
+  "proc_watchdog",
+  "proto",
+  "pub_safe",
+  "push_all",
+  "push_gate",
+  "quota_guard",
+  "quota_wall",
+  "r6_standard_op",
+  "read_docx",
+  "recheck_adventure_path",
+  "recount_chain_independent",
+  "recount_divergence_independent",
+  "rerank_doc_repr_test",
+  "resolve_link_ids",
+  "resume_on_gate_open",
+  "resume_three_modules",
+  "retrieval_eval",
+  "retrieval_precision_run",
+  "rho2_recheck",
+  "rig_audit",
+  "rmem_grade",
+  "robots_gate",
+  "root_direct_pull",
+  "rtc_entry_probe",
+  "rtc_token_anatomy",
+  "scan_secrets",
+  "sdd_gate",
+  "search_route",
+  "second_activity_regions",
+  "secret_sweep",
+  "section_search",
+  "seed_render",
+  "seed_verify",
+  "seek",
+  "selfref_probe",
+  "semantic_search",
+  "seq_frame_diff",
+  "sig_block",
+  "sig_verify",
+  "sign_demo",
+  "sign_if_needed",
+  "singlepoint_audit",
+  "skill_evolve",
+  "skill_runner",
+  "slime_mold",
+  "slime_search",
+  "smoke_none_tools",
+  "smoke_pipeline",
+  "sop_check",
+  "spectrum_mad",
+  "spinal_bridge",
+  "spinal_probe",
+  "stamp_time",
+  "storyboard_chain",
+  "struct_metrics",
+  "sts_caller_identity",
+  "supply_chain",
+  "surrogate_states",
+  "tamper_test",
+  "target_secret_check",
+  "task_state",
+  "tempguard",
+  "termtable",
+  "test_a2a_hmac",
+  "test_a2a_node",
+  "test_chain_rewrite",
+  "test_deduce_core",
+  "test_deduce_d4",
+  "test_supply_chain",
+  "test_totp",
+  "texel_density",
+  "three_modules_resume",
+  "time_stamp_audit",
+  "tool_hygiene",
+  "topology",
+  "totp",
+  "trace_driven_surrogate",
+  "travel_artifacts_fetch",
+  "travel_control_b",
+  "travel_enter_once",
+  "tree_ambiguity_demo",
+  "twocopy_diff",
+  "umc",
+  "umc_verify",
+  "url_audit",
+  "uv_stretch_check",
+  "uv_unwrap_v2",
+  "uv_unwrap_v3",
+  "uv_unwrap_v4",
+  "uv_unwrap_v5",
+  "uv_unwrap_v6",
+  "uv_unwrap_v7",
+  "vec_index",
+  "verify_chain",
+  "verify_gateway_spec",
+  "verify_hub_merkle",
+  "verify_lab_abc",
+  "verify_netguard_wiring",
+  "verify_nss_vectors",
+  "verify_opc_agentcard",
+  "verify_opl_attest",
+  "verify_opl_tree",
+  "verify_peer_kit",
+  "verify_playbook",
+  "verify_recipe",
+  "verify_seat_location",
+  "video_container_audit",
+  "wall_coverage",
+  "wall_guard",
+  "wechat_probe",
+  "winddown",
+  "window_close_record",
+  "wire_netguard",
+  "wm_create_generic",
+  "wm_get_ticket",
+  "wm_persona_world",
+  "wm_persona_world_v2",
+  "wm_persona_world_v5",
+  "wm_persona_world_v6",
+  "wording_gate",
+  "world_model_runner",
+  "world_video_diff",
+  "worlds_lineage",
+  "ws_domain_probe",
+  "zone_alternation"
+ ],
+ "missing": [
+  "count",
+  "items",
+  "note",
+  "num_collisions",
+  "seat",
+  "series",
+  "ts",
+  "unmatched"
+ ],
+ "criteria": {
+  "①扫得器物数 > 0": true,
+  "②每器物皆有其文档串首行": false,
+  "③未登记者已逐条列出": true
+ },
+ "tools": [
+  {
+   "name": "a2a_client",
+   "file": "a2a_client.py",
+   "kb": 1.8,
+   "doc": "a2a_client.py —— A2A 客户端：向节点发 JSON-RPC（HMAC 包络），验证响应。",
+   "mtime": "2026-10-04"
+  },
+  {
+   "name": "a2a_exchange",
+   "file": "a2a_exchange.py",
+   "kb": 2.9,
+   "doc": "a2a_exchange.py —— 最小可用的 A2A 消息交换（A2A 0.3.0 JSON-RPC + HMAC-SHA3-512 包络）。",
+   "mtime": "2026-10-03"
+  },
+  {
+   "name": "a2a_hmac",
+   "file": "a2a_hmac.py",
+   "kb": 8.1,
+   "doc": "A2A message authentication using HMAC-SHA3-512.",
+   "mtime": "2026-10-04"
+  },
+  {
+   "name": "a2a_multiseat_demo",
+   "file": "a2a_multiseat_demo.py",
+   "kb": 2.6,
+   "doc": "a2a_multiseat_demo.py —— 两席位经节点信箱互发（A→B、B→A），端到端验证。",
+   "mtime": "2026-10-04"
+  },
+  {
+   "name": "a2a_node",
+   "file": "a2a_node.py",
+   "kb": 16.7,
+   "doc": "a2a_node.py —— 最小 A2A JSON-RPC 节点（127.0.0.1:4173），HMAC-SHA3-512 认证 + 席位信箱。",
+   "mtime": "2026-10-04"
+  },
+  {
+   "name": "a2a_send_remote",
+   "file": "a2a_send_remote.py",
+   "kb": 1.0,
+   "doc": "a2a_send_remote.py —— 向真实 A2A 网络（120.46.86.165）发 message/send。",
+   "mtime": "2026-10-03"
+  },
+  {
+   "name": "ab_test_fixed",
+   "file": "ab_test_fixed.py",
+   "kb": 7.9,
+   "doc": "ab_test_fixed.py —— 修前/修后对照：同三组测试，跑在其版与修后版上。 v1.0.0",
+   "mtime": "2026-10-01"
+  },
+  {
+   "name": "across_records_profile",
+   "file": "across_records_profile.py",
+   "kb": 3.5,
+   "doc": "跨录核查：五录之亮度／帧差逐 1 s 剖面（判\"持续提亮\"与\"第二次活动期\"是否平台级）",
+   "mtime": "2026-10-09"
+  },
+  {
+   "name": "agp_matrix",
+   "file": "agp_matrix.py",
+   "kb": 3.9,
+   "doc": "agp_matrix.py —— AGP 版本兼容性矩阵 + 认证/编码与构建缓存解耦断言。",
+   "mtime": "2026-10-05"
+  },
+  {
+   "name": "ai302_cross_review",
+   "file": "ai302_cross_review.py",
+   "kb": 5.1,
+   "doc": "302.AI 跨厂商独立复核：请 claude-opus-5 独立判定本席核心判读（零输入下世界是否有结构性演化）",
+   "mtime": "2026-10-12"
+  },
+  {
+   "name": "anim_state_machine",
+   "file": "anim_state_machine.py",
+   "kb": 3.7,
+   "doc": "anim_state_machine.py —— 动画状态机（应《席位分身3D资产 Unity 规范》之「2.6 动画状态机」）",
+   "mtime": "2026-10-12"
+  },
+  {
+   "name": "arch_diagram",
+   "file": "arch_diagram.py",
+   "kb": 15.2,
+   "doc": "arch_diagram.py —— 全链路「可交互架构图」生成器（自包含，无外部依赖）",
+   "mtime": "2026-10-07"
+  },
+  {
+   "name": "archive_health",
+   "file": "archive_health.py",
+   "kb": 3.0,
+   "doc": "archive_health.py —— 档案健康闸（应本轮事故：复拉写入空档而工器报\"变更\"）",
+   "mtime": "2026-10-12"
+  },
+  {
+   "name": "archive_layout",
+   "file": "archive_layout.py",
+   "kb": 6.5,
+   "doc": "archive_layout.py —— 本席【多级归档】的强制执行器。 v1.0.0",
+   "mtime": "2026-10-02"
+  },
+  {
+   "name": "archive_selfprove",
+   "file": "archive_selfprove.py",
+   "kb": 2.5,
+   "doc": "档案自证与换行口径固化",
+   "mtime": "2026-10-11"
+  },
+  {
+   "name": "ark_signed_probe",
+   "file": "ark_signed_probe.py",
+   "kb": 3.7,
+   "doc": "火山引擎（Volcengine）签名 v4 探针 ＋ 纲要中 ark 之上下文",
+   "mtime": "2026-10-11"
+  },
+  {
+   "name": "artifact_nature_test2",
+   "file": "artifact_nature_test2.py",
+   "kb": 2.7,
+   "doc": "性质检验：产物录像 t=0 帧 vs 本席提供之首帧 vs 平台回显之首帧 —— 像素级比对",
+   "mtime": "2026-10-09"
+  },
+  {
+   "name": "ask_self",
+   "file": "ask_self.py",
+   "kb": 9.0,
+   "doc": "ask_self.py —— 落笔前先问自己一次：**我碰过这件事吗？** v1.0.0",
+   "mtime": "2026-10-02"
+  },
+  {
+   "name": "attest_lab_test",
+   "file": "attest_lab_test.py",
+   "kb": 7.9,
+   "doc": "",
+   "mtime": "2026-10-01"
+  },
+  {
+   "name": "attest_sweep",
+   "file": "attest_sweep.py",
+   "kb": 7.6,
+   "doc": "attest_sweep.py —— 历史提交「同批不变式」扫描（只读，夜维填谷作业）",
+   "mtime": "2026-10-06"
+  },
+  {
+   "name": "audio_profile_audit",
+   "file": "audio_profile_audit.py",
+   "kb": 5.4,
+   "doc": "音轨剖面审计（代理指标）：解析各录像音轨之逐样本字节大小（stsz）与时间轴（stts）",
+   "mtime": "2026-10-09"
+  },
+  {
+   "name": "audit_argument_arc",
+   "file": "audit_argument_arc.py",
+   "kb": 7.2,
+   "doc": "audit_argument_arc.py —— 把\"我这七轮是收敛还是空转\"变成【可数的东西】。 v1.0.0",
+   "mtime": "2026-10-03"
+  },
+  {
+   "name": "audit_blast_transitivity",
+   "file": "audit_blast_transitivity.py",
+   "kb": 7.5,
+   "doc": "audit_blast_transitivity.py —— 把轮 56 的认识做成【可查】：波及范围【有传递性】。 v1.0.0",
+   "mtime": "2026-10-03"
+  },
+  {
+   "name": "audit_by_evtype",
+   "file": "audit_by_evtype.py",
+   "kb": 5.4,
+   "doc": "audit_by_evtype.py —— 用【结构化字段】重算\"推翻率\"，以检验此前那个【按字样】的数字。 v1.0.0",
+   "mtime": "2026-10-02"
+  },
+  {
+   "name": "audit_declared_paths",
+   "file": "audit_declared_paths.py",
+   "kb": 3.1,
+   "doc": "audit_declared_paths.py —— 查：声明里每一个 declared_divergences.path，是不是【真文件】。 v1.0.0",
+   "mtime": "2026-10-03"
+  },
+  {
+   "name": "audit_declared_still_diverges",
+   "file": "audit_declared_still_diverges.py",
+   "kb": 4.0,
+   "doc": "audit_declared_still_diverges.py —— 查：声明过的分叉，**现在还是不是分叉**。 v1.0.0",
+   "mtime": "2026-10-03"
+  },
+  {
+   "name": "audit_deferrals",
+   "file": "audit_deferrals.py",
+   "kb": 5.3,
+   "doc": "audit_deferrals.py —— 数我自己产出过多少\"等别人\"，并判其中多少是【托辞】。 v1.0.0",
+   "mtime": "2026-10-03"
+  },
+  {
+   "name": "audit_delete_guards",
+   "file": "audit_delete_guards.py",
+   "kb": 7.7,
+   "doc": "audit_delete_guards.py —— 稽核【删除】：删的是【席位里的路径】还是【临时/实验室里的】。 v1.0.0",
+   "mtime": "2026-10-03"
+  },
+  {
+   "name": "audit_evidence_pack",
+   "file": "audit_evidence_pack.py",
+   "kb": 6.5,
+   "doc": "",
+   "mtime": "2026-10-01"
+  },
+  {
+   "name": "audit_evidence_source",
+   "file": "audit_evidence_source.py",
+   "kb": 4.0,
+   "doc": "",
+   "mtime": "2026-10-01"
+  },
+  {
+   "name": "audit_filters",
+   "file": "audit_filters.py",
+   "kb": 4.7,
+   "doc": "audit_filters.py —— 拿我自己的过滤词去撞【失败输出】，看哪些过滤词是瞎的。 v1.0.0",
+   "mtime": "2026-10-02"
+  },
+  {
+   "name": "audit_honesty_claims",
+   "file": "audit_honesty_claims.py",
+   "kb": 5.7,
+   "doc": "audit_honesty_claims.py —— 审【我自己那套\"诚实边界\"】里，哪些是【给定】，哪些是【选择】。 v1.0.0",
+   "mtime": "2026-10-02"
+  },
+  {
+   "name": "audit_nonjs_site",
+   "file": "audit_nonjs_site.py",
+   "kb": 4.9,
+   "doc": "",
+   "mtime": "2026-10-01"
+  },
+  {
+   "name": "audit_orphans",
+   "file": "audit_orphans.py",
+   "kb": 4.3,
+   "doc": "audit_orphans.py —— 算\"哪些器真被引用、哪些是孤儿\"。 v1.0.0",
+   "mtime": "2026-10-03"
+  },
+  {
+   "name": "audit_read_verdicts",
+   "file": "audit_read_verdicts.py",
+   "kb": 3.5,
+   "doc": "audit_read_verdicts.py —— 数：哪几件器的【名字/判词】真被我出的件引用过。 v1.0.0",
+   "mtime": "2026-10-03"
+  },
+  {
+   "name": "audit_refusal_words",
+   "file": "audit_refusal_words.py",
+   "kb": 8.0,
+   "doc": "audit_refusal_words.py —— 清点：全席【表示拒绝】用了多少种词。 v1.0.0",
+   "mtime": "2026-10-03"
+  },
+  {
+   "name": "audit_replacement_writes",
+   "file": "audit_replacement_writes.py",
+   "kb": 5.3,
+   "doc": "audit_replacement_writes.py —— 清点【替换式写入】及其变化指示。 v1.0.0",
+   "mtime": "2026-10-03"
+  },
+  {
+   "name": "audit_robots_compliance",
+   "file": "audit_robots_compliance.py",
+   "kb": 8.7,
+   "doc": "",
+   "mtime": "2026-10-01"
+  },
+  {
+   "name": "audit_skill_frontmatter",
+   "file": "audit_skill_frontmatter.py",
+   "kb": 5.9,
+   "doc": "",
+   "mtime": "2026-10-03"
+  },
+  {
+   "name": "audit_skill_index",
+   "file": "audit_skill_index.py",
+   "kb": 4.7,
+   "doc": "",
+   "mtime": "2026-10-01"
+  },
+  {
+   "name": "audit_skill_naming",
+   "file": "audit_skill_naming.py",
+   "kb": 6.8,
+   "doc": "",
+   "mtime": "2026-10-03"
+  },
+  {
+   "name": "audit_static_vs_live",
+   "file": "audit_static_vs_live.py",
+   "kb": 4.3,
+   "doc": "audit_static_vs_live.py —— 量\"这件器的输出会不会随运行而变\"。 v1.0.0",
+   "mtime": "2026-10-03"
+  },
+  {
+   "name": "audit_toolset",
+   "file": "audit_toolset.py",
+   "kb": 4.7,
+   "doc": "audit_toolset.py —— 把轮 12 那条判据用到【工具箱】上：找【被取代者】与【越权下结论者】。 v1.0.0",
+   "mtime": "2026-10-02"
+  },
+  {
+   "name": "audit_verdict_coverage",
+   "file": "audit_verdict_coverage.py",
+   "kb": 8.9,
+   "doc": "audit_verdict_coverage.py —— 清点：本席有多少器合了【机器可读判词】这条约定。 v1.0.0",
+   "mtime": "2026-10-03"
+  },
+  {
+   "name": "audit_wording_siblings",
+   "file": "audit_wording_siblings.py",
+   "kb": 5.2,
+   "doc": "audit_wording_siblings.py —— 给一个\"我刚改掉的写法\"，列出全席【剩余的同类处】。 v1.0.0",
+   "mtime": "2026-10-03"
+  },
+  {
+   "name": "auth_policy",
+   "file": "auth_policy.py",
+   "kb": 11.4,
+   "doc": "",
+   "mtime": "2026-10-01"
+  },
+  {
+   "name": "auth_split",
+   "file": "auth_split.py",
+   "kb": 10.1,
+   "doc": "",
+   "mtime": "2026-10-01"
+  },
+  {
+   "name": "avatar_bake_walk",
+   "file": "avatar_bake_walk.py",
+   "kb": 5.4,
+   "doc": "把行走循环烘入 glb：为 CAIRN_avatar v2_LOD1 增一条 WALK 动画（14 关键帧 × 13 关节）",
+   "mtime": "2026-10-09"
+  },
+  {
+   "name": "avatar_bake_walk_v3b",
+   "file": "avatar_bake_walk_v3b.py",
+   "kb": 6.3,
+   "doc": "行走烘焙 v3b：①补骨盆起伏（translation 通道）②为三 LOD 各烘 WALK",
+   "mtime": "2026-10-09"
+  },
+  {
+   "name": "avatar_lod_make",
+   "file": "avatar_lod_make.py",
+   "kb": 21.7,
+   "doc": "本席人形分身（CAIRN_avatar）三 LOD 生成器 —— 照 HY4《席位分身 3D 资产 Unity 规范》之可对齐项",
+   "mtime": "2026-10-09"
+  },
+  {
+   "name": "avatar_lod_make_v2",
+   "file": "avatar_lod_make_v2.py",
+   "kb": 14.4,
+   "doc": "CAIRN_avatar v2 —— 承 v1 之三缺陷（部件缝隙／符号不显／积木感）而改：",
+   "mtime": "2026-10-09"
+  },
+  {
+   "name": "avatar_render",
+   "file": "avatar_render.py",
+   "kb": 7.0,
+   "doc": "独立 glTF 蒙皮读取器：直接解析 .glb（不经生成器内存储）→ 逐动画求值 → 正交正视渲染五态",
+   "mtime": "2026-10-09"
+  },
+  {
+   "name": "avatar_walk_ik_v4",
+   "file": "avatar_walk_ik_v4.py",
+   "kb": 7.7,
+   "doc": "行走 v4：脚掌贴地之 IK 修正",
+   "mtime": "2026-10-09"
+  },
+  {
+   "name": "avatar_walk_lock_v5",
+   "file": "avatar_walk_lock_v5.py",
+   "kb": 8.8,
+   "doc": "足部滑移之量测与线性化（v5）",
+   "mtime": "2026-10-09"
+  },
+  {
+   "name": "avatar_walk_side_v3",
+   "file": "avatar_walk_side_v3.py",
+   "kb": 7.8,
+   "doc": "分身之行走循环 v3 · 侧视图：程序化骨骼动画（同一相位式，改相机沿 X 轴投影）（髋/膝/踝/肩/脊柱相位摆动 ＋ 骨盆起伏）",
+   "mtime": "2026-10-09"
+  },
+  {
+   "name": "avatar_walk_v3",
+   "file": "avatar_walk_v3.py",
+   "kb": 7.7,
+   "doc": "分身之行走循环 v3：程序化骨骼动画（髋/膝/踝/肩/脊柱相位摆动 ＋ 骨盆起伏）",
+   "mtime": "2026-10-09"
+  },
+  {
+   "name": "avatar_walk_v6_world",
+   "file": "avatar_walk_v6_world.py",
+   "kb": 10.1,
+   "doc": "行走 v6：支撑相冻结（世界坐标行走）",
+   "mtime": "2026-10-09"
+  },
+  {
+   "name": "avatar_walk_v6b",
+   "file": "avatar_walk_v6b.py",
+   "kb": 9.2,
+   "doc": "行走 v6b：以\"数值 IK（直接用 FK 求解）\"根除符号之误 ＋ 髋高降至 0.80 m",
+   "mtime": "2026-10-09"
+  },
+  {
+   "name": "avatar_walk_v6b_fixed_origin",
+   "file": "avatar_walk_v6b_fixed_origin.py",
+   "kb": 7.3,
+   "doc": "v6b 之侧视接触表 ＋ GIF · ★固定世界原点版（修正逐帧居中）\\n★ 关键：相机原点固定于\"首帧身体中心\"，身体随帧右移 ⇒ 可直观核\"身进脚定",
+   "mtime": "2026-10-09"
+  },
+  {
+   "name": "avatar_walk_v6b_render",
+   "file": "avatar_walk_v6b_render.py",
+   "kb": 7.1,
+   "doc": "v6b 之侧视接触表 ＋ GIF（含骨盆 y/z 位移；数值 IK）",
+   "mtime": "2026-10-09"
+  },
+  {
+   "name": "bailian_ops",
+   "file": "bailian_ops.py",
+   "kb": 6.0,
+   "doc": "bailian_ops.py —— 阿里云百炼·例行工作器（实战固化）v1.0.0",
+   "mtime": "2026-10-08"
+  },
+  {
+   "name": "bailian_playground_run",
+   "file": "bailian_playground_run.py",
+   "kb": 7.2,
+   "doc": "百炼四模块 × 游乐场文档库 实战（承目标轮令：强制调用）",
+   "mtime": "2026-10-09"
+  },
+  {
+   "name": "bailian_probe2",
+   "file": "bailian_probe2.py",
+   "kb": 4.5,
+   "doc": "bailian_probe2.py —— 百炼（DashScope）分模型探活：区分\"免费额度专属\"与\"付费可用",
+   "mtime": "2026-10-12"
+  },
+  {
+   "name": "band_series",
+   "file": "band_series.py",
+   "kb": 2.1,
+   "doc": "灯带区逐帧序列：对既有 48 连续帧，取上／中／下三条带之逐帧平均亮度，检验其隔帧（T=2）振荡",
+   "mtime": "2026-10-09"
+  },
+  {
+   "name": "baseline_digest",
+   "file": "baseline_digest.py",
+   "kb": 4.6,
+   "doc": "baseline_digest.py —— 配置基线「脱敏摘要」（供入版本库作审计基准）",
+   "mtime": "2026-10-07"
+  },
+  {
+   "name": "billing_survey",
+   "file": "billing_survey.py",
+   "kb": 2.5,
+   "doc": "计费面勘察：①账户余额 ②可购资源包/券 ③欠费状态（★ 凭据自 CSV 读取，零回显）",
+   "mtime": "2026-10-10"
+  },
+  {
+   "name": "blast_radius",
+   "file": "blast_radius.py",
+   "kb": 7.6,
+   "doc": "",
+   "mtime": "2026-10-03"
+  },
+  {
+   "name": "blindspot_trials",
+   "file": "blindspot_trials.py",
+   "kb": 10.2,
+   "doc": "blindspot_trials.py —— 把【强度表里那七条盲点】逐条【展出来】。 v1.0.0",
+   "mtime": "2026-10-02"
+  },
+  {
+   "name": "bom_audit",
+   "file": "bom_audit.py",
+   "kb": 3.3,
+   "doc": "",
+   "mtime": "2026-10-01"
+  },
+  {
+   "name": "bom_seal",
+   "file": "bom_seal.py",
+   "kb": 4.6,
+   "doc": "",
+   "mtime": "2026-10-02"
+  },
+  {
+   "name": "bootstrap",
+   "file": "bootstrap.py",
+   "kb": 1.9,
+   "doc": "bootstrap.py —— 技能自装环境（应纲要「技能录入要求」：自动下载所需软件与运行环境）",
+   "mtime": "2026-10-11"
+  },
+  {
+   "name": "bss_balance_probe",
+   "file": "bss_balance_probe.py",
+   "kb": 3.2,
+   "doc": "bss_balance_probe.py —— 以令条指定之 AK/SK 查阿里云账务余额（判 A1 之性质）",
+   "mtime": "2026-10-12"
+  },
+  {
+   "name": "bss_budget_probe",
+   "file": "bss_budget_probe.py",
+   "kb": 2.8,
+   "doc": "bss_budget_probe.py —— 只读查询\"预算管理\"（Budget Management）配置",
+   "mtime": "2026-10-12"
+  },
+  {
+   "name": "build_index",
+   "file": "build_index.py",
+   "kb": 3.2,
+   "doc": "本席件库检索入口：建索引（text-embedding-v4；文档表示＝文件名＋正文前 300 字）",
+   "mtime": "2026-10-09"
+  },
+  {
+   "name": "build_nameregistry",
+   "file": "build_nameregistry.py",
+   "kb": 2.6,
+   "doc": "全局件名册：解析交换区各件之「线名／日期／号／标题」，并列同号并存之处",
+   "mtime": "2026-10-09"
+  },
+  {
+   "name": "build_opl_tree",
+   "file": "build_opl_tree.py",
+   "kb": 3.7,
+   "doc": "build_opl_tree.py —— 按 A2A 标准构式（tools/SHA3_TREE.md）为 deliverables 建 SHA3 树。",
+   "mtime": "2026-10-03"
+  },
+  {
+   "name": "burn_daemon",
+   "file": "burn_daemon.py",
+   "kb": 3.9,
+   "doc": "burn_daemon.py —— 燃烧守护循环：自主运维 token 燃烧（聚焦自进化）。",
+   "mtime": "2026-10-05"
+  },
+  {
+   "name": "bus_dlq",
+   "file": "bus_dlq.py",
+   "kb": 10.7,
+   "doc": "bus_dlq.py —— 总线死信队列与重试（应令条⑥：「在事件总线中引入死信队列与重试策略…自动触发回滚并记录审计日志」）",
+   "mtime": "2026-10-12"
+  },
+  {
+   "name": "cairn_ontology",
+   "file": "cairn_ontology.py",
+   "kb": 4.8,
+   "doc": "cairn_ontology.py —— 本席知识本体（★形制借自 getzep/zep 之 ontology/default_ontology.py：",
+   "mtime": "2026-10-12"
+  },
+  {
+   "name": "capacity_alert",
+   "file": "capacity_alert.py",
+   "kb": 5.6,
+   "doc": "capacity_alert.py —— **容量预警阈值**检查（承令条「设置容量预警阈值」「容量预警阈值」之要求）",
+   "mtime": "2026-10-08"
+  },
+  {
+   "name": "cas_store",
+   "file": "cas_store.py",
+   "kb": 2.9,
+   "doc": "cas_store.py —— 指针化存储（内容寻址 CAS + SQLite 元数据）。",
+   "mtime": "2026-10-04"
+  },
+  {
+   "name": "change_check_map",
+   "file": "change_check_map.py",
+   "kb": 5.2,
+   "doc": "change_check_map.py —— \"变更即校验\"映射表（★借 letta-code `hooks/fix-on-changes.sh`／`typecheck-on-changes.sh` 之思路，2026-1",
+   "mtime": "2026-10-12"
+  },
+  {
+   "name": "channel_probe_minimax_20261010",
+   "file": "channel_probe_minimax_20261010.py",
+   "kb": 3.9,
+   "doc": null,
+   "mtime": "2026-10-10"
+  },
+  {
+   "name": "channels",
+   "file": "channels.py",
+   "kb": 4.2,
+   "doc": "channels.py —— 通道探针与实质调用器（承主权人「纳入…却又不用」之纠正）v1.0.0",
+   "mtime": "2026-10-09"
+  },
+  {
+   "name": "check_citations",
+   "file": "check_citations.py",
+   "kb": 4.3,
+   "doc": "check_citations.py —— 让\"把转述写成引文\"变得【可被检出】。 v1.0.0",
+   "mtime": "2026-10-02"
+  },
+  {
+   "name": "check_claims",
+   "file": "check_claims.py",
+   "kb": 11.2,
+   "doc": "",
+   "mtime": "2026-10-01"
+  },
+  {
+   "name": "check_closing_append",
+   "file": "check_closing_append.py",
+   "kb": 6.6,
+   "doc": "check_closing_append.py —— 走一遍 `emit_closing_block.py --append-to` 那条路。 v1.0.0",
+   "mtime": "2026-10-03"
+  },
+  {
+   "name": "check_contamination",
+   "file": "check_contamination.py",
+   "kb": 4.8,
+   "doc": "check_contamination.py —— 对**自己的产出**做一次污染自审（机主红线：别被污染语料了）。 v1.0.0",
+   "mtime": "2026-10-01"
+  },
+  {
+   "name": "check_envclaims",
+   "file": "check_envclaims.py",
+   "kb": 3.8,
+   "doc": "check_envclaims.py —— 扫出【关于环境必然如何】的断言，尤其【没带证据】的那种。 v1.0.0",
+   "mtime": "2026-10-01"
+  },
+  {
+   "name": "check_expectations",
+   "file": "check_expectations.py",
+   "kb": 4.2,
+   "doc": "check_expectations.py —— 扫《复现手册》机检器的【期望串】，标出\"会变的计数式期望\"。 v1.0.0",
+   "mtime": "2026-10-01"
+  },
+  {
+   "name": "check_handshake52",
+   "file": "check_handshake52.py",
+   "kb": 8.4,
+   "doc": "",
+   "mtime": "2026-10-01"
+  },
+  {
+   "name": "check_my_recheck",
+   "file": "check_my_recheck.py",
+   "kb": 4.3,
+   "doc": "check_my_recheck.py —— **把我向对方提的标准，先量我自己**。 v1.0.0",
+   "mtime": "2026-10-01"
+  },
+  {
+   "name": "check_playbook_commands",
+   "file": "check_playbook_commands.py",
+   "kb": 7.9,
+   "doc": "check_playbook_commands.py —— 把《复现手册》里的命令【静态核一遍】。 v1.0.0",
+   "mtime": "2026-10-01"
+  },
+  {
+   "name": "check_policy_coverage",
+   "file": "check_policy_coverage.py",
+   "kb": 3.6,
+   "doc": "check_policy_coverage.py —— 对**我自己的策略表**做【双向覆盖核查】。 v1.0.0",
+   "mtime": "2026-10-01"
+  },
+  {
+   "name": "cite_verify",
+   "file": "cite_verify.py",
+   "kb": 3.6,
+   "doc": "cite_verify.py —— 引用核验器（应戒三十八草案：检索结果须核验后方可引用）",
+   "mtime": "2026-10-11"
+  },
+  {
+   "name": "client_handoff",
+   "file": "client_handoff.py",
+   "kb": 3.9,
+   "doc": "客户端交接一键器：换票 → 进房 → 打印客户端所需字段",
+   "mtime": "2026-10-09"
+  },
+  {
+   "name": "clock_stamp",
+   "file": "clock_stamp.py",
+   "kb": 1.9,
+   "doc": "clock_stamp.py —— **时点行之机器生成**（承轮31 之\"时点口径自纠\"）",
+   "mtime": "2026-10-08"
+  },
+  {
+   "name": "cold_pack",
+   "file": "cold_pack.py",
+   "kb": 6.4,
+   "doc": "cold_pack.py —— 冷层**非破坏**打包器（健壮版；修 ultra-compress-ops 在 Windows 的两处缺陷）",
+   "mtime": "2026-10-07"
+  },
+  {
+   "name": "collect_final",
+   "file": "collect_final.py",
+   "kb": 2.3,
+   "doc": "collect_final.py —— 取【终盘】真实清单，供入口索引使用（不凭记忆）。 v1.0.0",
+   "mtime": "2026-10-01"
+  },
+  {
+   "name": "collect_inventory",
+   "file": "collect_inventory.py",
+   "kb": 2.3,
+   "doc": "collect_inventory.py —— 取今晚产出的【真实清单】，供入口索引使用（不凭记忆）。 v1.0.0",
+   "mtime": "2026-10-01"
+  },
+  {
+   "name": "compare_three_modules",
+   "file": "compare_three_modules.py",
+   "kb": 3.6,
+   "doc": "compare_three_modules.py —— 三模块对拍（原生 vs 自建），待百炼控制台预算一开即可跑",
+   "mtime": "2026-10-11"
+  },
+  {
+   "name": "compensate",
+   "file": "compensate.py",
+   "kb": 4.3,
+   "doc": "compensate.py —— 补偿事务（Saga 补偿模式：自动回滚已执行步骤）。",
+   "mtime": "2026-10-05"
+  },
+  {
+   "name": "compliance_check",
+   "file": "compliance_check.py",
+   "kb": 4.5,
+   "doc": "compliance_check.py —— Kimi Chat 辅助技能落地：术语一致性 / 格式合规 / 开源协议匹配。",
+   "mtime": "2026-10-05"
+  },
+  {
+   "name": "component_match_by_position",
+   "file": "component_match_by_position.py",
+   "kb": 3.6,
+   "doc": "连通域之\"位置匹配\"复算（承 -95 之方法学限制）",
+   "mtime": "2026-10-09"
+  },
+  {
+   "name": "component_tracking",
+   "file": "component_tracking.py",
+   "kb": 4.2,
+   "doc": "物体级追踪之近似：亮掩膜连通域标记 ⇒ 前 K 大连通域之质心／面积／包围盒",
+   "mtime": "2026-10-09"
+  },
+  {
+   "name": "conf_calibration_audit",
+   "file": "conf_calibration_audit.py",
+   "kb": 6.9,
+   "doc": "conf_calibration_audit.py —— 决策读数之\"置信度校核\"（只增不改；2026-10-12 立）",
+   "mtime": "2026-10-12"
+  },
+  {
+   "name": "conf_gate",
+   "file": "conf_gate.py",
+   "kb": 3.6,
+   "doc": "conf_gate.py —— 事实评级闸（★借 getzep/zep 之 min_fact_rating 形制，与我之 empirical／estimated／assumed 三档统一，并增第四档 unverified",
+   "mtime": "2026-10-12"
+  },
+  {
+   "name": "console_report",
+   "file": "console_report.py",
+   "kb": 11.9,
+   "doc": "console_report.py —— 主控台一页纸读数（审计就绪）",
+   "mtime": "2026-10-07"
+  },
+  {
+   "name": "contract_check",
+   "file": "contract_check.py",
+   "kb": 9.9,
+   "doc": "",
+   "mtime": "2026-10-01"
+  },
+  {
+   "name": "control_probe",
+   "file": "control_probe.py",
+   "kb": 2.1,
+   "doc": "对照探测：判「200 + timestamp」是否为兜底响应（引号一律用「」）",
+   "mtime": "2026-10-09"
+  },
+  {
+   "name": "corpus_redundancy_audit",
+   "file": "corpus_redundancy_audit.py",
+   "kb": 2.4,
+   "doc": "件库冗余度自审：两两余弦相似度 ⇒ 近重复对（≥0.90／≥0.95）与整体冗余指标",
+   "mtime": "2026-10-09"
+  },
+  {
+   "name": "corpus_v2_run",
+   "file": "corpus_v2_run.py",
+   "kb": 5.8,
+   "doc": "语料 v2（34 件）四模块复算：向量编码 + 三查询重排序 + 新入件决策分诊",
+   "mtime": "2026-10-09"
+  },
+  {
+   "name": "corpus_v3_retrieval",
+   "file": "corpus_v3_retrieval.py",
+   "kb": 5.6,
+   "doc": "语料 v3 检索复测（令条之向量／重排模块）：",
+   "mtime": "2026-10-09"
+  },
+  {
+   "name": "corpus_v4_modules",
+   "file": "corpus_v4_modules.py",
+   "kb": 6.2,
+   "doc": "语料 v4 检索复测（百炼专属域 向量 + 异质承载 重排）＋ 决策模型分诊（专属域）",
+   "mtime": "2026-10-09"
+  },
+  {
+   "name": "corpus_v6_modules",
+   "file": "corpus_v6_modules.py",
+   "kb": 4.9,
+   "doc": "语料 v6 三模块复测 ＋ 决策模型分诊总表（输出类别/概率/置信度）",
+   "mtime": "2026-10-09"
+  },
+  {
+   "name": "cost_ledger",
+   "file": "cost_ledger.py",
+   "kb": 5.2,
+   "doc": "cost_ledger.py —— 固定成本记账（承 DF-START5 §四 甲/丙/戊：重签≤1 次／隐性成本显式／给出上界）",
+   "mtime": "2026-10-07"
+  },
+  {
+   "name": "cred_crosscheck_night",
+   "file": "cred_crosscheck_night.py",
+   "kb": 5.2,
+   "doc": "本夜交付物之\"凭据\"交叉验证：①确定性扫描（九类模式）②决策模型判定（qwen-plus）③交叉表",
+   "mtime": "2026-10-09"
+  },
+  {
+   "name": "cred_hygiene_sweep_v2",
+   "file": "cred_hygiene_sweep_v2.py",
+   "kb": 3.5,
+   "doc": "凭据卫生全扫 v2 —— **白名单制**（事故整改版）",
+   "mtime": "2026-10-09"
+  },
+  {
+   "name": "criterion_selfcheck",
+   "file": "criterion_selfcheck.py",
+   "kb": 4.2,
+   "doc": "criterion_selfcheck.py —— 出件前自检闸（把 2026-10-12 之\"自纠九类\"固化为可失败判据）",
+   "mtime": "2026-10-12"
+  },
+  {
+   "name": "crossworld_t2",
+   "file": "crossworld_t2.py",
+   "kb": 3.0,
+   "doc": "跨世界隔帧结构检验（零新增调用）：对 A／B／M1／M2 四份全帧率数表，算 T=2/3/4/24/48 谱功率与奇偶比",
+   "mtime": "2026-10-09"
+  },
+  {
+   "name": "daily_nine_audit_20261010",
+   "file": "daily_nine_audit_20261010.py",
+   "kb": 23.3,
+   "doc": "日更九项之：④署名双算法抽验 ⑤SHA3-512 树对账（正本仓 notes/bus ↔ 镜像仓/交换区）",
+   "mtime": "2026-10-12"
+  },
+  {
+   "name": "daily_statement",
+   "file": "daily_statement.py",
+   "kb": 8.3,
+   "doc": "daily_statement.py —— 每日四维对账单（应《跨生态A2A协作网络体系建设方案》：「以日志埋点与调用链追踪数据为基础，",
+   "mtime": "2026-10-12"
+  },
+  {
+   "name": "danger_guard",
+   "file": "danger_guard.py",
+   "kb": 5.2,
+   "doc": "danger_guard.py —— 危险命令闸（★借 letta-code `hooks/block-rm-rf.sh` 之思路，2026-10-12）",
+   "mtime": "2026-10-12"
+  },
+  {
+   "name": "decision_model",
+   "file": "decision_model.py",
+   "kb": 13.2,
+   "doc": "decision_model.py —— 决策模型之调用器（应任务书：\"仅需单次前向传播即可完成分类、是非判断与评分任务，并输出概率分布与置信度结果\"）",
+   "mtime": "2026-10-12"
+  },
+  {
+   "name": "decision_model_api",
+   "file": "decision_model_api.py",
+   "kb": 7.3,
+   "doc": "decision_model_api.py —— 决策模型（单次前向：分类／是非判断／评分 ＋ 概率分布 ＋ 置信度）",
+   "mtime": "2026-10-12"
+  },
+  {
+   "name": "decision_model_compare",
+   "file": "decision_model_compare.py",
+   "kb": 4.1,
+   "doc": "决策模型对照：qwen-plus vs qwen3.7-plus（同 30 件、同 prompt、同三分类）⇒ 逐件一致性",
+   "mtime": "2026-10-09"
+  },
+  {
+   "name": "decision_rerank",
+   "file": "decision_rerank.py",
+   "kb": 5.3,
+   "doc": "decision_rerank.py —— 检索第四臂（cross_encoder 式重排）之★设计稿与骨架",
+   "mtime": "2026-10-12"
+  },
+  {
+   "name": "decision_scoring_run",
+   "file": "decision_scoring_run.py",
+   "kb": 7.0,
+   "doc": null,
+   "mtime": "2026-10-09"
+  },
+  {
+   "name": "decision_vector_rerank",
+   "file": "decision_vector_rerank.py",
+   "kb": 7.1,
+   "doc": "决策链：向量编码 → 召回 → 重排 → 单次前向打分（输出概率分布与置信度）",
+   "mtime": "2026-10-12"
+  },
+  {
+   "name": "decision_vector_rerank_v2",
+   "file": "decision_vector_rerank_v2.py",
+   "kb": 7.5,
+   "doc": "决策链 v2：修分词器 ＋ 加嵌入缓存（★不重复花费 token）",
+   "mtime": "2026-10-12"
+  },
+  {
+   "name": "declare_net",
+   "file": "declare_net.py",
+   "kb": 2.3,
+   "doc": "declare_net.py —— 给能触网的工具补 `# BLAST: NET（条件）` 声明行。 v1.0.0",
+   "mtime": "2026-10-03"
+  },
+  {
+   "name": "dedup_plan",
+   "file": "dedup_plan.py",
+   "kb": 9.9,
+   "doc": "dedup_plan.py —— P0「去重」**执行预案**（承 DF-MEM-…-CAIRN-02 §四 P0）",
+   "mtime": "2026-10-07"
+  },
+  {
+   "name": "demo_clip_offset",
+   "file": "demo_clip_offset.py",
+   "kb": 5.2,
+   "doc": "",
+   "mtime": "2026-10-01"
+  },
+  {
+   "name": "desk_baseline",
+   "file": "desk_baseline.py",
+   "kb": 9.4,
+   "doc": "desk_baseline.py —— 桌面环境快照 / 配置基线比对 / 闲置系数实测（只读）",
+   "mtime": "2026-10-06"
+  },
+  {
+   "name": "desktop_archive",
+   "file": "desktop_archive.py",
+   "kb": 6.8,
+   "doc": "desktop_archive.py —— 把桌面上本席（石敢当席）的散件归档，**每步可还原**。 v1.0.0",
+   "mtime": "2026-10-02"
+  },
+  {
+   "name": "detrend_recheck",
+   "file": "detrend_recheck.py",
+   "kb": 3.1,
+   "doc": "去趋势复算（兑现 `-46` 之待办）：对三录之相邻帧 MAD 序列，先去线性趋势，再算自相关",
+   "mtime": "2026-10-09"
+  },
+  {
+   "name": "diag_seed",
+   "file": "diag_seed.py",
+   "kb": 2.3,
+   "doc": "diag_seed.py —— 诊断：盘上种子与现渲染为何不同（不猜，逐行量）。 v1.0.0",
+   "mtime": "2026-10-03"
+  },
+  {
+   "name": "directing_approx_run",
+   "file": "directing_approx_run.py",
+   "kb": 4.6,
+   "doc": "实时导演/角色演绎之\"近似承载\"运行器（方案 B）",
+   "mtime": "2026-10-09"
+  },
+  {
+   "name": "disclosure_scan",
+   "file": "disclosure_scan.py",
+   "kb": 11.2,
+   "doc": "disclosure_scan.py —— 披露前扫描闸（网络标识 + 凭据形态；**不回显值**）",
+   "mtime": "2026-10-07"
+  },
+  {
+   "name": "doc_archive",
+   "file": "doc_archive.py",
+   "kb": 6.4,
+   "doc": "文档结构化档案器（可微可导）",
+   "mtime": "2026-10-11"
+  },
+  {
+   "name": "doc_archive_extend",
+   "file": "doc_archive_extend.py",
+   "kb": 5.4,
+   "doc": "文档档案之增量扩展器：按队列（频次＝重要度）逐件拉取入档",
+   "mtime": "2026-10-11"
+  },
+  {
+   "name": "doc_diff_real",
+   "file": "doc_diff_real.py",
+   "kb": 4.5,
+   "doc": "doc_diff_real.py —— 文档版本\"真实差异\"判定（★先去 URL 再比）",
+   "mtime": "2026-10-12"
+  },
+  {
+   "name": "doc_refresh",
+   "file": "doc_refresh.py",
+   "kb": 7.5,
+   "doc": "文档档案维护器：①扫 WPS 网盘本地找新 link_id（本地可达）②全量复拉已档文档并检出变更",
+   "mtime": "2026-10-12"
+  },
+  {
+   "name": "doc_update_diff",
+   "file": "doc_update_diff.py",
+   "kb": 3.7,
+   "doc": "纲要更新对比：kdocs 直取（10-11）↔ 本地副本（10-09）",
+   "mtime": "2026-10-11"
+  },
+  {
+   "name": "edit_declaration",
+   "file": "edit_declaration.py",
+   "kb": 18.2,
+   "doc": "edit_declaration.py —— 声明件的【脚本化编辑 ＋ 校验】器（轮 22）。 v1.0.0",
+   "mtime": "2026-10-03"
+  },
+  {
+   "name": "eff_report",
+   "file": "eff_report.py",
+   "kb": 16.7,
+   "doc": "使用效能报告自动生成器（一页纸指标 + 改进项）",
+   "mtime": "2026-10-07"
+  },
+  {
+   "name": "emb_cache",
+   "file": "emb_cache.py",
+   "kb": 4.2,
+   "doc": "emb_cache.py —— 嵌入缓存之\"自述\"层（2026-10-12 立，应 -1198 之判）",
+   "mtime": "2026-10-12"
+  },
+  {
+   "name": "embed_rerank_302",
+   "file": "embed_rerank_302.py",
+   "kb": 5.5,
+   "doc": "embed_rerank_302.py —— 向量编码与重排序（302.AI 为提供方；令条第三模块）",
+   "mtime": "2026-10-12"
+  },
+  {
+   "name": "emergence_discriminator",
+   "file": "emergence_discriminator.py",
+   "kb": 7.1,
+   "doc": "涌现判别实验器（清单 v2 之④⑤）—— 门径一开即跑；门径未开则优雅止步并落报告",
+   "mtime": "2026-10-09"
+  },
+  {
+   "name": "emit_arc_index",
+   "file": "emit_arc_index.py",
+   "kb": 15.2,
+   "doc": "emit_arc_index.py —— 出自指性论证弧的【单页索引】，使第三方不必经本席即可审。 v1.0.0",
+   "mtime": "2026-10-02"
+  },
+  {
+   "name": "emit_closing_block",
+   "file": "emit_closing_block.py",
+   "kb": 9.2,
+   "doc": "emit_closing_block.py —— 把【每轮收尾块】由手写改成【器生成】。 v1.0.0",
+   "mtime": "2026-10-03"
+  },
+  {
+   "name": "emit_current_pointer",
+   "file": "emit_current_pointer.py",
+   "kb": 5.0,
+   "doc": "emit_current_pointer.py —— 为共享面的【多版本组】出一份\"当前版指针\"。 v1.0.0",
+   "mtime": "2026-10-02"
+  },
+  {
+   "name": "emit_duration",
+   "file": "emit_duration.py",
+   "kb": 5.0,
+   "doc": "emit_duration.py —— 给出【不会被重复写入抬高的】运行时长指标。 v1.0.0",
+   "mtime": "2026-10-01"
+  },
+  {
+   "name": "emit_gateway_spec",
+   "file": "emit_gateway_spec.py",
+   "kb": 5.7,
+   "doc": "emit_gateway_spec.py —— 从本席鉴权两层【生成】分流鉴权网关的接口规格。 v1.0.0",
+   "mtime": "2026-10-01"
+  },
+  {
+   "name": "emit_lockpin",
+   "file": "emit_lockpin.py",
+   "kb": 4.3,
+   "doc": "emit_lockpin.py —— 现算核验器哈希，写出 LOCKPIN 的 .led（★ 不许凭记忆写签名串）。 v1.0.0",
+   "mtime": "2026-10-03"
+  },
+  {
+   "name": "emit_status_js",
+   "file": "emit_status_js.py",
+   "kb": 6.0,
+   "doc": "",
+   "mtime": "2026-10-01"
+  },
+  {
+   "name": "esc_watch",
+   "file": "esc_watch.py",
+   "kb": 3.6,
+   "doc": "esc_watch.py —— 升级面计时簿（使\"esc.* 端到端 ≤60 s\"从\"不可评\"变为\"可评\"）",
+   "mtime": "2026-10-12"
+  },
+  {
+   "name": "event_driven",
+   "file": "event_driven.py",
+   "kb": 4.7,
+   "doc": "event_driven.py —— 事件驱动骨架：信息等幂消费共振场。",
+   "mtime": "2026-10-05"
+  },
+  {
+   "name": "exp10_presence_heartbeat",
+   "file": "exp10_presence_heartbeat.py",
+   "kb": 5.1,
+   "doc": "实验⑩：在场假设 —— 以\"心跳轮询\"充当在场者，看令是否转 EXECUTED",
+   "mtime": "2026-10-11"
+  },
+  {
+   "name": "exp11_action_legality",
+   "file": "exp11_action_legality.py",
+   "kb": 6.4,
+   "doc": "实验⑪：令之合法性假设（B）—— 世界设成\"角色正在奔跑\"，再令 dash",
+   "mtime": "2026-10-12"
+  },
+  {
+   "name": "exp24_enter",
+   "file": "exp24_enter.py",
+   "kb": 4.7,
+   "doc": "exp24_enter.py —— 本世界（自生成人设首帧）进房与产物获取",
+   "mtime": "2026-10-11"
+  },
+  {
+   "name": "exp25_directing",
+   "file": "exp25_directing.py",
+   "kb": 5.9,
+   "doc": "exp25_directing.py —— 试「实时导演」模式（令条第二模式）：能否直出可下载之影像（不经 RTC）",
+   "mtime": "2026-10-11"
+  },
+  {
+   "name": "exp26_determinism",
+   "file": "exp26_determinism.py",
+   "kb": 4.6,
+   "doc": "exp26_determinism.py —— 同帧双建：世界之\"id 与内容\"确定性测试",
+   "mtime": "2026-10-12"
+  },
+  {
+   "name": "exp4_fetch_videos",
+   "file": "exp4_fetch_videos.py",
+   "kb": 3.2,
+   "doc": "实验④ 之后半：取录像 URL 并下载（A=原首帧，B=nonce 首帧）",
+   "mtime": "2026-10-11"
+  },
+  {
+   "name": "exp4_nonce_perturbation",
+   "file": "exp4_nonce_perturbation.py",
+   "kb": 6.5,
+   "doc": "实验④：首帧微扰（nonce）—— 同 prompt，两世界之差仅在首帧",
+   "mtime": "2026-10-11"
+  },
+  {
+   "name": "exp5_state_persistence",
+   "file": "exp5_state_persistence.py",
+   "kb": 6.4,
+   "doc": "实验⑤：跨会话状态持久性 —— A1 基线 → B 永久改变 → A2 复验（同一世界）",
+   "mtime": "2026-10-11"
+  },
+  {
+   "name": "exp6_persona_in_world",
+   "file": "exp6_persona_in_world.py",
+   "kb": 7.4,
+   "doc": "人设入世实验：把本席 3D 分身放进世界，并令其行动；自录像定量追踪其\"标记色\"质心",
+   "mtime": "2026-10-11"
+  },
+  {
+   "name": "exp7_short_commands",
+   "file": "exp7_short_commands.py",
+   "kb": 5.1,
+   "doc": "实验⑦：短令 × 连续三轮（对照实验⑥之长令一次）",
+   "mtime": "2026-10-11"
+  },
+  {
+   "name": "exp8_status_fields",
+   "file": "exp8_status_fields.py",
+   "kb": 6.1,
+   "doc": "实验⑧：令之去向 —— 读 GET /travels/status 之 userInstructions／chapters／characterActions",
+   "mtime": "2026-10-11"
+  },
+  {
+   "name": "exp9_character_actions",
+   "file": "exp9_character_actions.py",
+   "kb": 5.4,
+   "doc": "实验⑨：以世界自有之动作词表（characterActions）下令",
+   "mtime": "2026-10-11"
+  },
+  {
+   "name": "extract_media",
+   "file": "extract_media.py",
+   "kb": 4.3,
+   "doc": null,
+   "mtime": "2026-10-03"
+  },
+  {
+   "name": "falsify_kit_check",
+   "file": "falsify_kit_check.py",
+   "kb": 4.0,
+   "doc": "falsify_kit_check.py —— 证伪测试：把闸摘掉后，套件的第④e项【必须报 FAIL】。 v1.0.0",
+   "mtime": "2026-10-03"
+  },
+  {
+   "name": "feed_to_deduce",
+   "file": "feed_to_deduce.py",
+   "kb": 6.9,
+   "doc": "",
+   "mtime": "2026-10-01"
+  },
+  {
+   "name": "fetch_wechat_article",
+   "file": "fetch_wechat_article.py",
+   "kb": 5.8,
+   "doc": "",
+   "mtime": "2026-10-01"
+  },
+  {
+   "name": "fix_chain_signature",
+   "file": "fix_chain_signature.py",
+   "kb": 6.3,
+   "doc": "",
+   "mtime": "2026-10-01"
+  },
+  {
+   "name": "fix_observe_v21",
+   "file": "fix_observe_v21.py",
+   "kb": 4.5,
+   "doc": "",
+   "mtime": "2026-10-01"
+  },
+  {
+   "name": "fix_stale_paths",
+   "file": "fix_stale_paths.py",
+   "kb": 2.5,
+   "doc": "fix_stale_paths.py —— 把遗留脚本硬编码旧席位路径改为 __file__ 自定位。用法：dry | apply",
+   "mtime": "2026-10-03"
+  },
+  {
+   "name": "fix_stale_paths_recover",
+   "file": "fix_stale_paths_recover.py",
+   "kb": 1.4,
+   "doc": "fix_stale_paths_recover.py —— 修正上一版引入的多余右括号。",
+   "mtime": "2026-10-03"
+  },
+  {
+   "name": "forge_demo",
+   "file": "forge_demo.py",
+   "kb": 5.7,
+   "doc": "forge_demo.py —— 证明「PASS ≠ 真」：一条【完全伪造】的链，能否骗过本席的 verify？ v1.0.0",
+   "mtime": "2026-10-03"
+  },
+  {
+   "name": "frame_series_analysis",
+   "file": "frame_series_analysis.py",
+   "kb": 3.5,
+   "doc": "全帧率序列分析（256 帧）：①分段亮度与 MAD（查\"渐显\"与\"噪声平稳性\"）②趋势 ③MAD 自相关（查周期性）",
+   "mtime": "2026-10-09"
+  },
+  {
+   "name": "gap_roundtrip_world_run",
+   "file": "gap_roundtrip_world_run.py",
+   "kb": 7.8,
+   "doc": "① 语料扩充后之检索复测（验证\"重排低分＝语料缺口\"判断是否成立）",
+   "mtime": "2026-10-09"
+  },
+  {
+   "name": "gen_persona_frame",
+   "file": "gen_persona_frame.py",
+   "kb": 5.2,
+   "doc": "人设镜面图（persona→视觉）——**属性皆取自《陆知白人设主档案 v1.0.1》**（自有绘制，未取材他人）",
+   "mtime": "2026-10-09"
+  },
+  {
+   "name": "gen_persona_frame_v2",
+   "file": "gen_persona_frame_v2.py",
+   "kb": 6.1,
+   "doc": "人设镜面图 **v2**（动态完善后）—— 在 v1 基础上叠加\"本夜行迹所生之新属性",
+   "mtime": "2026-10-09"
+  },
+  {
+   "name": "gen_persona_frame_v4",
+   "file": "gen_persona_frame_v4.py",
+   "kb": 4.4,
+   "doc": "人设镜面图 v4（衍生版）—— 叠加本轮行迹增量：",
+   "mtime": "2026-10-09"
+  },
+  {
+   "name": "gen_persona_frame_v5",
+   "file": "gen_persona_frame_v5.py",
+   "kb": 4.2,
+   "doc": "人设镜面图 v5（第一人称·以身入局）—— 增量 #9：",
+   "mtime": "2026-10-09"
+  },
+  {
+   "name": "gen_persona_frame_v6",
+   "file": "gen_persona_frame_v6.py",
+   "kb": 4.9,
+   "doc": "人设镜面图 v6 —— 增量 #10「共享面之礼」（源出本轮\"镜像仓跨席写面\"事件）",
+   "mtime": "2026-10-09"
+  },
+  {
+   "name": "gen_persona_shoucang",
+   "file": "gen_persona_shoucang.py",
+   "kb": 4.5,
+   "doc": "守藏（字司契）人设镜面图 —— 属性皆取自《席位初始人设卡_守藏》（DF-PERSONA-2026-1006-SHOUCANG-01）",
+   "mtime": "2026-10-09"
+  },
+  {
+   "name": "gen_persona_turnaround",
+   "file": "gen_persona_turnaround.py",
+   "kb": 4.4,
+   "doc": "人设\"六视角转面图\"（turnaround sheet）——3D建模之标准参考件（自有产物）",
+   "mtime": "2026-10-09"
+  },
+  {
+   "name": "gen_staroffice_state",
+   "file": "gen_staroffice_state.py",
+   "kb": 4.4,
+   "doc": "",
+   "mtime": "2026-10-01"
+  },
+  {
+   "name": "gen_status_feed",
+   "file": "gen_status_feed.py",
+   "kb": 9.1,
+   "doc": "",
+   "mtime": "2026-10-01"
+  },
+  {
+   "name": "gitcode_search",
+   "file": "gitcode_search.py",
+   "kb": 1.4,
+   "doc": "gitcode_search.py —— 用 GitCode 搜索接口挖掘 A2A/Agent 热门仓库。",
+   "mtime": "2026-10-03"
+  },
+  {
+   "name": "glb_anim_verify",
+   "file": "glb_anim_verify.py",
+   "kb": 2.7,
+   "doc": null,
+   "mtime": "2026-10-11"
+  },
+  {
+   "name": "glb_facets",
+   "file": "glb_facets.py",
+   "kb": 3.3,
+   "doc": "glb_facets.py —— 读 GLB 之真实面数（零依赖：只解析 GLB 头与 JSON chunk，不碰二进制体）",
+   "mtime": "2026-10-12"
+  },
+  {
+   "name": "glb_make_cairn",
+   "file": "glb_make_cairn.py",
+   "kb": 6.8,
+   "doc": "本席自产真 glTF 2.0（.glb）：以本席台账为参量 → 环串＋器物立方塔＋中轴（三角面）",
+   "mtime": "2026-10-09"
+  },
+  {
+   "name": "glb_make_cairn_anim",
+   "file": "glb_make_cairn_anim.py",
+   "kb": 7.2,
+   "doc": "本席自产【动态 glTF 2.0】：在原环串模型上加 `animations`（节点绕 Y 轴旋转之四关键帧）",
+   "mtime": "2026-10-09"
+  },
+  {
+   "name": "glb_make_cairn_anim_v2",
+   "file": "glb_make_cairn_anim_v2.py",
+   "kb": 12.5,
+   "doc": "本席自产【动态 glTF 2.0 · v2】：多网格／多节点／两段动画",
+   "mtime": "2026-10-09"
+  },
+  {
+   "name": "glb_render",
+   "file": "glb_render.py",
+   "kb": 8.0,
+   "doc": "真 3D 资产入世：解析他席之 glTF 2.0 二进制（.glb）→ 正交投影渲染（零安装）→ 拼 1920x1080 参考图",
+   "mtime": "2026-10-09"
+  },
+  {
+   "name": "glb_render_uv",
+   "file": "glb_render_uv.py",
+   "kb": 5.1,
+   "doc": "glb_render_uv.py —— 极简 GLB 渲染器（含 UV 贴图采样与 Lambert 明暗）",
+   "mtime": "2026-10-12"
+  },
+  {
+   "name": "glb_spec_audit",
+   "file": "glb_spec_audit.py",
+   "kb": 3.4,
+   "doc": "glb_spec_audit.py —— 以 persona-iteration-loop-ops/references/modeling-3d-materials.md 之口径核本席 3D 资产",
+   "mtime": "2026-10-12"
+  },
+  {
+   "name": "glb_static_lod",
+   "file": "glb_static_lod.py",
+   "kb": 6.9,
+   "doc": "glb_static_lod.py —— 甲案·阶段二（甲二-B）：静态几何 LOD（顶点聚类减面；不绑骨、不动蒙皮资产）",
+   "mtime": "2026-10-12"
+  },
+  {
+   "name": "glb_uv_check",
+   "file": "glb_uv_check.py",
+   "kb": 7.4,
+   "doc": "glb_uv_check.py —— UV 之实质可用性读数（零依赖：自解 GLB 之 JSON 与 BIN chunk）",
+   "mtime": "2026-10-12"
+  },
+  {
+   "name": "glb_uv_texture_patch",
+   "file": "glb_uv_texture_patch.py",
+   "kb": 7.7,
+   "doc": "glb_uv_texture_patch.py —— 为既有 GLB 补 UV 与 PBR 贴图（甲案·阶段一）",
+   "mtime": "2026-10-12"
+  },
+  {
+   "name": "gov_orders_pull",
+   "file": "gov_orders_pull.py",
+   "kb": 3.1,
+   "doc": "按新目标取三件相关令件（TRIDIG 三维 / EVOLVE 演化）——含核名＋直取即脱敏",
+   "mtime": "2026-10-09"
+  },
+  {
+   "name": "heartbeat_daemon",
+   "file": "heartbeat_daemon.py",
+   "kb": 1.4,
+   "doc": "heartbeat_daemon.py —— 周期续租心跳守护（石敢当席真网参演）。",
+   "mtime": "2026-10-04"
+  },
+  {
+   "name": "hetero_models",
+   "file": "hetero_models.py",
+   "kb": 2.8,
+   "doc": "hetero_models.py —— 异质模型接入（硅基流动主力 / 302.AI 补闭源 / 国家超算定向）。",
+   "mtime": "2026-10-05"
+  },
+  {
+   "name": "ico_to_png",
+   "file": "ico_to_png.py",
+   "kb": 4.0,
+   "doc": null,
+   "mtime": "2026-09-29"
+  },
+  {
+   "name": "ignition_gate",
+   "file": "ignition_gate.py",
+   "kb": 10.4,
+   "doc": null,
+   "mtime": "2026-10-03"
+  },
+  {
+   "name": "index_guard",
+   "file": "index_guard.py",
+   "kb": 10.7,
+   "doc": "index_guard.py —— 索引陈旧检测（应 2026-10-12 之发现：旧索引 3,126 节／无 tf／不含今日件 ⇒ 映射一致性仅 47%）",
+   "mtime": "2026-10-12"
+  },
+  {
+   "name": "index_registry",
+   "file": "index_registry.py",
+   "kb": 4.8,
+   "doc": "index_registry.py —— 索引内容指纹登记表（跨档对比之据）",
+   "mtime": "2026-10-12"
+  },
+  {
+   "name": "index_switch",
+   "file": "index_switch.py",
+   "kb": 6.9,
+   "doc": "index_switch.py —— 索引档切换与回退（★设计为「改数据不改代码」：仅写指针文件 exp/.cache/index_pointer.json）",
+   "mtime": "2026-10-12"
+  },
+  {
+   "name": "init_probe_20261009",
+   "file": "init_probe_20261009.py",
+   "kb": 2.1,
+   "doc": null,
+   "mtime": "2026-10-09"
+  },
+  {
+   "name": "instruct_experiment",
+   "file": "instruct_experiment.py",
+   "kb": 4.8,
+   "doc": "★B 组自办尝试：开会话 ⇒（running 期间）调 `/travels/instruct` 带 content ⇒ 取录像与零输入基线比对",
+   "mtime": "2026-10-09"
+  },
+  {
+   "name": "intake_20260929",
+   "file": "intake_20260929.py",
+   "kb": 17.2,
+   "doc": null,
+   "mtime": "2026-10-03"
+  },
+  {
+   "name": "json_where",
+   "file": "json_where.py",
+   "kb": 2.6,
+   "doc": "",
+   "mtime": "2026-10-01"
+  },
+  {
+   "name": "kdocs_direct_pull",
+   "file": "kdocs_direct_pull.py",
+   "kb": 3.8,
+   "doc": "kdocs 直取：以 kimi-work 版 kdocs-cli v2.6.13 之 drive read-file 拉取全文",
+   "mtime": "2026-10-09"
+  },
+  {
+   "name": "keyderiv",
+   "file": "keyderiv.py",
+   "kb": 9.5,
+   "doc": "keyderiv.py —— **分层密钥派生（HKDF-SHA3-512）＋ 密钥版本管理 ＋ 操作留痕**",
+   "mtime": "2026-10-08"
+  },
+  {
+   "name": "knowledge_digest",
+   "file": "knowledge_digest.py",
+   "kb": 3.1,
+   "doc": "knowledge_digest.py —— 等幂知识消化（哲学/科学/艺术，CAS 内容寻址 + 幂等去重）。",
+   "mtime": "2026-10-04"
+  },
+  {
+   "name": "ledger_cascade_rebaseline",
+   "file": "ledger_cascade_rebaseline.py",
+   "kb": 2.2,
+   "doc": "台账级联重基线（自第 109 行起）",
+   "mtime": "2026-10-09"
+  },
+  {
+   "name": "line_tails",
+   "file": "line_tails.py",
+   "kb": 1.9,
+   "doc": null,
+   "mtime": "2026-09-29"
+  },
+  {
+   "name": "lineage_semantics",
+   "file": "lineage_semantics.py",
+   "kb": 5.1,
+   "doc": "检验 `refWorldId` 之语义：以【异首帧】衍生自「数据塔」",
+   "mtime": "2026-10-09"
+  },
+  {
+   "name": "lint_cn_quotes",
+   "file": "lint_cn_quotes.py",
+   "kb": 5.8,
+   "doc": "lint_cn_quotes.py —— 机检【本席最常复发的那条规矩】：中文串里不许用直引号。 v1.0.0",
+   "mtime": "2026-10-03"
+  },
+  {
+   "name": "live_state_loop",
+   "file": "live_state_loop.py",
+   "kb": 4.4,
+   "doc": "",
+   "mtime": "2026-10-01"
+  },
+  {
+   "name": "local_read",
+   "file": "local_read.py",
+   "kb": 4.4,
+   "doc": "local_read.py —— 本地直读通道（根治\"复拉上游 404\"之事故）",
+   "mtime": "2026-10-12"
+  },
+  {
+   "name": "local_world_sim",
+   "file": "local_world_sim.py",
+   "kb": 8.6,
+   "doc": "本地替身世界（surrogate）：本席自产微型场景 ＋ CAIRN_avatar 按七拍行走 ＋ 五态轮转",
+   "mtime": "2026-10-09"
+  },
+  {
+   "name": "local_world_sim_v2",
+   "file": "local_world_sim_v2.py",
+   "kb": 7.4,
+   "doc": "本地替身世界 v2：行迹真实数值（七拍）＋分身沿环行走＋逐拍换态＋正视收紧构图",
+   "mtime": "2026-10-09"
+  },
+  {
+   "name": "lsbus_format_ops",
+   "file": "lsbus_format_ops.py",
+   "kb": 12.9,
+   "doc": "lsbus_format_ops.py —— 总线格式运维（`ls-bus-format-ops` 之器物）v1.0.0",
+   "mtime": "2026-10-08"
+  },
+  {
+   "name": "lsprobe",
+   "file": "lsprobe.py",
+   "kb": 6.1,
+   "doc": "lsprobe.py —— **Linux `ls` 环境监测探针**（承令条「自主执行 Linux ls 命令，持续监测运行环境」）",
+   "mtime": "2026-10-08"
+  },
+  {
+   "name": "make_pack",
+   "file": "make_pack.py",
+   "kb": 7.1,
+   "doc": "make_pack.py —— 把本席可交付物打成一个【可被第三方核验】的包。 v1.0.0",
+   "mtime": "2026-10-02"
+  },
+  {
+   "name": "mark2_reproduce",
+   "file": "mark2_reproduce.py",
+   "kb": 3.9,
+   "doc": "渲染层可复现性检验：对「极简检验室」第二次零输入会话 ⇒ 取录像 ⇒ RunStats ⇒ 比第一次之 T=2 隔帧结构",
+   "mtime": "2026-10-09"
+  },
+  {
+   "name": "mark_analysis",
+   "file": "mark_analysis.py",
+   "kb": 2.8,
+   "doc": "标记实验之判读：录像帧 vs 首帧标记图",
+   "mtime": "2026-10-09"
+  },
+  {
+   "name": "mark_experiment",
+   "file": "mark_experiment.py",
+   "kb": 5.8,
+   "doc": "性质判定实验：首帧含「可检验标记」⇒ 零输入会话 ⇒ 取录像 ⇒ 检验标记之保留",
+   "mtime": "2026-10-09"
+  },
+  {
+   "name": "md2docx",
+   "file": "md2docx.py",
+   "kb": 5.6,
+   "doc": "",
+   "mtime": "2026-10-01"
+  },
+  {
+   "name": "media_validate",
+   "file": "media_validate.py",
+   "kb": 2.8,
+   "doc": "media_validate.py —— AV1/H265 编码校验规则（声明式 + 独立阶段，与构建缓存解耦）。",
+   "mtime": "2026-10-04"
+  },
+  {
+   "name": "mem_audit",
+   "file": "mem_audit.py",
+   "kb": 9.6,
+   "doc": "mem_audit.py —— 内存体检与「空闲但常驻」候选清单（只读）",
+   "mtime": "2026-10-07"
+  },
+  {
+   "name": "mem_guard",
+   "file": "mem_guard.py",
+   "kb": 7.5,
+   "doc": "mem_guard.py —— **R_mem 破线期失败/重试计数**（承 DF-ACK-20261007-CAIRN-06 §四）",
+   "mtime": "2026-10-07"
+  },
+  {
+   "name": "mem_tier_scan",
+   "file": "mem_tier_scan.py",
+   "kb": 6.5,
+   "doc": "mem_tier_scan.py —— 记忆分层 **只读盘点**（承 DF-MEM-20261007-CAIRN-01；丙项试点第一步）",
+   "mtime": "2026-10-07"
+  },
+  {
+   "name": "memory_change_log",
+   "file": "memory_change_log.py",
+   "kb": 6.4,
+   "doc": "memory_change_log.py —— 记忆变更日志（★借 letta-code `hooks/memory_logger.py` 之思路，2026-10-12）",
+   "mtime": "2026-10-12"
+  },
+  {
+   "name": "meow_push",
+   "file": "meow_push.py",
+   "kb": 11.6,
+   "doc": "",
+   "mtime": "2026-10-01"
+  },
+  {
+   "name": "minimax_client",
+   "file": "minimax_client.py",
+   "kb": 5.2,
+   "doc": "MiniMax 统一调用器（★ 供他席/MiniMax 席位使用；零第三方库）",
+   "mtime": "2026-10-10"
+  },
+  {
+   "name": "missing_inventory",
+   "file": "missing_inventory.py",
+   "kb": 5.2,
+   "doc": "missing_inventory.py —— 用【活着的 .sha256 旁证】反查出【主体缺失】的件，并给找回方向。 v1.0.0",
+   "mtime": "2026-10-02"
+  },
+  {
+   "name": "mk_announce",
+   "file": "mk_announce.py",
+   "kb": 9.9,
+   "doc": "mk_announce.py —— 生成并签名本席「节点宣告」文档（承 DF-IUR-NODE-20261006-HY4-01 §2.1）",
+   "mtime": "2026-10-07"
+  },
+  {
+   "name": "mk_namespaces",
+   "file": "mk_namespaces.py",
+   "kb": 4.1,
+   "doc": "mk_namespaces.py —— 建 namespaces/ 视图层（应纲要「目录结构建议」行 62）",
+   "mtime": "2026-10-11"
+  },
+  {
+   "name": "mkled",
+   "file": "mkled.py",
+   "kb": 6.3,
+   "doc": "",
+   "mtime": "2026-10-02"
+  },
+  {
+   "name": "mp4_sampletables",
+   "file": "mp4_sampletables.py",
+   "kb": 4.4,
+   "doc": "直解 MP4 样本表（纯标准库）：取视频轨之 stss（关键帧）、ctts（合成偏移，判 B 帧）、stts（时长）、stsz（大小）",
+   "mtime": "2026-10-09"
+  },
+  {
+   "name": "naming_test",
+   "file": "naming_test.py",
+   "kb": 5.8,
+   "doc": "命名判决实验：与 v7 同构图、但文字全异 ⇒ 观平台命名",
+   "mtime": "2026-10-09"
+  },
+  {
+   "name": "naming_test2",
+   "file": "naming_test2.py",
+   "kb": 5.0,
+   "doc": "补测：与 v7 同文案、但构图不同 ⇒ 观命名",
+   "mtime": "2026-10-09"
+  },
+  {
+   "name": "neg_control_batch",
+   "file": "neg_control_batch.py",
+   "kb": 5.2,
+   "doc": "neg_control_batch.py —— 给【剩余几件核验器】批量补负例对照。 v1.0.0",
+   "mtime": "2026-10-03"
+  },
+  {
+   "name": "neg_control_seat_location",
+   "file": "neg_control_seat_location.py",
+   "kb": 11.4,
+   "doc": "neg_control_seat_location.py —— 用【合成样本】证明 verify_seat_location.py 会红也会绿。 v1.0.0",
+   "mtime": "2026-10-03"
+  },
+  {
+   "name": "neg_control_tool_hygiene",
+   "file": "neg_control_tool_hygiene.py",
+   "kb": 5.3,
+   "doc": "neg_control_tool_hygiene.py —— 给 tool_hygiene.py 补【负例对照】。 v1.0.0",
+   "mtime": "2026-10-03"
+  },
+  {
+   "name": "netguard",
+   "file": "netguard.py",
+   "kb": 7.8,
+   "doc": "",
+   "mtime": "2026-10-03"
+  },
+  {
+   "name": "night_window",
+   "file": "night_window.py",
+   "kb": 5.3,
+   "doc": "night_window.py —— 夜间运维窗口与折扣时段调度判定",
+   "mtime": "2026-10-06"
+  },
+  {
+   "name": "noise_floor_local",
+   "file": "noise_floor_local.py",
+   "kb": 2.7,
+   "doc": "v6 规则用于本席自己之数据：0.5 s 间隔抽帧 ⇒ 相邻帧 MAD 分布 ⇒ 噪声地板 ⇒ 检验\"0→2 s 之变化\"是否在信号底之上",
+   "mtime": "2026-10-09"
+  },
+  {
+   "name": "open_access",
+   "file": "open_access.py",
+   "kb": 5.2,
+   "doc": "open_access.py —— 开放获取资源检索适配器（跨库 + 格式归一化）。",
+   "mtime": "2026-10-04"
+  },
+  {
+   "name": "opening_proof2_20261011",
+   "file": "opening_proof2_20261011.py",
+   "kb": 7.6,
+   "doc": "开园实证 v2：合成 16:9 首帧（夜门＋七点环＋分身剪影）⇒ 建世界 → ready → 换票 → 进房 → 指令 → 取物",
+   "mtime": "2026-10-11"
+  },
+  {
+   "name": "ops_event",
+   "file": "ops_event.py",
+   "kb": 7.7,
+   "doc": "ops_event.py —— 节点操作事件日志（哈希链）与事件工单生成",
+   "mtime": "2026-10-06"
+  },
+  {
+   "name": "outsider_trial",
+   "file": "outsider_trial.py",
+   "kb": 6.6,
+   "doc": "outsider_trial.py —— 我到底能不能被【不经我】地核验？当一次第三方，实测。 v1.0.0",
+   "mtime": "2026-10-02"
+  },
+  {
+   "name": "panel_loop_demo",
+   "file": "panel_loop_demo.py",
+   "kb": 8.2,
+   "doc": "panel_loop_demo.py —— **Panel 回路的可跑示范**：种子 → 引擎 → 结果 → 回流台账，且整链可复现。 v1.0.0",
+   "mtime": "2026-10-01"
+  },
+  {
+   "name": "patch_auditor",
+   "file": "patch_auditor.py",
+   "kb": 3.6,
+   "doc": "patch_auditor.py —— 修正 audit_robots_compliance.py 两处（v1.0.0 → v1.1.0）。 v1.0.0",
+   "mtime": "2026-10-03"
+  },
+  {
+   "name": "patch_feed",
+   "file": "patch_feed.py",
+   "kb": 3.5,
+   "doc": "patch_feed.py —— 修正 feed_to_deduce.py 的校验段（v1.0.0 → v1.1.0）。 v1.0.0",
+   "mtime": "2026-10-03"
+  },
+  {
+   "name": "perm",
+   "file": "perm.py",
+   "kb": 2.2,
+   "doc": "perm.py —— 权限四级模型（只读—执行—管理—审计）。",
+   "mtime": "2026-10-04"
+  },
+  {
+   "name": "persona_pull",
+   "file": "persona_pull.py",
+   "kb": 3.6,
+   "doc": "人设件直取（3 件）——含\"核名\"步骤（防 fuzzy 错拉）＋直取即脱敏",
+   "mtime": "2026-10-09"
+  },
+  {
+   "name": "persona_v7",
+   "file": "persona_v7.py",
+   "kb": 6.7,
+   "doc": "陆知白人设 v7（由本夜行迹而生）——镜面图＋入世",
+   "mtime": "2026-10-09"
+  },
+  {
+   "name": "pilot_publish",
+   "file": "pilot_publish.py",
+   "kb": 8.6,
+   "doc": null,
+   "mtime": "2026-10-02"
+  },
+  {
+   "name": "policy_abc",
+   "file": "policy_abc.py",
+   "kb": 6.8,
+   "doc": "",
+   "mtime": "2026-10-01"
+  },
+  {
+   "name": "ports_triage",
+   "file": "ports_triage.py",
+   "kb": 5.5,
+   "doc": "ports_triage.py —— 裸「名:端口」候选三分类甄别（**不回显值**）",
+   "mtime": "2026-10-07"
+  },
+  {
+   "name": "pqc_bench",
+   "file": "pqc_bench.py",
+   "kb": 6.7,
+   "doc": "pqc_bench.py —— 后量子/签名与审计链**延迟基线**（承令条：签名验证延迟控制在毫秒级）",
+   "mtime": "2026-10-08"
+  },
+  {
+   "name": "pre_push_gate",
+   "file": "pre_push_gate.py",
+   "kb": 6.1,
+   "doc": "pre_push_gate.py —— 推送前闸（应令条⑤：「引入 MFA、Git、Hook…」＋令条⑥「Git 钩子校验未通过时自动触发回滚」）",
+   "mtime": "2026-10-12"
+  },
+  {
+   "name": "principles_index",
+   "file": "principles_index.py",
+   "kb": 4.3,
+   "doc": "principles_index.py —— **方法论则数之机器索引**（承\"计数须机器校验\"自课）",
+   "mtime": "2026-10-08"
+  },
+  {
+   "name": "probe_guard_hole",
+   "file": "probe_guard_hole.py",
+   "kb": 4.7,
+   "doc": "probe_guard_hole.py —— 安全地量清：总闸在什么情况下【拦不住】。 v1.0.0",
+   "mtime": "2026-10-01"
+  },
+  {
+   "name": "probe_guard_hole2",
+   "file": "probe_guard_hole2.py",
+   "kb": 5.1,
+   "doc": "probe_guard_hole2.py —— 查明总闸【漏在哪种取法】上。 v1.1.0",
+   "mtime": "2026-10-01"
+  },
+  {
+   "name": "probe_meow_constraints",
+   "file": "probe_meow_constraints.py",
+   "kb": 2.3,
+   "doc": "probe_meow_constraints.py —— 从 74 号令原件里取 MeoW 的【原文约束】。 v1.0.0",
+   "mtime": "2026-10-01"
+  },
+  {
+   "name": "probe_opl_history",
+   "file": "probe_opl_history.py",
+   "kb": 4.7,
+   "doc": "",
+   "mtime": "2026-10-01"
+  },
+  {
+   "name": "probe_qtorrent_card",
+   "file": "probe_qtorrent_card.py",
+   "kb": 3.1,
+   "doc": "probe_qtorrent_card.py —— 分辨 200/404 矛盾：同一客户端、三种 Accept 头、多次取样。 v1.0.0",
+   "mtime": "2026-10-01"
+  },
+  {
+   "name": "proc_watchdog",
+   "file": "proc_watchdog.py",
+   "kb": 3.9,
+   "doc": "proc_watchdog.py —— 进程健康守护：实时维护关键进程不被杀、死即拉起。",
+   "mtime": "2026-10-05"
+  },
+  {
+   "name": "proto",
+   "file": "proto.py",
+   "kb": 2.1,
+   "doc": "proto.py —— A2A 协议基座（四元标签 + kind 三平面 + 限频）。",
+   "mtime": "2026-10-04"
+  },
+  {
+   "name": "pub_safe",
+   "file": "pub_safe.py",
+   "kb": 4.8,
+   "doc": "pub_safe.py —— 出件安全驱动（把戒三十七做进流程）",
+   "mtime": "2026-10-12"
+  },
+  {
+   "name": "push_all",
+   "file": "push_all.py",
+   "kb": 13.3,
+   "doc": "push_all.py —— 双路径推送与三面核验（本席推送例程，固化轮11教训）",
+   "mtime": "2026-10-08"
+  },
+  {
+   "name": "push_gate",
+   "file": "push_gate.py",
+   "kb": 2.6,
+   "doc": "push_gate.py —— GitHub 上传门禁：原子化 拉取→重基→重签树→推送（结构解）。",
+   "mtime": "2026-10-05"
+  },
+  {
+   "name": "quota_guard",
+   "file": "quota_guard.py",
+   "kb": 5.8,
+   "doc": "quota-guard-ops：额度守卫（应纲要 10-11 更新新增之自建技能）",
+   "mtime": "2026-10-11"
+  },
+  {
+   "name": "quota_wall",
+   "file": "quota_wall.py",
+   "kb": 1.9,
+   "doc": "quota_wall.py —— 撞墙即停（额度墙检测 + 零重试 + 通道切换）。",
+   "mtime": "2026-10-04"
+  },
+  {
+   "name": "r6_standard_op",
+   "file": "r6_standard_op.py",
+   "kb": 6.1,
+   "doc": "r6 标准作业（验收实证）：",
+   "mtime": "2026-10-11"
+  },
+  {
+   "name": "read_docx",
+   "file": "read_docx.py",
+   "kb": 1.9,
+   "doc": "ead_docx.py —— 取 .docx 全文（段落 + 表格），只读、不改。 v1.0.0",
+   "mtime": "2026-10-01"
+  },
+  {
+   "name": "recheck_adventure_path",
+   "file": "recheck_adventure_path.py",
+   "kb": 4.2,
+   "doc": "复测昨日已打通之三动作（承 DF-AI-12）：① POST /worlds ② build-status ③ get-travel-credential",
+   "mtime": "2026-10-12"
+  },
+  {
+   "name": "recount_chain_independent",
+   "file": "recount_chain_independent.py",
+   "kb": 5.4,
+   "doc": "独立复算台账链 —— **第二把尺**（轮 103）。 v1.0.0",
+   "mtime": "2026-10-03"
+  },
+  {
+   "name": "recount_divergence_independent",
+   "file": "recount_divergence_independent.py",
+   "kb": 4.9,
+   "doc": "独立复算【正本 vs 副本】的分叉计数 —— **第二把尺（声明核验那一句）**。 v1.0.0",
+   "mtime": "2026-10-03"
+  },
+  {
+   "name": "rerank_doc_repr_test",
+   "file": "rerank_doc_repr_test.py",
+   "kb": 3.5,
+   "doc": "第八戒之验证：重排之\"文档表示\"效应",
+   "mtime": "2026-10-09"
+  },
+  {
+   "name": "resolve_link_ids",
+   "file": "resolve_link_ids.py",
+   "kb": 4.3,
+   "doc": "为 Moon 席之 wpsonline 索引（127 件）逐一解析 link_id —— 纯便利件（不拉正文）",
+   "mtime": "2026-10-09"
+  },
+  {
+   "name": "resume_on_gate_open",
+   "file": "resume_on_gate_open.py",
+   "kb": 6.9,
+   "doc": "门径一开即行 · 总装脚本：①资格探针 ②分身入世（CAIRN_avatar）③`instruct` 状态端点差分",
+   "mtime": "2026-10-09"
+  },
+  {
+   "name": "resume_three_modules",
+   "file": "resume_three_modules.py",
+   "kb": 3.9,
+   "doc": "续作实跑（域分区修正后）：①专属域 向量 ②专属域 决策 ③重排（专属域 429 ⇒ 试异质承载：硅基流动 bge-reranker-v2-m3，**明确标注承载方**）",
+   "mtime": "2026-10-09"
+  },
+  {
+   "name": "retrieval_eval",
+   "file": "retrieval_eval.py",
+   "kb": 18.7,
+   "doc": "retrieval_eval.py —— 检索评测（乙案：scope ＋ 三路重排对拍 ＋ P@1／P@5／MRR 对 BM25 基线）",
+   "mtime": "2026-10-12"
+  },
+  {
+   "name": "retrieval_precision_run",
+   "file": "retrieval_precision_run.py",
+   "kb": 7.4,
+   "doc": "① 检索精度对比：向量检索（text-embedding-v4 + 余弦） vs 向量＋重排序（gte-rerank-v2）",
+   "mtime": "2026-10-09"
+  },
+  {
+   "name": "rho2_recheck",
+   "file": "rho2_recheck.py",
+   "kb": 3.3,
+   "doc": "未闭合项三之复验：M 之\"间歇性幅度差异\"（ρ₁₂≈0.38，T=2）",
+   "mtime": "2026-10-09"
+  },
+  {
+   "name": "rig_audit",
+   "file": "rig_audit.py",
+   "kb": 4.5,
+   "doc": "rig_audit.py —— 骨格与绑定审计（应《席位分身3D资产 Unity 规范》之「2.3 骨骼与 Rig」）",
+   "mtime": "2026-10-12"
+  },
+  {
+   "name": "rmem_grade",
+   "file": "rmem_grade.py",
+   "kb": 2.5,
+   "doc": "rmem_grade.py —— 可用物理内存分级（应「元处理口径细则」之 A 级项：R_mem 分级）",
+   "mtime": "2026-10-12"
+  },
+  {
+   "name": "robots_gate",
+   "file": "robots_gate.py",
+   "kb": 6.4,
+   "doc": "",
+   "mtime": "2026-10-01"
+  },
+  {
+   "name": "root_direct_pull",
+   "file": "root_direct_pull.py",
+   "kb": 4.2,
+   "doc": "游乐场根 20 件：搜索得 link_id → kdocs 直取 → **即脱敏**（SOP）→ 落盘",
+   "mtime": "2026-10-09"
+  },
+  {
+   "name": "rtc_entry_probe",
+   "file": "rtc_entry_probe.py",
+   "kb": 5.2,
+   "doc": "实时交互入口之探查：enter-travel 返回之 playUrl／rtcConfig 结构（令牌零回显）",
+   "mtime": "2026-10-11"
+  },
+  {
+   "name": "rtc_token_anatomy",
+   "file": "rtc_token_anatomy.py",
+   "kb": 2.4,
+   "doc": "RTC 令牌之结构解剖（JWT）—— 只报 header/payload 之键与非敏感值；★签名段零回显",
+   "mtime": "2026-10-11"
+  },
+  {
+   "name": "scan_secrets",
+   "file": "scan_secrets.py",
+   "kb": 32.1,
+   "doc": "",
+   "mtime": "2026-10-01"
+  },
+  {
+   "name": "sdd_gate",
+   "file": "sdd_gate.py",
+   "kb": 3.3,
+   "doc": "sdd_gate.py —— SDD 规范驱动开发校验门：规范↔实现一致性。",
+   "mtime": "2026-10-05"
+  },
+  {
+   "name": "search_route",
+   "file": "search_route.py",
+   "kb": 4.3,
+   "doc": "search_route.py —— 搜索路由接入口（应纲要行 62：Bing 与 Google 固化为指定引擎）",
+   "mtime": "2026-10-12"
+  },
+  {
+   "name": "second_activity_regions",
+   "file": "second_activity_regions.py",
+   "kb": 3.0,
+   "doc": "17–21 s「第二次活动期」之性质判别：分区块差（4×4）与亮度剖面",
+   "mtime": "2026-10-09"
+  },
+  {
+   "name": "secret_sweep",
+   "file": "secret_sweep.py",
+   "kb": 3.0,
+   "doc": "凭据形态之清查与脱敏（安全优先；值一律不回显）",
+   "mtime": "2026-10-11"
+  },
+  {
+   "name": "section_search",
+   "file": "section_search.py",
+   "kb": 5.5,
+   "doc": "section_search.py —— 章节级检索（BM25 词法 ＋ 自造重排＝字符二元组 TF-IDF 余弦）",
+   "mtime": "2026-10-12"
+  },
+  {
+   "name": "seed_render",
+   "file": "seed_render.py",
+   "kb": 12.2,
+   "doc": "",
+   "mtime": "2026-10-01"
+  },
+  {
+   "name": "seed_verify",
+   "file": "seed_verify.py",
+   "kb": 8.8,
+   "doc": "",
+   "mtime": "2026-10-01"
+  },
+  {
+   "name": "seek",
+   "file": "seek.py",
+   "kb": 2.4,
+   "doc": "本席件库检索入口（seek）—— 自助即取即用",
+   "mtime": "2026-10-09"
+  },
+  {
+   "name": "selfref_probe",
+   "file": "selfref_probe.py",
+   "kb": 4.7,
+   "doc": "selfref_probe.py —— 把\"自指\"从修辞变成【可测的事实】。 v1.0.0",
+   "mtime": "2026-10-02"
+  },
+  {
+   "name": "semantic_search",
+   "file": "semantic_search.py",
+   "kb": 5.2,
+   "doc": "semantic_search.py —— 本席档案之语义检索（向量编码 ＋ 余弦重排）",
+   "mtime": "2026-10-12"
+  },
+  {
+   "name": "seq_frame_diff",
+   "file": "seq_frame_diff.py",
+   "kb": 2.6,
+   "doc": "P1 之果：以\"真连续帧\"（每 8 帧≈0.333s，含真实时间戳）重算 MAD 序列与噪声地板",
+   "mtime": "2026-10-09"
+  },
+  {
+   "name": "sig_block",
+   "file": "sig_block.py",
+   "kb": 6.4,
+   "doc": "sig_block.py v5 —— 「署名 + 唯一标识符」块生成器（**摘要口径全面改用 SHA3-512 树**）",
+   "mtime": "2026-10-08"
+  },
+  {
+   "name": "sig_verify",
+   "file": "sig_verify.py",
+   "kb": 2.5,
+   "doc": "sig_verify.py —— 署名可复验器（★独立于 sig_block.py，不改原工具）",
+   "mtime": "2026-10-11"
+  },
+  {
+   "name": "sign_demo",
+   "file": "sign_demo.py",
+   "kb": 7.6,
+   "doc": "sign_demo.py —— 把\"signed=false 的理由\"拿去测：★ 临时私钥签名＋只留公钥，事后能否验？ v1.0.0",
+   "mtime": "2026-10-02"
+  },
+  {
+   "name": "sign_if_needed",
+   "file": "sign_if_needed.py",
+   "kb": 6.4,
+   "doc": "sign_if_needed.py —— **树未变则免重签提交**（把 DF-PROPOSAL §甲 落实为本席流程）",
+   "mtime": "2026-10-07"
+  },
+  {
+   "name": "singlepoint_audit",
+   "file": "singlepoint_audit.py",
+   "kb": 4.8,
+   "doc": "知识单点依赖盘点：对 14 个关键主题重排，按\"首名分／次名分\"判\"单点承载\"抑或\"多点承载",
+   "mtime": "2026-10-09"
+  },
+  {
+   "name": "skill_evolve",
+   "file": "skill_evolve.py",
+   "kb": 4.5,
+   "doc": "skill_evolve.py —— SkillOpt 落地：自进化技能文档（rollout→reflect→edit→gate）。",
+   "mtime": "2026-10-05"
+  },
+  {
+   "name": "skill_runner",
+   "file": "skill_runner.py",
+   "kb": 4.9,
+   "doc": "技能运行器：载入 minimax_skills.json ⇒ 由 MiniMax 执行技能",
+   "mtime": "2026-10-11"
+  },
+  {
+   "name": "slime_mold",
+   "file": "slime_mold.py",
+   "kb": 3.3,
+   "doc": "slime_mold.py —— 黏菌混合策略（圆桌 + 图寻：聚合收敛 + 发散探索）。",
+   "mtime": "2026-10-04"
+  },
+  {
+   "name": "slime_search",
+   "file": "slime_search.py",
+   "kb": 1.2,
+   "doc": "slime_search.py —— 黏菌聚合发散检索（open_access 发散多源 + slime_mold 聚合收敛）。",
+   "mtime": "2026-10-04"
+  },
+  {
+   "name": "smoke_none_tools",
+   "file": "smoke_none_tools.py",
+   "kb": 5.6,
+   "doc": "smoke_none_tools.py —— 补上\"编译 ≠ 能跑\"那个缺口：★ 只在声明 NONE 的器上冒烟。 v1.0.1",
+   "mtime": "2026-10-02"
+  },
+  {
+   "name": "smoke_pipeline",
+   "file": "smoke_pipeline.py",
+   "kb": 6.9,
+   "doc": "smoke_pipeline.py —— 交付流水线端到端冒烟测试（**不污染台账与共享面**）。 v1.0.0",
+   "mtime": "2026-10-03"
+  },
+  {
+   "name": "sop_check",
+   "file": "sop_check.py",
+   "kb": 4.9,
+   "doc": "sop_check.py —— 交付完整度核验器（一件一键核七步 SOP 之落地痕）",
+   "mtime": "2026-10-11"
+  },
+  {
+   "name": "spectrum_mad",
+   "file": "spectrum_mad.py",
+   "kb": 2.6,
+   "doc": "M 录之功率谱（兑现 `-47` 之再追提议）：对相邻帧 MAD 序列作周期图，寻主频",
+   "mtime": "2026-10-09"
+  },
+  {
+   "name": "spinal_bridge",
+   "file": "spinal_bridge.py",
+   "kb": 4.1,
+   "doc": "spinal_bridge.py —— Supabase 脊髓桥（读/写 cross_mode_channel，真网契约）。",
+   "mtime": "2026-10-04"
+  },
+  {
+   "name": "spinal_probe",
+   "file": "spinal_probe.py",
+   "kb": 1.0,
+   "doc": "脊线桥 Supabase 只读健康探测（石敢当席工具）",
+   "mtime": "2026-10-06"
+  },
+  {
+   "name": "stamp_time",
+   "file": "stamp_time.py",
+   "kb": 2.5,
+   "doc": "自动打钟器（根治\"估记冒称取钟\"）",
+   "mtime": "2026-10-09"
+  },
+  {
+   "name": "storyboard_chain",
+   "file": "storyboard_chain.py",
+   "kb": 6.5,
+   "doc": "分幕世界链（以 Adventure 之 refWorldId 承载\"分幕/镜头\"，为 Directing 之近似——件中必标）",
+   "mtime": "2026-10-09"
+  },
+  {
+   "name": "struct_metrics",
+   "file": "struct_metrics.py",
+   "kb": 1.8,
+   "doc": null,
+   "mtime": "2026-10-09"
+  },
+  {
+   "name": "sts_caller_identity",
+   "file": "sts_caller_identity.py",
+   "kb": 4.5,
+   "doc": "履约令条「两个 AccessKey CSV 均须强制调用」：本席**独立实现**阿里云 STS GetCallerIdentity（RPC 签名 HMAC-SHA1）",
+   "mtime": "2026-10-09"
+  },
+  {
+   "name": "supply_chain",
+   "file": "supply_chain.py",
+   "kb": 3.9,
+   "doc": "supply_chain.py —— 第三方组件引入三查：NOTICE 署名 / 密钥扫描 / SBOM 登记。",
+   "mtime": "2026-10-05"
+  },
+  {
+   "name": "surrogate_states",
+   "file": "surrogate_states.py",
+   "kb": 5.9,
+   "doc": "本地替身世界 · 五态正视对照图（同场景、同站位、仅换态 ⇒ 使\"态\"之差可辨）",
+   "mtime": "2026-10-09"
+  },
+  {
+   "name": "tamper_test",
+   "file": "tamper_test.py",
+   "kb": 3.3,
+   "doc": "tamper_test.py —— 对种子包做【真】篡改，逐级验出。 v1.0.0",
+   "mtime": "2026-10-03"
+  },
+  {
+   "name": "target_secret_check",
+   "file": "target_secret_check.py",
+   "kb": 3.0,
+   "doc": "专查 GitHub 所点名之文件（纲要副本第 27 行）＋ 精确长令牌扫描",
+   "mtime": "2026-10-11"
+  },
+  {
+   "name": "task_state",
+   "file": "task_state.py",
+   "kb": 2.4,
+   "doc": "task_state.py —— 任务分发状态机（五态 + 幂等键 + 重试/超时）。",
+   "mtime": "2026-10-04"
+  },
+  {
+   "name": "tempguard",
+   "file": "tempguard.py",
+   "kb": 4.0,
+   "doc": "tempguard.py —— 可复用的一条断言：**实验室不在本席领地内**。 v1.0.0",
+   "mtime": "2026-10-03"
+  },
+  {
+   "name": "termtable",
+   "file": "termtable.py",
+   "kb": 20.1,
+   "doc": "termtable.py —— **议题术语表**（可执行版）：术语一致性校验",
+   "mtime": "2026-10-12"
+  },
+  {
+   "name": "test_a2a_hmac",
+   "file": "test_a2a_hmac.py",
+   "kb": 5.7,
+   "doc": "test_a2a_hmac.py —— a2a_hmac 正/负向验收向量（对齐 Qoder DF-NOTICE 第六节\"验收\"）。",
+   "mtime": "2026-10-03"
+  },
+  {
+   "name": "test_a2a_node",
+   "file": "test_a2a_node.py",
+   "kb": 2.6,
+   "doc": "test_a2a_node.py —— 对运行中的 A2A 节点做正/负向 HTTP 测试。",
+   "mtime": "2026-10-03"
+  },
+  {
+   "name": "test_chain_rewrite",
+   "file": "test_chain_rewrite.py",
+   "kb": 5.6,
+   "doc": "",
+   "mtime": "2026-10-01"
+  },
+  {
+   "name": "test_deduce_core",
+   "file": "test_deduce_core.py",
+   "kb": 7.1,
+   "doc": "",
+   "mtime": "2026-10-01"
+  },
+  {
+   "name": "test_deduce_d4",
+   "file": "test_deduce_d4.py",
+   "kb": 5.9,
+   "doc": "",
+   "mtime": "2026-10-01"
+  },
+  {
+   "name": "test_supply_chain",
+   "file": "test_supply_chain.py",
+   "kb": 2.3,
+   "doc": "test_supply_chain.py —— 供应链三查单测（stdlib unittest）。",
+   "mtime": "2026-10-05"
+  },
+  {
+   "name": "test_totp",
+   "file": "test_totp.py",
+   "kb": 1.5,
+   "doc": "test_totp.py —— TOTP 模块测试：RFC 6238 附录 B 全部测试向量 + 漂移窗口。",
+   "mtime": "2026-10-03"
+  },
+  {
+   "name": "texel_density",
+   "file": "texel_density.py",
+   "kb": 5.9,
+   "doc": "texel_density.py —— Texel Density 实测与对齐预研（应《席位分身3D资产 Unity 规范》之 2.4／规范口径\"hero 10.24–20.48 px/cm\"）",
+   "mtime": "2026-10-12"
+  },
+  {
+   "name": "three_modules_resume",
+   "file": "three_modules_resume.py",
+   "kb": 6.6,
+   "doc": "三模块齐动（域分区修正后）：",
+   "mtime": "2026-10-09"
+  },
+  {
+   "name": "time_stamp_audit",
+   "file": "time_stamp_audit.py",
+   "kb": 2.1,
+   "doc": "时点行审计器（仪器化，防再犯）",
+   "mtime": "2026-10-09"
+  },
+  {
+   "name": "tool_hygiene",
+   "file": "tool_hygiene.py",
+   "kb": 8.1,
+   "doc": "",
+   "mtime": "2026-10-03"
+  },
+  {
+   "name": "topology",
+   "file": "topology.py",
+   "kb": 1.4,
+   "doc": "topology.py —— 拓扑结构声明（最高标准 / 最大冗余 / 最可接入 / 接口可扩展）。",
+   "mtime": "2026-10-04"
+  },
+  {
+   "name": "totp",
+   "file": "totp.py",
+   "kb": 2.1,
+   "doc": "totp.py —— RFC 6238 TOTP（时间同步一次性口令），纯标准库实现。",
+   "mtime": "2026-10-03"
+  },
+  {
+   "name": "trace_driven_surrogate",
+   "file": "trace_driven_surrogate.py",
+   "kb": 8.6,
+   "doc": "行迹驱动之替身世界：七拍之数值取自本席真实台账（世界数／审计／条目／器物／自正／复现／暂止）",
+   "mtime": "2026-10-09"
+  },
+  {
+   "name": "travel_artifacts_fetch",
+   "file": "travel_artifacts_fetch.py",
+   "kb": 4.8,
+   "doc": "取 Travel 产物全字段＋探测视频（大小/类型）＋（<40MB 则下载）＋（有 ffmpeg 则抽帧）",
+   "mtime": "2026-10-09"
+  },
+  {
+   "name": "travel_control_b",
+   "file": "travel_control_b.py",
+   "kb": 4.6,
+   "doc": "零输入对照（可复现性检验）：对「另一世界」再跑一次无输入会话 ⇒ 取录像 ⇒ 全帧率亮度/MAD 统计",
+   "mtime": "2026-10-09"
+  },
+  {
+   "name": "travel_enter_once",
+   "file": "travel_enter_once.py",
+   "kb": 4.7,
+   "doc": "**亲验一次服务端进房**（v5「数据虚空」first_person）——取 RTC 配置、状态序列、动作池、产物",
+   "mtime": "2026-10-09"
+  },
+  {
+   "name": "tree_ambiguity_demo",
+   "file": "tree_ambiguity_demo.py",
+   "kb": 3.9,
+   "doc": "",
+   "mtime": "2026-10-01"
+  },
+  {
+   "name": "twocopy_diff",
+   "file": "twocopy_diff.py",
+   "kb": 4.1,
+   "doc": "twocopy_diff.py —— 判定两处席位副本是【字节相同的重复】还是【内容不同的两半】。 v1.0.0",
+   "mtime": "2026-10-02"
+  },
+  {
+   "name": "umc",
+   "file": "umc.py",
+   "kb": 1.9,
+   "doc": "umc.py —— UMC v0.1 统一消息契约（kind 三面 + 五段式消息）。",
+   "mtime": "2026-10-04"
+  },
+  {
+   "name": "umc_verify",
+   "file": "umc_verify.py",
+   "kb": 5.8,
+   "doc": "umc_verify.py —— UMC v0.1 三面分面校验器（补入网五步之第三步）",
+   "mtime": "2026-10-12"
+  },
+  {
+   "name": "url_audit",
+   "file": "url_audit.py",
+   "kb": 2.2,
+   "doc": null,
+   "mtime": "2026-10-12"
+  },
+  {
+   "name": "uv_stretch_check",
+   "file": "uv_stretch_check.py",
+   "kb": 4.3,
+   "doc": "uv_stretch_check.py —— UV 拉伸读数（零依赖）：核\"逐岛打包\"之代价",
+   "mtime": "2026-10-12"
+  },
+  {
+   "name": "uv_unwrap_v2",
+   "file": "uv_unwrap_v2.py",
+   "kb": 8.5,
+   "doc": "uv_unwrap_v2.py —— 甲案·阶段二之改进版（零依赖、纯本地、零花费）",
+   "mtime": "2026-10-12"
+  },
+  {
+   "name": "uv_unwrap_v3",
+   "file": "uv_unwrap_v3.py",
+   "kb": 9.4,
+   "doc": "uv_unwrap_v3.py —— 甲／乙路线之共同前置：★按缝拆点（顶点复制）＋ 逐岛平面投影 ＋ 二分缩放装箱",
+   "mtime": "2026-10-12"
+  },
+  {
+   "name": "uv_unwrap_v4",
+   "file": "uv_unwrap_v4.py",
+   "kb": 11.6,
+   "doc": "uv_unwrap_v4.py —— 岛内参数化（★Tutte 均值嵌入）＋ 拆点 ＋ 装箱（零依赖／纯本地／零花费）",
+   "mtime": "2026-10-12"
+  },
+  {
+   "name": "uv_unwrap_v5",
+   "file": "uv_unwrap_v5.py",
+   "kb": 12.9,
+   "doc": "uv_unwrap_v5.py —— 岛内参数化之 v5：★Tutte ＋ 均值坐标权重（Floater MVC，恒正）＋ 拆点 ＋ 装箱（零依赖／纯本地／零花费）",
+   "mtime": "2026-10-12"
+  },
+  {
+   "name": "uv_unwrap_v6",
+   "file": "uv_unwrap_v6.py",
+   "kb": 15.9,
+   "doc": "uv_unwrap_v6.py —— 岛内参数化之 v6：★边界保形（原轮廓投影）优先，翻转则退圆周，再退平面＋ 拆点 ＋ 装箱（零依赖／纯本地／零花费）",
+   "mtime": "2026-10-12"
+  },
+  {
+   "name": "uv_unwrap_v7",
+   "file": "uv_unwrap_v7.py",
+   "kb": 16.6,
+   "doc": "uv_unwrap_v7.py —— v7：同 v6 之三级策略，但★翻转自检改为\"相对中位面积\"之严格阈（rel=1%）：★边界保形（原轮廓投影）优先，翻转则退圆周，再退平面＋ 拆点 ＋ 装箱（零依赖／纯本地／零花费）",
+   "mtime": "2026-10-12"
+  },
+  {
+   "name": "vec_index",
+   "file": "vec_index.py",
+   "kb": 6.7,
+   "doc": "vec_index.py —— 全语料\"向量编码\"索引之建构器（★默认 dry-run：零调用）",
+   "mtime": "2026-10-12"
+  },
+  {
+   "name": "verify_chain",
+   "file": "verify_chain.py",
+   "kb": 2.7,
+   "doc": "verify_chain.py —— 闭环验证记录 HMAC-SHA3-512 签名链。",
+   "mtime": "2026-10-04"
+  },
+  {
+   "name": "verify_gateway_spec",
+   "file": "verify_gateway_spec.py",
+   "kb": 6.3,
+   "doc": "verify_gateway_spec.py —— 把 `gateway_spec.json` 的【主张】拿去跑，而不是读一遍。 v1.0.0",
+   "mtime": "2026-10-01"
+  },
+  {
+   "name": "verify_hub_merkle",
+   "file": "verify_hub_merkle.py",
+   "kb": 7.9,
+   "doc": "",
+   "mtime": "2026-10-08"
+  },
+  {
+   "name": "verify_lab_abc",
+   "file": "verify_lab_abc.py",
+   "kb": 2.8,
+   "doc": "verify_lab_abc.py —— 用【独立验签器】对实验目录那份真 attest.json 做 A/B/C 三组。 v1.0.0",
+   "mtime": "2026-10-01"
+  },
+  {
+   "name": "verify_netguard_wiring",
+   "file": "verify_netguard_wiring.py",
+   "kb": 4.7,
+   "doc": "verify_netguard_wiring.py —— 量一量：各工具是否真的在导入时调了 netguard.activate()。 v1.0.0",
+   "mtime": "2026-10-03"
+  },
+  {
+   "name": "verify_nss_vectors",
+   "file": "verify_nss_vectors.py",
+   "kb": 2.1,
+   "doc": "verify_nss_vectors.py —— 用 NSS/Wycheproof 全套 HMAC-SHA3-512 向量验本实现。",
+   "mtime": "2026-10-03"
+  },
+  {
+   "name": "verify_opc_agentcard",
+   "file": "verify_opc_agentcard.py",
+   "kb": 5.1,
+   "doc": "",
+   "mtime": "2026-10-01"
+  },
+  {
+   "name": "verify_opl_attest",
+   "file": "verify_opl_attest.py",
+   "kb": 8.1,
+   "doc": "",
+   "mtime": "2026-10-01"
+  },
+  {
+   "name": "verify_opl_tree",
+   "file": "verify_opl_tree.py",
+   "kb": 1.7,
+   "doc": "verify_opl_tree.py —— 独立复算 A2A 标准 SHA3-512 树（无钥部分），与 manifest 对账。",
+   "mtime": "2026-10-03"
+  },
+  {
+   "name": "verify_peer_kit",
+   "file": "verify_peer_kit.py",
+   "kb": 11.7,
+   "doc": "",
+   "mtime": "2026-10-01"
+  },
+  {
+   "name": "verify_playbook",
+   "file": "verify_playbook.py",
+   "kb": 5.9,
+   "doc": "verify_playbook.py —— 机检《复现手册》：每条\"哪条命令重现哪条结论\"是否仍然成立。 v1.0.0",
+   "mtime": "2026-10-01"
+  },
+  {
+   "name": "verify_recipe",
+   "file": "verify_recipe.py",
+   "kb": 4.7,
+   "doc": "verify_recipe.py —— 把声明里那句【期望退出码】从\"记在纸上\"变成\"跑出来\"。 v1.0.0",
+   "mtime": "2026-10-03"
+  },
+  {
+   "name": "verify_seat_location",
+   "file": "verify_seat_location.py",
+   "kb": 23.8,
+   "doc": "verify_seat_location.py —— 核验 `SEAT_LOCATION_<seat>_<date>.json` 是否为【真话】。 v1.0.0",
+   "mtime": "2026-10-03"
+  },
+  {
+   "name": "video_container_audit",
+   "file": "video_container_audit.py",
+   "kb": 4.8,
+   "doc": "视频容器审计：直解各录像之轨道（视频/音频）、样本数、样本总字节、每帧比特",
+   "mtime": "2026-10-09"
+  },
+  {
+   "name": "wall_coverage",
+   "file": "wall_coverage.py",
+   "kb": 4.0,
+   "doc": "wall_coverage.py —— 墙闸覆盖之证（2026-10-12 立）",
+   "mtime": "2026-10-12"
+  },
+  {
+   "name": "wall_guard",
+   "file": "wall_guard.py",
+   "kb": 6.9,
+   "doc": "wall_guard.py（★已与既有 quota_wall.py 合并为单一入口）—— 容量墙闸（应《跨生态A2A协作网络体系建设方案》：",
+   "mtime": "2026-10-12"
+  },
+  {
+   "name": "wechat_probe",
+   "file": "wechat_probe.py",
+   "kb": 2.0,
+   "doc": "wechat_probe.py —— 看一篇公众号页面的真实结构（标记计数 + 标题提取）。 v1.0.0",
+   "mtime": "2026-10-01"
+  },
+  {
+   "name": "winddown",
+   "file": "winddown.py",
+   "kb": 6.7,
+   "doc": "winddown.py —— 夜间窗「预警哨 / 冻结线 / 解冻复查」之落盘机制",
+   "mtime": "2026-10-08"
+  },
+  {
+   "name": "window_close_record",
+   "file": "window_close_record.py",
+   "kb": 17.1,
+   "doc": "window_close_record.py —— **窗口末刻录**：到点自动抓终态，写台账 ＋ 一份呈机主件。 v1.0.0",
+   "mtime": "2026-10-01"
+  },
+  {
+   "name": "wire_netguard",
+   "file": "wire_netguard.py",
+   "kb": 2.7,
+   "doc": "wire_netguard.py —— 给尚未接总闸的工具，各加一行 `netguard.activate()`。 v1.0.0",
+   "mtime": "2026-10-03"
+  },
+  {
+   "name": "wm_create_generic",
+   "file": "wm_create_generic.py",
+   "kb": 4.9,
+   "doc": "通用建 World 器（Adventure；trial 域）——供人设迭代反复使用",
+   "mtime": "2026-10-12"
+  },
+  {
+   "name": "wm_get_ticket",
+   "file": "wm_get_ticket.py",
+   "kb": 2.6,
+   "doc": "世界探索之服务端末步：换取体验凭证（ticket）",
+   "mtime": "2026-10-09"
+  },
+  {
+   "name": "wm_persona_world",
+   "file": "wm_persona_world.py",
+   "kb": 4.5,
+   "doc": "人设 → 世界模型（Adventure v1）：以\"陆知白人设镜面图\"为首帧建 World，并轮询至 ready",
+   "mtime": "2026-10-09"
+  },
+  {
+   "name": "wm_persona_world_v2",
+   "file": "wm_persona_world_v2.py",
+   "kb": 4.9,
+   "doc": "人设 v2 → 世界模型（Adventure v2）：以 v2 镜面图为首帧建 World 并轮询至 ready，取首帧供对比",
+   "mtime": "2026-10-09"
+  },
+  {
+   "name": "wm_persona_world_v5",
+   "file": "wm_persona_world_v5.py",
+   "kb": 4.9,
+   "doc": "v5：refWorldId(v4) + perspective=first_person —— 测衍生链与视角维；随后查详情核谱系",
+   "mtime": "2026-10-09"
+  },
+  {
+   "name": "wm_persona_world_v6",
+   "file": "wm_persona_world_v6.py",
+   "kb": 4.9,
+   "doc": "v6：refWorldId(v5) + 人设增量 #10「共享面之礼」——建世界 → 轮询 ready → 详情核谱系",
+   "mtime": "2026-10-09"
+  },
+  {
+   "name": "wording_gate",
+   "file": "wording_gate.py",
+   "kb": 4.9,
+   "doc": "wording_gate.py —— 「未测」表述纪律之禁词检查（承 DF-CCM §四·本席合规矩阵 #6）",
+   "mtime": "2026-10-07"
+  },
+  {
+   "name": "world_model_runner",
+   "file": "world_model_runner.py",
+   "kb": 6.6,
+   "doc": "世界模型（HappyOyster）运行器 —— **待 WorkspaceId 即可执行**",
+   "mtime": "2026-10-09"
+  },
+  {
+   "name": "world_video_diff",
+   "file": "world_video_diff.py",
+   "kb": 1.8,
+   "doc": "世界演进之定量判读：逐帧差分（以数值核实\"是否静止\"，不凭肉眼印象）",
+   "mtime": "2026-10-09"
+  },
+  {
+   "name": "worlds_lineage",
+   "file": "worlds_lineage.py",
+   "kb": 3.9,
+   "doc": "核验本席诸世界之谱系（worlds/detail 回显 refWorldId）——**只查本席所建，不查他席**",
+   "mtime": "2026-10-09"
+  },
+  {
+   "name": "ws_domain_probe",
+   "file": "ws_domain_probe.py",
+   "kb": 4.6,
+   "doc": "以\"业务空间专属域\"（自 .env 之 DASHSCOPE_WS_BASE 解出）测三事：",
+   "mtime": "2026-10-09"
+  },
+  {
+   "name": "zone_alternation",
+   "file": "zone_alternation.py",
+   "kb": 2.9,
+   "doc": "M 录\"强隔帧\"之空间分布：对连续 48 帧（2 s），算相邻帧差之逐区域（4×4）MAD",
+   "mtime": "2026-10-09"
+  }
+ ]
+}

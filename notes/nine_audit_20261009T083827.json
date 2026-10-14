@@ -1,0 +1,114 @@
+{
+ "ts": "2026-10-09T08:38:12+0800",
+ "seat": "a2a-node-local",
+ "level": "A",
+ "items": {
+  "1_sig_dual_algo": {
+   "sampled": 3,
+   "detail": [
+    {
+     "file": "陆知白glTFv2多节点两动画_DF-PERSONA-20261009-CAIRN-05.otl",
+     "cut_found": true,
+     "sha3_512_root": "a9774d3cdee4443bc2eb6d577bbf165d…",
+     "sha256_12": "2521f4cd4070"
+    },
+    {
+     "file": "知识单点依赖盘点_DF-AI-20261009-CAIRN-66.otl",
+     "cut_found": true,
+     "sha3_512_root": "17767664c3856f768c86cc9595a4973e…",
+     "sha256_12": "44560259b369"
+    },
+    {
+     "file": "语料v4三模块复测_DF-AI-20261009-CAIRN-65.otl",
+     "cut_found": true,
+     "sha3_512_root": "4c6b9bb34bbfdcdedad92276c00fac5c…",
+     "sha256_12": "f257e6d415de"
+    }
+   ],
+   "verdict": "PASS"
+  },
+  "2_termgate": {
+   "rc": 0,
+   "verdict": "CLEAN",
+   "tail": "  VERDICT=CLEAN"
+  },
+  "3_bus_validate_scan": {
+   "validate": {
+    "bus.jsonl": {
+     "rc": 0,
+     "ok": true,
+     "tail": "  VERDICT=VALID"
+    }
+   },
+   "scan": [
+    {
+     "file": "bus.jsonl",
+     "rc": 1,
+     "hit_line": "文本文件已扫：1 ｜ 跳过：0 ｜ ★命中：1"
+    },
+    {
+     "file": "陆知白glTFv2多节点两动画_DF-PERSONA-20261009-CAIRN-05.otl",
+     "rc": 0,
+     "hit_line": "文本文件已扫：1 ｜ 跳过：0 ｜ ★命中：0"
+    },
+    {
+     "file": "知识单点依赖盘点_DF-AI-20261009-CAIRN-66.otl",
+     "rc": 0,
+     "hit_line": "文本文件已扫：1 ｜ 跳过：0 ｜ ★命中：0"
+    },
+    {
+     "file": "语料v4三模块复测_DF-AI-20261009-CAIRN-65.otl",
+     "rc": 0,
+     "hit_line": "文本文件已扫：1 ｜ 跳过：0 ｜ ★命中：0"
+    }
+   ],
+   "verdict": "CHECK"
+  },
+  "4_sha3tree_reconcile": {
+   "exchange_n": 282,
+   "cairn_notes_n": 138,
+   "mirror_landing_n": 13,
+   "common_exchange_cairn": 138,
+   "mismatch": [],
+   "verdict": "PASS"
+  },
+  "5_three_face": {
+   "rc": 0,
+   "line": "★ 三面核验（08:38:24）：local=cb3f04e ｜ origin=cb3f04e[live(ls-remote)] ｜ gitcode=cb3f04e[live(ls-remote)]",
+   "verdict": "ALIGNED"
+  },
+  "6_ledger_verify": {
+   "rc": 0,
+   "lines": [
+    "条目数：878",
+    "结论：PASS —— ★链内自洽（①每条 hash 与内容相符 ②prev 指针相连）"
+   ],
+   "verdict": "PASS"
+  },
+  "7_virtue_audit": {
+   "rc": 0,
+   "tail": "{\"audited_at\": \"2026-10-09 08:38:25 +08\", \"scope\": \"exp/*.py\", \"metric\": \"mentions-in-ledger+events(proxy)\", \"rows\": [{\"tool\": \"push_gate.py\", \"mentions\": 272, \"verdict\": \"在用\"}, {\"tool\": \"a2a_node.py\"",
+   "verdict": "PASS"
+  },
+  "8_r_mem": {
+   "rc": 0,
+   "line": "★ R_mem 检查（2026-10-09 08:38:27）：R_mem=1104.5（来源=CimInstance.FreePhysicalMemory） MB ｜ M_floor=1286.1 MB ｜ 0.8GB线=819.2 ｜ 0.5GB线=512.0",
+   "r_mem_mb": 1104.5,
+   "m_floor_mb": 1286.1,
+   "grade": "未破警戒线；但低于 M_floor（软线）",
+   "verdict": "OK"
+  },
+  "9_canonical_repo": {
+   "head": "ad8c17d",
+   "dirty_files": 0,
+   "remotes": [
+    "origin"
+   ],
+   "verdict": "PASS"
+  }
+ },
+ "summary": {
+  "pass_like": 8,
+  "total": 9
+ }
+}

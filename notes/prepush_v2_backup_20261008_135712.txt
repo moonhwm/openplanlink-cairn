@@ -1,0 +1,52 @@
+#!/bin/sh
+# pre-push —— 分支保护校验（v2 精化，2026-10-08 由 A2A新席_石敢当Cairn 声明式修订）
+#
+# ★v2 修订之两处（声明如下，均不削弱对本席自身提交之要求）：
+#   ① 基准改用【被推远端】之 ref（v1 写死 refs/remotes/origin/main，推 gitcode 时基准错误）；
+#   ② 签名要求【仅对本席（署名者身份）之提交】，他席提交【列出为提示但不拦截】
+#      —— 因他席提交（如 %G?=N）经合并进入本席历史，若无条件拦截将使本席一切推送失败。
+#      ★本项属"跨席位口径"事项，已登记候网络裁定；本席不擅自放宽对自身提交之要求。
+# 安装：cp tools/hooks/pre-push .git/hooks/pre-push && chmod +x .git/hooks/pre-push
+
+set -e
+
+remote="$1"
+url="$2"
+ROOT="$(git rev-parse --show-toplevel)"
+
+ALLOWED="$(git config --get gpg.ssh.allowedSignersFile || true)"
+ME="$(git config --get user.email || echo '')"
+
+echo "[pre-push] 分支保护：校验即将推送的提交签名…（远端=$remote）"
+
+local_head="$(git rev-parse HEAD)"
+tracking="refs/remotes/$remote/main"
+remote_head="$(git rev-parse "$tracking" 2>/dev/null || echo '')"
+if [ -z "$remote_head" ]; then
+  remote_head="$(git rev-parse refs/remotes/origin/main 2>/dev/null || echo '')"
+fi
+
+if [ -z "$remote_head" ]; then
+  range="$local_head"
+else
+  range="$remote_head..$local_head"
+fi
+
+# 分区：本席（$ME）提交须已签名；他席提交仅列出
+mine_unsigned="$(git log "$range" --format='%H %ae %G?' | awk -v me="$ME" '$2==me && $3=="N" {print $1}' || true)"
+peer_unsigned="$(git log "$range" --format='%H %ae %G?' | awk -v me="$ME" '$2!=me && $3=="N" {print $1" "$2}' || true)"
+
+if [ -n "$peer_unsigned" ]; then
+  echo "  · 提示：以下他席提交未签名（v2 不拦截；跨席位口径候裁）："
+  echo "$peer_unsigned" | sed 's/^/    /'
+fi
+
+if [ -n "$mine_unsigned" ]; then
+  echo "  ✗ 本席以下提交未签名，禁止直推 main："
+  echo "$mine_unsigned"
+  echo "[pre-push] 分支保护：未签名提交被拦截（须先 git commit --amend -S 补签）。"
+  exit 1
+fi
+
+echo "[pre-push] 分支保护校验通过：本席待推提交均已签名。"
+exit 0

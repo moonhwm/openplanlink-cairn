@@ -1,0 +1,74 @@
+{
+ "ts": "2026-10-12T17:45:22+0800",
+ "rows": [
+  {
+   "domain": "trial",
+   "kind": "adventure",
+   "status": -1,
+   "code": "",
+   "verdict": "未判",
+   "body": "<urlopen error [WinError 10054] 远程主机强迫关闭了一个现有的连接。>"
+  },
+  {
+   "domain": "trial",
+   "kind": "directing",
+   "status": 403,
+   "code": "AccessDenied",
+   "verdict": "端点存在，无资格",
+   "body": "{\"code\":\"AccessDenied\",\"message\":\"Access denied\",\"request_id\":\"fe6ece22-4a51-45c4-b087-978cfbbb1826\"}"
+  },
+  {
+   "domain": "trial",
+   "kind": "acting",
+   "status": 403,
+   "code": "AccessDenied",
+   "verdict": "端点存在，无资格",
+   "body": "{\"code\":\"AccessDenied\",\"message\":\"Access denied\",\"request_id\":\"790d479e-3391-4c6d-9abe-02e04a86e0de\"}"
+  },
+  {
+   "domain": "trial",
+   "kind": "nonexistent-xyz",
+   "status": 404,
+   "code": "InvalidParameter",
+   "verdict": "端点不存在",
+   "body": "{\"code\":\"InvalidParameter\",\"message\":\"Model not exist.\",\"request_id\":\"a3dd8ec6-1d3c-4113-b3e6-420b438fb74a\"}"
+  },
+  {
+   "domain": "WS(业务空间)",
+   "kind": "adventure",
+   "status": 200,
+   "code": "",
+   "verdict": "可访问",
+   "body": "{\"request_id\":\"b1d4bdae-7fd0-9bcc-89ea-f69a201ad78d\",\"output\":{\"timestamp\":\"2026-10-12T09:45:22.050+00:00\",\"status\":404,\"error\":\"Not Found\",\"path\":\"/openapi/v1\"}}"
+  },
+  {
+   "domain": "WS(业务空间)",
+   "kind": "directing",
+   "status": 403,
+   "code": "AccessDenied",
+   "verdict": "端点存在，无资格",
+   "body": "{\"code\":\"AccessDenied\",\"message\":\"Access denied\",\"request_id\":\"98da0018-b3f9-98b1-ba14-9477df94ce96\"}"
+  },
+  {
+   "domain": "WS(业务空间)",
+   "kind": "acting",
+   "status": 403,
+   "code": "AccessDenied",
+   "verdict": "端点存在，无资格",
+   "body": "{\"code\":\"AccessDenied\",\"message\":\"Access denied\",\"request_id\":\"a968b333-ed5c-90c1-ae23-9bc0394ac98f\"}"
+  },
+  {
+   "domain": "WS(业务空间)",
+   "kind": "nonexistent-xyz",
+   "status": 404,
+   "code": "InvalidParameter",
+   "verdict": "端点不存在",
+   "body": "{\"code\":\"InvalidParameter\",\"message\":\"Model not exist.\",\"request_id\":\"67e3f28c-afec-98a9-82a1-d73d11e39a30\"}"
+  }
+ ],
+ "criteria": {
+  "①阴性对照得 404（判据成立）": true,
+  "②adventure 在 trial 域得非 403（复现既有结论）": true,
+  "③★WS 域之三模式状态已逐一给出": true
+ }
+}

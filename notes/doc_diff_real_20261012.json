@@ -1,0 +1,94 @@
+[
+ {
+  "doc": "kd_McccFi",
+  "a": "20261011_0528",
+  "b": "20261011_0603",
+  "lines": [
+   202,
+   202
+  ],
+  "diff_lines": 1,
+  "url_only_lines": 0,
+  "real_lines": 1,
+  "char_delta": 255,
+  "char_delta_nourl": 59,
+  "real_samples": [
+   "下述所有信息【暂定阿里云百炼为指定服务提供商：\"C:\\Users\\欧阳宏俊\\OneDrive\\桌面\\AccessKey RAM角色.csv\"、\"C:\\Users\\欧阳宏俊\\OneD"
+  ]
+ },
+ {
+  "doc": "kd_PoRdSw",
+  "a": "20261011_2125",
+  "b": "20261012_1225",
+  "lines": [
+   1577,
+   1577
+  ],
+  "diff_lines": 73,
+  "url_only_lines": 73,
+  "real_lines": 0,
+  "char_delta": 12,
+  "char_delta_nourl": 0,
+  "real_samples": []
+ },
+ {
+  "doc": "kd_lGgqkZ",
+  "a": "20261011_2127",
+  "b": "20261012_1226",
+  "lines": [
+   166,
+   166
+  ],
+  "diff_lines": 48,
+  "url_only_lines": 48,
+  "real_lines": 0,
+  "char_delta": -24,
+  "char_delta_nourl": 0,
+  "real_samples": []
+ },
+ {
+  "doc": "kd_sbZsGm",
+  "a": "20261011_2125",
+  "b": "20261012_1225",
+  "lines": [
+   5624,
+   5624
+  ],
+  "diff_lines": 111,
+  "url_only_lines": 111,
+  "real_lines": 0,
+  "char_delta": 26,
+  "char_delta_nourl": 0,
+  "real_samples": []
+ },
+ {
+  "doc": "outline",
+  "a": "20261011_2127",
+  "b": "20261012_1226",
+  "lines": [
+   202,
+   202
+  ],
+  "diff_lines": 0,
+  "url_only_lines": 0,
+  "real_lines": 0,
+  "char_delta": 0,
+  "char_delta_nourl": 0,
+  "real_samples": []
+ },
+ {
+  "doc": "polish",
+  "a": "20261012_1225",
+  "b": "20261012_1226",
+  "lines": [
+   1577,
+   1577
+  ],
+  "diff_lines": 73,
+  "url_only_lines": 73,
+  "real_lines": 0,
+  "char_delta": -42,
+  "char_delta_nourl": 0,
+  "real_samples": []
+ }
+]

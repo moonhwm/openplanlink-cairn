@@ -1,0 +1,50 @@
+{
+ "file": "CAIRN_avatar_v6b_LOD0_walk.glb",
+ "joints": 17,
+ "names": [
+  "CAIRN_Pelvis",
+  "CAIRN_Spine",
+  "CAIRN_Chest",
+  "CAIRN_Neck",
+  "CAIRN_Head",
+  "CAIRN_Shoulder_L",
+  "CAIRN_Elbow_L",
+  "CAIRN_Hand_L",
+  "CAIRN_Shoulder_R",
+  "CAIRN_Elbow_R",
+  "CAIRN_Hand_R",
+  "CAIRN_Hip_L",
+  "CAIRN_Knee_L",
+  "CAIRN_Foot_L",
+  "CAIRN_Hip_R",
+  "CAIRN_Knee_R",
+  "CAIRN_Foot_R"
+ ],
+ "root_translation": [
+  0.0,
+  0.95,
+  0.0
+ ],
+ "max_depth": 5,
+ "ibm": true,
+ "human_cov": [
+  "pelvis",
+  "spine",
+  "chest",
+  "neck",
+  "head",
+  "shoulder",
+  "hand",
+  "foot"
+ ],
+ "criteria": {
+  "①有 skin": true,
+  "②joints ≥ 6": true,
+  "③骨名可读": true,
+  "④有层级（父>子）": true,
+  "⑤网格最低点 y ≈ 0（脚底贴地；实测 0.000）": true,
+  "⑥根（骨盆）在合理髋高 0.5–1.2 m（实测 0.950）": true,
+  "⑦含 inverseBindMatrices": true,
+  "⑧人形骨名覆盖 ≥5 项": true
+ }
+}

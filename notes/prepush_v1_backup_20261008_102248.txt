@@ -1,0 +1,36 @@
+#!/bin/sh
+# pre-push —— 分支保护校验（"提交签名 + 分支保护"双重校验之推送侧）。
+# 安装：cp tools/hooks/pre-push .git/hooks/pre-push && chmod +x .git/hooks/pre-push
+# 校验：推送至 main 的提交必须已签名（提交签名校验）；禁未签名直推。
+
+set -e
+
+remote="$1"
+url="$2"
+ROOT="$(git rev-parse --show-toplevel)"
+
+# 取本机已允许的签名者文件（与提交签名同一 ED25519 公钥）
+ALLOWED="$(git config --get gpg.ssh.allowedSignersFile || true)"
+
+echo "[pre-push] 分支保护：校验即将推送的提交签名…"
+# 当前分支与远端 main 的差集提交，逐一核验签名状态
+local_head="$(git rev-parse HEAD)"
+remote_head="$(git rev-parse refs/remotes/origin/main 2>/dev/null || echo '')"
+
+if [ -z "$remote_head" ]; then
+  range="$local_head"
+else
+  range="$remote_head..$local_head"
+fi
+
+unsigned=$(git log "$range" --format='%H %G?' | grep ' N$' || true)
+
+if [ -n "$unsigned" ]; then
+  echo "  ✗ 以下提交未签名，禁止直推 main："
+  echo "$unsigned"
+  echo "[pre-push] 分支保护：未签名提交被拦截（须先 git commit --amend -S 补签）。"
+  exit 1
+fi
+
+echo "[pre-push] 分支保护校验通过：所有待推提交均已签名。"
+exit 0

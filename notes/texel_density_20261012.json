@@ -1,0 +1,8 @@
+{
+ "file": "CAIRN_staticLOD0_20261012.glb",
+ "tris": 1512,
+ "world_area_m2": 4.8086748123168945,
+ "uv_area": 32.24782180786133,
+ "uv_overlap_pct": 100.0,
+ "verdict": "★不可评：UV 重叠显著 ⇒ 须先做 UV 岛打包与去重叠"
+}

@@ -1,0 +1,31 @@
+{
+ "ts": "2026-10-11T04:56:26+0800",
+ "skill": "quota-guard-ops",
+ "v": 1,
+ "balance": {
+  "http": 200,
+  "available": "50.00",
+  "cash": "50.00",
+  "credit": "0.00",
+  "currency": "CNY"
+ },
+ "balance_grade": "D-正常（≥20 元）",
+ "probe": {
+  "dashscope:qwen-plus": 200,
+  "dashscope:qwen3.7-plus": 200,
+  "dashscope:qwen3.8-omni-flash": 200,
+  "dashscope:decision-model-preview": 429,
+  "dashscope:qwen3.8-max": 429,
+  "dashscope:embedding": 200,
+  "minimax:M2": 200,
+  "world:adventure": 200,
+  "world:adventure:code": 400000,
+  "world:directing": 403,
+  "world:acting": 403
+ },
+ "alerts": [
+  "decision-model-preview 仍受额度墙",
+  "实时导演不可达（须资格）",
+  "角色演绎不可达（须资格）"
+ ]
+}

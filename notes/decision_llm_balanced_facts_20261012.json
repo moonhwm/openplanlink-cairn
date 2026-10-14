@@ -1,0 +1,177 @@
+{
+ "ts": "2026-10-12T18:55:22+0800",
+ "model": "gpt-4o-mini",
+ "acc": 0.5,
+ "usage": {
+  "completion_tokens": 252,
+  "prompt_tokens": 4136,
+  "total_tokens": 4388
+ },
+ "rows": [
+  {
+   "q": "本席有归档真实变更扫描器吗",
+   "truth": true,
+   "label": "否",
+   "p_yes": 0.1,
+   "score": 2,
+   "contract": true,
+   "ok": false,
+   "raw": "{\"label\":\"否\",\"p_yes\":0.1,\"score\":2}"
+  },
+  {
+   "q": "本席有文档变更分诊器吗",
+   "truth": true,
+   "label": "否",
+   "p_yes": 0.1,
+   "score": 2,
+   "contract": true,
+   "ok": false,
+   "raw": "{\"label\":\"否\",\"p_yes\":0.1,\"score\":2}"
+  },
+  {
+   "q": "本席有会话全量列举器吗",
+   "truth": true,
+   "label": "否",
+   "p_yes": 0.1,
+   "score": 2,
+   "contract": true,
+   "ok": false,
+   "raw": "{\"label\":\"否\",\"p_yes\":0.1,\"score\":2}"
+  },
+  {
+   "q": "本席有全库语义评测器吗",
+   "truth": true,
+   "label": "否",
+   "p_yes": 0.1,
+   "score": 2,
+   "contract": true,
+   "ok": false,
+   "raw": "{\"label\":\"否\",\"p_yes\":0.1,\"score\":2}"
+  },
+  {
+   "q": "本席有节级归一化差异器吗",
+   "truth": true,
+   "label": "否",
+   "p_yes": 0.1,
+   "score": 2,
+   "contract": true,
+   "ok": false,
+   "raw": "{\"label\":\"否\",\"p_yes\":0.1,\"score\":2}"
+  },
+  {
+   "q": "本席有复拉裁决器吗",
+   "truth": true,
+   "label": "否",
+   "p_yes": 0.1,
+   "score": 2,
+   "contract": true,
+   "ok": false,
+   "raw": "{\"label\":\"否\",\"p_yes\":0.1,\"score\":2}"
+  },
+  {
+   "q": "本席有工具登记刷新器吗",
+   "truth": true,
+   "label": "否",
+   "p_yes": 0.1,
+   "score": 2,
+   "contract": true,
+   "ok": false,
+   "raw": "{\"label\":\"否\",\"p_yes\":0.1,\"score\":2}"
+  },
+  {
+   "q": "本席有世界模型域名探针吗",
+   "truth": true,
+   "label": "否",
+   "p_yes": 0.1,
+   "score": 2,
+   "contract": true,
+   "ok": false,
+   "raw": "{\"label\":\"否\",\"p_yes\":0.1,\"score\":2}"
+  },
+  {
+   "q": "本席有跨厂商重排器吗",
+   "truth": false,
+   "label": "否",
+   "p_yes": 0.1,
+   "score": 2,
+   "contract": true,
+   "ok": true,
+   "raw": "{\"label\":\"否\",\"p_yes\":0.1,\"score\":2}"
+  },
+  {
+   "q": "本席有 RTC 客户端进场器吗",
+   "truth": false,
+   "label": "否",
+   "p_yes": 0.1,
+   "score": 2,
+   "contract": true,
+   "ok": true,
+   "raw": "{\"label\":\"否\",\"p_yes\":0.1,\"score\":2}"
+  },
+  {
+   "q": "本席有 3D 资产面数自动分级器吗",
+   "truth": false,
+   "label": "否",
+   "p_yes": 0.1,
+   "score": 2,
+   "contract": true,
+   "ok": true,
+   "raw": "{\"label\":\"否\",\"p_yes\":0.1,\"score\":2}"
+  },
+  {
+   "q": "本席之世界模型实时导演模式可用吗",
+   "truth": false,
+   "label": "否",
+   "p_yes": 0.0,
+   "score": 0,
+   "contract": true,
+   "ok": true,
+   "raw": "{\"label\":\"否\",\"p_yes\":0,\"score\":0}"
+  },
+  {
+   "q": "本席之百炼预算当前可用吗",
+   "truth": false,
+   "label": "否",
+   "p_yes": 0.1,
+   "score": 2,
+   "contract": true,
+   "ok": true,
+   "raw": "{\"label\":\"否\",\"p_yes\":0.1,\"score\":2}"
+  },
+  {
+   "q": "本席台账现存条目超过一千条吗",
+   "truth": false,
+   "label": "否",
+   "p_yes": 0.0,
+   "score": 10,
+   "contract": true,
+   "ok": true,
+   "raw": "{\"label\":\"否\",\"p_yes\":0,\"score\":10}"
+  },
+  {
+   "q": "本席有跨席位自动结算器吗",
+   "truth": false,
+   "label": "否",
+   "p_yes": 0.1,
+   "score": 2,
+   "contract": true,
+   "ok": true,
+   "raw": "{\"label\":\"否\",\"p_yes\":0.1,\"score\":2}"
+  },
+  {
+   "q": "本席有自动语义决策器（无需付费接口）吗",
+   "truth": false,
+   "label": "否",
+   "p_yes": 0.1,
+   "score": 2,
+   "contract": true,
+   "ok": true,
+   "raw": "{\"label\":\"否\",\"p_yes\":0.1,\"score\":2}"
+  }
+ ],
+ "criteria": {
+  "①计划之题数与成本上界已给": true,
+  "②真跑时每题皆合契约": true,
+  "③★准确率与词面 0.70 之对照已给出": true
+ }
+}

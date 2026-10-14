@@ -1,0 +1,36 @@
+{
+ "ts": "2026-10-12T17:49:04+0800",
+ "wid_prefix": "8rcpnKlw6xp3",
+ "path": "/worlds",
+ "rows": {
+  "items": 20,
+  "ids_head": [
+   "8rcpnKlw6xp3",
+   "8rcpnKlw6xp3",
+   "8rcpnKlw6xp3",
+   "8rcpnKlw6xp3",
+   "8rcpnKlw6xp3",
+   "8rcpnKlw6xp3",
+   "8rcpnKlw6xp3",
+   "8rcpnKlw6xp3",
+   "8rcpnKlw6xp3",
+   "8rcpnKlw6xp3",
+   "8rcpnKlw6xp3",
+   "8rcpnKlw6xp3",
+   "8rcpnKlw6xp3",
+   "8rcpnKlw6xp3",
+   "8rcpnKlw6xp3",
+   "8rcpnKlw6xp3",
+   "8rcpnKlw6xp3",
+   "8rcpnKlw6xp3",
+   "8rcpnKlw6xp3",
+   "8rcpnKlw6xp3"
+  ],
+  "has_wid": false
+ },
+ "criteria": {
+  "①至少一条候选路径得 2xx": true,
+  "②能取到世界条目数": true,
+  "③★取票之 WID 是否在清单中已判": true
+ }
+}

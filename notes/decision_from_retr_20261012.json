@@ -1,0 +1,33 @@
+{
+ "ts": "2026-10-12T18:21:12+0800",
+ "q": "本席有无能失败之释义基准",
+ "label": "否",
+ "probs": {
+  "是": 0.1927,
+  "否": 0.8073
+ },
+ "score": 8,
+ "confidence": 0.8073,
+ "forwards": 1,
+ "evidence": [
+  [
+   "origin推送根因纠正与侧分支保全",
+   15.288
+  ],
+  [
+   "MiniMax技能包v1.1",
+   14.193
+  ],
+  [
+   "受领比对基准教训与本席基准声明落地",
+   10.792
+  ]
+ ],
+ "criteria": {
+  "①Σprobs=1±0.01": true,
+  "②confidence=max(probs)": true,
+  "③forwards=1": true,
+  "④label∈{是,否}": true,
+  "⑤score∈0–10": true
+ }
+}

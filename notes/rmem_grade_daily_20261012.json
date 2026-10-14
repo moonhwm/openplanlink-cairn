@@ -1,0 +1,12 @@
+{
+ "ts": "2026-10-12T18:11:19+0800",
+ "avail_mb": 1878.9,
+ "total_mb": 16076.3,
+ "grade": "充裕（≥M_floor）",
+ "ok": true,
+ "thresholds": {
+  "M_floor": 1256.0,
+  "warn": 819.2,
+  "deep": 512.0
+ }
+}

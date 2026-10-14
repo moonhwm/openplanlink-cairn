@@ -1,0 +1,47 @@
+[
+ {
+  "file": "CAIRN_staticLOD2_20261012.glb",
+  "tris": 369,
+  "median": 0.543,
+  "p95": 8.2803,
+  "max": 93.5277,
+  "stretch_ratio": 172.242,
+  "ok": false
+ },
+ {
+  "file": "_probe_uv_unwrap_LOD2.glb",
+  "tris": 1,
+  "median": 0.1518,
+  "p95": 0.1518,
+  "max": 0.1518,
+  "stretch_ratio": 1.0,
+  "ok": true
+ },
+ {
+  "file": "_probe_uv_v2_a90.glb",
+  "tris": 365,
+  "median": 0.7972,
+  "p95": 9.3084,
+  "max": 104.171,
+  "stretch_ratio": 130.677,
+  "ok": false
+ },
+ {
+  "file": "_probe_uv_v2_a60.glb",
+  "tris": 365,
+  "median": 0.8654,
+  "p95": 10.5977,
+  "max": 309.2882,
+  "stretch_ratio": 357.401,
+  "ok": false
+ },
+ {
+  "file": "CAIRN_staticLOD0_20261012.glb",
+  "tris": 1420,
+  "median": 1.5858,
+  "p95": 184.2818,
+  "max": 3189.2653,
+  "stretch_ratio": 2011.085,
+  "ok": false
+ }
+]

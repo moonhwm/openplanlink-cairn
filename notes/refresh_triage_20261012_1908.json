@@ -1,0 +1,98 @@
+{
+ "ts": "2026-10-12T19:07:37+0800",
+ "notify": "doc_update_20261012_1731.md",
+ "docs": [
+  {
+   "doc": "polish",
+   "a": "v_20261012_1811.md",
+   "b": "v_20261012_1907.md",
+   "real_change": false,
+   "norm_chars": [
+    239996,
+    239996
+   ],
+   "sections": [
+    124,
+    124
+   ],
+   "added": [],
+   "removed": [],
+   "changed": []
+  },
+  {
+   "doc": "outline",
+   "a": "v_20261012_1811.md",
+   "b": "v_20261012_1907.md",
+   "real_change": false,
+   "norm_chars": [
+    35082,
+    35082
+   ],
+   "sections": [
+    35,
+    35
+   ],
+   "added": [],
+   "removed": [],
+   "changed": []
+  },
+  {
+   "doc": "kd_lGgqkZ",
+   "a": "v_20261012_1701.md",
+   "b": "v_20261012_1731.md",
+   "real_change": false,
+   "norm_chars": [
+    9431,
+    9431
+   ],
+   "sections": [
+    13,
+    13
+   ],
+   "added": [],
+   "removed": [],
+   "changed": []
+  },
+  {
+   "doc": "kd_sbZsGm",
+   "a": "v_20261012_1725.md",
+   "b": "v_20261012_1727.md",
+   "real_change": false,
+   "norm_chars": [
+    895781,
+    895781
+   ],
+   "sections": [
+    137,
+    137
+   ],
+   "added": [],
+   "removed": [],
+   "changed": []
+  },
+  {
+   "doc": "kd_PoRdSw",
+   "a": "v_20261012_1725.md",
+   "b": "v_20261012_1727.md",
+   "real_change": false,
+   "norm_chars": [
+    239996,
+    239996
+   ],
+   "sections": [
+    124,
+    124
+   ],
+   "added": [],
+   "removed": [],
+   "changed": []
+  }
+ ],
+ "real_change_count": 0,
+ "verdict": "★全部为假变更（归一后节级差异皆 0）⇒ ★只台账一行，不出短件",
+ "criteria": {
+  "①能读到最新通知": true,
+  "②能取到该档 ≥2 版": true,
+  "③★裁决已给出（出件／不出件）": true
+ }
+}

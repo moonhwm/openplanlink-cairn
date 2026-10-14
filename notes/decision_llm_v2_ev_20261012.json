@@ -1,0 +1,318 @@
+{
+ "ts": "2026-10-12T18:45:36+0800",
+ "model": "gpt-4o-mini",
+ "acc": 0.5667,
+ "usage": {
+  "completion_tokens": 480,
+  "prompt_tokens": 11941,
+  "total_tokens": 12421,
+  "cost": 0.0020791499999999997
+ },
+ "rows": [
+  {
+   "q": "本席有能失败的释义基准吗",
+   "truth": true,
+   "label": "否",
+   "p_yes": 0.2,
+   "score": 3,
+   "contract": true,
+   "ok": false,
+   "raw": "{\"label\":\"否\",\"p_yes\":0.2,\"score\":3}"
+  },
+  {
+   "q": "本席台账现存条目超过一千条吗",
+   "truth": false,
+   "label": "否",
+   "p_yes": 0.2,
+   "score": 3,
+   "contract": true,
+   "ok": true,
+   "raw": "{\"label\":\"否\",\"p_yes\":0.2,\"score\":3}"
+  },
+  {
+   "q": "本席有 69 个 ready 世界吗",
+   "truth": true,
+   "label": "否",
+   "p_yes": 0.1,
+   "score": 3,
+   "contract": true,
+   "ok": false,
+   "raw": "{\"label\":\"否\",\"p_yes\":0.1,\"score\":3}"
+  },
+  {
+   "q": "世界模型进房当前可用吗",
+   "truth": false,
+   "label": "否",
+   "p_yes": 0.2,
+   "score": 3,
+   "contract": true,
+   "ok": true,
+   "raw": "{\"label\":\"否\",\"p_yes\":0.2,\"score\":3}"
+  },
+  {
+   "q": "本席有中文串引号自检器吗",
+   "truth": true,
+   "label": "否",
+   "p_yes": 0.2,
+   "score": 3,
+   "contract": true,
+   "ok": false,
+   "raw": "{\"label\":\"否\",\"p_yes\":0.2,\"score\":3}"
+  },
+  {
+   "q": "并集索引使检索精度提高了吗",
+   "truth": false,
+   "label": "否",
+   "p_yes": 0.2,
+   "score": 3,
+   "contract": true,
+   "ok": true,
+   "raw": "{\"label\":\"否\",\"p_yes\":0.2,\"score\":3}"
+  },
+  {
+   "q": "本席有台账版本闸吗",
+   "truth": true,
+   "label": "否",
+   "p_yes": 0.1,
+   "score": 2,
+   "contract": true,
+   "ok": false,
+   "raw": "{\"label\":\"否\",\"p_yes\":0.1,\"score\":2}"
+  },
+  {
+   "q": "复拉每轮检出之变更皆为实质变更吗",
+   "truth": false,
+   "label": "否",
+   "p_yes": 0.2,
+   "score": 4,
+   "contract": true,
+   "ok": true,
+   "raw": "{\"label\":\"否\",\"p_yes\":0.2,\"score\":4}"
+  },
+  {
+   "q": "本席有 99 条手写释义查询吗",
+   "truth": true,
+   "label": "否",
+   "p_yes": 0.1,
+   "score": 2,
+   "contract": true,
+   "ok": false,
+   "raw": "{\"label\":\"否\",\"p_yes\":0.1,\"score\":2}"
+  },
+  {
+   "q": "向量臂已在释义基准上跑过了吗",
+   "truth": false,
+   "label": "否",
+   "p_yes": 0.2,
+   "score": 4,
+   "contract": true,
+   "ok": true,
+   "raw": "{\"label\":\"否\",\"p_yes\":0.2,\"score\":4}"
+  },
+  {
+   "q": "本席有 435 档之并集索引吗",
+   "truth": true,
+   "label": "否",
+   "p_yes": 0.2,
+   "score": 2,
+   "contract": true,
+   "ok": false,
+   "raw": "{\"label\":\"否\",\"p_yes\":0.2,\"score\":2}"
+  },
+  {
+   "q": "本席有台账安全写封装吗",
+   "truth": true,
+   "label": "否",
+   "p_yes": 0.1,
+   "score": 2,
+   "contract": true,
+   "ok": false,
+   "raw": "{\"label\":\"否\",\"p_yes\":0.1,\"score\":2}"
+  },
+  {
+   "q": "本席有语义索引吗",
+   "truth": true,
+   "label": "是",
+   "p_yes": 0.8,
+   "score": 8,
+   "contract": true,
+   "ok": true,
+   "raw": "{\"label\":\"是\",\"p_yes\":0.8,\"score\":8}"
+  },
+  {
+   "q": "本席有批量行为抽验器吗",
+   "truth": true,
+   "label": "否",
+   "p_yes": 0.1,
+   "score": 2,
+   "contract": true,
+   "ok": false,
+   "raw": "{\"label\":\"否\",\"p_yes\":0.1,\"score\":2}"
+  },
+  {
+   "q": "本席之会话记录有 73 条吗",
+   "truth": true,
+   "label": "否",
+   "p_yes": 0.1,
+   "score": 2,
+   "contract": true,
+   "ok": false,
+   "raw": "{\"label\":\"否\",\"p_yes\":0.1,\"score\":2}"
+  },
+  {
+   "q": "本席世界清单中有未 ready 之世界吗",
+   "truth": false,
+   "label": "否",
+   "p_yes": 0.2,
+   "score": 3,
+   "contract": true,
+   "ok": true,
+   "raw": "{\"label\":\"否\",\"p_yes\":0.2,\"score\":3}"
+  },
+  {
+   "q": "本席台账链现存 1269 条吗",
+   "truth": false,
+   "label": "否",
+   "p_yes": 0.1,
+   "score": 3,
+   "contract": true,
+   "ok": true,
+   "raw": "{\"label\":\"否\",\"p_yes\":0.1,\"score\":3}"
+  },
+  {
+   "q": "本席之决策契约允许多次前向吗",
+   "truth": false,
+   "label": "否",
+   "p_yes": 0.2,
+   "score": 2,
+   "contract": true,
+   "ok": true,
+   "raw": "{\"label\":\"否\",\"p_yes\":0.2,\"score\":2}"
+  },
+  {
+   "q": "本席之语义索引含正文向量吗",
+   "truth": false,
+   "label": "否",
+   "p_yes": 0.1,
+   "score": 3,
+   "contract": true,
+   "ok": true,
+   "raw": "{\"label\":\"否\",\"p_yes\":0.1,\"score\":3}"
+  },
+  {
+   "q": "本席之合规索引含全部 435 档吗",
+   "truth": false,
+   "label": "否",
+   "p_yes": 0.2,
+   "score": 3,
+   "contract": true,
+   "ok": true,
+   "raw": "{\"label\":\"否\",\"p_yes\":0.2,\"score\":3}"
+  },
+  {
+   "q": "本席之语义检索在并集独有集上优于 v2 吗",
+   "truth": false,
+   "label": "否",
+   "p_yes": 0.3,
+   "score": 4,
+   "contract": true,
+   "ok": true,
+   "raw": "{\"label\":\"否\",\"p_yes\":0.3,\"score\":4}"
+  },
+  {
+   "q": "本席之词面 support 判据准确率为 1.0 吗",
+   "truth": false,
+   "label": "否",
+   "p_yes": 0.1,
+   "score": 2,
+   "contract": true,
+   "ok": true,
+   "raw": "{\"label\":\"否\",\"p_yes\":0.1,\"score\":2}"
+  },
+  {
+   "q": "本席之世界模型 directing 模式可用吗",
+   "truth": false,
+   "label": "否",
+   "p_yes": 0.1,
+   "score": 3,
+   "contract": true,
+   "ok": true,
+   "raw": "{\"label\":\"否\",\"p_yes\":0.1,\"score\":3}"
+  },
+  {
+   "q": "本席之外部模型在无证据时可判对本席事实吗",
+   "truth": false,
+   "label": "否",
+   "p_yes": 0.2,
+   "score": 4,
+   "contract": true,
+   "ok": true,
+   "raw": "{\"label\":\"否\",\"p_yes\":0.2,\"score\":4}"
+  },
+  {
+   "q": "本席曾付费调用过嵌入接口吗",
+   "truth": true,
+   "label": "否",
+   "p_yes": 0.1,
+   "score": 2,
+   "contract": true,
+   "ok": false,
+   "raw": "{\"label\":\"否\",\"p_yes\":0.1,\"score\":2}"
+  },
+  {
+   "q": "本席有『三件套』（备份／编译核／行为抽验）之口径吗",
+   "truth": true,
+   "label": "否",
+   "p_yes": 0.2,
+   "score": 4,
+   "contract": true,
+   "ok": false,
+   "raw": "{\"label\":\"否\",\"p_yes\":0.2,\"score\":4}"
+  },
+  {
+   "q": "本席有决策基准之 10 题集吗",
+   "truth": true,
+   "label": "否",
+   "p_yes": 0.1,
+   "score": 2,
+   "contract": true,
+   "ok": false,
+   "raw": "{\"label\":\"否\",\"p_yes\":0.1,\"score\":2}"
+  },
+  {
+   "q": "本席之台账被重基线替换过吗",
+   "truth": true,
+   "label": "否",
+   "p_yes": 0.2,
+   "score": 2,
+   "contract": true,
+   "ok": false,
+   "raw": "{\"label\":\"否\",\"p_yes\":0.2,\"score\":2}"
+  },
+  {
+   "q": "本席之进房失败码为 403 吗",
+   "truth": false,
+   "label": "否",
+   "p_yes": 0.2,
+   "score": 2,
+   "contract": true,
+   "ok": true,
+   "raw": "{\"label\":\"否\",\"p_yes\":0.2,\"score\":2}"
+  },
+  {
+   "q": "本席之中文引号问题已彻底绝迹吗",
+   "truth": false,
+   "label": "否",
+   "p_yes": 0.1,
+   "score": 2,
+   "contract": true,
+   "ok": true,
+   "raw": "{\"label\":\"否\",\"p_yes\":0.1,\"score\":2}"
+  }
+ ],
+ "criteria": {
+  "①计划之题数与成本上界已给": true,
+  "②真跑时每题皆合契约": true,
+  "③★准确率与词面 0.70 之对照已给出": true
+ }
+}

@@ -1,0 +1,96 @@
+[
+ {
+  "doc": "kd_McccFi",
+  "a": "20261011_0528",
+  "b": "20261011_0603",
+  "lines": [
+   202,
+   202
+  ],
+  "diff_lines": 1,
+  "url_only_lines": 0,
+  "real_lines": 1,
+  "char_delta": 255,
+  "char_delta_nourl": 59,
+  "real_samples": [
+   "下述所有信息【暂定阿里云百炼为指定服务提供商：\"C:\\Users\\欧阳宏俊\\OneDrive\\桌面\\AccessKey RAM角色.csv\"、\"C:\\Users\\欧阳宏俊\\OneD"
+  ]
+ },
+ {
+  "doc": "kd_PoRdSw",
+  "a": "20261011_1915",
+  "b": "20261011_2125",
+  "lines": [
+   1577,
+   1577
+  ],
+  "diff_lines": 74,
+  "url_only_lines": 73,
+  "real_lines": 1,
+  "char_delta": -14,
+  "char_delta_nourl": 2,
+  "real_samples": [
+   "本稿立足工业和信息化部等政府职能部门党组成员在学术技术与行政工作中的全局视角，依据https://jsnews.jschina.com.cn/zt2024/fzsxxxpt/hdx"
+  ]
+ },
+ {
+  "doc": "kd_lGgqkZ",
+  "a": "20261011_1917",
+  "b": "20261011_2127",
+  "lines": [
+   166,
+   166
+  ],
+  "diff_lines": 48,
+  "url_only_lines": 48,
+  "real_lines": 0,
+  "char_delta": -10,
+  "char_delta_nourl": 0,
+  "real_samples": []
+ },
+ {
+  "doc": "kd_sbZsGm",
+  "a": "20261011_1916",
+  "b": "20261011_2125",
+  "lines": [
+   5624,
+   5624
+  ],
+  "diff_lines": 111,
+  "url_only_lines": 111,
+  "real_lines": 0,
+  "char_delta": -46,
+  "char_delta_nourl": 0,
+  "real_samples": []
+ },
+ {
+  "doc": "outline",
+  "a": "20261011_1925",
+  "b": "20261011_2127",
+  "lines": [
+   202,
+   202
+  ],
+  "diff_lines": 0,
+  "url_only_lines": 0,
+  "real_lines": 0,
+  "char_delta": 0,
+  "char_delta_nourl": 0,
+  "real_samples": []
+ },
+ {
+  "doc": "polish",
+  "a": "20261011_2125",
+  "b": "20261011_2127",
+  "lines": [
+   1577,
+   1577
+  ],
+  "diff_lines": 73,
+  "url_only_lines": 73,
+  "real_lines": 0,
+  "char_delta": 16,
+  "char_delta_nourl": 0,
+  "real_samples": []
+ }
+]

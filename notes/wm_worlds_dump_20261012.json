@@ -1,0 +1,497 @@
+{
+ "ts": "2026-10-12T17:50:09+0800",
+ "pages": 1,
+ "total": 69,
+ "has_wid": true,
+ "ready_count": 69,
+ "rows": [
+  {
+   "id": "8rcpnKlw6xp3FtpLvZIGB9F-8TOusEBzG0Rm-_zbd3QTHbVvLbjuq1wsz-H2rjNP",
+   "tail": "H2rjNP",
+   "status": "ready",
+   "name": "方块虚空",
+   "created": "2026-10-12T05:10:37"
+  },
+  {
+   "id": "8rcpnKlw6xp3FtpLvZIGBys-FVzsXnG9BxSs9z7bqWsXkorbSgM1ksN8wLSJgYiM",
+   "tail": "FVzsXnG9BxSs",
+   "status": "ready",
+   "name": "幽灵嘉年华",
+   "created": "2026-10-12T04:41:02"
+  },
+  {
+   "id": "8rcpnKlw6xp3FtpLvZIGB9LkZMWa2nh8t8UV1MUxqKoeXZFiVk889HrvHtCxWWeB",
+   "tail": "8rcpnKlw6xp3",
+   "status": "ready",
+   "name": "夜梦狂欢",
+   "created": "2026-10-12T04:40:41"
+  },
+  {
+   "id": "8rcpnKlw6xp3FtpLvZIGB1lgLzItVRKqDJbuIvvVMXYeXZFiVk889HrvHtCxWWeB",
+   "tail": "8rcpnKlw6xp3",
+   "status": "ready",
+   "name": "守藏档案库",
+   "created": "2026-10-12T04:17:11"
+  },
+  {
+   "id": "8rcpnKlw6xp3FtpLvZIGB0G5gEekLc2xgt4Xh4Y6Gfcaq9tS39yZ8Z0EybgApjCt",
+   "tail": "8rcpnKlw6xp3",
+   "status": "ready",
+   "name": "夜之游戏",
+   "created": "2026-10-11T15:10:04"
+  },
+  {
+   "id": "8rcpnKlw6xp3FtpLvZIGBzSdwcEjxlGyCfFkjbmkMaheqOyT9u3X8l8U0OC_WASH",
+   "tail": "8rcpnKlw6xp3",
+   "status": "ready",
+   "name": "幻影之门",
+   "created": "2026-10-11T13:50:17"
+  },
+  {
+   "id": "8rcpnKlw6xp3FtpLvZIGB7XZQJdaNGsHijl3AJSQrFsXkorbSgM1ksN8wLSJgYiM",
+   "tail": "8rcpnKlw6xp3",
+   "status": "ready",
+   "name": "霓虹圣所",
+   "created": "2026-10-11T13:23:26"
+  },
+  {
+   "id": "8rcpnKlw6xp3FtpLvZIGBy3oN4IcyLoy8rPpkoW3ELATHbVvLbjuq1wsz-H2rjNP",
+   "tail": "H2rjNP",
+   "status": "ready",
+   "name": "霜夜账本",
+   "created": "2026-10-11T12:38:55"
+  },
+  {
+   "id": "8rcpnKlw6xp3FtpLvZIGB7XZQJdaNGsHijl3AJSQrFseXZFiVk889HrvHtCxWWeB",
+   "tail": "8rcpnKlw6xp3",
+   "status": "ready",
+   "name": "霜门",
+   "created": "2026-10-11T12:36:12"
+  },
+  {
+   "id": "8rcpnKlw6xp3FtpLvZIGB0ms1l8v-GwJql2kbrbOCM8XkorbSgM1ksN8wLSJgYiM",
+   "tail": "GwJql2kbrbOC",
+   "status": "ready",
+   "name": "霜印闸门",
+   "created": "2026-10-11T12:36:11"
+  },
+  {
+   "id": "8rcpnKlw6xp3FtpLvZIGB0G5gEekLc2xgt4Xh4Y6GfcXkorbSgM1ksN8wLSJgYiM",
+   "tail": "8rcpnKlw6xp3",
+   "status": "ready",
+   "name": "霜白账本",
+   "created": "2026-10-11T12:36:09"
+  },
+  {
+   "id": "8rcpnKlw6xp3FtpLvZIGB1lgLzItVRKqDJbuIvvVMXbvYWx9jdVEIlPMdelwsS6b",
+   "tail": "8rcpnKlw6xp3",
+   "status": "ready",
+   "name": "霜印闸门",
+   "created": "2026-10-11T12:36:07"
+  },
+  {
+   "id": "8rcpnKlw6xp3FtpLvZIGB0G5gEekLc2xgt4Xh4Y6GfceXZFiVk889HrvHtCxWWeB",
+   "tail": "8rcpnKlw6xp3",
+   "status": "ready",
+   "name": "夜间游乐场",
+   "created": "2026-10-11T10:07:03"
+  },
+  {
+   "id": "8rcpnKlw6xp3FtpLvZIGBy3oN4IcyLoy8rPpkoW3ELB6D3P-seuRuOYCQOXlULsD",
+   "tail": "seuRuOYCQOXl",
+   "status": "ready",
+   "name": "霓虹门",
+   "created": "2026-10-11T09:58:07"
+  },
+  {
+   "id": "8rcpnKlw6xp3FtpLvZIGB0G5gEekLc2xgt4Xh4Y6GfeiVYSzffKWTwjCSvR7Fhof",
+   "tail": "8rcpnKlw6xp3",
+   "status": "ready",
+   "name": "霓虹之门",
+   "created": "2026-10-11T09:56:18"
+  },
+  {
+   "id": "8rcpnKlw6xp3FtpLvZIGB011t_HXGpRu1zqcK3JkQh5eqOyT9u3X8l8U0OC_WASH",
+   "tail": "8rcpnKlw6xp3",
+   "status": "ready",
+   "name": "霓虹之门",
+   "created": "2026-10-11T09:47:10"
+  },
+  {
+   "id": "8rcpnKlw6xp3FtpLvZIGBys-FVzsXnG9BxSs9z7bqWtfNs2BU7TeGEDpaTrloI7x",
+   "tail": "FVzsXnG9BxSs",
+   "status": "ready",
+   "name": "夜门",
+   "created": "2026-10-11T08:45:25"
+  },
+  {
+   "id": "8rcpnKlw6xp3FtpLvZIGB0ms1l8v-GwJql2kbrbOCM-iVYSzffKWTwjCSvR7Fhof",
+   "tail": "iVYSzffKWTwj",
+   "status": "ready",
+   "name": "霓虹门",
+   "created": "2026-10-11T08:43:21"
+  },
+  {
+   "id": "8rcpnKlw6xp3FtpLvZIGBwl1VFkJSDbHF40H4WjB4vSiVYSzffKWTwjCSvR7Fhof",
+   "tail": "8rcpnKlw6xp3",
+   "status": "ready",
+   "name": "霓虹门",
+   "created": "2026-10-11T08:41:29"
+  },
+  {
+   "id": "8rcpnKlw6xp3FtpLvZIGB0ms1l8v-GwJql2kbrbOCM_vYWx9jdVEIlPMdelwsS6b",
+   "tail": "GwJql2kbrbOC",
+   "status": "ready",
+   "name": "霓虹门",
+   "created": "2026-10-11T08:39:39"
+  },
+  {
+   "id": "8rcpnKlw6xp3FtpLvZIGBwl1VFkJSDbHF40H4WjB4vTvYWx9jdVEIlPMdelwsS6b",
+   "tail": "8rcpnKlw6xp3",
+   "status": "ready",
+   "name": "夜门",
+   "created": "2026-10-11T08:36:10"
+  },
+  {
+   "id": "8rcpnKlw6xp3FtpLvZIGB011t_HXGpRu1zqcK3JkQh4aq9tS39yZ8Z0EybgApjCt",
+   "tail": "8rcpnKlw6xp3",
+   "status": "ready",
+   "name": "黑曜石碑",
+   "created": "2026-10-11T08:21:07"
+  },
+  {
+   "id": "8rcpnKlw6xp3FtpLvZIGB7XZQJdaNGsHijl3AJSQrFvvYWx9jdVEIlPMdelwsS6b",
+   "tail": "8rcpnKlw6xp3",
+   "status": "ready",
+   "name": "午夜之门",
+   "created": "2026-10-11T08:19:00"
+  },
+  {
+   "id": "8rcpnKlw6xp3FtpLvZIGBys-FVzsXnG9BxSs9z7bqWt6D3P-seuRuOYCQOXlULsD",
+   "tail": "seuRuOYCQOXl",
+   "status": "ready",
+   "name": "雨夜环阵",
+   "created": "2026-10-11T08:15:24"
+  },
+  {
+   "id": "8rcpnKlw6xp3FtpLvZIGB7XZQJdaNGsHijl3AJSQrFs7uUb8fS_MDUHY-F14PDMt",
+   "tail": "F14PDMt",
+   "status": "ready",
+   "name": "霓虹传送门",
+   "created": "2026-10-11T08:13:11"
+  },
+  {
+   "id": "8rcpnKlw6xp3FtpLvZIGB7XZQJdaNGsHijl3AJSQrFtfNs2BU7TeGEDpaTrloI7x",
+   "tail": "8rcpnKlw6xp3",
+   "status": "ready",
+   "name": "霓虹之门",
+   "created": "2026-10-11T07:54:02"
+  },
+  {
+   "id": "8rcpnKlw6xp3FtpLvZIGBzSdwcEjxlGyCfFkjbmkMagaq9tS39yZ8Z0EybgApjCt",
+   "tail": "8rcpnKlw6xp3",
+   "status": "ready",
+   "name": "霓虹虚空",
+   "created": "2026-10-11T07:45:44"
+  },
+  {
+   "id": "8rcpnKlw6xp3FtpLvZIGBwCb4YouKTAHRq7XLwR1aQTvYWx9jdVEIlPMdelwsS6b",
+   "tail": "8rcpnKlw6xp3",
+   "status": "ready",
+   "name": "霓虹传送门",
+   "created": "2026-10-11T07:43:06"
+  },
+  {
+   "id": "8rcpnKlw6xp3FtpLvZIGBzSdwcEjxlGyCfFkjbmkMagXkorbSgM1ksN8wLSJgYiM",
+   "tail": "8rcpnKlw6xp3",
+   "status": "ready",
+   "name": "霓虹之门",
+   "created": "2026-10-11T07:41:46"
+  },
+  {
+   "id": "8rcpnKlw6xp3FtpLvZIGB0ms1l8v-GwJql2kbrbOCM87uUb8fS_MDUHY-F14PDMt",
+   "tail": "F14PDMt",
+   "status": "ready",
+   "name": "霓虹传送门",
+   "created": "2026-10-11T07:40:23"
+  },
+  {
+   "id": "8rcpnKlw6xp3FtpLvZIGBwCb4YouKTAHRq7XLwR1aQQ7uUb8fS_MDUHY-F14PDMt",
+   "tail": "F14PDMt",
+   "status": "ready",
+   "name": "霓虹之门",
+   "created": "2026-10-11T07:36:20"
+  },
+  {
+   "id": "8rcpnKlw6xp3FtpLvZIGBwl1VFkJSDbHF40H4WjB4vQ7uUb8fS_MDUHY-F14PDMt",
+   "tail": "F14PDMt",
+   "status": "ready",
+   "name": "霓虹虚空",
+   "created": "2026-10-11T07:31:40"
+  },
+  {
+   "id": "8rcpnKlw6xp3FtpLvZIGB7XZQJdaNGsHijl3AJSQrFsTHbVvLbjuq1wsz-H2rjNP",
+   "tail": "H2rjNP",
+   "status": "ready",
+   "name": "夜环",
+   "created": "2026-10-11T07:30:17"
+  },
+  {
+   "id": "8rcpnKlw6xp3FtpLvZIGBx0yC40aHTzxenuXs4K8QzFeqOyT9u3X8l8U0OC_WASH",
+   "tail": "8rcpnKlw6xp3",
+   "status": "ready",
+   "name": "夜场门前",
+   "created": "2026-10-11T07:25:34"
+  },
+  {
+   "id": "8rcpnKlw6xp3FtpLvZIGBwCb4YouKTAHRq7XLwR1aQRfNs2BU7TeGEDpaTrloI7x",
+   "tail": "8rcpnKlw6xp3",
+   "status": "ready",
+   "name": "夜场七点成环",
+   "created": "2026-10-11T07:24:15"
+  },
+  {
+   "id": "8rcpnKlw6xp3FtpLvZIGB0ms1l8v-GwJql2kbrbOCM9fNs2BU7TeGEDpaTrloI7x",
+   "tail": "GwJql2kbrbOC",
+   "status": "ready",
+   "name": "夜场门前",
+   "created": "2026-10-11T07:23:40"
+  },
+  {
+   "id": "8rcpnKlw6xp3FtpLvZIGB0ms1l8v-GwJql2kbrbOCM8THbVvLbjuq1wsz-H2rjNP",
+   "tail": "H2rjNP",
+   "status": "ready",
+   "name": "午夜之门",
+   "created": "2026-10-11T07:23:17"
+  },
+  {
+   "id": "8rcpnKlw6xp3FtpLvZIGB0ms1l8v-GwJql2kbrbOCM96D3P-seuRuOYCQOXlULsD",
+   "tail": "seuRuOYCQOXl",
+   "status": "ready",
+   "name": "夜场七环",
+   "created": "2026-10-11T07:22:09"
+  },
+  {
+   "id": "8rcpnKlw6xp3FtpLvZIGBxmGmilOUzJtpZvfplnvJf5eqOyT9u3X8l8U0OC_WASH",
+   "tail": "8rcpnKlw6xp3",
+   "status": "ready",
+   "name": "霓虹碑",
+   "created": "2026-10-11T07:09:10"
+  },
+  {
+   "id": "8rcpnKlw6xp3FtpLvZIGB011t_HXGpRu1zqcK3JkQh4XkorbSgM1ksN8wLSJgYiM",
+   "tail": "8rcpnKlw6xp3",
+   "status": "ready",
+   "name": "霜证",
+   "created": "2026-10-11T03:16:27"
+  },
+  {
+   "id": "8rcpnKlw6xp3FtpLvZIGBx0yC40aHTzxenuXs4K8QzEaq9tS39yZ8Z0EybgApjCt",
+   "tail": "8rcpnKlw6xp3",
+   "status": "ready",
+   "name": "霓虹之门",
+   "created": "2026-10-11T02:00:02"
+  },
+  {
+   "id": "8rcpnKlw6xp3FtpLvZIGBwCb4YouKTAHRq7XLwR1aQQTHbVvLbjuq1wsz-H2rjNP",
+   "tail": "H2rjNP",
+   "status": "ready",
+   "name": "夜间游乐场",
+   "created": "2026-10-11T01:58:51"
+  },
+  {
+   "id": "8rcpnKlw6xp3FtpLvZIGBxmGmilOUzJtpZvfplnvJf4aq9tS39yZ8Z0EybgApjCt",
+   "tail": "8rcpnKlw6xp3",
+   "status": "ready",
+   "name": "午夜传送门",
+   "created": "2026-10-11T01:55:32"
+  },
+  {
+   "id": "8rcpnKlw6xp3FtpLvZIGB0G5gEekLc2xgt4Xh4Y6GffvYWx9jdVEIlPMdelwsS6b",
+   "tail": "8rcpnKlw6xp3",
+   "status": "ready",
+   "name": "夜环门",
+   "created": "2026-10-11T00:57:04"
+  },
+  {
+   "id": "8rcpnKlw6xp3FtpLvZIGB1lgLzItVRKqDJbuIvvVMXY7uUb8fS_MDUHY-F14PDMt",
+   "tail": "F14PDMt",
+   "status": "ready",
+   "name": "夜间之门",
+   "created": "2026-10-11T00:57:02"
+  },
+  {
+   "id": "8rcpnKlw6xp3FtpLvZIGBxmGmilOUzJtpZvfplnvJf4XkorbSgM1ksN8wLSJgYiM",
+   "tail": "8rcpnKlw6xp3",
+   "status": "ready",
+   "name": "夜光环",
+   "created": "2026-10-10T19:12:38"
+  },
+  {
+   "id": "8rcpnKlw6xp3FtpLvZIGB9mlTipFohD7syfWSOD-bt4aq9tS39yZ8Z0EybgApjCt",
+   "tail": "bt4aq9tS39yZ",
+   "status": "ready",
+   "name": "赤色荒漠",
+   "created": "2026-10-09T00:10:58"
+  },
+  {
+   "id": "8rcpnKlw6xp3FtpLvZIGBzay7UPsbkqgCig4-jfNwNyiVYSzffKWTwjCSvR7Fhof",
+   "tail": "jfNwNyiVYSzf",
+   "status": "ready",
+   "name": "数据虚空",
+   "created": "2026-10-09T00:07:47"
+  },
+  {
+   "id": "8rcpnKlw6xp3FtpLvZIGB7qZ59Y34sS89nNr3vAORr1fNs2BU7TeGEDpaTrloI7x",
+   "tail": "8rcpnKlw6xp3",
+   "status": "ready",
+   "name": "雪封圣所",
+   "created": "2026-10-09T00:06:16"
+  },
+  {
+   "id": "8rcpnKlw6xp3FtpLvZIGB9mlTipFohD7syfWSOD-bt4XkorbSgM1ksN8wLSJgYiM",
+   "tail": "bt4XkorbSgM1",
+   "status": "ready",
+   "name": "数据圣所",
+   "created": "2026-10-09T00:04:44"
+  },
+  {
+   "id": "8rcpnKlw6xp3FtpLvZIGB-sdIRqsVf4bn3Nd5ZSGwjvvYWx9jdVEIlPMdelwsS6b",
+   "tail": "sdIRqsVf4bn3",
+   "status": "ready",
+   "name": "转动台账",
+   "created": "2026-10-08T23:34:13"
+  },
+  {
+   "id": "8rcpnKlw6xp3FtpLvZIGB-OadKn2mTgs0t-SaRHqBTA7uUb8fS_MDUHY-F14PDMt",
+   "tail": "F14PDMt",
+   "status": "ready",
+   "name": "极简检验室",
+   "created": "2026-10-08T23:15:38"
+  },
+  {
+   "id": "8rcpnKlw6xp3FtpLvZIGB-sdIRqsVf4bn3Nd5ZSGwjs7uUb8fS_MDUHY-F14PDMt",
+   "tail": "F14PDMt",
+   "status": "ready",
+   "name": "霓虹镜片",
+   "created": "2026-10-08T22:57:48"
+  },
+  {
+   "id": "8rcpnKlw6xp3FtpLvZIGB4WA6GHvx3HvxzeAlp4WCuk7uUb8fS_MDUHY-F14PDMt",
+   "tail": "F14PDMt",
+   "status": "ready",
+   "name": "数据塔",
+   "created": "2026-10-08T22:57:32"
+  },
+  {
+   "id": "8rcpnKlw6xp3FtpLvZIGB4WA6GHvx3HvxzeAlp4WCulfNs2BU7TeGEDpaTrloI7x",
+   "tail": "8rcpnKlw6xp3",
+   "status": "ready",
+   "name": "霓虹网格",
+   "created": "2026-10-08T22:57:15"
+  },
+  {
+   "id": "8rcpnKlw6xp3FtpLvZIGB9mlTipFohD7syfWSOD-bt4eXZFiVk889HrvHtCxWWeB",
+   "tail": "bt4eXZFiVk88",
+   "status": "ready",
+   "name": "本席台账几何",
+   "created": "2026-10-08T22:34:34"
+  },
+  {
+   "id": "8rcpnKlw6xp3FtpLvZIGB9mlTipFohD7syfWSOD-bt6iVYSzffKWTwjCSvR7Fhof",
+   "tail": "bt6iVYSzffKW",
+   "status": "ready",
+   "name": "台账几何",
+   "created": "2026-10-08T22:24:36"
+  },
+  {
+   "id": "8rcpnKlw6xp3FtpLvZIGBzay7UPsbkqgCig4-jfNwNzvYWx9jdVEIlPMdelwsS6b",
+   "tail": "jfNwNzvYWx9j",
+   "status": "ready",
+   "name": "预算墙探针",
+   "created": "2026-10-08T22:18:31"
+  },
+  {
+   "id": "8rcpnKlw6xp3FtpLvZIGBxuiXAtUB_wgTvR0UFWVA-Y7uUb8fS_MDUHY-F14PDMt",
+   "tail": "F14PDMt",
+   "status": "ready",
+   "name": "共享面",
+   "created": "2026-10-08T22:01:32"
+  },
+  {
+   "id": "8rcpnKlw6xp3FtpLvZIGB9mlTipFohD7syfWSOD-bt7vYWx9jdVEIlPMdelwsS6b",
+   "tail": "bt7vYWx9jdVE",
+   "status": "ready",
+   "name": "数据虚空",
+   "created": "2026-10-08T21:38:55"
+  },
+  {
+   "id": "8rcpnKlw6xp3FtpLvZIGB_wg3Z1hMjTLvrUso3I2oXnvYWx9jdVEIlPMdelwsS6b",
+   "tail": "8rcpnKlw6xp3",
+   "status": "ready",
+   "name": "无门窗居所",
+   "created": "2026-10-08T21:36:40"
+  },
+  {
+   "id": "8rcpnKlw6xp3FtpLvZIGBzay7UPsbkqgCig4-jfNwNw7uUb8fS_MDUHY-F14PDMt",
+   "tail": "F14PDMt",
+   "status": "ready",
+   "name": "Moonlit Plaza",
+   "created": "2026-10-08T21:33:37"
+  },
+  {
+   "id": "8rcpnKlw6xp3FtpLvZIGBzay7UPsbkqgCig4-jfNwNxfNs2BU7TeGEDpaTrloI7x",
+   "tail": "jfNwNxfNs2BU",
+   "status": "ready",
+   "name": "墨档契约",
+   "created": "2026-10-08T21:31:30"
+  },
+  {
+   "id": "8rcpnKlw6xp3FtpLvZIGB3qBaKNoYO5K4KdKKOvya887uUb8fS_MDUHY-F14PDMt",
+   "tail": "F14PDMt",
+   "status": "ready",
+   "name": "数据虚空",
+   "created": "2026-10-08T21:27:28"
+  },
+  {
+   "id": "8rcpnKlw6xp3FtpLvZIGB-sdIRqsVf4bn3Nd5ZSGwjtfNs2BU7TeGEDpaTrloI7x",
+   "tail": "sdIRqsVf4bn3",
+   "status": "ready",
+   "name": "器物约束",
+   "created": "2026-10-08T21:19:35"
+  },
+  {
+   "id": "8rcpnKlw6xp3FtpLvZIGB9mlTipFohD7syfWSOD-bt47uUb8fS_MDUHY-F14PDMt",
+   "tail": "F14PDMt",
+   "status": "ready",
+   "name": "数据圣所",
+   "created": "2026-10-08T21:11:30"
+  },
+  {
+   "id": "8rcpnKlw6xp3FtpLvZIGB9mlTipFohD7syfWSOD-bt5fNs2BU7TeGEDpaTrloI7x",
+   "tail": "bt5fNs2BU7Te",
+   "status": "ready",
+   "name": "霓虹数据游乐场",
+   "created": "2026-10-08T20:41:32"
+  },
+  {
+   "id": "8rcpnKlw6xp3FtpLvZIGB3qBaKNoYO5K4KdKKOvya89fNs2BU7TeGEDpaTrloI7x",
+   "tail": "8rcpnKlw6xp3",
+   "status": "ready",
+   "name": "夜间游乐场",
+   "created": "2026-10-08T20:32:37"
+  },
+  {
+   "id": "8rcpnKlw6xp3FtpLvZIGB_wg3Z1hMjTLvrUso3I2oXk7uUb8fS_MDUHY-F14PDMt",
+   "tail": "F14PDMt",
+   "status": "ready",
+   "name": "Geometric Void",
+   "created": "2026-10-08T19:35:33"
+  }
+ ],
+ "criteria": {
+  "①至少取到 1 页": true,
+  "②能给出世界总数": true,
+  "③★取票之 WID 是否在清单中已判": true
+ }
+}

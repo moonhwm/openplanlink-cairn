@@ -1,0 +1,21 @@
+{
+ "kind": "multimodal-pilot",
+ "seat": "a2a-node-local",
+ "results": {
+  "tts": {
+   "model": "qwen3-tts-instruct-flash",
+   "audio_url_present": true
+  },
+  "omni": {
+   "model": "qwen3.5-omni-flash",
+   "reply": "[{'text': '收到'}]"
+  }
+ },
+ "ts": "2026-10-08 17:26:18 +0800",
+ "fix_attempts": {
+  "image_wan2.7": "400 InvalidParameter",
+  "image_qwen-image-2.0-pro": "400 InvalidParameter",
+  "asr_file_urls": "400 InvalidParameter"
+ },
+ "verdict": "多模态试点：TTS✓(音频URL) omni-flash✓(收到)；文生图与ASR之参数形状须查控制台文档后复试（不再无界猜测）"
+}

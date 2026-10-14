@@ -1,0 +1,45 @@
+{
+ "ts": "2026-10-12T16:36:49+0800",
+ "mode": "dry-run",
+ "plan": {
+  "calls": 6,
+  "top_k": 6,
+  "out_tokens_upper": 48,
+  "in_tokens_upper": 396,
+  "cost_upper_cny": 0.00088,
+  "engine": "decision_model.py --kind yesno",
+  "score_source": "probs[「是」]"
+ },
+ "rows": [
+  {
+   "i": 0,
+   "passage_head": "﻿决策模型实测之复核_DF-OPS-20261012-CAIRN-98.otl",
+   "score": null
+  },
+  {
+   "i": 1,
+   "passage_head": "Jev调用形态之核实_DF-OPS-20261012-CAIRN-97.otl",
+   "score": null
+  },
+  {
+   "i": 2,
+   "passage_head": "Jev模型之核实_DF-OPS-20261012-CAIRN-96.otl",
+   "score": null
+  },
+  {
+   "i": 3,
+   "passage_head": "记忆系统工程读记二_DF-OPS-20261012-CAIRN-95.otl",
+   "score": null
+  },
+  {
+   "i": 4,
+   "passage_head": "Agent记忆系统选型勘定与四层架构歧义_DF-MEM-20261012-QODER-882FEC9C.otl",
+   "score": null
+  },
+  {
+   "i": 5,
+   "passage_head": "letta-code之读记_DF-OPS-20261012-CAIRN-94.otl",
+   "score": null
+  }
+ ]
+}

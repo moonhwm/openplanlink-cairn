@@ -1,0 +1,38 @@
+{
+ "ts": "2026-10-12T19:13:37+0800",
+ "wid_tail": "HtCxWWeB",
+ "instruct": "请让环心的人形分身向前走两步，然后举起右手。",
+ "steps": [
+  {
+   "step": "ticket",
+   "http": 200,
+   "code": 0,
+   "sec": 0.37,
+   "has_ticket": true
+  },
+  {
+   "step": "enter",
+   "http": 200,
+   "code": 0,
+   "sec": 3.95,
+   "has_travel": true
+  },
+  {
+   "step": "instruct",
+   "http": 200,
+   "code": 0,
+   "sec": 0.41
+  },
+  {
+   "step": "artifacts-1",
+   "http": 200,
+   "code": 0,
+   "compose": "partial",
+   "has_url": true
+  }
+ ],
+ "video": {
+  "file": "wm_min_instruct_20261012_1914.mp4",
+  "bytes": 1712854
+ }
+}

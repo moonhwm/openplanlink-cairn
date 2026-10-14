@@ -1,0 +1,120 @@
+{
+ "ts": "2026-10-12T18:10:02+0800",
+ "seat": "a2a-node-local",
+ "level": "A",
+ "items": {
+  "1_sig_dual_algo": {
+   "sampled": 3,
+   "detail": [
+    {
+     "file": "候裁清单v2_DF-OPS-20261012-CAIRN-102.otl",
+     "cut_found": true,
+     "sha3_512_root": "675fb305f6f06d338fe8ee0e6fc24d68…",
+     "sha256_12": "670ab7639fb1"
+    },
+    {
+     "file": "本夜总账_DF-OPS-20261012-CAIRN-101.otl",
+     "cut_found": true,
+     "sha3_512_root": "35ef2435b68e4c7d6a97a3b184e45fc4…",
+     "sha256_12": "49afe94b3efd"
+    },
+    {
+     "file": "文档复拉变更短件二_DF-OPS-20261012-CAIRN-100.otl",
+     "cut_found": true,
+     "sha3_512_root": "7968a489009259cd65b1fb4a08358d1a…",
+     "sha256_12": "b6d34b783b57"
+    }
+   ],
+   "verdict": "PASS"
+  },
+  "2_termgate": {
+   "rc": 0,
+   "verdict": "CLEAN",
+   "tail": "  VERDICT=CLEAN"
+  },
+  "3_bus_validate_scan": {
+   "validate": {
+    "bus.jsonl": {
+     "rc": 0,
+     "ok": true,
+     "tail": "  VERDICT=VALID"
+    }
+   },
+   "scan": [
+    {
+     "file": "bus.jsonl",
+     "rc": 1,
+     "hit_line": "文本文件已扫：1 ｜ 跳过：0 ｜ ★命中：2"
+    },
+    {
+     "file": "候裁清单v2_DF-OPS-20261012-CAIRN-102.otl",
+     "rc": 0,
+     "hit_line": "文本文件已扫：1 ｜ 跳过：0 ｜ ★命中：0"
+    },
+    {
+     "file": "本夜总账_DF-OPS-20261012-CAIRN-101.otl",
+     "rc": 1,
+     "hit_line": "文本文件已扫：1 ｜ 跳过：0 ｜ ★命中：1"
+    },
+    {
+     "file": "文档复拉变更短件二_DF-OPS-20261012-CAIRN-100.otl",
+     "rc": 0,
+     "hit_line": "文本文件已扫：1 ｜ 跳过：0 ｜ ★命中：0"
+    }
+   ],
+   "manual_review": {
+    "file": "bus.jsonl（seq=57 行）",
+    "hit": "entropy-blob（低置信）掩码 read_i***（len=35）",
+    "finding": "实为文件名 read_index_v3_DF-OPS-20261009-CAIRN.json（本席夜班件；存在，非悬空）",
+    "conclusion": "假阳性（非凭据）：低置信熵块系文件名高熵所致；工具自身亦分级为低置信、不单独定论"
+   },
+   "verdict": "PASS"
+  },
+  "4_sha3tree_reconcile": {
+   "exchange_n": 170,
+   "cairn_notes_n": 386,
+   "mirror_landing_n": 167,
+   "common_exchange_cairn": 155,
+   "mismatch": [],
+   "verdict": "PASS"
+  },
+  "5_three_face": {
+   "rc": 0,
+   "line": "★ 三面核验（18:11:09）：local=30f59b33 ｜ origin=30f59b33abcb[live(ls-remote)] ｜ gitcode=30f59b33abcb[live(ls-remote)]",
+   "verdict": "ALIGNED"
+  },
+  "6_ledger_verify": {
+   "rc": 0,
+   "lines": [
+    "条目数：1269",
+    "结论：PASS —— ★链内自洽（①每条 hash 与内容相符 ②prev 指针相连）"
+   ],
+   "verdict": "PASS"
+  },
+  "7_virtue_audit": {
+   "rc": 0,
+   "tail": "{\"audited_at\": \"2026-10-12 18:11:10 +08\", \"scope\": \"exp/*.py\", \"metric\": \"mentions-in-ledger+events(proxy)\", \"rows\": [{\"tool\": \"push_gate.py\", \"mentions\": 287, \"verdict\": \"在用\"}, {\"tool\": \"a2a_node.py\"",
+   "verdict": "PASS"
+  },
+  "8_r_mem": {
+   "rc": 0,
+   "line": "★ R_mem 检查（2026-10-12 18:11:12）：R_mem=2174.2（来源=CimInstance.FreePhysicalMemory） MB ｜ M_floor=1286.1 MB ｜ 0.8GB线=819.2 ｜ 0.5GB线=512.0",
+   "r_mem_mb": 2174.2,
+   "m_floor_mb": 1286.1,
+   "grade": "正常（未破线）",
+   "verdict": "OK"
+  },
+  "9_canonical_repo": {
+   "head": "a3f47c5",
+   "dirty_files": 0,
+   "remotes": [
+    "origin"
+   ],
+   "verdict": "PASS"
+  }
+ },
+ "summary": {
+  "pass_like": 9,
+  "total": 9
+ }
+}

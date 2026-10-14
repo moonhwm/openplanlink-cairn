@@ -1,0 +1,912 @@
+{
+ "total": 151,
+ "json_reads": 111,
+ "hits": [
+  {
+   "file": "ab_test_fixed.py",
+   "line": 70,
+   "json": true,
+   "code": "o = json.loads(out.read_text(encoding=\"utf-8\"))"
+  },
+  {
+   "file": "ab_test_fixed.py",
+   "line": 145,
+   "json": true,
+   "code": "oT2 = json.loads((labT / \"attest.json\").read_text(encoding=\"utf-8\"))"
+  },
+  {
+   "file": "ab_test_fixed.py",
+   "line": 153,
+   "json": true,
+   "code": "oF2 = json.loads((labF / \"attest.fixed.json\").read_text(encoding=\"utf-8\"))"
+  },
+  {
+   "file": "attest_lab_test.py",
+   "line": 72,
+   "json": true,
+   "code": "return json.loads((lab / \"attest.json\").read_text(encoding=\"utf-8\"))"
+  },
+  {
+   "file": "audit_argument_arc.py",
+   "line": 52,
+   "json": true,
+   "code": "rows = [json.loads(l) for l in LEDGER.read_text(encoding=\"utf-8\").splitlines() if l.strip()]"
+  },
+  {
+   "file": "audit_by_evtype.py",
+   "line": 48,
+   "json": true,
+   "code": "rows = [json.loads(l) for l in LEDGER.read_text(encoding=\"utf-8\").splitlines() if l.strip()]"
+  },
+  {
+   "file": "audit_declared_paths.py",
+   "line": 44,
+   "json": true,
+   "code": "d = json.loads(DECL.read_text(encoding=\"utf-8\"))"
+  },
+  {
+   "file": "audit_declared_still_diverges.py",
+   "line": 53,
+   "json": true,
+   "code": "d = json.loads(DECL.read_text(encoding=\"utf-8\"))"
+  },
+  {
+   "file": "audit_deferrals.py",
+   "line": 51,
+   "json": true,
+   "code": "rows = [json.loads(l) for l in LEDGER.read_text(encoding=\"utf-8\").splitlines() if l.strip()]"
+  },
+  {
+   "file": "audit_evidence_pack.py",
+   "line": 63,
+   "json": true,
+   "code": "diag = json.loads(diag_p.read_text(encoding=\"utf-8\"))"
+  },
+  {
+   "file": "audit_evidence_source.py",
+   "line": 68,
+   "json": true,
+   "code": "rows = [json.loads(l) for l in p.read_text(encoding=\"utf-8\").splitlines() if l.strip()]"
+  },
+  {
+   "file": "audit_skill_index.py",
+   "line": 51,
+   "json": true,
+   "code": "data = json.loads(idxf.read_text(encoding=\"utf-8\"))"
+  },
+  {
+   "file": "baseline_digest.py",
+   "line": 78,
+   "json": true,
+   "code": "prev = json.loads(pathlib.Path(a.prev).read_text(encoding=\"utf-8\"))"
+  },
+  {
+   "file": "blindspot_trials.py",
+   "line": 100,
+   "json": true,
+   "code": "d1 = json.loads(DECL.read_text(encoding=\"utf-8\"))"
+  },
+  {
+   "file": "blindspot_trials.py",
+   "line": 116,
+   "json": true,
+   "code": "d7 = json.loads(DECL.read_text(encoding=\"utf-8\"))"
+  },
+  {
+   "file": "blindspot_trials.py",
+   "line": 134,
+   "json": false,
+   "code": "tampered = CHK.read_text(encoding=\"utf-8\") + \"\\n# (T6：改器一行)\\n\""
+  },
+  {
+   "file": "blindspot_trials.py",
+   "line": 153,
+   "json": true,
+   "code": "d6 = json.loads(DECL.read_text(encoding=\"utf-8\"))"
+  },
+  {
+   "file": "burn_daemon.py",
+   "line": 40,
+   "json": false,
+   "code": "for line in envf.read_text(encoding=\"utf-8\").splitlines():"
+  },
+  {
+   "file": "capacity_alert.py",
+   "line": 44,
+   "json": true,
+   "code": "return json.loads(p.read_text(encoding=\"utf-8\"))"
+  },
+  {
+   "file": "check_citations.py",
+   "line": 57,
+   "json": false,
+   "code": "for i, line in enumerate(LEDGER.read_text(encoding=\"utf-8\").splitlines(), 1):"
+  },
+  {
+   "file": "cold_pack.py",
+   "line": 133,
+   "json": true,
+   "code": "man = json.loads(pathlib.Path(a.manifest).read_text(encoding=\"utf-8\"))"
+  },
+  {
+   "file": "collect_final.py",
+   "line": 22,
+   "json": true,
+   "code": "led = [json.loads(l) for l in LED.read_text(encoding=\"utf-8\").splitlines() if l.strip()]"
+  },
+  {
+   "file": "conf_calibration_audit.py",
+   "line": 64,
+   "json": true,
+   "code": "try: j = json.loads(p.read_text(encoding=\"utf-8\"))"
+  },
+  {
+   "file": "console_report.py",
+   "line": 129,
+   "json": true,
+   "code": "d = json.loads(pathlib.Path(files[-1]).read_text(encoding=\"utf-8\"))"
+  },
+  {
+   "file": "console_report.py",
+   "line": 150,
+   "json": true,
+   "code": "d = json.loads(pathlib.Path(files[-1]).read_text(encoding=\"utf-8\"))"
+  },
+  {
+   "file": "console_report.py",
+   "line": 162,
+   "json": true,
+   "code": "d = json.loads((SEAT / \"outbox\" / \"night_window.json\").read_text(encoding=\"utf-8\"))"
+  },
+  {
+   "file": "console_report.py",
+   "line": 175,
+   "json": true,
+   "code": "d = json.loads(pathlib.Path(files[-1]).read_text(encoding=\"utf-8\"))"
+  },
+  {
+   "file": "corpus_redundancy_audit.py",
+   "line": 12,
+   "json": true,
+   "code": "idx = json.loads((EX/\"cairn_index_20261009.json\").read_text(encoding=\"utf-8\"))"
+  },
+  {
+   "file": "daily_nine_audit.py",
+   "line": 92,
+   "json": true,
+   "code": "vt = json.dumps(json.loads(vp.read_text(encoding=\"utf-8\")), ensure_ascii=False)[:200]"
+  },
+  {
+   "file": "daily_nine_audit_20261010.py",
+   "line": 218,
+   "json": true,
+   "code": "if _igj.exists(): _idx_guard_json = json.loads(_igj.read_text(encoding=\"utf-8\"))"
+  },
+  {
+   "file": "daily_nine_audit_20261010.py",
+   "line": 251,
+   "json": true,
+   "code": "if _sf.exists(): _mcl_state = json.loads(_sf.read_text(encoding=\"utf-8\"))"
+  },
+  {
+   "file": "daily_nine_audit_20261010.py",
+   "line": 273,
+   "json": true,
+   "code": "try: _conf_cal = json.loads(_ccj.read_text(encoding=\"utf-8\"))"
+  },
+  {
+   "file": "daily_nine_audit_20261010.py",
+   "line": 347,
+   "json": true,
+   "code": "try: _four[\"virtue_audit\"] = json.loads(_vj.read_text(encoding=\"utf-8\"))"
+  },
+  {
+   "file": "daily_nine_audit_20261010.py",
+   "line": 367,
+   "json": true,
+   "code": "try: _four[\"rmem\"] = json.loads(_rj.read_text(encoding=\"utf-8\"))"
+  },
+  {
+   "file": "daily_nine_audit_20261010.py",
+   "line": 383,
+   "json": true,
+   "code": "_rows = [json.loads(l) for l in _REG.read_text(encoding=\"utf-8\").splitlines() if l.strip()]"
+  },
+  {
+   "file": "daily_nine_audit_20261010.py",
+   "line": 393,
+   "json": true,
+   "code": "try: _cp = pathlib.Path(json.loads(_ptr.read_text(encoding=\"utf-8\"))[\"index\"]).name; _csrc = \"po"
+  },
+  {
+   "file": "decision_recognition.py",
+   "line": 35,
+   "json": true,
+   "code": "out[i] = json.loads(p.read_text(encoding=\"utf-8\"))[\"v\"]"
+  },
+  {
+   "file": "decision_vector_rerank_v2.py",
+   "line": 35,
+   "json": true,
+   "code": "out[i] = json.loads(p.read_text(encoding=\"utf-8\"))[\"v\"]"
+  },
+  {
+   "file": "declare_net.py",
+   "line": 40,
+   "json": false,
+   "code": "t = p.read_text(encoding=\"utf-8\")"
+  },
+  {
+   "file": "desk_baseline.py",
+   "line": 143,
+   "json": true,
+   "code": "prev = json.loads(base_path.read_text(encoding=\"utf-8\"))"
+  },
+  {
+   "file": "desktop_archive.py",
+   "line": 93,
+   "json": false,
+   "code": "for line in man.read_text(encoding=\"utf-8\").splitlines():"
+  },
+  {
+   "file": "diag_seed.py",
+   "line": 25,
+   "json": false,
+   "code": "on_disk = SEED.read_text(encoding=\"utf-8\")"
+  },
+  {
+   "file": "doc_archive.py",
+   "line": 59,
+   "json": true,
+   "code": "return json.loads(path.read_text(encoding=\"utf-8\"))"
+  },
+  {
+   "file": "doc_archive_extend.py",
+   "line": 63,
+   "json": true,
+   "code": "ids = json.loads(QUEUE.read_text(encoding=\"utf-8\"))[\"ids\"]"
+  },
+  {
+   "file": "doc_archive_extend.py",
+   "line": 64,
+   "json": true,
+   "code": "manifest = json.loads(IDX.read_text(encoding=\"utf-8\")) if IDX.exists() else {}"
+  },
+  {
+   "file": "doc_refresh.py",
+   "line": 36,
+   "json": true,
+   "code": "manifest = json.loads(IDX.read_text(encoding=\"utf-8\")) if IDX.exists() else {}"
+  },
+  {
+   "file": "doc_refresh.py",
+   "line": 38,
+   "json": true,
+   "code": "known |= set(json.loads(QUEUE.read_text(encoding=\"utf-8\"))[\"ids\"]) if QUEUE.exists() else set()"
+  },
+  {
+   "file": "doc_refresh.py",
+   "line": 62,
+   "json": true,
+   "code": "q = json.loads(QUEUE.read_text(encoding=\"utf-8\")) if QUEUE.exists() else {\"ids\": []}"
+  },
+  {
+   "file": "doc_refresh.py",
+   "line": 150,
+   "json": true,
+   "code": "try: old = json.loads((ARCH/key/(\"sections_%s.json\" % prev[\"ver\"])).read_text(encoding=\"utf-8\"))"
+  },
+  {
+   "file": "edit_declaration.py",
+   "line": 65,
+   "json": true,
+   "code": "return json.loads(p.read_text(encoding=\"utf-8\"))"
+  },
+  {
+   "file": "edit_declaration.py",
+   "line": 273,
+   "json": true,
+   "code": "val = json.loads(src.read_text(encoding=\"utf-8\"))"
+  },
+  {
+   "file": "edit_declaration.py",
+   "line": 286,
+   "json": true,
+   "code": "obj = json.loads(src.read_text(encoding=\"utf-8\"))"
+  },
+  {
+   "file": "emb_cache.py",
+   "line": 33,
+   "json": true,
+   "code": "j = json.loads(p.read_text(encoding=\"utf-8\"))"
+  },
+  {
+   "file": "emb_cache.py",
+   "line": 65,
+   "json": true,
+   "code": "j = json.loads(f.read_text(encoding=\"utf-8\"))"
+  },
+  {
+   "file": "emit_arc_index.py",
+   "line": 84,
+   "json": true,
+   "code": "rows = [json.loads(l) for l in LEDGER.read_text(encoding=\"utf-8\").splitlines() if l.strip()]"
+  },
+  {
+   "file": "emit_closing_block.py",
+   "line": 91,
+   "json": true,
+   "code": "cd = json.loads(DECL.read_text(encoding=\"utf-8\")).get("
+  },
+  {
+   "file": "emit_closing_block.py",
+   "line": 157,
+   "json": false,
+   "code": "cur = p.read_text(encoding=\"utf-8\")"
+  },
+  {
+   "file": "emit_lockpin.py",
+   "line": 42,
+   "json": false,
+   "code": "for line in LEDGER.read_text(encoding=\"utf-8\").splitlines():"
+  },
+  {
+   "file": "emit_lockpin.py",
+   "line": 86,
+   "json": false,
+   "code": "back = OUT.read_text(encoding=\"utf-8\")"
+  },
+  {
+   "file": "emit_status_js.py",
+   "line": 43,
+   "json": true,
+   "code": "st = json.loads((SEAT / \"outbox\" / \"state_cairn-dsh.json\").read_text(encoding=\"utf-8\"))"
+  },
+  {
+   "file": "emit_status_js.py",
+   "line": 44,
+   "json": true,
+   "code": "hist = [l for l in (SEAT / \"outbox\" / \"state_history.jsonl\").read_text(encoding=\"utf-8\").splitli"
+  },
+  {
+   "file": "emit_status_js.py",
+   "line": 45,
+   "json": true,
+   "code": "led = [json.loads(l) for l in (SEAT / \"ledger\" / \"frontier_ledger.jsonl\").read_text(encoding=\"ut"
+  },
+  {
+   "file": "emit_status_js.py",
+   "line": 103,
+   "json": true,
+   "code": "ts = a.ts or json.loads((SEAT / \"outbox\" / \"state_cairn-dsh.json\").read_text(encoding=\"utf-8\"))."
+  },
+  {
+   "file": "exp4_fetch_videos.py",
+   "line": 17,
+   "json": true,
+   "code": "R = json.loads((EX/\"exp4_nonce_perturbation_20261011.json\").read_text(encoding=\"utf-8\"))"
+  },
+  {
+   "file": "falsify_kit_check.py",
+   "line": 56,
+   "json": false,
+   "code": "src = orig.read_text(encoding=\"utf-8\")"
+  },
+  {
+   "file": "fix_observe_v21.py",
+   "line": 57,
+   "json": false,
+   "code": "t = p.read_text(encoding=\"utf-8\")"
+  },
+  {
+   "file": "fix_stale_paths.py",
+   "line": 42,
+   "json": false,
+   "code": "text = p.read_text(encoding=\"utf-8\")"
+  },
+  {
+   "file": "fix_stale_paths_recover.py",
+   "line": 29,
+   "json": false,
+   "code": "t = p.read_text(encoding=\"utf-8\")"
+  },
+  {
+   "file": "gen_status_feed.py",
+   "line": 124,
+   "json": false,
+   "code": "tpl = tpl_path.read_text(encoding=\"utf-8\")"
+  },
+  {
+   "file": "ignition_gate.py",
+   "line": 70,
+   "json": false,
+   "code": "for i, line in enumerate(LEDGER.read_text(encoding=\"utf-8\").splitlines(), 1):"
+  },
+  {
+   "file": "ignition_gate.py",
+   "line": 118,
+   "json": true,
+   "code": "spec = json.loads(p.read_text(encoding=\"utf-8\"))"
+  },
+  {
+   "file": "ignition_gate.py",
+   "line": 185,
+   "json": true,
+   "code": "spec = json.loads(p.read_text(encoding=\"utf-8\"))"
+  },
+  {
+   "file": "index_guard.py",
+   "line": 27,
+   "json": true,
+   "code": "_d = json.loads((SEAT/\"exp\"/\".cache\"/\"index_pointer.json\").read_text(encoding=\"utf-8\"))"
+  },
+  {
+   "file": "index_guard.py",
+   "line": 37,
+   "json": true,
+   "code": "j = json.loads(idx.read_text(encoding=\"utf-8\"))"
+  },
+  {
+   "file": "index_guard.py",
+   "line": 77,
+   "json": true,
+   "code": "jj = _json.loads(p.read_text(encoding=\"utf-8\"))"
+  },
+  {
+   "file": "index_guard.py",
+   "line": 100,
+   "json": true,
+   "code": "_j = _json.loads(pathlib.Path(a.json).read_text(encoding=\"utf-8\")) if pathlib.Path(a.json).exist"
+  },
+  {
+   "file": "index_guard.py",
+   "line": 110,
+   "json": true,
+   "code": "try: last = float(_json.loads(st.read_text(encoding=\"utf-8\")).get(\"last_ts\", 0))"
+  },
+  {
+   "file": "index_guard.py",
+   "line": 146,
+   "json": true,
+   "code": "_j = _json.loads(_p.read_text(encoding=\"utf-8\")) if _p.exists() else {}"
+  },
+  {
+   "file": "index_registry.py",
+   "line": 27,
+   "json": true,
+   "code": "j = json.loads(p.read_text(encoding=\"utf-8\"))"
+  },
+  {
+   "file": "index_switch.py",
+   "line": 22,
+   "json": true,
+   "code": "j = json.loads(p.read_text(encoding=\"utf-8\"))"
+  },
+  {
+   "file": "index_switch.py",
+   "line": 42,
+   "json": true,
+   "code": "return pathlib.Path(json.loads(PTR.read_text(encoding=\"utf-8\"))[\"index\"]), \"pointer\""
+  },
+  {
+   "file": "index_switch.py",
+   "line": 95,
+   "json": true,
+   "code": "(CACHE/\"index_pointer_prev.json\").write_text(PTR.read_text(encoding=\"utf-8\"), encoding=\"utf-8\", "
+  },
+  {
+   "file": "index_switch.py",
+   "line": 107,
+   "json": false,
+   "code": "PTR.read_text(encoding=\"utf-8\"), encoding=\"utf-8\", newline=\"\\n\")"
+  },
+  {
+   "file": "instruct_recheck.py",
+   "line": 35,
+   "json": true,
+   "code": "try: TID = json.loads(p.read_text(encoding=\"utf-8\")).get(\"travelId\")"
+  },
+  {
+   "file": "intake_20260929.py",
+   "line": 237,
+   "json": false,
+   "code": "src_hits = scan_hits(path.read_text(encoding=\"utf-8\"), label)"
+  },
+  {
+   "file": "json_where.py",
+   "line": 38,
+   "json": true,
+   "code": "txt = p.read_text(encoding=\"utf-8\")"
+  },
+  {
+   "file": "ledger_cascade_rebaseline.py",
+   "line": 22,
+   "json": true,
+   "code": "rows = [json.loads(l) for l in src.read_text(encoding=\"utf-8\").splitlines() if l.strip()]"
+  },
+  {
+   "file": "ledger_rebaseline_109.py",
+   "line": 17,
+   "json": true,
+   "code": "lines = LED.read_text(encoding=\"utf-8\").splitlines()"
+  },
+  {
+   "file": "lint_cn_quotes.py",
+   "line": 84,
+   "json": true,
+   "code": "_json.loads(p.read_text(encoding=\"utf-8\"))"
+  },
+  {
+   "file": "live_state_loop.py",
+   "line": 56,
+   "json": true,
+   "code": "st = json.loads(STATE.read_text(encoding=\"utf-8\"))"
+  },
+  {
+   "file": "live_state_loop.py",
+   "line": 95,
+   "json": false,
+   "code": "% (n, a.until, n, sum(1 for _ in HIST.read_text(encoding=\"utf-8\").splitlines())))"
+  },
+  {
+   "file": "local_read.py",
+   "line": 47,
+   "json": true,
+   "code": "old = json.loads(idx.read_text(encoding=\"utf-8\"))"
+  },
+  {
+   "file": "lsbus_format_ops.py",
+   "line": 260,
+   "json": false,
+   "code": "idx.write_text(idx.read_text(encoding=\"utf-8\").replace('\"seq\": 2', '\"seq\": 5'), encoding=\"utf-8\""
+  },
+  {
+   "file": "lsbus_format_ops.py",
+   "line": 263,
+   "json": false,
+   "code": "idx.write_text(idx.read_text(encoding=\"utf-8\").replace('\"seq\": 5', '\"seq\": 2'), encoding=\"utf-8\""
+  },
+  {
+   "file": "make_pack.py",
+   "line": 125,
+   "json": false,
+   "code": "rows = [l.split(\"\\t\") for l in mp.read_text(encoding=\"utf-8\").splitlines()[1:] if l.strip()]"
+  },
+  {
+   "file": "md2docx.py",
+   "line": 74,
+   "json": false,
+   "code": "lines = src.read_text(encoding=\"utf-8\").splitlines()"
+  },
+  {
+   "file": "memory_change_log.py",
+   "line": 28,
+   "json": true,
+   "code": "\"index\": (json.loads(ptr.read_text(encoding=\"utf-8\")).get(\"index\") if ptr.exists() else None)}"
+  },
+  {
+   "file": "memory_change_log.py",
+   "line": 43,
+   "json": true,
+   "code": "j = json.loads(di.read_text(encoding=\"utf-8\"))"
+  },
+  {
+   "file": "memory_change_log.py",
+   "line": 78,
+   "json": true,
+   "code": "try: old = json.loads(st.read_text(encoding=\"utf-8\"))"
+  },
+  {
+   "file": "mk_announce.py",
+   "line": 91,
+   "json": true,
+   "code": "j = json.loads(att.read_text(encoding=\"utf-8\"))"
+  },
+  {
+   "file": "mk_announce.py",
+   "line": 121,
+   "json": false,
+   "code": "sig = \"ed25519-sshsig:\" + sigfile.read_text(encoding=\"utf-8\").strip().replace(\"\\n\", \"|\")"
+  },
+  {
+   "file": "mkled.py",
+   "line": 100,
+   "json": true,
+   "code": "obj = json.loads(p.read_text(encoding=\"utf-8\"))"
+  },
+  {
+   "file": "mkled.py",
+   "line": 112,
+   "json": false,
+   "code": "obj = parse_led(src.read_text(encoding=\"utf-8\"))"
+  },
+  {
+   "file": "mkled.py",
+   "line": 135,
+   "json": true,
+   "code": "back = json.loads(dst.read_text(encoding=\"utf-8\"))"
+  },
+  {
+   "file": "neg_control_seat_location.py",
+   "line": 121,
+   "json": true,
+   "code": "d = json.loads(real.read_text(encoding=\"utf-8\"))"
+  },
+  {
+   "file": "neg_control_seat_location.py",
+   "line": 136,
+   "json": false,
+   "code": "src = CHECKER.read_text(encoding=\"utf-8\")"
+  },
+  {
+   "file": "neg_control_seat_location.py",
+   "line": 158,
+   "json": true,
+   "code": "_d0 = json.loads(real_decl.read_text(encoding=\"utf-8\"))"
+  },
+  {
+   "file": "neg_control_seat_location.py",
+   "line": 166,
+   "json": false,
+   "code": "src = CHECKER.read_text(encoding=\"utf-8\")"
+  },
+  {
+   "file": "neg_control_seat_location.py",
+   "line": 172,
+   "json": true,
+   "code": "d2 = json.loads(real_decl.read_text(encoding=\"utf-8\"))"
+  },
+  {
+   "file": "ops_event.py",
+   "line": 52,
+   "json": false,
+   "code": "for line in EVENT_LOG.read_text(encoding=\"utf-8\").splitlines():"
+  },
+  {
+   "file": "ops_event.py",
+   "line": 66,
+   "json": false,
+   "code": "seq = sum(1 for l in EVENT_LOG.read_text(encoding=\"utf-8\").splitlines() if l.strip())"
+  },
+  {
+   "file": "ops_event.py",
+   "line": 89,
+   "json": false,
+   "code": "for line in EVENT_LOG.read_text(encoding=\"utf-8\").splitlines():"
+  },
+  {
+   "file": "ops_event.py",
+   "line": 154,
+   "json": true,
+   "code": "for line in EVENT_LOG.read_text(encoding=\"utf-8\").splitlines()[-a.n:]:"
+  },
+  {
+   "file": "patch_auditor.py",
+   "line": 73,
+   "json": false,
+   "code": "t = P.read_text(encoding=\"utf-8\")"
+  },
+  {
+   "file": "patch_feed.py",
+   "line": 58,
+   "json": false,
+   "code": "t = P.read_text(encoding=\"utf-8\")"
+  },
+  {
+   "file": "pqc_bench.py",
+   "line": 71,
+   "json": false,
+   "code": "allowed.write_text(\"cairn %s\\n\" % PUB.read_text(encoding=\"utf-8\").strip(), encoding=\"utf-8\")"
+  },
+  {
+   "file": "recount_chain_independent.py",
+   "line": 61,
+   "json": true,
+   "code": "for i, line in enumerate(LEDGER.read_text(encoding=\"utf-8\").splitlines(), 1):"
+  },
+  {
+   "file": "resolve_link_ids.py",
+   "line": 42,
+   "json": true,
+   "code": "m = json.loads(OUT.read_text(encoding=\"utf-8\"))"
+  },
+  {
+   "file": "retrieval_eval.py",
+   "line": 29,
+   "json": false,
+   "code": "_d = _j.loads(_p.read_text(encoding=\"utf-8\"))"
+  },
+  {
+   "file": "retrieval_eval.py",
+   "line": 54,
+   "json": true,
+   "code": "d = json.loads(IDX.read_text(encoding=\"utf-8\"))"
+  },
+  {
+   "file": "rtc_token_anatomy.py",
+   "line": 14,
+   "json": true,
+   "code": "S = json.loads(p.read_text(encoding=\"utf-8\"))"
+  },
+  {
+   "file": "section_search.py",
+   "line": 26,
+   "json": false,
+   "code": "_d = _j.loads(_p.read_text(encoding=\"utf-8\"))"
+  },
+  {
+   "file": "section_search.py",
+   "line": 80,
+   "json": true,
+   "code": "return json.loads(IDX.read_text(encoding=\"utf-8\"))"
+  },
+  {
+   "file": "seed_render.py",
+   "line": 70,
+   "json": true,
+   "code": "st = json.loads((outbox / \"state_cairn-dsh.json\").read_text(encoding=\"utf-8\"))"
+  },
+  {
+   "file": "seed_render.py",
+   "line": 71,
+   "json": true,
+   "code": "hist = [json.loads(l) for l in (outbox / \"state_history.jsonl\").read_text(encoding=\"utf-8\").spli"
+  },
+  {
+   "file": "seed_render.py",
+   "line": 72,
+   "json": true,
+   "code": "ledger = [json.loads(l) for l in ledger_path.read_text(encoding=\"utf-8\").splitlines() if l.strip"
+  },
+  {
+   "file": "seed_render.py",
+   "line": 195,
+   "json": true,
+   "code": "ts = json.loads((ob / \"state_cairn-dsh.json\").read_text(encoding=\"utf-8\")).get(\"updated_at\", \"\")"
+  },
+  {
+   "file": "seed_verify.py",
+   "line": 55,
+   "json": false,
+   "code": "text = sp.read_text(encoding=\"utf-8\")"
+  },
+  {
+   "file": "seed_verify.py",
+   "line": 127,
+   "json": false,
+   "code": "lines = [l for l in lg.read_text(encoding=\"utf-8\").splitlines() if l.strip()]"
+  },
+  {
+   "file": "seed_verify.py",
+   "line": 159,
+   "json": false,
+   "code": "got = tmp.read_text(encoding=\"utf-8\") if tmp.is_file() else \"\""
+  },
+  {
+   "file": "seek.py",
+   "line": 36,
+   "json": true,
+   "code": "idx = json.loads(IDX.read_text(encoding=\"utf-8\"))"
+  },
+  {
+   "file": "selfref_probe.py",
+   "line": 71,
+   "json": true,
+   "code": "rows = [json.loads(l) for l in lg.read_text(encoding=\"utf-8\").splitlines() if l.strip()]"
+  },
+  {
+   "file": "selfref_probe.py",
+   "line": 74,
+   "json": true,
+   "code": "d = json.loads((A / \"outbox\" / \"SEAT_LOCATION_cairn-dsh_20261002.json\").read_text(encoding=\"utf-"
+  },
+  {
+   "file": "semantic_search.py",
+   "line": 77,
+   "json": true,
+   "code": "\"v\": json.loads(f.read_text(encoding=\"utf-8\"))[\"v\"]})"
+  },
+  {
+   "file": "semantic_search.py",
+   "line": 91,
+   "json": true,
+   "code": "idx = json.loads(INDEX.read_text(encoding=\"utf-8\")) if (INDEX.exists() and not a.build) else bui"
+  },
+  {
+   "file": "sign_demo.py",
+   "line": 56,
+   "json": true,
+   "code": "rows = [json.loads(l) for l in LEDGER.read_text(encoding=\"utf-8\").splitlines() if l.strip()]"
+  },
+  {
+   "file": "sign_demo.py",
+   "line": 105,
+   "json": true,
+   "code": "\"d = json.loads(p.read_text(encoding='utf-8'))\\n\""
+  },
+  {
+   "file": "sign_demo.py",
+   "line": 108,
+   "json": true,
+   "code": "\"rows = [json.loads(l) for l in (pathlib.Path(sys.argv[2])).read_text(encoding='utf-8').splitlin"
+  },
+  {
+   "file": "sign_demo.py",
+   "line": 129,
+   "json": true,
+   "code": "d2 = json.loads(SAMPLE.read_text(encoding=\"utf-8\"))"
+  },
+  {
+   "file": "skill_evolve.py",
+   "line": 34,
+   "json": false,
+   "code": "return SKILL_FILE.read_text(encoding=\"utf-8\") if SKILL_FILE.exists() else \"\""
+  },
+  {
+   "file": "skill_runner.py",
+   "line": 27,
+   "json": true,
+   "code": "return json.loads(SKILLS.read_text(encoding=\"utf-8\"))"
+  },
+  {
+   "file": "verify_gateway_spec.py",
+   "line": 47,
+   "json": true,
+   "code": "spec = json.loads(SPEC.read_text(encoding=\"utf-8\"))"
+  },
+  {
+   "file": "verify_hub_merkle.py",
+   "line": 139,
+   "json": true,
+   "code": "m = json.loads(mfj.read_text(encoding=\"utf-8\"))"
+  },
+  {
+   "file": "verify_lab_abc.py",
+   "line": 42,
+   "json": true,
+   "code": "a = json.loads(src.read_text(encoding=\"utf-8\"))"
+  },
+  {
+   "file": "verify_opl_attest.py",
+   "line": 169,
+   "json": true,
+   "code": "att = json.loads(ATTEST.read_text(encoding=\"utf-8\"))"
+  },
+  {
+   "file": "verify_recipe.py",
+   "line": 49,
+   "json": true,
+   "code": "d = json.loads(DECL.read_text(encoding=\"utf-8\"))"
+  },
+  {
+   "file": "verify_seat_location.py",
+   "line": 50,
+   "json": true,
+   "code": "d = json.loads(ap_path.read_text(encoding=\"utf-8\"))"
+  },
+  {
+   "file": "verify_seat_location.py",
+   "line": 89,
+   "json": true,
+   "code": "rows = [json.loads(l) for l in lg.read_text(encoding=\"utf-8\").splitlines() if l.strip()]"
+  },
+  {
+   "file": "verify_seat_location.py",
+   "line": 225,
+   "json": false,
+   "code": "me = pathlib.Path(__file__).read_text(encoding=\"utf-8\")"
+  },
+  {
+   "file": "winddown.py",
+   "line": 120,
+   "json": true,
+   "code": "prev = json.loads(cands[-1].read_text(encoding=\"utf-8\"))"
+  },
+  {
+   "file": "wire_netguard.py",
+   "line": 51,
+   "json": false,
+   "code": "t = p.read_text(encoding=\"utf-8\")"
+  }
+ ]
+}

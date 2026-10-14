@@ -1,0 +1,55 @@
+{
+ "checked_at": "2026-10-08 08:50:53 +08",
+ "source": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A新席_石敢当Cairn_20260928\\outbox\\mem\\mem_tier_scan.json",
+ "source_sampled_at": "2026-10-07 09:27:07",
+ "thresholds": {
+  "A1_cold_share_pct_gt": 70.0,
+  "A2_unfiled_count_gt": 0,
+  "A3_reclaim_bytes_gt": 0,
+  "A4_single_tier_count_gt": 3000
+ },
+ "total_bytes": 116586659,
+ "tiers": {
+  "层-未分": {
+   "n": 75,
+   "bytes": 8332539
+  },
+  "层-冷": {
+   "n": 2625,
+   "bytes": 95518496
+  },
+  "层-热": {
+   "n": 1535,
+   "bytes": 10384603
+  },
+  "层-温": {
+   "n": 204,
+   "bytes": 2351021
+  }
+ },
+ "rows": [
+  {
+   "name": "A1 层-冷占比",
+   "value": "81.93%（阈值 ＞70.0%）",
+   "level": "ALERT"
+  },
+  {
+   "name": "A2 层-未分件数",
+   "value": "75（阈值 ＞0）",
+   "level": "WARN"
+  },
+  {
+   "name": "A3 可回收(逐字重复)",
+   "value": "2269568 B（阈值 ＞0）",
+   "level": "INFO"
+  },
+  {
+   "name": "A4 单层最大件数",
+   "value": "层-冷=2625（阈值 ＞3000）",
+   "level": "OK"
+  }
+ ],
+ "alerts": 1,
+ "warns": 1,
+ "executed": false
+}

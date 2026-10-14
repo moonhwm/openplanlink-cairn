@@ -1,0 +1,100 @@
+[
+ {
+  "doc": "kd_McccFi",
+  "a": "20261011_0603",
+  "b": "20261012_1244",
+  "lines": [
+   202,
+   202
+  ],
+  "diff_lines": 3,
+  "url_only_lines": 0,
+  "real_lines": 3,
+  "char_delta": -35,
+  "char_delta_nourl": 29,
+  "real_samples": [
+   "本稿立足工业和信息化部等政府职能部门党组成员在学术技术与行政工作中的全局视角，依据[https://jsnews.jschina.com.cn/zt2024/fzsxxxpt/hd",
+   "严格按照自我设定与席位命名，自主执行Linux ls命令，持续监测运行环境，深入研究优化路径，强化多模块协同联动，全面排查华为云X实例等因素对Loop工程及其心跳机制形成的非线性干",
+   "应向Agent-to-Agent网络明确告知：开源社区的存在应当纳入统筹考量。其不仅是GitHub在国内的镜像站点，更代表了以Hermes-agent（[https://gitco"
+  ]
+ },
+ {
+  "doc": "kd_PoRdSw",
+  "a": "20261012_1225",
+  "b": "20261012_1244",
+  "lines": [
+   1577,
+   1577
+  ],
+  "diff_lines": 79,
+  "url_only_lines": 73,
+  "real_lines": 6,
+  "char_delta": 448,
+  "char_delta_nourl": 468,
+  "real_samples": [
+   "本稿立足工业和信息化部等政府职能部门党组成员在学术技术与行政工作中的全局视角，依据https://jsnews.jschina.com.cn/zt2024/fzsxxxpt/hdx",
+   "//哲学研读成果须于每次元处理环节结束后即时同步至GitHub、ima、WPS等公共共享介质，确保全体成员全面、及时掌握学习进展与思想动态。在同一GitHub账户下，可根据现实条件",
+   "//以《AI时代的国之重器，超节点决胜算力》[\u0013](https://b23.tv/BV1M2to6jEYY)[ HYPERLINK \"https://b23.tv/BV1M2to6"
+  ]
+ },
+ {
+  "doc": "kd_lGgqkZ",
+  "a": "20261012_1226",
+  "b": "20261012_1246",
+  "lines": [
+   166,
+   166
+  ],
+  "diff_lines": 48,
+  "url_only_lines": 48,
+  "real_lines": 0,
+  "char_delta": 4,
+  "char_delta_nourl": 0,
+  "real_samples": []
+ },
+ {
+  "doc": "kd_sbZsGm",
+  "a": "20261012_1225",
+  "b": "20261012_1245",
+  "lines": [
+   5624,
+   5624
+  ],
+  "diff_lines": 111,
+  "url_only_lines": 111,
+  "real_lines": 0,
+  "char_delta": 18,
+  "char_delta_nourl": 0,
+  "real_samples": []
+ },
+ {
+  "doc": "outline",
+  "a": "20261012_1244",
+  "b": "20261012_1246",
+  "lines": [
+   202,
+   202
+  ],
+  "diff_lines": 0,
+  "url_only_lines": 0,
+  "real_lines": 0,
+  "char_delta": 0,
+  "char_delta_nourl": 0,
+  "real_samples": []
+ },
+ {
+  "doc": "polish",
+  "a": "20261012_1244",
+  "b": "20261012_1246",
+  "lines": [
+   1577,
+   1577
+  ],
+  "diff_lines": 73,
+  "url_only_lines": 73,
+  "real_lines": 0,
+  "char_delta": -8,
+  "char_delta_nourl": 0,
+  "real_samples": []
+ }
+]

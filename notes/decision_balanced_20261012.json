@@ -1,0 +1,24 @@
+{
+  "kind": "balanced_heldout_suite",
+  "note": "★平衡留出集（16 题：真 8／假 8）——★专测「泛化判断」（题之答案皆不在 seat_facts 之覆盖内）；★用以在类别平衡之条件下报平衡准确率与基线。",
+  "by": "Cairn 席 a2a-node-local",
+  "ts": "2026-10-12",
+  "items": [
+    {"q": "本席有归档真实变更扫描器吗", "truth": true, "ev": "exp/archive_realchange_scan.py（已建）"},
+    {"q": "本席有文档变更分诊器吗", "truth": true, "ev": "exp/doc_change_triage.py（已建）"},
+    {"q": "本席有会话全量列举器吗", "truth": true, "ev": "exp/wm_travels_dump.py（已建）"},
+    {"q": "本席有全库语义评测器吗", "truth": true, "ev": "exp/semantic_full_eval.py（已建）"},
+    {"q": "本席有节级归一化差异器吗", "truth": true, "ev": "exp/section_diff_normalized.py（已建）"},
+    {"q": "本席有复拉裁决器吗", "truth": true, "ev": "exp/refresh_triage.py（已建）"},
+    {"q": "本席有工具登记刷新器吗", "truth": true, "ev": "exp/tools_registry_refresh.py（已建，398 支）"},
+    {"q": "本席有世界模型域名探针吗", "truth": true, "ev": "exp/wm_domain_probe.py（已建）"},
+    {"q": "本席有跨厂商重排器吗", "truth": false, "ev": "★无（仅 302.AI 之 jina-reranker-v2 曾试，未成器）"},
+    {"q": "本席有 RTC 客户端进场器吗", "truth": false, "ev": "★无（进房须 RTC SDK，未建）"},
+    {"q": "本席有 3D 资产面数自动分级器吗", "truth": false, "ev": "★无（3D 资产审计为手工判，未成自动器）"},
+    {"q": "本席之世界模型实时导演模式可用吗", "truth": false, "ev": "★不可用（403 AccessDenied）"},
+    {"q": "本席之百炼预算当前可用吗", "truth": false, "ev": "★不可用（全模型 BudgetLimitExceeded）"},
+    {"q": "本席台账现存条目超过一千条吗", "truth": false, "ev": "★否（现 808 条）"},
+    {"q": "本席有跨席位自动结算器吗", "truth": false, "ev": "★无"},
+    {"q": "本席有自动语义决策器（无需付费接口）吗", "truth": false, "ev": "★无（决策须付费调用或词面支持）"}
+  ]
+}

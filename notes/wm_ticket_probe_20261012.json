@@ -1,0 +1,33 @@
+{
+ "ts": "2026-10-12T17:46:29+0800",
+ "world_id_prefix": "8rcpnKlw6xp3",
+ "rows": [
+  {
+   "domain": "trial",
+   "status": 200,
+   "code": 0,
+   "message": "",
+   "got_ticket": true,
+   "ticket_prefix": "tk_",
+   "ticket_len": 44,
+   "expires_in": 1800,
+   "sec": 0.22
+  },
+  {
+   "domain": "WS",
+   "status": -1,
+   "code": null,
+   "message": "<urlopen error [WinError 10054] 远程主机强迫关闭了一个现有的连接。>",
+   "got_ticket": false,
+   "ticket_prefix": "",
+   "ticket_len": 0,
+   "expires_in": null,
+   "sec": 0.05
+  }
+ ],
+ "criteria": {
+  "①两域皆得可解析响应": true,
+  "②各域之 code 已给出": true,
+  "③★既有世界是否仍 ready 已判": true
+ }
+}

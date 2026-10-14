@@ -1,0 +1,16 @@
+{
+ "ts": "2026-10-14T02:59:27+0800",
+ "http": -1,
+ "code": null,
+ "worlds": 0,
+ "ready": 0,
+ "watched": {
+  "霓虹虚空": false,
+  "夜游回望": false,
+  "夜色游乐场": false
+ },
+ "criteria": {
+  "①HTTP 200 且 code=0": false,
+  "②★三世界皆在": false
+ }
+}

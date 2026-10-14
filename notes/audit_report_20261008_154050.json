@@ -1,0 +1,20 @@
+{
+    "cairn":  "HEAD=8258e30 脏改=0 远端=8258e30 一致=True",
+    "bus_validate":  "VERDICT=VALID",
+    "bus":  "VERDICT=★一致（root 与全部叶皆同）",
+    "signature":  {
+                      "ok":  42,
+                      "bad":  0,
+                      "nosig":  56
+                  },
+    "bus_scan":  "**有账无件**：0 ｜ **有件无账**：0",
+    "notes":  "VERDICT=★一致（root 与全部叶皆同）",
+    "rmem_mb":  878.9,
+    "kind":  "meta-audit",
+    "audited_at":  "2026-10-08 15:40:50 +0800",
+    "threeway":  "local=2109312 origin=2109312 gitcode=2109312 aligned=True",
+    "ledger":  "条目数：732 ｜ 结论：PASS —— ★链内自洽（①每条 hash 与内容相符 ②prev 指针相连）",
+    "c_free_gb":  41.8,
+    "termtable":  "⇒ 合计命中 131 ｜ **须人工判读 14**（其余经行级或文档级限定）",
+    "active_py":  201
+}

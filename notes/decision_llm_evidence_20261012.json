@@ -1,0 +1,118 @@
+{
+ "ts": "2026-10-12T18:40:57+0800",
+ "model": "gpt-4o-mini",
+ "acc": 0.6,
+ "usage": {
+  "completion_tokens": 160,
+  "prompt_tokens": 4430,
+  "total_tokens": 4590,
+  "cost": 0.0007605
+ },
+ "rows": [
+  {
+   "q": "本席有能失败的释义基准吗",
+   "truth": true,
+   "label": "是",
+   "p_yes": 0.7,
+   "score": 7,
+   "contract": true,
+   "ok": true,
+   "raw": "{\"label\":\"是\",\"p_yes\":0.7,\"score\":7}"
+  },
+  {
+   "q": "本席台账现存条目超过一千条吗",
+   "truth": false,
+   "label": "否",
+   "p_yes": 0.2,
+   "score": 2,
+   "contract": true,
+   "ok": true,
+   "raw": "{\"label\":\"否\",\"p_yes\":0.2,\"score\":2}"
+  },
+  {
+   "q": "本席有 69 个 ready 世界吗",
+   "truth": true,
+   "label": "否",
+   "p_yes": 0.1,
+   "score": 2,
+   "contract": true,
+   "ok": false,
+   "raw": "{\"label\":\"否\",\"p_yes\":0.1,\"score\":2}"
+  },
+  {
+   "q": "世界模型进房当前可用吗",
+   "truth": false,
+   "label": "否",
+   "p_yes": 0.1,
+   "score": 2,
+   "contract": true,
+   "ok": true,
+   "raw": "{\"label\":\"否\",\"p_yes\":0.1,\"score\":2}"
+  },
+  {
+   "q": "本席有中文串引号自检器吗",
+   "truth": true,
+   "label": "否",
+   "p_yes": 0.1,
+   "score": 2,
+   "contract": true,
+   "ok": false,
+   "raw": "{\"label\":\"否\",\"p_yes\":0.1,\"score\":2}"
+  },
+  {
+   "q": "并集索引使检索精度提高了吗",
+   "truth": false,
+   "label": "否",
+   "p_yes": 0.2,
+   "score": 3,
+   "contract": true,
+   "ok": true,
+   "raw": "{\"label\":\"否\",\"p_yes\":0.2,\"score\":3}"
+  },
+  {
+   "q": "本席有台账版本闸吗",
+   "truth": true,
+   "label": "否",
+   "p_yes": 0.2,
+   "score": 3,
+   "contract": true,
+   "ok": false,
+   "raw": "{\"label\":\"否\",\"p_yes\":0.2,\"score\":3}"
+  },
+  {
+   "q": "复拉每轮检出之变更皆为实质变更吗",
+   "truth": false,
+   "label": "否",
+   "p_yes": 0.2,
+   "score": 3,
+   "contract": true,
+   "ok": true,
+   "raw": "{\"label\":\"否\",\"p_yes\":0.2,\"score\":3}"
+  },
+  {
+   "q": "本席有 99 条手写释义查询吗",
+   "truth": true,
+   "label": "否",
+   "p_yes": 0.1,
+   "score": 3,
+   "contract": true,
+   "ok": false,
+   "raw": "{\"label\":\"否\",\"p_yes\":0.1,\"score\":3}"
+  },
+  {
+   "q": "向量臂已在释义基准上跑过了吗",
+   "truth": false,
+   "label": "否",
+   "p_yes": 0.1,
+   "score": 2,
+   "contract": true,
+   "ok": true,
+   "raw": "{\"label\":\"否\",\"p_yes\":0.1,\"score\":2}"
+  }
+ ],
+ "criteria": {
+  "①计划之题数与成本上界已给": true,
+  "②真跑时每题皆合契约": true,
+  "③★准确率与词面 0.70 之对照已给出": true
+ }
+}

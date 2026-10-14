@@ -1,0 +1,154 @@
+{
+  "generated_at_utc": "20261005T214028Z",
+  "memory": {
+    "total_mb": 16076.3,
+    "free_mb": 664.3,
+    "used_mb": 15412.0,
+    "free_pct": 4.1,
+    "used_pct": 95.9,
+    "commit_total_mb": 39261.9,
+    "commit_free_mb": 1318.3
+  },
+  "pagefile": {
+    "allocated_mb": 23185,
+    "current_usage_mb": 3899,
+    "peak_usage_mb": 4282
+  },
+  "top": [
+    {
+      "name": "Memory Compression",
+      "pid": 4128,
+      "ws_mb": 1746.3,
+      "pagefile_mb": 11.1,
+      "cpu_s": 195.75
+    },
+    {
+      "name": "AgentKernel_Vscode_26_9_501_1_0_0-1151846206572736.exe",
+      "pid": 22828,
+      "ws_mb": 1060.1,
+      "pagefile_mb": 1789.3,
+      "cpu_s": 167.89
+    },
+    {
+      "name": "DeepSeek Harness.exe",
+      "pid": 29900,
+      "ws_mb": 393.4,
+      "pagefile_mb": 595.3,
+      "cpu_s": 32.64
+    },
+    {
+      "name": "Kimi Code.exe",
+      "pid": 11532,
+      "ws_mb": 337.1,
+      "pagefile_mb": 496.5,
+      "cpu_s": 90.0
+    },
+    {
+      "name": "WPS 灵犀.exe",
+      "pid": 29988,
+      "ws_mb": 326.3,
+      "pagefile_mb": 426.0,
+      "cpu_s": 26.84
+    },
+    {
+      "name": "Trae CN.exe",
+      "pid": 34056,
+      "ws_mb": 291.5,
+      "pagefile_mb": 344.3,
+      "cpu_s": 67.0
+    },
+    {
+      "name": "ChatGPT.exe",
+      "pid": 22656,
+      "ws_mb": 265.7,
+      "pagefile_mb": 476.3,
+      "cpu_s": 111.67
+    },
+    {
+      "name": "CodeArtsSpace.exe",
+      "pid": 39680,
+      "ws_mb": 237.4,
+      "pagefile_mb": 169.6,
+      "cpu_s": 2.14
+    },
+    {
+      "name": "WorkBuddy.exe",
+      "pid": 8784,
+      "ws_mb": 211.5,
+      "pagefile_mb": 184.2,
+      "cpu_s": 2.11
+    },
+    {
+      "name": "CodeArtsSpace.exe",
+      "pid": 39032,
+      "ws_mb": 205.0,
+      "pagefile_mb": 175.1,
+      "cpu_s": 1.97
+    },
+    {
+      "name": "Qoder CN.exe",
+      "pid": 14024,
+      "ws_mb": 203.7,
+      "pagefile_mb": 803.7,
+      "cpu_s": 191.78
+    },
+    {
+      "name": "CodeArtsSpace.exe",
+      "pid": 47788,
+      "ws_mb": 184.9,
+      "pagefile_mb": 172.0,
+      "cpu_s": 2.14
+    },
+    {
+      "name": "ZCode.exe",
+      "pid": 30264,
+      "ws_mb": 177.3,
+      "pagefile_mb": 299.1,
+      "cpu_s": 37.52
+    },
+    {
+      "name": "mc-fw-host.exe",
+      "pid": 5704,
+      "ws_mb": 165.5,
+      "pagefile_mb": 468.5,
+      "cpu_s": 806.23
+    },
+    {
+      "name": "DeepSeek Harness.exe",
+      "pid": 32628,
+      "ws_mb": 162.6,
+      "pagefile_mb": 190.2,
+      "cpu_s": 82.2
+    }
+  ],
+  "candidates": [
+    {
+      "name": "CodeArtsSpace.exe",
+      "pid": 39680,
+      "ws_mb": 237.4,
+      "pagefile_mb": 169.6,
+      "cpu_s": 2.14
+    },
+    {
+      "name": "WorkBuddy.exe",
+      "pid": 8784,
+      "ws_mb": 211.5,
+      "pagefile_mb": 184.2,
+      "cpu_s": 2.11
+    },
+    {
+      "name": "CodeArtsSpace.exe",
+      "pid": 39032,
+      "ws_mb": 205.0,
+      "pagefile_mb": 175.1,
+      "cpu_s": 1.97
+    }
+  ],
+  "candidate_ws_mb": 653.9,
+  "params": {
+    "min_ws_mb": 200.0,
+    "max_cpu_s": 10.0,
+    "top": 15
+  },
+  "note": "候选为启发式（工作集大且累计 CPU 少），不代表可安全处置；处置候安全运营中心裁定"
+}

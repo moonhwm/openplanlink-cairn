@@ -1,0 +1,255 @@
+{
+  "generated_at": "2026-10-07 12:54:47",
+  "policy": "keep earliest mtime → shortest path → lexicographic; move others to quarantine (no delete)",
+  "groups": [
+    {
+      "size": 819974,
+      "sha16": "465071fe493aedf4",
+      "n": 2,
+      "keep": "exp\\ab_fixed\\a2a-architecture.html",
+      "keep_mtime": "2026-10-01 17:26:15",
+      "move_to_quarantine": [
+        "exp\\ab_theirs\\a2a-architecture.html"
+      ],
+      "reclaim_bytes": 819974
+    },
+    {
+      "size": 272087,
+      "sha16": "f7b6a154cdff0865",
+      "n": 2,
+      "keep": "inbox\\20260929_机主投件\\底稿\\2026-9-25-OpenPlanLink 润色-1 (3).txt",
+      "keep_mtime": "2026-09-29 21:11:46",
+      "move_to_quarantine": [
+        "inbox\\20260929_机主投件\\底稿\\2026-9-25-OpenPlanLink 润色-1 (3).txt.regen-new"
+      ],
+      "reclaim_bytes": 272087
+    },
+    {
+      "size": 185929,
+      "sha16": "a52127ba4ab88184",
+      "n": 2,
+      "keep": "handshake\\qoder-skills-hub\\tree\\qoder-skills-hub-main\\k3-everything-archive\\output\\ai_sec05_quantum_index.png",
+      "keep_mtime": "2026-09-28 14:11:16",
+      "move_to_quarantine": [
+        "inbox\\20260929_机主投件\\媒体\\2026-9-25-OpenPlanLink 润色-1 参考附录\\image4.png"
+      ],
+      "reclaim_bytes": 185929
+    },
+    {
+      "size": 179900,
+      "sha16": "8fe0a9e493b72eef",
+      "n": 2,
+      "keep": "handshake\\qoder-skills-hub\\tree\\qoder-skills-hub-main\\k3-everything-archive\\output\\ai_sec02_paradigm_commercialization.png",
+      "keep_mtime": "2026-09-28 14:11:16",
+      "move_to_quarantine": [
+        "inbox\\20260929_机主投件\\媒体\\2026-9-25-OpenPlanLink 润色-1 参考附录\\image2.png"
+      ],
+      "reclaim_bytes": 179900
+    },
+    {
+      "size": 127693,
+      "sha16": "ca575ac961044cdc",
+      "n": 2,
+      "keep": "handshake\\qoder-skills-hub\\tree\\qoder-skills-hub-main\\k3-everything-archive\\output\\ai_sec07_index.png",
+      "keep_mtime": "2026-09-28 14:11:16",
+      "move_to_quarantine": [
+        "inbox\\20260929_机主投件\\媒体\\2026-9-25-OpenPlanLink 润色-1 参考附录\\image6.png"
+      ],
+      "reclaim_bytes": 127693
+    },
+    {
+      "size": 126101,
+      "sha16": "88c57ac287cc3d3f",
+      "n": 2,
+      "keep": "handshake\\qoder-skills-hub\\tree\\qoder-skills-hub-main\\k3-everything-archive\\output\\ai_sec03_fusion_index.png",
+      "keep_mtime": "2026-09-28 14:11:16",
+      "move_to_quarantine": [
+        "inbox\\20260929_机主投件\\媒体\\2026-9-25-OpenPlanLink 润色-1 参考附录\\image3.png"
+      ],
+      "reclaim_bytes": 126101
+    },
+    {
+      "size": 121093,
+      "sha16": "343dc7144a980b3f",
+      "n": 2,
+      "keep": "outbox\\deskbase\\desk_snapshot_20261005T203815Z.json",
+      "keep_mtime": "2026-10-06 04:38:35",
+      "move_to_quarantine": [
+        "outbox\\deskbase\\desk_baseline.json"
+      ],
+      "reclaim_bytes": 121093
+    },
+    {
+      "size": 102838,
+      "sha16": "a6b9bdf49e16334c",
+      "n": 2,
+      "keep": "handshake\\qoder-skills-hub\\tree\\qoder-skills-hub-main\\k3-everything-archive\\output\\ai_sec06_github_stars.png",
+      "keep_mtime": "2026-09-28 14:11:16",
+      "move_to_quarantine": [
+        "inbox\\20260929_机主投件\\媒体\\2026-9-25-OpenPlanLink 润色-1 参考附录\\image5.png"
+      ],
+      "reclaim_bytes": 102838
+    },
+    {
+      "size": 64248,
+      "sha16": "5c80e06310321361",
+      "n": 2,
+      "keep": "handshake\\qoder-skills-hub\\tree\\qoder-skills-hub-main\\k3-everything-archive\\output\\ai_sec01_index_divergence.png",
+      "keep_mtime": "2026-09-28 14:11:16",
+      "move_to_quarantine": [
+        "inbox\\20260929_机主投件\\媒体\\2026-9-25-OpenPlanLink 润色-1 参考附录\\image1.png"
+      ],
+      "reclaim_bytes": 64248
+    },
+    {
+      "size": 61844,
+      "sha16": "a8d27a976c5fa3f6",
+      "n": 2,
+      "keep": "handshake\\qoder-skills-hub\\tree\\qoder-skills-hub-main\\k3-everything-archive\\output\\ai_sec07_ytd.png",
+      "keep_mtime": "2026-09-28 14:11:16",
+      "move_to_quarantine": [
+        "inbox\\20260929_机主投件\\媒体\\2026-9-25-OpenPlanLink 润色-1 参考附录\\image7.png"
+      ],
+      "reclaim_bytes": 61844
+    },
+    {
+      "size": 61527,
+      "sha16": "e7fd2be43abf9ded",
+      "n": 2,
+      "keep": "exp\\ab_fixed\\sandbox.html",
+      "keep_mtime": "2026-10-01 17:17:01",
+      "move_to_quarantine": [
+        "exp\\ab_theirs\\sandbox.html"
+      ],
+      "reclaim_bytes": 61527
+    },
+    {
+      "size": 32860,
+      "sha16": "2cd873205e9cbb92",
+      "n": 2,
+      "keep": "exp\\scan_secrets.py",
+      "keep_mtime": "2026-10-01 17:47:27",
+      "move_to_quarantine": [
+        "deliverable\\cairn-dsh_toolkit\\tools\\scan_secrets.py"
+      ],
+      "reclaim_bytes": 32860
+    },
+    {
+      "size": 29739,
+      "sha16": "a9ce36f11dcf83e3",
+      "n": 2,
+      "keep": "outbox\\edgeai1\\collections_02.html",
+      "keep_mtime": "2026-10-07 09:15:35",
+      "move_to_quarantine": [
+        "outbox\\edgeai1\\line02.html"
+      ],
+      "reclaim_bytes": 29739
+    },
+    {
+      "size": 18082,
+      "sha16": "8529482be9162805",
+      "n": 2,
+      "keep": "exp\\_seat-naming-ops_v1.0\\seat-naming-ops\\SKILL.md",
+      "keep_mtime": "2026-09-29 20:59:55",
+      "move_to_quarantine": [
+        "inbox\\20260929_机主投件\\seat-naming-ops_SKILL.md"
+      ],
+      "reclaim_bytes": 18082
+    },
+    {
+      "size": 14944,
+      "sha16": "99ace8c03e7685b3",
+      "n": 2,
+      "keep": "exp\\ab_fixed\\oracle.html",
+      "keep_mtime": "2026-10-01 17:01:46",
+      "move_to_quarantine": [
+        "exp\\ab_theirs\\oracle.html"
+      ],
+      "reclaim_bytes": 14944
+    },
+    {
+      "size": 12544,
+      "sha16": "efe24fd128ad6ba2",
+      "n": 2,
+      "keep": "exp\\ab_fixed\\sea.html",
+      "keep_mtime": "2026-10-01 17:17:49",
+      "move_to_quarantine": [
+        "exp\\ab_theirs\\sea.html"
+      ],
+      "reclaim_bytes": 12544
+    },
+    {
+      "size": 12393,
+      "sha16": "93dce2e48f465ca7",
+      "n": 2,
+      "keep": "handshake\\unnamed-skill\\SKILL.md",
+      "keep_mtime": "2026-10-01 17:43:48",
+      "move_to_quarantine": [
+        "handshake\\dupcheck\\unnamed-skill__SKILL.md"
+      ],
+      "reclaim_bytes": 12393
+    },
+    {
+      "size": 6080,
+      "sha16": "7754705e7a5d66ab",
+      "n": 2,
+      "keep": "exp\\ab_fixed\\observe.html",
+      "keep_mtime": "2026-10-01 17:00:32",
+      "move_to_quarantine": [
+        "exp\\ab_theirs\\observe.html"
+      ],
+      "reclaim_bytes": 6080
+    },
+    {
+      "size": 5318,
+      "sha16": "3d0da41da7401a3a",
+      "n": 2,
+      "keep": "exp\\ab_fixed\\.well-known\\agent-card.json",
+      "keep_mtime": "2026-10-02 04:11:17",
+      "move_to_quarantine": [
+        "exp\\ab_theirs\\.well-known\\agent-card.json"
+      ],
+      "reclaim_bytes": 5318
+    },
+    {
+      "size": 5211,
+      "sha16": "0404bca9cf9e3e8d",
+      "n": 2,
+      "keep": "exp\\ab_fixed\\index.html",
+      "keep_mtime": "2026-10-01 16:59:42",
+      "move_to_quarantine": [
+        "exp\\ab_theirs\\index.html"
+      ],
+      "reclaim_bytes": 5211
+    },
+    {
+      "size": 4692,
+      "sha16": "08a94db18fe17123",
+      "n": 2,
+      "keep": "handshake\\qoder\\agent-card.json",
+      "keep_mtime": "2026-10-01 17:54:17",
+      "move_to_quarantine": [
+        "handshake\\qoder\\agent-card_live.json"
+      ],
+      "reclaim_bytes": 4692
+    },
+    {
+      "size": 4471,
+      "sha16": "f5c02eb453fd50ac",
+      "n": 2,
+      "keep": "exp\\gen_attest_fixed.mjs",
+      "keep_mtime": "2026-10-01 20:21:58",
+      "move_to_quarantine": [
+        "exp\\ab_fixed\\gen_attest_fixed.mjs"
+      ],
+      "reclaim_bytes": 4471
+    }
+  ],
+  "n_groups": 22,
+  "reclaim_bytes": 2269568,
+  "reclaim_mb": 2.164,
+  "executed": false,
+  "near_dup_groups": 0,
+  "near_dup_extra_bytes": 0,
+  "near_dup_note": "CRLF/LF 归一化后相同、字节不同 ⇒ **不属逐字重复，不得自动隔离**（承 DF-CCM §七）"
+}

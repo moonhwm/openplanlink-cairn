@@ -1,0 +1,113 @@
+{
+ "ts": "2026-10-12T16:31:46+0800",
+ "rows": [
+  {
+   "file": "_probe_uv_v7.glb",
+   "uv": true,
+   "images": 1,
+   "stats": {
+    "n": 844,
+    "umin": 0.0,
+    "umax": 0.9863,
+    "vmin": 0.0,
+    "vmax": 0.9729,
+    "span_u": 0.9863,
+    "span_v": 0.9729,
+    "in01": true,
+    "cells": 64,
+    "cells_of": 64,
+    "fill_ratio": 1.0
+   },
+   "criteria": {
+    "①存在 TEXCOORD_0": true,
+    "②u/v 在 [0,1]（±0.02）": true,
+    "③非退化（跨度 ≥0.1）": true,
+    "④覆盖密度 ≥8/64 格": true,
+    "★⑤重叠之面占比 ≤0.30（否则不可用于独立贴图）": false
+   },
+   "usable": false,
+   "overlap": {
+    "grid": 64,
+    "faces": 343,
+    "uv_area_sum": 0.3119,
+    "used_cells": 1125,
+    "multi_cells": 138,
+    "overlap_pixel_ratio": 0.1227,
+    "faces_touching_overlap": 160,
+    "face_overlap_ratio": 0.4665
+   }
+  },
+  {
+   "file": "_probe_uv_v7_g0.03.glb",
+   "uv": true,
+   "images": 1,
+   "stats": {
+    "n": 844,
+    "umin": 0.0,
+    "umax": 0.9695,
+    "vmin": 0.0,
+    "vmax": 0.9138,
+    "span_u": 0.9695,
+    "span_v": 0.9138,
+    "in01": true,
+    "cells": 62,
+    "cells_of": 64,
+    "fill_ratio": 0.969
+   },
+   "criteria": {
+    "①存在 TEXCOORD_0": true,
+    "②u/v 在 [0,1]（±0.02）": true,
+    "③非退化（跨度 ≥0.1）": true,
+    "④覆盖密度 ≥8/64 格": true,
+    "★⑤重叠之面占比 ≤0.30（否则不可用于独立贴图）": false
+   },
+   "usable": false,
+   "overlap": {
+    "grid": 64,
+    "faces": 234,
+    "uv_area_sum": 0.1139,
+    "used_cells": 414,
+    "multi_cells": 53,
+    "overlap_pixel_ratio": 0.128,
+    "faces_touching_overlap": 90,
+    "face_overlap_ratio": 0.3846
+   }
+  },
+  {
+   "file": "_probe_uv_v7_g0.05.glb",
+   "uv": true,
+   "images": 1,
+   "stats": {
+    "n": 844,
+    "umin": 0.0,
+    "umax": 0.949,
+    "vmin": 0.0,
+    "vmax": 0.8927,
+    "span_u": 0.949,
+    "span_v": 0.8927,
+    "in01": true,
+    "cells": 63,
+    "cells_of": 64,
+    "fill_ratio": 0.984
+   },
+   "criteria": {
+    "①存在 TEXCOORD_0": true,
+    "②u/v 在 [0,1]（±0.02）": true,
+    "③非退化（跨度 ≥0.1）": true,
+    "④覆盖密度 ≥8/64 格": true,
+    "★⑤重叠之面占比 ≤0.30（否则不可用于独立贴图）": true
+   },
+   "usable": true,
+   "overlap": {
+    "grid": 64,
+    "faces": 54,
+    "uv_area_sum": 0.0153,
+    "used_cells": 54,
+    "multi_cells": 5,
+    "overlap_pixel_ratio": 0.0926,
+    "faces_touching_overlap": 10,
+    "face_overlap_ratio": 0.1852
+   }
+  }
+ ]
+}

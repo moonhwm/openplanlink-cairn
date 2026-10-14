@@ -1,0 +1,149 @@
+{
+ "ts": "2026-10-12T16:23:54+0800",
+ "rows": [
+  {
+   "file": "CAIRN_staticLOD2_20261012.glb",
+   "uv": true,
+   "images": 1,
+   "stats": {
+    "n": 162,
+    "umin": 0.1662,
+    "umax": 1.0,
+    "vmin": 0.0,
+    "vmax": 0.9613,
+    "span_u": 0.8338,
+    "span_v": 0.9613,
+    "in01": true,
+    "cells": 33,
+    "cells_of": 64,
+    "fill_ratio": 0.516
+   },
+   "criteria": {
+    "①存在 TEXCOORD_0": true,
+    "②u/v 在 [0,1]（±0.02）": true,
+    "③非退化（跨度 ≥0.1）": true,
+    "④覆盖密度 ≥8/64 格": true,
+    "★⑤重叠之面占比 ≤0.30（否则不可用于独立贴图）": false
+   },
+   "usable": false,
+   "overlap": {
+    "grid": 64,
+    "faces": 344,
+    "uv_area_sum": 4.3444,
+    "used_cells": 1646,
+    "multi_cells": 1646,
+    "overlap_pixel_ratio": 1.0,
+    "faces_touching_overlap": 344,
+    "face_overlap_ratio": 1.0
+   }
+  },
+  {
+   "file": "_probe_uv_v2_a90.glb",
+   "uv": true,
+   "images": 1,
+   "stats": {
+    "n": 162,
+    "umin": 0.0,
+    "umax": 0.9912,
+    "vmin": 0.0,
+    "vmax": 0.9736,
+    "span_u": 0.9912,
+    "span_v": 0.9736,
+    "in01": true,
+    "cells": 44,
+    "cells_of": 64,
+    "fill_ratio": 0.688
+   },
+   "criteria": {
+    "①存在 TEXCOORD_0": true,
+    "②u/v 在 [0,1]（±0.02）": true,
+    "③非退化（跨度 ≥0.1）": true,
+    "④覆盖密度 ≥8/64 格": true,
+    "★⑤重叠之面占比 ≤0.30（否则不可用于独立贴图）": false
+   },
+   "usable": false,
+   "overlap": {
+    "grid": 64,
+    "faces": 343,
+    "uv_area_sum": 5.7778,
+    "used_cells": 2307,
+    "multi_cells": 2297,
+    "overlap_pixel_ratio": 0.9957,
+    "faces_touching_overlap": 342,
+    "face_overlap_ratio": 0.9971
+   }
+  },
+  {
+   "file": "_probe_uv_v2_a60.glb",
+   "uv": true,
+   "images": 1,
+   "stats": {
+    "n": 162,
+    "umin": 0.0,
+    "umax": 0.9887,
+    "vmin": 0.0,
+    "vmax": 0.9674,
+    "span_u": 0.9887,
+    "span_v": 0.9674,
+    "in01": true,
+    "cells": 39,
+    "cells_of": 64,
+    "fill_ratio": 0.609
+   },
+   "criteria": {
+    "①存在 TEXCOORD_0": true,
+    "②u/v 在 [0,1]（±0.02）": true,
+    "③非退化（跨度 ≥0.1）": true,
+    "④覆盖密度 ≥8/64 格": true,
+    "★⑤重叠之面占比 ≤0.30（否则不可用于独立贴图）": false
+   },
+   "usable": false,
+   "overlap": {
+    "grid": 64,
+    "faces": 348,
+    "uv_area_sum": 6.3363,
+    "used_cells": 2206,
+    "multi_cells": 2201,
+    "overlap_pixel_ratio": 0.9977,
+    "faces_touching_overlap": 348,
+    "face_overlap_ratio": 1.0
+   }
+  },
+  {
+   "file": "_probe_uv_v2_a30.glb",
+   "uv": true,
+   "images": 1,
+   "stats": {
+    "n": 162,
+    "umin": 0.0,
+    "umax": 0.9864,
+    "vmin": 0.0,
+    "vmax": 0.9403,
+    "span_u": 0.9864,
+    "span_v": 0.9403,
+    "in01": true,
+    "cells": 40,
+    "cells_of": 64,
+    "fill_ratio": 0.625
+   },
+   "criteria": {
+    "①存在 TEXCOORD_0": true,
+    "②u/v 在 [0,1]（±0.02）": true,
+    "③非退化（跨度 ≥0.1）": true,
+    "④覆盖密度 ≥8/64 格": true,
+    "★⑤重叠之面占比 ≤0.30（否则不可用于独立贴图）": false
+   },
+   "usable": false,
+   "overlap": {
+    "grid": 64,
+    "faces": 346,
+    "uv_area_sum": 5.2381,
+    "used_cells": 2054,
+    "multi_cells": 2048,
+    "overlap_pixel_ratio": 0.9971,
+    "faces_touching_overlap": 346,
+    "face_overlap_ratio": 1.0
+   }
+  }
+ ]
+}

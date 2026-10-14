@@ -1,0 +1,35 @@
+{
+ "ts": "2026-10-14T04:04:41+0800",
+ "rows": [
+  {
+   "ep": "在线推理",
+   "model": "hy3-preview",
+   "http": 400,
+   "ok": false,
+   "code": "400004"
+  },
+  {
+   "ep": "在线推理",
+   "model": "deepseek-v4-flash",
+   "http": 402,
+   "ok": false,
+   "code": "401008"
+  },
+  {
+   "ep": "在线推理",
+   "model": "glm-5.1",
+   "http": 200,
+   "ok": true,
+   "code": ""
+  }
+ ],
+ "good": [
+  {
+   "ep": "在线推理",
+   "model": "glm-5.1",
+   "http": 200,
+   "ok": true,
+   "code": ""
+  }
+ ]
+}

@@ -1,0 +1,77 @@
+{
+ "ts": "2026-10-12T16:19:37+0800",
+ "rows": [
+  {
+   "meshes": 1,
+   "primitives": 1,
+   "triangles": 1512,
+   "vertices": 836,
+   "materials": 1,
+   "images": 1,
+   "animations": 0,
+   "nodes": 1,
+   "file": "CAIRN_staticLOD0_20261012.glb",
+   "size_kb": 853.2
+  },
+  {
+   "meshes": 1,
+   "primitives": 1,
+   "triangles": 758,
+   "vertices": 351,
+   "materials": 1,
+   "images": 1,
+   "animations": 0,
+   "nodes": 1,
+   "file": "CAIRN_staticLOD1_20261012.glb",
+   "size_kb": 829.2
+  },
+  {
+   "meshes": 1,
+   "primitives": 1,
+   "triangles": 373,
+   "vertices": 162,
+   "materials": 1,
+   "images": 1,
+   "animations": 0,
+   "nodes": 1,
+   "file": "CAIRN_staticLOD2_20261012.glb",
+   "size_kb": 818.8
+  },
+  {
+   "meshes": 1,
+   "primitives": 1,
+   "triangles": 796,
+   "vertices": 456,
+   "materials": 0,
+   "images": 0,
+   "animations": 2,
+   "nodes": 18,
+   "file": "CAIRN_avatar_LOD0.glb",
+   "size_kb": 30.6
+  },
+  {
+   "meshes": 1,
+   "primitives": 1,
+   "triangles": 572,
+   "vertices": 344,
+   "materials": 0,
+   "images": 0,
+   "animations": 2,
+   "nodes": 18,
+   "file": "CAIRN_avatar_LOD1.glb",
+   "size_kb": 24.0
+  },
+  {
+   "meshes": 1,
+   "primitives": 1,
+   "triangles": 460,
+   "vertices": 288,
+   "materials": 0,
+   "images": 0,
+   "animations": 2,
+   "nodes": 18,
+   "file": "CAIRN_avatar_LOD2.glb",
+   "size_kb": 20.7
+  }
+ ]
+}

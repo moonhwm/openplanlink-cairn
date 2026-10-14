@@ -1,0 +1,17 @@
+{
+  "sampled_at": "2026-10-07 09:34:19",
+  "hours": 6.0,
+  "S1_unique_ids": 88,
+  "S2_content_commits": 47,
+  "N1_dup_copies": 0,
+  "N2_resign_commits": 51,
+  "N3_empty_commits": 0,
+  "S": 135,
+  "N": 51,
+  "snr": 0.7258,
+  "commits_by_author": {
+    "Cairn-Seat": 40,
+    "kimi-code-quantlab": 5,
+    "CH3CH2OH@hy3": 2
+  }
+}

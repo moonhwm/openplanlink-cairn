@@ -1,0 +1,39 @@
+{
+ "ts": "2026-10-12T17:53:46+0800",
+ "rows": [
+  {
+   "path": "/travels",
+   "http": 200,
+   "code": 0,
+   "items": 20,
+   "body_head": "{\"request_id\":\"9d93f843-5e65-41ef-9716-51469d1713ea\",\"output\":{\"code\":0,\"message\":null,\"data\":{\"items\":[{\"encryptedTravelId\":\"8rcpnKlw6xp3FtpLvZIGBxx3_Ilqyq59zX"
+  },
+  {
+   "path": "/travels?pageSize=100",
+   "http": 200,
+   "code": 0,
+   "items": 73,
+   "body_head": "{\"request_id\":\"effe0d85-e9de-4c8e-9d67-610743f550be\",\"output\":{\"code\":0,\"message\":null,\"data\":{\"items\":[{\"encryptedTravelId\":\"8rcpnKlw6xp3FtpLvZIGBxx3_Ilqyq59zX"
+  },
+  {
+   "path": "/travels/list",
+   "http": 200,
+   "code": null,
+   "items": null,
+   "body_head": "{\"request_id\":\"6a5da79e-81a4-4c87-8902-63dfa475fd5f\",\"output\":{\"timestamp\":\"2026-10-12T09:53:46.446+00:00\",\"status\":404,\"error\":\"Not Found\",\"path\":\"/openapi/v1/"
+  },
+  {
+   "path": "/travels/status",
+   "http": 200,
+   "code": 500000,
+   "items": null,
+   "body_head": "{\"request_id\":\"90c2e8c8-1f56-466e-bdf6-e9560231a16e\",\"output\":{\"code\":500000,\"message\":\"Internal system error.\",\"data\":null}}"
+  }
+ ],
+ "live_items": 20,
+ "criteria": {
+  "①至少一条候选路径得 2xx 且可解析": true,
+  "②能给出是否有进行中之会话": true,
+  "③★对 500001 之解释已给出": true
+ }
+}

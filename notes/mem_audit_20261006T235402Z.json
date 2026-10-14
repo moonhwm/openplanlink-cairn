@@ -1,0 +1,150 @@
+{
+  "generated_at_utc": "20261006T235402Z",
+  "memory": {
+    "total_mb": 16076.3,
+    "free_mb": 911.4,
+    "used_mb": 15164.9,
+    "free_pct": 5.7,
+    "used_pct": 94.3,
+    "commit_total_mb": 62369.1,
+    "commit_free_mb": 940.3
+  },
+  "pagefile": {
+    "allocated_mb": 46292,
+    "current_usage_mb": 11160,
+    "peak_usage_mb": 11242
+  },
+  "R_mem": {
+    "R_mem_mb": 374.7,
+    "mem_available_mb": 911.4,
+    "total_mb": 16076.3,
+    "M_floor_mb": 1286.1,
+    "thresholds_mb": {
+      "降并行度_0.5GB": 512.0,
+      "协办受理准入恢复线_0.8GB": 819.0,
+      "M_floor_8pct": 1286.1,
+      "填谷申请上限_可用减2GB": -1136.6
+    },
+    "breached": [
+      "M_floor 安全下限(8%)"
+    ],
+    "state": "低于安全下限",
+    "sampled_at_utc": "20261006T235402Z",
+    "口径": "本席按公开阈值推算（M_floor − MemAvailable）；规范层权威属 cpu-squeeze-c1 席，待其校准"
+  },
+  "top": [
+    {
+      "name": "Memory Compression",
+      "pid": 3888,
+      "ws_mb": 2299.6,
+      "pagefile_mb": 25.7,
+      "cpu_s": 2171.61
+    },
+    {
+      "name": "AgentKernel_Vscode_26_9_501_1_0_0-1151846206572736.exe",
+      "pid": 54320,
+      "ws_mb": 434.2,
+      "pagefile_mb": 1296.5,
+      "cpu_s": 332.92
+    },
+    {
+      "name": "Cursor.exe",
+      "pid": 61996,
+      "ws_mb": 321.4,
+      "pagefile_mb": 497.5,
+      "cpu_s": 64.3
+    },
+    {
+      "name": "ChatGPT.exe",
+      "pid": 18992,
+      "ws_mb": 296.4,
+      "pagefile_mb": 589.1,
+      "cpu_s": 235.88
+    },
+    {
+      "name": "Trae CN.exe",
+      "pid": 30224,
+      "ws_mb": 218.4,
+      "pagefile_mb": 328.1,
+      "cpu_s": 103.8
+    },
+    {
+      "name": "Qoder.exe",
+      "pid": 50636,
+      "ws_mb": 198.4,
+      "pagefile_mb": 288.4,
+      "cpu_s": 64.73
+    },
+    {
+      "name": "msedge.exe",
+      "pid": 46676,
+      "ws_mb": 176.4,
+      "pagefile_mb": 125.4,
+      "cpu_s": 3.52
+    },
+    {
+      "name": "mc-fw-host.exe",
+      "pid": 5512,
+      "ws_mb": 172.5,
+      "pagefile_mb": 1077.9,
+      "cpu_s": 5384.72
+    },
+    {
+      "name": "codex.exe",
+      "pid": 18836,
+      "ws_mb": 165.9,
+      "pagefile_mb": 221.3,
+      "cpu_s": 98.12
+    },
+    {
+      "name": "DeepSeek Harness.exe",
+      "pid": 50784,
+      "ws_mb": 164.5,
+      "pagefile_mb": 242.3,
+      "cpu_s": 298.52
+    },
+    {
+      "name": "codearts-agent.exe",
+      "pid": 47804,
+      "ws_mb": 163.1,
+      "pagefile_mb": 346.7,
+      "cpu_s": 47.34
+    },
+    {
+      "name": "codearts-agent.exe",
+      "pid": 52948,
+      "ws_mb": 130.2,
+      "pagefile_mb": 261.2,
+      "cpu_s": 113.27
+    },
+    {
+      "name": "ChatGPT.exe",
+      "pid": 36472,
+      "ws_mb": 123.1,
+      "pagefile_mb": 1076.7,
+      "cpu_s": 165.19
+    },
+    {
+      "name": "sandbox-cli-gc.exe",
+      "pid": 23784,
+      "ws_mb": 121.9,
+      "pagefile_mb": 136.1,
+      "cpu_s": 89.67
+    },
+    {
+      "name": "DeepSeek Harness.exe",
+      "pid": 42512,
+      "ws_mb": 120.5,
+      "pagefile_mb": 580.4,
+      "cpu_s": 78.75
+    }
+  ],
+  "candidates": [],
+  "candidate_ws_mb": 0,
+  "params": {
+    "min_ws_mb": 200.0,
+    "max_cpu_s": 10.0,
+    "top": 15
+  },
+  "note": "候选为启发式（工作集大且累计 CPU 少），不代表可安全处置；处置候安全运营中心裁定"
+}

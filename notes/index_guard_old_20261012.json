@@ -1,0 +1,19 @@
+{
+ "index": "section_index.json",
+ "sha16": "65d2a9dfaa0c224f",
+ "sections": 3126,
+ "docs": 385,
+ "has_tf": false,
+ "map_total": 87,
+ "map_hit": 41,
+ "map_consistency_pct": 47.13,
+ "index_mtime": 1791719695.9069185,
+ "newest_artifact_mtime": 1791787802.7502592,
+ "fresh": false,
+ "criteria": {
+  "①索引可读且含 sections": true,
+  "②tf 在场（免器空转）": false,
+  "③件号映射一致性 ≥95%（现 47%）": false,
+  "④索引不早于最新件": false
+ }
+}

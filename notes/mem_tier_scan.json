@@ -1,0 +1,266 @@
+{
+  "sampled_at": "2026-10-07 09:27:07",
+  "tiers": {
+    "层-未分": {
+      "n": 75,
+      "bytes": 8332539
+    },
+    "层-冷": {
+      "n": 2625,
+      "bytes": 95518496
+    },
+    "层-热": {
+      "n": 1535,
+      "bytes": 10384603
+    },
+    "层-温": {
+      "n": 204,
+      "bytes": 2351021
+    }
+  },
+  "cold_share_pct": 81.93,
+  "dup_groups": 22,
+  "dup_wasted_bytes": 2269568,
+  "samples": [
+    {
+      "tier": "层-冷",
+      "rel": "handshake\\qoder-skills-hub\\hub-main.tar.gz",
+      "size": 35486836,
+      "age_days": 5.6
+    },
+    {
+      "tier": "层-冷",
+      "rel": "handshake\\qoder-skills-hub\\tree\\qoder-skills-hub-main\\k3-everything-archive\\output\\宇树科技×金发科技（600143）走势洞察报告.pdf",
+      "size": 10038983,
+      "age_days": 8.8
+    },
+    {
+      "tier": "层-冷",
+      "rel": "handshake\\qoder-skills-hub\\tree\\qoder-skills-hub-main\\k3-everything-archive\\output\\300171_iteration\\data\\h1_2026_full.pdf",
+      "size": 4318633,
+      "age_days": 8.8
+    },
+    {
+      "tier": "层-冷",
+      "rel": "handshake\\qoder-skills-hub\\tree\\qoder-skills-hub-main\\k3-everything-archive\\output\\report_assets\\cover.png",
+      "size": 2640861,
+      "age_days": 8.8
+    },
+    {
+      "tier": "层-冷",
+      "rel": "handshake\\微信文_raw.html",
+      "size": 2604495,
+      "age_days": 5.6
+    },
+    {
+      "tier": "层-热",
+      "rel": "ledger\\frontier_ledger.jsonl",
+      "size": 2386241,
+      "age_days": 0.0
+    },
+    {
+      "tier": "层-冷",
+      "rel": "handshake\\qoder-skills-hub\\tree\\qoder-skills-hub-main\\k3-everything-archive\\output\\report_assets\\divider.png",
+      "size": 2159318,
+      "age_days": 8.8
+    },
+    {
+      "tier": "层-未分",
+      "rel": "inbox\\20260929_机主投件\\原件\\2026-9-25-OpenPlanLink 润色-1 参考附录.docx",
+      "size": 1962978,
+      "age_days": 7.5
+    },
+    {
+      "tier": "层-冷",
+      "rel": "handshake\\opl-mirror-main.tar.gz",
+      "size": 1745306,
+      "age_days": 5.7
+    },
+    {
+      "tier": "层-未分",
+      "rel": "inbox\\20260929_机主投件\\原件\\2026-9-25-OpenPlanLink 润色-1 (3).docx",
+      "size": 1616069,
+      "age_days": 7.5
+    },
+    {
+      "tier": "层-未分",
+      "rel": "inbox\\20260929_机主投件\\底稿\\2026-9-25-OpenPlanLink 润色-1 参考附录.txt",
+      "size": 1316336,
+      "age_days": 7.5
+    },
+    {
+      "tier": "层-冷",
+      "rel": "handshake\\qoder-skills-hub\\tree\\qoder-skills-hub-main\\k3-everything-archive\\output\\docx_out_ai\\ai_physics_sectors.docx.work.footnote.docx",
+      "size": 1010323,
+      "age_days": 8.8
+    },
+    {
+      "tier": "层-冷",
+      "rel": "handshake\\qoder-skills-hub\\tree\\qoder-skills-hub-main\\k3-everything-archive\\upload\\skill-iteration-registry\\蜂群消耗台账.jsonl",
+      "size": 946622,
+      "age_days": 8.8
+    },
+    {
+      "tier": "层-冷",
+      "rel": "handshake\\qoder-skills-hub\\tree\\qoder-skills-hub-main\\k3-everything-archive\\output\\docx_out_ai\\ai_physics_sectors.agent.final.footnote.docx",
+      "size": 906077,
+      "age_days": 8.8
+    },
+    {
+      "tier": "层-冷",
+      "rel": "handshake\\qoder-skills-hub\\tree\\qoder-skills-hub-main\\k3-everything-archive\\mcp\\lark\\skills\\lark-slides\\references\\iconpark-index.json",
+      "size": 835663,
+      "age_days": 8.8
+    },
+    {
+      "tier": "层-冷",
+      "rel": "handshake\\qoder-skills-hub\\tree\\qoder-skills-hub-main\\k3-everything-archive\\output\\maga_pilot_20260902\\mass1000\\mass1000.jsonl",
+      "size": 826368,
+      "age_days": 8.8
+    },
+    {
+      "tier": "层-热",
+      "rel": "exp\\ab_fixed\\a2a-architecture.html",
+      "size": 819974,
+      "age_days": 5.7
+    },
+    {
+      "tier": "层-热",
+      "rel": "exp\\ab_theirs\\a2a-architecture.html",
+      "size": 819974,
+      "age_days": 5.7
+    },
+    {
+      "tier": "层-冷",
+      "rel": "handshake\\qoder-skills-hub\\tree\\qoder-skills-hub-main\\k3-everything-archive\\output\\AI物理工程化应用板块图谱研报.docx",
+      "size": 787381,
+      "age_days": 8.8
+    },
+    {
+      "tier": "层-冷",
+      "rel": "handshake\\qoder-skills-hub\\tree\\qoder-skills-hub-main\\k3-everything-archive\\output\\maga_pilot_20260902\\referendum3000\\referendum3000.jsonl",
+      "size": 786059,
+      "age_days": 8.8
+    },
+    {
+      "tier": "层-冷",
+      "rel": "handshake\\qoder-skills-hub\\tree\\qoder-skills-hub-main\\k3-everything-archive\\output\\docx_out_ai\\ai_physics_sectors.docx.work.base.docx",
+      "size": 784623,
+      "age_days": 8.8
+    },
+    {
+      "tier": "层-冷",
+      "rel": "handshake\\qoder-skills-hub\\tree\\qoder-skills-hub-main\\k3-everything-archive\\output\\data\\honghua_bid_p2.csv",
+      "size": 729880,
+      "age_days": 8.8
+    },
+    {
+      "tier": "层-冷",
+      "rel": "handshake\\qoder-skills-hub\\tree\\qoder-skills-hub-main\\k3-everything-archive\\output\\docx_out_ai\\ai_physics_sectors.agent.final.base.docx",
+      "size": 698289,
+      "age_days": 8.8
+    },
+    {
+      "tier": "层-温",
+      "rel": "outbox\\种子包_cairn-dsh_20261001\\ledger\\frontier_ledger.jsonl",
+      "size": 691179,
+      "age_days": 5.5
+    },
+    {
+      "tier": "层-冷",
+      "rel": "handshake\\qoder-skills-hub\\MERKLE.json",
+      "size": 627272,
+      "age_days": 5.6
+    },
+    {
+      "tier": "层-冷",
+      "rel": "handshake\\qoder-skills-hub\\tree\\qoder-skills-hub-main\\k3-everything-archive\\output\\tyc\\bidding.csv",
+      "size": 559171,
+      "age_days": 8.8
+    },
+    {
+      "tier": "层-冷",
+      "rel": "handshake\\qoder-skills-hub\\tree\\qoder-skills-hub-main\\k3-everything-archive\\output\\research\\ifind_csv\\wind_ann_300171_h1.csv",
+      "size": 513259,
+      "age_days": 8.8
+    },
+    {
+      "tier": "层-冷",
+      "rel": "handshake\\qoder-skills-hub\\tree\\qoder-skills-hub-main\\k3-everything-archive\\output\\消费电子行业研报暨奋达科技002681反转研判.docx",
+      "size": 501631,
+      "age_days": 8.8
+    },
+    {
+      "tier": "层-冷",
+      "rel": "handshake\\qoder-skills-hub\\tree\\qoder-skills-hub-main\\k3-everything-archive\\output\\300171_iteration\\site\\qa_cover.png",
+      "size": 399161,
+      "age_days": 8.8
+    },
+    {
+      "tier": "层-热",
+      "rel": "exp\\_forge_test_1000.jsonl",
+      "size": 355555,
+      "age_days": 7.5
+    },
+    {
+      "tier": "层-热",
+      "rel": "exp\\_seat-naming-ops_v1.0\\seat-naming-ops\\assets\\sample-bank-1000.jsonl",
+      "size": 353374,
+      "age_days": 7.5
+    },
+    {
+      "tier": "层-冷",
+      "rel": "handshake\\qoder-skills-hub\\tree\\qoder-skills-hub-main\\k3-everything-archive\\output\\research\\ifind_csv\\wind_ann_600587_h1.csv",
+      "size": 352571,
+      "age_days": 8.8
+    },
+    {
+      "tier": "层-未分",
+      "rel": "inbox\\20260929_机主投件\\媒体\\2026-9-25-OpenPlanLink 润色-1 (3)\\image2.png",
+      "size": 302565,
+      "age_days": 7.5
+    },
+    {
+      "tier": "层-冷",
+      "rel": "handshake\\qoder-skills-hub\\index\\all_paths.tsv",
+      "size": 287350,
+      "age_days": 5.6
+    },
+    {
+      "tier": "层-未分",
+      "rel": "inbox\\20260929_机主投件\\底稿\\2026-9-25-OpenPlanLink 润色-1 (3).txt",
+      "size": 272087,
+      "age_days": 7.5
+    },
+    {
+      "tier": "层-未分",
+      "rel": "inbox\\20260929_机主投件\\底稿\\2026-9-25-OpenPlanLink 润色-1 (3).txt.regen-new",
+      "size": 272087,
+      "age_days": 7.5
+    },
+    {
+      "tier": "层-冷",
+      "rel": "handshake\\qoder-skills-hub\\tree\\qoder-skills-hub-main\\k3-everything-archive\\mcp\\lark\\skills\\lark-slides\\assets\\templates\\office--work_summary.xml",
+      "size": 219825,
+      "age_days": 8.8
+    },
+    {
+      "tier": "层-冷",
+      "rel": "handshake\\qoder-skills-hub\\tree\\qoder-skills-hub-main\\k3-everything-archive\\output\\research\\industry\\xhcj_hotnews.json",
+      "size": 215284,
+      "age_days": 8.8
+    },
+    {
+      "tier": "层-未分",
+      "rel": "inbox\\20260929_机主投件\\媒体\\2026-9-25-OpenPlanLink 润色-1 (3)\\image3.jpeg",
+      "size": 210818,
+      "age_days": 7.5
+    },
+    {
+      "tier": "层-冷",
+      "rel": "handshake\\qoder-skills-hub\\tree\\qoder-skills-hub-main\\k3-everything-archive\\mcp\\lark\\skills\\lark-slides\\assets\\templates\\misc--club_event_plan.xml",
+      "size": 209311,
+      "age_days": 8.8
+    }
+  ]
+}

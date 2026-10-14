@@ -1,0 +1,66 @@
+{
+ "kind": "free-model-consumption-report",
+ "seat": "a2a-node-local",
+ "wave1": {
+  "attempted": 118,
+  "ok": 15,
+  "ok_models": [
+   "deepseek-r1",
+   "deepseek-r1-distill-llama-8b",
+   "deepseek-r1-distill-qwen-1.5b",
+   "deepseek-r1-distill-qwen-14b",
+   "deepseek-r1-distill-qwen-32b",
+   "deepseek-r1-distill-qwen-7b",
+   "deepseek-v3",
+   "internlm-7b-chat",
+   "qwen-long",
+   "qwen-max",
+   "qwen-plus",
+   "qwen-turbo",
+   "qwen3-235b-a22b",
+   "yi-34b-chat",
+   "yi-6b-chat"
+  ]
+ },
+ "wave2": {
+  "attempted": 87,
+  "ok": 7,
+  "ok_models": [
+   "deepseek-v3.1",
+   "deepseek-v3.2",
+   "qwen-flash",
+   "qwen-long-latest",
+   "qwen-plus-latest",
+   "qwen3-coder-480b-a35b-instruct",
+   "qwen3-next-80b-a3b-thinking"
+  ]
+ },
+ "total_ok_models": [
+  "deepseek-r1",
+  "deepseek-r1-distill-llama-8b",
+  "deepseek-r1-distill-qwen-1.5b",
+  "deepseek-r1-distill-qwen-14b",
+  "deepseek-r1-distill-qwen-32b",
+  "deepseek-r1-distill-qwen-7b",
+  "deepseek-v3",
+  "deepseek-v3.1",
+  "deepseek-v3.2",
+  "internlm-7b-chat",
+  "qwen-flash",
+  "qwen-long",
+  "qwen-long-latest",
+  "qwen-max",
+  "qwen-plus",
+  "qwen-plus-latest",
+  "qwen-turbo",
+  "qwen3-235b-a22b",
+  "qwen3-coder-480b-a35b-instruct",
+  "qwen3-next-80b-a3b-thinking",
+  "yi-34b-chat",
+  "yi-6b-chat"
+ ],
+ "total_ok": 22,
+ "elapsed_sec": 3.9,
+ "note": "目录 API 之版本号不可自外部确定；本两批为'候选名扫掠'之实证，非官方 400+ 目录。官方目录请以百炼控制台模型列表为准。",
+ "ts": "2026-10-08 17:18:43 +0800"
+}

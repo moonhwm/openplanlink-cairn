@@ -1,0 +1,207 @@
+{
+ "ts": "2026-10-12T18:09:09+0800",
+ "rows": [
+  {
+   "tool": "emb_cache.py",
+   "rc_help": 0,
+   "rc_mode": 0,
+   "note": "   ★判：自述层（e302s_）为新增；★旧档一律未动（只增不改）",
+   "ok": true
+  },
+  {
+   "tool": "vec_index.py",
+   "rc_help": 0,
+   "rc_mode": 0,
+   "note": "   ⇒ 判：★dry-run（未调用任何 API；零费用）—— 真跑须 --run --budget-max <元>",
+   "ok": true
+  },
+  {
+   "tool": "b_ext_eval.py",
+   "rc_help": 0,
+   "rc_mode": null,
+   "note": "",
+   "ok": true
+  },
+  {
+   "tool": "b_doc_eval.py",
+   "rc_help": 0,
+   "rc_mode": null,
+   "note": "",
+   "ok": true
+  },
+  {
+   "tool": "b_doc_dense_eval.py",
+   "rc_help": 0,
+   "rc_mode": null,
+   "note": "",
+   "ok": true
+  },
+  {
+   "tool": "b_doc_routers_eval.py",
+   "rc_help": 0,
+   "rc_mode": null,
+   "note": "",
+   "ok": true
+  },
+  {
+   "tool": "two_track_search.py",
+   "rc_help": 0,
+   "rc_mode": null,
+   "note": "",
+   "ok": true
+  },
+  {
+   "tool": "index_union.py",
+   "rc_help": 0,
+   "rc_mode": null,
+   "note": "",
+   "ok": true
+  },
+  {
+   "tool": "archive_realchange_scan.py",
+   "rc_help": 0,
+   "rc_mode": null,
+   "note": "",
+   "ok": true
+  },
+  {
+   "tool": "doc_change_triage.py",
+   "rc_help": 0,
+   "rc_mode": null,
+   "note": "",
+   "ok": true
+  },
+  {
+   "tool": "section_diff_normalized.py",
+   "rc_help": 0,
+   "rc_mode": null,
+   "note": "",
+   "ok": true
+  },
+  {
+   "tool": "refresh_triage.py",
+   "rc_help": 0,
+   "rc_mode": null,
+   "note": "",
+   "ok": true
+  },
+  {
+   "tool": "tools_registry_refresh.py",
+   "rc_help": 0,
+   "rc_mode": null,
+   "note": "",
+   "ok": true
+  },
+  {
+   "tool": "paraphrase_queries.py",
+   "rc_help": 0,
+   "rc_mode": null,
+   "note": "",
+   "ok": true
+  },
+  {
+   "tool": "paraphrase_bm25_eval.py",
+   "rc_help": 0,
+   "rc_mode": null,
+   "note": "",
+   "ok": true
+  },
+  {
+   "tool": "wm_domain_probe.py",
+   "rc_help": 0,
+   "rc_mode": null,
+   "note": "",
+   "ok": true
+  },
+  {
+   "tool": "wm_ticket_probe_ws.py",
+   "rc_help": 0,
+   "rc_mode": null,
+   "note": "",
+   "ok": true
+  },
+  {
+   "tool": "wm_worlds_list.py",
+   "rc_help": 0,
+   "rc_mode": null,
+   "note": "",
+   "ok": true
+  },
+  {
+   "tool": "wm_worlds_dump.py",
+   "rc_help": 0,
+   "rc_mode": null,
+   "note": "",
+   "ok": true
+  },
+  {
+   "tool": "wm_world_inspect.py",
+   "rc_help": 0,
+   "rc_mode": null,
+   "note": "",
+   "ok": true
+  },
+  {
+   "tool": "wm_min_instruct.py",
+   "rc_help": 0,
+   "rc_mode": null,
+   "note": "",
+   "ok": true
+  },
+  {
+   "tool": "wm_travels_probe.py",
+   "rc_help": 0,
+   "rc_mode": null,
+   "note": "",
+   "ok": true
+  },
+  {
+   "tool": "wm_travels_dump.py",
+   "rc_help": 0,
+   "rc_mode": null,
+   "note": "",
+   "ok": true
+  },
+  {
+   "tool": "docname_boost_eval.py",
+   "rc_help": 0,
+   "rc_mode": null,
+   "note": "",
+   "ok": true
+  },
+  {
+   "tool": "cooc_expand_eval.py",
+   "rc_help": 0,
+   "rc_mode": null,
+   "note": "",
+   "ok": true
+  },
+  {
+   "tool": "retrieval_v2.py",
+   "rc_help": 0,
+   "rc_mode": null,
+   "note": "",
+   "ok": true
+  },
+  {
+   "tool": "quote_lint.py",
+   "rc_help": 0,
+   "rc_mode": null,
+   "note": "",
+   "ok": true
+  },
+  {
+   "tool": "misquote_lint.py",
+   "rc_help": 0,
+   "rc_mode": null,
+   "note": "",
+   "ok": true
+  }
+ ],
+ "bad": [],
+ "criteria": {
+  "①受检器物 ≥1": true,
+  "②每器皆给出退出码": true,
+  "③★失败者逐条列出": true
+ }
+}

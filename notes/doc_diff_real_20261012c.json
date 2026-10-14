@@ -1,0 +1,107 @@
+[
+ {
+  "doc": "kd_McccFi",
+  "a": "20261012_1244",
+  "b": "20261012_1319",
+  "lines": [
+   202,
+   0
+  ],
+  "diff_lines": 0,
+  "url_only_lines": 0,
+  "real_lines": 0,
+  "char_delta": -37472,
+  "char_delta_nourl": -28335,
+  "real_samples": []
+ },
+ {
+  "doc": "kd_PoRdSw",
+  "a": "20261012_1244",
+  "b": "20261012_1319",
+  "lines": [
+   1577,
+   0
+  ],
+  "diff_lines": 0,
+  "url_only_lines": 0,
+  "real_lines": 0,
+  "char_delta": -259526,
+  "char_delta_nourl": -154168,
+  "real_samples": []
+ },
+ {
+  "doc": "kd_lGgqkZ",
+  "a": "20261012_1246",
+  "b": "20261012_1321",
+  "lines": [
+   166,
+   166
+  ],
+  "diff_lines": 48,
+  "url_only_lines": 48,
+  "real_lines": 0,
+  "char_delta": 14,
+  "char_delta_nourl": 0,
+  "real_samples": []
+ },
+ {
+  "doc": "kd_sbZsGm",
+  "a": "20261012_1245",
+  "b": "20261012_1319",
+  "lines": [
+   5624,
+   5624
+  ],
+  "diff_lines": 111,
+  "url_only_lines": 111,
+  "real_lines": 0,
+  "char_delta": -64,
+  "char_delta_nourl": 0,
+  "real_samples": []
+ },
+ {
+  "doc": "kd_ybW2gm",
+  "a": "20261011_0529",
+  "b": "20261012_1320",
+  "lines": [
+   47,
+   0
+  ],
+  "diff_lines": 0,
+  "url_only_lines": 0,
+  "real_lines": 0,
+  "char_delta": -13282,
+  "char_delta_nourl": -8008,
+  "real_samples": []
+ },
+ {
+  "doc": "outline",
+  "a": "20261012_1319",
+  "b": "20261012_1321",
+  "lines": [
+   0,
+   0
+  ],
+  "diff_lines": 0,
+  "url_only_lines": 0,
+  "real_lines": 0,
+  "char_delta": 0,
+  "char_delta_nourl": 0,
+  "real_samples": []
+ },
+ {
+  "doc": "polish",
+  "a": "20261012_1319",
+  "b": "20261012_1321",
+  "lines": [
+   0,
+   0
+  ],
+  "diff_lines": 0,
+  "url_only_lines": 0,
+  "real_lines": 0,
+  "char_delta": 0,
+  "char_delta_nourl": 0,
+  "real_samples": []
+ }
+]

@@ -1,0 +1,2323 @@
+{
+ "audited_at": "2026-10-12 18:11:19 +08",
+ "scope": "exp/*.py",
+ "metric": "mentions-in-ledger+events(proxy)",
+ "rows": [
+  {
+   "tool": "push_gate.py",
+   "mentions": 287,
+   "verdict": "在用"
+  },
+  {
+   "tool": "a2a_node.py",
+   "mentions": 112,
+   "verdict": "在用"
+  },
+  {
+   "tool": "pub_safe.py",
+   "mentions": 110,
+   "verdict": "在用"
+  },
+  {
+   "tool": "netguard.py",
+   "mentions": 97,
+   "verdict": "在用"
+  },
+  {
+   "tool": "mkled.py",
+   "mentions": 92,
+   "verdict": "在用"
+  },
+  {
+   "tool": "seek.py",
+   "mentions": 91,
+   "verdict": "在用"
+  },
+  {
+   "tool": "tool_hygiene.py",
+   "mentions": 91,
+   "verdict": "在用"
+  },
+  {
+   "tool": "verify_seat_location.py",
+   "mentions": 85,
+   "verdict": "在用"
+  },
+  {
+   "tool": "blast_radius.py",
+   "mentions": 66,
+   "verdict": "在用"
+  },
+  {
+   "tool": "meow_push.py",
+   "mentions": 64,
+   "verdict": "在用"
+  },
+  {
+   "tool": "emit_closing_block.py",
+   "mentions": 55,
+   "verdict": "在用"
+  },
+  {
+   "tool": "auth_policy.py",
+   "mentions": 54,
+   "verdict": "在用"
+  },
+  {
+   "tool": "daily_nine_audit.py",
+   "mentions": 53,
+   "verdict": "在用"
+  },
+  {
+   "tool": "decision_model.py",
+   "mentions": 52,
+   "verdict": "在用"
+  },
+  {
+   "tool": "auth_split.py",
+   "mentions": 50,
+   "verdict": "在用"
+  },
+  {
+   "tool": "channels.py",
+   "mentions": 49,
+   "verdict": "在用"
+  },
+  {
+   "tool": "termtable.py",
+   "mentions": 49,
+   "verdict": "在用"
+  },
+  {
+   "tool": "verify_peer_kit.py",
+   "mentions": 49,
+   "verdict": "在用"
+  },
+  {
+   "tool": "sop_check.py",
+   "mentions": 48,
+   "verdict": "在用"
+  },
+  {
+   "tool": "pilot_publish.py",
+   "mentions": 47,
+   "verdict": "在用"
+  },
+  {
+   "tool": "push_all.py",
+   "mentions": 47,
+   "verdict": "在用"
+  },
+  {
+   "tool": "doc_refresh.py",
+   "mentions": 46,
+   "verdict": "在用"
+  },
+  {
+   "tool": "forge_demo.py",
+   "mentions": 46,
+   "verdict": "在用"
+  },
+  {
+   "tool": "a2a_hmac.py",
+   "mentions": 45,
+   "verdict": "在用"
+  },
+  {
+   "tool": "verify_recipe.py",
+   "mentions": 45,
+   "verdict": "在用"
+  },
+  {
+   "tool": "neg_control_seat_location.py",
+   "mentions": 43,
+   "verdict": "在用"
+  },
+  {
+   "tool": "scan_secrets.py",
+   "mentions": 43,
+   "verdict": "在用"
+  },
+  {
+   "tool": "wall_guard.py",
+   "mentions": 41,
+   "verdict": "在用"
+  },
+  {
+   "tool": "verify_opl_tree.py",
+   "mentions": 40,
+   "verdict": "在用"
+  },
+  {
+   "tool": "bom_seal.py",
+   "mentions": 37,
+   "verdict": "在用"
+  },
+  {
+   "tool": "burn_daemon.py",
+   "mentions": 35,
+   "verdict": "在用"
+  },
+  {
+   "tool": "daily_nine_audit_20261010.py",
+   "mentions": 34,
+   "verdict": "在用"
+  },
+  {
+   "tool": "window_close_record.py",
+   "mentions": 34,
+   "verdict": "在用"
+  },
+  {
+   "tool": "seed_verify.py",
+   "mentions": 33,
+   "verdict": "在用"
+  },
+  {
+   "tool": "spinal_bridge.py",
+   "mentions": 33,
+   "verdict": "在用"
+  },
+  {
+   "tool": "ask_self.py",
+   "mentions": 32,
+   "verdict": "在用"
+  },
+  {
+   "tool": "edit_declaration.py",
+   "mentions": 32,
+   "verdict": "在用"
+  },
+  {
+   "tool": "index_guard.py",
+   "mentions": 32,
+   "verdict": "在用"
+  },
+  {
+   "tool": "lint_cn_quotes.py",
+   "mentions": 32,
+   "verdict": "在用"
+  },
+  {
+   "tool": "robots_gate.py",
+   "mentions": 32,
+   "verdict": "在用"
+  },
+  {
+   "tool": "sig_block.py",
+   "mentions": 31,
+   "verdict": "在用"
+  },
+  {
+   "tool": "bus_dlq.py",
+   "mentions": 30,
+   "verdict": "在用"
+  },
+  {
+   "tool": "proto.py",
+   "mentions": 30,
+   "verdict": "在用"
+  },
+  {
+   "tool": "retrieval_eval.py",
+   "mentions": 30,
+   "verdict": "在用"
+  },
+  {
+   "tool": "perm.py",
+   "mentions": 29,
+   "verdict": "在用"
+  },
+  {
+   "tool": "smoke_pipeline.py",
+   "mentions": 29,
+   "verdict": "在用"
+  },
+  {
+   "tool": "blindspot_trials.py",
+   "mentions": 28,
+   "verdict": "在用"
+  },
+  {
+   "tool": "verify_playbook.py",
+   "mentions": 28,
+   "verdict": "在用"
+  },
+  {
+   "tool": "wm_create_generic.py",
+   "mentions": 28,
+   "verdict": "在用"
+  },
+  {
+   "tool": "check_claims.py",
+   "mentions": 27,
+   "verdict": "在用"
+  },
+  {
+   "tool": "contract_check.py",
+   "mentions": 27,
+   "verdict": "在用"
+  },
+  {
+   "tool": "topology.py",
+   "mentions": 27,
+   "verdict": "在用"
+  },
+  {
+   "tool": "doc_archive.py",
+   "mentions": 26,
+   "verdict": "在用"
+  },
+  {
+   "tool": "sig_verify.py",
+   "mentions": 26,
+   "verdict": "在用"
+  },
+  {
+   "tool": "seed_render.py",
+   "mentions": 24,
+   "verdict": "在用"
+  },
+  {
+   "tool": "clock_stamp.py",
+   "mentions": 23,
+   "verdict": "在用"
+  },
+  {
+   "tool": "emit_lockpin.py",
+   "mentions": 23,
+   "verdict": "在用"
+  },
+  {
+   "tool": "virtue_audit.py",
+   "mentions": 23,
+   "verdict": "在用"
+  },
+  {
+   "tool": "probe_guard_hole.py",
+   "mentions": 21,
+   "verdict": "在用"
+  },
+  {
+   "tool": "quota_wall.py",
+   "mentions": 21,
+   "verdict": "在用"
+  },
+  {
+   "tool": "stamp_time.py",
+   "mentions": 21,
+   "verdict": "在用"
+  },
+  {
+   "tool": "tempguard.py",
+   "mentions": 21,
+   "verdict": "在用"
+  },
+  {
+   "tool": "check_closing_append.py",
+   "mentions": 20,
+   "verdict": "在用"
+  },
+  {
+   "tool": "umc.py",
+   "mentions": 20,
+   "verdict": "在用"
+  },
+  {
+   "tool": "doc_diff_real.py",
+   "mentions": 19,
+   "verdict": "在用"
+  },
+  {
+   "tool": "emb_cache.py",
+   "mentions": 19,
+   "verdict": "在用"
+  },
+  {
+   "tool": "open_access.py",
+   "mentions": 19,
+   "verdict": "在用"
+  },
+  {
+   "tool": "proc_watchdog.py",
+   "mentions": 19,
+   "verdict": "在用"
+  },
+  {
+   "tool": "resume_on_gate_open.py",
+   "mentions": 19,
+   "verdict": "在用"
+  },
+  {
+   "tool": "search_route.py",
+   "mentions": 19,
+   "verdict": "在用"
+  },
+  {
+   "tool": "test_a2a_hmac.py",
+   "mentions": 19,
+   "verdict": "在用"
+  },
+  {
+   "tool": "audit_blast_transitivity.py",
+   "mentions": 18,
+   "verdict": "在用"
+  },
+  {
+   "tool": "audit_orphans.py",
+   "mentions": 18,
+   "verdict": "在用"
+  },
+  {
+   "tool": "decision_model_api.py",
+   "mentions": 18,
+   "verdict": "在用"
+  },
+  {
+   "tool": "eff_report.py",
+   "mentions": 18,
+   "verdict": "在用"
+  },
+  {
+   "tool": "section_search.py",
+   "mentions": 18,
+   "verdict": "在用"
+  },
+  {
+   "tool": "semantic_search.py",
+   "mentions": 18,
+   "verdict": "在用"
+  },
+  {
+   "tool": "avatar_render.py",
+   "mentions": 17,
+   "verdict": "在用"
+  },
+  {
+   "tool": "decision_rerank.py",
+   "mentions": 17,
+   "verdict": "在用"
+  },
+  {
+   "tool": "decision_vector_rerank.py",
+   "mentions": 17,
+   "verdict": "在用"
+  },
+  {
+   "tool": "ignition_gate.py",
+   "mentions": 17,
+   "verdict": "在用"
+  },
+  {
+   "tool": "skill_evolve.py",
+   "mentions": 17,
+   "verdict": "在用"
+  },
+  {
+   "tool": "audit_filters.py",
+   "mentions": 16,
+   "verdict": "在用"
+  },
+  {
+   "tool": "glb_make_cairn.py",
+   "mentions": 16,
+   "verdict": "在用"
+  },
+  {
+   "tool": "hetero_models.py",
+   "mentions": 16,
+   "verdict": "在用"
+  },
+  {
+   "tool": "missing_inventory.py",
+   "mentions": 16,
+   "verdict": "在用"
+  },
+  {
+   "tool": "vec_index.py",
+   "mentions": 16,
+   "verdict": "在用"
+  },
+  {
+   "tool": "ai302_cross_review.py",
+   "mentions": 15,
+   "verdict": "在用"
+  },
+  {
+   "tool": "audit_argument_arc.py",
+   "mentions": 15,
+   "verdict": "在用"
+  },
+  {
+   "tool": "avatar_lod_make.py",
+   "mentions": 15,
+   "verdict": "在用"
+  },
+  {
+   "tool": "totp.py",
+   "mentions": 15,
+   "verdict": "在用"
+  },
+  {
+   "tool": "ab_test_fixed.py",
+   "mentions": 14,
+   "verdict": "在用"
+  },
+  {
+   "tool": "audit_deferrals.py",
+   "mentions": 14,
+   "verdict": "在用"
+  },
+  {
+   "tool": "avatar_walk_v6b.py",
+   "mentions": 14,
+   "verdict": "在用"
+  },
+  {
+   "tool": "cold_pack.py",
+   "mentions": 14,
+   "verdict": "在用"
+  },
+  {
+   "tool": "index_switch.py",
+   "mentions": 14,
+   "verdict": "在用"
+  },
+  {
+   "tool": "intake_20260929.py",
+   "mentions": 14,
+   "verdict": "在用"
+  },
+  {
+   "tool": "live_state_loop.py",
+   "mentions": 14,
+   "verdict": "在用"
+  },
+  {
+   "tool": "smoke_none_tools.py",
+   "mentions": 14,
+   "verdict": "在用"
+  },
+  {
+   "tool": "test_a2a_node.py",
+   "mentions": 14,
+   "verdict": "在用"
+  },
+  {
+   "tool": "verify_gateway_spec.py",
+   "mentions": 14,
+   "verdict": "在用"
+  },
+  {
+   "tool": "verify_opl_attest.py",
+   "mentions": 14,
+   "verdict": "在用"
+  },
+  {
+   "tool": "wall_coverage.py",
+   "mentions": 14,
+   "verdict": "在用"
+  },
+  {
+   "tool": "wm_get_ticket.py",
+   "mentions": 14,
+   "verdict": "在用"
+  },
+  {
+   "tool": "audit_delete_guards.py",
+   "mentions": 13,
+   "verdict": "在用"
+  },
+  {
+   "tool": "gen_status_feed.py",
+   "mentions": 13,
+   "verdict": "在用"
+  },
+  {
+   "tool": "panel_loop_demo.py",
+   "mentions": 13,
+   "verdict": "在用"
+  },
+  {
+   "tool": "avatar_lod_make_v2.py",
+   "mentions": 12,
+   "verdict": "在用"
+  },
+  {
+   "tool": "build_opl_tree.py",
+   "mentions": 12,
+   "verdict": "在用"
+  },
+  {
+   "tool": "disclosure_scan.py",
+   "mentions": 12,
+   "verdict": "在用"
+  },
+  {
+   "tool": "emit_status_js.py",
+   "mentions": 12,
+   "verdict": "在用"
+  },
+  {
+   "tool": "knowledge_digest.py",
+   "mentions": 12,
+   "verdict": "在用"
+  },
+  {
+   "tool": "mem_audit.py",
+   "mentions": 12,
+   "verdict": "在用"
+  },
+  {
+   "tool": "outsider_trial.py",
+   "mentions": 12,
+   "verdict": "在用"
+  },
+  {
+   "tool": "pre_push_gate.py",
+   "mentions": 12,
+   "verdict": "在用"
+  },
+  {
+   "tool": "supply_chain.py",
+   "mentions": 12,
+   "verdict": "在用"
+  },
+  {
+   "tool": "verify_hub_merkle.py",
+   "mentions": 12,
+   "verdict": "在用"
+  },
+  {
+   "tool": "winddown.py",
+   "mentions": 12,
+   "verdict": "在用"
+  },
+  {
+   "tool": "agp_matrix.py",
+   "mentions": 11,
+   "verdict": "在用"
+  },
+  {
+   "tool": "audit_verdict_coverage.py",
+   "mentions": 11,
+   "verdict": "在用"
+  },
+  {
+   "tool": "baseline_digest.py",
+   "mentions": 11,
+   "verdict": "在用"
+  },
+  {
+   "tool": "emit_arc_index.py",
+   "mentions": 11,
+   "verdict": "在用"
+  },
+  {
+   "tool": "glb_render.py",
+   "mentions": 11,
+   "verdict": "在用"
+  },
+  {
+   "tool": "index_union.py",
+   "mentions": 11,
+   "verdict": "在用"
+  },
+  {
+   "tool": "lsbus_format_ops.py",
+   "mentions": 11,
+   "verdict": "在用"
+  },
+  {
+   "tool": "ops_event.py",
+   "mentions": 11,
+   "verdict": "在用"
+  },
+  {
+   "tool": "probe_guard_hole2.py",
+   "mentions": 11,
+   "verdict": "在用"
+  },
+  {
+   "tool": "slime_mold.py",
+   "mentions": 11,
+   "verdict": "在用"
+  },
+  {
+   "tool": "aliyun_api.py",
+   "mentions": 10,
+   "verdict": "在用"
+  },
+  {
+   "tool": "console_report.py",
+   "mentions": 10,
+   "verdict": "在用"
+  },
+  {
+   "tool": "emergence_discriminator.py",
+   "mentions": 10,
+   "verdict": "在用"
+  },
+  {
+   "tool": "gen_persona_frame.py",
+   "mentions": 10,
+   "verdict": "在用"
+  },
+  {
+   "tool": "gitcode_search.py",
+   "mentions": 10,
+   "verdict": "在用"
+  },
+  {
+   "tool": "mem_guard.py",
+   "mentions": 10,
+   "verdict": "在用"
+  },
+  {
+   "tool": "selfref_probe.py",
+   "mentions": 10,
+   "verdict": "在用"
+  },
+  {
+   "tool": "verify_chain.py",
+   "mentions": 10,
+   "verdict": "在用"
+  },
+  {
+   "tool": "wm_persona_world.py",
+   "mentions": 10,
+   "verdict": "在用"
+  },
+  {
+   "tool": "ws_domain_probe.py",
+   "mentions": 10,
+   "verdict": "在用"
+  },
+  {
+   "tool": "across_records_profile.py",
+   "mentions": 9,
+   "verdict": "在用"
+  },
+  {
+   "tool": "cas_store.py",
+   "mentions": 9,
+   "verdict": "在用"
+  },
+  {
+   "tool": "cite_verify.py",
+   "mentions": 9,
+   "verdict": "在用"
+  },
+  {
+   "tool": "compensate.py",
+   "mentions": 9,
+   "verdict": "在用"
+  },
+  {
+   "tool": "daily_statement.py",
+   "mentions": 9,
+   "verdict": "在用"
+  },
+  {
+   "tool": "desktop_archive.py",
+   "mentions": 9,
+   "verdict": "在用"
+  },
+  {
+   "tool": "embed_rerank_302.py",
+   "mentions": 9,
+   "verdict": "在用"
+  },
+  {
+   "tool": "fetch_wechat_article.py",
+   "mentions": 9,
+   "verdict": "在用"
+  },
+  {
+   "tool": "glb_make_cairn_anim.py",
+   "mentions": 9,
+   "verdict": "在用"
+  },
+  {
+   "tool": "heartbeat_daemon.py",
+   "mentions": 9,
+   "verdict": "在用"
+  },
+  {
+   "tool": "index_registry.py",
+   "mentions": 9,
+   "verdict": "在用"
+  },
+  {
+   "tool": "memory_change_log.py",
+   "mentions": 9,
+   "verdict": "在用"
+  },
+  {
+   "tool": "mp4_sampletables.py",
+   "mentions": 9,
+   "verdict": "在用"
+  },
+  {
+   "tool": "quote_lint.py",
+   "mentions": 9,
+   "verdict": "在用"
+  },
+  {
+   "tool": "twocopy_diff.py",
+   "mentions": 9,
+   "verdict": "在用"
+  },
+  {
+   "tool": "verify_netguard_wiring.py",
+   "mentions": 9,
+   "verdict": "在用"
+  },
+  {
+   "tool": "wm_verify_light.py",
+   "mentions": 9,
+   "verdict": "在用"
+  },
+  {
+   "tool": "audit_evidence_pack.py",
+   "mentions": 8,
+   "verdict": "在用"
+  },
+  {
+   "tool": "audit_skill_index.py",
+   "mentions": 8,
+   "verdict": "在用"
+  },
+  {
+   "tool": "bailian_ops.py",
+   "mentions": 8,
+   "verdict": "在用"
+  },
+  {
+   "tool": "bailian_probe2.py",
+   "mentions": 8,
+   "verdict": "在用"
+  },
+  {
+   "tool": "bom_audit.py",
+   "mentions": 8,
+   "verdict": "在用"
+  },
+  {
+   "tool": "build_nameregistry.py",
+   "mentions": 8,
+   "verdict": "在用"
+  },
+  {
+   "tool": "compliance_check.py",
+   "mentions": 8,
+   "verdict": "在用"
+  },
+  {
+   "tool": "conf_calibration_audit.py",
+   "mentions": 8,
+   "verdict": "在用"
+  },
+  {
+   "tool": "esc_watch.py",
+   "mentions": 8,
+   "verdict": "在用"
+  },
+  {
+   "tool": "event_driven.py",
+   "mentions": 8,
+   "verdict": "在用"
+  },
+  {
+   "tool": "paraphrase_queries.py",
+   "mentions": 8,
+   "verdict": "在用"
+  },
+  {
+   "tool": "redact_creds.py",
+   "mentions": 8,
+   "verdict": "在用"
+  },
+  {
+   "tool": "refresh_triage.py",
+   "mentions": 8,
+   "verdict": "在用"
+  },
+  {
+   "tool": "sdd_gate.py",
+   "mentions": 8,
+   "verdict": "在用"
+  },
+  {
+   "tool": "tamper_test.py",
+   "mentions": 8,
+   "verdict": "在用"
+  },
+  {
+   "tool": "umc_verify.py",
+   "mentions": 8,
+   "verdict": "在用"
+  },
+  {
+   "tool": "wm_travels_dump.py",
+   "mentions": 8,
+   "verdict": "在用"
+  },
+  {
+   "tool": "world_model_runner.py",
+   "mentions": 8,
+   "verdict": "在用"
+  },
+  {
+   "tool": "world_video_diff.py",
+   "mentions": 8,
+   "verdict": "在用"
+  },
+  {
+   "tool": "a2a_multiseat_demo.py",
+   "mentions": 7,
+   "verdict": "在用"
+  },
+  {
+   "tool": "audit_by_evtype.py",
+   "mentions": 7,
+   "verdict": "在用"
+  },
+  {
+   "tool": "audit_skill_frontmatter.py",
+   "mentions": 7,
+   "verdict": "在用"
+  },
+  {
+   "tool": "audit_skill_naming.py",
+   "mentions": 7,
+   "verdict": "在用"
+  },
+  {
+   "tool": "bootstrap.py",
+   "mentions": 7,
+   "verdict": "在用"
+  },
+  {
+   "tool": "build_index.py",
+   "mentions": 7,
+   "verdict": "在用"
+  },
+  {
+   "tool": "check_playbook_commands.py",
+   "mentions": 7,
+   "verdict": "在用"
+  },
+  {
+   "tool": "client_handoff.py",
+   "mentions": 7,
+   "verdict": "在用"
+  },
+  {
+   "tool": "cooc_expand_eval.py",
+   "mentions": 7,
+   "verdict": "在用"
+  },
+  {
+   "tool": "cost_ledger.py",
+   "mentions": 7,
+   "verdict": "在用"
+  },
+  {
+   "tool": "dedup_plan.py",
+   "mentions": 7,
+   "verdict": "在用"
+  },
+  {
+   "tool": "docname_boost_eval.py",
+   "mentions": 7,
+   "verdict": "在用"
+  },
+  {
+   "tool": "extract_media.py",
+   "mentions": 7,
+   "verdict": "在用"
+  },
+  {
+   "tool": "line_tails.py",
+   "mentions": 7,
+   "verdict": "在用"
+  },
+  {
+   "tool": "local_world_sim.py",
+   "mentions": 7,
+   "verdict": "在用"
+  },
+  {
+   "tool": "naming_test.py",
+   "mentions": 7,
+   "verdict": "在用"
+  },
+  {
+   "tool": "task_state.py",
+   "mentions": 7,
+   "verdict": "在用"
+  },
+  {
+   "tool": "test_supply_chain.py",
+   "mentions": 7,
+   "verdict": "在用"
+  },
+  {
+   "tool": "worlds_lineage.py",
+   "mentions": 7,
+   "verdict": "在用"
+  },
+  {
+   "tool": "a2a_client.py",
+   "mentions": 6,
+   "verdict": "在用"
+  },
+  {
+   "tool": "a2a_exchange.py",
+   "mentions": 6,
+   "verdict": "在用"
+  },
+  {
+   "tool": "audit_replacement_writes.py",
+   "mentions": 6,
+   "verdict": "在用"
+  },
+  {
+   "tool": "audit_toolset.py",
+   "mentions": 6,
+   "verdict": "在用"
+  },
+  {
+   "tool": "audit_wording_siblings.py",
+   "mentions": 6,
+   "verdict": "在用"
+  },
+  {
+   "tool": "avatar_bake_walk.py",
+   "mentions": 6,
+   "verdict": "在用"
+  },
+  {
+   "tool": "b_doc_eval.py",
+   "mentions": 6,
+   "verdict": "在用"
+  },
+  {
+   "tool": "check_citations.py",
+   "mentions": 6,
+   "verdict": "在用"
+  },
+  {
+   "tool": "check_my_recheck.py",
+   "mentions": 6,
+   "verdict": "在用"
+  },
+  {
+   "tool": "corpus_v6_modules.py",
+   "mentions": 6,
+   "verdict": "在用"
+  },
+  {
+   "tool": "decision_vector_rerank_v2.py",
+   "mentions": 6,
+   "verdict": "在用"
+  },
+  {
+   "tool": "desk_baseline.py",
+   "mentions": 6,
+   "verdict": "在用"
+  },
+  {
+   "tool": "doc_archive_extend.py",
+   "mentions": 6,
+   "verdict": "在用"
+  },
+  {
+   "tool": "doc_change_triage.py",
+   "mentions": 6,
+   "verdict": "在用"
+  },
+  {
+   "tool": "emit_gateway_spec.py",
+   "mentions": 6,
+   "verdict": "在用"
+  },
+  {
+   "tool": "exp11_action_legality.py",
+   "mentions": 6,
+   "verdict": "在用"
+  },
+  {
+   "tool": "falsify_kit_check.py",
+   "mentions": 6,
+   "verdict": "在用"
+  },
+  {
+   "tool": "fix_chain_signature.py",
+   "mentions": 6,
+   "verdict": "在用"
+  },
+  {
+   "tool": "frame_series_analysis.py",
+   "mentions": 6,
+   "verdict": "在用"
+  },
+  {
+   "tool": "glb_facets.py",
+   "mentions": 6,
+   "verdict": "在用"
+  },
+  {
+   "tool": "glb_uv_check.py",
+   "mentions": 6,
+   "verdict": "在用"
+  },
+  {
+   "tool": "ico_to_png.py",
+   "mentions": 6,
+   "verdict": "在用"
+  },
+  {
+   "tool": "make_worlds_manifest.py",
+   "mentions": 6,
+   "verdict": "在用"
+  },
+  {
+   "tool": "md2docx.py",
+   "mentions": 6,
+   "verdict": "在用"
+  },
+  {
+   "tool": "minimax_client.py",
+   "mentions": 6,
+   "verdict": "在用"
+  },
+  {
+   "tool": "neg_control_batch.py",
+   "mentions": 6,
+   "verdict": "在用"
+  },
+  {
+   "tool": "neg_control_tool_hygiene.py",
+   "mentions": 6,
+   "verdict": "在用"
+  },
+  {
+   "tool": "quota_guard.py",
+   "mentions": 6,
+   "verdict": "在用"
+  },
+  {
+   "tool": "read_docx.py",
+   "mentions": 6,
+   "verdict": "在用"
+  },
+  {
+   "tool": "recheck_adventure_path.py",
+   "mentions": 6,
+   "verdict": "在用"
+  },
+  {
+   "tool": "retrieval_v2.py",
+   "mentions": 6,
+   "verdict": "在用"
+  },
+  {
+   "tool": "spectrum_mad.py",
+   "mentions": 6,
+   "verdict": "在用"
+  },
+  {
+   "tool": "spinal_probe.py",
+   "mentions": 6,
+   "verdict": "在用"
+  },
+  {
+   "tool": "test_chain_rewrite.py",
+   "mentions": 6,
+   "verdict": "在用"
+  },
+  {
+   "tool": "test_totp.py",
+   "mentions": 6,
+   "verdict": "在用"
+  },
+  {
+   "tool": "texel_density.py",
+   "mentions": 6,
+   "verdict": "在用"
+  },
+  {
+   "tool": "time_stamp_audit.py",
+   "mentions": 6,
+   "verdict": "在用"
+  },
+  {
+   "tool": "tree_ambiguity_demo.py",
+   "mentions": 6,
+   "verdict": "在用"
+  },
+  {
+   "tool": "wm_domain_probe.py",
+   "mentions": 6,
+   "verdict": "在用"
+  },
+  {
+   "tool": "audit_declared_paths.py",
+   "mentions": 5,
+   "verdict": "在用"
+  },
+  {
+   "tool": "audit_evidence_source.py",
+   "mentions": 5,
+   "verdict": "在用"
+  },
+  {
+   "tool": "audit_honesty_claims.py",
+   "mentions": 5,
+   "verdict": "在用"
+  },
+  {
+   "tool": "audit_static_vs_live.py",
+   "mentions": 5,
+   "verdict": "在用"
+  },
+  {
+   "tool": "b_ext_eval.py",
+   "mentions": 5,
+   "verdict": "在用"
+  },
+  {
+   "tool": "component_tracking.py",
+   "mentions": 5,
+   "verdict": "在用"
+  },
+  {
+   "tool": "corpus_v4_modules.py",
+   "mentions": 5,
+   "verdict": "在用"
+  },
+  {
+   "tool": "danger_guard.py",
+   "mentions": 5,
+   "verdict": "在用"
+  },
+  {
+   "tool": "detrend_recheck.py",
+   "mentions": 5,
+   "verdict": "在用"
+  },
+  {
+   "tool": "fix_observe_v21.py",
+   "mentions": 5,
+   "verdict": "在用"
+  },
+  {
+   "tool": "glb_uv_texture_patch.py",
+   "mentions": 5,
+   "verdict": "在用"
+  },
+  {
+   "tool": "media_validate.py",
+   "mentions": 5,
+   "verdict": "在用"
+  },
+  {
+   "tool": "mk_announce.py",
+   "mentions": 5,
+   "verdict": "在用"
+  },
+  {
+   "tool": "persona_v7.py",
+   "mentions": 5,
+   "verdict": "在用"
+  },
+  {
+   "tool": "pqc_bench.py",
+   "mentions": 5,
+   "verdict": "在用"
+  },
+  {
+   "tool": "principles_index.py",
+   "mentions": 5,
+   "verdict": "在用"
+  },
+  {
+   "tool": "recount_divergence_independent.py",
+   "mentions": 5,
+   "verdict": "在用"
+  },
+  {
+   "tool": "rho2_recheck.py",
+   "mentions": 5,
+   "verdict": "在用"
+  },
+  {
+   "tool": "section_diff_normalized.py",
+   "mentions": 5,
+   "verdict": "在用"
+  },
+  {
+   "tool": "sign_demo.py",
+   "mentions": 5,
+   "verdict": "在用"
+  },
+  {
+   "tool": "slime_search.py",
+   "mentions": 5,
+   "verdict": "在用"
+  },
+  {
+   "tool": "smoke_all.py",
+   "mentions": 5,
+   "verdict": "在用"
+  },
+  {
+   "tool": "two_track_search.py",
+   "mentions": 5,
+   "verdict": "在用"
+  },
+  {
+   "tool": "uv_unwrap_v1.py",
+   "mentions": 5,
+   "verdict": "在用"
+  },
+  {
+   "tool": "video_container_audit.py",
+   "mentions": 5,
+   "verdict": "在用"
+  },
+  {
+   "tool": "wechat_probe.py",
+   "mentions": 5,
+   "verdict": "在用"
+  },
+  {
+   "tool": "wire_netguard.py",
+   "mentions": 5,
+   "verdict": "在用"
+  },
+  {
+   "tool": "wm_adventure_verify.py",
+   "mentions": 5,
+   "verdict": "在用"
+  },
+  {
+   "tool": "a2a_send_remote.py",
+   "mentions": 4,
+   "verdict": "观察"
+  },
+  {
+   "tool": "anim_state_machine.py",
+   "mentions": 4,
+   "verdict": "观察"
+  },
+  {
+   "tool": "archive_layout.py",
+   "mentions": 4,
+   "verdict": "观察"
+  },
+  {
+   "tool": "archive_realchange_scan.py",
+   "mentions": 4,
+   "verdict": "观察"
+  },
+  {
+   "tool": "attest_lab_test.py",
+   "mentions": 4,
+   "verdict": "观察"
+  },
+  {
+   "tool": "attest_sweep.py",
+   "mentions": 4,
+   "verdict": "观察"
+  },
+  {
+   "tool": "audio_profile_audit.py",
+   "mentions": 4,
+   "verdict": "观察"
+  },
+  {
+   "tool": "audit_nonjs_site.py",
+   "mentions": 4,
+   "verdict": "观察"
+  },
+  {
+   "tool": "audit_refusal_words.py",
+   "mentions": 4,
+   "verdict": "观察"
+  },
+  {
+   "tool": "audit_robots_compliance.py",
+   "mentions": 4,
+   "verdict": "观察"
+  },
+  {
+   "tool": "avatar_walk_ik_v4.py",
+   "mentions": 4,
+   "verdict": "观察"
+  },
+  {
+   "tool": "avatar_walk_lock_v5.py",
+   "mentions": 4,
+   "verdict": "观察"
+  },
+  {
+   "tool": "avatar_walk_v3.py",
+   "mentions": 4,
+   "verdict": "观察"
+  },
+  {
+   "tool": "b_doc_dense_eval.py",
+   "mentions": 4,
+   "verdict": "观察"
+  },
+  {
+   "tool": "band_series.py",
+   "mentions": 4,
+   "verdict": "观察"
+  },
+  {
+   "tool": "check_envclaims.py",
+   "mentions": 4,
+   "verdict": "观察"
+  },
+  {
+   "tool": "collect_inventory.py",
+   "mentions": 4,
+   "verdict": "观察"
+  },
+  {
+   "tool": "compare_three_modules.py",
+   "mentions": 4,
+   "verdict": "观察"
+  },
+  {
+   "tool": "component_match_by_position.py",
+   "mentions": 4,
+   "verdict": "观察"
+  },
+  {
+   "tool": "cred_crosscheck_night.py",
+   "mentions": 4,
+   "verdict": "观察"
+  },
+  {
+   "tool": "crossworld_t2.py",
+   "mentions": 4,
+   "verdict": "观察"
+  },
+  {
+   "tool": "declare_net.py",
+   "mentions": 4,
+   "verdict": "观察"
+  },
+  {
+   "tool": "demo_clip_offset.py",
+   "mentions": 4,
+   "verdict": "观察"
+  },
+  {
+   "tool": "emit_duration.py",
+   "mentions": 4,
+   "verdict": "观察"
+  },
+  {
+   "tool": "export_avatar_glb.py",
+   "mentions": 4,
+   "verdict": "观察"
+  },
+  {
+   "tool": "fix_stale_paths.py",
+   "mentions": 4,
+   "verdict": "观察"
+  },
+  {
+   "tool": "gen_persona_turnaround.py",
+   "mentions": 4,
+   "verdict": "观察"
+  },
+  {
+   "tool": "glb_anim_verify.py",
+   "mentions": 4,
+   "verdict": "观察"
+  },
+  {
+   "tool": "json_where.py",
+   "mentions": 4,
+   "verdict": "观察"
+  },
+  {
+   "tool": "misquote_lint.py",
+   "mentions": 4,
+   "verdict": "观察"
+  },
+  {
+   "tool": "mk_namespaces.py",
+   "mentions": 4,
+   "verdict": "观察"
+  },
+  {
+   "tool": "noise_floor_local.py",
+   "mentions": 4,
+   "verdict": "观察"
+  },
+  {
+   "tool": "opening_proof2_20261011.py",
+   "mentions": 4,
+   "verdict": "观察"
+  },
+  {
+   "tool": "policy_abc.py",
+   "mentions": 4,
+   "verdict": "观察"
+  },
+  {
+   "tool": "probe_meow_constraints.py",
+   "mentions": 4,
+   "verdict": "观察"
+  },
+  {
+   "tool": "ram_survey.py",
+   "mentions": 4,
+   "verdict": "观察"
+  },
+  {
+   "tool": "rmem_grade.py",
+   "mentions": 4,
+   "verdict": "观察"
+  },
+  {
+   "tool": "root_direct_pull.py",
+   "mentions": 4,
+   "verdict": "观察"
+  },
+  {
+   "tool": "secret_sweep.py",
+   "mentions": 4,
+   "verdict": "观察"
+  },
+  {
+   "tool": "sign_if_needed.py",
+   "mentions": 4,
+   "verdict": "观察"
+  },
+  {
+   "tool": "three_modules_resume.py",
+   "mentions": 4,
+   "verdict": "观察"
+  },
+  {
+   "tool": "tools_registry_refresh.py",
+   "mentions": 4,
+   "verdict": "观察"
+  },
+  {
+   "tool": "travel_artifacts_fetch.py",
+   "mentions": 4,
+   "verdict": "观察"
+  },
+  {
+   "tool": "travel_control_b.py",
+   "mentions": 4,
+   "verdict": "观察"
+  },
+  {
+   "tool": "url_audit.py",
+   "mentions": 4,
+   "verdict": "观察"
+  },
+  {
+   "tool": "uv_stretch_check.py",
+   "mentions": 4,
+   "verdict": "观察"
+  },
+  {
+   "tool": "uv_unwrap_v7.py",
+   "mentions": 4,
+   "verdict": "观察"
+  },
+  {
+   "tool": "wm_min_instruct.py",
+   "mentions": 4,
+   "verdict": "观察"
+  },
+  {
+   "tool": "wm_ticket_probe_ws.py",
+   "mentions": 4,
+   "verdict": "观察"
+  },
+  {
+   "tool": "wm_world_inspect.py",
+   "mentions": 4,
+   "verdict": "观察"
+  },
+  {
+   "tool": "wm_worlds_dump.py",
+   "mentions": 4,
+   "verdict": "观察"
+  },
+  {
+   "tool": "wm_worlds_list.py",
+   "mentions": 4,
+   "verdict": "观察"
+  },
+  {
+   "tool": "wording_gate.py",
+   "mentions": 4,
+   "verdict": "观察"
+  },
+  {
+   "tool": "zone_alternation.py",
+   "mentions": 4,
+   "verdict": "观察"
+  },
+  {
+   "tool": "arch_diagram.py",
+   "mentions": 3,
+   "verdict": "观察"
+  },
+  {
+   "tool": "archive_health.py",
+   "mentions": 3,
+   "verdict": "观察"
+  },
+  {
+   "tool": "audit_declared_still_diverges.py",
+   "mentions": 3,
+   "verdict": "观察"
+  },
+  {
+   "tool": "audit_read_verdicts.py",
+   "mentions": 3,
+   "verdict": "观察"
+  },
+  {
+   "tool": "avatar_bake_walk_v3b.py",
+   "mentions": 3,
+   "verdict": "观察"
+  },
+  {
+   "tool": "avatar_walk_side_v3.py",
+   "mentions": 3,
+   "verdict": "观察"
+  },
+  {
+   "tool": "avatar_walk_v6_world.py",
+   "mentions": 3,
+   "verdict": "观察"
+  },
+  {
+   "tool": "avatar_walk_v6b_fixed_origin.py",
+   "mentions": 3,
+   "verdict": "观察"
+  },
+  {
+   "tool": "avatar_walk_v6b_render.py",
+   "mentions": 3,
+   "verdict": "观察"
+  },
+  {
+   "tool": "bailian_playground_run.py",
+   "mentions": 3,
+   "verdict": "观察"
+  },
+  {
+   "tool": "change_check_map.py",
+   "mentions": 3,
+   "verdict": "观察"
+  },
+  {
+   "tool": "check_expectations.py",
+   "mentions": 3,
+   "verdict": "观察"
+  },
+  {
+   "tool": "check_handshake52.py",
+   "mentions": 3,
+   "verdict": "观察"
+  },
+  {
+   "tool": "check_policy_coverage.py",
+   "mentions": 3,
+   "verdict": "观察"
+  },
+  {
+   "tool": "collect_final.py",
+   "mentions": 3,
+   "verdict": "观察"
+  },
+  {
+   "tool": "command_path_probe.py",
+   "mentions": 3,
+   "verdict": "观察"
+  },
+  {
+   "tool": "conf_gate.py",
+   "mentions": 3,
+   "verdict": "观察"
+  },
+  {
+   "tool": "control_probe.py",
+   "mentions": 3,
+   "verdict": "观察"
+  },
+  {
+   "tool": "corpus_v3_retrieval.py",
+   "mentions": 3,
+   "verdict": "观察"
+  },
+  {
+   "tool": "criterion_selfcheck.py",
+   "mentions": 3,
+   "verdict": "观察"
+  },
+  {
+   "tool": "decision_model_compare.py",
+   "mentions": 3,
+   "verdict": "观察"
+  },
+  {
+   "tool": "directing_approx_run.py",
+   "mentions": 3,
+   "verdict": "观察"
+  },
+  {
+   "tool": "emit_current_pointer.py",
+   "mentions": 3,
+   "verdict": "观察"
+  },
+  {
+   "tool": "exp6_persona_in_world.py",
+   "mentions": 3,
+   "verdict": "观察"
+  },
+  {
+   "tool": "export_avatar_glb_v2.py",
+   "mentions": 3,
+   "verdict": "观察"
+  },
+  {
+   "tool": "glb_make_cairn_anim_v2.py",
+   "mentions": 3,
+   "verdict": "观察"
+  },
+  {
+   "tool": "glb_spec_audit.py",
+   "mentions": 3,
+   "verdict": "观察"
+  },
+  {
+   "tool": "keyderiv.py",
+   "mentions": 3,
+   "verdict": "观察"
+  },
+  {
+   "tool": "lineage_semantics.py",
+   "mentions": 3,
+   "verdict": "观察"
+  },
+  {
+   "tool": "local_world_sim_v2.py",
+   "mentions": 3,
+   "verdict": "观察"
+  },
+  {
+   "tool": "lsprobe.py",
+   "mentions": 3,
+   "verdict": "观察"
+  },
+  {
+   "tool": "naming_test2.py",
+   "mentions": 3,
+   "verdict": "观察"
+  },
+  {
+   "tool": "night_window.py",
+   "mentions": 3,
+   "verdict": "观察"
+  },
+  {
+   "tool": "patch_auditor.py",
+   "mentions": 3,
+   "verdict": "观察"
+  },
+  {
+   "tool": "persona_action_poses.py",
+   "mentions": 3,
+   "verdict": "观察"
+  },
+  {
+   "tool": "persona_pull.py",
+   "mentions": 3,
+   "verdict": "观察"
+  },
+  {
+   "tool": "ports_triage.py",
+   "mentions": 3,
+   "verdict": "观察"
+  },
+  {
+   "tool": "probe_qtorrent_card.py",
+   "mentions": 3,
+   "verdict": "观察"
+  },
+  {
+   "tool": "rig_audit.py",
+   "mentions": 3,
+   "verdict": "观察"
+  },
+  {
+   "tool": "second_activity_regions.py",
+   "mentions": 3,
+   "verdict": "观察"
+  },
+  {
+   "tool": "singlepoint_audit.py",
+   "mentions": 3,
+   "verdict": "观察"
+  },
+  {
+   "tool": "skill_runner.py",
+   "mentions": 3,
+   "verdict": "观察"
+  },
+  {
+   "tool": "storyboard_chain.py",
+   "mentions": 3,
+   "verdict": "观察"
+  },
+  {
+   "tool": "sts_caller_identity.py",
+   "mentions": 3,
+   "verdict": "观察"
+  },
+  {
+   "tool": "surrogate_states.py",
+   "mentions": 3,
+   "verdict": "观察"
+  },
+  {
+   "tool": "target_secret_check.py",
+   "mentions": 3,
+   "verdict": "观察"
+  },
+  {
+   "tool": "tripo_assets_contact.py",
+   "mentions": 3,
+   "verdict": "观察"
+  },
+  {
+   "tool": "tripo_render_firstframe.py",
+   "mentions": 3,
+   "verdict": "观察"
+  },
+  {
+   "tool": "uv_unwrap_v2.py",
+   "mentions": 3,
+   "verdict": "观察"
+  },
+  {
+   "tool": "uv_unwrap_v3.py",
+   "mentions": 3,
+   "verdict": "观察"
+  },
+  {
+   "tool": "uv_unwrap_v4.py",
+   "mentions": 3,
+   "verdict": "观察"
+  },
+  {
+   "tool": "verify_lab_abc.py",
+   "mentions": 3,
+   "verdict": "观察"
+  },
+  {
+   "tool": "verify_opc_agentcard.py",
+   "mentions": 3,
+   "verdict": "观察"
+  },
+  {
+   "tool": "ark_signed_probe.py",
+   "mentions": 2,
+   "verdict": "观察"
+  },
+  {
+   "tool": "artifact_nature_test.py",
+   "mentions": 2,
+   "verdict": "观察"
+  },
+  {
+   "tool": "artifact_nature_test2.py",
+   "mentions": 2,
+   "verdict": "观察"
+  },
+  {
+   "tool": "b_doc_routers_eval.py",
+   "mentions": 2,
+   "verdict": "观察"
+  },
+  {
+   "tool": "billing_survey.py",
+   "mentions": 2,
+   "verdict": "观察"
+  },
+  {
+   "tool": "bss_balance_probe.py",
+   "mentions": 2,
+   "verdict": "观察"
+  },
+  {
+   "tool": "capacity_alert.py",
+   "mentions": 2,
+   "verdict": "观察"
+  },
+  {
+   "tool": "check_contamination.py",
+   "mentions": 2,
+   "verdict": "观察"
+  },
+  {
+   "tool": "command_path_probe2.py",
+   "mentions": 2,
+   "verdict": "观察"
+  },
+  {
+   "tool": "corpus_v2_run.py",
+   "mentions": 2,
+   "verdict": "观察"
+  },
+  {
+   "tool": "cred_hygiene_sweep.py",
+   "mentions": 2,
+   "verdict": "观察"
+  },
+  {
+   "tool": "cross_review_night.py",
+   "mentions": 2,
+   "verdict": "观察"
+  },
+  {
+   "tool": "decision_recognition.py",
+   "mentions": 2,
+   "verdict": "观察"
+  },
+  {
+   "tool": "decision_scoring_run.py",
+   "mentions": 2,
+   "verdict": "观察"
+  },
+  {
+   "tool": "diag_seed.py",
+   "mentions": 2,
+   "verdict": "观察"
+  },
+  {
+   "tool": "doc_update_diff.py",
+   "mentions": 2,
+   "verdict": "观察"
+  },
+  {
+   "tool": "exp10_presence_heartbeat.py",
+   "mentions": 2,
+   "verdict": "观察"
+  },
+  {
+   "tool": "exp14_persona_pose.py",
+   "mentions": 2,
+   "verdict": "观察"
+  },
+  {
+   "tool": "exp25_directing.py",
+   "mentions": 2,
+   "verdict": "观察"
+  },
+  {
+   "tool": "exp26_determinism.py",
+   "mentions": 2,
+   "verdict": "观察"
+  },
+  {
+   "tool": "exp8_status_fields.py",
+   "mentions": 2,
+   "verdict": "观察"
+  },
+  {
+   "tool": "exp9_character_actions.py",
+   "mentions": 2,
+   "verdict": "观察"
+  },
+  {
+   "tool": "feed_to_deduce.py",
+   "mentions": 2,
+   "verdict": "观察"
+  },
+  {
+   "tool": "fix_stale_paths_recover.py",
+   "mentions": 2,
+   "verdict": "观察"
+  },
+  {
+   "tool": "gap_roundtrip_world_run.py",
+   "mentions": 2,
+   "verdict": "观察"
+  },
+  {
+   "tool": "gen_persona_frame_v2.py",
+   "mentions": 2,
+   "verdict": "观察"
+  },
+  {
+   "tool": "gen_persona_frame_v4.py",
+   "mentions": 2,
+   "verdict": "观察"
+  },
+  {
+   "tool": "gen_persona_frame_v5.py",
+   "mentions": 2,
+   "verdict": "观察"
+  },
+  {
+   "tool": "gen_persona_frame_v6.py",
+   "mentions": 2,
+   "verdict": "观察"
+  },
+  {
+   "tool": "gen_persona_shoucang.py",
+   "mentions": 2,
+   "verdict": "观察"
+  },
+  {
+   "tool": "gen_staroffice_state.py",
+   "mentions": 2,
+   "verdict": "观察"
+  },
+  {
+   "tool": "glb_render_uv.py",
+   "mentions": 2,
+   "verdict": "观察"
+  },
+  {
+   "tool": "glb_static_lod.py",
+   "mentions": 2,
+   "verdict": "观察"
+  },
+  {
+   "tool": "gov_orders_pull.py",
+   "mentions": 2,
+   "verdict": "观察"
+  },
+  {
+   "tool": "instruct_experiment.py",
+   "mentions": 2,
+   "verdict": "观察"
+  },
+  {
+   "tool": "instruct_state_diff.py",
+   "mentions": 2,
+   "verdict": "观察"
+  },
+  {
+   "tool": "interop_emit.py",
+   "mentions": 2,
+   "verdict": "观察"
+  },
+  {
+   "tool": "local_read.py",
+   "mentions": 2,
+   "verdict": "观察"
+  },
+  {
+   "tool": "make_pack.py",
+   "mentions": 2,
+   "verdict": "观察"
+  },
+  {
+   "tool": "mark2_reproduce.py",
+   "mentions": 2,
+   "verdict": "观察"
+  },
+  {
+   "tool": "mark_analysis.py",
+   "mentions": 2,
+   "verdict": "观察"
+  },
+  {
+   "tool": "mem_tier_scan.py",
+   "mentions": 2,
+   "verdict": "观察"
+  },
+  {
+   "tool": "paraphrase_bm25_eval.py",
+   "mentions": 2,
+   "verdict": "观察"
+  },
+  {
+   "tool": "patch_feed.py",
+   "mentions": 2,
+   "verdict": "观察"
+  },
+  {
+   "tool": "persona_animation_clips.py",
+   "mentions": 2,
+   "verdict": "观察"
+  },
+  {
+   "tool": "probe_opl_history.py",
+   "mentions": 2,
+   "verdict": "观察"
+  },
+  {
+   "tool": "r6_standard_op.py",
+   "mentions": 2,
+   "verdict": "观察"
+  },
+  {
+   "tool": "recount_chain_independent.py",
+   "mentions": 2,
+   "verdict": "观察"
+  },
+  {
+   "tool": "rerank_doc_repr_test.py",
+   "mentions": 2,
+   "verdict": "观察"
+  },
+  {
+   "tool": "resolve_link_ids.py",
+   "mentions": 2,
+   "verdict": "观察"
+  },
+  {
+   "tool": "resume_three_modules.py",
+   "mentions": 2,
+   "verdict": "观察"
+  },
+  {
+   "tool": "retrieval_precision_run.py",
+   "mentions": 2,
+   "verdict": "观察"
+  },
+  {
+   "tool": "rtc_entry_probe.py",
+   "mentions": 2,
+   "verdict": "观察"
+  },
+  {
+   "tool": "rtc_token_anatomy.py",
+   "mentions": 2,
+   "verdict": "观察"
+  },
+  {
+   "tool": "seq_frame_diff.py",
+   "mentions": 2,
+   "verdict": "观察"
+  },
+  {
+   "tool": "test_deduce_core.py",
+   "mentions": 2,
+   "verdict": "观察"
+  },
+  {
+   "tool": "test_deduce_d4.py",
+   "mentions": 2,
+   "verdict": "观察"
+  },
+  {
+   "tool": "trace_driven_surrogate.py",
+   "mentions": 2,
+   "verdict": "观察"
+  },
+  {
+   "tool": "travel_enter_once.py",
+   "mentions": 2,
+   "verdict": "观察"
+  },
+  {
+   "tool": "uv_unwrap_v5.py",
+   "mentions": 2,
+   "verdict": "观察"
+  },
+  {
+   "tool": "uv_unwrap_v6.py",
+   "mentions": 2,
+   "verdict": "观察"
+  },
+  {
+   "tool": "verify_nss_vectors.py",
+   "mentions": 2,
+   "verdict": "观察"
+  },
+  {
+   "tool": "wm_persona_world_v2.py",
+   "mentions": 2,
+   "verdict": "观察"
+  },
+  {
+   "tool": "wm_persona_world_v4.py",
+   "mentions": 2,
+   "verdict": "观察"
+  },
+  {
+   "tool": "wm_persona_world_v5.py",
+   "mentions": 2,
+   "verdict": "观察"
+  },
+  {
+   "tool": "wm_persona_world_v6.py",
+   "mentions": 2,
+   "verdict": "观察"
+  },
+  {
+   "tool": "wm_travels_probe.py",
+   "mentions": 2,
+   "verdict": "观察"
+  },
+  {
+   "tool": "archive_selfprove.py",
+   "mentions": 1,
+   "verdict": "★候选（并入或废止）"
+  },
+  {
+   "tool": "bss_budget_probe.py",
+   "mentions": 1,
+   "verdict": "★候选（并入或废止）"
+  },
+  {
+   "tool": "corpus_redundancy_audit.py",
+   "mentions": 1,
+   "verdict": "★候选（并入或废止）"
+  },
+  {
+   "tool": "exp12_positive_control.py",
+   "mentions": 1,
+   "verdict": "★候选（并入或废止）"
+  },
+  {
+   "tool": "exp13_position_control.py",
+   "mentions": 1,
+   "verdict": "★候选（并入或废止）"
+  },
+  {
+   "tool": "exp15_four_poses.py",
+   "mentions": 1,
+   "verdict": "★候选（并入或废止）"
+  },
+  {
+   "tool": "exp22_appearance_x_pose.py",
+   "mentions": 1,
+   "verdict": "★候选（并入或废止）"
+  },
+  {
+   "tool": "exp24_enter.py",
+   "mentions": 1,
+   "verdict": "★候选（并入或废止）"
+  },
+  {
+   "tool": "exp4_fetch_videos.py",
+   "mentions": 1,
+   "verdict": "★候选（并入或废止）"
+  },
+  {
+   "tool": "exp4_nonce_perturbation.py",
+   "mentions": 1,
+   "verdict": "★候选（并入或废止）"
+  },
+  {
+   "tool": "exp5_state_persistence.py",
+   "mentions": 1,
+   "verdict": "★候选（并入或废止）"
+  },
+  {
+   "tool": "exp7_short_commands.py",
+   "mentions": 1,
+   "verdict": "★候选（并入或废止）"
+  },
+  {
+   "tool": "kdocs_direct_pull.py",
+   "mentions": 1,
+   "verdict": "★候选（并入或废止）"
+  },
+  {
+   "tool": "ledger_cascade_rebaseline.py",
+   "mentions": 1,
+   "verdict": "★候选（并入或废止）"
+  },
+  {
+   "tool": "mark_experiment.py",
+   "mentions": 1,
+   "verdict": "★候选（并入或废止）"
+  },
+  {
+   "tool": "opening_proof_20261011.py",
+   "mentions": 1,
+   "verdict": "★候选（并入或废止）"
+  },
+  {
+   "tool": "provider_rerank_probe.py",
+   "mentions": 1,
+   "verdict": "★候选（并入或废止）"
+  },
+  {
+   "tool": "cred_hygiene_sweep_v2.py",
+   "mentions": 0,
+   "verdict": "★候选（并入或废止）"
+  },
+  {
+   "tool": "exp23_asset2_in_world.py",
+   "mentions": 0,
+   "verdict": "★候选（并入或废止）"
+  },
+  {
+   "tool": "instruct_recheck.py",
+   "mentions": 0,
+   "verdict": "★候选（并入或废止）"
+  },
+  {
+   "tool": "ledger_rebaseline_109.py",
+   "mentions": 0,
+   "verdict": "★候选（并入或废止）"
+  },
+  {
+   "tool": "opening_fullchain_20261011.py",
+   "mentions": 0,
+   "verdict": "★候选（并入或废止）"
+  },
+  {
+   "tool": "opening_probe_20261011.py",
+   "mentions": 0,
+   "verdict": "★候选（并入或废止）"
+  },
+  {
+   "tool": "opsguard_sig_spot_20261008.py",
+   "mentions": 0,
+   "verdict": "★候选（并入或废止）"
+  },
+  {
+   "tool": "opsguard_write_nightreport_20261009.py",
+   "mentions": 0,
+   "verdict": "★候选（并入或废止）"
+  },
+  {
+   "tool": "opsguard_write_report_20261008.py",
+   "mentions": 0,
+   "verdict": "★候选（并入或废止）"
+  },
+  {
+   "tool": "wm_status_probe.py",
+   "mentions": 0,
+   "verdict": "★候选（并入或废止）"
+  },
+  {
+   "tool": "ws_main_key_probe.py",
+   "mentions": 0,
+   "verdict": "★候选（并入或废止）"
+  }
+ ],
+ "counts": {
+  "in_use": 260,
+  "watch": 174,
+  "candidates": 28
+ },
+ "caveat": "被提及≠被调用；判定为候选，非处置"
+}

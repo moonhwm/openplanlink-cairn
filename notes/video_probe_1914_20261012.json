@@ -1,0 +1,100 @@
+{
+ "ts": "2026-10-12T19:15:09+0800",
+ "file": "wm_min_instruct_20261012_1914.mp4",
+ "frames": 248,
+ "fps": 23.99922583142479,
+ "size": [
+  864,
+  480
+ ],
+ "diffs": [
+  2.31,
+  1.09,
+  0.92,
+  0.89,
+  0.89,
+  0.91,
+  0.91,
+  0.69
+ ],
+ "marks": [
+  {
+   "frame": 0,
+   "marker_px": 71,
+   "centroid": [
+    552.8,
+    185.3
+   ]
+  },
+  {
+   "frame": 27,
+   "marker_px": 69,
+   "centroid": [
+    552.7,
+    185.3
+   ]
+  },
+  {
+   "frame": 55,
+   "marker_px": 69,
+   "centroid": [
+    552.7,
+    185.3
+   ]
+  },
+  {
+   "frame": 82,
+   "marker_px": 70,
+   "centroid": [
+    552.7,
+    185.2
+   ]
+  },
+  {
+   "frame": 110,
+   "marker_px": 64,
+   "centroid": [
+    552.8,
+    185.2
+   ]
+  },
+  {
+   "frame": 137,
+   "marker_px": 62,
+   "centroid": [
+    552.8,
+    185.2
+   ]
+  },
+  {
+   "frame": 165,
+   "marker_px": 61,
+   "centroid": [
+    553.0,
+    185.1
+   ]
+  },
+  {
+   "frame": 192,
+   "marker_px": 56,
+   "centroid": [
+    553.2,
+    185.2
+   ]
+  },
+  {
+   "frame": 220,
+   "marker_px": 56,
+   "centroid": [
+    553.2,
+    185.2
+   ]
+  }
+ ],
+ "moved": false,
+ "criteria": {
+  "①能读到帧": true,
+  "②帧间差已给": true,
+  "③★标记色之有无与轨迹已给": true
+ }
+}

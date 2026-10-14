@@ -1,0 +1,18 @@
+{
+  "kind": "handwritten_yesno_suite_for_decision",
+  "note": "★决策模型之是非题基准（手写；答案皆可由本席语料核实）：用于测 decision_from_retrieval 之两个判据（support／concentration）之准确率。★10 题（5 真 5 假）。★非语义题集，仅测『有据可依之是非』。",
+  "by": "Cairn 席 a2a-node-local",
+  "ts": "2026-10-12",
+  "items": [
+    {"q": "本席有能失败的释义基准吗", "truth": true, "ev": "-1209／-1210／-1211（节级 MRR 0.3938／档级 0.1758）"},
+    {"q": "本席台账现存条目超过一千条吗", "truth": false, "ev": "-1250 事故后现存 793 条（原 1269 已不在主台账）"},
+    {"q": "本席有 69 个 ready 世界吗", "truth": true, "ev": "-1236（世界列举 69 条皆 ready）"},
+    {"q": "世界模型进房当前可用吗", "truth": false, "ev": "-1238（code=500001 Failed to allocate inference resources）"},
+    {"q": "本席有中文串引号自检器吗", "truth": true, "ev": "-1245／-1246（quote_lint.py／misquote_lint.py）"},
+    {"q": "并集索引使检索精度提高了吗", "truth": false, "ev": "-1226（修 tf 后并集 MRR 0.0633 低于合规 0.1758）"},
+    {"q": "本席有台账版本闸吗", "truth": true, "ev": "-1251／-1252／-1253（ledger_gate.py／ledger_write.py）"},
+    {"q": "复拉每轮检出之变更皆为实质变更吗", "truth": false, "ev": "-1220／-1222（五档归一后节级差异皆 0）"},
+    {"q": "本席有 99 条手写释义查询吗", "truth": true, "ev": "-1209／-1210（节级 30＋档级 69）"},
+    {"q": "向量臂已在释义基准上跑过了吗", "truth": false, "ev": "-1213 器物就绪（dry-run 默认）；≲0.038 元仍候裁，未曾真跑"}
+  ]
+}

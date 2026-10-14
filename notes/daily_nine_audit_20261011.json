@@ -1,0 +1,72 @@
+{
+ "ts": "2026-10-11T08:36:11+0800",
+ "level": "A",
+ "seat": "a2a-node-local",
+ "items": {
+  "1_signature_dual": {
+   "tested": 3,
+   "agree": 3,
+   "verdict": "PASS"
+  },
+  "2_term_gate": {
+   "files": 5,
+   "hits": 0,
+   "verdict": "CLEAN"
+  },
+  "3_bus": {
+   "lines": 225,
+   "defects": 0,
+   "verdict": "VALID"
+  },
+  "4_tree_reconcile": {
+   "same_hash": 254,
+   "diff_hash": 0,
+   "only_canonical": 430
+  },
+  "5_three_face": {
+   "local": "7c50e899",
+   "origin": "029f576ad31b",
+   "gitcode": "7c50e899cbe2",
+   "verdict": "MISALIGNED",
+   "cause": "origin不可达（快照）"
+  },
+  "6_ledger": {
+   "entries": 963,
+   "verdict": "PASS"
+  },
+  "7_virtue": {
+   "in_use": 201,
+   "observe": 123,
+   "candidates": 17
+  },
+  "8_mem": {
+   "free_mb": 1084.9,
+   "used_pct": 93.3,
+   "grade": "C-偏低"
+  },
+  "9_canonical": {
+   "branch": "main",
+   "head": "edfc93bf496b",
+   "dirty": 0,
+   "commits": 217
+  }
+ },
+ "anomalies": [
+  {
+   "kind": "不可达",
+   "item": "三面核验.origin"
+  },
+  {
+   "kind": "资源",
+   "item": "R_mem C-偏低"
+  }
+ ],
+ "differences": {
+  "diff_hash": 0,
+  "note": "仅正本有 430 系镜像分目录之常态"
+ },
+ "disposition": {
+  "repos": "阶梯重试推送；待网络补推",
+  "parallelism": "收敛并行、暂停新后台任务"
+ }
+}

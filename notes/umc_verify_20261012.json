@@ -1,0 +1,21 @@
+{
+ "ts": "2026-10-12T13:55:10+0800",
+ "bus": "C:\\Users\\欧阳宏俊\\WPSDrive\\29969771\\WPS云盘\\月之暗面的Plasma游乐场\\A2A共同体_共享交换区\\bus\\bus.jsonl",
+ "n": 351,
+ "faces": {
+  "hb.*": 0,
+  "biz.*": 348,
+  "esc.*": 3,
+  "无面": 0
+ },
+ "hb_owner_touch": 0,
+ "esc_e2e_over60": 0,
+ "noface_pct": 0.0,
+ "receipt_missing": [],
+ "criteria": {
+  "①无面占比 ≤10%（现 0.0%；超出即须补规则，非即判违规）": true,
+  "②hb.* 未触达机主": true,
+  "③升级面端到端 ≤60 s（可评 0 次；无处置记录则不可评）": true,
+  "④五段式回执齐备": true
+ }
+}

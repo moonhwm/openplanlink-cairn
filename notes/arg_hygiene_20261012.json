@@ -1,0 +1,4170 @@
+{
+ "ts": "2026-10-12T19:10:57+0800",
+ "total": 472,
+ "no_args": 268,
+ "high": [
+  "a2a_client.py",
+  "a2a_exchange.py",
+  "a2a_hmac.py",
+  "a2a_multiseat_demo.py",
+  "a2a_node.py",
+  "a2a_send_remote.py",
+  "ab_test_fixed.py",
+  "across_records_profile.py",
+  "agp_matrix.py",
+  "ai302_cross_review.py",
+  "archive_selfprove.py",
+  "ark_signed_probe.py",
+  "artifact_nature_test.py",
+  "artifact_nature_test2.py",
+  "attest_lab_test.py",
+  "audio_profile_audit.py",
+  "audit_blast_transitivity.py",
+  "audit_deferrals.py",
+  "audit_delete_guards.py",
+  "audit_filters.py",
+  "audit_honesty_claims.py",
+  "audit_orphans.py",
+  "audit_read_verdicts.py",
+  "audit_refusal_words.py",
+  "audit_replacement_writes.py",
+  "audit_robots_compliance.py",
+  "audit_skill_frontmatter.py",
+  "audit_skill_naming.py",
+  "audit_static_vs_live.py",
+  "audit_toolset.py",
+  "audit_verdict_coverage.py",
+  "avatar_bake_walk.py",
+  "avatar_bake_walk_v3b.py",
+  "avatar_lod_make.py",
+  "avatar_lod_make_v2.py",
+  "avatar_walk_ik_v4.py",
+  "avatar_walk_lock_v5.py",
+  "avatar_walk_v6_world.py",
+  "avatar_walk_v6b.py",
+  "bailian_playground_run.py",
+  "bailian_probe2.py",
+  "band_series.py",
+  "billing_survey.py",
+  "blindspot_trials.py",
+  "bss_balance_probe.py",
+  "bss_budget_probe.py",
+  "build_index.py",
+  "build_nameregistry.py",
+  "build_opl_tree.py",
+  "cas_store.py",
+  "check_closing_append.py",
+  "check_contamination.py",
+  "check_envclaims.py",
+  "check_expectations.py",
+  "check_handshake52.py",
+  "check_my_recheck.py",
+  "collect_inventory.py",
+  "command_path_probe.py",
+  "command_path_probe2.py",
+  "compensate.py",
+  "component_match_by_position.py",
+  "component_tracking.py",
+  "control_probe.py",
+  "corpus_redundancy_audit.py",
+  "corpus_v2_run.py",
+  "corpus_v3_retrieval.py",
+  "corpus_v4_modules.py",
+  "corpus_v6_modules.py",
+  "cred_crosscheck_night.py",
+  "cred_hygiene_sweep.py",
+  "cross_review_night.py",
+  "crossworld_t2.py",
+  "daily_nine_audit.py",
+  "daily_nine_audit_20261010.py",
+  "decision_model_compare.py",
+  "decision_recognition.py",
+  "decision_scoring_run.py",
+  "decision_vector_rerank.py",
+  "decision_vector_rerank_v2.py",
+  "declare_net.py",
+  "detrend_recheck.py",
+  "diag_seed.py",
+  "directing_approx_run.py",
+  "doc_update_diff.py",
+  "emit_arc_index.py",
+  "emit_current_pointer.py",
+  "emit_duration.py",
+  "emit_gateway_spec.py",
+  "emit_lockpin.py",
+  "event_driven.py",
+  "exp10_presence_heartbeat.py",
+  "exp11_action_legality.py",
+  "exp12_positive_control.py",
+  "exp13_position_control.py",
+  "exp14_persona_pose.py",
+  "exp15_four_poses.py",
+  "exp22_appearance_x_pose.py",
+  "exp23_asset2_in_world.py",
+  "exp26_determinism.py",
+  "exp4_fetch_videos.py",
+  "exp4_nonce_perturbation.py",
+  "exp5_state_persistence.py",
+  "exp6_persona_in_world.py",
+  "exp7_short_commands.py",
+  "exp8_status_fields.py",
+  "exp9_character_actions.py",
+  "export_avatar_glb.py",
+  "export_avatar_glb_v2.py",
+  "extract_media.py",
+  "falsify_kit_check.py",
+  "fix_stale_paths_recover.py",
+  "forge_demo.py",
+  "frame_series_analysis.py",
+  "gap_roundtrip_world_run.py",
+  "gitcode_search.py",
+  "glb_make_cairn.py",
+  "glb_make_cairn_anim.py",
+  "glb_make_cairn_anim_v2.py",
+  "glb_spec_audit.py",
+  "gov_orders_pull.py",
+  "hetero_models.py",
+  "instruct_experiment.py",
+  "instruct_recheck.py",
+  "instruct_state_diff.py",
+  "intake_20260929.py",
+  "interop_emit.py",
+  "kdocs_direct_pull.py",
+  "knowledge_digest.py",
+  "ledger_cascade_rebaseline.py",
+  "ledger_rebaseline_109.py",
+  "lineage_semantics.py",
+  "local_world_sim_v2.py",
+  "make_worlds_manifest.py",
+  "mark2_reproduce.py",
+  "mark_analysis.py",
+  "mark_experiment.py",
+  "media_validate.py",
+  "missing_inventory.py",
+  "mk_namespaces.py",
+  "naming_test.py",
+  "naming_test2.py",
+  "neg_control_batch.py",
+  "neg_control_seat_location.py",
+  "neg_control_tool_hygiene.py",
+  "netguard.py",
+  "noise_floor_local.py",
+  "open_access.py",
+  "opening_fullchain_20261011.py",
+  "opening_probe_20261011.py",
+  "opening_proof2_20261011.py",
+  "opening_proof_20261011.py",
+  "opsguard_write_nightreport_20261009.py",
+  "opsguard_write_report_20261008.py",
+  "outsider_trial.py",
+  "panel_loop_demo.py",
+  "patch_auditor.py",
+  "patch_feed.py",
+  "persona_action_poses.py",
+  "persona_animation_clips.py",
+  "persona_pull.py",
+  "persona_v7.py",
+  "policy_abc.py",
+  "probe_guard_hole.py",
+  "probe_guard_hole2.py",
+  "probe_meow_constraints.py",
+  "probe_opl_history.py",
+  "probe_qtorrent_card.py",
+  "provider_rerank_probe.py",
+  "push_gate.py",
+  "quota_guard.py",
+  "quota_wall.py",
+  "r6_standard_op.py",
+  "ram_survey.py",
+  "recheck_adventure_path.py",
+  "recount_chain_independent.py",
+  "recount_divergence_independent.py",
+  "redact_creds.py",
+  "rerank_doc_repr_test.py",
+  "resolve_link_ids.py",
+  "resume_three_modules.py",
+  "retrieval_precision_run.py",
+  "rho2_recheck.py",
+  "root_direct_pull.py",
+  "rtc_entry_probe.py",
+  "rtc_token_anatomy.py",
+  "sdd_gate.py",
+  "second_activity_regions.py",
+  "secret_sweep.py",
+  "selfref_probe.py",
+  "seq_frame_diff.py",
+  "singlepoint_audit.py",
+  "skill_evolve.py",
+  "smoke_pipeline.py",
+  "spectrum_mad.py",
+  "spinal_bridge.py",
+  "spinal_probe.py",
+  "storyboard_chain.py",
+  "sts_caller_identity.py",
+  "supply_chain.py",
+  "tamper_test.py",
+  "target_secret_check.py",
+  "test_a2a_hmac.py",
+  "test_a2a_node.py",
+  "test_supply_chain.py",
+  "three_modules_resume.py",
+  "tool_hygiene.py",
+  "trace_driven_surrogate.py",
+  "travel_artifacts_fetch.py",
+  "travel_control_b.py",
+  "travel_enter_once.py",
+  "tripo_assets_contact.py",
+  "tripo_render_firstframe.py",
+  "umc.py",
+  "url_audit.py",
+  "verify_chain.py",
+  "verify_lab_abc.py",
+  "verify_opl_attest.py",
+  "verify_playbook.py",
+  "verify_recipe.py",
+  "video_container_audit.py",
+  "wire_netguard.py",
+  "wm_adventure_verify.py",
+  "wm_get_ticket.py",
+  "wm_persona_world.py",
+  "wm_persona_world_v2.py",
+  "wm_persona_world_v4.py",
+  "wm_persona_world_v5.py",
+  "wm_persona_world_v6.py",
+  "wm_status_probe.py",
+  "wm_verify_light.py",
+  "world_video_diff.py",
+  "worlds_lineage.py",
+  "ws_domain_probe.py",
+  "ws_main_key_probe.py",
+  "zone_alternation.py"
+ ],
+ "rows": [
+  {
+   "tool": "_sign_verify_child.py",
+   "args": true,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "a2a_client.py",
+   "args": false,
+   "side": [
+    "网络",
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "a2a_exchange.py",
+   "args": false,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "a2a_hmac.py",
+   "args": false,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "a2a_multiseat_demo.py",
+   "args": false,
+   "side": [
+    "网络",
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "a2a_node.py",
+   "args": false,
+   "side": [
+    "网络",
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "a2a_send_remote.py",
+   "args": false,
+   "side": [
+    "网络",
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "ab_test_fixed.py",
+   "args": false,
+   "side": [
+    "写盘",
+    "子进程"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "across_records_profile.py",
+   "args": false,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "agp_matrix.py",
+   "args": false,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "ai302_cross_review.py",
+   "args": false,
+   "side": [
+    "网络",
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "aliyun_api.py",
+   "args": true,
+   "side": [
+    "网络",
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "anim_state_machine.py",
+   "args": true,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "arch_diagram.py",
+   "args": true,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "archive_health.py",
+   "args": true,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "archive_layout.py",
+   "args": true,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "archive_realchange_scan.py",
+   "args": true,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "archive_selfprove.py",
+   "args": false,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "arg_hygiene_scan.py",
+   "args": true,
+   "side": [
+    "网络",
+    "写盘",
+    "子进程"
+   ],
+   "helps": true
+  },
+  {
+   "tool": "ark_signed_probe.py",
+   "args": false,
+   "side": [
+    "网络",
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "artifact_nature_test.py",
+   "args": false,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "artifact_nature_test2.py",
+   "args": false,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "ask_self.py",
+   "args": true,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "attest_lab_test.py",
+   "args": false,
+   "side": [
+    "写盘",
+    "子进程"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "attest_sweep.py",
+   "args": true,
+   "side": [
+    "写盘",
+    "子进程"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "audio_profile_audit.py",
+   "args": false,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "audit_argument_arc.py",
+   "args": false,
+   "side": [],
+   "helps": false
+  },
+  {
+   "tool": "audit_blast_transitivity.py",
+   "args": false,
+   "side": [
+    "写盘",
+    "子进程"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "audit_by_evtype.py",
+   "args": false,
+   "side": [],
+   "helps": false
+  },
+  {
+   "tool": "audit_declared_paths.py",
+   "args": false,
+   "side": [],
+   "helps": false
+  },
+  {
+   "tool": "audit_declared_still_diverges.py",
+   "args": false,
+   "side": [],
+   "helps": false
+  },
+  {
+   "tool": "audit_deferrals.py",
+   "args": false,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "audit_delete_guards.py",
+   "args": false,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "audit_evidence_pack.py",
+   "args": true,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "audit_evidence_source.py",
+   "args": true,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "audit_filters.py",
+   "args": false,
+   "side": [
+    "写盘",
+    "子进程"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "audit_honesty_claims.py",
+   "args": false,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "audit_nonjs_site.py",
+   "args": true,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "audit_orphans.py",
+   "args": false,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "audit_read_verdicts.py",
+   "args": false,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "audit_refusal_words.py",
+   "args": false,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "audit_replacement_writes.py",
+   "args": false,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "audit_robots_compliance.py",
+   "args": false,
+   "side": [
+    "网络",
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "audit_skill_frontmatter.py",
+   "args": false,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "audit_skill_index.py",
+   "args": true,
+   "side": [],
+   "helps": false
+  },
+  {
+   "tool": "audit_skill_naming.py",
+   "args": false,
+   "side": [
+    "网络",
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "audit_static_vs_live.py",
+   "args": false,
+   "side": [
+    "子进程"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "audit_toolset.py",
+   "args": false,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "audit_verdict_coverage.py",
+   "args": false,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "audit_wording_siblings.py",
+   "args": true,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "auth_policy.py",
+   "args": true,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "auth_split.py",
+   "args": true,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "avatar_bake_walk.py",
+   "args": false,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "avatar_bake_walk_v3b.py",
+   "args": false,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "avatar_lod_make.py",
+   "args": false,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "avatar_lod_make_v2.py",
+   "args": false,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "avatar_render.py",
+   "args": true,
+   "side": [],
+   "helps": false
+  },
+  {
+   "tool": "avatar_walk_ik_v4.py",
+   "args": false,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "avatar_walk_lock_v5.py",
+   "args": false,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "avatar_walk_side_v3.py",
+   "args": false,
+   "side": [],
+   "helps": false
+  },
+  {
+   "tool": "avatar_walk_v3.py",
+   "args": false,
+   "side": [],
+   "helps": false
+  },
+  {
+   "tool": "avatar_walk_v6_world.py",
+   "args": false,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "avatar_walk_v6b.py",
+   "args": false,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "avatar_walk_v6b_fixed_origin.py",
+   "args": false,
+   "side": [],
+   "helps": false
+  },
+  {
+   "tool": "avatar_walk_v6b_render.py",
+   "args": false,
+   "side": [],
+   "helps": false
+  },
+  {
+   "tool": "b_doc_dense_eval.py",
+   "args": true,
+   "side": [
+    "网络",
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "b_doc_eval.py",
+   "args": true,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "b_doc_routers_eval.py",
+   "args": true,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "b_ext_eval.py",
+   "args": true,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "bailian_ops.py",
+   "args": true,
+   "side": [
+    "网络",
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "bailian_playground_run.py",
+   "args": false,
+   "side": [
+    "网络",
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "bailian_probe2.py",
+   "args": false,
+   "side": [
+    "网络",
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "band_series.py",
+   "args": false,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "baseline_digest.py",
+   "args": true,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "billing_survey.py",
+   "args": false,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "blast_radius.py",
+   "args": true,
+   "side": [
+    "网络",
+    "写盘",
+    "子进程"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "blindspot_trials.py",
+   "args": false,
+   "side": [
+    "写盘",
+    "子进程"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "bom_audit.py",
+   "args": false,
+   "side": [],
+   "helps": false
+  },
+  {
+   "tool": "bom_seal.py",
+   "args": true,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "bootstrap.py",
+   "args": true,
+   "side": [
+    "子进程"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "bss_balance_probe.py",
+   "args": false,
+   "side": [
+    "网络",
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "bss_budget_probe.py",
+   "args": false,
+   "side": [
+    "网络",
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "build_index.py",
+   "args": false,
+   "side": [
+    "网络",
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "build_nameregistry.py",
+   "args": false,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "build_opl_tree.py",
+   "args": false,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "burn_daemon.py",
+   "args": true,
+   "side": [
+    "网络",
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "bus_dlq.py",
+   "args": true,
+   "side": [
+    "写盘",
+    "子进程"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "capacity_alert.py",
+   "args": true,
+   "side": [
+    "写盘",
+    "子进程"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "cas_store.py",
+   "args": false,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "change_check_map.py",
+   "args": true,
+   "side": [
+    "写盘",
+    "子进程"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "channels.py",
+   "args": true,
+   "side": [
+    "网络",
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "check_citations.py",
+   "args": true,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "check_claims.py",
+   "args": true,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "check_closing_append.py",
+   "args": false,
+   "side": [
+    "写盘",
+    "子进程"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "check_contamination.py",
+   "args": false,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "check_envclaims.py",
+   "args": false,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "check_expectations.py",
+   "args": false,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "check_handshake52.py",
+   "args": false,
+   "side": [
+    "网络",
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "check_my_recheck.py",
+   "args": false,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "check_playbook_commands.py",
+   "args": true,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "check_policy_coverage.py",
+   "args": false,
+   "side": [],
+   "helps": false
+  },
+  {
+   "tool": "cite_verify.py",
+   "args": true,
+   "side": [
+    "网络",
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "client_handoff.py",
+   "args": true,
+   "side": [
+    "网络",
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "clock_stamp.py",
+   "args": true,
+   "side": [],
+   "helps": false
+  },
+  {
+   "tool": "cold_pack.py",
+   "args": true,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "collect_final.py",
+   "args": false,
+   "side": [],
+   "helps": false
+  },
+  {
+   "tool": "collect_inventory.py",
+   "args": false,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "command_path_probe.py",
+   "args": false,
+   "side": [
+    "网络",
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "command_path_probe2.py",
+   "args": false,
+   "side": [
+    "网络",
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "compare_three_modules.py",
+   "args": true,
+   "side": [
+    "网络",
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "compensate.py",
+   "args": false,
+   "side": [
+    "网络",
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "compliance_check.py",
+   "args": false,
+   "side": [],
+   "helps": false
+  },
+  {
+   "tool": "component_match_by_position.py",
+   "args": false,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "component_tracking.py",
+   "args": false,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "conf_calibration_audit.py",
+   "args": true,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "conf_gate.py",
+   "args": true,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "console_report.py",
+   "args": true,
+   "side": [
+    "写盘",
+    "子进程"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "contract_check.py",
+   "args": true,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "control_probe.py",
+   "args": false,
+   "side": [
+    "网络",
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "cooc_expand_eval.py",
+   "args": true,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "corpus_redundancy_audit.py",
+   "args": false,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "corpus_v2_run.py",
+   "args": false,
+   "side": [
+    "网络",
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "corpus_v3_retrieval.py",
+   "args": false,
+   "side": [
+    "网络",
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "corpus_v4_modules.py",
+   "args": false,
+   "side": [
+    "网络",
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "corpus_v6_modules.py",
+   "args": false,
+   "side": [
+    "网络",
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "cost_ledger.py",
+   "args": true,
+   "side": [
+    "写盘",
+    "子进程"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "cred_crosscheck_night.py",
+   "args": false,
+   "side": [
+    "网络",
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "cred_hygiene_sweep.py",
+   "args": false,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "cred_hygiene_sweep_v2.py",
+   "args": true,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "criterion_selfcheck.py",
+   "args": true,
+   "side": [
+    "写盘",
+    "子进程"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "cross_review_night.py",
+   "args": false,
+   "side": [
+    "网络",
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "crossworld_t2.py",
+   "args": false,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "daily_nine_audit.py",
+   "args": false,
+   "side": [
+    "写盘",
+    "子进程"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "daily_nine_audit_20261010.py",
+   "args": false,
+   "side": [
+    "写盘",
+    "子进程"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "daily_statement.py",
+   "args": true,
+   "side": [
+    "写盘",
+    "子进程"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "danger_guard.py",
+   "args": true,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "decision_from_retrieval.py",
+   "args": true,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "decision_llm_suite.py",
+   "args": true,
+   "side": [
+    "网络",
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "decision_model.py",
+   "args": true,
+   "side": [
+    "网络",
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "decision_model_api.py",
+   "args": true,
+   "side": [
+    "网络",
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "decision_model_compare.py",
+   "args": false,
+   "side": [
+    "网络",
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "decision_recognition.py",
+   "args": false,
+   "side": [
+    "网络",
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "decision_rerank.py",
+   "args": true,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "decision_scoring_run.py",
+   "args": false,
+   "side": [
+    "网络",
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "decision_vector_rerank.py",
+   "args": false,
+   "side": [
+    "网络",
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "decision_vector_rerank_v2.py",
+   "args": false,
+   "side": [
+    "网络",
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "declare_net.py",
+   "args": false,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "dedup_plan.py",
+   "args": true,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "demo_clip_offset.py",
+   "args": true,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "desk_baseline.py",
+   "args": true,
+   "side": [
+    "写盘",
+    "子进程"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "desktop_archive.py",
+   "args": true,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "detrend_recheck.py",
+   "args": false,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "diag_seed.py",
+   "args": false,
+   "side": [
+    "写盘",
+    "子进程"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "directing_approx_run.py",
+   "args": false,
+   "side": [
+    "网络",
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "disclosure_scan.py",
+   "args": true,
+   "side": [
+    "写盘",
+    "子进程"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "doc_archive.py",
+   "args": true,
+   "side": [
+    "写盘",
+    "子进程"
+   ],
+   "helps": true
+  },
+  {
+   "tool": "doc_archive_extend.py",
+   "args": true,
+   "side": [
+    "写盘",
+    "子进程"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "doc_change_triage.py",
+   "args": true,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "doc_diff_real.py",
+   "args": true,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "doc_refresh.py",
+   "args": true,
+   "side": [
+    "写盘",
+    "子进程"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "doc_update_diff.py",
+   "args": false,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "docname_boost_eval.py",
+   "args": true,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "edit_declaration.py",
+   "args": true,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "eff_report.py",
+   "args": true,
+   "side": [
+    "网络",
+    "写盘",
+    "子进程"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "emb_cache.py",
+   "args": true,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "embed_rerank_302.py",
+   "args": true,
+   "side": [
+    "网络",
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "emergence_discriminator.py",
+   "args": true,
+   "side": [
+    "网络",
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "emit_arc_index.py",
+   "args": false,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "emit_closing_block.py",
+   "args": true,
+   "side": [
+    "写盘",
+    "子进程"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "emit_current_pointer.py",
+   "args": false,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "emit_duration.py",
+   "args": false,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "emit_gateway_spec.py",
+   "args": false,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "emit_lockpin.py",
+   "args": false,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "emit_status_js.py",
+   "args": true,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "esc_watch.py",
+   "args": true,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "event_driven.py",
+   "args": false,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "exp10_presence_heartbeat.py",
+   "args": false,
+   "side": [
+    "网络",
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "exp11_action_legality.py",
+   "args": false,
+   "side": [
+    "网络",
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "exp12_positive_control.py",
+   "args": false,
+   "side": [
+    "网络",
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "exp13_position_control.py",
+   "args": false,
+   "side": [
+    "网络",
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "exp14_persona_pose.py",
+   "args": false,
+   "side": [
+    "网络",
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "exp15_four_poses.py",
+   "args": false,
+   "side": [
+    "网络",
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "exp22_appearance_x_pose.py",
+   "args": false,
+   "side": [
+    "网络",
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "exp23_asset2_in_world.py",
+   "args": false,
+   "side": [
+    "网络",
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "exp24_enter.py",
+   "args": true,
+   "side": [
+    "网络",
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "exp25_directing.py",
+   "args": true,
+   "side": [
+    "网络",
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "exp26_determinism.py",
+   "args": false,
+   "side": [
+    "网络",
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "exp4_fetch_videos.py",
+   "args": false,
+   "side": [
+    "网络",
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "exp4_nonce_perturbation.py",
+   "args": false,
+   "side": [
+    "网络",
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "exp5_state_persistence.py",
+   "args": false,
+   "side": [
+    "网络",
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "exp6_persona_in_world.py",
+   "args": false,
+   "side": [
+    "网络",
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "exp7_short_commands.py",
+   "args": false,
+   "side": [
+    "网络",
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "exp8_status_fields.py",
+   "args": false,
+   "side": [
+    "网络",
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "exp9_character_actions.py",
+   "args": false,
+   "side": [
+    "网络",
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "export_avatar_glb.py",
+   "args": false,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "export_avatar_glb_v2.py",
+   "args": false,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "extract_media.py",
+   "args": false,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "falsify_kit_check.py",
+   "args": false,
+   "side": [
+    "写盘",
+    "子进程"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "feed_to_deduce.py",
+   "args": true,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "fetch_wechat_article.py",
+   "args": true,
+   "side": [
+    "网络",
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "fix_chain_signature.py",
+   "args": true,
+   "side": [],
+   "helps": false
+  },
+  {
+   "tool": "fix_observe_v21.py",
+   "args": true,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "fix_stale_paths.py",
+   "args": true,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "fix_stale_paths_recover.py",
+   "args": false,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "forge_demo.py",
+   "args": false,
+   "side": [
+    "写盘",
+    "子进程"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "frame_series_analysis.py",
+   "args": false,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "gap_roundtrip_world_run.py",
+   "args": false,
+   "side": [
+    "网络",
+    "写盘",
+    "子进程"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "gen_persona_frame.py",
+   "args": false,
+   "side": [],
+   "helps": false
+  },
+  {
+   "tool": "gen_persona_frame_v2.py",
+   "args": false,
+   "side": [],
+   "helps": false
+  },
+  {
+   "tool": "gen_persona_frame_v4.py",
+   "args": false,
+   "side": [],
+   "helps": false
+  },
+  {
+   "tool": "gen_persona_frame_v5.py",
+   "args": false,
+   "side": [],
+   "helps": false
+  },
+  {
+   "tool": "gen_persona_frame_v6.py",
+   "args": false,
+   "side": [],
+   "helps": false
+  },
+  {
+   "tool": "gen_persona_shoucang.py",
+   "args": false,
+   "side": [],
+   "helps": false
+  },
+  {
+   "tool": "gen_persona_turnaround.py",
+   "args": false,
+   "side": [],
+   "helps": false
+  },
+  {
+   "tool": "gen_staroffice_state.py",
+   "args": true,
+   "side": [
+    "写盘",
+    "子进程"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "gen_status_feed.py",
+   "args": true,
+   "side": [
+    "网络",
+    "写盘",
+    "子进程"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "gitcode_search.py",
+   "args": false,
+   "side": [
+    "网络",
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "glb_anim_verify.py",
+   "args": true,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "glb_facets.py",
+   "args": true,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "glb_make_cairn.py",
+   "args": false,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "glb_make_cairn_anim.py",
+   "args": false,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "glb_make_cairn_anim_v2.py",
+   "args": false,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "glb_render.py",
+   "args": true,
+   "side": [],
+   "helps": false
+  },
+  {
+   "tool": "glb_render_uv.py",
+   "args": true,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "glb_spec_audit.py",
+   "args": false,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "glb_static_lod.py",
+   "args": true,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "glb_uv_check.py",
+   "args": true,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "glb_uv_texture_patch.py",
+   "args": true,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "gov_orders_pull.py",
+   "args": false,
+   "side": [
+    "写盘",
+    "子进程"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "heartbeat_daemon.py",
+   "args": true,
+   "side": [],
+   "helps": false
+  },
+  {
+   "tool": "hetero_models.py",
+   "args": false,
+   "side": [
+    "网络",
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "ico_to_png.py",
+   "args": true,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "ignition_gate.py",
+   "args": true,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "index_guard.py",
+   "args": true,
+   "side": [
+    "写盘",
+    "子进程"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "index_registry.py",
+   "args": true,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "index_switch.py",
+   "args": true,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "index_union.py",
+   "args": true,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "instruct_experiment.py",
+   "args": false,
+   "side": [
+    "网络",
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "instruct_recheck.py",
+   "args": false,
+   "side": [
+    "网络",
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "instruct_state_diff.py",
+   "args": false,
+   "side": [
+    "网络",
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "intake_20260929.py",
+   "args": false,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "interop_emit.py",
+   "args": false,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "json_where.py",
+   "args": true,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "kdocs_direct_pull.py",
+   "args": false,
+   "side": [
+    "写盘",
+    "子进程"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "keyderiv.py",
+   "args": true,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "knowledge_digest.py",
+   "args": false,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "ledger_cascade_rebaseline.py",
+   "args": false,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "ledger_gate.py",
+   "args": true,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "ledger_rebaseline_109.py",
+   "args": false,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "ledger_write.py",
+   "args": true,
+   "side": [
+    "写盘",
+    "子进程"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "line_tails.py",
+   "args": true,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "lineage_semantics.py",
+   "args": false,
+   "side": [
+    "网络",
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "lint_cn_quotes.py",
+   "args": true,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "live_state_loop.py",
+   "args": true,
+   "side": [
+    "写盘",
+    "子进程"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "local_read.py",
+   "args": true,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "local_world_sim.py",
+   "args": false,
+   "side": [],
+   "helps": false
+  },
+  {
+   "tool": "local_world_sim_v2.py",
+   "args": false,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "lsbus_format_ops.py",
+   "args": true,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "lsprobe.py",
+   "args": true,
+   "side": [
+    "写盘",
+    "子进程"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "make_pack.py",
+   "args": true,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "make_worlds_manifest.py",
+   "args": false,
+   "side": [
+    "网络",
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "mark2_reproduce.py",
+   "args": false,
+   "side": [
+    "网络",
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "mark_analysis.py",
+   "args": false,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "mark_experiment.py",
+   "args": false,
+   "side": [
+    "网络",
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "md2docx.py",
+   "args": true,
+   "side": [],
+   "helps": false
+  },
+  {
+   "tool": "media_validate.py",
+   "args": false,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "mem_audit.py",
+   "args": true,
+   "side": [
+    "写盘",
+    "子进程"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "mem_guard.py",
+   "args": true,
+   "side": [
+    "写盘",
+    "子进程"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "mem_tier_scan.py",
+   "args": true,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "memory_change_log.py",
+   "args": true,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "meow_push.py",
+   "args": true,
+   "side": [
+    "网络",
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "minimax_client.py",
+   "args": true,
+   "side": [
+    "网络",
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "misquote_lint.py",
+   "args": true,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "missing_inventory.py",
+   "args": false,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "mk_announce.py",
+   "args": true,
+   "side": [
+    "写盘",
+    "子进程"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "mk_namespaces.py",
+   "args": false,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "mkled.py",
+   "args": true,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "mp4_sampletables.py",
+   "args": false,
+   "side": [],
+   "helps": false
+  },
+  {
+   "tool": "naming_test.py",
+   "args": false,
+   "side": [
+    "网络",
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "naming_test2.py",
+   "args": false,
+   "side": [
+    "网络",
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "neg_control_batch.py",
+   "args": false,
+   "side": [
+    "写盘",
+    "子进程"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "neg_control_seat_location.py",
+   "args": false,
+   "side": [
+    "写盘",
+    "子进程"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "neg_control_tool_hygiene.py",
+   "args": false,
+   "side": [
+    "写盘",
+    "子进程"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "netguard.py",
+   "args": false,
+   "side": [
+    "网络",
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "night_window.py",
+   "args": true,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "noise_floor_local.py",
+   "args": false,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "open_access.py",
+   "args": false,
+   "side": [
+    "网络",
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "opening_fullchain_20261011.py",
+   "args": false,
+   "side": [
+    "网络",
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "opening_probe_20261011.py",
+   "args": false,
+   "side": [
+    "网络",
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "opening_proof2_20261011.py",
+   "args": false,
+   "side": [
+    "网络",
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "opening_proof_20261011.py",
+   "args": false,
+   "side": [
+    "网络",
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "ops_event.py",
+   "args": true,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "opsguard_sig_spot_20261008.py",
+   "args": true,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "opsguard_write_nightreport_20261009.py",
+   "args": false,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "opsguard_write_report_20261008.py",
+   "args": false,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "outsider_trial.py",
+   "args": false,
+   "side": [
+    "写盘",
+    "子进程"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "panel_loop_demo.py",
+   "args": false,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "paraphrase_bm25_eval.py",
+   "args": true,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "paraphrase_queries.py",
+   "args": true,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "patch_auditor.py",
+   "args": false,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "patch_feed.py",
+   "args": false,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "perm.py",
+   "args": false,
+   "side": [],
+   "helps": false
+  },
+  {
+   "tool": "persona_action_poses.py",
+   "args": false,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "persona_animation_clips.py",
+   "args": false,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "persona_pull.py",
+   "args": false,
+   "side": [
+    "写盘",
+    "子进程"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "persona_v7.py",
+   "args": false,
+   "side": [
+    "网络",
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "pilot_publish.py",
+   "args": true,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "policy_abc.py",
+   "args": false,
+   "side": [
+    "网络",
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "ports_triage.py",
+   "args": true,
+   "side": [
+    "写盘",
+    "子进程"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "pqc_bench.py",
+   "args": true,
+   "side": [
+    "写盘",
+    "子进程"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "pre_push_gate.py",
+   "args": true,
+   "side": [
+    "写盘",
+    "子进程"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "principles_index.py",
+   "args": true,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "probe_guard_hole.py",
+   "args": false,
+   "side": [
+    "网络",
+    "写盘",
+    "子进程"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "probe_guard_hole2.py",
+   "args": false,
+   "side": [
+    "网络",
+    "写盘",
+    "子进程"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "probe_meow_constraints.py",
+   "args": false,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "probe_opl_history.py",
+   "args": false,
+   "side": [
+    "网络",
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "probe_qtorrent_card.py",
+   "args": false,
+   "side": [
+    "网络",
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "proc_watchdog.py",
+   "args": true,
+   "side": [
+    "写盘",
+    "子进程"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "proto.py",
+   "args": false,
+   "side": [],
+   "helps": false
+  },
+  {
+   "tool": "provider_rerank_probe.py",
+   "args": false,
+   "side": [
+    "网络",
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "pub_safe.py",
+   "args": true,
+   "side": [
+    "写盘",
+    "子进程"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "push_all.py",
+   "args": true,
+   "side": [
+    "写盘",
+    "子进程"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "push_gate.py",
+   "args": false,
+   "side": [
+    "写盘",
+    "子进程"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "quota_guard.py",
+   "args": false,
+   "side": [
+    "网络",
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "quota_wall.py",
+   "args": false,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "quote_lint.py",
+   "args": true,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "r6_standard_op.py",
+   "args": false,
+   "side": [
+    "网络",
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "ram_survey.py",
+   "args": false,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "read_docx.py",
+   "args": true,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "recheck_adventure_path.py",
+   "args": false,
+   "side": [
+    "网络",
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "recount_chain_independent.py",
+   "args": false,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "recount_divergence_independent.py",
+   "args": false,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "redact_creds.py",
+   "args": false,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "refresh_triage.py",
+   "args": true,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "rerank_doc_repr_test.py",
+   "args": false,
+   "side": [
+    "网络",
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "resolve_link_ids.py",
+   "args": false,
+   "side": [
+    "写盘",
+    "子进程"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "resume_on_gate_open.py",
+   "args": true,
+   "side": [
+    "网络",
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "resume_three_modules.py",
+   "args": false,
+   "side": [
+    "网络",
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "retrieval_eval.py",
+   "args": true,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "retrieval_precision_run.py",
+   "args": false,
+   "side": [
+    "网络",
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "retrieval_v2.py",
+   "args": true,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "rho2_recheck.py",
+   "args": false,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "rig_audit.py",
+   "args": true,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "rmem_grade.py",
+   "args": true,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "robots_gate.py",
+   "args": true,
+   "side": [
+    "网络",
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "root_direct_pull.py",
+   "args": false,
+   "side": [
+    "写盘",
+    "子进程"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "rtc_entry_probe.py",
+   "args": false,
+   "side": [
+    "网络",
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "rtc_token_anatomy.py",
+   "args": false,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "scan_secrets.py",
+   "args": true,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "sdd_gate.py",
+   "args": false,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "search_route.py",
+   "args": true,
+   "side": [
+    "网络",
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "second_activity_regions.py",
+   "args": false,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "secret_sweep.py",
+   "args": false,
+   "side": [
+    "写盘",
+    "子进程"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "section_diff_normalized.py",
+   "args": true,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "section_search.py",
+   "args": true,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "seed_render.py",
+   "args": true,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "seed_verify.py",
+   "args": true,
+   "side": [
+    "写盘",
+    "子进程"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "seek.py",
+   "args": true,
+   "side": [
+    "网络",
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "selfref_probe.py",
+   "args": false,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "semantic_full_eval.py",
+   "args": true,
+   "side": [
+    "网络",
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "semantic_index.py",
+   "args": true,
+   "side": [
+    "网络",
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "semantic_probe_decision.py",
+   "args": true,
+   "side": [
+    "网络",
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "semantic_search.py",
+   "args": true,
+   "side": [
+    "网络",
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "seq_frame_diff.py",
+   "args": false,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "sig_block.py",
+   "args": true,
+   "side": [
+    "写盘",
+    "子进程"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "sig_verify.py",
+   "args": true,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "sign_demo.py",
+   "args": true,
+   "side": [
+    "写盘",
+    "子进程"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "sign_if_needed.py",
+   "args": true,
+   "side": [
+    "写盘",
+    "子进程"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "singlepoint_audit.py",
+   "args": false,
+   "side": [
+    "网络",
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "skill_evolve.py",
+   "args": false,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "skill_runner.py",
+   "args": true,
+   "side": [
+    "网络",
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "slime_mold.py",
+   "args": false,
+   "side": [],
+   "helps": false
+  },
+  {
+   "tool": "slime_search.py",
+   "args": false,
+   "side": [],
+   "helps": false
+  },
+  {
+   "tool": "smoke_all.py",
+   "args": true,
+   "side": [
+    "写盘",
+    "子进程"
+   ],
+   "helps": true
+  },
+  {
+   "tool": "smoke_none_tools.py",
+   "args": true,
+   "side": [
+    "写盘",
+    "子进程"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "smoke_pipeline.py",
+   "args": false,
+   "side": [
+    "写盘",
+    "子进程"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "sop_check.py",
+   "args": true,
+   "side": [
+    "写盘",
+    "子进程"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "spectrum_mad.py",
+   "args": false,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "spinal_bridge.py",
+   "args": false,
+   "side": [
+    "网络",
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "spinal_probe.py",
+   "args": false,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "stamp_time.py",
+   "args": true,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "storyboard_chain.py",
+   "args": false,
+   "side": [
+    "网络",
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "sts_caller_identity.py",
+   "args": false,
+   "side": [
+    "网络",
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "supply_chain.py",
+   "args": false,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "surrogate_states.py",
+   "args": false,
+   "side": [],
+   "helps": false
+  },
+  {
+   "tool": "tamper_test.py",
+   "args": false,
+   "side": [
+    "写盘",
+    "子进程"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "target_secret_check.py",
+   "args": false,
+   "side": [
+    "写盘",
+    "子进程"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "task_state.py",
+   "args": false,
+   "side": [],
+   "helps": false
+  },
+  {
+   "tool": "tempguard.py",
+   "args": false,
+   "side": [],
+   "helps": false
+  },
+  {
+   "tool": "termtable.py",
+   "args": true,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "test_a2a_hmac.py",
+   "args": false,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "test_a2a_node.py",
+   "args": false,
+   "side": [
+    "网络",
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "test_chain_rewrite.py",
+   "args": true,
+   "side": [],
+   "helps": false
+  },
+  {
+   "tool": "test_deduce_core.py",
+   "args": true,
+   "side": [
+    "写盘",
+    "子进程"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "test_deduce_d4.py",
+   "args": true,
+   "side": [],
+   "helps": false
+  },
+  {
+   "tool": "test_supply_chain.py",
+   "args": false,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "test_totp.py",
+   "args": false,
+   "side": [],
+   "helps": false
+  },
+  {
+   "tool": "texel_density.py",
+   "args": true,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "three_modules_resume.py",
+   "args": false,
+   "side": [
+    "网络",
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "time_stamp_audit.py",
+   "args": false,
+   "side": [],
+   "helps": false
+  },
+  {
+   "tool": "tool_hygiene.py",
+   "args": false,
+   "side": [
+    "写盘",
+    "子进程"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "tools_registry_refresh.py",
+   "args": true,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "topology.py",
+   "args": false,
+   "side": [],
+   "helps": false
+  },
+  {
+   "tool": "totp.py",
+   "args": false,
+   "side": [],
+   "helps": false
+  },
+  {
+   "tool": "trace_driven_surrogate.py",
+   "args": false,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "travel_artifacts_fetch.py",
+   "args": false,
+   "side": [
+    "网络",
+    "写盘",
+    "子进程"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "travel_control_b.py",
+   "args": false,
+   "side": [
+    "网络",
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "travel_enter_once.py",
+   "args": false,
+   "side": [
+    "网络",
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "tree_ambiguity_demo.py",
+   "args": true,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "tripo_assets_contact.py",
+   "args": false,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "tripo_render_firstframe.py",
+   "args": false,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "two_track_search.py",
+   "args": true,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "twocopy_diff.py",
+   "args": true,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "umc.py",
+   "args": false,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "umc_verify.py",
+   "args": true,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "url_audit.py",
+   "args": false,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "uv_stretch_check.py",
+   "args": true,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "uv_unwrap_v1.py",
+   "args": true,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "uv_unwrap_v2.py",
+   "args": true,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "uv_unwrap_v3.py",
+   "args": true,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "uv_unwrap_v4.py",
+   "args": true,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "uv_unwrap_v5.py",
+   "args": true,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "uv_unwrap_v6.py",
+   "args": true,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "uv_unwrap_v7.py",
+   "args": true,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "vec_index.py",
+   "args": true,
+   "side": [
+    "网络",
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "verify_chain.py",
+   "args": false,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "verify_gateway_spec.py",
+   "args": false,
+   "side": [],
+   "helps": false
+  },
+  {
+   "tool": "verify_hub_merkle.py",
+   "args": true,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "verify_lab_abc.py",
+   "args": false,
+   "side": [
+    "写盘",
+    "子进程"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "verify_netguard_wiring.py",
+   "args": true,
+   "side": [
+    "网络",
+    "写盘",
+    "子进程"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "verify_nss_vectors.py",
+   "args": true,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "verify_opc_agentcard.py",
+   "args": true,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "verify_opl_attest.py",
+   "args": false,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "verify_opl_tree.py",
+   "args": true,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "verify_peer_kit.py",
+   "args": true,
+   "side": [
+    "写盘",
+    "子进程"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "verify_playbook.py",
+   "args": false,
+   "side": [
+    "写盘",
+    "子进程"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "verify_recipe.py",
+   "args": false,
+   "side": [
+    "写盘",
+    "子进程"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "verify_seat_location.py",
+   "args": true,
+   "side": [
+    "写盘",
+    "子进程"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "video_container_audit.py",
+   "args": false,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "virtue_audit.py",
+   "args": true,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "wall_coverage.py",
+   "args": true,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "wall_guard.py",
+   "args": true,
+   "side": [
+    "写盘",
+    "子进程"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "wechat_probe.py",
+   "args": true,
+   "side": [
+    "网络",
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "winddown.py",
+   "args": true,
+   "side": [
+    "写盘",
+    "子进程"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "window_close_record.py",
+   "args": true,
+   "side": [
+    "写盘",
+    "子进程"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "wire_netguard.py",
+   "args": false,
+   "side": [
+    "网络",
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "wm_adventure_verify.py",
+   "args": false,
+   "side": [
+    "网络",
+    "写盘",
+    "子进程"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "wm_create_generic.py",
+   "args": true,
+   "side": [
+    "网络",
+    "写盘",
+    "子进程"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "wm_domain_probe.py",
+   "args": true,
+   "side": [
+    "网络",
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "wm_get_ticket.py",
+   "args": false,
+   "side": [
+    "网络",
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "wm_min_instruct.py",
+   "args": true,
+   "side": [
+    "网络",
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "wm_persona_world.py",
+   "args": false,
+   "side": [
+    "网络",
+    "写盘",
+    "子进程"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "wm_persona_world_v2.py",
+   "args": false,
+   "side": [
+    "网络",
+    "写盘",
+    "子进程"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "wm_persona_world_v4.py",
+   "args": false,
+   "side": [
+    "网络",
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "wm_persona_world_v5.py",
+   "args": false,
+   "side": [
+    "网络",
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "wm_persona_world_v6.py",
+   "args": false,
+   "side": [
+    "网络",
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "wm_status_probe.py",
+   "args": false,
+   "side": [
+    "网络",
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "wm_ticket_probe_ws.py",
+   "args": true,
+   "side": [
+    "网络",
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "wm_travels_dump.py",
+   "args": true,
+   "side": [
+    "网络",
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "wm_travels_probe.py",
+   "args": true,
+   "side": [
+    "网络",
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "wm_verify_light.py",
+   "args": false,
+   "side": [
+    "网络",
+    "写盘",
+    "子进程"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "wm_world_inspect.py",
+   "args": true,
+   "side": [
+    "网络",
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "wm_worlds_dump.py",
+   "args": true,
+   "side": [
+    "网络",
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "wm_worlds_list.py",
+   "args": true,
+   "side": [
+    "网络",
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "wording_gate.py",
+   "args": true,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "world_model_runner.py",
+   "args": true,
+   "side": [
+    "网络",
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "world_video_diff.py",
+   "args": false,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "worlds_lineage.py",
+   "args": false,
+   "side": [
+    "网络",
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "ws_domain_probe.py",
+   "args": false,
+   "side": [
+    "网络",
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "ws_main_key_probe.py",
+   "args": false,
+   "side": [
+    "网络",
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "zeroov_gen_eval.py",
+   "args": true,
+   "side": [
+    "网络",
+    "写盘"
+   ],
+   "helps": false
+  },
+  {
+   "tool": "zone_alternation.py",
+   "args": false,
+   "side": [
+    "写盘"
+   ],
+   "helps": false
+  }
+ ],
+ "criteria": {
+  "①受检 ≥1": true,
+  "②三项统计已给": true,
+  "③★高危清单已列出": true
+ }
+}
