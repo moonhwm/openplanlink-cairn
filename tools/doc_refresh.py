@@ -30,45 +30,52 @@ def sections(md):
 
 ap = argparse.ArgumentParser()
 ap.add_argument("--scan-only", action="store_true")
+ap.add_argument("--no-scan", action="store_true", help="跳过①段全盘扫描（云提供程序劣化时用；②段只用 manifest 之已知 id）")
 ap.add_argument("--budget", type=float, default=300.0)
 a = ap.parse_args()
 
-# ── ① 扫 WPS 网盘本地（找新 link_id ＋ 清点本地文档）──
-t0 = time.time()
+if a.no_scan:
+    print("  ═══ ① 段已跳过（--no-scan）═══")
+else:
+    # ── ① 扫 WPS 网盘本地（找新 link_id ＋ 清点本地文档）──
+    t0 = time.time()
 manifest = json.loads(IDX.read_text(encoding="utf-8-sig")) if IDX.exists() else {}
-known = {v.get("link_id") for k, v in manifest.items() if not k.startswith("_")}
-known |= set(json.loads(QUEUE.read_text(encoding="utf-8-sig"))["ids"]) if QUEUE.exists() else set()
-found, files, skipped = {}, 0, 0
-pat = re.compile(r"kdocs\.cn/l/([A-Za-z0-9]{8,24})")
-for p in WPS.rglob("*"):
-    try:
-        if any(d in SKIPDIR for d in p.parts): continue
-        if not p.is_file(): continue
-        if p.suffix.lower() not in TEXTISH: continue
-        if p.stat().st_size > 3_000_000: skipped += 1; continue
-        files += 1
-        t = p.read_text(encoding="utf-8", errors="ignore")
-        for m in pat.finditer(t):
-            i = m.group(1)
-            if i not in found: found[i] = p.name
-    except Exception:
-        continue
-newids = {k: v for k, v in found.items() if k not in known}
-print("  ═══ ① 扫 WPS 网盘本地（%s）═══" % WPS.name)
-print("   扫描 %.1f s ｜ 文本文件 %d（跳过大文件 %d）｜ 命中 link_id %d ｜ ★新发现 %d" % (
-    time.time()-t0, files, skipped, len(found), len(newids)))
-for k, v in list(newids.items())[:20]:
-    print("     ＋ %-14s ← %s" % (k, v[:52]))
+if a.no_scan:
+    print("  ═══ ① 段已跳过（--no-scan）═══")
+else:
+    known = {v.get("link_id") for k, v in manifest.items() if not k.startswith("_")}
+    known |= set(json.loads(QUEUE.read_text(encoding="utf-8-sig"))["ids"]) if QUEUE.exists() else set()
+    found, files, skipped = {}, 0, 0
+    pat = re.compile(r"kdocs\.cn/l/([A-Za-z0-9]{8,24})")
+    for p in WPS.rglob("*"):
+        try:
+            if any(d in SKIPDIR for d in p.parts): continue
+            if not p.is_file(): continue
+            if p.suffix.lower() not in TEXTISH: continue
+            if p.stat().st_size > 3_000_000: skipped += 1; continue
+            files += 1
+            t = p.read_text(encoding="utf-8", errors="ignore")
+            for m in pat.finditer(t):
+                i = m.group(1)
+                if i not in found: found[i] = p.name
+        except Exception:
+            continue
+    newids = {k: v for k, v in found.items() if k not in known}
+    print("  ═══ ① 扫 WPS 网盘本地（%s）═══" % WPS.name)
+    print("   扫描 %.1f s ｜ 文本文件 %d（跳过大文件 %d）｜ 命中 link_id %d ｜ ★新发现 %d" % (
+        time.time()-t0, files, skipped, len(found), len(newids)))
+    for k, v in list(newids.items())[:20]:
+        print("     ＋ %-14s ← %s" % (k, v[:52]))
 
-if newids:
-    q = json.loads(QUEUE.read_text(encoding="utf-8-sig")) if QUEUE.exists() else {"ids": []}
-    q["ids"] = list(newids.keys()) + [x for x in q["ids"] if x not in newids]
-    q["note"] = "按频次排序之待拉队列；本轮由扫网盘新增 %d 个" % len(newids)
-    QUEUE.write_text(json.dumps(q, ensure_ascii=False, indent=1), encoding="utf-8", newline="\n")
-    print("   ★ 已把 %d 个新 id 入队" % len(newids))
+    if newids:
+        q = json.loads(QUEUE.read_text(encoding="utf-8-sig")) if QUEUE.exists() else {"ids": []}
+        q["ids"] = list(newids.keys()) + [x for x in q["ids"] if x not in newids]
+        q["note"] = "按频次排序之待拉队列；本轮由扫网盘新增 %d 个" % len(newids)
+        QUEUE.write_text(json.dumps(q, ensure_ascii=False, indent=1), encoding="utf-8", newline="\n")
+        print("   ★ 已把 %d 个新 id 入队" % len(newids))
 
-if a.scan_only:
-    sys.exit(0)
+    if a.scan_only:
+        sys.exit(0)
 
 # ── ② 全量复拉已档文档 ──
 def pull(link_id, to=150):
